@@ -1,0 +1,235 @@
+<lesson year="6" title="Dopočítání rozlohy I" number="10" updatedAt="2021-08-09 21:38:58">
+<example number="1">
+<distribution vul="NS">
+<hand position="north">
+<spades>
+AKJ4
+</spades>
+<hearts>
+74
+</hearts>
+<diamonds>
+732
+</diamonds>
+<clubs>
+KQ63
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+T53
+</spades>
+<hearts>
+AT3
+</hearts>
+<diamonds>
+KQ5
+</diamonds>
+<clubs>
+A954
+</clubs>
+</hand>
+</distribution>
+<auction dealer="N">
+<bid value="1c" />
+<bid value="3H" />
+<bid value="3NT" />
+<bid value="pass" />
+<bid value="pass" />
+<bid value="pass" />
+</auction>
+<leadcard value="8H" />
+<p>
+Západ vynesl srdcovou osmičku a Východ dal kluka. Propustil jste a Východ pokračoval srdcovým králem, na kterého si Západ shodil káro a vy jste sebral esem. Zkoušíte károvou rozlohu zahráním krále. Západ bere esem a vrací kárového kluka, kterého propouštíte. Vaše kárová dáma bere další zdvih a Východ přiznal ve všech třech kolech.
+</p>
+<p>
+Hrajete dále tref k dámě a odehráváte si pikové eso. Oba soupeři přiznávají barvu a přidávají malé karty, ale když hrajete tref k esu, Východ si shazuje srdce. Jak byste měl pokračovat?
+</p>
+<p>
+Všechny potřebné údaje máte k dispozici, ale dal jste si práci a dopočítal rozlohu? Východ měl 7 srdcí, 3 kára, 1 tref a 1 pik a Vy víte, že jeho třináctá karta je pik. Je pravděpodobné, že pikový impas bude sedět, ale pokud tomu tak je, nikdy nemůžete závazek splnit. Máte jen tři trefové zdvihy a po jednom v obou červených barvách, proto potřebujete čtyři pikové, aby Vám to dalo devět zdvihů. A nemůžete udělat čtyři pikové zdvihy impasováním dámy, protože víte, že tato barva je rozložena 4-2.
+</p>
+<p>
+Existuje jediná možná situace v pikách, která Vám umožní čtyři zdvihy v této barvě. Musíte zahrát malý pik ke králi v naději, že spadne dubl dáma.
+</p>
+</example>
+<example number="2">
+<distribution vul="BOTH">
+<hand position="north">
+<spades>
+762
+</spades>
+<hearts>
+Q653
+</hearts>
+<diamonds>
+T83
+</diamonds>
+<clubs>
+AQ5
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K84
+</spades>
+<hearts>
+AKJ42
+</hearts>
+<diamonds>
+AK5
+</diamonds>
+<clubs>
+82
+</clubs>
+</hand>
+</distribution>
+<auction dealer="S">
+<bid value="1H" />
+<bid value="1S" />
+<bid value="2H" />
+<bid value="pass" />
+<bid value="4H" />
+<bid value="pass" />
+<bid value="pass" />
+<bid value="pass" />
+</auction>
+<leadcard value="TH">
+</leadcard>
+<p>
+Západ vynesl srdcovou desítku, Východ přidal sedmičku a Vy jste vzal v ruce klukem. Na A,K v trumfech si Východ shodil trefovou čtyřku a károvou dvojku. Zahrál jste úspěšně trefový impas, odehrál jste trefové eso a snapl malý tref. Západ přiznával trefy trojkou devítkou a králem. Odehrál jste si A,K v kárech, na které shodil Západ šestku a devítku a Východ čtyřku a sedmičku. Jak byste měl pokračovat?
+</p>
+<p>
+Pokud jste v pokušení zahrát třetí káro s tím, že ho Západ bude muset vzít, nejste na výši situace. Západ už ukázal tři trumfy a tři trefy a jeho zásah ve druhé hře ukazuje pikový 5-list. Proto může mít už jen dvě kára a Vy jste je obě viděl.
+</p>
+<p>
+Zahrání kára bude dobré pouze tehdy, když bude mít Západ v pikách A,Q,J,10,9 a v tom případě je stejně dobré zahrát malý pik. Za jednoho celkem rozumného předpokladu, že Západ má pikové eso, si však můžete zajistit splnění závazku zahráním pikového krále.
+</p>
+<p>
+Toto zahrání bude mít smrtící účinek na komunikaci mezi listy soupeřů. Podle toho, kdo vezme druhé kolo piků, si obrana bude moci udělat buď tři pikové nebo dva pikové a jeden kárový zdvih., pak Vám ale bude muset obránce, který bude ve zdvihu, zahrát do dvojité šikeny.
+</p>
+
+
+</example>
+<example number="3">
+<distribution vul="NONE">
+<hand position="north">
+<spades>
+K83
+</spades>
+<hearts>
+T5
+</hearts>
+<diamonds>
+QJ643
+</diamonds>
+<clubs>
+J62
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+T94
+</spades>
+<hearts>
+AKQJ4
+</hearts>
+<diamonds>
+5
+</diamonds>
+<clubs>
+AQ93
+</clubs>
+</hand>
+</distribution>
+<auction dealer="W">
+<bid value="1H" />
+<bid value="pass" />
+<bid value="1NT" />
+<bid value="2d" />
+<bid value="?" />
+<bid value="2H" />
+<bid value="pass" />
+<bid value="pass" />
+<bid value="pass" />
+</auction>
+<p>
+párový turnaj
+</p>
+<leadcard value="Kd" />
+<p>
+Západ vynesl kárového krále, a pak zahrál pikovou dámu, kterou jste pokryl králem. Východ vzal esem a vrátil károvou desítku. Protože jste si neměl co shodit, přebil jste vysokým trumfem a Západ si shodil trefovou čtyřku. Po dotrumfování (trumfy byly 3-3) jste zahrál pikovou desítku ke klukovi Západu. Ten vrátil pik k devítce v ruce a Východ přiznal. Jak byste měl pokračovat?
+</p>
+<p>
+Závazek splníte, protože máte pět trumfových zdvihů, jeden pikový a přinejmenším dva trefové, ovšem rád byste samozřejmě udělal nadzdvih. Co víte o rozloze? Východ ukázal 6 kár a tři karty jak v srdcích, tak i v pikách. Nemůžete si být jist, kdo má poslední pik, víte však, že Východ má maximálně jeden tref. Podle pravděpodobnosti by to neměl být král, proto musí být správné zahrát malou ke klukovi na stole. Pokud Východ v tomto zdvihu nepřizná, znamená to, že Západ už má pouze trefy a dostanete ho do nuceného výnosu, když zahrajete malý tref k devítce. Pokud Východ přizná tref malou, nemá už nic jiného než kára a teď můžete dostat do nuceného výnosu jeho, když zahrajete károvou dámu a z ruky shodíte tref.
+</p>
+<p>
+Všimněte si, že se nemůžete pojistit proti singl králi u Východu odehráním esa v prvním kole trefů. Západ by pak mohl trefy zablokovat vskočením krále ve druhém kole a omezil by Vás na osm zdvihů zahráním posledního piku.
+</p>
+</example>
+<example number="4">
+<distribution vul="BOTH">
+<hand position="north">
+<spades>
+76
+</spades>
+<hearts>
+JT93
+</hearts>
+<diamonds>
+A865
+</diamonds>
+<clubs>
+AJ9
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+J82
+</spades>
+<hearts>
+AKQ64
+</hearts>
+<diamonds>
+93
+</diamonds>
+<clubs>
+Q72
+</clubs>
+</hand>
+</distribution>
+<auction dealer="W">
+<bid value="1S" />
+<bid value="pass" />
+<bid value="pass" />
+<bid value="2H" />
+<bid value="2S" />
+<bid value="4H" />
+<bid value="pass" />
+<bid value="pass" />
+<bid value="pass" />
+</auction>
+<p>
+Západ zaútočil dvěma vysokými piky a Východ si na třetí pik, který jste snapl klukem srdcovým, shodil tref. Jak byste měl pokračovat?
+</p>
+<p>
+Je jasné, že potřebujete příznivou situaci v trefech – buď singl nebo dubl krále nebo krále s desítkou u Západu. Abyste zjistil, na jakou rozlohu máte hrát, musíte nejprve zjistit celkovou rozlohu. V tomto okamžiku je správné zahrát eso kárové a malé káro.
+</p>
+<p>
+Předpokládejme, že Východ vezme a vrátí trumf, který Západ přizná. Vezmete na stole devítkou, přebijete káro vysokým trumfem, oba soupeři přiznávají a hrajete trumf k desítce, Západ si na něj shazuje pik.
+</p>
+<p>
+Přebití posledního kára vyjasní situaci. Pokud už Západ nebude mít káro, je zřejmé, že má tři trefy, a proto budete muset zaimpasovat hluboko devítkou trefovou. Pokud devítka bude držet, vrátíte se do ruky posledním trumfem a zopakujete impas trefový.
+</p>
+<p>
+Pokud ovšem Západ přizná čtvrté káro, má pouze dva trefy. Proto dotrumfujete, zaimpasujete trefovým klukem, a pak odehrajete eso.
+</p>
+<p>
+Všimněte si, že kdybyste ve čtvrtém zdvihu jednou zahrál trumfy, nezískal byste kompletní dopočet rozlohy.
+</p>
+</example>
+<literature>
+<li>
+H.W.Kelsey	Bridžová logika
+</li>
+</literature>
+</lesson>

@@ -1,0 +1,373 @@
+<lesson year="2" title="Plán barevné hry – Finesy" number="32" updatedAt="2021-08-27 14:46:53">
+<p>
+Není-li možné využít krátkosti ani délky stolu, nabízí se finesování. Tato lekce je lekcí o vyhnutí se finesování s tím, že se hlavní hráč snaží, aby finesy museli hrát soupeři. Tady jsou příklady:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+KT63
+</spades>
+<hearts>
+752
+</hearts>
+<diamonds>
+KT5
+</diamonds>
+<clubs>
+Q84
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AJ94
+</spades>
+<hearts>
+A96
+</hearts>
+<diamonds>
+AJ4
+</diamonds>
+<clubs>
+J72
+</clubs>
+</hand>
+</distribution>
+<contract value="2SS" />
+<leadcard value="KH">
+K srdcový
+</leadcard>
+<p>
+Šest jistých zdvihů s šancemi ve třech barvách. Nejlepší je, aby tyto barvy rozehrávali soupeři. Propustíme tedy první zdvih, vezmeme esem druhý a vrátíme opět srdce. Jednu z barev jsou nuceni rozehrát soupeři, odehrají-li např. nejvyšší trefy, vezmeme třetí, odehrajeme nejvyšší trumfy, vpustíme soupeře posledním trumfem a teď musí zadat v kárech nebo dát shoz.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+AT87
+</spades>
+<hearts>
+A64
+</hearts>
+<diamonds>
+K74
+</diamonds>
+<clubs>
+QT2
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+QJ9542
+</spades>
+<hearts>
+5
+</hearts>
+<diamonds>
+AJ3
+</diamonds>
+<clubs>
+K97
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="QH">
+Q srdcová
+</leadcard>
+<p>
+Vezmeme esem a počneme eliminovat srdce snapem, vyneseme dámu pikovou, abychom naváděli k položení krále, vezmeme esem, snapneme poslední srdce a odevzdáme trumf. Pokud bude ve zdvihu Západ, je dobojováno, protože ten musí zadat. Pokud to bude Východ, vezmeme káro zvysoka, zahrajeme druhou vysokou káru a třetí károu vpustíme libovolného protivníka, který opět musí zadat.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+AT9
+</spades>
+<hearts>
+A765
+</hearts>
+<diamonds>
+KJ3
+</diamonds>
+<clubs>
+AQ9
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KQJ8763
+</spades>
+<hearts>
+3
+</hearts>
+<diamonds>
+A86
+</diamonds>
+<clubs>
+75
+</clubs>
+</hand>
+</distribution>
+<contract value="6SS" />
+<leadcard value="KH">
+K srdcový
+</leadcard>
+<p>
+Nutné je nejdříve vyeliminovat srdce, proto vezmeme esem a snapneme srdci vysoko, trumfem na stůl, snap srdce vysoko, trumfem na stůl, snap srdce vysoko, dotrumfujeme, bude-li třeba, a vpustíme Východ do zdvihu tak, že na tref položíme devítku. Teď nám musí Východ zadat.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+543
+</spades>
+<hearts>
+AT6
+</hearts>
+<diamonds>
+KJ8
+</diamonds>
+<clubs>
+9654
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AQ6
+</spades>
+<hearts>
+8
+</hearts>
+<diamonds>
+AQ7
+</diamonds>
+<clubs>
+AK8732
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+J982
+</spades>
+<hearts>
+974
+</hearts>
+<diamonds>
+T95
+</diamonds>
+<clubs>
+QJT
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+KT7
+</spades>
+<hearts>
+KQJ532
+</hearts>
+<diamonds>
+6432
+</diamonds>
+<clubs>
+-
+</clubs>
+</hand>
+</distribution>
+<contract value="5cS" />
+<leadcard value="KH">
+K srdcový
+</leadcard>
+<p>
+krále vezmeme esem a přebijeme jedno srdce. Odehrajeme eso a krále trefové. Protože chcete vpustit do zdvihu Západ, vezmete domů svá tři kára tak, že skončíte na stole a vynesete 10 srdcovou (odhoz piky), čímž vpustíte do zdvihu Západ. A Západ je v tom.
+</p>
+</example>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+A863
+</spades>
+<hearts>
+KT4
+</hearts>
+<diamonds>
+A2
+</diamonds>
+<clubs>
+AT53
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+QT97542
+</spades>
+<hearts>
+752
+</hearts>
+<diamonds>
+Q4
+</diamonds>
+<clubs>
+2
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+KJ
+</spades>
+<hearts>
+AQ6
+</hearts>
+<diamonds>
+KJ9
+</diamonds>
+<clubs>
+KQJ96
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+-
+</spades>
+<hearts>
+J983
+</hearts>
+<diamonds>
+T87653
+</diamonds>
+<clubs>
+874
+</clubs>
+</hand>
+</distribution>
+<contract value="3SDS" />
+<leadcard value="8c">
+8 trefová
+</leadcard>
+<p>
+Je třeba pečlivě vysnapovat trefy. Vezmeme eso, snapneme tref, esem trumfovým na stůl, snap trefu a pustíme trumfem Východ. Na tref zahodíme srdci a Východ musí zadat srdci nebo káro nebo na tref dát shoz káry.
+</p>
+</example>
+<example number="6">
+<distribution>
+<hand position="north">
+<spades>
+JT5
+</spades>
+<hearts>
+T642
+</hearts>
+<diamonds>
+KQ5
+</diamonds>
+<clubs>
+T73
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AKQ73
+</spades>
+<hearts>
+K73
+</hearts>
+<diamonds>
+A4
+</diamonds>
+<clubs>
+A54
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+862
+</spades>
+<hearts>
+98
+</hearts>
+<diamonds>
+T8763
+</diamonds>
+<clubs>
+962
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+94
+</spades>
+<hearts>
+AQJ5
+</hearts>
+<diamonds>
+J92
+</diamonds>
+<clubs>
+KQJ8
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="Kc">
+K trefový
+</leadcard>
+<p>
+Vezmete druhé kolo trefů a trumfnete shora pouze dvakrát, odehrajete tři kára a vpustíte trefem s nadějí, že Západ nemá trumf a musí buď zadat nebo dát shoz. Této technice se říká částečné vymýcení.
+</p>
+</example>
+<p>
+Příklad pro samostatný pokus:
+</p>
+<example number="7">
+<distribution>
+<hand position="north">
+<spades>
+J9765
+</spades>
+<hearts>
+J83
+</hearts>
+<diamonds>
+K6
+</diamonds>
+<clubs>
+A74
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A8432
+</spades>
+<hearts>
+Q52
+</hearts>
+<diamonds>
+A83
+</diamonds>
+<clubs>
+K2
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="Qd">
+Q kárová
+</leadcard>
+<p>
+Vezmeme káro a musíme vyeliminovat levné barvy. Nejlepší je obtáhnout eso pikové, odehrát vysoké levné karty a vysnapovat zbývající levné barvy. Potom trumfem vpustíme libovolného protihráče, který pak musí buď vynést srdce, což bude znamenat srdcový zdvih a při výnosu levné barvy dá odhoz a snap.
+</p>
+</example>
+<literature>
+<li>
+E. Kaplan	Pokročilá sehrávka	str. 39-42
+</li>
+<li>
+J. Minaříček	Sehrávka	str. 27-28
+</li>
+</literature>
+</lesson>

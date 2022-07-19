@@ -1,0 +1,276 @@
+<lesson year="2" title="Beztrumfové závazky – Jiné hry se vstupy" number="19" updatedAt="2021-08-22 13:57:23">
+<p>
+V této lekci si budeme všímat dalších možností, jak uchovávat nebo vytvářet vstupy. Pro tuto lekci je připraveno těchto pět rozdání:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+AJ83
+</spades>
+<hearts>
+AK5
+</hearts>
+<diamonds>
+T72
+</diamonds>
+<clubs>
+A73
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+95
+</spades>
+<hearts>
+863
+</hearts>
+<diamonds>
+KQJ64
+</diamonds>
+<clubs>
+K62
+</clubs>
+</hand>
+</distribution>
+
+<contract value="3NTS" />
+<leadcard value="4c">
+4 trefová
+</leadcard>
+<p>
+Potřebujeme odehrát čtyři kárové zdvihy, a jestli obránci zadrží eso do třetího kola, bude nutné uchovat si krále trefového jako vstup. První zdvih tedy bereme esem na stole a neseme 10 károvou a hrajeme kára tak dlouho, dokud je nevypracujeme. Král trefový poslouží jako vstup.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+AQ3
+</spades>
+<hearts>
+AJ963
+</hearts>
+<diamonds>
+AJT2
+</diamonds>
+<clubs>
+9
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KJ4
+</spades>
+<hearts>
+75
+</hearts>
+<diamonds>
+63
+</diamonds>
+<clubs>
+QJT863
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="TS">
+10 piková
+</leadcard>
+<p>
+I tady je třeba vidět, kde budou nutné vstupy. Musíme vzít esem a vynést devítku trefovou, kterou převezmeme. Potom hrajeme dál trefy. Jako vstup poslouží pikový kluk a král, který převezme dámu.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+AK3
+</spades>
+<hearts>
+K52
+</hearts>
+<diamonds>
+AQJ
+</diamonds>
+<clubs>
+KQJ7
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+765
+</spades>
+<hearts>
+643
+</hearts>
+<diamonds>
+832
+</diamonds>
+<clubs>
+A843
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="JS">
+J pikový
+</leadcard>
+<p>
+Ke čtyřem trefům a dvěma pikům budeme potřebovat tři kára nebo dvě kára a srdci. K tomu se musíme dostat dvakrát do ruky. Vstupy budou trefové eso a osmička. Vezmeme esem, odehrajeme krále a dámu trefovou, a pokud oba obránci dvakrát přiznají, převezmeme junka esem, zaimpasujeme káro a osmička je jako vstup k opakovanému impasu nebo k expasu srdcovému.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+A
+</spades>
+<hearts>
+863
+</hearts>
+<diamonds>
+KJ9752
+</diamonds>
+<clubs>
+754
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+KT92
+</spades>
+<hearts>
+75
+</hearts>
+<diamonds>
+AQ4
+</diamonds>
+<clubs>
+J863
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="JH">
+J srdcový bere hlavní hráč a nese 10 károvou.
+</leadcard>
+<p>
+Propustíte, abyste soupeři přerušil napojení. Hlavní hráč pokračuje v kárech a Západ bohužel nemá. Vezmete dámou, a pokud vynesete pik, odříznete hlavního hráče od jeho kár nadobro.
+</p>
+</example>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+742
+</spades>
+<hearts>
+643
+</hearts>
+<diamonds>
+AJT98
+</diamonds>
+<clubs>
+A2
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AKQJ
+</spades>
+<hearts>
+A92
+</hearts>
+<diamonds>
+65
+</diamonds>
+<clubs>
+Q973
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+T965
+</spades>
+<hearts>
+K7
+</hearts>
+<diamonds>
+K73
+</diamonds>
+<clubs>
+KJ54
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+83
+</spades>
+<hearts>
+QJT85
+</hearts>
+<diamonds>
+Q42
+</diamonds>
+<clubs>
+T86
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="QH">
+Q srdcová
+</leadcard>
+<p>
+Východ odblokuje do prvního zdvihu krále a hlavní hráč zadrží. Východ by měl pokračovat trefovým králem, čímž vyžene eso stolu. Vydražitel pak přejde do ruky vysokým pikem a vynese malé káro. Západ položí dámu a závazek je poražen, protože hlavní hráč už neudělá devět zdvihů.
+</p>
+</example>
+<p>
+Jako kvízové rozdání předložte dětem tento problém:
+</p>
+<example number="6">
+<distribution>
+<hand position="north">
+<spades>
+AJ
+</spades>
+<hearts>
+A73
+</hearts>
+<diamonds>
+AT764
+</diamonds>
+<clubs>
+J84
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+QT964
+</spades>
+<hearts>
+K8
+</hearts>
+<diamonds>
+532
+</diamonds>
+<clubs>
+Q92
+</clubs>
+</hand>
+</distribution>
+<contract value="1NTS" />
+<leadcard value="QH">
+Q srdcová
+</leadcard>
+<p>
+Pro odehrání čtyř piků potřebujeme vstup do ruky, vezmeme tedy esem na stole, obehrajeme eso pikové a kluka pikového převezmeme dámou. Až vyrazíme pikového krále, zbude nám vstup v srdcích.
+</p>
+</example>
+<literature>
+<li>
+E. Kaplan	Pokročilá sehrávka	str. 11-15
+</li>
+</literature>
+</lesson>

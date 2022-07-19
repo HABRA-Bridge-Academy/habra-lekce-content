@@ -1,0 +1,215 @@
+<lesson year="6" title="Pravděpodobnost I" number="30" updatedAt="2021-08-10 12:37:19">
+<example number="1">
+<distribution vul="BOTH">
+<hand position="north">
+<spades>
+AJT9
+</spades>
+<hearts>
+9764
+</hearts>
+<diamonds>
+86
+</diamonds>
+<clubs>
+J52
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+Q54
+</spades>
+<hearts>
+AK
+</hearts>
+<diamonds>
+KQ4
+</diamonds>
+<clubs>
+AQT94
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="S">
+<bid value="1NT" />
+<bid value="3c" />
+<bid value="3NT" />
+<bid value="pass" />
+</auction>
+<leadcard value="5d" /><p>
+Západ vynesl károvou pětku, Východ přidal kluka a Vy jste vzal králem. Jak dál?
+</p>
+<p>
+Toto není rozdání, kde byste musel hrát na to, že jeden impas ze dvou bude sedět. Když ve druhém zdvihu zaimpasujete pikovou dámou, splníte určitě závazek, pokud bude mít pikového krále Západ. Jestliže ovšem bude pikový král u Východu spadnete, měl-li Západ páté eso kárové, což se zdá být pravděpodobné. Proto Vám pikový impas dává šanci na splnění jen o málo vyšší než 50%.
+</p>
+<p>
+Po pečlivé analýze zjistíte, že i pokud pikový impas sedí, nemusíte ho vůbec hrát. V tomto rozdání je důležitý trefový impas. Správně je ve druhém zdvihu zahrát pikovou dámu a převzít ji na stole esem. Pak zaimpasujete klukem trefovým a splníte, když uděláte pět trefových zdvihů. Bude-li mít trefového krále Západ, uspějete, když bude mít také krále pikového, protože devátý zdvih uděláte buď v kárech nebo v pikách.
+</p>
+<p>
+Tento způsob sehrávky bude mít úspěch, pokud sedí pikový impas. Uspějete i tehdy, když pikový král nesedí, ale když trefy poskytnou pět zdvihů, čímž se celková šance zvyšuje na více než 68%.
+</p>
+<p>
+Všimněte si, že je důležité odblokovat se pikovou dámou ve druhém zdvihu. Kdyby měl Západ singl malý tref, potřeboval byste další vstup na stůl, a kdybyste se neodblokoval v pikách, nemuselo by se Vám to povést.
+</p>
+</example>
+<example number="2">
+<distribution vul="BOTH">
+<hand position="north">
+<spades>
+T7
+</spades>
+<hearts>
+A9743
+</hearts>
+<diamonds>
+AK4
+</diamonds>
+<clubs>
+Q96
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AQJ9854
+</spades>
+<hearts>
+2
+</hearts>
+<diamonds>
+982
+</diamonds>
+<clubs>
+74
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="S">
+<bid value="3S" />
+<bid value="4S" />
+<bid value="pass" />
+</auction>
+<leadcard value="Ac" /><p>
+Západ vynesl trefové eso a pokračoval desítkou. Ze stolu jste dal malou, ale Východ převzal klukem a vrátil trefového krále. Snapl jste osmičkou pikovou a Západ přiznal trefovou trojku. Co teď?
+</p>
+<p>
+Bude-li sedět trumfový impas, splníte, nebudou-li trumfy rozloženy hůře než 3-1. To Vám dává 45% šanci na úspěch, ale možná že najdete lepší možnost. Pokud se Vám podaří shodit si ztrátové káro na délkové srdce, což bude možné při rozloze srdcí 4-3, můžete si dovolit odevzdat trumfový zdvih, a tak si v trumfech vytvořit další vstup na stůl, který potřebujete.
+</p>
+<p>
+Nejlepší je zahrát srdce k esu, snapnout srdce vysokým trumfem a zahrát z ruky malý trumf a vyrazit tím trumfového krále. Potom vezmete vrácené káro na stole, snapnete si další srdce vysokým trumfem a vrátíte se na stůl na trumfovou desítku. Když se srdce rozpadnou, vypracujete si délkové srdce již dalším snapem. Můžete si pak zahodit ztrátové káro stolu na svůj poslední trumf a poslední dva zdvihy jsou Vaše.
+</p>
+<p>
+Pravděpodobnost rozložení srdcí 4-3 je 62%, ale také se musíte spolehnout na rozlohu v trumfech ne horší než 3-1, čímž se celková šance snižuje na 56%.
+</p>
+<p>
+Soupeři by mohli bránit lépe, kdyby ve třetím zdvihu zahráli káro. Tím by Vám předčasně vyrazili vstup a Vám by už nezbylo nic jiného, než impasovat trumfového krále.
+</p>
+</example>
+<example number="3">
+<distribution vul="NONE">
+<hand position="north">
+<spades>
+A3
+</spades>
+<hearts>
+AJT94
+</hearts>
+<diamonds>
+T82
+</diamonds>
+<clubs>
+K52
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KQ7
+</spades>
+<hearts>
+K7
+</hearts>
+<diamonds>
+AKJ93
+</diamonds>
+<clubs>
+AJ9
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="S">
+<bid value="2NT" />
+<bid value="3H" />
+<bid value="3NT" />
+<bid value="6NT" />
+<bid value="pass" />
+</auction>
+<leadcard value="JS" /><p>
+Západ vynesl proti Vašemu slemu pikového kluka. Jak si naplánujete sehrávku?
+</p>
+<p>
+Mělo by být možné zkombinovat si možnosti tím, že zaimpasujete v jedné červené barvě. Pokud bude tento impas sedět, můžete snadno udělat dvanáct zdvihů, když začnete hrát druhou červenou barvu. Když impas sedět nebude, odehrajete si tuto barvu, až se dostanete do zdvihu, a pak si odehrajete A,K ve druhé červené barvě. Jako poslední šance Vám pak zbude impas trefový.
+</p>
+<p>
+Odpověď na otázku, kterou barvu máte hrát dříve, Vám dá pravděpodobnost, která dáma spíše spadne. Samozřejmě častěji vypadne druhá dáma, když mají soupeři celkem pět karet v této barvě, než když jich mají šest. Proto byste měl hrát na vypadnutí dámy kárové a impasovat srdcovou.
+</p>
+<p>
+První zdvih byste měl vzít v ruce, odehrát srdcového krále a zahrát malé srdce k devítce. Když vezme Východ dámou, vezmete vrácený pik esem a odehrajete si tři srdce, na které si zahodíte z ruky tři kára. Pak zahrajete dvě vysoké kárové figury a zjistíte, zda dáma spadla a odehrajete si svůj poslední pik, na který si ze stolu zahodíte tref. Pokud se Vám bude zdát, že má některý z obránců potíže, můžete hrát na vypadnutí trefové dámy. Jinak se pokusíte o dvanáctý zdvih trefovým impasem. Tento způsob sehrávky má 84% šancí na úspěch.
+</p>
+<p>
+Když obrátíte pořadí barev impasem károvým a nadějí, že vypadne dáma srdcová, snížíte si šanci asi o 3%.
+</p>
+</example>
+<example number="4">
+<distribution vul="BOTH">
+<hand position="north">
+<spades>
+64
+</spades>
+<hearts>
+T95
+</hearts>
+<diamonds>
+AKQ83
+</diamonds>
+<clubs>
+972
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AK
+</spades>
+<hearts>
+AJ32
+</hearts>
+<diamonds>
+75
+</diamonds>
+<clubs>
+AK654
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="S">
+<bid value="1c" />
+<bid value="1d" />
+<bid value="2H" />
+<bid value="3d" />
+<bid value="3NT" />
+<bid value="pass" />
+</auction>
+<leadcard value="5S" /><p>
+Západ vynesl pikovou pětku ke klukovi a králi. Kdyby se rozpadly trefy, nebyly by žádné potíže, proto jste je zkusil a odehrál eso a krále. Bohužel si však Východ na druhý tref zahodil pikovou trojku. Co dál?
+</p>
+<p>
+Za úvahu stojí dva způsoby sehrávky. První spočívá v okamžitém odevzdání kárového zdvihu. Tak uspějete, když nebudou kára rozložena hůře než 4-2, což Vám dává 84% šanci. Druhý způsob je zahrát káro k dámě a zahrát ze stolu desítku srdcovou na impas. Když Západ vezme a vyrazí pikové eso, můžete zkusit, zda nejsou kára 3- pokud tomu tak nebude, zahrát další srdcový impas. Je zajímavé, že šance na úspěch při této sehrávce je rovněž kolem 84%.
+</p>
+<p>
+Zatím jsme uvažovali o možnostech v jednotlivých barvách oddělené, ale když uvážíte pravděpodobnost splnění v kontextu celého rozdání, je volba sehrávky snadná. Protože Východ nepřiznal ve druhém kole tref, má většinu červených karet a tato skutečnost jasně mluví pro druhý způsob.
+</p>
+</example>
+<literature>
+<li>
+H.W. Kelsey	Bridžová logika
+</li>
+</literature>
+</lesson>

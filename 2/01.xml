@@ -1,0 +1,245 @@
+<lesson year="2" title="Vyvážená rozloha" number="1" updatedAt="2021-08-11 22:50:46">
+<p>
+Lekce týkající se dražby nebudou v tomto roce nijak příliš rozšiřovat systém o konvence, ale budou proměňovat základ systému tak, aby nebyl opřen o body a bodové hranice, ale aby byl elastičtější prostřednictvím popisu rozlohy. Spíše jej tedy budeme zdokonalovat a dostávat na úroveň běžných postupů. První a poměrně zásadní nedokonalostí našeho dosavadního systému jsou vyvážené rozlohy. Zatím je chápeme jako kombinace bez 5-listu. To je ale už dávno překonané schéma. Vyváženým listem rozumíme slohu bez krátkosti. Minimálně zde může být dubl. Rozhodně ne tedy slohu 4-4-4-1. K vyváženým rozlohám naopak připojíme slohu 5-3-3-2, je-li náš 5-list levný.
+</p>
+<p>
+Co praktického to bude znamenat pro naši dražbu. Změny se dotknou zahájení 1BT a 2BT. Takovéto zahájení nepoužijeme při splněných bodových hranicích se slohou 4-4-4-1. Přesuneme je do zahájení 1t, 1k podle toho, jak to bude s délkou jejich levných barev, přesně podle zásad systému Lepší levná. Naopak zde přidáme rozlohy 5-3-3-2 s levným 5-listem, které jsme dosud dražili přes tuto levnou. Nic jiného se nezmění. Vyvážený list je další pojem už poněkud zkušenějšího bridžisty.
+</p>
+<p>
+Příklady:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+T83
+</spades>
+<hearts>
+A8
+</hearts>
+<diamonds>
+AT98
+</diamonds>
+<clubs>
+AKJT
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AK95
+</spades>
+<hearts>
+QT94
+</hearts>
+<diamonds>
+Q2
+</diamonds>
+<clubs>
+972
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1NT" />
+<bid value="2c" />
+<bid value="2NT" />
+<bid value="3NT" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+A5
+</spades>
+<hearts>
+QJ4
+</hearts>
+<diamonds>
+KJ876
+</diamonds>
+<clubs>
+AQ2
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KJ84
+</spades>
+<hearts>
+K732
+</hearts>
+<diamonds>
+T5
+</diamonds>
+<clubs>
+J84
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1NT" />
+<bid value="2c" />
+<bid value="2NT" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+QT73
+</spades>
+<hearts>
+8
+</hearts>
+<diamonds>
+AJ62
+</diamonds>
+<clubs>
+AQJ9
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+J642
+</spades>
+<hearts>
+KQ7
+</hearts>
+<diamonds>
+K85
+</diamonds>
+<clubs>
+864
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1d" />
+<bid value="1S" />
+<bid value="2S" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+AKT6
+</spades>
+<hearts>
+QJ73
+</hearts>
+<diamonds>
+T
+</diamonds>
+<clubs>
+KQJ2
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+Q83
+</spades>
+<hearts>
+K42
+</hearts>
+<diamonds>
+QJ954
+</diamonds>
+<clubs>
+65
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1c" />
+<bid value="1d" />
+<bid value="1H" />
+<bid value="1NT" />
+<bid value="2NT" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+KT7
+</spades>
+<hearts>
+K8
+</hearts>
+<diamonds>
+A42
+</diamonds>
+<clubs>
+KQ987
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+Q432
+</spades>
+<hearts>
+QT65
+</hearts>
+<diamonds>
+K8
+</diamonds>
+<clubs>
+J64
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1NT" />
+<bid value="2c" />
+<bid value="2NT" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="6">
+<distribution>
+<hand position="north">
+<spades>
+QJ63
+</spades>
+<hearts>
+KT75
+</hearts>
+<diamonds>
+AJ5
+</diamonds>
+<clubs>
+KQ
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A752
+</spades>
+<hearts>
+A84
+</hearts>
+<diamonds>
+Q7
+</diamonds>
+<clubs>
+JT65
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1NT" />
+<bid value="2c" />
+<bid value="2H" />
+<bid value="2S" />
+<bid value="3S" alternative="4S" />
+<bid value="4S" />
+<bid value="pass" />
+</auction>
+</example>
+</lesson>

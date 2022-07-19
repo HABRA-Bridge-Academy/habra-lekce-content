@@ -1,0 +1,539 @@
+<lesson year="2" title="Plán sehrávky hlavního hráče v beztrumfových rozdáních" number="2" updatedAt="2021-08-11 22:58:31">
+<p>
+Tato lekce by měla představovat kvalitativní zlom. Od této chvíle bychom měli začít učit děti u hry přemýšlet. Do této doby jsme je učili především uplatňovat pravidla, která se zakládají na našich zkušenostech z této hry, a trvali jsme na tom, aby je vědomě dodržovali, ať už jim rozumí, či nikoliv. Tato lekce by měla být úvodem k bridžovému myšlení, kterého bude samozřejmě stále více a více přibývat. Hlavním heslem tohoto roku pro sehrávku bude plánování. Vštípit dětem tento zvyk – zamyšlení se a včasné vyhledání cesty ke splnění závazku – bude nejdůležitější úkol pro školku.
+</p>
+<p>
+Plánovat beztrumfovou sehrávku je snazší, protože faktorů, které ji ovlivňují, je méně, proto začínáme právě od ní. Měli bychom naučit děti návyku hlavního hráče zamyslet se okamžitě po prvním výnosu, ještě před přidáním první karty stolu. Předmětem tohoto zamyšlení by měla být otázka, kolik vidím nezpochybnitelných zdvihů. Dále se tážu, kolik mi jich chybí a kde je lze získat. Pak se již vydám po cestě, kterou naleznu. Využívat budeme samozřejmě technik sehrávky, které již známe. Pro objasnění tohoto procesu máme přichystána tato rozdání. Několik prvních vysvětlíme sami, a pak dáme příležitost nápadům a návrhům dětí, opravujeme je a vedeme na správnou cestu. Poukážeme také na častost výnosu obránců ze sledu. Neopomeneme zhusta chválit. Není nutno za každou cenu probrat všechna rozdání.
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+543
+</spades>
+<hearts>
+K32
+</hearts>
+<diamonds>
+QJT9
+</diamonds>
+<clubs>
+432
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AK2
+</spades>
+<hearts>
+AQ4
+</hearts>
+<diamonds>
+K432
+</diamonds>
+<clubs>
+A65
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+76
+</spades>
+<hearts>
+JT98
+</hearts>
+<diamonds>
+876
+</diamonds>
+<clubs>
+KQ87
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+QJT98
+</spades>
+<hearts>
+765
+</hearts>
+<diamonds>
+A5
+</diamonds>
+<clubs>
+JT9
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="QS">
+Q piková
+</leadcard>
+<p>
+Hlavní hráč si napočítá šest jistých zdvihů (2 pikové, 3 srdcové, 1 trefový), zjistí, že mu chybí tři zdvihy ke splnění závazku, a ty může získat v kárech po vyražení esa. Je nutno dát se tedy do této práce. Ukážeme, jak by se situace vyvíjela po odehrání vysokých zdvihů před vypracováním kár, a můžeme vysvětlit a objasnit pojem stoper.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+654
+</spades>
+<hearts>
+T987
+</hearts>
+<diamonds>
+432
+</diamonds>
+<clubs>
+A65
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AQ32
+</spades>
+<hearts>
+J2
+</hearts>
+<diamonds>
+AKQJ
+</diamonds>
+<clubs>
+432
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+KJT9
+</spades>
+<hearts>
+AQ65
+</hearts>
+<diamonds>
+T98
+</diamonds>
+<clubs>
+87
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+87
+</spades>
+<hearts>
+K43
+</hearts>
+<diamonds>
+765
+</diamonds>
+<clubs>
+KQJT9
+</clubs>
+</hand>
+</distribution>
+<contract value="1NTS" />
+<leadcard value="Kc">
+K trefový
+</leadcard>
+<p>
+Hlavní hráč si napočítá šest jistých zdvihů (4 kárové, 1 trefový a jeden pikový). Šance na získání kýženého chybějícího zdvihu je v pikách, dokáže-li hlavní hráč realizovat impas a bude-li samozřejmě sedět. Zatím se ještě nebudeme zabývat zadržováním.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+AQ7
+</spades>
+<hearts>
+KJ4
+</hearts>
+<diamonds>
+KQ98
+</diamonds>
+<clubs>
+KQ3
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KJ5
+</spades>
+<hearts>
+AQ8
+</hearts>
+<diamonds>
+JT32
+</diamonds>
+<clubs>
+A74
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+432
+</spades>
+<hearts>
+T976
+</hearts>
+<diamonds>
+654
+</diamonds>
+<clubs>
+652
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+T986
+</spades>
+<hearts>
+532
+</hearts>
+<diamonds>
+A7
+</diamonds>
+<clubs>
+JT98
+</clubs>
+</hand>
+</distribution>
+<contract value="6NTS" />
+<leadcard value="Jc">
+J trefový
+</leadcard>
+<p>
+Hlavní hráč vidí po třech zdvizích v pikách, srdcích a trefech. Další tři zdvihy lze vypracovat pohodlně v kárech, pokud to udělá dříve, než ztratí stopery ve vedlejších barvách.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+A4
+</spades>
+<hearts>
+AKQ5
+</hearts>
+<diamonds>
+9876
+</diamonds>
+<clubs>
+T98
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+32
+</spades>
+<hearts>
+432
+</hearts>
+<diamonds>
+KQJT
+</diamonds>
+<clubs>
+AKQJ
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+8765
+</spades>
+<hearts>
+876
+</hearts>
+<diamonds>
+A5
+</diamonds>
+<clubs>
+7654
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+KQJT9
+</spades>
+<hearts>
+JT9
+</hearts>
+<diamonds>
+432
+</diamonds>
+<clubs>
+32
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="KS">
+K pikový
+</leadcard>
+<p>
+Jisté jsou čtyři zdvihy v trefech, tři v srdcích a jeden v pikách. V kárech lze získat další tři zdvihy, ale výnos do piků je nepříjemný. I když se budou dělit 5-4 (pro hlavního hráče nejlépe), udělá obrana čtyři piky a jedno káro. Není proto možné rozehrát kára a jediná šance na splnění je v dělení srdcí 3-3. Můžeme děti upozornit na to, že je lepší obehrát předtím své trefové zdvihy, protože nepozorný obránce může případně špatně zahodit, což zvyšuje pravděpodobnost našeho úspěchu.
+</p>
+</example>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+KQJ4
+</spades>
+<hearts>
+QJ2
+</hearts>
+<diamonds>
+A2
+</diamonds>
+<clubs>
+J654
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A32
+</spades>
+<hearts>
+AK54
+</hearts>
+<diamonds>
+543
+</diamonds>
+<clubs>
+Q32
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+T987
+</spades>
+<hearts>
+T963
+</hearts>
+<diamonds>
+876
+</diamonds>
+<clubs>
+AT
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+65
+</spades>
+<hearts>
+87
+</hearts>
+<diamonds>
+KQJT9
+</diamonds>
+<clubs>
+K987
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="Kd">
+K kárový
+</leadcard>
+<p>
+Devět zdvihů je jistých shora (po čtyřech srdcových a pikových a 1 kárový), proto si je můžeme okamžitě posbírat. Nesmíme ale zapomenout na dobrou techniku a nezablokovat se.
+</p>
+</example>
+<example number="6">
+<distribution>
+<hand position="north">
+<spades>
+A54
+</spades>
+<hearts>
+654
+</hearts>
+<diamonds>
+AK4
+</diamonds>
+<clubs>
+7654
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K32
+</spades>
+<hearts>
+A32
+</hearts>
+<diamonds>
+Q32
+</diamonds>
+<clubs>
+AK32
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+76
+</spades>
+<hearts>
+KQJT9
+</hearts>
+<diamonds>
+JT98
+</diamonds>
+<clubs>
+98
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+QJT98
+</spades>
+<hearts>
+87
+</hearts>
+<diamonds>
+765
+</diamonds>
+<clubs>
+QJT
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="QS">
+Q piková
+</leadcard>
+<p>
+Máme osm jistých zdvihů a devátý lze získat v trefech, pokud je obehrajeme třikrát a vypadne do těchto zdvihů všech pět zbývajících trefových karet soupeřů. Samozřejmě nesmíme ani pomyslet na obehrávání svých stoperů v ostatních barvách.
+</p>
+</example>
+<example number="7">
+<distribution>
+<hand position="north">
+<spades>
+864
+</spades>
+<hearts>
+754
+</hearts>
+<diamonds>
+A9642
+</diamonds>
+<clubs>
+93
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AT
+</spades>
+<hearts>
+A962
+</hearts>
+<diamonds>
+KQ3
+</diamonds>
+<clubs>
+8764
+</clubs>
+</hand>
+</distribution>
+<contract value="1NTS" />
+<leadcard value="5S">
+5 piková
+</leadcard>
+<p>
+Vidíme 5 rychlých zdvihů a možnost vypracování dvou kár při dělení 3-2. Ukážeme na svízel vstupu ke kárům, nezablokovat se je cesta k úspěchu.
+</p>
+</example>
+<example number="8">
+<distribution>
+<hand position="north">
+<spades>
+K5
+</spades>
+<hearts>
+T4
+</hearts>
+<diamonds>
+K7642
+</diamonds>
+<clubs>
+K743
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A32
+</spades>
+<hearts>
+A985
+</hearts>
+<diamonds>
+A3
+</diamonds>
+<clubs>
+A986
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+976
+</spades>
+<hearts>
+Q632
+</hearts>
+<diamonds>
+JT8
+</diamonds>
+<clubs>
+QJ5
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+QJT84
+</spades>
+<hearts>
+KJ7
+</hearts>
+<diamonds>
+Q95
+</diamonds>
+<clubs>
+T2
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="QS">
+Q piková
+</leadcard>
+<p>
+Máme sedm zdvihů a chybí nám dva. Možnosti jsou v trefech, ale po podrobnějším promyšlení zjistíme, že zde nalezneme jen jeden ze dvou chybějících zdvihů. Dva můžeme nalézt v kárech, pokud se dělí 3-3. Ukážeme, že tyto šance nelze kombinovat, protože soupeři pak dosáhnou svých pěti zdvihů dříve než my devíti, a tak je okamžité rozehrání kár jedinou nadějí na splnění závazku.
+</p>
+</example>
+<literature>
+<li>
+J. Hájek	Bridžová školka	24. lekce
+</li>
+<li>
+E. Kaplan	Základy sehrávky	str. 11-13
+</li>
+<li>
+J. Fišer	Jak se hraje bridž	str. 60-61
+</li>
+<li>
+P. Hebák	Bridž pro každého	str. 83-85
+</li>
+<li>
+P. Mokráň	Bridž rýchlo a dobre	str. 228-230
+</li>
+<li>
+J. Sedlář	Základy teorie bridže	str. 20-22
+</li>
+<li>
+P. Cronier a spol.	Minibridž	1.,2.,16. lekce
+</li>
+</literature>
+</lesson>

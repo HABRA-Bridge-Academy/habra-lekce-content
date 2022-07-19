@@ -1,0 +1,292 @@
+<lesson year="2" title="Beztrumfové závazky – Skrčení" number="18" updatedAt="2021-08-15 14:23:42">
+<p>
+Skrčení je blízké zadržení, ale tentokrát nehraji malé karty z dlouhé barvy soupeře, ale ze své vlastní. Tento manévr použiji, nemám-li ke své dlouhé barvě jiné vedlejší vstupy. Čtyři rozdání na ukázku:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+AK5
+</spades>
+<hearts>
+AJT
+</hearts>
+<diamonds>
+74
+</diamonds>
+<clubs>
+QJ842
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+863
+</spades>
+<hearts>
+54
+</hearts>
+<diamonds>
+AK8632
+</diamonds>
+<clubs>
+75
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="6H">
+6 srdcová
+</leadcard>
+<p>
+Přiložím desítku, Východ pravděpodobně vezme a já si zobnu další zdvih. Kára mi nesou dost zdvihů, ale nejsou na ně vstupy. Pokud se zbývající kára dělí 3-2 je snadná pomoc ve skrčení. Propustím jedno káro (z ruky i ze stolu dám malou), které stejně musím odevzdat, a zachovám si k dalším kárům vstup.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+KQ
+</spades>
+<hearts>
+T84
+</hearts>
+<diamonds>
+762
+</diamonds>
+<clubs>
+AJ532
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A74
+</spades>
+<hearts>
+AQ6
+</hearts>
+<diamonds>
+AK84
+</diamonds>
+<clubs>
+974
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+9532
+</spades>
+<hearts>
+J932
+</hearts>
+<diamonds>
+QT
+</diamonds>
+<clubs>
+KQT
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+JT86
+</spades>
+<hearts>
+K75
+</hearts>
+<diamonds>
+J953
+</diamonds>
+<clubs>
+86
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="JS">
+J pikový
+</leadcard>
+<p>
+V tomto rozdání mám šanci vypracovat trefy, ale po vyražení piků na ně nebudu mít vstupy. Nejpravděpodobnější dělení trefů je 3-2, a tak pomůže, skrčím-li se v nich dvakrát a ponechám si trefové eso jako vstup k celému zbytku barvy.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+KQJ6
+</spades>
+<hearts>
+Q86
+</hearts>
+<diamonds>
+5
+</diamonds>
+<clubs>
+KQ853
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+974
+</spades>
+<hearts>
+AKJ5
+</hearts>
+<diamonds>
+QJ74
+</diamonds>
+<clubs>
+A4
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+A853
+</spades>
+<hearts>
+T943
+</hearts>
+<diamonds>
+AT2
+</diamonds>
+<clubs>
+96
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+T2
+</spades>
+<hearts>
+72
+</hearts>
+<diamonds>
+K9863
+</diamonds>
+<clubs>
+JT72
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="6d">
+6 kárová
+</leadcard>
+<p>
+Také obránci se mohou s úspěchem krčit, není-li dostatek vstupů. Východ vezme esem a pošle zpátky desítku, kterou hlavní hráč přebije a Západ se skrčí. Až se Východ dostane na zdvih na pikové eso, podnese zbývající figuru hlavního hráče v kárech a závazek je poražen. Hlavní hráč ho mohl uhrát, kdyby druhé káro propustil, čímž by přerušil napojení obránců.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+4
+</spades>
+<hearts>
+A83
+</hearts>
+<diamonds>
+K62
+</diamonds>
+<clubs>
+QJT74
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KT92
+</spades>
+<hearts>
+KQ54
+</hearts>
+<diamonds>
+QJ5
+</diamonds>
+<clubs>
+92
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+Q74
+</spades>
+<hearts>
+J2
+</hearts>
+<diamonds>
+AT973
+</diamonds>
+<clubs>
+K83
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+J863
+</spades>
+<hearts>
+T976
+</hearts>
+<diamonds>
+84
+</diamonds>
+<clubs>
+A65
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="8d">
+8 kárová
+</leadcard>
+<p>
+Také v tomto případě se musí obránce s dlouhou barvou (Východ) krčit, chce-li být úspěšný ve vypracování své barvy. Ale to samo ještě nestačí, potřebuje spolupráci partnera v ušetření trefového vstupu. Správná obrana je skrčení v kárech, naskočení Západu esem v prvním zdvihu na trefy, opět kára a Východ se znovu krčí, na trefového krále se dostává konečně ke slovu a bude moci sníst ovoce dobré hry, když obehraje kárové eso a další dvě malé kára.
+</p>
+</example>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+A862
+</spades>
+<hearts>
+AK4
+</hearts>
+<diamonds>
+64
+</diamonds>
+<clubs>
+AQ42
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+93
+</spades>
+<hearts>
+765
+</hearts>
+<diamonds>
+A9752
+</diamonds>
+<clubs>
+K83
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="2H">
+2 srdcová
+</leadcard>
+<p>
+Dvojka srdcová ukazuje na dělení srdcí 4-3 a není třeba proto zadržovat. Jediná šance na splnění je, že kára budou 3-3 a i pak musíme zacházet opatrně se vstupy. Poprvé se musíme v kárech skrčit, kdyby obránci teď změnili útok na trefy, pak bychom museli vzít ze stolu, každopádně zdvih vezmeme, zahrajeme káro k esu a malé káro a budeme doufat, že jsou kára 3-3.
+</p>
+</example>
+<literature>
+<li>
+E. Kaplan	Pokročilá sehrávka	str. 9-11
+</li>
+<li>
+P. Cronier a spol.	Minibridž	17A
+</li>
+</literature>
+</lesson>

@@ -1,0 +1,258 @@
+<lesson year="2" title="Princip negativního opakování" number="9" updatedAt="2021-08-14 23:12:10">
+<p>
+V tomto roce přijmeme ještě jeden důležitý upřesňující princip. A to že opakování barvy bez skoku je negace a tedy naznačení minima svého původně hlášeného listu. Vloni jsme tuto zásadu přijali v situaci, kdy zahajujete, partner odpoví na prvním stupni a vy odpovídáte opět barvou zahájení – tento sled zaručuje 6-list a 12-15b.
+</p>
+<p>
+Pokud partner místo na prvním stupni odpoví na druhém stupni (forcing 10+b.), pak překročení barvy zahájení je tzv. revers, který zase ukazuje 16-18b. (při 19-21b. zahajitel nejen překročí negativní hranici, ale navíc skočí). Barva zahájení je tedy hranicí pro negativní hlášku. V této situaci neslibuje 6-list, ukazuje, že není co dál nabídnout a že body jsou v rozmezí 12-14(15)b. Umožní to odpovídajícímu vybrat si závazek v barvě nebo v BT.
+</p>
+<p>
+Dalším uplatněním tohoto principu je opakování barvy odpovídajícího. Když odpovídající odpověděl barvou, jeho partner zůstal na prvním stupni další barvou nebo v BT, pak opakování znamená 5+list a síla do 9b. Je to hláška, která si při minimu partnera téměř vynucuje pas.
+</p>
+<p>
+Stručně řečeno v principu je opakování vlastní barvy bez skoku slabost. Vlastně i opakování barvy partnera bez skoku (sfitování) je slabost nebo lépe minimum.
+</p>
+<p>
+Příklady:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+AJ873
+</spades>
+<hearts>
+K54
+</hearts>
+<diamonds>
+QJT
+</diamonds>
+<clubs>
+J8
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+64
+</spades>
+<hearts>
+Q973
+</hearts>
+<diamonds>
+A8
+</diamonds>
+<clubs>
+KQT62
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1S" />
+<bid value="2c" />
+<bid value="2S" />
+<bid value="2NT" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+743
+</spades>
+<hearts>
+AQJ82
+</hearts>
+<diamonds>
+K62
+</diamonds>
+<clubs>
+QJ
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KQ862
+</spades>
+<hearts>
+T3
+</hearts>
+<diamonds>
+Q3
+</diamonds>
+<clubs>
+T752
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1H" />
+<bid value="1S" />
+<bid value="1NT" />
+<bid value="2S" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+QJ84
+</spades>
+<hearts>
+AK653
+</hearts>
+<diamonds>
+KJ8
+</diamonds>
+<clubs>
+A
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K965
+</spades>
+<hearts>
+QJ
+</hearts>
+<diamonds>
+AT7
+</diamonds>
+<clubs>
+K863
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1H" />
+<bid value="1S" />
+<bid value="4S" />
+<bid value="4NT" />
+<bid value="5H" />
+<bid value="6S" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+A7
+</spades>
+<hearts>
+KQT64
+</hearts>
+<diamonds>
+AJ3
+</diamonds>
+<clubs>
+T73
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KQ84
+</spades>
+<hearts>
+J53
+</hearts>
+<diamonds>
+752
+</diamonds>
+<clubs>
+J85
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1H" />
+<bid value="2H" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+A7
+</spades>
+<hearts>
+KQT64
+</hearts>
+<diamonds>
+AJ3
+</diamonds>
+<clubs>
+T75
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KQ84
+</spades>
+<hearts>
+J73
+</hearts>
+<diamonds>
+65
+</diamonds>
+<clubs>
+A432
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1H" />
+<bid value="1S" />
+<bid value="1NT" />
+<bid value="2H" />
+<bid value="4H" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="6">
+<distribution>
+<hand position="north">
+<spades>
+T2
+</spades>
+<hearts>
+AJ532
+</hearts>
+<diamonds>
+KQ7
+</diamonds>
+<clubs>
+QJ6
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K87654
+</spades>
+<hearts>
+T
+</hearts>
+<diamonds>
+JT4
+</diamonds>
+<clubs>
+A72
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1H" />
+<bid value="1S" />
+<bid value="1NT" />
+<bid value="2S" />
+<bid value="pass" />
+</auction>
+</example>
+<p>
+Ke čtvrtému a pátému příkladu: měli bychom přijmout zásadu, že v tomto sledu nabídneme piky jen s 10+ body, se 7-9 body okamžitě fitneme.
+</p>
+<p>
+Ve sledu 1s-1p-1BT-2s by tedy odpovídající měl mít alespoň 10b. jako je tomu v pátém příkladu.
+</p>
+</lesson>

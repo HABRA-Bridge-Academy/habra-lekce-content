@@ -1,0 +1,466 @@
+<lesson year="4" title="Blokování a odblokování – Zablokování obránců" number="7" updatedAt="2021-08-04 21:17:25">
+<p>
+Druhá série čtyř lekcí pojednává o blokování a to jak soupeřů, tak vlastním odblokování. Je to tedy látka, jejíž hlavní tematikou jsou vstupy.
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+Q72
+</spades>
+<hearts>
+A853
+</hearts>
+<diamonds>
+QJ6
+</diamonds>
+<clubs>
+A52
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AK5
+</spades>
+<hearts>
+K64
+</hearts>
+<diamonds>
+AT93
+</diamonds>
+<clubs>
+J74
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="6c">
+t6
+</leadcard>
+<p>
+Jih sehrává závazek tři bez trumfů, proti kterému Západ vynáší trefovou šestku. Jaký plán sehrávky si má udělat?
+</p>
+<p>
+Jih předtím, než hraje ze stolu, počítá své zdvihy – tři pikové, dva srdcové a po jednom v kárech a trefech. Je snadné vypracovat si další dva v kárech, ale to předpokládá zahrát kárový impas. Když tento nebude sedět, Západ by si mohl odehrát své trefy, od kterých vynesl. A to se stane tenkrát, když Jih udělá nyní chybu a zahraje ze stolu malý tref. Jelikož obránci mají tyto karty:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+T863
+</spades>
+<hearts>
+QJ92
+</hearts>
+<diamonds>
+874
+</diamonds>
+<clubs>
+Q9
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+J94
+</spades>
+<hearts>
+T7
+</hearts>
+<diamonds>
+K52
+</diamonds>
+<clubs>
+KT863
+</clubs>
+</hand>
+</distribution>
+<p>
+Východ vezme dámou a vrátí tref. Zahraje-li malou z ruky, Západ pokryje desítkou a vyrazí tak eso na stole. Po nezdařeném károvém impasu si odehraje vypracované trefy k poražení závazku. Co se však stane, když hlavní hráč zahraje v prvním zdvihu trefové eso. Východ dá devítku (odblokování dámou nepomůže), a když se po zahrání kárového impasu dostane Západ do zdvihu na kárového krále, budou trefy zablokovány. Rozloha 4-3 v trefech hlavnímu hráči nevadí. Je pravda, že zahrání trefovým esem v prvním zdvihu stojí závazek, jestliže Západ vynesl od K,Q,x,x,x v trefech. Ale je pravděpodobnější, že trefové figury budou rozděleny a navíc by vynesl krále, kdyby měl např. K,Q,10,x,x nebo dokonce i K,Q,9,x,x nebo desítku od K,10,9,x,x (Q,10,9,x,x). Takto je odehrání esa špatné právě tehdy, když má Západ v trefech K,Q,8,6,x.
+</p>
+<p>
+Závěr: Vždycky, když obránce provede první výnos, je nezbytné, předtím než zahrajete první kartu ze stolu, zvážit, zda je třeba věnovat vynesené barvě pozornost. Pokud by vypracování takovéto barvy u obránců ohrozilo splnění závazku, je třeba se poohlédnout po možnosti, jak tuto barvu obráncům zablokovat.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+A64
+</spades>
+<hearts>
+QJT4
+</hearts>
+<diamonds>
+KJT6
+</diamonds>
+<clubs>
+75
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+T72
+</spades>
+<hearts>
+A83
+</hearts>
+<diamonds>
+AQ8542
+</diamonds>
+<clubs>
+A
+</clubs>
+</hand>
+</distribution>
+<contract value="5dS" />
+<leadcard value="5S">
+p5
+</leadcard>
+<p>
+Jih sehrává závazek pět kár, proti němuž Západ vynáší pikovou pětku. Hlavní hráč vidí, že je to jediný výnos, který ho staví před problémy. Jak má závazek sehrávat?
+</p>
+<p>
+Při každém jiném výnosu by vytrumfoval a zahrál srdcový impas. I kdyby neseděl, odhodil by si na čtvrté srdce stolu pik. Ale jak se ukazuje, pikovým výnosem získala obrana tempo. Nebezpečí nyní spočívá v tom, že má-li Západ srdcového krále, odehrají si obránci dva zdvihy. To se skutečně stalo, když Jih zahrál ze stolu malý pik. Východ vzal králem a vrátil kluka. Jak měl hrát? Obránci měli tuto rozlohu:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+KJ
+</spades>
+<hearts>
+762
+</hearts>
+<diamonds>
+73
+</diamonds>
+<clubs>
+QT9643
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+Q9853
+</spades>
+<hearts>
+K95
+</hearts>
+<diamonds>
+9
+</diamonds>
+<clubs>
+KJ82
+</clubs>
+</hand>
+</distribution>
+<p>
+Za předpokladu, že srdcový impas sedí, je závazek vždy splněn. Jih tedy musí hrát proti nesedícímu srdcovému impasu. A tehdy má jedinou šanci ke splnění, když Východ bude mít právě dva vysoké piky. Na tuto možnost musí zahrát tak, že první zdvih vezme okamžitě pikovým esem, vytrumfuje a zahraje srdcovou dámu. Západ sice vezme srdcovým králem, ale piky jsou nyní blokovány a hlavní hráč si může svůj ztrátový pik odhodit na čtvrté srdce stolu. Zdálo by se, že zahrání pikového esa v prvním zdvihu by bylo špatné, má-li Východ singl figuru. (Pravděpodobně dámu, protože od K,Q,9,8,x,x nebo Q,J,9,8,x,x by Západ asi vynesl figuru.) Nicméně měl-li Západ v pikách K,J,9,8,x,x a srdcového krále, asi by vstoupil do dražby.
+</p>
+<p>
+Závěr: Existuje-li pouze jediné rozdělení karet u obránců, které vám umožňuje splnit vydražený závazek, musíte na toto rozdělení zahrát, jako by opravdu existovalo. Někdy to vyjde!
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+J984
+</spades>
+<hearts>
+86
+</hearts>
+<diamonds>
+QJ83
+</diamonds>
+<clubs>
+K72
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A62
+</spades>
+<hearts>
+Q75
+</hearts>
+<diamonds>
+AK5
+</diamonds>
+<clubs>
+AQJ4
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="3H">
+s3
+</leadcard>
+<p>
+Jih sehrává závazek tři bez trumfů po výnosu srdcovou trojkou. Východ bere králem a vrací kluka. Má Jih pokrýt dámou nebo ne? Tuto situaci dosti hráčů nezvládne. Propustí kluka s poukazem na to, že Východ mohl mít v srdcích pouze K,J, čímž bude barva zablokována. V tomto rozdání byla však rozloha takováto:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+K73
+</spades>
+<hearts>
+KJT
+</hearts>
+<diamonds>
+962
+</diamonds>
+<clubs>
+T963
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+QT5
+</spades>
+<hearts>
+A9432
+</hearts>
+<diamonds>
+T74
+</diamonds>
+<clubs>
+85
+</clubs>
+</hand>
+</distribution>
+<p>
+Je jasné, že je třeba pokrýt dámu, abychom srdce skutečně zablokovali. Jak to však řešit u stolu, kde obráncům není do karet vidět? Klíč k řešení je v zahajovacím výnosu. Srdcová trojka Západu, pokud byla čtvrtá shora, ukazuje, že Západ má pouze srdcový 5-list (nejvýše). Má-li v tomto 5-listu i desítku, nedá se proti tomu nic dělat, ale je-li tomu jako v tomto rozdání, zahráním srdcové dámy Jih barvu soupeřům zablokuje.
+</p>
+<p>
+Závěr: Je jasné, že v situacích tohoto druhu je důležité dobře studovat hrané karty obránců. Není příliš obtížné udělat si správný závěr proti soupeřům, kteří vždycky vynášejí standardně. V zásadně to nemůžeme odsuzovat, ale často se vyskytují případy, kdy přináší více užitku hlavnímu hráči než obranné lince.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+A86
+</spades>
+<hearts>
+75
+</hearts>
+<diamonds>
+A84
+</diamonds>
+<clubs>
+KQJ92
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KT3
+</spades>
+<hearts>
+KJ3
+</hearts>
+<diamonds>
+KJ52
+</diamonds>
+<clubs>
+T53
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="2H">
+s2
+</leadcard>
+<p>
+Jih sehrává závazek tři bez trumfů po této dražbě:
+</p>
+<auction dealer="N">
+<bid value="1C" />
+<bid value="1H" />
+<bid value="2NT" />
+<bid value="pass" />
+<bid value="3NT" />
+<bid value="pass" />
+<bid value="pass" />
+<bid value="pass" />
+</auction>
+<p>
+Západ vynáší srdcovou dvojku, kterou Východ kryje esem a vrací desítku. Co má Jih zahrát z ruky?
+</p>
+<p>
+Krále nebo kluka? Pokud nevidíme listy soupeřů, zdá se přirozené impasovat klukem pro případ, že Východ má A,Q. Ale Jih si musí uvědomit, že Západ vynesl srdcovou dvojku, což by mělo znamenat figuru. Když tedy hlavní hráč dospěl k závěru, že Západ měl v srdcích Q,x,x, musí jít do tohoto zdvihu králem. Až se Východ dostane do zdvihu trefovým esem, bude srdcová barva zablokována, protože rozloha obránců vypadá takto:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+QJ9
+</spades>
+<hearts>
+AT984
+</hearts>
+<diamonds>
+973
+</diamonds>
+<clubs>
+A8
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+7542
+</spades>
+<hearts>
+Q62
+</hearts>
+<diamonds>
+QT6
+</diamonds>
+<clubs>
+764
+</clubs>
+</hand>
+</distribution>
+<p>
+Je jisté, že Západ vynesl správně malé srdce, protože výnos dámou by dal hlavnímu hráči okamžitě dva zdvihy. Je nutno poznamenat, že Východ to nezahrál zrovna nejlépe, když vrátil desítku. Lépe by udělal, kdyby vrátil osmičku nebo devítku, pak by to měl Jih těžší k uhodnutí, protože výnos srdcovou dvojkou by mohl být stejně dobře od dámy jako od desítky do barvy dražené partnerem.
+</p>
+<p>
+Závěr: Až dosud jsme se zabývali výnosy, které byly provedeny od dlouhé barvy vynášejícího. Teď jsme přešli k výnosům do barvy dražené partnerem. Podobná situace jako v rozebraném příkladě může nastat také třeba při této rozloze:
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+QTxx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+x
+</spades>
+</hand>
+<hand position="LHO">
+<spades>
+Jxx
+</spades>
+</hand>
+<hand position="RHO">
+<spades>
+AKxxx
+</spades>
+</hand>
+</distribution>
+<p>
+Toto byla barva zahájení Východu. Západ vynesl malou, Východ vzal králem a vrátil malou. Zahraje-li Jih nyní desítku, západ vezme klukem a obrana nebude mít problémy s vypracováním barvy. Proto je pro hlavního hráče nejlepší vzít ve druhém zdvihu dámou. Když se mu pak podaří vyrazit Východu eventuelní vstup, bude barva zablokována.
+</p>
+</example>
+<p>
+Další příklady:
+</p>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+A3
+</spades>
+<hearts>
+KJ5
+</hearts>
+<diamonds>
+K762
+</diamonds>
+<clubs>
+Q942
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+T962
+</spades>
+<hearts>
+AQ2
+</hearts>
+<diamonds>
+AQJ8
+</diamonds>
+<clubs>
+K5
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="5S">
+p5
+</leadcard>
+<p>
+Jak má Jih sehrávat tři bez trumfů, proti kterému Západ vynáší pikovou pětku?
+</p>
+<p>
+Hlavní hráč počítá své zdvihy a vidí, že má čtyři kárové, tři srdcové a jeden pikový. Jeden si může vypracovat v trefech, ale je zde nebezpečí, že obrana si mezitím může odehrát k trefovému esu ještě čtyři pikové zdvihy, má-li Západ pět piků.
+</p>
+<p>
+Když Jih rozebírá pozici hlouběji, vidí, že nebezpečí neexistuje, jsou-li piky děleny 4-3, protože v tom případě mohou obránci získat nejvýše čtyři zdvihy, musí se tedy soustředit na to, jak hrát proti rozloze 5-2. V tomto případě má Východ jistě jednu z figur, protože od K,Q,J,x,x by Západ asi vynesl krále. Rozloha obránců:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+Q8
+</spades>
+<hearts>
+T986
+</hearts>
+<diamonds>
+953
+</diamonds>
+<clubs>
+JT76
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+KJ754
+</spades>
+<hearts>
+743
+</hearts>
+<diamonds>
+T4
+</diamonds>
+<clubs>
+A83
+</clubs>
+</hand>
+</distribution>
+<p>
+Zahraje-li Jih v prvním zdvihu ze stolu malý pik, dá soupeřům možnost vypracovat si čtyři pikové zdvihy. Správné je zahrát v prvním zdvihu pikové eso. Zahraje-li Východ malý pik, barva bude zablokována a odblokuje-li od prvního zdvihu dámu, 10,9,6 Jihu bude fungovat jako druhá zádrž v pikách.
+</p>
+<p>
+Závěr: V situacích podobných právě probrané je velmi snadné zablokovat soupeřům barvu, jakmile si jednou uvědomíme, že tato příležitost existuje. Například v pozici:
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+98xx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+AJ
+</spades>
+</hand>
+<hand position="LHO">
+<spades>
+KTxxx
+</spades>
+</hand>
+<hand position="RHO">
+<spades>
+Qx
+</spades>
+</hand>
+</distribution>
+<p>
+Když Západ vynáší malou, je správné hrát ze stolu eso. Západ by jistě nevynesl malou od K,Q,10,x,x, a proto Východ musí mít jednoho honéra. Po zahrání esa v prvním zdvihu bude barva zablokována, takže obránci v ní nebudou moci odehrát čtyři rychlé zdvihy.
+</p>
+</example>
+<literature>
+<li>
+Reese, Trézel	Blokování a odblokování	příklady č. 1-5
+</li>
+</literature>
+</lesson>

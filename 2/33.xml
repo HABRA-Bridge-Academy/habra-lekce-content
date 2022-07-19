@@ -1,0 +1,387 @@
+<lesson year="2" title="Plán barevné obrany – Finesy" number="33" updatedAt="2021-08-15 22:50:55">
+<p>
+Nejdříve Nyní se podíváme na plán finesovací z hlediska obrany. Pokud hrajeme proti tomuto plánu, bude naší snahou nezadat žádný zdvih zbytečnou aktivitou. Heslo dne je neotvírat nové barvy, vracet barvy soupeře nebo vydražitele, případně nést do trumfů. Zde jsou příklady:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+AKQT6
+</spades>
+<hearts>
+K65
+</hearts>
+<diamonds>
+KQ
+</diamonds>
+<clubs>
+A95
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+J5
+</spades>
+<hearts>
+J4
+</hearts>
+<diamonds>
+AT643
+</diamonds>
+<clubs>
+Q862
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="2d">
+2 kárová
+</leadcard>
+<p>
+Vracení kár je neproduktivní, ale bezpečné, rozhodně neměňte barvu. Vezměte esem a pokračujte v kárech.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+A93
+</spades>
+<hearts>
+A74
+</hearts>
+<diamonds>
+K743
+</diamonds>
+<clubs>
+AQ2
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KJ7
+</spades>
+<hearts>
+J86532
+</hearts>
+<diamonds>
+2
+</diamonds>
+<clubs>
+T54
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+T65
+</spades>
+<hearts>
+9
+</hearts>
+<diamonds>
+AT985
+</diamonds>
+<clubs>
+K976
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+Q842
+</spades>
+<hearts>
+KQT
+</hearts>
+<diamonds>
+QJ6
+</diamonds>
+<clubs>
+J83
+</clubs>
+</hand>
+</distribution>
+<contract value="2HS" />
+<leadcard value="Qd">
+Q kárová
+</leadcard>
+<p>
+Všichni přidají malou a Západ pokračuje v kárech, tento zdvih získává Jih na snap a vynese trumf, ze stolu vezme esem a opět nese trumf. Západ musí vzít zbývající trumf a vynést potřetí kára. Vydražitel přebije trumfem, nese pik k esu a neúspěšně impasuje další pik. Západ musí klidně vrátit další pik. Vydražitel musí nakonec rozehrát trefy, neúspěšně impasuje a po vrácení trefů padá.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+AQ73
+</spades>
+<hearts>
+A84
+</hearts>
+<diamonds>
+J83
+</diamonds>
+<clubs>
+T54
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KJT84
+</spades>
+<hearts>
+J73
+</hearts>
+<diamonds>
+K6
+</diamonds>
+<clubs>
+AJ3
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+62
+</spades>
+<hearts>
+952
+</hearts>
+<diamonds>
+Q954
+</diamonds>
+<clubs>
+K876
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+95
+</spades>
+<hearts>
+KQT6
+</hearts>
+<diamonds>
+AT72
+</diamonds>
+<clubs>
+Q92
+</clubs>
+</hand>
+</distribution>
+<contract value="3SS" />
+<leadcard value="KH">
+K srdcový
+</leadcard>
+<p>
+Vydražitel propustí a Západ nebude pokračovat po negativním náznaku partnera v srdcích a ponese trumf. Vydražitel vezme a dalším trumfnutím dotrumfuje, pak vezme své eso srdcové a pustí Západ do zdvihu na další srdce. Ten je donucen vynést novou barvu, dejme tomu tref, stůl dá malou, partner krále a vydražitel eso, načež vrátí opět tref, Západ vezme a výnosem třetího trefu porazí závazek hlavního hráče.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+KQ64
+</spades>
+<hearts>
+T62
+</hearts>
+<diamonds>
+864
+</diamonds>
+<clubs>
+KQ6
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AJT93
+</spades>
+<hearts>
+K84
+</hearts>
+<diamonds>
+A2
+</diamonds>
+<clubs>
+AT8
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+752
+</spades>
+<hearts>
+953
+</hearts>
+<diamonds>
+KT53
+</diamonds>
+<clubs>
+743
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+8
+</spades>
+<hearts>
+AQJ7
+</hearts>
+<diamonds>
+QJ97
+</diamonds>
+<clubs>
+J952
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="Qd">
+Q kárová
+</leadcard>
+<p>
+Dámu je nutno převzít, hlavní hráč tak nesmí propustit z obavy o podnesení srdcového krále. Kdyby to Východ neudělal, vydražitel by vzal kára v druhém kole, vytrumfoval by, vymýtil by trefy a poslední káro snapnutím tak, aby byl nakonec na stole, vynesl by srdci a pokud Východ přiloží malou, dostane položením osmičky Západ do nuceného výnosu.
+</p>
+</example>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+AQ4
+</spades>
+<hearts>
+QT974
+</hearts>
+<diamonds>
+743
+</diamonds>
+<clubs>
+AT
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+T83
+</spades>
+<hearts>
+AKJ8532
+</hearts>
+<diamonds>
+AQ
+</diamonds>
+<clubs>
+2
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+J962
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+9862
+</diamonds>
+<clubs>
+J7543
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+K75
+</spades>
+<hearts>
+6
+</hearts>
+<diamonds>
+KJT5
+</diamonds>
+<clubs>
+KQ986
+</clubs>
+</hand>
+</distribution>
+<contract value="6HS" />
+<leadcard value="Kc">
+K trefový
+</leadcard>
+<p>
+Vydražitel vezme, vytrumfuje, odsnapuje tref, pak udělá pikový impas, obehraje pik a může dostat Západ do nuceného výnosu na jeho pikového krále, pokud nebude tak chytrý, že ho ve druhém zdvihu odhodí. Kdyby byl dostatečně předvídavý i hlavní hráč, udělal tento manévr v pikách již dříve, než se obráncům rozsvítí.
+</p>
+</example>
+<p>
+Kvíz pro samostatné řešení:
+</p>
+<example number="6">
+<distribution>
+<hand position="north">
+<spades>
+QJ92
+</spades>
+<hearts>
+765
+</hearts>
+<diamonds>
+743
+</diamonds>
+<clubs>
+AQ6
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AK764
+</spades>
+<hearts>
+J83
+</hearts>
+<diamonds>
+AQ8
+</diamonds>
+<clubs>
+75
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+T5
+</spades>
+<hearts>
+92
+</hearts>
+<diamonds>
+J652
+</diamonds>
+<clubs>
+JT983
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+83
+</spades>
+<hearts>
+AKQT4
+</hearts>
+<diamonds>
+KT9
+</diamonds>
+<clubs>
+K42
+</clubs>
+</hand>
+</distribution>
+<contract value="3SS" />
+<leadcard value="KH">
+K srdcový
+</leadcard>
+<p>
+Do výnosu by měl partner kladně markovat, z čehož Západ dešifruje dubl partnera a do třetího zdvihu vynese desítku, aby partner snapl a vynesl káro, čímž bude hlavní hráč poražen.
+</p>
+</example>
+<literature>
+<li>
+E. Kaplan	Pokročilá sehrávka	str. 42-46
+</li>
+</literature>
+</lesson>

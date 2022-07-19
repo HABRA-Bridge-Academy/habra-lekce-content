@@ -1,0 +1,286 @@
+<lesson year="2" title="Plán obrany v BT" number="16" updatedAt="2021-08-14 23:40:58">
+<p>
+Obránci nemají možnost naplánovat svůj postup tak přesně, protože žádný z nich nevidí list svého partnera. Každý z obránců však zná úkol – vypracovat dlouhou barvu dříve, než tak učiní vydražitel.
+</p>
+<p>
+Z tohoto důvodu jejich otvírající výnos proti závazkům v BT bude obyčejně v jejich nejdelší barvě. Je-li taková barva vedená sledem tří honérů nebo přerušeným sledem, tj. dvěma sousedními honéry, za nimiž následuje karta jen o jeden stupeň nižší než ta, která by do sledu tří karet patřila (K,Q,10, Q,J,9), vyneste nejvyšší z honérového sledu. Jestliže tato barva není sledem, vynášejte čtvrtou barvu shora. Předpokládejme, že protivníci licitovali 1BT-3BT a Vy máte vynášet z těchto listů:
+</p>
+<p>
+(1)
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+KJ953
+</spades>
+<hearts>
+JT9
+</hearts>
+<diamonds>
+A82
+</diamonds>
+<clubs>
+63
+</clubs>
+</hand>
+</distribution>
+<p>
+(2)
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+JT853
+</spades>
+<hearts>
+JT9
+</hearts>
+<diamonds>
+AK2
+</diamonds>
+<clubs>
+63
+</clubs>
+</hand>
+</distribution>
+<p>
+Z obou těchto listů byste měli vynést piky, Vaši nejdelší barvu. Z listu (1) vynesete pětku – nemáte v barvě sled, tak tedy nesete čtvrtou shora. Z listu (2) vynesete J – Vaše barva je vedena přerušeným sledem tří karet.
+</p>
+<p>
+Zajisté nevynesete vždycky od své nejdelší barvy. Jestliže ji protivníci nabízeli, měli byste se pokusit uhádnout, kterou nejdelší barvu má partner a vynést ji. Když např. protivníci licitovali 1p-2k-2BT-3BT a Vy máte vynášet z některého z uvedených listů, nevynášejte piky. Zkuste to s klukem srdcovým. Při pokusu o uhádnutí partnerovy barvy je nelicitovaná drahá barva často dobrou sázkou. Protivníci mohli upustit od nabízení dlouhé levné barvy, ale pravděpodobně by dlouhou drahou barvu nabídli, kdyby ji měli. A nemají-li v ní délku protivníci, partner ji bude mít.
+</p>
+<p>
+Podobně když partner nabízel nějakou barvu, měli byste mít silné nutkání vynést jeho dlouhou barvu, ne svou vlastní. Není to příkazem, když partnerova nabídka byla otevírající nabídkou, protože tím slibuje sílu listu, nikoliv silnou barvu. V tom případě můžete vynést místo jeho barvy svou dlouhou barvu, ale nezapomínejte, že přitom musíte vynášet od svých honérů, zatímco byste mohli vynášet proti honérům partnerovým. Když však zasáhl partner přelicitováním a slíbil tak dlouhou a silnou barvu, bylo by rozhodně zradou, kdybyste vynesli něco jiného. Jedinou omluvou by bylo, že máte v této barvě šikenu a i pak by bylo na místě omluvit se. V jednom z našich příkladů hráč, který vynášel, měl:
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+63
+</spades>
+<hearts>
+962
+</hearts>
+<diamonds>
+A63
+</diamonds>
+<clubs>
+T8542
+</clubs>
+</hand>
+</distribution>
+<p>
+Vynesl pikovou šestku, ne trefovou čtyřku, protože jeho partner zasáhl přelicitováním v pikách. Častým polovičním účelem přelicitování je říci partnerovi, co má vynášet. Bylo by jen furianstvím, kdyby vynesl od nějaké své chabé barvy, a pak moudře vysvětloval, že protivníci nabídli BT po Vaší barvě. Předpokládá se, že by měl věřit Vám a ne nepříteli.
+</p>
+<p>
+Jakmile se už jednou vynese (otvíracím výnosem), obránci by se měli cítit být vážně zavázáni k tomu, aby pokračovali ve hře této barvy, kdykoliv se dostanou do výnosu. Obránci, kteří se snaží vypracovat dvě barvy, obvykle skončí tím, že nevypracují ani jednu a závod prohrají. Naproti tomu obránci, kteří vypracovávají jen jednu barvu, mají dobrou šanci, že v ní udělají délkové zdvihy. Odhadoval bych, že ve dvou třetinách všech manšových závazků v BT mohou obránci vypracovat nějakou dlouhou barvu, k čemuž jim dopomůže to, že s ní mohou začít otvírajícím výnosem.
+</p>
+<p>
+Důvodem k tomu, že daleko méně než dvě třetiny bezových závazků bývá poraženo, je to, že obránce, který drží délkové vypracované karty, má často potíže dostat se do výnosu, aby je mohl vzít domů. Problémem přitom jsou vstupy. Při obraně je nutné plánovat o trochu víc než jen opětné vynášení dlouhé barvy, dokud se nevypracuje. Klíčovým principem přitom je: Když vypracováváte svou vlastní dlouhou barvu, snažte se ušetřit své vysoké karty, na něž uděláte zdvihy, jako vstupy pro dobu, kdy budou už Vaše malé karty vysoké. Když vypracováváte barvu svého partnera, snažte se použít Vašich vstupů co nejdříve, abyste znovu vynesli jeho barvu a abyste mu ušetřili jeho honéry jako vstupy na pozdější dobu. Dobrým příkladem je toto rozdání:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+QJ4
+</spades>
+<hearts>
+AQT42
+</hearts>
+<diamonds>
+J74
+</diamonds>
+<clubs>
+J9
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+63
+</spades>
+<hearts>
+963
+</hearts>
+<diamonds>
+A63
+</diamonds>
+<clubs>
+T8542
+</clubs>
+</hand>
+</distribution>
+<leadcard value="6S" />
+<p>
+Vynášíte pikovou šestku, na niž padne ze stolu kluk, partnerův král a vydražitelovo eso. Vydražitel nese dvojku károvou. Musíte vyrukovat se svým esem a znovu vynést pikovou trojku. „Druhý nedá nic“ není z desatera svatých přikázání. Cílem Vaší obrany je vypracovat partnerovu barvu, tak tedy musíte nasadit své zádrže (winéry) co nejdříve a ušetřit partnerovi jeho vstupy.
+</p>
+</example>
+<p>
+Takováto obrana je celkem jednoduchá, když dobře víte, co vlastně chcete. Nepovažujte se však za ďábelského obranáře, dokud nezahrajete takto:
+</p>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+A5
+</spades>
+<hearts>
+862
+</hearts>
+<diamonds>
+QJ853
+</diamonds>
+<clubs>
+AT6
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+764
+</spades>
+<hearts>
+KT75
+</hearts>
+<diamonds>
+K64
+</diamonds>
+<clubs>
+542
+</clubs>
+</hand>
+</distribution>
+
+
+<contract value="3NTS" />
+<leadcard value="QS" />
+<p>
+Vydražitel otevřel licitaci 1BT, dummy zvýšil na 3BT. Partner vynese pikovou dámou, kterou stůl přebije esem. Ze stolu je vynesena trojka kárová. Musíte položit svého krále! Má-li vydražitel eso nebo, což by bylo ještě horší, kdyby měl partner singl eso, uhrál by vydražitel překvapivě mnoho zdvihů. Vy se však snažíte závazek porazit a toho nelze docílit, nemá-li partner obsazené eso kárové. A i v tom případě se toho nedocílí, když byste nechránili partnerovo eso jako jeho pozdější vstup k jeho vypracovaným pikům. Proto pošlete ihned svého krále do boje a omluvte se pak, kdyby se to ukázalo špatným. Vaše hra by byla správná, i když by se s ní prohrálo, ale bylo by mařením času o tom partnera přesvědčovat.
+</p>
+<p>
+Při obraně není vždy správné pokračovat v barvě původně vynesené. Někdy je otvírající výnos chybným krokem a chyba by měla být včas napravena. Zde je příklad takového rozdání:
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+T84
+</spades>
+<hearts>
+J53
+</hearts>
+<diamonds>
+KJ96
+</diamonds>
+<clubs>
+KT2
+</clubs>
+</hand>
+
+<hand position="east">
+<spades>
+A3
+</spades>
+<hearts>
+A8762
+</hearts>
+<diamonds>
+QT5
+</diamonds>
+<clubs>
+843
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="2S">
+2 pikovou
+</leadcard>
+<p>
+Vydražitel otevřel licitaci 1BT, dummy zvýšil na 2BT a vydražitel nabídl 3BT. Partner vynese pikovou dvojku a Vy vezmete svým esem. Přejděte na srdcovou šestku! Proč? Protože partner má jen 4-listou barvu. Vynáší svou čtvrtou shora, kdyby měl 5-list, musel by mít ještě jednu kartu nižší než vynesenou, ale on vynesl dvojku. Stejné by to bylo, kdyby vynesl pětku a kdyby vydražitel dal dvojku pod Vaše eso, když vidíte čtyřku, trojku a dvojku, partner musí mít jen 4-list. Proto má vydražitel rovněž čtyři piky a není to tedy dobrá barva pro útok. Snad není ještě příliš pozdě k vypracování Vaší délky v srdcích.
+</p>
+<p>
+Musíte si osvojit sledování kartinek nižších, než je ta, kterou partner vynesl. To Vám řekne, zda je jisté, pravděpodobné nebo nemožné, že partner má dlouhou barvu. Ukáže-li se, že partnerova délka je pět nebo více karet, měli byste skoro vždy v této barvě pokračovat. Vynesl-li však partner od 4-listu, měli byste uvažovat o změně barvy, zejména když víte, že nepřítel má ve vynesené barvě rovněž čtyři karty.
+</p>
+</example>
+<example number="4">
+<p>
+Jiná situace, při níž změníte barvu, nastane, když Vám partner signalizuje, abyste tak učinili. Posuďte např. tento list:
+</p>
+<distribution>
+<hand position="north">
+<spades>
+J2
+</spades>
+<hearts>
+765
+</hearts>
+<diamonds>
+KJ62
+</diamonds>
+<clubs>
+K873
+</clubs>
+</hand>
+</distribution>
+<distribution>
+<hand position="west">
+<spades>
+T94
+</spades>
+<hearts>
+KQT43
+</hearts>
+<diamonds>
+874
+</diamonds>
+<clubs>
+J5
+</clubs>
+</hand>
+</distribution>
+<leadcard value="3?">
+3BT
+</leadcard>
+<leadcard value="KH" /><p>
+Proti 3BT vynesete srdcového krále. Stůl dá pětku, partner osmičku vydražitel devítku. Přejděte na pikovou desítku! Proč? Protože beze všech pochyb má vydražitel v srdcích A,J a Váš další výnos srdcí by směřoval rovnou do otevřených kleští jeho pasti. Partner může mít v srdcích tyto kombinace:
+</p>
+<p>
+a) J,8,2 b) A,8,2 c) J,8 d) A,8 e) 8,2 f) 8
+</p>
+<p>
+S a) nebo b) partner musí signalizovat dvojkou, aby Vám řekl „Pokračuj!“. S c) partner musí odhodit svého kluka na Vašeho krále, a to jak proto, aby nezablokoval tuto barvu, tak proto, abyste se dozvěděli, že tuto barvu má. A s d) partner musí převzít Vašeho krále z týchž důvodů. Partner si nesmí nechat singlového honéra ve Vaší dlouhé barvě! Proto partner musí mít jen možnost e) nebo f) a pokračování v této barvě by mohlo být osudným.
+</p>
+<p>
+Lehce se pochopí partnerova osmička jako signál, kterým Vás chce od pokračování v této barvě odradit, ale co se čtyřkou nebo šestkou – kde je oddělující linie mezi odhozem nízké karty „Pokračuj!“ a vysoké karty „Změň barvu!“? Žádná hranice neexistuje. Partner by Vás měl povzbuzovat svou nejnižší kartinkou, kterou má, nebo Vás odrazovat svou nejvyšší kartinkou, kterou si může dovolit odhodit. Tedy vynesete-li krále a má-li on Q,9,8,7, položí sedmičku, má-li 3,2, dá trojku. Jak můžete říct, že sedmička znamená povzbuzení a trojka odrazení? Podíváte se po malých kartách, které jsou nižší než ta, kterou signalizoval. Dá-li partner sedmičku a Vy vidíte 6 a 2, budete v barvě pokračovat. Hodí-li však partner trojku a Vy nevidíte nižší karty, tj. 2 spadnout do zdvihu, změníte barvu. Předpokládejme, že Vaše srdcová barva je v našem posledním příkladě rozdělena takto:
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+AJ2
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+765
+</spades>
+</hand>
+<hand position="LHO">
+<spades>
+KQT43
+</spades>
+</hand>
+<hand position="RHO">
+<spades>
+98
+</spades>
+</hand>
+</distribution>
+<p>
+Nesete krále, stůl dá pětku, partner devítku, vydražitel dvojku. Víte, že partner odhodil svou nejvyšší kartu, proto musíte změnit barvu. Úspěšný hráč bridže je vzácným ptáčkem – hlídá orlím zrakem kartinky. Po čem stále pátrá, jsou chybějící malé karty nižší než ta, kterou použil jako signál partner nebo protivník.
+</p>
+</example>
+<literature>
+<li>
+E. Kaplan	Pokročilá sehrávka	str. 3-5
+</li>
+</literature>
+</lesson>

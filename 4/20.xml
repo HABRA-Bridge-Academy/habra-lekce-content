@@ -1,0 +1,346 @@
+<lesson year="4" title="Pokročilá dražba po 1BT" number="20" updatedAt="2021-08-03 20:56:56">
+<p>
+Nejprve si připomeňme, jak po 1BT dosud dražíme:
+</p>
+<p>
+2t ! Stayman, tj. 8+ s alespoň jedním drahým 4-listem
+</p>
+<p>
+2k,s ! 5+list, 0+b., transfer
+</p>
+<p>
+2p ! dotaz na levné barvy
+</p>
+<p>
+2BT 8-9b. bez drahého 4-listu
+</p>
+<p>
+3t,k,s,p 12+b., GF, pokus o slem, 6+list
+</p>
+<p>
+Dnes si podáme k jednotlivým variantám více vysvětlení a přidáme dražbu na čtvrtém stupni:
+</p>
+<p>
+4t Gerber, 17+, dotaz na počet es
+</p>
+<p>
+4k transfer do 4s
+</p>
+<p>
+4s transfer do 4p
+</p>
+<p>
+4BT 16b., pravidelná rozloha, kvantitativní hláška
+</p>
+<p>
+Kdy se ptáme hláškou 2p na levnou barvu?
+</p>
+<p>
+1BT – 2p !
+</p>
+<p>
+2BT ! = stejně dlouhé trefy a kára nebo kára delší
+</p>
+<p>
+3t ! = trefy delší než kára
+</p>
+<p>
+v případě, že máme levnou drahou barvu, nechceme hrát 1BT a raději budeme hrát 3 v levné, po odpovědi partnera buď zapasujeme, pokud dražil tref a chceme trefy hrát, nebo dražíme levnou barvu
+</p>
+<p>
+v případě, že máme obě levné barvy dlouhé (alespoň 4-4) a chceme hrát levný slem. Po partnerově odpovědi, která vyjadřuje jeho situaci v levných barvách nesmíme skončit stophláškou (což jsou 3t nebo 3k), každá forsující hláška znamená, že chci hrát slem. Levná barva na čtvrtém stupni bude znamenat výzvu ke cue-bidování (cue-bidy si probereme letos ve 27. lekci), každá nová barva je už rovnou cue-bid a tedy odsouhlašení barvy nadražené partnerem po 2p, pět v levné barvě je stopka a 4BT Blackwood.
+</p>
+<p>
+Kdy dražíme 4BT?
+</p>
+<p>
+V případě, že máme přesně 16b. a rovnovážnou rozlohu. Partner draží s 15b. pas, se 16 body odpovídá počet es jako na zkráceného Blackwooda a se 17b. draží 6BT. Tento způsob dražby používáme i po transferu se 16b. a rozlohou 5-3-3-2 a drahým 5-listem.
+</p>
+<p>
+Kdy dražíme 4t?
+</p>
+<p>
+V případě, že se pokoušíme minimálně o malý beztrumfový slem a zajímá nás jen počet es a králů. Partner odpovídá takto: 1. stupeň 0 nebo 3 esa, 2. stupeň 1 eso, 3. stupeň 2 esa bez krále, 4. stupeň 2 esa a 1 král atd. Po odpovědi partnera se můžeme doptat na krále a na dámy, pokud chceme hrát velký slem.
+</p>
+<p>
+Kdy dražíme 4k nebo 4s?
+</p>
+<p>
+V případě, že chceme hrát právě jen drahou hru a nemáme zájem o slem. Je to v případě, že naše síla je opřena především o drahý dlouhý list (musím mít pochopitelně minimálně 6-list). Partner zadraží barvu transferu a tím dražba skončí.
+</p>
+<p>
+Co v případě, že mám drahý 5-list s dalším 4-listem?
+</p>
+<p>
+Pak záleží na tom, kolik máme bodů. Rozdělíme si to do tří zón.
+</p>
+<p>
+10 a více bodů, mancheforcing – dražte nejdříve transfer a pak vedlejší 4-list
+</p>
+<p>
+7-9 bodů, výzva – dražte 2t Stayman, když máte 4-list drahý, a pokud neuslyšíte drahou barvu, dražte 5-list, při levném 4-list dražte transfer do pasu nebo do 2BT
+</p>
+<p>
+méně bodů, stopka – dražte transfer na drahou barvu a pasujte
+</p>
+<p>
+Co v případě, že mám drahý 5-list s dalším 5-listem?
+</p>
+<p>
+Tato situace nenastává příliš často, je možné podržet se stejných zásad, jaké byly popsány v předchozím odstavci.
+</p>
+<p>
+Příklady:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+A8
+</spades>
+<hearts>
+KJ93
+</hearts>
+<diamonds>
+KJT6
+</diamonds>
+<clubs>
+KJ8
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KJ6
+</spades>
+<hearts>
+AQ7
+</hearts>
+<diamonds>
+A84
+</diamonds>
+<clubs>
+Q752
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1NT" />
+<bid value="4NT" />
+<bid value="5d" />
+<bid value="6NT" />
+<bid value="pass" />
+</auction>
+<p>
+Kvantitativka - s minimem pas, s maximem 6BT, s 16b. odpověď na Blackwooda, odpovídající by tak měl dražit i s drahým 4-listem při pravidelné rozloze (zvláště s 4-3-3-3).
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+AQT7
+</spades>
+<hearts>
+K75
+</hearts>
+<diamonds>
+AKT6
+</diamonds>
+<clubs>
+T4
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+92
+</spades>
+<hearts>
+8643
+</hearts>
+<diamonds>
+8
+</diamonds>
+<clubs>
+QJ9753
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1NT" />
+<bid value="2S" />
+<bid value="2NT" />
+<bid value="3c" />
+<bid value="pass" />
+</auction>
+<p>
+Raději než 1BT chci hrát 3 trefy.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+AQT7
+</spades>
+<hearts>
+K3
+</hearts>
+<diamonds>
+QJT6
+</diamonds>
+<clubs>
+KJ8
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K63
+</spades>
+<hearts>
+AQT864
+</hearts>
+<diamonds>
+53
+</diamonds>
+<clubs>
+T9
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1NT" />
+<bid value="4d" />
+<bid value="4H" />
+<bid value="pass" />
+</auction>
+<p>
+Nepomýšlím na slem, chci hrát přesně 4 srdce.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+AQT
+</spades>
+<hearts>
+K82
+</hearts>
+<diamonds>
+KJT6
+</diamonds>
+<clubs>
+KJ8
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KJ654
+</spades>
+<hearts>
+A743
+</hearts>
+<diamonds>
+85
+</diamonds>
+<clubs>
+T6
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="S">
+<bid value="1NT" />
+<bid value="2c" />
+<bid value="2d" />
+<bid value="2S" />
+<bid value="4S" />
+<bid value="pass" />
+</auction>
+<p>
+Při 5-4 v drahých s body na výzvu dražím přes Staymanna a po případné odpovědi 2k dražím delší drahou, čímž přesně popíšu co mám (7-9 b., 5-4 v drahých, dražil jsem delší).
+</p>
+</example>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+AQT7
+</spades>
+<hearts>
+K3
+</hearts>
+<diamonds>
+QJT6
+</diamonds>
+<clubs>
+KJ8
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K532
+</spades>
+<hearts>
+Q764
+</hearts>
+<diamonds>
+8753
+</diamonds>
+<clubs>
+9
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="S">
+<bid value="1NT" />
+<bid value="2c" />
+<bid value="2S" />
+<bid value="pass" />
+</auction>
+<p>
+S málo body se mohu pokoušet najít shodu v drahé (mám-li oba drahé 4-listy), ale musím mít také kára (ideálně čtyři, v praxi postačí i tři, abych mohl zapasovat případnou odpověď 2k, protože mým úmyslem je pasovat cokoliv partner řekne).
+</p>
+</example>
+<example number="6">
+<distribution>
+<hand position="north">
+<spades>
+AQT7
+</spades>
+<hearts>
+K3
+</hearts>
+<diamonds>
+QJT6
+</diamonds>
+<clubs>
+KJ8
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K96
+</spades>
+<hearts>
+QJ84
+</hearts>
+<diamonds>
+AK8
+</diamonds>
+<clubs>
+AQ7
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="S">
+<bid value="1NT" />
+<bid value="4c" />
+<bid value="4H" />
+<bid value="6NT" />
+<bid value="pass" />
+</auction>
+<p>
+Gerber
+</p>
+</example>
+</lesson>

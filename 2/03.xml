@@ -1,0 +1,237 @@
+<lesson year="2" title="Plán beztrumfové obrany" number="3" updatedAt="2021-10-18 11:03:41">
+<p>
+Jako má hlavní hráč svou koncepci a snaží se předem naplánovat, jak dosáhne žádaného počtu zdvihů, stejně tak i obránci by měli postupovat metodicky. Mají tu nevýhodu, že neznají karty svého partnera a není proto pro ně snadné najít nejoptimálnější postup, ale mají první výnos. Ten je veden obvykle do nejdelší a nejlépe soupeři nelicitované barvy a říká partnerovi, jestli můžeš, pomoz mi tím, že pokaždé, když se dostaneš do zdvihu, nes svou nejvyšší kartu této barvy a pomáhej mi tak tuto barvu vypracovat. Nejhorší situací je, když obránci, pokud se dostanou v beztrumfech do zdvihu, vynášejí jednou tam, jindy onam bez ladu a skladu. Častou chybou obránců také bývá okamžité odehrání vysokých karet v barvě, kterou vypracovává soupeř.
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+AK
+</spades>
+<hearts>
+AK43
+</hearts>
+<diamonds>
+JT975
+</diamonds>
+<clubs>
+K5
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+653
+</spades>
+<hearts>
+T98
+</hearts>
+<diamonds>
+Q43
+</diamonds>
+<clubs>
+A972
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+842
+</spades>
+<hearts>
+J7
+</hearts>
+<diamonds>
+AK82
+</diamonds>
+<clubs>
+JT86
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+QJT97
+</spades>
+<hearts>
+Q652
+</hearts>
+<diamonds>
+6
+</diamonds>
+<clubs>
+Q43
+</clubs>
+</hand>
+</distribution>
+<leadcard value="QS" />
+<contract value="3NTS" />
+<p>
+Prvním rozhodnutím v tomto rozdání je, co vynést do 3BT Jihu. Samozřejmě že správná odpověď je dámu pikovou. Piková barva by mohla přinést nějaké zdvihy na malé karty, zvlášť když partner pomůže. Hlavní hráč bere esem na stole, Západ se odblokovává osmičkou a hlavní hráč nese ze stolu malé káro. Zjevně se snaží vypracovat svá kára. Západ bere esem a nesmí udělat tu chybu, že by odehrál i krále a pak teprve poslal svému partnerovi pik. Tím by vypracoval hlavnímu hráči dostatečný počet zdvihů a ten by se mohl smát, jak se mu podařilo splnit nesplnitelný závazek. Je nutno si uvědomit, že beztrumfová hra bývá nejčastěji soubojem o vypracování barvy a ne odehráním nejvyšších karet. Zvláště v případě stoperů v soupeřově dlouhé barvě je to taktika přímo sebevražedná a určitě nepovede k pověsti obávaného obránce, který je vždy nepříjemný.
+</p>
+
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+KQJT
+</spades>
+<hearts>
+J52
+</hearts>
+<diamonds>
+AQ53
+</diamonds>
+<clubs>
+Q6
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A7
+</spades>
+<hearts>
+98
+</hearts>
+<diamonds>
+K7642
+</diamonds>
+<clubs>
+J973
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+8
+</spades>
+<hearts>
+AQT63
+</hearts>
+<diamonds>
+JT
+</diamonds>
+<clubs>
+AK542
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+965432
+</spades>
+<hearts>
+K74
+</hearts>
+<diamonds>
+98
+</diamonds>
+<clubs>
+T8
+</clubs>
+</hand>
+</distribution>
+<p>
+Licitace:
+</p>
+<auction dealer="W">
+<bid value="1H" />
+<bid value="pass" />
+<bid value="pass" />
+<bid value="1S" />
+<bid value="pass" />
+<bid value="1NT" />
+<bid value="pass" />
+<bid value="pass" />
+<bid value="pass" />
+</auction>
+<p>
+Co má nést Západ a jak mají obránci hrát?
+</p>
+<leadcard value="KH" /><p>
+Tady je už dražba dostatečně dobrým vodítkem. Partner má určitě 5-list srdcový. Nejlepší výnos je srdcový král. Ani malé srdce by nebyla katastrofa, ale král je asi lepší. Partner nechá běžet první zdvih, druhý převezme a odehraje zbytek svých srdcí a dva nejvyšší trefy a závazek je poražen. Kdyby Západ vynesl ze své nejdelší barvy, odehrál by si hlavní hráč čtyři nejvyšší piky a pět kár a splnil by závazek s dvěma nadzdvihy.
+</p>
+
+</example>
+<example number="3">
+<p>
+Ve třetím příkladě vám předvedeme jinou možnou strategii boje obránců. Tentokrát nepůjde pouze o vyhrání závodu ve vypracování své dlouhé barvy, budeme také aktivně bránit tomu, aby hlavní hráč vůbec nějakou dlouhou barvu měl:
+</p><distribution>
+<hand position="north">
+<spades>
+64
+</spades>
+<hearts>
+642
+</hearts>
+<diamonds>
+64
+</diamonds>
+<clubs>
+KQJT53
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AK3
+</spades>
+<hearts>
+AK73
+</hearts>
+<diamonds>
+AK32
+</diamonds>
+<clubs>
+42
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+QJT8
+</spades>
+<hearts>
+QJT8
+</hearts>
+<diamonds>
+875
+</diamonds>
+<clubs>
+76
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+9752
+</spades>
+<hearts>
+95
+</hearts>
+<diamonds>
+QJT9
+</diamonds>
+<clubs>
+A98
+</clubs>
+</hand>
+</distribution>
+<p>
+Jih hraje 3BT. Výnos už asi zvládneme – dáma kárová. Vydražitel bere eso a hraje trefy. Jak budeme bránit? Je vidět, že na stůl nejsou žádné vstupy k  hrozivě dlouhým trefům. Otázka zní, jak zabránit hlavnímu hráči, aby si je všechny neodehrál. Odpověď není tak těžká. Musím si ušetřit trefové eso do doby, kdy už nebude moci hlavní hráč vynést své trefy znovu. V našem případě bude nejlepší, položíme-li jej ve druhém kole. Ale protože si obránce nemůže být jist, zda hlavní hráč nemá v ruce tři trefy, neudělá chybu, ani když vezme eso až napotřetí. Vydražitel už závazek nesplní, ať dělá, co dělá.
+</p>
+</example>
+<p>
+V této lekci můžeme také objasnit, proč vynášíme právě čtvrtou shora. Obráncům tak přibude další prvek ke sledování. Pravidlo jedenácti říká, že jestliže partner vynesl čtvrtou shora, pak odečtením hodnoty této karty od jedenáctky zjistím, kolik je vyšších karet než vynesená karta v listech dummyho, Vašem a hlavního hráče. Protože list dummyho je vidět a Váš znáte, zjistíte, kolik vyšších karet než karta vynesená, má hlavní hráč. Např. partner vynesl 7, na stole vidíte Q,8,4 a vy sám máte K,J,5,3. Jedenáct bez sedmi jsou čtyři. Všechny čtyři vyšší karty jsou vidět (dvě na stole a dvě ve Vaší ruce a není tedy třeba přebíjet, sedmička udělá zdvih, pokud byla vynesena jako čtvrtá shora a pokud hlavní hráč nenasadí dámu. Kontrolujte, zda obránci tuto novou vědomost uplatňují.
+</p>
+<literature>
+<li>
+J. Hájek	Bridžová školka	25. lekce
+</li>
+<li>
+E. Kaplan	Základy sehrávky	str. 14-22
+</li>
+<li>
+J. Fišer	Jak se hraje bridž	str. 61-67
+</li>
+<li>
+P. Mokráň	Bridž rýchlo a dobre	str. 261-262
+</li>
+<li>
+A. Sheinwold	Sehrávka	str. 264-265
+</li>
+</literature>
+</lesson>

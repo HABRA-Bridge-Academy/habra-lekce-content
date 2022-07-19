@@ -1,0 +1,367 @@
+<lesson year="2" title="Plán barevné obrany – Délka" number="29" updatedAt="2021-08-15 22:42:01">
+<p>
+Podívejme se na plán využití délky očima obrany. Pokud vypozoruje obrana takovouto aktivitu, pak je třeba odehrát si své zdvihy dřív, než hlavní hráč stačí ztrátové zdvihy smazat. Zmíníme se zde také o markování figurou ze sledu. Zde jsou příklady:
+</p>
+
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+AQT9
+</spades>
+<hearts>
+T53
+</hearts>
+<diamonds>
+7
+</diamonds>
+<clubs>
+87653
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+7432
+</spades>
+<hearts>
+K64
+</hearts>
+<diamonds>
+A5
+</diamonds>
+<clubs>
+JT94
+</clubs>
+</hand>
+</distribution>
+<leadcard value="6d">
+6 kárová
+</leadcard>
+<p>
+Co hrát proti pikům a co proti trefům?
+</p>
+<p>
+Proti pikům vám trefová barva nebude dělat starosti, trefy se nedělí rovnoměrně a žádná finesa se v ní soupeři nezdaří, reálným nebezpečím jsou kárové snapy. Proti trefům je ale piková barva stolu výborná, a proto je třeba vzít domů rychle své winéry a vynést srdce.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+QT
+</spades>
+<hearts>
+A84
+</hearts>
+<diamonds>
+KJT93
+</diamonds>
+<clubs>
+754
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+K83
+</spades>
+<hearts>
+752
+</hearts>
+<diamonds>
+Q4
+</diamonds>
+<clubs>
+AKJ82
+</clubs>
+</hand>
+</distribution>
+<contract value="4HS" />
+<p>
+Co hrát po obehrání dvou trefů?
+</p>
+<p>
+Hrozivá délka stolu se sedící dámou by vás měla spolehlivě přimět k tomu vynést pik, abyste v této barvě neztratili zdvihy, na které máte nárok.
+</p>
+<p>
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+986
+</spades>
+<hearts>
+T2
+</hearts>
+<diamonds>
+AT753
+</diamonds>
+<clubs>
+AKJ
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K43
+</spades>
+<hearts>
+94
+</hearts>
+<diamonds>
+K64
+</diamonds>
+<clubs>
+QT863
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+Q752
+</spades>
+<hearts>
+QJ53
+</hearts>
+<diamonds>
+J82
+</diamonds>
+<clubs>
+94
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+AJT
+</spades>
+<hearts>
+AK876
+</hearts>
+<diamonds>
+Q9
+</diamonds>
+<clubs>
+752
+</clubs>
+</hand>
+</distribution>
+<contract value="2cS" />
+<leadcard value="KH">
+K srdcový
+</leadcard>
+<p>
+Jak bránit?
+</p>
+<p>
+Úkolem Východu je dostat se do ruky dříve, než hlavní hráč uskuteční své shozy na kára, aby podnesl piky. Pokud do prvního zdvihu odhodí dámu, namarkuje tím junka, kterým se může dostat do ruky.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+Q83
+</spades>
+<hearts>
+J5
+</hearts>
+<diamonds>
+KQJ974
+</diamonds>
+<clubs>
+A4
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AKJT4
+</spades>
+<hearts>
+KT2
+</hearts>
+<diamonds>
+86
+</diamonds>
+<clubs>
+J83
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+95
+</spades>
+<hearts>
+A963
+</hearts>
+<diamonds>
+A53
+</diamonds>
+<clubs>
+KT76
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+762
+</spades>
+<hearts>
+Q874
+</hearts>
+<diamonds>
+T2
+</diamonds>
+<clubs>
+Q952
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="2c">
+2 trefová, vydražitel bere esem, trumfne  esem a králem a nese malé káro.
+</leadcard>
+<p>
+Jak bránit? Po vzetí esem můžeme uhrát své zdvihy v trefech a srdcích. Chceme-li se pokusit hlavního hráče porazit, vynesme malé srdce a vydražitel pak bude muset hádat situaci v srdcích. Doufejte, že neuhodne a dá eso partnerovi a ne vám. Pak položí malou a padne, protože uděláte dva srdcové zdvihy.
+</p>
+</example>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+Q3
+</spades>
+<hearts>
+A92
+</hearts>
+<diamonds>
+A9653
+</diamonds>
+<clubs>
+T92
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AKJT92
+</spades>
+<hearts>
+K65
+</hearts>
+<diamonds>
+84
+</diamonds>
+<clubs>
+86
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+865
+</spades>
+<hearts>
+QT84
+</hearts>
+<diamonds>
+KJ
+</diamonds>
+<clubs>
+AJ74
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+74
+</spades>
+<hearts>
+J73
+</hearts>
+<diamonds>
+QT72
+</diamonds>
+<clubs>
+KQ53
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="Kc">
+K trefový
+</leadcard>
+<p>
+Východ vidí délku stolu. Musí se pokusit buď vzít své winéry domů nebo zaútočit na vstupy stolu. Obojí najednou provede, když převezme tref a vynese srdci. Hlavní hráč ponese káro, Východ vezme a opět vynese srdci a milý hlavní hráč už srdci nezahodí.
+</p>
+</example>
+<p>
+Samostatný úkol:
+</p>
+<example number="6">
+<distribution>
+<hand position="north">
+<spades>
+A86
+</spades>
+<hearts>
+AQ5
+</hearts>
+<diamonds>
+764
+</diamonds>
+<clubs>
+AQJ9
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+2
+</spades>
+<hearts>
+KJT8742
+</hearts>
+<diamonds>
+K93
+</diamonds>
+<clubs>
+T6
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+J94
+</spades>
+<hearts>
+93
+</hearts>
+<diamonds>
+J852
+</diamonds>
+<clubs>
+K843
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+KQT753
+</spades>
+<hearts>
+6
+</hearts>
+<diamonds>
+AQT
+</diamonds>
+<clubs>
+752
+</clubs>
+</hand>
+</distribution>
+<contract value="4HS" />
+<leadcard value="KS">
+K pikový
+</leadcard>
+<p>
+Hlavní hráč vezme esem, dvakrát trumfne a zahraje impas trefový. Východ musí okamžitě vynést kárového kluka, aby si obrana včas stáhla všechna svá kára. Hlavní hráč splní, když v prvním zdvihu propustí krále a nechá u zdvihu Západ. Pak bude moci po trefovém pokračování vzít esem, zahodit na pik tref a trumfovým impasem v trefech poshazovat dvě kára.
+</p>
+</example>
+<literature>
+<li>
+E. Kaplan	Pokročilá sehrávka	str. 35-39
+</li>
+</literature>
+</lesson>

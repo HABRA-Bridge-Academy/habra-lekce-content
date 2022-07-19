@@ -1,0 +1,379 @@
+<lesson year="4" title="Eliminace – Eliminace jako alternativa" number="15" updatedAt="2021-08-03 20:52:36">
+<example number="1">
+<p>
+K,8,6,4 7,6,2 K,9,6 Q,5,3 Závazek: 3BT
+</p>
+<p>
+A,5,3 A,Q,4 A,5,3 A,K,7,2 Výnos: kQ
+</p>
+<contract value="3NTS" />
+<leadcard value="Qd">
+kQ
+</leadcard>
+<p>
+Jih zahájil dražbu hláškou dva bez trumfů, které Sever zvýšil na tři. Jak má Jih sehrávat po výnosu károvou dámou?
+</p>
+<p>
+Většina eliminačních her se vyskytuje při sehrávání barevných závazků, ale tatáž technika může být uplatněna i při sehrávání beztrumfového závazku, i když zde pro obránce nehrozí možnost přebitku a odhozu. Hlavní hráč učinil několik pokusů jak získat devátý zdvih, ale všechny selhaly, protože zvolil špatnou techniku. Jelikož neviděl žádný důvod pro to, aby první zdvih propustil, vzal károvým esem v ruce. Měl osm rychlých zdvihů a devátý mohl získat, kdyby se jedna z černých barev dělila 3-3 nebo srdcovým impasem. Aby si zachoval všechny možnosti, vynesl k dalšímu zdvihu z ruky malý pik, a když Západ dal kluka, zdvih propustil. Západ pokračoval károvým klukem a zde udělal hlavní hráč velikou chybu, když tento zdvih propustil, protože karty obránců vypadaly takto:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+T972
+</spades>
+<hearts>
+T95
+</hearts>
+<diamonds>
+42
+</diamonds>
+<clubs>
+T986
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+QJ
+</spades>
+<hearts>
+KJ83
+</hearts>
+<diamonds>
+QJT87
+</diamonds>
+<clubs>
+J4
+</clubs>
+</hand>
+</distribution>
+<p>
+Západ pokračoval třetím kárem, na které Východ odhodil srdce, hlavní hráč po vzetí zdvihu zahrál tři trefy shora, ale když zjistil nepříznivou rozlohu, zkusil piky. Ty se ovšem také nepodělily dobře. S poznámkou: „Dnes nemám den,“ zkusil srdcový impas a ani nebyl velice překvapen, když Západ vzal králem. Ten si odehrál dva kárové zdvihy a hlavní hráč jednou padl.
+</p>
+<p>
+Hlavní hráč se dopustil té chyby, že si neponechal výnosovou kartu. Měl vzít druhé káro králem a zkusit černé barvy, jak to udělal. Když se ukázalo, že obě černé barvy netáhnou, mohl vynést károvou devítku a Západ, který se tak dostane do zdvihu, si sice odehraje své vysoké zdvihy, ale pak bude muset vynést od srdcového krále.
+</p>
+<p>
+Závěr: Když se zdá, že splnění závazku záleží na zahrání nějakého impasu, odložte jeho zahrání až na nejpozdější možnou dobu. Často se stane, že se mu budete moci úplně vyhnout.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+Q653
+</spades>
+<hearts>
+A642
+</hearts>
+<diamonds>
+A72
+</diamonds>
+<clubs>
+94
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A8742
+</spades>
+<hearts>
+K93
+</hearts>
+<diamonds>
+KQ4
+</diamonds>
+<clubs>
+J5
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="Kc">
+tK, tA, kJ
+</leadcard>
+<p>
+Jih zahájil dražbu hláškou jeden pik a po skoku Severu na tři piky, dorazil na čtyři piky. Západ si odehrává krále a eso trefové, a pak vynáší kárového kluka. Jak má Jih závazek splnit?
+</p>
+<p>
+Listy se příliš nedoplňují (dubl ve stejné barvě) a vyhlídky na splnění jsou chabé. Ať už jsou piky děleny jakkoliv, Jih musí odevzdat nejméně jeden trumfový a není příliš zřejmé, jak se vyhnout ztrátě v srdcích. Existuje zde pouze jediná cesta, aby se na trumfový zdvih dostal hráč, který má v ruce pouze dvě srdce. V tomto rozdání tato možnost existuje:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+KT
+</spades>
+<hearts>
+QT
+</hearts>
+<diamonds>
+8653
+</diamonds>
+<clubs>
+QT876
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+J9
+</spades>
+<hearts>
+J875
+</hearts>
+<diamonds>
+JT9
+</diamonds>
+<clubs>
+AK32
+</clubs>
+</hand>
+</distribution>
+<p>
+Jih odehrává pikové eso, ale pak už nepokračuje v trumfech, dokud nevyeliminuje srdce a kára. Odehrává tedy dvě vysoká srdce a dvě další kára a vynáší malý trumf. Má štěstí, protože Východ, který bere zdvih králem, už nemá srdce a musí vynést káro nebo tref do přebitku a odhozu.
+</p>
+<p>
+Závěr: Toto byl příklad na čistou eliminaci pro odhoz a přebitek. Na tyto naděje je třeba dbát tehdy, kdy v pozici neexistují žádné impasové možnosti, které by přinesly nějaký zdvih navíc.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+5
+</spades>
+<hearts>
+K4
+</hearts>
+<diamonds>
+87653
+</diamonds>
+<clubs>
+97654
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A4
+</spades>
+<hearts>
+A62
+</hearts>
+<diamonds>
+AK2
+</diamonds>
+<clubs>
+KQJ83
+</clubs>
+</hand>
+</distribution>
+<contract value="6cS" />
+<leadcard value="QS">
+pQ
+</leadcard>
+<p>
+Linka N-S se dolicitovala do šesti trefů, které sehrával Jih. Jak si má naplánovat sehrávku po výnosu pikovou dámou?
+</p>
+<p>
+Zdá se, že Jih musí odevzdat dva zdvihy, jeden v trefech a jeden v kárech. Je zde však jedna možnost: jeden obránce může mít singl trefové eso a přitom pouze dvě kára. Jakmile hlavní hráč tuto možnost odhalí, musí na ni zahrát. Po vzetí zdvihu na stole přebije jeden pik trumfem, vyeliminuje srdce tak, že přebije třetí srdce na stole, odehraje dvě vysoká kára a zahraje z ruky trefového krále a odevzdá se osudu. Ten je příznivý, protože obránci měli tyto karty:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+K87632
+</spades>
+<hearts>
+J953
+</hearts>
+<diamonds>
+JT
+</diamonds>
+<clubs>
+A
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+QJT9
+</spades>
+<hearts>
+QT87
+</hearts>
+<diamonds>
+Q94
+</diamonds>
+<clubs>
+T2
+</clubs>
+</hand>
+</distribution>
+<p>
+Východ musí po vzetí zdvihu esem vynést jednu z drahých barev a Jih si v ruce odhodí káro a na stole přebije trumfem. Je pravda, že zahajovací trumfový výnos by závazek porazil, ale Západu celkem nic nelze vyčítat. Jak se dosti často stává, singl trumfová figura je pro obranu nevýhodou.
+</p>
+<p>
+Závěr: Opět, jako už mnohokrát, je třeba při eliminační hře jako jediné šanci splnění závazku hrát na určitou rozlohu u soupeřů, která eliminační hru umožní.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+Q92
+</spades>
+<hearts>
+KJ43
+</hearts>
+<diamonds>
+A632
+</diamonds>
+<clubs>
+AQ
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+J43
+</spades>
+<hearts>
+AQT852
+</hearts>
+<diamonds>
+K8
+</diamonds>
+<clubs>
+64
+</clubs>
+</hand>
+</distribution>
+<contract value="4HS" />
+<leadcard value="Qd">
+kQ
+</leadcard>
+<p>
+Západ vynáší károvou dámu proti závazku Jihu čtyři srdce. Ten bere králem a ve dvou kolech vytrumfovává. Jak má dále pokračovat?
+</p>
+<p>
+Hlavní hráč má dvě možnosti impasu, jak v pikách na desítku, tak v trefech na krále. Jestliže je však oba zahraje, padne v závazku, protože obrana měla tyto karty:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+AT6
+</spades>
+<hearts>
+76
+</hearts>
+<diamonds>
+754
+</diamonds>
+<clubs>
+KT872
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+K875
+</spades>
+<hearts>
+9
+</hearts>
+<diamonds>
+QJT9
+</diamonds>
+<clubs>
+J953
+</clubs>
+</hand>
+</distribution>
+<p>
+Zahraje-li jako první trefový impas, Východ vezme králem a vrátí tref a hlavní hráč je nucen zahrát impas na pikovou devítku, ale opět nemá štěstí. Jak ví každý hráč, který už nějaký ten pátek bridž hraje, kombinace Q,x,x proti J,x,x (dokonce i bez devítky) představuje jistý zdvih, pokud tuto barvu musí nejdříve rozehrát soupeř. Uvědomí-li si to Jih při sehrávce, vidí, že si může dovolit odevzdat oba pikové zdvihy a jeden trefový, a proto si musí naplánovat eliminační sehrávku. Po vytrumfování zahraje káro k esu a kárový přebitek v ruce. Pak přejde na stůl trefovým esem a přebije v ruce poslední káro, načež vynese z ruky malý tref. Je to opět jednoduché, protože Východ bere zdvih králem a musí rozehrát piky. Je nutno poznamenat, že v tom případě, kdy Jih by musel udělat jedenáct zdvihů, měl by zkusit oba impasy a doufat, že oba sedí. Na získání deseti zdvihů je ale třeba hrát bezpečně.
+</p>
+<p>
+Závěr: Jedna dobrá koncovka je daleko cennější než dva špatné impasy.
+</p>
+</example>
+<p>
+Další příklady:
+</p>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+J43
+</spades>
+<hearts>
+652
+</hearts>
+<diamonds>
+KQ84
+</diamonds>
+<clubs>
+K42
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AKQT86
+</spades>
+<hearts>
+K74
+</hearts>
+<diamonds>
+A53
+</diamonds>
+<clubs>
+7
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="Qc">
+tQ
+</leadcard>
+<p>
+Jih sehrává závazek čtyři piky a Západ vynáší trefovou dámu. Jelikož Jih nechce pustit Východ do zdvihu, dává ze stolu malou kartu a Východ také malou. Jak má hlavní hráč pokračovat, když Západ vynáší ke druhému zdvihu trefového kluka?
+</p>
+<p>
+Hlavní hráč přebíjí druhý tref v ruce, a když dvakrát trumfuje, oba obránci přiznávají. Za tohoto stavu může závazek zcela jistě splnit, pokud má srdcové eso Východ nebo pokud jsou kára dělena 3-3.
+</p>
+<distribution>
+<hand position="east">
+<spades>
+72
+</spades>
+<hearts>
+QT98
+</hearts>
+<diamonds>
+92
+</diamonds>
+<clubs>
+A9653
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+95
+</spades>
+<hearts>
+AJ3
+</hearts>
+<diamonds>
+JT76
+</diamonds>
+<clubs>
+QJT8
+</clubs>
+</hand>
+</distribution>
+<p>
+Navíc má ovšem hlavní hráč dodatkovou šanci, i když jsou kára dělena 4-2 se 4-listem u Západu. Musí ovšem zahrát uvážlivě a včas vyeliminovat trefy. Odehraje kárové eso a krále a trefového krále přebije trumfem v ruce. Pak pokračuje kárem k dámě na stole, a když vidí, že čtvrté káro má Západ, je závazek v bezpečí. Zahraje ze stolu káro, na které si odhodí z ruky malé srdce a Západ je přinucen mu zahrát do srdcového krále nebo tref na přebitek a odhoz.
+</p>
+<p>
+Závěr: Někdy si můžete dovolit odevzdat zdvih jednomu z obránců, protože žádný jeho výnos neznamená bezprostřední nebezpečí. Někdy takto odevzdaný zdvih přinutí obránce k výnosu, který pro jeho linku znamená ztrátu zdvihu, což značí, že máte po ruce zcela bezpečnou hru. V rozebíraném rozdání to bylo umožněno zahráním „ztrátové karty na ztrátovou kartu“ (loser-on-loser). Je pravda, že závazek mohl být poražen, ale to by musel mít Východ rentgenové oči, převzít první tref esem a vrátit srdce.
+</p>
+</example>
+<literature>
+<li>
+Reese, Trézel	Eliminace	příklady č. 3,5,26,30,35
+</li>
+</literature>
+</lesson>

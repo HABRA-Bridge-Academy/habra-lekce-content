@@ -1,0 +1,743 @@
+<lesson year="4" title="Bezpečná sehrávka – Specifické kombinace" number="1" updatedAt="2021-08-03 20:49:09">
+<p>
+V prvních čtyřech lekcích se budeme zabývat pojmem, který bridžisté označují jako bezpečná sehrávka. Máme uhrát svůj závazek a pokud možno eliminovat nebezpečí, která skrývají různé kombinace chybějících karet. Nepokoušíme se získat nadzdvihy, ale chceme stoprocentně uhrát své. Toto pojetí je vhodné především v týmové hře.
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+K95
+</spades>
+<hearts>
+43
+</hearts>
+<diamonds>
+AQ2
+</diamonds>
+<clubs>
+K5432
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AJ873
+</spades>
+<hearts>
+65
+</hearts>
+<diamonds>
+K43
+</diamonds>
+<clubs>
+AQ8
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="KH">
+sK, sA, kJ
+</leadcard>
+<p>
+Jih sehrává závazek čtyři piky. Západ odehrává srdcové eso a krále, a pak pokračuje károvým klukem. Jak má Jih sehrávat, aby závazek splnil?
+</p>
+<p>
+Především musí zamezit ztrátě dvou trumfových zdvihů. Může si dovolit odevzdat jeden zdvih v trumfech, protože jinak nemá slabá místa. Byl by to jistě hořký omyl, kdyby odehrál pikového krále s úmyslem impasovat kluka ve druhém kole. To by bylo správné tehdy, kdyby potřeboval všechny zdvihy. Jelikož si však může dovolit odevzdat jeden zdvih, má k dispozici bezpečnou cestu ke splnění závazku, i když karty obránců vypadaly takto:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+6
+</spades>
+<hearts>
+JT987
+</hearts>
+<diamonds>
+8765
+</diamonds>
+<clubs>
+JT9
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+QT42
+</spades>
+<hearts>
+AKQ2
+</hearts>
+<diamonds>
+JT9
+</diamonds>
+<clubs>
+76
+</clubs>
+</hand>
+</distribution>
+<p>
+Má odehrát nejprve pikové eso, a pak vynést malou z ruky a pouze pokrýt kartu zahranou Západem. (Kdyby ovšem Západ nepřiznal, vezme králem a zahraje expas ke klukovi.) Nemusí mít obavu, že Východ získá zdvih, poněvadž pak by byla rozloha u obránců 3-2 a zbytek zdvihů by byl tudíž jeho.
+</p>
+<p>
+Závěr: Máme na lince osm nebo devět karet v barvě, ve které nám chybí dáma s desítkou. Eso s králem jsou na opačných stranách a nemáme jako obvykle odevzdat více než jeden zdvih. V každém z následujících příkladů:
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+AJxxx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+K9x
+</spades>
+</hand>
+</distribution>
+<distribution>
+<hand position="hand">
+<spades>
+K9xxx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+AJxx
+</spades>
+</hand>
+</distribution>
+<distribution>
+<hand position="hand">
+<spades>
+A9xx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+KJxx
+</spades>
+</hand>
+</distribution>
+<p>
+odehráváme vysokou figuru nejprve z listu, který obsahuje kluka, a pak z tohoto listu pokračujeme malou. Přizná-li obránce malou kartu, položíme devítku. Tím se zabezpečujeme proti rozloze 4-1 s Q,10,x,x u kteréhokoliv obránce.
+</p>
+<p>
+Hodnota tohoto způsobu sehrávky tkví v tom, že je zaručeně spolehlivá proti jakékoliv rozloze 4-1 a samozřejmě proti rozloze 5-0 u kteréhokoliv obránce.
+</p>
+<p>
+Západ v tomto příkladě mohl znemožnit bezpečnou sehrávku zahráním třetího srdce do dublšikeny.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+QJ762
+</spades>
+<hearts>
+J2
+</hearts>
+<diamonds>
+AK
+</diamonds>
+<clubs>
+K543
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A943
+</spades>
+<hearts>
+Q3
+</hearts>
+<diamonds>
+QJ42
+</diamonds>
+<clubs>
+AQJ
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="6H">
+s6, sK, k8
+</leadcard>
+<p>
+Další způsob bezpečné sehrávky je vzat z mnohačlenného turnaje družstev. Na lince N-S je mnoho duplicitních hodnot, a tak se některé páry dostaly příliš vysoko, když hrály závazek 5 piků a některé dokonce malý pikový slem. Avšak i ti, kteří se zastavili na čtyřech pikách, klopýtli na úskalí. Obrana si okamžitě odehrála dva srdcové zdvihy, a pak vynesla káro ke králi na stole. Jak má Jih dále pokračovat, když sehrává závazek 4 piky?
+</p>
+<p>
+Pokud by se jednalo o párový turnaj, kde se nadzdvihy nemají házet přes plot, bylo by správné zahrát impas na krále s nadějí na zisk všech zdvihů, pokud by Východ měl K,x nebo K,x,x. Ale při každém jiném způsobu hodnocení je správné přejít trefem do ruky a odtud zahrát malý pik. Takto získal Západ, který měl v pikách K,10,8,5, pouze jeden zdvih, zatímco po impasu dámou by získal zdvihy dva. Zbývající rozloha:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+-
+</spades>
+<hearts>
+AK75
+</hearts>
+<diamonds>
+T8765
+</diamonds>
+<clubs>
+9762
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+KT85
+</spades>
+<hearts>
+T9864
+</hearts>
+<diamonds>
+93
+</diamonds>
+<clubs>
+T8
+</clubs>
+</hand>
+</distribution>
+<p>
+Kdyby měl čtyři piky Východ, což se ukáže v prvním kole, získá zdvih králem, ale pak zbytek zdvihů patří hlavnímu hráči. Kdyby v tomto případě zahrál hlavní hráč nejprve esem, musel by Východu odevzdat dva zdvihy. A konečně není také bezpečné zahrát malou ze stolu a impasovat devítkou, když Východ přizná malý pik. Dva zdvihy jsou pak k odevzdání vždy, když má Západ singl desítku nebo K,10,x.
+</p>
+<p>
+Závěr: Máme-li na lince devět karet s Q,J v jednom a A,9 ve druhém listě jako na příklad:
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+A9xxx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+QJxx
+</spades>
+</hand>
+</distribution>
+<distribution>
+<hand position="hand">
+<spades>
+QJxxxx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+A9x
+</spades>
+</hand>
+</distribution>
+<p>
+Můžeme-li odevzdat jeden zdvih v této barvě, zahrajeme naprosto bezpečně proti jakékoliv rozloze zcela neočekávaně malou od esa. Tento způsob zahrání je stoprocentně bezpečný.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+54
+</spades>
+<hearts>
+QT82
+</hearts>
+<diamonds>
+AK854
+</diamonds>
+<clubs>
+A7
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AK
+</spades>
+<hearts>
+A96543
+</hearts>
+<diamonds>
+QJ
+</diamonds>
+<clubs>
+JT2
+</clubs>
+</hand>
+</distribution>
+<contract value="6HS" />
+<leadcard value="QS">
+pQ
+</leadcard>
+<p>
+Když Jih sehrával závazek šest srdcí, dostal příznivý výnos pikovou dámou. Kdyby dostal trefový výnos, musel by asi vzít esem a zahrát srdce k esu s nadějí, že vypadne král nebo že odhodí trefy na kára stolu. Teď si ovšem mohl dovolit odevzdat jeden trumfový zdvih, ne však dva. Jak zahrát bezpečně?
+</p>
+<p>
+Kdyby byl na stole, zahrál by malé srdce s úmyslem pouze pokrýt kartu zahranou Východem. Nicméně přechod na stůl je problematický, a tak nejbezpečnější je zahrát srdce z ruky. Jelikož obránci měli tyto karty:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+9762
+</spades>
+<hearts>
+KJ7
+</hearts>
+<diamonds>
+93
+</diamonds>
+<clubs>
+K965
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+QJT83
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+T762
+</diamonds>
+<clubs>
+Q843
+</clubs>
+</hand>
+</distribution>
+<p>
+Západ pochopitelně nepřiznal. Desítku stolu pokryl sice Východ klukem, ale dále už byl bezmocný. I když vrátil tref, Jih vzal esem na stole, vyimpasoval srdcového krále, odehrál dvě vysoká kára z ruky, posledním trumfem přešel na stůl a na vysoká kára stolu odhodil z ruky tref.
+</p>
+<p>
+Snadno se dá zjistit, že po odehrání srdcového esa v prvním kole by Jih odevzdal dva trumfové zdvihy na K,J,x Východu. Další ošidnost této kombinace spočívá v zahrání dámy ze stolu na dvojitý Culbertsonovský impas. Kdyby chybějící tři trumfy měl Západ, opět by ztratil dva trumfové zdvihy.
+</p>
+<p>
+Závěr: Při deseti kartách na lince nám chybí král s klukem, eso a dáma nejsou v jednom listě. V následujících ukázkách nesmíme ztratit více než jeden zdvih:
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+Qxxxxx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+ATxx
+</spades>
+</hand>
+</distribution>
+<distribution>
+<hand position="hand">
+<spades>
+Axxxxx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+QT9x
+</spades>
+</hand>
+</distribution>
+<distribution>
+<hand position="hand">
+<spades>
+ATxxx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+Qxxxx
+</spades>
+</hand>
+</distribution>
+<p>
+V žádném případě nesmíme odehrát nejdříve eso. Místo toho musíme vynést malou kartu z toho listu, kde právě jsme (jsme-li ve druhém příkladě na stole, musíme vynést desítku nebo devítku). Vynášíme-li k A,10 a první obránce přidá malou, impasujeme desítkou.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+A5
+</spades>
+<hearts>
+KQ2
+</hearts>
+<diamonds>
+AT5
+</diamonds>
+<clubs>
+AQJ53
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KQJ
+</spades>
+<hearts>
+A65
+</hearts>
+<diamonds>
+K982
+</diamonds>
+<clubs>
+974
+</clubs>
+</hand>
+</distribution>
+<contract value="6NTS" />
+<leadcard value="8H">
+s8
+</leadcard>
+<p>
+V tomto rozdání sehrává Jih závazek šest bez trumfů. Západ vynáší srdcovou osmičku, jak má Jih pokračovat?
+</p>
+<p>
+Hlavní hráč vidí, že pro splnění závazku potřebuje čtyři trefové zdvihy, protože v ostatních barvách jich má osm. Jelikož za jistých podmínek může být důležité zachovat si přechody do ruky, bere zdvih králem na stole a dále odehrává trefové eso. Jelikož zbytek rozdání vypadal takto:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+T9742
+</spades>
+<hearts>
+JT93
+</hearts>
+<diamonds>
+J76
+</diamonds>
+<clubs>
+K
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+863
+</spades>
+<hearts>
+874
+</hearts>
+<diamonds>
+Q43
+</diamonds>
+<clubs>
+T862
+</clubs>
+</hand>
+</distribution>
+<p>
+král Východu vypadl do esa a po odevzdání jednoho trefového zdvihu hlavní hráč slemový závazek splnil. Měl štěstí, že mu vypadl král? Ale kdepak! Jih jen zahrál trefy bezpečně, aby se chránil právě proti singl králi za esem. Kdyby zahrál impas v prvním zdvihu, Západ by si stále ještě podržel trefovou kontrolu a Jih by závazek nesplnil. Předpokládejme, že Východ měl jen singl malý tref, a Západ K,10,8,x. Po odehrání trefového esa by Jih přešel dvakrát do ruky, odkud by vždy zahrál malý tref, čímž by si vypracoval čtyři trefové zdvihy stejně, jako kdyby zahrál v prvním kole impas. Touto bezpečnou sehrávkou ztrácí zdvih jen v případě, když by měl Západ v trefech K,x nebo K,x,x. Tento zdvih však není rozhodující pro splnění závazku.
+</p>
+<p>
+Závěr: Máme na lince osm karet v barvě, a přitom A,Q,J je v jednom listě. Naším úkolem, stejně jako ve většině případů bezpečné sehrávky, je rozehrát tuto barvu tak, abychom v ní odevzdali maximálně jeden zdvih.
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+xxx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+AQJxx
+</spades>
+</hand>
+</distribution>
+<distribution>
+<hand position="hand">
+<spades>
+xxxx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+AQJx
+</spades>
+</hand>
+</distribution>
+<p>
+Nejlepší rozehrání barvy v uvedených příkladech, pokud máme dosti přechodů do listu proti A,Q,J, je odehrát nejprve eso, a pak vynášet vždy proti Q,J,x. Tím se chráníme proti ztrátě zdvihu, je-li král singl za esem. Nic tím neztrácíme, přinejmenším ne důležitý zdvih.
+</p>
+</example>
+<p>
+Další příklady:
+</p>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+KQJ
+</spades>
+<hearts>
+A
+</hearts>
+<diamonds>
+AK654
+</diamonds>
+<clubs>
+K632
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+987
+</spades>
+<hearts>
+JT5432
+</hearts>
+<diamonds>
+3
+</diamonds>
+<clubs>
+AQ7
+</clubs>
+</hand>
+</distribution>
+<contract value="4HS" />
+<leadcard value="Qd">
+kQ
+</leadcard>
+<p>
+Poté, co Jih dvakrát opakoval srdce, Sever nesobecky zvýšil tuto barvu na celou hru. Západ vynesl károvou dámu a Jih viděl, že při odevzdání pikového zdvihu nesmí odevzdat více než dva trumfové zdvihy. Jak měl hrát?
+</p>
+<p>
+První zdvih vzal esem károvým, odehrál srdcové eso a přešel do ruky trefovým esem. Osud závazku nyní závisí na tom, co vynese z ruky. Když nyní vynese kluka nebo desítku a jeden z obránců získá zdvih už neobsazenou figurou, musí Jih odevzdat druhému obránci ještě dva zdvihy. Tedy výnos malou srdcí je lepší, protože J,10 je pak rovnocenné druhé vysoké figuře. Zbytek rozdání dává rozboru za pravdu:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+AT65
+</spades>
+<hearts>
+K876
+</hearts>
+<diamonds>
+872
+</diamonds>
+<clubs>
+J8
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+432
+</spades>
+<hearts>
+Q9
+</hearts>
+<diamonds>
+QJT9
+</diamonds>
+<clubs>
+T954
+</clubs>
+</hand>
+</distribution>
+<p>
+Hráč, který se dopustí chyby a vynese ke druhému zdvihu kluka nebo desítku, pak argumentuje takto: „Když ale vynesu ke druhému zdvihu malou, riskuji odevzdání zdvihu na střední kartu.“ To je ale jen iluze. Jsou-li srdce dělena 3-3, tak do třetího kola, které Jih vynese, vypadnou u obránců dvě vysoké figury, takže je úplně jedno, jakou kartu hlavní hráč vynese ke druhému zdvihu. A pokud má některý obránce K,Q,9,x, musí stejně získat tři zdvihy. Takže výnos kluka nebo desítky ke druhému zdvihu nemůže nikdy přinést zisk.
+</p>
+</example>
+<example number="6">
+<distribution>
+<hand position="north">
+<spades>
+7
+</spades>
+<hearts>
+654
+</hearts>
+<diamonds>
+A7432
+</diamonds>
+<clubs>
+9876
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KQ85432
+</spades>
+<hearts>
+AKQ
+</hearts>
+<diamonds>
+J
+</diamonds>
+<clubs>
+KQ
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="Kd">
+kK
+</leadcard>
+<p>
+Jih zahájil dražbu hláškou dva piky a nakonec skončil v celoherním závazku v této barvě. Západ vynesl krále kárového, kterého pokryl hlavní hráč esem na stole. Na pikovou sedmičku vynesenou ze stolu položil Východ desítku. Jak má Jih pokračovat?
+</p>
+<p>
+Jih může hrát na A,10 u Východu, ale jelikož věděl něco o bezpečné sehrávce, zahrál disciplinovaně z ruky malý pik. A vyplatilo se mu to, protože zbývající karty byly rozloženy takto:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+JT96
+</spades>
+<hearts>
+732
+</hearts>
+<diamonds>
+865
+</diamonds>
+<clubs>
+543
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+A
+</spades>
+<hearts>
+JT98
+</hearts>
+<diamonds>
+KQT9
+</diamonds>
+<clubs>
+AJT2
+</clubs>
+</hand>
+</distribution>
+<p>
+Eso Západu nyní získalo prázdný zdvih a obrana dostala pak už jen dva zdvihy, jeden trumfový a trefové eso. Malý rozbor nám ukáže, že nesmíme-li v této kombinaci ztratit více než dva zdvihy, nemůžeme nic získat tím, že v prvním zdvihu zahrajeme dámu. Kdyby Východ měl například A,J,10 a propustili bychom mu první zdvih na desítku, získá pak již jen jeden zdvih na eso – přesně tak jako bychom zahráli v prvním zdvihu krále nebo dámu.
+</p>
+<p>
+Závěr k oběma předchozím příkladům: Máme-li ve sledu dvě vysoké figury, jako například K,Q nebo J,10, máme přirozený sklon k tomu vyhnat vysoké karty soupeře zahráním naší vysoké karty. Tomuto pokušení se však musíme vyhnout, protože pokud náš sled není početně dostatečně silný, je daleko lepší vynést z této barvy v prvním kole malou kartu.
+</p>
+</example>
+<example number="7">
+<distribution>
+<hand position="north">
+<spades>
+54
+</spades>
+<hearts>
+KQJ8
+</hearts>
+<diamonds>
+A63
+</diamonds>
+<clubs>
+6542
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AQ3
+</spades>
+<hearts>
+AT952
+</hearts>
+<diamonds>
+KJ42
+</diamonds>
+<clubs>
+A
+</clubs>
+</hand>
+</distribution>
+<contract value="6HS" />
+<leadcard value="Kc">
+tK
+</leadcard>
+<p>
+Mnoho turnajových hráčů ovládá bezpečnou sehrávku teoreticky, ale když se příležitost k jejímu uplatnění naskytla v párové soutěži, polovina startovního pole zvolila špatnou cestu. Většina párů na lince N-S došla do 6 srdcí. Západ vynesl krále trefového. Když Jih dvakrát trumfnul, oba obránci přiznali. Jak měl Jih dále pokračovat?
+</p>
+<p>
+Několik hráčů řešilo tento problém jako „jeden ze dvou impasů“. Spoléhali tedy na to, že bude sedět buď kárová dáma nebo král pikový, což má šanci asi 75%. Je přirozené, že kárový impas se zahraje nejdříve, protože má-li Východ v kárech Q,x,x, Jih si může na čtvrté káro odhodit pik ze stolu a udělá třináct zdvihů i bez pikového impasu.
+</p>
+<p>
+Ukázalo se, že tento způsob sehrávky neuspěl. Západ vzal kluka kárového dámou a vrátil tref. Hlavní hráč musel později zahrát i pikový impas a ten také neseděl, protože obránci měli tyto karty:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+9762
+</spades>
+<hearts>
+73
+</hearts>
+<diamonds>
+T985
+</diamonds>
+<clubs>
+973
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+KJT8
+</spades>
+<hearts>
+64
+</hearts>
+<diamonds>
+Q7
+</diamonds>
+<clubs>
+KQJT8
+</clubs>
+</hand>
+</distribution>
+<p>
+Hráči, kteří sehrávali rozdání tímto způsobem, poukazovali na to, že podnikli nejlepší kroky, k získání třinácti zdvihů, ale pro splnění závazku měli daleko lepší cestu. Jelikož se ukázalo, že zbývající trumfy jsou 2-2, pikový odhoz ze stolu by eliminoval ztrátový zdvih v pikách. To znamená, že Jih měl rozehrát bezpečně kára tak, že nejprve zahrál krále v ruce a pak malé káro k esu na stole. Kdyby nyní dáma nevypadla, vynese káro ze stolu a vypracuje si odhoz, pokud má dámu Východ nebo pokud kára byla dělena 3-3. Tak, jak byla kára dělena v rozdání, dáma vypadla ve druhém kole a hlavní hráč se mohl pokusit ještě o nadzdvih impasem pikovým.
+</p>
+<p>
+Čtenáři, kteří se vyznají v hodnocení párových soutěží, mohou argumentovat tím, že je správné trochu riskovat pro získání nadzdvihu a tím i lepšího topskórového hodnocení. Hráči, kteří impasovali károvou dámu klukem, se tohoto argumentu rychle chopí. Nemají však pravdu, protože není příliš jednoznačně snadné vydražit v tomto rozdání šest srdcí. Mohou si být jisti, že se vyskytne dost párů, které tento závazek nevydraží. Proto je nutné sehrát tento závazek co nejbezpečněji, stejně jako při komerční partii nebo při utkání družstev.
+</p>
+<p>
+Závěr: Setkáváme se nyní s velmi jednoduchou, často se vyskytující kombinaci karet, jejíž správné rozehrání je stále nejméně polovině bridžistů na celém světě utajeno. Máme na lince sedm karet v barvě, které obsahuje eso, krále a kluka a je rozdělena 4-3. Naším úkolem je získat tři ze čtyř zdvihů jako v těchto příkladech:
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+xxx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+AKJx
+</spades>
+</hand>
+</distribution>
+
+<distribution>
+<hand position="hand">
+<spades>
+Kxx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+AJxx
+</spades>
+</hand>
+</distribution>
+<distribution>
+<hand position="hand">
+<spades>
+KJxx
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+Axx
+</spades>
+</hand>
+</distribution>
+<p>
+Pokud si myslíme, že je nejlepší odehrát jednu vysokou figuru a pak zahrát impas klukem s možností, že dáma sedí nebo že barva je u obránců dělena 3-3, jsme na omylu. Ztrácíme vždy, když druhá dáma za klukem získává zdvih. Způsob sehrání, který dává největší šanci na získání tří zdvihů, spočívá v odehrání esa a krále a dalším výnosem malé karty proti klukovi. Jsme vždy úspěšní, když je dáma před klukem, když je barva dělena 3-3 a také když je druhá dáma za klukem.
+</p>
+</example>
+<literature>
+<li>
+Reese, Trézel	Bezpečná sehrávka	příklady č. 9-12, 14,16,17
+</li>
+</literature>
+</lesson>

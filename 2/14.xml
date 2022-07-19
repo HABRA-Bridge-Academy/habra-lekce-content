@@ -1,0 +1,220 @@
+<lesson year="2" title="Pravděpodobnosti" number="14" updatedAt="2021-08-14 23:34:37">
+<p>
+Už několikrát jsme se zmínili o tom, že nám některé matematické zákonitosti mohou být v bridži prospěšné. Jednou z nejpraktičtějších matematických teorií využitelných v bridžové hře je teorie pravděpodobnosti. Seznamme se dnes s některými základními ciframi této teorie využitelnými v bridžové hře.
+</p>
+<p>
+Nejdříve si vyčísleme pravděpodobnost finesy. Ta je 50% - buď je chybějící figura na jedné, nebo na druhé straně. Pokud potřebujeme, aby vyšly dva impasy ze dvou, naše pravděpodobnost je 25%, stačí-li nám jeden ze dvou, rázem máme 75% šanci na úspěch, dva ze tří mají 50% naději.
+</p>
+<p>
+Dále si řekněme, jak se budou nejpravděpodobněji karty dělit. U tří karet bude pravděpodobnější 2:1, u čtyř 3-1, 2-2, 4-0, u pěti karet 3-2,4-1,5-0, u šesti 4-2, 3-3, 5-1, 6-0 a u sedmi 4-3, 5-2, 6-1, 7-0. Když nám chybí dáma, pak nám teorie pravděpodobnosti velí hrát na impas při pěti a více kartách a na vypadnutí při chybějících čtyřech a méně kartách. Při chybějícím králi se vyplatí hrát na vypadnutí při dvou chybějících kartách, při třech a více kartách je teorie pravděpodobnosti nakloněna k impasování. Prozraďme si i přesnější procenta u těch nejobvyklejších kombinací: 3-2 68%, 2-2 40%, 3-1 50%, 4-2 48%, 3-3 36% a 4-3 62%.
+</p>
+<p>
+Tato čísla by nám měla pomoci lépe a úspěšněji se rozhodovat v jednotlivých situacích. Sami postupně poznáte, že se na ně budete spoléhat docela často, ale mohou být i jiné informace, které vás nutí rozhodovat se třeba i proti pravděpodobnosti, ovšem ty budou předmětem vaší výuky ve vyšších ročnících.
+</p>
+<p>
+A tady je několik zkušebních problémů:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+85
+</spades>
+<hearts>
+K73
+</hearts>
+<diamonds>
+AK52
+</diamonds>
+<clubs>
+T863
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AK
+</spades>
+<hearts>
+J952
+</hearts>
+<diamonds>
+986
+</diamonds>
+<clubs>
+AKQJ
+</clubs>
+</hand>
+</distribution>
+<leadcard value="QS">
+Q piková
+</leadcard>
+<contract value="3NTS" />
+<p>
+Hrát na kára 3-3, nebo expas srdcový? Expas dává 50% šanci a dělení 3-3 pouze 36%.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+84
+</spades>
+<hearts>
+K7
+</hearts>
+<diamonds>
+AK532
+</diamonds>
+<clubs>
+A865
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AK
+</spades>
+<hearts>
+J952
+</hearts>
+<diamonds>
+986
+</diamonds>
+<clubs>
+KQJT
+</clubs>
+</hand>
+</distribution>
+<leadcard value="QS">
+Q piková
+</leadcard>
+<contract value="3NTS" />
+<p>
+Hrát na kára 3-2, nebo expas srdcový? Expas má 50% šanci a dělení 3-2 68%. Dvakrát tedy bouchneme zvysoka do kár s tím, že budeme očekávat, že do těchto dvou zdvihů vypadnou čtyři kára a třetí kolo kár vyžene poslední káro. Trefové eso je pak vstup ke kárům.
+</p>
+</example>
+<p>
+Jak hrát tyto případy, budeme-li se řídit teorií pravděpodobnosti?
+</p>
+<example number="3">
+<distribution>
+<hand position="hand">
+<spades>
+T8542
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+AQJ76
+</spades>
+</hand>
+</distribution>
+<p>
+Při třech chybějících kartách krále impasujeme
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="dummy">
+<spades>
+K754
+</spades>
+</hand>
+</distribution>
+<p>
+při pěti chybějících kartách dámu impasujeme
+</p>
+</example>
+<example number="5">
+<distribution>
+<hand position="dummy">
+<spades>
+AKJ543
+</spades>
+</hand>
+</distribution>
+<p>
+při čtyřech chybějících kartách hrajeme na vypadnutí dámy
+</p>
+</example>
+<example number="6">
+<distribution>
+<hand position="hand">
+<spades>
+AT8732
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+QJ654
+</spades>
+</hand>
+</distribution>
+<p>
+při dvou chybějících kartách hrajeme na vypadnutí krále
+</p>
+</example>
+<example number="7">
+<distribution>
+<hand position="hand">
+<spades>
+K953
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+AJ876
+</spades>
+</hand>
+</distribution>
+<p>
+při čtyřech chybějících kartách hrajeme na vypadnutí dámy
+</p>
+</example>
+<example number="8">
+<distribution>
+<hand position="dummy">
+<spades>
+AJ72
+</spades>
+</hand>
+</distribution>
+<p>
+při pěti chybějících kartách dámu impasujeme
+</p>
+</example>
+
+<example number="9">
+<distribution>
+<hand position="hand">
+<spades>
+QT85
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+AJ763
+</spades>
+</hand>
+</distribution>
+<p>
+při čtyřech chybějících kartách krále impasujeme
+</p>
+</example>
+<literature>
+<li>
+J. Hájek	Bridžová školka	21. lekce
+</li>
+<li>
+E. Kaplan	Základy sehrávky	str. 13
+</li>
+<li>
+J. Fišer	Jak se hraje bridž	str. 49-50
+</li>
+<li>
+P. Hebák	Bridž pro každého	str. 223-224
+</li>
+<li>
+P. Mokráň	Bridž rýchlo a dobre	str. 360-362
+</li>
+</literature>
+</lesson>

@@ -1,0 +1,250 @@
+<lesson year="2" title="Princip popisu listu" number="5" updatedAt="2021-08-11 23:08:43">
+<p>
+Doposud jsme zahajovali od 13b. Tuto hranici zahájení už nepoužívá prakticky žádný mezinárodně rozšířený licitační systém, protože bridž se stal tvrdším a ostřejším a draží se mnohem ofenzivněji. Naše první přiblížení k této tendenci bude snížení hranice zahájení na 12b.
+</p>
+<p>
+Dalším důležitou změnou bude posílení principu forcingu. Prozatím jsme při nalezení fitu nelenili a co nejdříve uzavřeli závazek na stupni daným naší bilancí. Pro začátečníky je to dobrý postup, protože je jasný a přímočarý. V praxi to ale není dobré, zvlášť při nalezení fitu v levné barvě, kdy je možnost hrát i v drahé a my se o tom takto nedovíme. Hra v drahé barvě je mnohem atraktivnější, protože nám stačí méně zdvihů k získání manše. Také je tento přístup nešikovný při silných listech, kdy bývá důležité dozvědět se něco víc o rozloze listu a nejen bodech. Proto princip okamžitého fitu nahradíme principem popisu. Máme-li možnost dražit tak, aby partner nezapasoval (princip forcingu zůstává zachován), popisujeme raději partnerovi dražbou svůj list. Takovýto přístup k dražbě se ukáže užitečným především později, ale je nutné dobré návyky pěstovat.
+</p>
+<p>
+Příklady:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+AQT83
+</spades>
+<hearts>
+KJ64
+</hearts>
+<diamonds>
+A
+</diamonds>
+<clubs>
+873
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K52
+</spades>
+<hearts>
+A872
+</hearts>
+<diamonds>
+752
+</diamonds>
+<clubs>
+A64
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1S" />
+<bid value="2H" />
+<bid value="4H" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+KT63
+</spades>
+<hearts>
+8
+</hearts>
+<diamonds>
+KQ732
+</diamonds>
+<clubs>
+AJ6
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+QJ42
+</spades>
+<hearts>
+K654
+</hearts>
+<diamonds>
+J8654
+</diamonds>
+<clubs>
+-
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1d" />
+<bid value="1H" />
+<bid value="1S" />
+<bid value="2S" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+JT
+</spades>
+<hearts>
+KQ64
+</hearts>
+<diamonds>
+A4
+</diamonds>
+<clubs>
+KQJ95
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K63
+</spades>
+<hearts>
+A752
+</hearts>
+<diamonds>
+8
+</diamonds>
+<clubs>
+T8643
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1c" />
+<bid value="1H" />
+<bid value="3H" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+KQ82
+</spades>
+<hearts>
+JT3
+</hearts>
+<diamonds>
+Q432
+</diamonds>
+<clubs>
+KJ
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+J965
+</spades>
+<hearts>
+Q842
+</hearts>
+<diamonds>
+AT
+</diamonds>
+<clubs>
+T75
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1d" />
+<bid value="1H" />
+<bid value="1S" />
+<bid value="2S" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+AK965
+</spades>
+<hearts>
+KJT3
+</hearts>
+<diamonds>
+86
+</diamonds>
+<clubs>
+A9
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+QT3
+</spades>
+<hearts>
+A64
+</hearts>
+<diamonds>
+AK753
+</diamonds>
+<clubs>
+K8
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1S" />
+<bid value="2d" />
+<bid value="2H" />
+<bid value="3d" />
+<bid value="3NT" />
+<bid value="4S" />
+<bid value="pass" />
+</auction>
+</example>
+<example number="6">
+<distribution>
+<hand position="north">
+<spades>
+T
+</spades>
+<hearts>
+AQJ864
+</hearts>
+<diamonds>
+AKQ
+</diamonds>
+<clubs>
+Q42
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A53
+</spades>
+<hearts>
+K753
+</hearts>
+<diamonds>
+J8632
+</diamonds>
+<clubs>
+A
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="N">
+<bid value="1H" />
+<bid value="2d" />
+<bid value="3H" />
+<bid value="4NT" />
+<bid value="5H" />
+<bid value="6H" />
+<bid value="pass" />
+</auction>
+</example>
+<p>
+U příkladu 1 se můžeme zmínit o tom, že když si mohu vybrat, bývá lepší hrát s fitem 4-4 než 5-3, u příkladu 2 a 3, že je lepší hrát v drahé barvě než levné.
+</p>
+</lesson>

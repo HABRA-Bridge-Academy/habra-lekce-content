@@ -1,0 +1,161 @@
+<lesson year="2" title="Beztrumfové sehrávky" number="4" updatedAt="2021-08-11 23:06:02">
+<p>
+V této lekci posečkáme na své svěřence. Nepoženeme je bezhlavě dál a dáme jim možnost nadechnout se a ujistit se, že něco umí. Je důležité nebýt nervózní z možných neúspěchů a nedorozumění. Všechno chce svůj čas. A tato lekce je čas pro ukázky čtyř rozdání:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+Q4
+</spades>
+<hearts>
+K54
+</hearts>
+<diamonds>
+A654
+</diamonds>
+<clubs>
+KJ54
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+J32
+</spades>
+<hearts>
+A32
+</hearts>
+<diamonds>
+K32
+</diamonds>
+<clubs>
+AQ32
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="TS">
+10 piková
+</leadcard>
+<p>
+Jistých je osm zdvihů a zdá se, že bude nějak možné uhrát devátý zdvih v pikách. Ale jak? Je správné dát malou nebo položit dámu? Samozřejmě malou. Pokud to přinese zdvih na kluka, je dobojováno, a jestli dá Východ eso nebo krále, tak už figuru dokážu vypracovat.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+J3
+</spades>
+<hearts>
+A32
+</hearts>
+<diamonds>
+KQJT
+</diamonds>
+<clubs>
+5432
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AT2
+</spades>
+<hearts>
+K54
+</hearts>
+<diamonds>
+987
+</diamonds>
+<clubs>
+AK76
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="9S">
+9 piková
+</leadcard>
+<p>
+Opět máme osm jistých zdvihů a devátý lze asi získat nějakým způsobem v pikách. Otázka zní opět jak. Opět nás nezradí klasické pravidlo o přiložení malé karty na druhém místě a buď nám udělá zdvih hned, nebo ho druhou snadno vypracujeme později. Honéra Východu budeme muset samozřejmě přebít a sled J,10 vyrazí druhého. Předtím ale nesmíme zapomenout vypracovat kára! Hrát dále piky a zapomenout na kára by byla katastrofální chyba.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+K32
+</spades>
+<hearts>
+43
+</hearts>
+<diamonds>
+K54
+</diamonds>
+<clubs>
+AJT98
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AQJ
+</spades>
+<hearts>
+AKQ2
+</hearts>
+<diamonds>
+A32
+</diamonds>
+<clubs>
+432
+</clubs>
+</hand>
+</distribution>
+<contract value="6NTS" />
+<leadcard value="JH">
+J srdcový
+</leadcard>
+<p>
+Zdvihů je vidět devět a zdá se, že zbytek nám může poskytnout trefová barva. Musíme zahrát dvojitý impas na trefy. Vezmeme tedy srdce v ruce a neseme malý tref k osmičce. Tento impas ještě pravděpodobně nevyjde. Vezmeme jakékoliv pokračování v ruce a opět impasujeme. Tentokrát už jsme úspěšní a nevadí ani rozdělení trefů 4-1, protože máme dost vstupů do ruky, abychom impas ještě jednou zopakovali.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+A43
+</spades>
+<hearts>
+432
+</hearts>
+<diamonds>
+6543
+</diamonds>
+<clubs>
+JT9
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K2
+</spades>
+<hearts>
+AKQJ
+</hearts>
+<diamonds>
+AK2
+</diamonds>
+<clubs>
+8765
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="QS">
+Q piková
+</leadcard>
+<p>
+Máme osm zdvihů a chybí nám jeden. Mohli bychom vypracovat trefy, ale to by se dříve povedlo vypracovat piky soupeřům. Jediná šance na devátý zdvih před tím, než soupeři vypracují piky, je dělení kár 3-3 a vypracování čtvrtého. Na toho ale musím nakonec mít přístup v konečné fázi, a tak si musím ušetřit pikové eso. První zdvih vezmu králem v ruce, pak nesu dvakrát kára shora a ještě jednou káro. Pokud se kára rozpadla 3-3, dostanu se k poslednímu pikovým esem. To už nahlížíme trochu dopředu.
+</p>
+</example>
+</lesson>

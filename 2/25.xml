@@ -1,0 +1,286 @@
+<lesson year="2" title="Plán barevné obrany – Snapování" number="25" updatedAt="2021-08-15 21:51:20">
+<p>
+Podíváme se na celou problematiku z pohledu obránců. Jak poznat, že soupeři hrají na snapy a jak tomu účinně bránit, na tyto otázky by měla přinést odpovědi tato lekce. Opět bude nejlepší, podíváme-li se na tyto tři cvičné krabice.
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+AT2
+</spades>
+<hearts>
+Q93
+</hearts>
+<diamonds>
+92
+</diamonds>
+<clubs>
+AQT74
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+73
+</spades>
+<hearts>
+KJT752
+</hearts>
+<diamonds>
+A854
+</diamonds>
+<clubs>
+2
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+KQJ
+</spades>
+<hearts>
+6
+</hearts>
+<diamonds>
+KQT73
+</diamonds>
+<clubs>
+KJ93
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+98654
+</spades>
+<hearts>
+A84
+</hearts>
+<diamonds>
+J6
+</diamonds>
+<clubs>
+865
+</clubs>
+</hand>
+</distribution>
+<contract value="4HS" />
+<leadcard value="Jd">
+J kárový
+</leadcard>
+<p>
+Východ vidí, že trefy nesedí a že jediný účinný plán je hrát na kárové snapy, a proto by měl převzít kluka dámou, pro případ, že by hlavní hráč propustil. Samozřejmý plán proti snapování je hrát trumf při každé příležitosti, kdy to jde. Zůstane-li u zdvihu Východ nesmí snít o přechodu na trefy, ale trumfnout, Západ vezme esem a trumfne znovu.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+4
+</spades>
+<hearts>
+QT73
+</hearts>
+<diamonds>
+K764
+</diamonds>
+<clubs>
+KT32
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KT862
+</spades>
+<hearts>
+KJ92
+</hearts>
+<diamonds>
+A5
+</diamonds>
+<clubs>
+A8
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+753
+</spades>
+<hearts>
+A65
+</hearts>
+<diamonds>
+Q82
+</diamonds>
+<clubs>
+J976
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+AQJ9
+</spades>
+<hearts>
+84
+</hearts>
+<diamonds>
+JT93
+</diamonds>
+<clubs>
+Q54
+</clubs>
+</hand>
+</distribution>
+<p>
+Co vynést po takovéto dražbě?
+</p>
+<auction onesided="true" dealer="S">
+<bid value="1S" />
+<bid value="1NT" />
+<bid value="2H" />
+<bid value="3H" />
+<bid value="4H" />
+<bid value="pass" />
+</auction>
+<p>
+Tato dražba i držení piků ukazuje Západu, že je velmi pravděpodobný plán vydražitelův na snapy a nejlepší obranou proti tomu je co nejdříve trumfnout, a proč ne tedy hned z výnosu. Pomoci musí ale i Západ, protože trumfnout je třeba třikrát a to se podaří jen tehdy, skrčí-li se Východ se srdcovým esem až do druhého zdvihu.
+</p>
+</example>
+<example number="3"><distribution>
+<hand position="north">
+<spades>
+7654
+</spades>
+<hearts>
+83
+</hearts>
+<diamonds>
+A85
+</diamonds>
+<clubs>
+Q762
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KQJT
+</spades>
+<hearts>
+AK96
+</hearts>
+<diamonds>
+K92
+</diamonds>
+<clubs>
+K5
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+93
+</spades>
+<hearts>
+542
+</hearts>
+<diamonds>
+QT64
+</diamonds>
+<clubs>
+J983
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+A82
+</spades>
+<hearts>
+QJT7
+</hearts>
+<diamonds>
+J73
+</diamonds>
+<clubs>
+AT4
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="QH">
+Q srdcová
+</leadcard>
+<p>
+Vydražitel vezme esem a vynese pikového krále. Plánuje dvakrát přebíjet srdce ze stolu, ale má obavy z přesnapování ve čtvrtém kole, chce tedy nejdříve dvakrát trumfnout. Jestliže Západ vezme svým pikovým esem hned, vydražiteli jeho plán vyjde. Partnerova piková devítka padne v druhém kole trumfů a vydražitel pak bude moci bezpečně vysnapovat svá ztrátová srdce. Jestliže se však při prvním trumfnutí Západ skrčí, závazek porazí. Když vydražitel zahraje trumfy podruhé, vezme esem a otočí trumfy potřetí, a když nebudou trumfy zahrány podruhé, Východ bude moci přesnapovat čtvrté srdce. Závazek jde i tak splnit. Hlavní hráč ovšem nesmí trumfovat, ale má vzít domů srdcové winéry, snapnout jedno srdce, pak vzít eso a krále v kárech, vynese čtvrté srdce, a když dá Západ srdci, odhodí káro, čímž si přemění nebezpečný snap na bezpečnější kárový.
+</p>
+</example>
+<p>
+Jako samostatný úkol k vyřešení zadejte dětem toto rozdání:
+</p>
+<example number="4"><distribution>
+<hand position="north">
+<spades>
+J2
+</spades>
+<hearts>
+T
+</hearts>
+<diamonds>
+AJ8763
+</diamonds>
+<clubs>
+J543
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AKT763
+</spades>
+<hearts>
+842
+</hearts>
+<diamonds>
+5
+</diamonds>
+<clubs>
+AK2
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+85
+</spades>
+<hearts>
+A975
+</hearts>
+<diamonds>
+KQ94
+</diamonds>
+<clubs>
+T76
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+Q94
+</spades>
+<hearts>
+KQJ63
+</hearts>
+<diamonds>
+T2
+</diamonds>
+<clubs>
+Q98
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="KH">
+K srdcový
+</leadcard>
+<p>
+Po tomto výnosu je vidět hrozivá krátkost a děravá délka. Určitě bude nutno trumfnout. Ale pokud trumfne Západ, zadá tím zdvih v trumfové barvě. Východ má správně převzít výnos esem a vynést trumf od něj.
+</p>
+</example>
+<literature>
+<li>
+E. Kaplan	Pokročilá sehrávka	str. 29-31
+</li>
+</literature>
+</lesson>

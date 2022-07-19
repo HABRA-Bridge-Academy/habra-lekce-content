@@ -1,0 +1,469 @@
+<lesson year="4" title="Vzít či nevzít – Odložení odhozu, informace z dražby" number="24" updatedAt="2021-08-03 21:11:29">
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+K53
+</spades>
+<hearts>
+742
+</hearts>
+<diamonds>
+AJ
+</diamonds>
+<clubs>
+KJT53
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AJ2
+</spades>
+<hearts>
+KJ5
+</hearts>
+<diamonds>
+K43
+</diamonds>
+<clubs>
+Q872
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="6H">
+s6
+</leadcard>
+<auction dealer="S">
+<bid value="1c" />
+<bid value="1H" />
+<bid value="3c" />
+<bid value="pass" />
+<bid value="3NT" />
+<bid value="pass" />
+<bid value="pass" />
+<bid value="pass" />
+</auction>
+<p>
+Obě linky ve druhé hře. Na vynesenou srdcovou šestku Západu hraje Východ dámu. Zas ten známý problém: má Jih propustit nebo pokrýt?
+</p>
+<p>
+Všechno závisí na tom, který z obránců má trefové eso. Jelikož Západ má v srdcích A,10,x,x,x, má asi na svůj zásah ve druhé hře trefové eso on (kdyby měl srdcový 6-list, tak na tom nezáleží). Proto Jih kryje dámu králem a rozehrává trefy. Karty obránců vypadaly takto:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+T764
+</spades>
+<hearts>
+Q9
+</hearts>
+<diamonds>
+T8652
+</diamonds>
+<clubs>
+64
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+Q98
+</spades>
+<hearts>
+AT863
+</hearts>
+<diamonds>
+Q97
+</diamonds>
+<clubs>
+A9
+</clubs>
+</hand>
+</distribution>
+<p>
+Západ nemůže po vzetí trefovým esem hlavnímu hráči uškodit. V tomto případě by bylo samozřejmě chybné první zdvih propustit. Východ by vynesl další srdce a Západ by si tak tuto barvu vypracoval s jistým dozdvihem – vstupem na trefové eso.
+</p>
+<p>
+Předpokládejme, že soupeři by nezasáhli do dražby a hrál by se tentýž závazek. Co by v tomto případě měl Jih hrát k prvnímu zdvihu?
+</p>
+<p>
+Jih by musel zvážit umístění trefového esa a podle pravděpodobnosti by ho měl dát Východu. Měl by si říci: „Západ má pravděpodobně dlouhou srdcovou barvu s esem a nezasáhl do dražby, proto má asi trefové eso Východ.“ Když tak dojde k tomuto závěru, měl by první zdvih propustit a splnit závazek, pokud položení esa odhadl správně.
+</p>
+<p>
+Závěr: Velmi často zásah soupeřů do dražby nese s sebou klíč k nejlepšímu způsobu sehrávky. A z toho si vezměte poučení i pro své zasahování – opatrně, zřejmě může přinést výhodu zásah od slabšího z partnerů!
+</p>
+</example>
+<example number="2">
+<distribution vul="BOTH">
+<hand position="north">
+<spades>
+K542
+</spades>
+<hearts>
+J9
+</hearts>
+<diamonds>
+A53
+</diamonds>
+<clubs>
+AJT7
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+Q6
+</spades>
+<hearts>
+A86
+</hearts>
+<diamonds>
+-
+</diamonds>
+<clubs>
+KQ986542
+</clubs>
+</hand>
+</distribution>
+<contract value="6cS" />
+<leadcard value="Kd">
+kK
+</leadcard>
+<auction dealer="W">
+<bid value="1d" />
+<bid value="X" />
+<bid value="2d" />
+<bid value="6c" />
+<bid value="pass" />
+<bid value="pass" />
+<bid value="pass" />
+</auction>
+<p>
+Proti tomuto nastřelenému závazku, který po srdcovém výnosu nemá šanci, vynesl Západ kárového krále. Jak má Jih plánovat sehrávku?
+</p>
+<p>
+Stručně řečeno, zahraje-li nyní hlavní hráč ze stolu kárové eso, vzdá se všech nadějí na splnění závazku. Ať už odhodí z ruky cokoliv, musí odevzdat po jednom zdvihu v každé z drahých barev. Zbývající listy:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+T973
+</spades>
+<hearts>
+Q742
+</hearts>
+<diamonds>
+9876
+</diamonds>
+<clubs>
+3
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+AJ8
+</spades>
+<hearts>
+KT53
+</hearts>
+<diamonds>
+KQJT42
+</diamonds>
+<clubs>
+-
+</clubs>
+</hand>
+</distribution>
+<p>
+Aby se vyhnul předčasnému odhozu, Jih musí v prvním zdvihu zahrát ze stolu malé káro a přebít v ruce trumfem. Jedenkrát pak trumfne a vynese z ruky malý pik. Západ je nyní postaven před dilema, které je neřešitelné. Zahraje-li malý pik, hlavní hráč vezme králem, na kárové eso odhodí teprve nyní pikovou dámu a odevzdá jen srdcový zdvih. Vezme-li Západ pikovým esem, má hlavní hráč dva odhozy (na krále pikového a kárové eso) a zbaví se tak v ruce dvou malých srdcí. Tato technika sehrávky se jmenuje Dilema cup a bude probírána podrobněji v příštím roce.
+</p>
+<p>
+Závěr: Mnohokrát, ať už v barevném nebo beztrumfovém závazku, není dobře předčasně volit odhoz na vlastní vysokou kartu. Někdy je možno odložit tento tah na pozdější dobu.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+AQ73
+</spades>
+<hearts>
+KQ32
+</hearts>
+<diamonds>
+J6
+</diamonds>
+<clubs>
+K42
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KJT852
+</spades>
+<hearts>
+J7
+</hearts>
+<diamonds>
+K743
+</diamonds>
+<clubs>
+6
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="Ac">
+tA
+</leadcard>
+<auction dealer="W">
+<bid value="pass" />
+<bid value="1H" />
+<bid value="pass" />
+<bid value="1S" />
+<bid value="pass" />
+<bid value="2S" />
+<bid value="pass" />
+<bid value="4S" />
+<bid value="pass" />
+<bid value="pass" />
+<bid value="pass" />
+</auction>
+<p>
+Západ vynesl trefové eso a pokračoval trefovou dámou. Jak má Jih závazek sehrávat?
+</p>
+<p>
+Pamětliv techniky popsané v Příkladu 2, Jih zahrál malý tref ze stolu, aby se vyhnul předčasnému odhozu a přebil trumfem v ruce. Problém však spočívá v umístění srdcového esa. Má-li je Západ, je třeba zahrát malé srdce z ruky, má-li je Východ, je nutno hrát srdce ze stolu ke klukovi v ruce. Jih se po dotrumfování rozhodl pro srdce z ruky. Východ však pokryl srdcovou dámu esem a vrátil další tref. Rozloha obránců vypadala takto:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+6
+</spades>
+<hearts>
+AT98
+</hearts>
+<diamonds>
+QT8
+</diamonds>
+<clubs>
+98753
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+94
+</spades>
+<hearts>
+654
+</hearts>
+<diamonds>
+A952
+</diamonds>
+<clubs>
+AQJT
+</clubs>
+</hand>
+</distribution>
+<p>
+Hlavní hráč odevzdal ještě dva kárové zdvihy a padl. Správnou dedukcí však mohl dojít k tomu, že bylo nutné hrát na srdcové eso u Východu z důvodu, který vyžaduje jistou míru předvídavosti.
+</p>
+<p>
+Předpokládejme, že hlavní hráč vezme první zdvih na stole a odtud vynese srdcovou dvojku. Získá-li na kluka zdvih, je závazek v bezpečí, jak již bylo uvedeno výše. (Přejde druhým trumfem na stůl, na trefového krále odhodí z ruky srdcovou sedmičku a může nyní odevzdat dva kárové zdvihy.) Kdybychom připustili, že srdcového kluka přikryje Západ esem, pak musí mít kárové eso Východ, protože Západ by již přece ukázal srdcové eso a A,Q v trefech a nezahájil dražbu (s károvým esem by tak učinil).
+</p>
+<p>
+Ještě je nutno zvážit další alternativu. Východ může jít do druhého zdvihu srdcovým esem, vynést malé káro a nechat tak hlavního hráče hádat. Kdyby sehrávka měla takovýto průběh, měl by hlavní hráč uvážit, že Západ vynesl nepříliš atraktivně od A,Q v trefech. Kdyby měl v kárech Q,x,x,x nebo něco na ten způsob, zcela jistě by dal přednost výnosu od kárové barvy. Proto by Jih měl hledat v tomto případě kárové eso u Západu.
+</p>
+<p>
+Závěr: Hlavní hráč musí čerpat indikace jak z dražby soupeřů, tak z jejich mlčení při dražbě.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+K73
+</spades>
+<hearts>
+43
+</hearts>
+<diamonds>
+JT842
+</diamonds>
+<clubs>
+AKQ
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AT9
+</spades>
+<hearts>
+AQT2
+</hearts>
+<diamonds>
+953
+</diamonds>
+<clubs>
+J52
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="JH">
+sJ
+</leadcard>
+<auction dealer="N">
+<bid value="1d" />
+<bid value="1H" />
+<bid value="2NT" />
+<bid value="pass" />
+<bid value="3NT" />
+<bid value="pass" />
+<bid value="pass" />
+<bid value="pass" />
+</auction>
+<p>
+Jak má Jih sehrávat tento závazek po výnosu srdcovým klukem?
+</p>
+<p>
+Jistě je velmi lákavé vzít tento zdvih dámou. Ale co se pak stane? Hlavní hráč má pouze osm zdvihů (za předpokladu, že srdcový král sedí) a musí jít třikrát z tempa, aby si vypracoval devátý zdvih v kárech. Pokud má jednu károvou figuru Západ, vezme hned první káro, vynese další srdce a vypracuje tak partnerovi barvu dříve, než si hlavní hráč vypracuje kára, jak je vidět ze zbývajících karet:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+Q64
+</spades>
+<hearts>
+K9876
+</hearts>
+<diamonds>
+AK7
+</diamonds>
+<clubs>
+T9
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+J852
+</spades>
+<hearts>
+J5
+</hearts>
+<diamonds>
+Q6
+</diamonds>
+<clubs>
+87643
+</clubs>
+</hand>
+</distribution>
+<p>
+Jih závazek lehce splní, když propustí první srdce. Vezme až druhé srdce a zahraje káro. Rozdíl je nyní v tom, že Západ po vzetí zdvihu dámou nemá už další srdce a barvu Východu nelze v tempu vypracovat. Je sice pravda, že toto propuštění by bylo chybné, kdyby měl Východ v pikách Q,J,x a Západ ve druhém zdvihu rozehrál piky, to je ovšem silně nepravděpodobné.
+</p>
+<p>
+Závěr: Zdá se úplně nepřirozené propustit první zdvih v barvě, ve které má hlavní hráč trojitou zádrž. Někdo by mohl namítnout, že je to neskutečné, ale takové rozdání se může přihodit. Podobné jako právě rozebrané uveřejnil Ely Culbertson už více než před 40 lety ve své „Červené knize“.
+</p>
+</example>
+<p>
+Další příklady:
+</p>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+643
+</spades>
+<hearts>
+AJ8
+</hearts>
+<diamonds>
+A6
+</diamonds>
+<clubs>
+KJ732
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K72
+</spades>
+<hearts>
+KQT942
+</hearts>
+<diamonds>
+4
+</diamonds>
+<clubs>
+A85
+</clubs>
+</hand>
+</distribution>
+<contract value="4HS" />
+<leadcard value="Kd">
+kK
+</leadcard>
+<auction dealer="S">
+<bid value="1H" />
+<bid value="2d" />
+<bid value="3c" />
+<bid value="3d" />
+<bid value="3H" />
+<bid value="pass" />
+<bid value="4H" />
+<bid value="pass" />
+<bid value="pass" />
+<bid value="pass" />
+</auction>
+<p>
+Západ vynáší kárového krále. Jak má Jih závazek sehrávat?
+</p>
+<p>
+Nejprve se podívejme, jak bude hra probíhat, když hlavní hráč nezná speciální typ zahrání, který je zde nutno uplatnit. Vezme károvým esem na stole, dvakrát trumfne (třetí trumf si nechá na stole jako přechod), odehraje trefového krále a eso, a pak zahraje třetí tref. Trefy hraje tímto způsobem proto, že si může dovolit pustit zdvih Západu, ale ne Východu na druhou dámu. Nicméně to nepomohlo, protože rozloha obránců vypadala takto:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+QT95
+</spades>
+<hearts>
+5
+</hearts>
+<diamonds>
+T7532
+</diamonds>
+<clubs>
+QT9
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+AJ8
+</spades>
+<hearts>
+763
+</hearts>
+<diamonds>
+KQJ98
+</diamonds>
+<clubs>
+64
+</clubs>
+</hand>
+</distribution>
+<p>
+Východ vzal třetí tref dámou a zahrál pikovou desítku. Jih dal poprvé malý pik, ale když pak zkusil dát na druhý pik krále, Západ pokryl esem a třetí pik znamenal jeden pád. „Škoda,“ mohl by poznamenat Jih, „zkusil jsem všechno.“ Nuže, všechno ne! Pravda, hlavní hráč podnikl samé dobré kroky. Ponechal si třetí trumf jako přechod na stůl, trefy rozehrál bezpečně a také správně propustil první kolo piků, protože Západ mohl mít v pikách třeba A,x, A,J nebo A,Q,J.
+</p>
+<p>
+Chybu udělal Jih již v prvním zdvihu. Ačkoliv se zdá nepřirozené nepokrýt esem proti singlu v ruce, je to zde jediné správné zahrání. Západ zůstane u zdvihu, ale ať už pokračuje čímkoliv, je to pro obranu jedno. Řekněme, že vynese trumf: Jih opět trumfne jen dvakrát, na kárové eso odhodí z ruky malý tref a odehraje eso a krále trefového. Když oba obránci přiznají, je doma. Přebije tref vysokým trumfem, přejde trumfem opět na stůl a na vysoké trefy si odhodí z ruky dva piky. Výsledkem chytrého zahrání v prvním zdvihu je jeden nadzdvih místo jednoho pádu.
+</p>
+<p>
+Závěr: Určité prvky sehrávky je lehké si brzy osvojit, jakmile poznáme jejich smysl. Manévr uplatněný v tomto rozdání vzbudil senzaci, když byl poprvé popsán, ale jelikož se od té doby objevil už v mnoha problémech, rozpozná dobrý hráč jeho uplatnění na první pohled. Tetno manévr se jmenuje Nůžky a bude také probírán v příštím roce.
+</p>
+</example>
+<literature>
+<li>
+Reese, Trézel	Vzít či nevzít	příklady č. 3,8,24,31,35
+</li>
+</literature>
+</lesson>

@@ -1,0 +1,249 @@
+<lesson year="2" title="Plán barevné hry – Délka" number="28" updatedAt="2021-08-27 14:43:58">
+<p>
+Dalším frekventovaným plánem hlavního hráče je vypracování délky. Je třeba plánovat přesně, dbát na přestupy, časování, nebezpečné soupeře a vytrumfování. Zde jsou příklady:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+KQJT
+</spades>
+<hearts>
+T83
+</hearts>
+<diamonds>
+JT42
+</diamonds>
+<clubs>
+K9
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+2
+</spades>
+<hearts>
+AKJ75
+</hearts>
+<diamonds>
+A65
+</diamonds>
+<clubs>
+A862
+</clubs>
+</hand>
+</distribution>
+<contract value="4HS" />
+<leadcard value="9d">
+9 kárová
+</leadcard>
+<p>
+Devítka kárová ukazuje na to, že obě kárové figury jsou u Východu. Potřebujete chybějící tři zdvihy udělat na piky, ale nesmíte dopustit, aby udělali soupeři dříve dva kárové a pikový. Řešení je v položení desítky a zadržení esa. Nyní můžete vypracovat piky, aniž jste ztratili kontrolu nad káry.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+87642
+</spades>
+<hearts>
+T98
+</hearts>
+<diamonds>
+A84
+</diamonds>
+<clubs>
+T5
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+3
+</spades>
+<hearts>
+AKQJ742
+</hearts>
+<diamonds>
+KJ2
+</diamonds>
+<clubs>
+AK
+</clubs>
+</hand>
+</distribution>
+<contract value="6HS" />
+<leadcard value="2c">
+</leadcard>
+<p>
+Máte jedenáct zdvihů a potenciální zdvih v károvém impasu nebo se můžete pokusit vypracovat piky, pokud se dělí 4-3. Vezmete tedy tref a nesete pik. Soupeři pravděpodobně opět ponesou tref. Vezmete a vynesete malý trumf, pik snapnete vysoko, malé srdce k trumfům na stole, snap piku vysokým trumfem, malý trumf k trumfům na stole, snap čtvrtého piku. Pokud byla dělba 4-3, mám vstup k piku na káro a pokud ne, mohu stále zkusit impas v kárech.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+Q3
+</spades>
+<hearts>
+A92
+</hearts>
+<diamonds>
+A9653
+</diamonds>
+<clubs>
+T92
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AKJT92
+</spades>
+<hearts>
+K65
+</hearts>
+<diamonds>
+84
+</diamonds>
+<clubs>
+86
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="2c">třikrát tref		
+</leadcard><p>
+Pokud se kára dělí 3-3 nebo 4-2, půjdou vypracovat, problém je jen s počtem vstupů. Snapnu a propustím káro, vrácené srdce vezmu v ruce, zvysoka trumfnu a nesu káro k esu, snap kára zvysoka, trumf k dámě, snap zvysoka, dotrumfuji a eso srdcové funguje jako vstup k pátému káru.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+A75
+</spades>
+<hearts>
+Q98753
+</hearts>
+<diamonds>
+A82
+</diamonds>
+<clubs>
+A
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KQJ84
+</spades>
+<hearts>
+64
+</hearts>
+<diamonds>
+K74
+</diamonds>
+<clubs>
+852
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="5d">
+káro
+</leadcard>
+<p>
+Na stole mám dost vstupů, a tak raději než na snapy trefové budu hrát na vypracování srdcí. Beru tedy v ruce, abych šetřil vstupy, a pošlu srdce, vezmu cokoliv, opět pošlu srdce, vezmu cokoliv, snapnu srdci vysoko, dotrumfuji tak, abych skončil na stole a srdce jsou vypracovány. Předpokládá to dělbu srdcí 3-2.
+</p>
+</example>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+A75
+</spades>
+<hearts>
+Q98753
+</hearts>
+<diamonds>
+A82
+</diamonds>
+<clubs>
+8
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KQJ84
+</spades>
+<hearts>
+64
+</hearts>
+<diamonds>
+K74
+</diamonds>
+<clubs>
+A52
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="5d">
+káro
+</leadcard><p>
+Vpodstatě tytéž karty, ale tentokrát je více vstupů do ruky, a tak se budou lépe snapovat trefy. Vezmeme tudíž na stole a neseme tref k esu, snap tref, odehrajeme eso pikové, káro ke králi a snap trefový. Závazek je v suchu. Uděláme pět pikových, dva kárové, jeden trefový a dva trefové snapy.
+</p>
+</example>
+<p>
+Jako samostatný problém zadejte tento kvíz:
+</p>
+<example number="6">
+<distribution>
+<hand position="north">
+<spades>
+QJ7
+</spades>
+<hearts>
+K84
+</hearts>
+<diamonds>
+K653
+</diamonds>
+<clubs>
+653
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A
+</spades>
+<hearts>
+AQJ762
+</hearts>
+<diamonds>
+A74
+</diamonds>
+<clubs>
+AKJ
+</clubs>
+</hand>
+</distribution>
+<contract value="6HS" />
+<leadcard value="Qd">
+Q kárová
+</leadcard>
+<p>
+Dvanáctý zdvih není nutno získat impasem, ale uděláme ho pohodlně v pikách, jen si musíme nechat k vypracovanému piku vstup. První zdvih tedy bereme v ruce, odehrajeme eso pikové a vytrumfujeme tak, abychom ve třetím kole zůstali na stole, teď vyneseme pik, pokud Východ přebije, snapneme a král kárový je vstup, pokud ne, zahodíme káro. Když teď vezme Západ, opět funguje král kárový jako vstup na kluka pikového, na který pak zahodíme tref.
+</p>
+</example>
+<literature>
+<li>
+E. Kaplan	Pokročilá sehrávka	str. 32-35
+</li>
+<li>
+J. Minaříček	Sehrávka	str. 26-27
+</li>
+<li>
+J. Sedlář	Základy teorie sehrávky	str. 23
+</li>
+</literature>
+</lesson>

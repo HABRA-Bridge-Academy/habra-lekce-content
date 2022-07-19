@@ -1,0 +1,161 @@
+<lesson year="2" title="Barevné sehrávky" number="8" updatedAt="2021-08-14 23:08:50">
+<p>
+Projděme se svými svěřenci čtyři plány sehrávek a popřemýšlejme společně nad postupy sehrávek barevných závazků.
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+87
+</spades>
+<hearts>
+43
+</hearts>
+<diamonds>
+432
+</diamonds>
+<clubs>
+A76543
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AKQJT9
+</spades>
+<hearts>
+AK2
+</hearts>
+<diamonds>
+AK
+</diamonds>
+<clubs>
+K2
+</clubs>
+</hand>
+</distribution>
+<contract value="7SS" />
+<leadcard value="2S">
+2 piková
+</leadcard>
+<p>
+Od začátku je vidět dvanáct zdvihů a není těžké odhalit, že třináctého by se dalo dosáhnout snapováním srdcí. Nepřichází tedy v úvahu vytrumfovávání. Je třeba obtáhnout dvakrát srdce a napotřetí snapnout, pak se dostat kárem do ruky a teprve teď dotrumfovat.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+KQ
+</spades>
+<hearts>
+JT98
+</hearts>
+<diamonds>
+K987
+</diamonds>
+<clubs>
+AKJ
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+32
+</spades>
+<hearts>
+AK32
+</hearts>
+<diamonds>
+AQJT
+</diamonds>
+<clubs>
+QT9
+</clubs>
+</hand>
+</distribution>
+<contract value="6HS" />
+<leadcard value="JS">
+J pikový
+</leadcard>
+<p>
+Soupeř na Východě získal první zdvih esem a pokračoval dále pikem. Nesmíme už pustit ani zdvih a musíme spoléhat na sedící trumfový impas. Správné je ovšem předtím jednou trumfnout shora, kdyby náhodou byla srdcová dáma singl. A pak hrát ze stolu kluka na impas podjetím.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+65
+</spades>
+<hearts>
+432
+</hearts>
+<diamonds>
+32
+</diamonds>
+<clubs>
+AKQJT9
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A432
+</spades>
+<hearts>
+AK8765
+</hearts>
+<diamonds>
+AK
+</diamonds>
+<clubs>
+2
+</clubs>
+</hand>
+</distribution>
+<contract value="6HS" />
+<leadcard value="Qd">
+Q kárová
+</leadcard>
+<p>
+Na stole je k mání mnoho trefových zdvihů, na které je možno zahodit kdeco, především tedy piky. Úkol je tedy jediný, musíme soupeře vytrumfovat a cesta k vítězství je otevřená.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+AQJ
+</spades>
+<hearts>
+987
+</hearts>
+<diamonds>
+JT9
+</diamonds>
+<clubs>
+AT98
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+32
+</spades>
+<hearts>
+AKQJT
+</hearts>
+<diamonds>
+432
+</diamonds>
+<clubs>
+QJ2
+</clubs>
+</hand>
+</distribution>
+<contract value="4HS" />
+<leadcard value="Kd">
+K kárový
+</leadcard>
+<p>
+Soupeři vzali domů tři kára a vynesli trumf. Po vytrumfování (jsou rozděleny 4-1) je třeba se rozhodnout pro impas ve správné barvě. Impas pikový by nic neřešil, protože i při jeho úspěchu by to nestačilo na splnění, a tak správná volba je impas trefový. Technicky správné je impasovat podjetím dámou a pak klukem, protože potřebujeme zůstat na stole, neboť již nemáme trumfy jako přechody.
+</p>
+</example>
+</lesson>

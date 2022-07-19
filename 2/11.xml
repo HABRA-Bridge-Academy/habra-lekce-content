@@ -1,0 +1,147 @@
+<lesson year="2" title="Markování do odhozů" number="11" updatedAt="2021-08-14 23:16:28">
+<p>
+Do barvy, ve které už nemůžeme přiznat kartu, protože ji nemáme, budeme markovat takto – odhodíme kartu barvy, kterou nechceme. Zbývají nám tak dvě barvy (jednu barvu nemáme a druhou nechceme). Pokud odhodíme z nechtěné barvy malou, žádáme o nižší ze dvou zbývajících barev, pokud velkou, pak chceme vyšší ze dvou zbývajících barev. Toto markování zavedl pan Lavinthal a podle něj se také jmenuje.
+</p>
+<p>
+Tento exkurs do markování pro letošní rok naprosto postačí. Prozatím nebudeme používat kvantitativní marky. Pokud si děti budou pamatovat tyto marky, určitě se jejich hra v obraně zlepší. Nezapomínejte ale, že obvykle není problém naučit se vysílat signály, ale vnímat je. Teprve když začnete dešifrovat odhozy partnera a hledat za nimi informace pro vás, začnou plnit svou funkci a budete hrát bridž o hodně lépe. Musíte svěřence neustálými dotazy nutit, aby vnímali marky svého partnera.
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+985
+</spades>
+<hearts>
+Q432
+</hearts>
+<diamonds>
+KQJ5
+</diamonds>
+<clubs>
+Q6
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KJ6
+</spades>
+<hearts>
+K
+</hearts>
+<diamonds>
+T97642
+</diamonds>
+<clubs>
+AKT
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+A4
+</spades>
+<hearts>
+JT87
+</hearts>
+<diamonds>
+A3
+</diamonds>
+<clubs>
+J8754
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+QT732
+</spades>
+<hearts>
+A965
+</hearts>
+<diamonds>
+8
+</diamonds>
+<clubs>
+932
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="3S">
+3 piková
+</leadcard>
+<p>
+Bereš esem pik a vracíš další, hlavní hráč bere králem a partner dává dvojku, teď je jasné, že měl 5-list. Hlavní hráč začíná rozehrávat kára, až se dostanete na eso do zdvihu, budete se muset rozhodnout, jestli zahrát srdce nebo trefy. Pokud vezmeme zdvih hned napoprvé, bude to jen hádanka. Když ale vydržíme do druhého zdvihu, partner už nebude mít a zamarkuje malým trefem.
+</p>
+</example>
+<p>
+Pár dalších kvízových otázek:
+</p>
+<example number="2">
+<p>
+Váš partner z prvního výnosu vynesl krále pikového. Vy máte v pikách 10 a 4, kterou z nich přiložíte v beztrumfové a kterou v barevné hře?
+</p>
+</example>
+<example number="3">
+<p>
+Vydražitel vynesl káro do šestého zdvihu v beztrumfové hře a vy poprvé nemáte káro. Co a proč shodíte z Vašich karet, které jsou takovéto:
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+T3
+</spades>
+<hearts>
+KJT8
+</hearts>
+<diamonds>
+6
+</diamonds>
+</hand>
+</distribution>
+</example>
+<example number="4">
+<p>
+Do trefového závazku vynesl Váš partner károvou 4, kterou vydražitel nepřebil. Vy máte v ruce K, Q, 7, 2 a na stole není eso. Kterou kartou budete přebíjet?
+</p>
+</example>
+<p>
+Odpovědi:
+</p>
+<p>
+v BT 10 = negativní, v barvě 4 – šance na snap
+</p>
+<p>
+10 pikovou jako Lavinthal na srdce
+</p>
+<p>
+3) Q – dává signál – mohu mít i krále
+</p>
+<literature>
+<li>
+J. Hájek	Bridžová školka	31. lekce
+</li>
+<li>
+E. Kaplan	Základy sehrávky	str. 18-19
+</li>
+<li>
+D. Haydenová	Draž lépe, hraj lépe	str. 62-69
+</li>
+<li>
+A. Sheinwold	Sehrávka	str. 307-311
+</li>
+<li>
+P. Mokráň	Bridž rýchlo a dobre	str. 263-267
+</li>
+<li>
+J. Fišer	Jak se hraje bridž	str. 62-63
+</li>
+<li>
+P. Hebák	Bridž pro každého	str. 205-212
+</li>
+<li>
+J. Sedlář	Základy teorie bridže	str. 31-33
+</li>
+<li>
+P. Cronier a spol.	Minibridž	18. lekce
+</li>
+</literature>
+</lesson>

@@ -1,0 +1,284 @@
+<lesson year="2" title="Plán barevné obrany" number="7" updatedAt="2021-08-14 23:06:51">
+<p>
+Předmětem dnešní hodiny je hra v obraně proti barevnému závazku. Je důležité snažit se uhodnout nebo poznat, jakou cestu ke zvolení závazku zvolil hlavní hráč a zvolit proti ní co nejúčinnější záškodnickou taktiku, která mu jeho plán co nejvíce znepříjemní. Velice často nám vše osvětlí karty na stole, které mohou být základním vodítkem obrany pro jejich koncepci. Shledají-li obránci, že hlavní hráč bude své zdvihy získávat na snapy, je nutné při každé příležitosti trumfnout. Vidím-li na stole hrozivou délku, je důležité obehrát si své zdvihy ve vedlejších barvách dříve, než se hlavnímu hráči podaří smazat ztrátové karty na délku. Není-li viditelná žádná délka ani krátkost, je důležité nezadávat zdvihy hlavnímu hráči a nechávat ho rozehrávat své impasy a expasy samotného. Znamená to hrát pasivně, tedy nevynášet od nových barev, vracet barvy partnera, případně hlavního hráče, nebo trumfovat.
+</p>
+<p>
+Tady je několik příkladů k rozebrání:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+QJ5
+</spades>
+<hearts>
+K96
+</hearts>
+<diamonds>
+AJ52
+</diamonds>
+<clubs>
+AK6
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A8764
+</spades>
+<hearts>
+T84
+</hearts>
+<diamonds>
+K4
+</diamonds>
+<clubs>
+872
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+KT2
+</spades>
+<hearts>
+A753
+</hearts>
+<diamonds>
+QT8
+</diamonds>
+<clubs>
+J94
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+93
+</spades>
+<hearts>
+QJ2
+</hearts>
+<diamonds>
+9763
+</diamonds>
+<clubs>
+QT53
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="QH">
+Q srdcová
+</leadcard>
+<p>
+Na stole není žádná délka ani krátkost, a tak hlavní hráč bude muset zkoušet expasy a impasy, pokud mu nějaký zdvih chybí. Nejrozumnější tedy je nevynášet žádnou novou barvu. Hlavní hráč přikryje králem, Východ vezme esem a vrátí zpátky srdci, Východ vezme a nerozehraje novou barvu, nýbrž obrátí opět srdci. Hlavní hráč si třetí srdci vezme a zahájí vytrumfování. Pravděpodobně bude hrát malou z ruky k dámě, Východ vezme králem, vrátí pik a počká si, až bude hlavní hráč impasovat káro, kde nesedí dáma pro hlavního příznivě a závazek je dole.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+98652
+</spades>
+<hearts>
+T54
+</hearts>
+<diamonds>
+QJ
+</diamonds>
+<clubs>
+AT9
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AK
+</spades>
+<hearts>
+KQJ96
+</hearts>
+<diamonds>
+865
+</diamonds>
+<clubs>
+K75
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+74
+</spades>
+<hearts>
+A83
+</hearts>
+<diamonds>
+AT74
+</diamonds>
+<clubs>
+8642
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+QJT3
+</spades>
+<hearts>
+72
+</hearts>
+<diamonds>
+K932
+</diamonds>
+<clubs>
+QJ3
+</clubs>
+</hand>
+</distribution>
+<contract value="3HS" />
+<leadcard value="QS">
+Q piková
+</leadcard>
+<p>
+Vydražitel vzal esem a vynesl 5 károvou. Hlavní hráč by patrně rád snapoval kára, ať už první zdvih obránců vezme kterýkoliv z nich musí okamžitě trumfnout malou (Východ zatím nesmí dát eso). Hlavní hráč trumf vezme a obrátí opět káro, teď nesmí Východ zaspat a musí trumfnout dvakrát – esem a malou. Hlavní hráč ztratil možnost snapnout káru a bude muset ještě jednu kartu této barvy odevzdat spolu s trefem a trumfem – jednou ne.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+K93
+</spades>
+<hearts>
+KJ532
+</hearts>
+<diamonds>
+K3
+</diamonds>
+<clubs>
+T87
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AQJ64
+</spades>
+<hearts>
+Q64
+</hearts>
+<diamonds>
+96
+</diamonds>
+<clubs>
+A53
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+872
+</spades>
+<hearts>
+97
+</hearts>
+<diamonds>
+AT754
+</diamonds>
+<clubs>
+KJ9
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+T5
+</spades>
+<hearts>
+AT8
+</hearts>
+<diamonds>
+QJ82
+</diamonds>
+<clubs>
+Q642
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="Qd">
+Q kárová
+</leadcard>
+<p>
+Stůl přebil králem, zdvih vzalo eso Východu a ten vrátil malé káro k dámě Východu. Situace teď není jednoznačná. Bude hrát hlavní hráč na snapy kárové nebo na dlouhé srdce. Snapy po takovémto výnosu obrany stejně jistě udělá, a tak se starejme o své trefy, aby je hlavní hráč nestačil zahodit na srdce.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+AKQT5
+</spades>
+<hearts>
+876
+</hearts>
+<diamonds>
+753
+</diamonds>
+<clubs>
+T8
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+J8
+</spades>
+<hearts>
+AKJ43
+</hearts>
+<diamonds>
+AT6
+</diamonds>
+<clubs>
+Q72
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+72
+</spades>
+<hearts>
+95
+</hearts>
+<diamonds>
+KQ82
+</diamonds>
+<clubs>
+96543
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+9643
+</spades>
+<hearts>
+QT2
+</hearts>
+<diamonds>
+J94
+</diamonds>
+<clubs>
+AKJ
+</clubs>
+</hand>
+</distribution>
+<contract value="4HS" />
+<leadcard value="KC">
+K, A trefové
+</leadcard>
+<p>
+Hlavní hráč jednoznačně hrozí zahodit na svou velmi dobrou pikovou barvu a je nutno rychle se pokusit vzít domů nějaké káro, protože naše třetí trumfová dáma také udělá nepochybně zdvih.
+</p>
+</example>
+<literature>
+<li>
+J. Hájek	Bridžová školka	27. lekce
+</li>
+<li>
+P. Cronier a spol.	Minibridž	19. lekce
+</li>
+</literature>
+</lesson>

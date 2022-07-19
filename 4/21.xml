@@ -1,0 +1,501 @@
+<lesson year="4" title="Vzít či nevzít – Úhybné hry, ponechání bezpečné ruky" number="21" updatedAt="2021-08-03 21:00:15">
+<p>
+Další čtyřdílná série se zabývá problémem propuštění, jedné z elementárních technik. Poučením z této kapitoly by mělo být, že neexistuje žádný univerzální recept, je třeba pečlivě plánovat a posuzovat situaci.
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+63
+</spades>
+<hearts>
+KQ87
+</hearts>
+<diamonds>
+732
+</diamonds>
+<clubs>
+KT52
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A84
+</spades>
+<hearts>
+AJT94
+</hearts>
+<diamonds>
+K5
+</diamonds>
+<clubs>
+AJ3
+</clubs>
+</hand>
+</distribution>
+<contract value="4HS" />
+<leadcard value="QS">
+pQ
+</leadcard>
+<p>
+Jih zahajuje hláškou 1 srdce a po zvýšení partnerem na druhý stupeň skočí hned na celou hru. Západ proti tomuto závazku vynáší pikovou dámu. Jak má Jih pokračovat, když Východ dává do tohoto zdvihu devítku?
+</p>
+<p>
+Hlavní hráč vzal esem a třikrát trumfnul tak, že skončil na stole. Jelikož se hlavní hráč bál podehrání kárového krále, zahrál ze stolu malý tref a impasoval junem. Západ však vzal dámou a vynesl pikovou desítku – ne kluka, aby přinutil partnera vzít králem. Východ vzal a vynesl káro. Tak obránci získali ještě dva kárové zdvihy, protože jejich listy vypadaly takto:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+K952
+</spades>
+<hearts>
+532
+</hearts>
+<diamonds>
+Q986
+</diamonds>
+<clubs>
+64
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+QJT7
+</spades>
+<hearts>
+6
+</hearts>
+<diamonds>
+AJT4
+</diamonds>
+<clubs>
+Q987
+</clubs>
+</hand>
+</distribution>
+<p>
+Kdyby Jih zahrál impas na trefovou dámu obráceně, jistě by byl závazek splnil, ale to nebyla ta hlavní chyba. Tu udělal, když vzal první zdvih esem. Kdyby byl první zdvih propustil, Východ by se nemohl dostat do zdvihu k podehrání kár, protože spojení mezi listy obránců by bylo přerušeno. Když pak hlavní hráč zahraje trefový impas klukem, Západ, který se dostane dámou do zdvihu, mu nemůže ublížit, a hlavní hráč si jedno káro z ruky shodí na čtvrtý tref stolu.
+</p>
+<p>
+Pozorný čtenář si jistě všimne, že dobří obránci mají proti čtyřem srdcím šanci. Převezme-li Východ první zdvih pikovým králem, Jih nemůže propustit a musí tento zdvih vzít. Stále je ještě správné hrát trefový impas tak, jak bylo popsáno výše. Když nyní Západ, který získá trefovou dámou zdvih, správně pochopí zahrání Východu v prvním zdvihu a vynese pikovou sedmičku k podehrání kár, nemá Jih šanci a může soupeřům jen pogratulovat.
+</p>
+<p>
+Závěr: Často se stává, že hlavní hráč nesmí jednoho z obránců pustit k výnosu, a proto hraje impasy přes něho. Když však takový impas nesedí, je nutno se pojistit proti tomu, aby nebezpečný obránce nemohl být vpuštěn do zdvihu v jiné barvě.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+6
+</spades>
+<hearts>
+J32
+</hearts>
+<diamonds>
+AJT84
+</diamonds>
+<clubs>
+KQ42
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KJ53
+</spades>
+<hearts>
+AKT
+</hearts>
+<diamonds>
+Q932
+</diamonds>
+<clubs>
+A6
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="7S">
+p7
+</leadcard>
+<p>
+Jih jako rozdávající zahajuje hláškou 1BT. Ať už linka N-S používá jakýchkoliv dražebních metod, Jih nakonec sehrává závazek 3BT. Západ vynáší pikovou sedmičku a Východ hraje do tohoto zdvihu dámu. Jak má Jih pokračovat v sehrávce?
+</p>
+<p>
+Hlavní hráč vidí, že má dostatek zdvihů pro splnění závazku, jakmile si vypracuje kára. Nesedí-li ale kárový král, obrana může včas stáhnout čtyři pikové zdvihy, jestliže Západ vynesl od 5-listu. Jelikož nebezpečným soupeřem je Východ v tom smyslu, že jen on může získat zdvih na kárového krále, musí být správné tento zdvih propustit.
+</p>
+<p>
+Když Východ pokračuje pikovou devítkou, dává Jih figuru, snad v očekávání, že Západ pokryje. Ten ale hraje bridž už léta a je ostřílený, dává dvojku. Ať už nyní hraje hlavní hráč kára jakkoliv, na vypadnutí krále nebo na jeho impasování nemá naději, protože obrana měla tuto rozlohu:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+Q94
+</spades>
+<hearts>
+875
+</hearts>
+<diamonds>
+K76
+</diamonds>
+<clubs>
+JT85
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+AT872
+</spades>
+<hearts>
+Q964
+</hearts>
+<diamonds>
+5
+</diamonds>
+<clubs>
+973
+</clubs>
+</hand>
+</distribution>
+<p>
+Zahrání figury do druhého pikového zdvihu byla hrubá chyba hlavního hráče. Měl zahrát malý pik. I když se to zdá být nepřirozené, je to jediná cesta ke splnění, nesedí-li kárový král. Dělení piků 4-4 hlavnímu hráči nevadí a vynese-li Západ od 5-listu nebo 6-listu s esem, Východ mu už nemůže ublížit, až se dostane na krále do zdvihu.
+</p>
+<p>
+Závěr: Při sehrávání beztrumfového závazku si musí hlavní hráč vždy předně odpovědět na tři otázky: kolik má rychlých zdvihů k odehrání; kolik zdvihů si musí odehrát soupeři, když se dostanou k výnosu; a který z obránců je nebezpečný. Při správných odpovědích na tyto otázky je už pak obvykle snadné najít správný plán sehrávky.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+AT53
+</spades>
+<hearts>
+K4
+</hearts>
+<diamonds>
+A65
+</diamonds>
+<clubs>
+QT82
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K4
+</spades>
+<hearts>
+Q63
+</hearts>
+<diamonds>
+KT7
+</diamonds>
+<clubs>
+AJ975
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="TH">
+s10
+</leadcard>
+<p>
+Po zahájení Severu jedním trefem a pasu Východu draží Jih 3BT. Západ vynáší proti tomuto závazku srdcovou desítku. Má dát hlavní hráč ze stolu krále nebo malé srdce?
+</p>
+<p>
+Zahraje-li hlavní hráč ze stolu malé srdce, ztratí svůj závazek, jestliže mu nebude sedět trefový král. Nepomůže mu ani propuštění zdvihu z obou stran, protože Západ bude v srdcích pokračovat, čímž si svou barvu vypracuje a odehraje si ji, až se dostane do zdvihu, protože obránci měli tyto karty:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+J8762
+</spades>
+<hearts>
+J7
+</hearts>
+<diamonds>
+QJ82
+</diamonds>
+<clubs>
+43
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+Q9
+</spades>
+<hearts>
+AT9852
+</hearts>
+<diamonds>
+943
+</diamonds>
+<clubs>
+K6
+</clubs>
+</hand>
+</distribution>
+<p>
+Závěr: Zahrání krále při tomto držení srdcové barvy hlavního hráče závisí na dalších okolnostech v rozdání. Důvod, proč je správné zahrát ze stolu krále, spočívá v tom, že rozhodující je zahrání trefového impasu. Pokud se Západ dostane ke zdvihu, jeho srdcové pokračování nemá žádný smysl.
+</p>
+<p>
+Než tento příklad opustíme, podívejme se, za jakých podmínek by byl tento způsob sehrávky špatný. Kdyby měl Východ v srdcích A,J,x, bylo by to jedno, protože obrana získá vždy čtyři srdcové zdvihy, ať dá hlavní hráč ze stolu cokoliv. Kdyby měl Východ jen A,J, Jih opět uspěje, poněvadž barva zůstane zablokována, když bude srdcový kluk propuštěn. Je pravda, že zahrání krále by bylo chybné, kdyby Východ měl v srdcích A,x, ale je to pravděpodobné? Pokud vynášejí obránci standardně (s čímž počítáme), Západ by nevynesl 10 od J,10,9,8,x,x, takže tuto možnost můžeme zavrhnout.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+KT98
+</spades>
+<hearts>
+A7432
+</hearts>
+<diamonds>
+Q3
+</diamonds>
+<clubs>
+74
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AQJ76532
+</spades>
+<hearts>
+85
+</hearts>
+<diamonds>
+7
+</diamonds>
+<clubs>
+K6
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="Kd">
+kK
+</leadcard>
+<p>
+V utkání družstev Jih zahájil dražbu hláškou 4 piky. Po dlouhém váhání Západu a jeho pasu (Sever pasoval), byl Východ víceméně přinucen pasovat (kvůli etice hry).
+</p>
+<p>
+Proti tomuto závazku vynesl Západ kárového krále a pokračoval esem. Jak má Jih plánovat sehrávku?
+</p>
+<p>
+Přebije-li tento zdvih hlavní hráč trumfem, zřejmě se na srdce dostane ke zdvihu Východ a sedí-li trefový král pod nožem, je po závazku. A skutečně, protože obránci mají tyto listy:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+-
+</spades>
+<hearts>
+KQ
+</hearts>
+<diamonds>
+J98542
+</diamonds>
+<clubs>
+QT532
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+4
+</spades>
+<hearts>
+JT96
+</hearts>
+<diamonds>
+AKT6
+</diamonds>
+<clubs>
+AJ98
+</clubs>
+</hand>
+</distribution>
+<p>
+Jelikož to hlavní hráč předvídal, odhodil na druhé káro z ruky srdce. Pak už nebylo problémem při tolika přechodech na stůl vypracovat si páté srdce na odhoz.
+</p>
+<p>
+U druhého stolu Západ zahájení Jihu 4 piky kontroval a také vynesl kárového krále. Po marce Východu, která mu naznačila počet kár, změnil útok na srdcový. Jih ovšem přerušil komunikaci mezi listy obránců tím, že sám zahrál károvou dámu a odhodil z ruky srdce. Výsledek byl tentýž.
+</p>
+<p>
+Závěr: Tento druh přerušení spojený s propuštěním zdvihu se jmenuje Scissors coup (scissors=nůžky), používá se pro přerušení komunikace mezi listy obránců a my se jím budeme podrobněji zabývat příští rok.
+</p>
+</example>
+<p>
+Další příklady:
+</p>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+A9
+</spades>
+<hearts>
+74
+</hearts>
+<diamonds>
+AQ7432
+</diamonds>
+<clubs>
+KJ6
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+3
+</spades>
+<hearts>
+KT32
+</hearts>
+<diamonds>
+95
+</diamonds>
+<clubs>
+AQT983
+</clubs>
+</hand>
+</distribution>
+<contract value="5cS" />
+<leadcard value="KS">
+pK
+</leadcard>
+
+<auction onesided="true" dealer="S">
+<bid value="1d" />
+<bid value="2c" />
+<bid value="2d" />
+<bid value="2H" />
+<bid value="2S" />
+<bid value="3c" />
+<bid value="5c" />
+<bid value="pass" />
+</auction>
+<p>
+Po dobré dražbě, kdy hláška Severu 2 piky (Čtvrtá barva) znamenala dotaz po zádrži pro BT závazek (Jih tuto zádrž popřel), došla linka N-S do pěti trefů. Jak má Jih tento závazek sehrávat po výnosu pikovým králem?
+</p>
+<p>
+Hlavní hráč vzal zdvih esem na stole, zahrál tref k esu do ruky a vynesl malé káro na impas dámou. Východ pokryl károvým králem a po vynesené srdcové dámě získala obrana celkem tři zdvihy, protože srdcové eso měl Západ. Hlavního hráče potkal celkem všední osud. Zahrál impas v jedné barvě a expas ve druhé, ale jelikož klíčové figury neseděly, jednou padl. Ale bylo to jen proto, že štěstěna nebyla příznivě nakloněna? Zahráli byste to stejně jako hlavní hráč nebo si ještě pamatujete Příklad 4, který měl podobné téma? Podívejme se na karty obránců:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+J8652
+</spades>
+<hearts>
+QJ95
+</hearts>
+<diamonds>
+KJ6
+</diamonds>
+<clubs>
+7
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+KQT74
+</spades>
+<hearts>
+A86
+</hearts>
+<diamonds>
+T8
+</diamonds>
+<clubs>
+542
+</clubs>
+</hand>
+</distribution>
+<p>
+Hrát na rozlohu 3-2 v kárech dává vyšší pravděpodobnost než hrát na kárový impas. Abychom zabránili Východu dostat se do zdvihu, musíme propustit pikového krále Západu, a pak už je vše jasné. Pokračuje-li Západ v pikách, odhodí si Jih na pikové eso malé káro, odehraje kárové eso a další káro přebije trefovou desítkou. Když oba obránci přiznají druhé káro a v prvním kole trumfy, závazek je v bezpečí. Po trumfovém přechodu na stůl přebije Jih třetí káro opět vysoko. Pak dotrumfuje tak, že skončí na stole a odhodí tři srdce na vypracovaná kára. Odevzdá tak pouze po jednom zdvihu v pikách a v srdcích.
+</p>
+</example>
+<example number="6">
+<distribution>
+<hand position="north">
+<spades>
+K84
+</spades>
+<hearts>
+K3
+</hearts>
+<diamonds>
+AT942
+</diamonds>
+<clubs>
+J87
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AQT92
+</spades>
+<hearts>
+T85
+</hearts>
+<diamonds>
+QJ6
+</diamonds>
+<clubs>
+A9
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="2c">
+t2
+</leadcard>
+<p>
+Na zahájení Jihu 1 pik odpověděl Sever 2 kára a posléze s bodovou silou na hranici zahájení dorazil na 4 piky. Srdcový výnos by byl podstatně horší, nicméně Západ vynesl trefovou dvojku a Východ na sedmičku stolu dal krále. Jak má Jih pokračovat?
+</p>
+<p>
+Nepřemýšlející hlavní hráč, který uvidí možnost získání dalšího trefového zdvihu, vezme esem a vrátí devítku, aby si vypracoval kluka na stole. To by ovšem bylo pošetilé hned ze dvou důvodů: 1) Západ tím dostane šanci napravit svůj první výnos a vynese srdce pod krále a 2) odhoz na trefového kluka nemá v žádném případě význam. Listy obránců:
+</p>
+<distribution>
+<hand position="east">
+<spades>
+653
+</spades>
+<hearts>
+AQ62
+</hearts>
+<diamonds>
+K7
+</diamonds>
+<clubs>
+K643
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+J7
+</spades>
+<hearts>
+J974
+</hearts>
+<diamonds>
+853
+</diamonds>
+<clubs>
+QT52
+</clubs>
+</hand>
+</distribution>
+<p>
+Právě pro ten případ, kdy Východ má kárového krále i srdcové eso, musí Jih trefového krále propustit. Druhý tref vezme esem, vytrumfuje a zahraje károvou dámou impas. Východ vezme králem a může si již jen stáhnout srdcové eso a vynést tref, protože je jasné, že měl-li hlavní hráč jen dva trefy, nemůže závazek prohrát.
+</p>
+<p>
+Závěr: Hlavní hráč musí využít každý dárek poskytnutý obránci a zabezpečit se proti tomu, aby jej rychle vrátil. Platí zde opět pravidlo, že nebezpečného soupeře je nutno zbavit výnosu.
+</p>
+</example>
+<literature>
+<li>
+Reese, Trézel	Vzít či nevzít	příklady č. 1,2,5,15,22,32
+</li>
+</literature>
+</lesson>

@@ -1,0 +1,232 @@
+<lesson year="2" title="Markování do barvy partnera" number="10" updatedAt="2021-08-14 23:14:09">
+<p>
+Tato lekce je podstatným příspěvkem pro obranu. Je totiž důležité najít nějaký způsob jak se dovědět, které vysoké karty drží partner nebo která je jeho barva. Předávání těchto informací pomocí určitého domluveného způsobu odhazování karet se říká markování neboli signalizace. Na začátek vysvětlíme, že v principu jsou tři druhy signálů – kvalitativní, oznamující partnerovi – pokračuj, mám v této barvě hodnoty nebo naopak nepokračuj, nemám v této barvě nic, dále kvantitativní, oznamující partnerovi počet karet v dané barvě a prefsignál oznamující, kterou barvu si přeji, aby byla vynesena. Tyto tři druhy signálů mají svou míru důležitosti a jsou situace, kdy je třeba použít jeden z nich a další situace si vyžadují zase jiný signál. Dejme dětem pro začátek jasný návod, kdy a jaké signály mají používat. Nejdůležitějším signálem je vyjádření toho, zda chci, či nechci barvu vynesenou partnerem. Je to nejdůležitější signál v celé bridžové obraně, pomáhá partnerům ujasnit si, ve které barvě mohou útočit.
+</p>
+<p>
+Do barvy, kterou vynesl jako první partner (především do prvního výnosu), markujme tedy kvalitu. Malá karta bude značit chci, to znamená, mám v této barvě figuru, případně v barevné hře dubla, kterého je možno využít ke snapu. Velká karta znamená, že nemám tyto hodnoty v partnerem vynesené barvě. Malou kartou se myslí nejvýše asi tak 5, velkou asi od 6 do 10. Je ale třeba říci, že toto rozdělení na malé a velké karty nelze vzít automaticky. Mám-li například v ruce 2,4,6 a na stole vidím 3,5, pak sedmička partnera je malá, protože prostě nemůže mít nižší kartu. Tomuto způsobu markování se říká obrácené. Můžeme dětem říci, že původně velká znamenala chci, proto obrácené.
+</p>
+<p>
+Příklady:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+K62
+</spades>
+<hearts>
+T7
+</hearts>
+<diamonds>
+KT972
+</diamonds>
+<clubs>
+A84
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AQ5
+</spades>
+<hearts>
+J93
+</hearts>
+<diamonds>
+AQJ
+</diamonds>
+<clubs>
+K752
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+J843
+</spades>
+<hearts>
+Q8642
+</hearts>
+<diamonds>
+53
+</diamonds>
+<clubs>
+QT
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+T97
+</spades>
+<hearts>
+AK5
+</hearts>
+<diamonds>
+864
+</diamonds>
+<clubs>
+J963
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="KH">
+K srdce – povzbudivá marka	, hraji tedy dále eso a malou srdci
+</leadcard>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+KQJT62
+</spades>
+<hearts>
+632
+</hearts>
+<diamonds>
+74
+</diamonds>
+<clubs>
+KT
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+98
+</spades>
+<hearts>
+T984
+</hearts>
+<diamonds>
+AKJT9
+</diamonds>
+<clubs>
+AQ
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+53
+</spades>
+<hearts>
+AKQJ
+</hearts>
+<diamonds>
+632
+</diamonds>
+<clubs>
+8432
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+A74
+</spades>
+<hearts>
+75
+</hearts>
+<diamonds>
+Q85
+</diamonds>
+<clubs>
+J9765
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="6c">
+6 trefová - odrazující marka, která znamená, změň barvu při dalším u na jinou.
+</leadcard>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+QT54
+</spades>
+<hearts>
+Q53
+</hearts>
+<diamonds>
+KQ6
+</diamonds>
+<clubs>
+KQ6
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+J96
+</spades>
+<hearts>
+AKJ86
+</hearts>
+<diamonds>
+A32
+</diamonds>
+<clubs>
+T9
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+83
+</spades>
+<hearts>
+972
+</hearts>
+<diamonds>
+J854
+</diamonds>
+<clubs>
+J873
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+AK72
+</spades>
+<hearts>
+T4
+</hearts>
+<diamonds>
+T97
+</diamonds>
+<clubs>
+A542
+</clubs>
+</hand>
+</distribution>
+<contract value="4HS" />
+<leadcard value="KS">
+K pikový – povzbuzující marka vyzývající pokračuj. Partner ponese eso a další pik umožní snap.
+</leadcard>
+</example>
+<literature>
+<li>
+J. Hájek	Bridžová školka	31. lekce
+</li>
+<li>
+E. Kaplan	Základy sehrávky	str. 18-19
+</li>
+<li>
+D. Haydenová	Draž lépe, hraj lépe	str. 62-69
+</li>
+<li>
+A. Sheinwold	Sehrávka	str. 307-311
+</li>
+<li>
+P. Mokráň	Bridž rýchlo a dobre	str. 263-267
+</li>
+<li>
+J. Fišer	Jak se hraje bridž	str. 62-63
+</li>
+<li>
+P. Hebák	Bridž pro každého	str. 205-212
+</li>
+<li>
+J. Sedlář	Základy teorie bridže	str. 31-33
+</li>
+<li>
+P. Cronier a spol.	Minibridž	18. lekce
+</li>
+</literature>
+</lesson>

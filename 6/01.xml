@@ -1,0 +1,509 @@
+<lesson year="6" title="Jednoduchý skvíz – Terminologie" number="1" updatedAt="2021-08-09 20:42:02">
+<p>
+Nejdříve se podíváme na sehrávku dvou příkladů z otevřených karet.
+</p>
+<example number="1">
+
+<distribution>
+<hand position="north">
+<spades>
+KQT3
+</spades>
+<hearts>
+864
+</hearts>
+<diamonds>
+Q754
+</diamonds>
+<clubs>
+74
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AJ5
+</spades>
+<hearts>
+AKQ2
+</hearts>
+<diamonds>
+A6
+</diamonds>
+<clubs>
+J985
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+984
+</spades>
+<hearts>
+T753
+</hearts>
+<diamonds>
+K82
+</diamonds>
+<clubs>
+K63
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+762
+</spades>
+<hearts>
+J9
+</hearts>
+<diamonds>
+JT93
+</diamonds>
+<clubs>
+AQT2
+</clubs>
+</hand>
+</distribution>
+<contract value="3NTS" />
+<leadcard value="2c">
+t2
+</leadcard>
+<p>
+Západ vynesl trefovou dvojku. Východ vzal králem a vrátil tref. Hlavní hráč dal z ruky v prvním kole pětku a ve druhém osmičku, Západ bere desítkou a stahuje dva nejvyšší trefy. Po odehrání čtyř trefových zdvihů (na poslední tref Východ odhodil jeden pik a ze stolu bylo odhozeno srdce a káro) zahrál Západ kluka kárového. Ze stolu dal hlavní hráč malou a v ruce vzal esem, když král nespadl. Hlavní hráč už nesmí ztratit zdvih. Do této chvíle nemohl nic zvláštního udělat, teď se konečně dostává do hry a bilancuje své naděje. Má tři jisté srdcové zdvihy, čtyři pikové a jeden kárový, takže jeden zdvih chybí. Při rozloze srdcí 3-3 je devátým zdvihem třináctá srdce. A to je asi šance, na kterou bude tento středně pokročilý hráč hrát. Jako poučený bridžista ví, že obránci dělají chyby a umí tohoto faktu využívat a předtím než zjistí, jestli jeho plán na rozpadnutí srdcí vyjde, obehraje čtyři kola piků. Co kdyby si soupeř špatně odhodil, i kdyby se srdce 3-3 nedělila. Tedy že by ten se srdcovým 4-listem jednu srdci zahodil. Pustil se do práce a Západ odhodil malé káro a Východ také malé káro a navíc malou srdci. To je chvíle, kdy se hlavní hráč pochválí, jeho drobná lest měla úspěch. Teď začne obehrávat srdce a Východ už má jen tři z původních čtyř. Hlavní hráč tedy vypracoval srdcovou dvojku. Na konci sehrávky se otočí k Východu a říká mu: „Dík za ten odhoz srdcový, bez něj bych tenhle závazek nesplnil, ale nic si z toho nedělej, bylo to těžké, schválně jsem hrál nejdřív piky, aby se někdo z vás spletl.“
+</p>
+<p>
+Pokud jste si karty poctivě rozložili a celou partii zdvih po zdvihu sehráli, určitě vidíte, že poznámka hlavního hráče byla nepřípadná, Východ žádnou chybu neudělal, protože kdyby neodhodil srdci, tak by jedinou jinou kartu k odhozu byl kárový král a viděl, že by si tím moc nepomohl, protože by se povýšila kárová dáma na stole, takže srdcový odhoz byl přirozený a správný a v konverzaci s hlavním hráčem se takto i bránil. „Aha, tak tos měl blbé,“ uzavřel debatu hlavní hráč a my ji teď uzavřeme také, protože to Východ měl skutečně blbé, a protože byl prostě odsouzen. Podívejme se ještě na jeden příklad a postupujme u něj stejně pečlivě jako v prvním případě. Nejdříve si rozložme všechny čtyři listy a pak poctivě zdvih po zdvihu karty odkládejme.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+QT96
+</spades>
+<hearts>
+Q964
+</hearts>
+<diamonds>
+K8
+</diamonds>
+<clubs>
+AK8
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AKJ87
+</spades>
+<hearts>
+753
+</hearts>
+<diamonds>
+A7
+</diamonds>
+<clubs>
+643
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+542
+</spades>
+<hearts>
+82
+</hearts>
+<diamonds>
+QJT532
+</diamonds>
+<clubs>
+T7
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+3
+</spades>
+<hearts>
+AKJT
+</hearts>
+<diamonds>
+964
+</diamonds>
+<clubs>
+QJ952
+</clubs>
+</hand>
+</distribution>
+<auction dealer="S">
+<bid value="1S" />
+<bid value="pass" />
+<bid value="4S" />
+<bid value="pass" />
+<bid value="pass" />
+<bid value="pass" />
+</auction>
+<leadcard value="KH">
+sK
+</leadcard>
+<p>
+Západ vynáší srdcového krále a Východ přihazuje povzbudivě dvojku. Západ pokračuje srdcovým esem a vynese dále kluka. Hlavní hráč zatím jen přihazoval malé karty, v tomto zdvihu nemůže získat zahráním malé ze stolu, Východ by odhodil a Západ ponese další srdce, proto hraje vydražitel dámu, Východ snapuje a vrací károvou dámu. Jih bere zdvih, třikrát trumfne, Východ třikrát přiznal a Západ zahodil tref a káro. Hlavní hráč teď bilancuje. Má pět pikových zdvihů, dva trefové a dva kárové. Žádnou naději na další zdvih nevidí, ale rozhodne se bojovat do poslední kapky krve. Odehraje ještě jedno káro (oba přiznávají) a hraje ještě dvakrát trumf, Východ odhazuje jeden tref a jedno káro. Západ odhazuje nejdříve jeden tref, a protože nechce ztratit nejvyšší srdcovou desítku, zahazuje ještě jeden tref. Hlavní hráč do posledního zdvihu zahazuje srdci a odevzdaně hraje trefy s očekáváním, že poslední zdvih bude soupeřů. S překvapením ale zjišťuje, že soupeři už žádný tref nemají a jeho osmička získává nečekaný desátý zdvih. Je šťastný a děkuje s radostí soupeřům. „Prostě poshazovali moc trefů, naivové“, myslí si „ještě že jsem před těmi trefy obehrál všechny vysoké karty a dal jsem jim k takové hloupé chybě příležitost.“
+</p>
+<p>
+Vraťte se teď k posledním třem kartám a podívejte se na onu koncovku:
+</p>
+<distribution>
+<hand position="north">
+<spades>
+-
+</spades>
+<hearts>
+9
+</hearts>
+<diamonds>
+-
+</diamonds>
+<clubs>
+AK8
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+-
+</diamonds>
+<clubs>
+643
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+-
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+JT
+</diamonds>
+<clubs>
+T7
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+-
+</spades>
+<hearts>
+T
+</hearts>
+<diamonds>
+-
+</diamonds>
+<clubs>
+QJ9
+</clubs>
+</hand>
+</distribution>
+<p>
+Jih hraje pikové eso a Západ musí odhodit. Jestliže se rozhodne odhodit srdcovou desítku místo zvoleného trefu, devítka stolu bude vysoká a hlavnímu hráči stačí ze stolu shodit trefovou osmičku. Možná udělal chybu v průběhu partie Východ, protože kdyby si nechal o jeden tref víc, mohl Západ zahodit tref beztrestně, Západ by držel srdci a Východ tref, taková spolupráce partnerů v obraně je žádoucí. Ale pozor, podívejte se na diagram celého rozdání a zjistíte, že Východ měl od počátku pouze dva trefy, v průběhu žádný neodhodil a ani on tedy žádnou chybu neudělal.
+</p>
+</example>
+<p>
+Skvízová terminologie
+</p>
+<p>
+V obou výše uvedených příkladech by bridžový expert hrál zcela stejně jako naši středně silní hráči a výsledek by byl shodný. Rozdíl by byl jen v tom, že by expert neobviňoval obránce ze špatné hry, ale pochválil by v duchu sám sebe, jak správně a učebnicově realizoval jednoduchý skvíz. Obránce by v nejlepším případě politoval, že se octli v drtivém tlaku, z kterého prostě neexistovalo východisko. I když upřímně řečeno Západ v prvním případě by si tolik lítosti nezasloužil, protože skvíz mohl odvrátit, ale o tom si povíme až v předposlední lekci této kapitoly.
+</p>
+<p>
+Ukážeme si úvahy experta, ale pokud si máme něco vysvětlit, musíme nejdříve zvládnout terminologii daného problému. Nejdříve si řekněme, co to skvíz vůbec je. Předtím však malé opakování.
+</p>
+<p>
+Winér je slovo, které bychom už měli znát, ale pro jistotu. Je to karta, která udělá jistý zdvih, nelze ji přebít jinou kartou.
+</p>
+<p>
+Definice skvízu: Zpravidla každý list obsahuje nějaké bezcenné karty, stejně jako karty, které sehrávají určitou užitečnou úlohu jako perspektivní winéry, zádrže apod. První se nazývají nečinné a druhé činné karty. Může se stát, že některý hráč je donucen odhodit činnou kartu z jednoduchého důvodu, že jeho list už žádnou nečinnou kartu neobsahuje. Když se to stane, říkáme, že hráč je skvízován.
+</p>
+<p>
+V následujících koncovkách je závazek pikový nebo beztrumfový, vynáší Jih a list jednoho z obránců je bezcenný.
+</p>
+<p>
+a)
+</p>
+<distribution>
+<hand position="north">
+<spades>
+-
+</spades>
+<hearts>
+9
+</hearts>
+<diamonds>
+AKT
+</diamonds>
+<clubs>
+-
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+-
+</spades>
+<hearts>
+5
+</hearts>
+<diamonds>
+87
+</diamonds>
+<clubs>
+T
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+-
+</spades>
+<hearts>
+T
+</hearts>
+<diamonds>
+QJ5
+</diamonds>
+<clubs>
+-
+</clubs>
+</hand>
+</distribution>
+<p>
+b)
+</p>
+<distribution>
+<hand position="north">
+<spades>
+-
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+J
+</diamonds>
+<clubs>
+AJ3
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+JT
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+-
+</diamonds>
+<clubs>
+76
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+-
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+Q
+</diamonds>
+<clubs>
+KQ8
+</clubs>
+</hand>
+</distribution>
+<p>
+V příkladě a) na trefový výnos Sever odhodí srdce, ale Východ je ve skvízu. Když odhodí s10, povýší se s5 Jihu, když zahodí káro, pracuje k10 Severu. Tedy i přesto, že hlavní hráč má jen tři winéry, vezme všechny čtyři zdvihy.
+</p>
+<p>
+V příkladě b) odhodí na první pik Západ i Sever nečinný tref, ale na druhý pik je Západ skvízován. Je úplně jedno, co udělá, Sever vezme všechny další zdvihy.
+</p>
+<p>
+Skvízová hra má svůj vlastní slovníček a naším prvořadým úkolem je seznámit se s ním. Nutnou podmínkou pro každý skvíz je, že jeden ze soupeřů musí držet činné karty ve dvou barvách. V typickém případě drží hlavní hráč v těchto barvách určité karty, ze kterých jedna bude povýšena skvízem. Tyto potenciální winéry se nazývají nadějky. V příkladě a) jsou nadějkami s5 a k10, v příkladě b) kJ a tJ.
+</p>
+<p>
+Barvy, ve kterých je obránce činný se nazývají nadějkové barvy, ostatní jsou volné barvy. V určitém stádiu sehrávky začne hlavní hráč stahovat své volné winéry a pokračuje bez přerušení, dokud je všechny neodehraje. Poslední z těchto karet, která vynutí osudný odhoz je skvízová karta a zdvih, ve kterém se to stane, se nazývá skvízový zdvih.
+</p>
+<p>
+Ze dvou listů hlavního hráče (vlastního a stolu), ten, který leží po levici oběti, se nazývá vyšší ruka, po pravici je nižší ruka. V příkladě a) je Jih vyšší ruka, v příkladě b) je Sever vyšší ruka.
+</p>
+<p>
+Z mnoha variant skvízu, které mohou vzniknout, je nejjednodušší dvojbarevný nebo také jednoduchý skvíz (jednoduchý ve smyslu jediného, i když při troše štěstí je tento skvíz nejjednodušší i v původním smyslu slova). V typické formě této hry drží hlavní hráč nadějky ve dvou barvách a celá tíha obrany spočívá na jednom z obránců. Když je skvíz vypracovaný, hlavní hráč má jen jednu ztrátovou kartu, tzn. může stáhnou všechny karty až na jednu, kterou by odevzdal. Důležitá vlastnost jednoduchého skvízu je, že je nemožné, aby obě nadějky ležely v téže ruce jako skvízová karta. Pojmy nadějka, nadějková barva, volná barva, skvízová karta, skvízový zdvih, vyšší ruka a nižší ruka musíme dobře ovládat, než se do dalšího studia pustíme, protože v každém příkladě budeme s těmito pojmy operovat. Vraťte se teď proto k prvnímu příkladu. Nebožák na Východě vůbec neudělal chybu, jak se mu to snažil vnutit hlavní hráč, ale byl ve skvízu. Aplikujte v této hře všech sedm pojmů, poté si zkontrolujte o pár řádků níže, jestli se vám to povedlo správně a zkuste totéž i ve druhém příkladě. Pokud se to nepovede, přečtěte si řešení, pokuste se to pochopit, zavřete knihu a vraťte se k tomu později, za několik minut, hodin nebo dní, aplikujte znovu a jestli se to podaří, pokračujte dál.
+</p>
+<p>
+První příklad: nadějky jsou srdcová dvojka a kárová dáma, nadějkové barvy tedy srdce a kára, volné barvy jsou tedy (ty ostatní) trefy a piky, skvízovou kartou je poslední odehrávaný pik, skvízový zdvih je devátý, vyšší ruka je ruka hlavního hráče, nižší ruka je stůl.
+</p>
+<p>
+Druhý příklad: nadějky jsou srdcová devítka a trefová osmička, nadějkové barvy srdce a trefy, volné barvy jsou kára a piky, skvízovou kartou je poslední odehrávaný trumf, skvízový zdvih je desátý, vyšší ruka je stůl a nižší ruka jsou karty hlavního hráče.
+</p>
+<p>
+Teď si možná myslíte, že to bude příliš složité, ale nebojte, nebudete si to takto muset pojmenovávat pokaždé, je jen důležité, abychom si společně rozuměli, o čem mluvíme.
+</p>
+<p>
+Čtyři podmínky skvízu
+</p>
+<p>
+Zapamatovat si ale budete muset něco jiného. Následující výroky jsou nutným základním kamenem pochopení skvízové hry. Pro tuto formulaci se předpokládá, že na výnosu je hlavní hráč. Jednoduchý skvíz určitě bude fungovat, když jsou splněny následující podmínky:
+</p>
+<p>
+1) hlavní hráč má jen jednu ztrátovou kartu JE
+</p>
+<p>
+2) jeden obránce je činný ve dvou barvách, jeho partner je bezmocný ČI
+</p>
+<p>
+3) aspoň jedna nadějka je ve vyšší ruce VÝ
+</p>
+<p>
+4) budeme mít vstup k nadějce VSTUP
+</p>
+<p>
+</p>
+<p>
+Tyto čtyři podmínky musí být důkladně memorizovány. Můžete si přitom pomáhat mnemotechnickou pomůckou JEČIVÝ VSTUP.
+</p>
+<p>
+Existují tři podmínky vstupu, které budou jednotlivě probrány.
+</p>
+<p>
+VSTUP1 protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě.
+</p>
+<p>
+VSTUP2 když má Jih skvízovou kartu, Sever drží winéra a malou kartu v nadějkové barvě Jihu a zároveň když je skvízován Východ, Jih drží winéra ve vlastní nadějkové barvě.
+</p>
+<p>
+VSTUP3 když má Jih skvízovou kartu, Sever drží winéra v nadějkové barvě Jihu a Jih drží winéra v barvě Severu.
+</p>
+<p>
+Absolutní nevyhnutelnost existence ČI pro všechny typy skvízů už byla ukázána. Nevyhnutelnost existence VSTUP je zřejmá. Co se stane, když JE nebo VÝ chybí, můžeme vidět na následujících příkladech. Beztrumfový závazek, vynáší Jih.
+</p>
+<p>
+a)
+</p>
+<distribution>
+<hand position="north">
+<spades>
+8
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+AJ8
+</diamonds>
+<clubs>
+-
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+J
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+5
+</diamonds>
+<clubs>
+76
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+-
+</spades>
+<hearts>
+Q
+</hearts>
+<diamonds>
+KQ
+</diamonds>
+<clubs>
+9
+</clubs>
+</hand>
+</distribution>
+<p>
+b)
+</p>
+<distribution>
+<hand position="north">
+<spades>
+-
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+AJ
+</diamonds>
+<clubs>
+J
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+J
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+64
+</diamonds>
+<clubs>
+-
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+-
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+Q7
+</diamonds>
+<clubs>
+Q
+</clubs>
+</hand>
+</distribution>
+
+<p>
+V příkladě a) může hlavní hráč získat jen dva ze čtyř zdvihů, tzn. má dvě ztrátové karty. Když vynese pik, západ má k dispozici nečinnou kartu a skvíz nefunguje.
+</p>
+<p>
+V případě b) není splněna třetí podmínka – obě hrozby jsou v nižší ruce. Sever musí odhazovat před Východem. Je jedno, které hrozby se zbaví, držení Východu je tímto odhozem uvolněno.
+</p>
+<p>
+Jak teď s těmito možnostmi a vědomostmi naložit? Opět se podívejme na naše dvě rozdání. Vraťte se k Příkladu 1. Obránci stáhli čtyři trefy, a vynesli kárového kluka, který dojde k esu hlavního hráče. Jak teď uvažuje skvízér? Stejně jako průměrný hráč počítá zdvihy – tři srdcové, čtyři pikové a jeden kárový. Šanci vidí v dělení srdcí 3-3, ale také v možnosti jednoduchého skvízu srdco-kárového. Když bude mít jeden z obránců i krále kárového a současně čtyři srdce, nebude moci udržet všechno. Zkontroluje, jestli jsou pořádku všechny čtyři podmínky: JE je splněno, má osm jistých zdvihů a jeden ztrátový, ČI doufá, že by mohlo existovat, VÝ nadějky (kQ a s2) mám rozdělené, takže tato podmínka je také splněna (kdyby měl obě nadějky v jedné ruce, pak by skvíz fungoval jen na jednoho obránce, takto funguje na oba) a VSTUP mají obě nadějky ve svých barvách. Všechny podmínky jsou splněny, hlavní hráč musí tedy obehrát všechny své piky, aby ten obránce, který je činný ve dvou barvách se na čtvrtý pik musel rozhodnout, které se vzdá. Jak už jsme viděli, ať udělá cokoliv, bude to špatně. Hlavnímu hráči stačí sledovat, jestli spadne kárový král, pokud se tak nestane, hraje na srdce. Pokud jsou srdce 3-3, pak si tímto způsobem sehrávky nic nezničíme. Maximálně se budeme zlobit, že takto to splní každý, kdežto vaše schopnosti vyjdou vniveč.
+</p>
+<p>
+V Příkladu 2 po dvou srdcích a srdcovém snapu nese Východ káro. Hlavní hráč bere a opět počítá – pět pikových zdvihů, dva kárové a dva trefové a při běžném typu sehrávky žádná šance na desátý. Máme lokalizovánu srdcovou desítku, pokud bude společně s alespoň pěti trefy, pak Západ neudrží trefy i srdci a bude ve skvízu. Jiná šance není. Zkontrolujeme podmínky pro skvíz: JE je splněno, mám v této chvíli devět zdvihů a jeden ztrátový, ČI pokud bude Západ dlouhý v trefech (alespoň 5-list) bude tato podmínka splněna, VÝ – obě nadějky jsou na stole a obětí je Západ, obě nadějky jsou tedy ve vyšší ruce a VSTUPem k oběma jsou winéry v trefech. Všechny podmínky jsou splněny, sledujeme tedy jen srdcovou desítku. Pokud ji na skvízový zdvih Západ zahodí, povýší se devítka a hlavní hráč ze stolu odhodí trefovou osmičku. Když srdcová desítka nepadne, zahodí se srdce a winérem bude trefová osmička.
+</p>
+<p>
+Tak to by tedy bylo vaše první seznámení se skvízem. Pokuste se tato dvě rozdání sehrát samostatně a připomeňte si všechny úvahy zde probrané.
+</p>
+<literature>
+<li>
+C.E.Love	Všechno o skvízech
+</li>
+<li>
+J.Hájek	Nauč se skvízovat
+</li>
+</literature>
+</lesson>

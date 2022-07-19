@@ -1,0 +1,255 @@
+<lesson year="2" title="Plán barevné hry – Snapování" number="24" updatedAt="2021-08-27 14:41:05">
+<p>
+A nyní se pustíme do barevných her. Některé techniky, které jsme se naučili, nepochybně využijeme i zde. Nabízí se tři základní plány, které mají své zvláštní zásady a zákonitosti. Nejdříve si proberme snapovací plán, tedy využití krátkosti stolu ke snapování z hlediska hlavního hráče. Opět doložíme na pěti cvičebních rozdáních, jak pracovat s trumfy a přechody.
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+432
+</spades>
+<hearts>
+2
+</hearts>
+<diamonds>
+8765
+</diamonds>
+<clubs>
+K6542
+</clubs>
+</hand>
+<hand position="south">
+
+<spades>
+AKQJ5
+</spades>
+<hearts>
+A43
+</hearts>
+<diamonds>
+AK2
+</diamonds>
+<clubs>
+A3
+</clubs>
+</hand>
+
+</distribution>
+<contract value="6SS" />
+<leadcard value="KH">
+K srdcový
+</leadcard>
+<p>
+Vezmu krále srdcového esem. Mám pět pikových, po dvou v levných brvách a jeden srdcový zdvih. Chybějící dva zdvihy mohu získat na srdcové snapy. Protože potřebuji jen dva snapy, mohu jednou trumfnout shora, snapnout srdce, přejít trefem nebo kárem do ruky, snapnout podruhé, přejít druhou levnou barvou do ruky a dotrumfovat.
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+T75
+</spades>
+<hearts>
+K73
+</hearts>
+<diamonds>
+A2
+</diamonds>
+<clubs>
+87542
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KQJ96
+</spades>
+<hearts>
+A862
+</hearts>
+<diamonds>
+54
+</diamonds>
+<clubs>
+AK
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="Kd">
+K kárový
+</leadcard>
+<p>
+Vezmeme a obehrajeme obě nejvyšší srdce, teď pustíme srdce, a pokud se tato barva nerozpadla, získáme snap na pikovou desítku, což bude váš chybějící zdvih. Kdyby ji snad Východ přebil esem, pak uděláte místo toho navíc jeden zdvih v trumfech.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+K642
+</spades>
+<hearts>
+62
+</hearts>
+<diamonds>
+A84
+</diamonds>
+<clubs>
+A863
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A873
+</spades>
+<hearts>
+A853
+</hearts>
+<diamonds>
+K3
+</diamonds>
+<clubs>
+KJ5
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="QH">
+Q srdcová
+</leadcard>
+<p>
+Vaším plánem je snapovat srdce dvakrát ze stolu, takže si tam musíte nechat dva trumfy. Kdybyste nevytáhli z protivníků žádné trumfy, třetí nebo čtvrté kolo srdcí by mohlo být přesnapováno, vytrumfujete-li úplně zůstane jen jeden trumf. Když vezmete domů eso a krále pikové a pustíte další srdce, trumfnou potřetí obránci a je po plánu. Proto je nejlepší pustit srdce, vzít jej až podruhé, pak dvakrát trumfnout shora a užít si svých snapů.
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+9642
+</spades>
+<hearts>
+K6
+</hearts>
+<diamonds>
+A84
+</diamonds>
+<clubs>
+A863
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A873
+</spades>
+<hearts>
+A853
+</hearts>
+<diamonds>
+K3
+</diamonds>
+<clubs>
+KJ5
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="QH">
+Q srdcová
+</leadcard>
+<p>
+Problém správného trumfování je obdobný. Vezmete-li výnos srdcový, zahrajete eso pikové a malý pik, protivníci ho mohou vzít a zahrát třetí kolo trumfů, když piky nevynesete, protivníci by vás mohli přesnapovat. Řešení spočívá v tom, že po získání prvního zdvihu v srdcích pustíte sám dobrovolně jeden pik a podržíte své eso. Při další příležitosti bouchnete svým esem trumfovým, takže je trumfnuto dvakrát a může se začít snapovat a neohlížet se na vysokého trumfa.
+</p>
+</example>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+T87653
+</spades>
+<hearts>
+J75
+</hearts>
+<diamonds>
+84
+</diamonds>
+<clubs>
+53
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A
+</spades>
+<hearts>
+AKQT9
+</hearts>
+<diamonds>
+A6
+</diamonds>
+<clubs>
+AK762
+</clubs>
+</hand>
+</distribution>
+<contract value="6HS" />
+<leadcard value="KS">
+K pikový
+</leadcard>
+<p>
+Vezmete výnos a naplánujete si vypracovat trefy snapováním. Protože je třeba snapnout dvakrát, nelze vytrumfovat. Odehrajte eso a krále trefové a snapněte tref klukem srdcovým. Jestli se trefy rozpadly, závazek je v suchu. Ale i při neúspěchu stále ještě můžete svůj slem uhrát. Vraťte se do ruky vysokým kárem a na čtvrtý tref shoďte káro, pak budete moci snapovat káro bez vážnějšího nebezpečí, protože se vám podařilo přehrát snap do jiné, mnohem bezpečnější barvy.
+</p>
+</example>
+<p>
+Jako samostatný úkol zadejte k řešení toto rozdání:
+</p>
+<example number="6">
+<distribution>
+<hand position="north">
+<spades>
+JT5
+</spades>
+<hearts>
+85
+</hearts>
+<diamonds>
+A642
+</diamonds>
+<clubs>
+J954
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AKQ96
+</spades>
+<hearts>
+AK742
+</hearts>
+<diamonds>
+5
+</diamonds>
+<clubs>
+83
+</clubs>
+</hand>
+</distribution>
+<contract value="4SS" />
+<leadcard value="7d">
+7 kárová
+</leadcard>
+<p>
+Dva snapy srdcové budou stačit, ale nesmím zapomenout na možnost přesnapu a snapnout obě srdce vysoko, protože mám dostatek vysokých trumfů, tak se přesnapu nemusím bát. Vezmu tedy káro a hraji dvě nejvyšší srdce, snap junkem, snapem károvým se dostanu do ruky, snap srdce desítkou a dotrumfování. Při pravděpodobném dělení srdcí 4-2 uhraji s nadzdvihem.
+</p>
+</example>
+<literature>
+<li>
+E. Kaplan	Pokročilá sehrávka	str. 27-29
+</li>
+<li>
+J. Sedlář	Základy teorie sehrávky	str. 23
+</li>
+<li>
+J. Minaříček	Sehrávka	str. 22-23
+</li>
+</literature>
+</lesson>
