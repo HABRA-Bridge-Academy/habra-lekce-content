@@ -1,0 +1,220 @@
+<lesson year="2" title="Transfery a silná dražba po zahájení 1BT, 2BT, odpověď 2k v konvenci Stayman " number="30" updatedAt="2022-07-20 00:41:16">
+<p>
+V této lekci upravíme zahájení po hlášce 1BT. Základem, na kterém stavíme a který ponecháme, je Stayman. Pro vyjádření absence drahého 4-listu budeme ale používat 2k, umožní nám to rozhodnout se, zda přijmout či nepřijmout výzvu a dále ponechá mnohem větší prostor pro manévrování v konstruktivní dražbě při netypických listech. Pokud odpovídající nemá drahý 4-list, pak 2BT zůstanou výzvou, ale hlášky 2k a 2s budou přenosovou hláškou, která ukazuje 5+list v barvě o jedno vyšší. Takovéto hlášce se říká transfer. Partner pak draží povinně barvu transferu. Další odpovědi jsou následující: s 0-7b. pas (bývá lepší hrát v barvě než v BT, protože v BT dlouhou barvu na slabé straně nevyužijeme), s 8-9b. s 6-listem výzva, 8-9b se slohou 5-3-3-2 nebo s bočním 4-listem 2BT, s 10+ a bočním 4-listem dražíte onen boční 4-list a s 10-15b. bez bočního 4-listu 3BT.
+</p>
+<p>
+Další inovací budou hlášky na třetím stupni, které znamenají 12+b., tedy GF a 6+list. Je to tedy velmi silná dražba, která ukazuje slemové možnosti.
+</p>
+<p>
+Transfery budeme užívat i po zahájení 2BT.
+</p>
+<p>
+Postupy po zahájení 1BT (15-17b., vyvážená sloha)
+</p>
+<p>
+Odpovědi:
+</p>
+<p>
+2t ! = 8+b., alespoň jeden drahý 4-list
+</p>
+<p>
+2k ! = 0+b., 5+list srdcový
+</p>
+<p>
+2s ! = 0+b., 5+list pikový
+</p>
+<p>
+2BT = 8-9b., bez drahého 4-listu
+</p>
+<p>
+3t,k,s,p = 12+b., pokus o slem, 6+list v dražené barvě
+</p>
+<p>
+3BT = 10-15b.
+</p>
+<p>
+Další postupy:
+</p>
+<p>
+1BT – 2t !
+</p>
+<p>
+2k ! = bez drahého 4-listu
+</p>
+<p>
+2s = 4-list srdcový, může být i pikový
+</p>
+<p>
+2p = 4-list pikový bez 4-listu srdcového
+</p>
+<p>
+1BT – 2k !
+</p>
+<p>
+2s ! – pas = 0-7b., 5+list srdcový
+</p>
+<p>
+3s = 8-9b. 5-list srdcový s 6-listem, výzva do 4s
+</p>
+<p>
+2p,3t,k = 5+list srdcový, 4+list v dražené barvě, gameforcing, 10+b.
+</p>
+<p>
+2BT = sloha 5-3-3-2, 8-9b nebo 5-4
+</p>
+<p>
+3BT = sloha 5-3-3-2, 10-15b nebo 5-4
+</p>
+<p>
+1BT – 2s !
+</p>
+<p>
+2p ! – pas = 0-7b., 5+list pikový
+</p>
+<p>
+3p = 8-9b. 5-list pikový s 6-listem, výzva do 4s
+</p>
+<p>
+3t,k,s = 5+list pikový, 4+list v dražené barvě, gameforcing, 10+b.
+</p>
+<p>
+2BT = sloha 5-3-3-2, 8-9b. nebo 5-4
+</p>
+<p>
+3BT = sloha 5-3-3-2, 10-15b. nebo 5-4
+</p>
+<p>
+Co budete dražit po zahájení 1BT s následujícími listy a co ve druhém kole dražby:
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+J65432
+</spades>
+<hearts>
+T7
+</hearts>
+<diamonds>
+984
+</diamonds>
+<clubs>
+J5
+</clubs>
+</hand>
+</distribution>
+<distribution>
+<hand position="hand">
+<spades>
+J65432
+</spades>
+<hearts>
+T7
+</hearts>
+<diamonds>
+984
+</diamonds>
+<clubs>
+J5
+</clubs>
+</hand>
+</distribution>
+<p>
+2s pak pas
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+A4
+</spades>
+<hearts>
+KJT653
+</hearts>
+<diamonds>
+QJ8
+</diamonds>
+<clubs>
+K2
+</clubs>
+</hand>
+</distribution>
+<p>
+3s - slemový pokus
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+K852
+</spades>
+<hearts>
+QJT83
+</hearts>
+<diamonds>
+Q7
+</diamonds>
+<clubs>
+72
+</clubs>
+</hand>
+</distribution>
+<p>
+2k pas
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+KQ543
+</spades>
+<hearts>
+Q75
+</hearts>
+<diamonds>
+T4
+</diamonds>
+<clubs>
+A85
+</clubs>
+</hand>
+</distribution>
+<p>
+2s
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+A5
+</spades>
+<hearts>
+72
+</hearts>
+<diamonds>
+64
+</diamonds>
+<clubs>
+T865432
+</clubs>
+</hand>
+</distribution>
+<p>
+pas
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+KJ873
+</spades>
+<hearts>
+T86
+</hearts>
+<diamonds>
+QJ74
+</diamonds>
+<clubs>
+A
+</clubs>
+</hand>
+</distribution>
+
+<p>
+2s pak 3k
+</p>
+</lesson>

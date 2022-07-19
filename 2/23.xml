@@ -1,0 +1,129 @@
+<lesson year="2" title="Výnosy do barvy" number="23" updatedAt="2022-07-20 00:31:59">
+<p>
+Ve skutečnosti je při obraně nejtěžším problémem otvírající výnos. Jelikož ještě nevidíte karty stolu, nemůžete si být jisti, co má být Vaším cílem – zamezit snapování, vzít rychle domů své zdvihy nebo se držet vzadu a klidně na své zdvihy čekat. Např. výnos trumfem je nejlepší, když chcete zabránit snapování nebo když chcete klidně čekat na své zdvihy, ale zmaří dokonale Vaše naděje na úspěšnou obranu, když se ukáže, že jde o typ rozdání, při němž musíte své zdvihy udělat co nejdříve, což je asi nejčastější typ her. Vynesete-li však od některé vedlejší barvy, v níž máte honéra ve snaze udělat zdvihy co nejdříve, můžete zadat zdvih, kterým byste závazek porazili, když vše, co byste měli udělat, bylo sedět a čekat. Jde-li o slepý výnos, tj. o výnos po licitaci, v níž Váš partner nic nenabízel, musíte při výběru udělat kompromis mezi dvěma kvalitami – mezi bezpečností a útočností. „Útokem“ se míní, jak je pravděpodobné, že tento výnos povede k rychlému uhrání zdvihů. „Bezpečností“ se míní, jak je pravděpodobné, že tímto výnosem bude ztracen zdvih, který by jinak mohl být udělán.
+</p>
+<example number="1">
+<p>
+Naneštěstí jsou útok a bezpečnost často dvě protichůdné kvality. Předpokládejme, že nepřátelé licitovali takto:
+</p>
+<auction onesided="true" dealer="S">
+<bid value="1S" />
+<bid value="3S" />
+<bid value="pass" />
+</auction>
+<p>
+Máte udělat první výnos s tímto listem:
+</p>
+
+<distribution>
+<hand position="hand">
+<spades>
+Q84
+</spades>
+<hearts>
+KJ4
+</hearts>
+<diamonds>
+Q53
+</diamonds>
+<clubs>
+7632
+</clubs>
+</hand>
+</distribution>
+<p>
+Je jasné, že musíte vynést srdce nebo trefy. Výnos srdcovou čtyřkou je výborný pro útok, protože jím můžete udělat hned dva nebo tři zdvihy, bude-li partner mít eso, nebo vypracovat dva možné zdvihy, bude-li mít partner dámu. Tento výnos je však hrozně nebezpečný, protože nebude-li mít partner žádného takového honéra, necháte vydražitele udělat první zdvih na dámu – tak svého krále asi nikdy neuhrajete. Naproti tomu dvojka trefová je zcela bezpečná, protože nemůže ztratit žádný zdvih, když nesete od ničeho. Není to však nic útočného, protože i když najdete u partnera honéra, nemůžete si vypracovat vysokou kartu k získání zdvihu. Nemůžete mít tudíž obojí – útok i bezpečnost – co tedy máte zvolit?
+</p>
+<p>
+Při shora uvedené licitaci bych byl pro útočný výnos v srdcích. Proti manšovým závazkům a ještě důtklivěji proti malým slemům se snažím vynést agresivně, 1) protože protivníci uhrají své zdvihy dříve, když my neuhrajeme své zdvihy a 2) protože naše strana nebude často ve výnosu – první výnos bude znamenat asi polovinu našich příležitostí k vypracování nebo k vzetí domů našich zdvihů. Naproti tomu bych při obraně proti částečnému závazku považoval za daleko důležitější bezpečnost. Protivníci nemají nadbytek bodů, a přitom není třeba riskovat při prvním výnosu, protože naše strana může počítat s tím, že se opět dostane do výnosu častěji. Tedy proti dvěma pikům bych vynesl trefy.
+</p>
+</example>
+<p>
+Jiným faktorem, který mě vede k útočnému výnosu, je to, co držím v barvě stolu – v kárech. Vypadá to, že vydražitel bude moci asi na kára odhazovat a tato barva bude asi pravidelně rozložena. Kdybych měl v kárech čtyři karty s Q,J, raději bych místo toho vynesl bezpečně, protože se asi ukáže, že se nemusíme obávat, že by naše karty, na něž bychom mohli udělat zdvihy, přišly vniveč, kdyby nebyly uhrány včas. Na tomto příkladu můžete vidět dva hlavní druhy úvah při rozhodování se mezi útokem a bezpečností – Jak vysoký je závazek protivníků? Jak asi bude rozložena vedlejší barva stolu?
+</p>
+<p>
+Samozřejmě, že je ideálním, když můžete zaútočit a přitom zachovat i bezpečnost. To je možné, když máte sled tří karet vedený honérem (K,Q,J, Q,J,10, J,10,9). Výnos nejvyšší karty ze sledu je zcela bezpečný a zároveň velmi útočný, což jsou důvody, pro něž jsou tyto výnosy doporučovány. Když je třetí karta jen o stupeň nižší než ta, která by do sledu patřila (tzv. přerušený sled – K,Q,10, Q,J,9, J,10,8), výnos od takového sledu je právě tak útočný a skoro stejně bezpečný. Proto je též výborným prvním výnosem.
+</p>
+<p>
+Nejlepším prvním výnosem vůbec je král z kombinace A,K. Je pochopitelně jak vysoce útočným, tak zcela bezpečný. Největší výhodou tohoto výnosu však je, že při něm zůstanete ve zdvihu, umožní Vám podívat se na karty stolu, a pak se můžete rozumně rozhodovat místo toho, abyste museli jen hádat. Proto máte-li v nějaké barvě A,K, poděkujte kartibohu a vyneste krále. Zvolíte-li přitom jiný výnos, bude to skvělé, když se to podaří, ale bylo by úplným bláznovstvím, kdyby to, jak se většinou stává, nemělo úspěch.
+</p>
+<p>
+Jiným výnosem, který je útočný a zároveň bezpečný, je nízký singl. Je to bezpečné, i když protivníci tuto barvu nabízeli, přestože tím asi ušetříte vydražiteli hádání, bude-li mít partner v této barvě nějaké střední hodnoty. A aby to mohlo být nějakým útočným výnosem, potřebujete k tomu mít nějaké bezvýznamné trumfy, jimiž byste mohli snapovat. Je např. zbytečné a neúčinné vynést singl, když máte v trumfech Q,J,x. A navíc partner musí být schopen dostat se do výnosu, aby Vám dal možnost snapovat. Čili čím slabší máte list, tím je slibnější učinit první výnos od krátké barvy. Přes všechna tato omezení je však výnos singlem obvykle tím nejlepším, co můžete učinit. To platí obzvlášť tehdy, když nepřítel licitoval silně a bez obav, takže jen vysokými kartami ho asi neporazíte.
+</p>
+<p>
+Podobně je výnos od nízkého dublu bezpečný a mírně útočný. Nepovede tak snadno k získání snapu jako singl, a proto to není nejvhodnější výnos, jde-li o barvu, kterou nabízeli protivníci. Avšak dubl v nelicitované barvě je výborným výnosem, obzvláště máte-li slabý list s bezcennými trumfy.
+</p>
+<p>
+Sled dvou karet (K,Q, Q,J, J,10, atd.) je prakticky stejně útočný jako sled tří karet. Není tak bezpečný, ale je daleko bezpečnější než výnos jediného honéra. Někdy se Vám bude zdát, že kdykoliv vynesete dámu z Q,J,x, budou A,10, na stole a že vydražitel má krále. Přece se to však nestane tak často a nemůžete mít na zřeteli jen bezpečnost. Proti závazku v barvě vynesete ze sledu dvou karet nejvyššího honéra, proti BT byste vynesli čtvrtou shora.
+</p>
+<p>
+Tím končí seznam dobrých výnosů – těch, které jsou jak bezpečné, tak i útočné. Všechny ostatní výnosy jsou buď nebezpečné, nebo neproduktivní, takže se budete muset rozhodnout na základě toho, o čem jsme již mluvili, zda vynést agresivně nebo bezpečně. Všeobecně lze říci, že barvy, v nichž máte velkou délku, jsou bezpečnější a méně útočné. Přijdete-li o honéra tím, že od něj vynesete, asi byste ho stejně neuhráli a vypracujete-li si vysokou kartu, asi ji nebudete moci vzít domů. Krátké barvy jsou nebezpečnější a útočnější. Musíte-li vynést od jedné z těchto barev:
+</p>
+<p>
+srdce: QT5 kára: QT864
+</p>
+<p>
+je srdcová pětka útočnějším a kárová šestka bezpečnějším výnosem. Když se rozhodujete vynést od honéra např. proti čtyřem pikům s listem:
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+J862
+</spades>
+<hearts>
+Q74
+</hearts>
+<diamonds>
+J64
+</diamonds>
+<clubs>
+K53
+</clubs>
+</hand>
+</distribution>
+<p>
+Výnos od dámy je nejbezpečnější, neboť nemá-li k ní partner žádného honéra, asi byste na ni stejně neudělali zdvih, kdežto výnos od krále je útočnější. Výnos od kluka je nejslabší, protože není ani bezpečný, ani útočný. Obvykle by měla být dána přednost výnosu od dámy, protože je trochu útočný a relativně bezpečný.
+</p>
+<p>
+Totéž platí o výnosu od dublu s honérem. Král z K,x je zoufalým útočným výnosem a může být vynesen jen ve zcela beznadějných situacích. Kluk z J,x je slabým, protože to často znamená ztrátu zdvihu a málokdy se tím něco získá. Dáma z Q,x je odůvodnitelná, ale jen když není k dispozici lepší výnos. Eso z A,x se zdá bezpečnější, než ve skutečnosti je. Je pravda, že o něj nepřijdete, ale eso by mohlo vykonat více než jen získat zdvih – mohlo by chytit nepřátelského honéra. A navíc je cenné jako zádrž – nepřítel pak může udělat zdvih v této barvě, aniž by Vás pustil do výnosu. Výnos esem Vás tedy skoro vždy připraví nepřímo o jeden zdvih tím, že pozbude svých vedlejších předností. Získáte-li tím snap, často pak jen zjistíte, že jste jiný zdvih odevzdali.
+</p>
+<p>
+Z uvedených důvodů se vyhněte výnosu od barvy, v níž máte eso, kdykoliv to bude možné. Přirozeně že to neplatí pro případ, kdy k němu máte také krále, nebo když partner tuto barvu dostatečně silně nabízel, takže můžete předpokládat, že on má krále.
+</p>
+<p>
+Když partner nabízel nějakou barvu, máte se samozřejmě snažit tuto barvu vynést. Máte-li však sami nějaký výborný výnos – A,K, sled tří karet vedený honérem, singl – mohli byste docela dobře partnerovu nabídku ignorovat. Jinak mu však udělejte radost a jeho barvu vyneste. Někdy budete moci udělat výjimku, když budete mít v barvě partnerovo eso. Pak se snažíte udělat výnos v jiné barvě, ledaže by partner slíbil, že má sám velikou sílu. To je, jestliže partner učinil otvírající nabídku, nemusí mít nezbytně krále ve své barvě, když však partner zasáhl přelicitováním, slíbil silnou barvu a Vy byste ji měli vynést.
+</p>
+<p>
+Nakonec určeme, kterou kartu vynést z barvy, již jste si pro první výnos vybrali. Od A,K krále. Z jakéhokoliv sledu dvou nebo tří karet nejvyšší. Z každého dublu tu vyšší. Ze 4- a více-listu, který není veden sledem, ale je v něm osamocený honér, čtvrtou shora. Je-li však takováto barva vedena esem, vyneste eso, když musíte od takovéto barvy nést. Od 4- a více-listu bez honéra neste třetí shora a ve druhém zdvihu přiložte druhou nejvyšší. Od K,x,x, Q,x,x nebo J,x,x neste nejnižší, od A,x,x eso. Ze tří malých karet vyneste prostřední a ve druhém kole pak vyšší.
+</p>
+<p>
+Všimněte si, že skutečnost, že Váš partner nabízel nějakou barvu, nemá vliv na to, kterou kartu vynesete, i když to hodně ovlivňuje to, kterou barvu máte vynést. Někdo kdysi vynašel rčení – Vynes nejvyšší kartu od partnerovy barvy. Existuje-li nějaká spravedlnost, bude tento člověk na věčnosti stále vynášet dámou z Q,x,x, a přitom zjistí toto:
+</p>
+<distribution>
+<hand position="hand">
+<spades>
+KJ3
+</spades>
+</hand>
+<hand position="dummy">
+<spades>
+84
+</spades>
+</hand>
+<hand position="LHO">
+<spades>
+Q52
+</spades>
+</hand>
+<hand position="RHO">
+<spades>
+AT976
+</spades>
+</hand>
+</distribution>
+<literature>
+<li>
+E. Kaplan	Základy sehrávky	str. 24-25
+</li>
+</literature>
+</lesson>
