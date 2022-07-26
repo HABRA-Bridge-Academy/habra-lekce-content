@@ -33,7 +33,9 @@ J74
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="6c">
 t6
 </leadcard>
@@ -111,7 +113,9 @@ A
 </clubs>
 </hand>
 </distribution>
-<contract value="5dS" />
+<deal-contract>
+<contract level="5" suit="d" declarer="S"/>
+</deal-contract>
 <leadcard value="5S">
 p5
 </leadcard>
@@ -189,7 +193,9 @@ AQJ4
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="3H">
 s3
 </leadcard>
@@ -264,7 +270,9 @@ T53
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="2H">
 s2
 </leadcard>
@@ -324,26 +332,16 @@ Je jisté, že Západ vynesl správně malé srdce, protože výnos dámou by da
 Závěr: Až dosud jsme se zabývali výnosy, které byly provedeny od dlouhé barvy vynášejícího. Teď jsme přešli k výnosům do barvy dražené partnerem. Podobná situace jako v rozebraném příkladě může nastat také třeba při této rozloze:
 </p>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 QTxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 x
-</spades>
-</hand>
-<hand position="LHO">
-<spades>
+</suit><suit position="west">
 Jxx
-</spades>
-</hand>
-<hand position="RHO">
-<spades>
+</suit><suit position="east">
 AKxxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <p>
 Toto byla barva zahájení Východu. Západ vynesl malou, Východ vzal králem a vrátil malou. Zahraje-li Jih nyní desítku, západ vezme klukem a obrana nebude mít problémy s vypracováním barvy. Proto je pro hlavního hráče nejlepší vzít ve druhém zdvihu dámou. Když se mu pak podaří vyrazit Východu eventuelní vstup, bude barva zablokována.
@@ -383,7 +381,9 @@ K5
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="5S">
 p5
 </leadcard>
@@ -433,26 +433,16 @@ Zahraje-li Jih v prvním zdvihu ze stolu malý pik, dá soupeřům možnost vyp
 Závěr: V situacích podobných právě probrané je velmi snadné zablokovat soupeřům barvu, jakmile si jednou uvědomíme, že tato příležitost existuje. Například v pozici:
 </p>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 98xx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 AJ
-</spades>
-</hand>
-<hand position="LHO">
-<spades>
+</suit><suit position="west">
 KTxxx
-</spades>
-</hand>
-<hand position="RHO">
-<spades>
+</suit><suit position="east">
 Qx
-</spades>
-</hand>
+</suit>
 </distribution>
 <p>
 Když Západ vynáší malou, je správné hrát ze stolu eso. Západ by jistě nevynesl malou od K,Q,10,x,x, a proto Východ musí mít jednoho honéra. Po zahrání esa v prvním zdvihu bude barva zablokována, takže obránci v ní nebudou moci odehrát čtyři rychlé zdvihy.
@@ -460,7 +450,9 @@ Když Západ vynáší malou, je správné hrát ze stolu eso. Západ by jistě 
 </example>
 <literature>
 <li>
-Reese, Trézel	Blokování a odblokování	příklady č. 1-5
+<author>Reese, Trézel</author>
+<title>Blokování a odblokování</title>
+<reference>příklady č. 1-5</reference>
 </li>
 </literature>
 </lesson>

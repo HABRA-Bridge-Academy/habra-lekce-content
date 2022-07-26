@@ -1,6 +1,6 @@
 <lesson year="4" title="Pokročilá dražba po 1BT" number="20" video-id="">
 <p>
-Nejprve si připomeňme, jak po 1BT dosud dražíme:
+Nejprve si připomeňme, jak po <bid level="1" suit="NT"/> dosud dražíme:
 </p>
 <p>
 2t ! Stayman, tj. 8+ s alespoň jedním drahým 4-listem
@@ -33,10 +33,10 @@ Dnes si podáme k jednotlivým variantám více vysvětlení a přidáme dražb
 4BT 16b., pravidelná rozloha, kvantitativní hláška
 </p>
 <p>
-Kdy se ptáme hláškou 2p na levnou barvu?
+Kdy se ptáme hláškou <bid level="2" suit="S"/> na levnou barvu?
 </p>
 <p>
-1BT – 2p !
+1BT – <bid level="2" suit="S"/> !
 </p>
 <p>
 2BT ! = stejně dlouhé trefy a kára nebo kára delší
@@ -45,16 +45,16 @@ Kdy se ptáme hláškou 2p na levnou barvu?
 3t ! = trefy delší než kára
 </p>
 <p>
-v případě, že máme levnou drahou barvu, nechceme hrát 1BT a raději budeme hrát 3 v levné, po odpovědi partnera buď zapasujeme, pokud dražil tref a chceme trefy hrát, nebo dražíme levnou barvu
+v případě, že máme levnou drahou barvu, nechceme hrát <bid level="1" suit="NT"/> a raději budeme hrát 3 v levné, po odpovědi partnera buď zapasujeme, pokud dražil tref a chceme trefy hrát, nebo dražíme levnou barvu
 </p>
 <p>
-v případě, že máme obě levné barvy dlouhé (alespoň 4-4) a chceme hrát levný slem. Po partnerově odpovědi, která vyjadřuje jeho situaci v levných barvách nesmíme skončit stophláškou (což jsou 3t nebo 3k), každá forsující hláška znamená, že chci hrát slem. Levná barva na čtvrtém stupni bude znamenat výzvu ke cue-bidování (cue-bidy si probereme letos ve 27. lekci), každá nová barva je už rovnou cue-bid a tedy odsouhlašení barvy nadražené partnerem po 2p, pět v levné barvě je stopka a 4BT Blackwood.
+v případě, že máme obě levné barvy dlouhé (alespoň 4-4) a chceme hrát levný slem. Po partnerově odpovědi, která vyjadřuje jeho situaci v levných barvách nesmíme skončit stophláškou (což jsou <bid level="3" suit="C"/> nebo 3k), každá forsující hláška znamená, že chci hrát slem. Levná barva na čtvrtém stupni bude znamenat výzvu ke cue-bidování (cue-bidy si probereme letos ve 27. lekci), každá nová barva je už rovnou cue-bid a tedy odsouhlašení barvy nadražené partnerem po <bid level="2" suit="S"/>, pět v levné barvě je stopka a <bid level="4" suit="NT"/> Blackwood.
 </p>
 <p>
 Kdy dražíme 4BT?
 </p>
 <p>
-V případě, že máme přesně 16b. a rovnovážnou rozlohu. Partner draží s 15b. pas, se 16 body odpovídá počet es jako na zkráceného Blackwooda a se 17b. draží 6BT. Tento způsob dražby používáme i po transferu se 16b. a rozlohou 5-3-3-2 a drahým 5-listem.
+V případě, že máme přesně 16b. a rovnovážnou rozlohu. Partner draží s 15b. pas, se 16 body odpovídá počet es jako na zkráceného Blackwooda a se 17b. draží <bid level="6" suit="NT"/>. Tento způsob dražby používáme i po transferu se 16b. a rozlohou 5-3-3-2 a drahým 5-listem.
 </p>
 <p>
 Kdy dražíme 4t?
@@ -63,7 +63,7 @@ Kdy dražíme 4t?
 V případě, že se pokoušíme minimálně o malý beztrumfový slem a zajímá nás jen počet es a králů. Partner odpovídá takto: 1. stupeň 0 nebo 3 esa, 2. stupeň 1 eso, 3. stupeň 2 esa bez krále, 4. stupeň 2 esa a 1 král atd. Po odpovědi partnera se můžeme doptat na krále a na dámy, pokud chceme hrát velký slem.
 </p>
 <p>
-Kdy dražíme 4k nebo 4s?
+Kdy dražíme <bid level="4" suit="D"/> nebo 4s?
 </p>
 <p>
 V případě, že chceme hrát právě jen drahou hru a nemáme zájem o slem. Je to v případě, že naše síla je opřena především o drahý dlouhý list (musím mít pochopitelně minimálně 6-list). Partner zadraží barvu transferu a tím dražba skončí.
@@ -78,7 +78,7 @@ Pak záleží na tom, kolik máme bodů. Rozdělíme si to do tří zón.
 10 a více bodů, mancheforcing – dražte nejdříve transfer a pak vedlejší 4-list
 </p>
 <p>
-7-9 bodů, výzva – dražte 2t Stayman, když máte 4-list drahý, a pokud neuslyšíte drahou barvu, dražte 5-list, při levném 4-list dražte transfer do pasu nebo do 2BT
+7-9 bodů, výzva – dražte <bid level="2" suit="C"/> Stayman, když máte 4-list drahý, a pokud neuslyšíte drahou barvu, dražte 5-list, při levném 4-list dražte transfer do pasu nebo do 2BT
 </p>
 <p>
 méně bodů, stopka – dražte transfer na drahou barvu a pasujte
@@ -131,7 +131,7 @@ Q752
 <bid value="pass" />
 </auction>
 <p>
-Kvantitativka - s minimem pas, s maximem 6BT, s 16b. odpověď na Blackwooda, odpovídající by tak měl dražit i s drahým 4-listem při pravidelné rozloze (zvláště s 4-3-3-3).
+Kvantitativka - s minimem pas, s maximem <bid level="6" suit="NT"/>, s 16b. odpověď na Blackwooda, odpovídající by tak měl dražit i s drahým 4-listem při pravidelné rozloze (zvláště s 4-3-3-3).
 </p>
 </example>
 <example number="2">
@@ -173,7 +173,7 @@ QJ9753
 <bid value="pass" />
 </auction>
 <p>
-Raději než 1BT chci hrát 3 trefy.
+Raději než <bid level="1" suit="NT"/> chci hrát 3 trefy.
 </p>
 </example>
 <example number="3">
@@ -257,7 +257,7 @@ T6
 <bid value="pass" />
 </auction>
 <p>
-Při 5-4 v drahých s body na výzvu dražím přes Staymanna a po případné odpovědi 2k dražím delší drahou, čímž přesně popíšu co mám (7-9 b., 5-4 v drahých, dražil jsem delší).
+Při 5-4 v drahých s body na výzvu dražím přes Staymanna a po případné odpovědi <bid level="2" suit="D"/> dražím delší drahou, čímž přesně popíšu co mám (7-9 b., 5-4 v drahých, dražil jsem delší).
 </p>
 </example>
 <example number="5">
@@ -298,7 +298,7 @@ Q764
 <bid value="pass" />
 </auction>
 <p>
-S málo body se mohu pokoušet najít shodu v drahé (mám-li oba drahé 4-listy), ale musím mít také kára (ideálně čtyři, v praxi postačí i tři, abych mohl zapasovat případnou odpověď 2k, protože mým úmyslem je pasovat cokoliv partner řekne).
+S málo body se mohu pokoušet najít shodu v drahé (mám-li oba drahé 4-listy), ale musím mít také kára (ideálně čtyři, v praxi postačí i tři, abych mohl zapasovat případnou odpověď <bid level="2" suit="D"/>, protože mým úmyslem je pasovat cokoliv partner řekne).
 </p>
 </example>
 <example number="6">

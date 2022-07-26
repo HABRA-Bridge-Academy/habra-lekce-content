@@ -67,7 +67,9 @@ KQJ4
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 K trefový
 </leadcard>
@@ -134,7 +136,9 @@ KQJ
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 K trefový
 </leadcard>
@@ -201,7 +205,9 @@ QJT98
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="KS">
 K pikový
 </leadcard>
@@ -268,7 +274,9 @@ KQJT
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 K trefový
 </leadcard>
@@ -307,7 +315,9 @@ A952
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 K trefový
 </leadcard>
@@ -374,7 +384,9 @@ AT2
 </clubs>
 </hand>
 </distribution>
-<contract value="5dS" />
+<deal-contract>
+<contract level="5" suit="d" declarer="S"/>
+</deal-contract>
 <leadcard value="JS">
 J pikový
 </leadcard>
@@ -413,7 +425,9 @@ AJT
 </clubs>
 </hand>
 </distribution>
-<contract value="7SS" />
+<deal-contract>
+<contract level="7" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 K srdcový
 </leadcard>
@@ -452,7 +466,9 @@ A952
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 K trefový
 </leadcard>
@@ -491,7 +507,9 @@ A75
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="9c">
 9 trefová
 </leadcard>
@@ -501,28 +519,44 @@ Mám čtyři srdcové zdvihy, tři trefové a dva kárové. Nemám žádnou dél
 </example>
 <literature>
 <li>
-J. Hájek	Bridžová školka	26. lekce
+<author>J. Hájek</author>
+<title>Bridžová školka</title>
+<reference>26. lekce</reference>
 </li>
 <li>
-A. Sheinwold	Sehrávka	str. 258-263
+<author>A. Sheinwold</author>
+<title>Sehrávka</title>
+<reference>str. 258-263</reference>
 </li>
 <li>
-P. Hebák	Bridž pro každého	str. 85-91
+<author>P. Hebák</author>
+<title>Bridž pro každého</title>
+<reference>str. 85-91</reference>
 </li>
 <li>
-J. Fišer	Jak se hraje bridž	str. 56-59
+<author>J. Fišer</author>
+<title>Jak se hraje bridž</title>
+<reference>str. 56-59</reference>
 </li>
 <li>
-J. Minaříček	Sehrávka	str. 22-27
+<author>J. Minaříček</author>
+<title>Sehrávka</title>
+<reference>str. 22-27</reference>
 </li>
 <li>
-J. Sedlář	Základy teorie bridže	str. 22-26
+<author>J. Sedlář</author>
+<title>Základy teorie bridže</title>
+<reference>str. 22-26</reference>
 </li>
 <li>
-P. Mokráň	Bridž rýchlo a dobre	str. 224-230
+<author>P. Mokráň</author>
+<title>Bridž rýchlo a dobre</title>
+<reference>str. 224-230</reference>
 </li>
 <li>
-P. Cronier a spol.	Minibridž	7.,9.,15. lekce
+<author>P. Cronier a spol.</author>
+<title>Minibridž</title>
+<reference>7.,9.,15. lekce</reference>
 </li>
 </literature>
 </lesson>

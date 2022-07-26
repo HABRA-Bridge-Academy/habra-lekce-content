@@ -58,7 +58,9 @@ K9765
 </clubs>
 </hand>
 </distribution>
-<contract value="6dS" />
+<deal-contract>
+<contract level="6" suit="d" declarer="S"/>
+</deal-contract>
 <leadcard value="7H">
 s7
 </leadcard>
@@ -100,7 +102,9 @@ A84
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="JS">
 pJ
 </leadcard>
@@ -193,7 +197,9 @@ KQ8752
 </clubs>
 </hand>
 </distribution>
-<contract value="6cS" />
+<deal-contract>
+<contract level="6" suit="c" declarer="S"/>
+</deal-contract>
 <leadcard value="Jc">
 tJ
 </leadcard>
@@ -271,7 +277,9 @@ AK52
 </clubs>
 </hand>
 </distribution>
-<contract value="6SS" />
+<deal-contract>
+<contract level="6" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 sK
 </leadcard>
@@ -352,7 +360,9 @@ AJT97
 </clubs>
 </hand>
 </distribution>
-<contract value="6dS" />
+<deal-contract>
+<contract level="6" suit="d" declarer="S"/>
+</deal-contract>
 <leadcard value="9S">
 p9
 </leadcard>
@@ -430,7 +440,9 @@ K74
 </clubs>
 </hand>
 </distribution>
-<contract value="6HS" />
+<deal-contract>
+<contract level="6" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Qc">
 tQ
 </leadcard>
@@ -482,7 +494,9 @@ Závěr: Velmi často se stává, že závazek, který je na první pohled vylo�
 </example>
 <literature>
 <li>
-Reese, Trézel	Eliminace	příklady č. 8,15,18,19,20,25
+<author>Reese, Trézel</author>
+<title>Eliminace</title>
+<reference>příklady č. 8,15,18,19,20,25</reference>
 </li>
 </literature>
 </lesson>

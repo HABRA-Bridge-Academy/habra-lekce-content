@@ -48,7 +48,9 @@ AKQJ
 <leadcard value="QS">
 Q piková
 </leadcard>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <p>
 Hrát na kára 3-3, nebo expas srdcový? Expas dává 50% šanci a dělení 3-3 pouze 36%.
 </p>
@@ -87,7 +89,9 @@ KQJT
 <leadcard value="QS">
 Q piková
 </leadcard>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <p>
 Hrát na kára 3-2, nebo expas srdcový? Expas má 50% šanci a dělení 3-2 68%. Dvakrát tedy bouchneme zvysoka do kár s tím, že budeme očekávat, že do těchto dvou zdvihů vypadnou čtyři kára a třetí kolo kár vyžene poslední káro. Trefové eso je pak vstup ke kárům.
 </p>
@@ -95,126 +99,117 @@ Hrát na kára 3-2, nebo expas srdcový? Expas má 50% šanci a dělení 3-2 68%
 <p>
 Jak hrát tyto případy, budeme-li se řídit teorií pravděpodobnosti?
 </p>
-<example number="3">
+<ol>
+<li>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 T8542
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 AQJ76
-</spades>
-</hand>
+</suit>
 </distribution>
 <p>
 Při třech chybějících kartách krále impasujeme
 </p>
-</example>
-<example number="4">
+</li>
+<li>
 <distribution>
-<hand position="dummy">
-<spades>
+<suit>
 K754
-</spades>
-</hand>
+</suit>
 </distribution>
 <p>
-při pěti chybějících kartách dámu impasujeme
+Při pěti chybějících kartách dámu impasujeme
 </p>
-</example>
-<example number="5">
+</li>
+<li>
 <distribution>
-<hand position="dummy">
-<spades>
+<suit>
 AKJ543
-</spades>
-</hand>
+</suit>
 </distribution>
 <p>
-při čtyřech chybějících kartách hrajeme na vypadnutí dámy
+Při čtyřech chybějících kartách hrajeme na vypadnutí dámy
 </p>
-</example>
-<example number="6">
+</li>
+<li>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AT8732
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 QJ654
-</spades>
-</hand>
+</suit>
 </distribution>
 <p>
-při dvou chybějících kartách hrajeme na vypadnutí krále
+Při dvou chybějících kartách hrajeme na vypadnutí krále
 </p>
-</example>
-<example number="7">
-<distribution>
-<hand position="hand">
-<spades>
-K953
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
-AJ876
-</spades>
-</hand>
-</distribution>
-<p>
-při čtyřech chybějících kartách hrajeme na vypadnutí dámy
-</p>
-</example>
-<example number="8">
-<distribution>
-<hand position="dummy">
-<spades>
-AJ72
-</spades>
-</hand>
-</distribution>
-<p>
-při pěti chybějících kartách dámu impasujeme
-</p>
-</example>
 
-<example number="9">
+</li>
+<li>
 <distribution>
-<hand position="hand">
-<spades>
-QT85
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
-AJ763
-</spades>
-</hand>
+<suit position="south">
+K953
+</suit>
+<suit position="north">
+AJ876
+</suit>
 </distribution>
 <p>
-při čtyřech chybějících kartách krále impasujeme
+Při čtyřech chybějících kartách hrajeme na vypadnutí dámy
 </p>
-</example>
+</li>
+<li>
+<distribution>
+<suit >
+AJ72
+</suit>
+</distribution>
+<p>
+Při pěti chybějících kartách dámu impasujeme
+</p>
+</li>
+<li>
+<distribution>
+<suit position="south">
+QT85
+</suit>
+<suit position="north">
+AJ763
+</suit>
+</distribution>
+<p>
+Při čtyřech chybějících kartách krále impasujeme
+</p>
+</li>
+</ol>
+
 <literature>
 <li>
-J. Hájek	Bridžová školka	21. lekce
+<author>J. Hájek</author>
+<title>Bridžová školka</title>
+<reference>21. lekce</reference>
 </li>
 <li>
-E. Kaplan	Základy sehrávky	str. 13
+<author>E. Kaplan</author>
+<title>Základy sehrávky</title>
+<reference>str. 13</reference>
 </li>
 <li>
-J. Fišer	Jak se hraje bridž	str. 49-50
+<author>J. Fišer</author>
+<title>Jak se hraje bridž</title>
+<reference>str. 49-50</reference>
 </li>
 <li>
-P. Hebák	Bridž pro každého	str. 223-224
+<author>P. Hebák</author>
+<title>Bridž pro každého</title>
+<reference>str. 223-224</reference>
 </li>
 <li>
-P. Mokráň	Bridž rýchlo a dobre	str. 360-362
+<author>P. Mokráň</author>
+<title>Bridž rýchlo a dobre</title>
+<reference>str. 360-362</reference>
 </li>
 </literature>
 </lesson>

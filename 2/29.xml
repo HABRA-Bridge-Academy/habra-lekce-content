@@ -75,7 +75,9 @@ AKJ82
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <p>
 Co hrát po obehrání dvou trefů?
 </p>
@@ -144,7 +146,9 @@ Q9
 </clubs>
 </hand>
 </distribution>
-<contract value="2cS" />
+<deal-contract>
+<contract level="2" suit="c" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 K srdcový
 </leadcard>
@@ -214,7 +218,9 @@ Q952
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="2c">
 2 trefová, vydražitel bere esem, trumfne  esem a králem a nese malé káro.
 </leadcard>
@@ -281,7 +287,9 @@ KQ53
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 K trefový
 </leadcard>
@@ -351,7 +359,9 @@ AQT
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="KS">
 K pikový
 </leadcard>
@@ -361,7 +371,9 @@ Hlavní hráč vezme esem, dvakrát trumfne a zahraje impas trefový. Východ mu
 </example>
 <literature>
 <li>
-E. Kaplan	Pokročilá sehrávka	str. 35-39
+<author>E. Kaplan</author>
+<title>Pokročilá sehrávka</title>
+<reference>str. 35-39</reference>
 </li>
 </literature>
 </lesson>

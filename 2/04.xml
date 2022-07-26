@@ -33,7 +33,9 @@ AQ32
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="TS">
 10 piková
 </leadcard>
@@ -72,7 +74,9 @@ AK76
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="9S">
 9 piková
 </leadcard>
@@ -111,7 +115,9 @@ A32
 </clubs>
 </hand>
 </distribution>
-<contract value="6NTS" />
+<deal-contract>
+<contract level="6" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="JH">
 J srdcový
 </leadcard>
@@ -150,7 +156,9 @@ AK2
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="QS">
 Q piková
 </leadcard>

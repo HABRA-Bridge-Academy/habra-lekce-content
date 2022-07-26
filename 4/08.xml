@@ -30,7 +30,9 @@ AQJT2
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="3H">
 s3
 </leadcard>
@@ -108,7 +110,9 @@ Q953
 </clubs>
 </hand>
 </distribution>
-<contract value="6NTS" />
+<deal-contract>
+<contract level="6" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="7S">
 p7
 </leadcard>
@@ -189,7 +193,9 @@ JT952
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 tK, tA
 </leadcard>
@@ -267,7 +273,9 @@ AQJT
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="3S">
 p3
 </leadcard>
@@ -348,7 +356,9 @@ AQ4
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="Jc">
 tJ
 </leadcard>
@@ -426,7 +436,9 @@ AQ
 </clubs>
 </hand>
 </distribution>
-<contract value="6dS" />
+<deal-contract>
+<contract level="6" suit="d" declarer="S"/>
+</deal-contract>
 <leadcard value="QS">
 pQ
 </leadcard>
@@ -504,7 +516,9 @@ A52
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="6c">
 t6
 </leadcard>
@@ -553,7 +567,9 @@ Závěr: Odblokování bylo dvojnásobné (trefovým esem a převzetí károvéh
 </example>
 <literature>
 <li>
-Reese, Trézel	Blokování a odblokování	příklady č. 6,7,15,19,23,33,35
+<author>Reese, Trézel</author>
+<title>Blokování a odblokování</title>
+<reference>příklady č. 6,7,15,19,23,33,35</reference>
 </li>
 </literature>
 </lesson>

@@ -33,7 +33,9 @@ A862
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="9d">
 9 kárová
 </leadcard>
@@ -72,7 +74,9 @@ AK
 </clubs>
 </hand>
 </distribution>
-<contract value="6HS" />
+<deal-contract>
+<contract level="6" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="2c">
 </leadcard>
 <p>
@@ -110,7 +114,9 @@ K65
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="2c">třikrát tref		
 </leadcard><p>
 Pokud se kára dělí 3-3 nebo 4-2, půjdou vypracovat, problém je jen s počtem vstupů. Snapnu a propustím káro, vrácené srdce vezmu v ruce, zvysoka trumfnu a nesu káro k esu, snap kára zvysoka, trumf k dámě, snap zvysoka, dotrumfuji a eso srdcové funguje jako vstup k pátému káru.
@@ -147,7 +153,9 @@ K74
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="5d">
 káro
 </leadcard>
@@ -186,7 +194,9 @@ A52
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="5d">
 káro
 </leadcard><p>
@@ -227,7 +237,9 @@ AKJ
 </clubs>
 </hand>
 </distribution>
-<contract value="6HS" />
+<deal-contract>
+<contract level="6" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Qd">
 Q kárová
 </leadcard>
@@ -237,13 +249,19 @@ Dvanáctý zdvih není nutno získat impasem, ale uděláme ho pohodlně v pik�
 </example>
 <literature>
 <li>
-E. Kaplan	Pokročilá sehrávka	str. 32-35
+<author>E. Kaplan</author>
+<title>Pokročilá sehrávka</title>
+<reference>str. 32-35</reference>
 </li>
 <li>
-J. Minaříček	Sehrávka	str. 26-27
+<author>J. Minaříček</author>
+<title>Sehrávka</title>
+<reference>str. 26-27</reference>
 </li>
 <li>
-J. Sedlář	Základy teorie sehrávky	str. 23
+<author>J. Sedlář</author>
+<title>Základy teorie sehrávky</title>
+<reference>str. 23</reference>
 </li>
 </literature>
 </lesson>

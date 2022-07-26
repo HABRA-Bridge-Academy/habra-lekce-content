@@ -444,7 +444,9 @@ KT63
 </clubs>
 </hand>
 </distribution>
-<contract value="6SS" />
+<deal-contract>
+<contract level="6" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Ad">
 kA
 </leadcard>

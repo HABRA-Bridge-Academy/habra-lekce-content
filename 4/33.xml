@@ -3,26 +3,26 @@
 V této lekci si ukážeme speciální zahájení a speciální zásahy.
 </p>
 <p>
-Nejdříve konvence Gambling. Je to zahájení 3BT, které slibuje uzavřený levný 7-list bez vedlejšího esa. Uzavřený znamená A,K,Q, případně i J. Partner pasuje s esy vedle nebo s hodnotami blízké esům, aby fungovaly jako zádrž, jinak draží 3t a vy můžete opravit do 3k, pokud váš 7-list je kárový. Je to poměrně hojně užívaná konvence, která využívá základního principu, že s dlouhou levnou barvou je žádoucí hrát 3BT.
+Nejdříve konvence Gambling. Je to zahájení <bid level="3" suit="NT"/>, které slibuje uzavřený levný 7-list bez vedlejšího esa. Uzavřený znamená A,K,Q, případně i J. Partner pasuje s esy vedle nebo s hodnotami blízké esům, aby fungovaly jako zádrž, jinak draží <bid level="3" suit="C"/> a vy můžete opravit do <bid level="3" suit="D"/>, pokud váš 7-list je kárový. Je to poměrně hojně užívaná konvence, která využívá základního principu, že s dlouhou levnou barvou je žádoucí hrát <bid level="3" suit="NT"/>.
 </p>
 <p>
-Pokud soupeři zahájili a vy máte rozlohovou kartu založenou na dvou dlouhých barvách (alespoň 5-5), měl byste dražit s 8-15 body tak, aby partner mohl vaší rozlohu znát a využít. Všechny pokročilejší systémy takové hlášky mají. My vám nabízíme méně známou variantu, která vás velmi přesně popíše. Nejdříve si probereme zásahy po 1k, 1s a 1p a zahájení 1t si necháme na konec. Je obvyklé, že zahájení i zásah 2BT ukazují rozlohu 5-5 v levných a zásah 2 v barvě zahájení obecně 5-5. My využíváme faktu, že v zásahu téměř nemá cenu nabízet trefy skokem a tak i tuto hlášku máme na dvojbarevný zásah. Máme pak tři hlášky na tři kombinace. Pokud zasáhneme 2BT znamená to dva nejnižší 5-listy, 3t znamená vyloučení trefové barvy (a přirozeně taky barvy zahájení) a 2 v barvě zahájení je třetí zbývající kombinace.
+Pokud soupeři zahájili a vy máte rozlohovou kartu založenou na dvou dlouhých barvách (alespoň 5-5), měl byste dražit s 8-15 body tak, aby partner mohl vaší rozlohu znát a využít. Všechny pokročilejší systémy takové hlášky mají. My vám nabízíme méně známou variantu, která vás velmi přesně popíše. Nejdříve si probereme zásahy po <bid level="1" suit="D"/>, <bid level="1" suit="H"/> a <bid level="1" suit="S"/> a zahájení <bid level="1" suit="C"/> si necháme na konec. Je obvyklé, že zahájení i zásah <bid level="2" suit="NT"/> ukazují rozlohu 5-5 v levných a zásah 2 v barvě zahájení obecně 5-5. My využíváme faktu, že v zásahu téměř nemá cenu nabízet trefy skokem a tak i tuto hlášku máme na dvojbarevný zásah. Máme pak tři hlášky na tři kombinace. Pokud zasáhneme <bid level="2" suit="NT"/> znamená to dva nejnižší 5-listy, <bid level="3" suit="C"/> znamená vyloučení trefové barvy (a přirozeně taky barvy zahájení) a 2 v barvě zahájení je třetí zbývající kombinace.
 </p>
 <p>
-Když soupeři zadraží např. 1p, pak 2BT znamená 5-5 v levných, 3t 5-5 srdce-kára a 2p 5-5 srdce-trefy, po zahájení 1k znamená 2BT 5-5 trefy-srdce (protože kára je barva soupeřů).
+Když soupeři zadraží např. <bid level="1" suit="S"/>, pak <bid level="2" suit="NT"/> znamená 5-5 v levných, <bid level="3" suit="C"/> 5-5 srdce-kára a <bid level="2" suit="S"/> 5-5 srdce-trefy, po zahájení <bid level="1" suit="D"/> znamená <bid level="2" suit="NT"/> 5-5 trefy-srdce (protože kára je barva soupeřů).
 </p>
 <p>
 Není to příliš složitý systém a dovoluje jednou hláškou partnerovi oznámit deset karet, vřele doporučujeme. Variantou je způsob, který je popisován jako minimax. Zásahy jsou stejné, ale dražíte je, pokud máte méně bodů než na zásah (do 7, mini) nebo naopak více (16+, max). Pokud máte na zásah dražíte nejdřív jednu barvu, a pak druhou. Zvažte, který přístup se svým partnerem zvolíte vy.
 </p>
 <p>
-Pokud zahájí zahajitel 1t, pak 2k jsou drahý 6-list (8)10-15b. jako multi, ale jen s možností dlouhé drahé barvy, 2s jsou alespoň 5-5 se srdci a libovolnou barvou, 2p alespoň 5-5 piky a levná a 2BT alespoň 5-5 na levných barvách.
+Pokud zahájí zahajitel <bid level="1" suit="C"/>, pak <bid level="2" suit="D"/> jsou drahý 6-list (8)10-15b. jako multi, ale jen s možností dlouhé drahé barvy, <bid level="2" suit="H"/> jsou alespoň 5-5 se srdci a libovolnou barvou, <bid level="2" suit="S"/> alespoň 5-5 piky a levná a <bid level="2" suit="NT"/> alespoň 5-5 na levných barvách.
 </p>
 <p>
 Vyzkoušejte si několik dražeb.
 </p>
 <example number="1">
 <p>
-Co budete dražit po zahájení a) 1t, b) 1k, c) 1s, d) 1p s tímto listem:
+Co budete dražit po zahájení a) <bid level="1" suit="C"/>, b) <bid level="1" suit="D"/>, c) <bid level="1" suit="H"/>, d) <bid level="1" suit="S"/> s tímto listem:
 </p>
 <distribution>
 <hand position="hand">
@@ -55,7 +55,7 @@ d) pas
 </example>
 <example number="2">
 <p>
-Co budete dražit po zahájení a) 1t, b) 1k, c) 1s, d) 1p s tímto listem:
+Co budete dražit po zahájení a) <bid level="1" suit="C"/>, b) <bid level="1" suit="D"/>, c) <bid level="1" suit="H"/>, d) <bid level="1" suit="S"/> s tímto listem:
 </p>
 <distribution>
 <hand position="hand">

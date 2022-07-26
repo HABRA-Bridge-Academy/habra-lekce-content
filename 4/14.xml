@@ -34,7 +34,9 @@ AQ9
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 sK, sA, sQ
 </leadcard>
@@ -115,7 +117,9 @@ AQ3
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kd">
 kK, kA, kQ
 </leadcard>
@@ -195,7 +199,9 @@ AKJ8
 </clubs>
 </hand>
 </distribution>
-<contract value="5dS" />
+<deal-contract>
+<contract level="5" suit="d" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 sK
 </leadcard>
@@ -333,7 +339,9 @@ Q64
 </clubs>
 </hand>
 </distribution>
-<contract value="6NTS" />
+<deal-contract>
+<contract level="6" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="QH">
 sQ
 </leadcard>
@@ -419,7 +427,9 @@ T
 </clubs>
 </hand>
 </distribution>
-<contract value="6SS" />
+<deal-contract>
+<contract level="6" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="QH">
 sQ
 </leadcard>
@@ -498,7 +508,9 @@ J3
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 tK
 </leadcard>
@@ -638,7 +650,9 @@ KQJT3
 </clubs>
 </hand>
 </distribution>
-<contract value="6cS" />
+<deal-contract>
+<contract level="6" suit="c" declarer="S"/>
+</deal-contract>
 <leadcard value="JH">
 sJ
 </leadcard>

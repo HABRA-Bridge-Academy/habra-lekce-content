@@ -33,7 +33,9 @@ AJ3
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="QS">
 pQ
 </leadcard>
@@ -114,12 +116,14 @@ A6
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="7S">
 p7
 </leadcard>
 <p>
-Jih jako rozdávající zahajuje hláškou 1BT. Ať už linka N-S používá jakýchkoliv dražebních metod, Jih nakonec sehrává závazek 3BT. Západ vynáší pikovou sedmičku a Východ hraje do tohoto zdvihu dámu. Jak má Jih pokračovat v sehrávce?
+Jih jako rozdávající zahajuje hláškou <bid level="1" suit="NT"/>. Ať už linka N-S používá jakýchkoliv dražebních metod, Jih nakonec sehrává závazek <bid level="3" suit="NT"/>. Západ vynáší pikovou sedmičku a Východ hraje do tohoto zdvihu dámu. Jak má Jih pokračovat v sehrávce?
 </p>
 <p>
 Hlavní hráč vidí, že má dostatek zdvihů pro splnění závazku, jakmile si vypracuje kára. Nesedí-li ale kárový král, obrana může včas stáhnout čtyři pikové zdvihy, jestliže Západ vynesl od 5-listu. Jelikož nebezpečným soupeřem je Východ v tom smyslu, že jen on může získat zdvih na kárového krále, musí být správné tento zdvih propustit.
@@ -195,12 +199,14 @@ AJ975
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="TH">
 s10
 </leadcard>
 <p>
-Po zahájení Severu jedním trefem a pasu Východu draží Jih 3BT. Západ vynáší proti tomuto závazku srdcovou desítku. Má dát hlavní hráč ze stolu krále nebo malé srdce?
+Po zahájení Severu jedním trefem a pasu Východu draží Jih <bid level="3" suit="NT"/>. Západ vynáší proti tomuto závazku srdcovou desítku. Má dát hlavní hráč ze stolu krále nebo malé srdce?
 </p>
 <p>
 Zahraje-li hlavní hráč ze stolu malé srdce, ztratí svůj závazek, jestliže mu nebude sedět trefový král. Nepomůže mu ani propuštění zdvihu z obou stran, protože Západ bude v srdcích pokračovat, čímž si svou barvu vypracuje a odehraje si ji, až se dostane do zdvihu, protože obránci měli tyto karty:
@@ -273,7 +279,9 @@ K6
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kd">
 kK
 </leadcard>
@@ -360,7 +368,9 @@ AQT983
 </clubs>
 </hand>
 </distribution>
-<contract value="5cS" />
+<deal-contract>
+<contract level="5" suit="c" declarer="S"/>
+</deal-contract>
 <leadcard value="KS">
 pK
 </leadcard>
@@ -446,7 +456,9 @@ A9
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="2c">
 t2
 </leadcard>
@@ -495,7 +507,9 @@ Závěr: Hlavní hráč musí využít každý dárek poskytnutý obránci a zab
 </example>
 <literature>
 <li>
-Reese, Trézel	Vzít či nevzít	příklady č. 1,2,5,15,22,32
+<author>Reese, Trézel</author>
+<title>Vzít či nevzít</title>
+<reference>příklady č. 1,2,5,15,22,32</reference>
 </li>
 </literature>
 </lesson>

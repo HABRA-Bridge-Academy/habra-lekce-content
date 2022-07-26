@@ -30,12 +30,14 @@ AKQJT9
 </clubs>
 </hand>
 </distribution>
-<contract value="5cS" />
+<deal-contract>
+<contract level="5" suit="c" declarer="S"/>
+</deal-contract>
 <leadcard value="JH">
 sJ
 </leadcard>
 <p>
-Po zahájení Jihu konvenční hláškou dva trefy dražil sice Sever posléze 3BT, ale Jihu se to moc nelíbilo jako stoplicit. Použil Blackwooda 4BT, ale odpověď pět trefů (Sever mezitím už jedno eso oznámil) pasoval. Západ vynesl srdcového kluka, na kterého dal Východ krále. Jak má Jih pokračovat?
+Po zahájení Jihu konvenční hláškou dva trefy dražil sice Sever posléze <bid level="3" suit="NT"/>, ale Jihu se to moc nelíbilo jako stoplicit. Použil Blackwooda <bid level="4" suit="NT"/>, ale odpověď pět trefů (Sever mezitím už jedno eso oznámil) pasoval. Západ vynesl srdcového kluka, na kterého dal Východ krále. Jak má Jih pokračovat?
 </p>
 <p>
 Jih pasoval pět trefů proto, že v komerční partii to bylo navíc 150 za honéry a také proto, že závazek měl sehrávat on. Nicméně měl velkou příležitost zachránit si svou reputaci tím, když odblokoval do srdcového krále dámu. Pokud to udělal, mohl později impasovat u Západu srdcovou desítku a odhodit si tak v ruce jeden ztrátový zdvih. Karty obránců:
@@ -105,7 +107,9 @@ K
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="JH">
 sJ
 </leadcard>
@@ -186,7 +190,9 @@ A
 </clubs>
 </hand>
 </distribution>
-<contract value="6SS" />
+<deal-contract>
+<contract level="6" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Qc">
 tQ
 </leadcard>
@@ -270,7 +276,9 @@ AJT83
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="QS">
 pQ
 </leadcard>
@@ -357,7 +365,9 @@ JT643
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="5H">
 s5
 </leadcard>
@@ -407,76 +417,46 @@ Jih si může dovolit odevzdat dva zdvihy v trefech, ale nesmí se nechat odře
 Závěr: Patrně nikdo, kdo hraje bridž déle než týden, nezahraje špatně tuto kombinaci karet:
 </p>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 K83
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 A9742
-</spades>
-</hand>
-<hand position="LHO">
-<spades>
+</suit><suit position="west">
 Q5
-</spades>
-</hand>
-<hand position="RHO">
-<spades>
+</suit><suit position="east">
 JT6
-</spades>
-</hand>
+</suit>
 </distribution>
 <p>
 Hraje-li hlavní hráč beztrumfový závazek a potřebuje získat v této barvě čtyři zdvihy, zahraje nejprve jistě krále, a pak propustí další zdvih, aby si zajistil přechody při zbývající rozloze 3-2. A přitom tentýž princip platí i pro výše rozebírané rozdání. Na toto téma existuje dosti ošidných pozic, ať už v obraně nebo útoku:
 </p>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 96
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 AQJ53
-</spades>
-</hand>
-<hand position="LHO">
-<spades>
+</suit><suit position="west">
 73
-</spades>
-</hand>
-<hand position="RHO">
-<spades>
+</suit><suit position="east">
 KT82
-</spades>
-</hand>
+</suit>
 </distribution>
 <p>
 Jih potřebuje udělat v této barvě tři zdvihy a má na stůl již jen jeden vedlejší přechod. Jestliže zahraje v prvním zdvihu impas dámou nebo klukem, Východ propustí zdvih a barva bude zablokována. Pro Jih je lepší zahrát v prvním zdvihu devítku a propustit ji. Východ sice vezme desítkou, ale poté (za předpokladu, že vedlejší vstup stolu nemůže být zničen) si Jih vypracuje tři zdvihy v této barvě, ať už hraje shora nebo impasuje dámou. Nejčastější případ tohoto typu zahrání se vyskytuje i v obraně, na příklad v této situaci:
 </p>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AJ6
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 852
-</spades>
-</hand>
-<hand position="LHO">
-<spades>
+</suit><suit position="west">
 73
-</spades>
-</hand>
-<hand position="RHO">
-<spades>
+</suit><suit position="east">
 KQT94
-</spades>
-</hand>
+</suit>
 </distribution>
 <p>
 Západ vynáší sedmičku do partnerovy barvy a Východ vidí, že Jih, který dražil bez trumfů, má asi v jeho barvě A,J,x. Zahraje-li nyní dámu, Jih může propustit a Východ tak potřebuje další dva vstupy k vypracování a odehrání barvy. Nemá-li tyto přechody, dá v prvním zdvihu devítku a Jih musí vzít klukem. Může-li další zdvih v obraně vzít nejdříve Západ, zahraje trojku a po vyražení esa je barva vypracována, takže Východu stačí jeden vedlejší vstup.
@@ -513,7 +493,9 @@ T5
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="5d">
 k5
 </leadcard>
@@ -562,7 +544,9 @@ Závěr: Také v příkladu 1 musel Jih odblokovat dámou, aby si zachoval impa
 </example>
 <literature>
 <li>
-Reese, Trézel	Blokování a odblokování	příklady č. 8,9,26,29,38,42
+<author>Reese, Trézel</author>
+<title>Blokování a odblokování</title>
+<reference>příklady č. 8,9,26,29,38,42</reference>
 </li>
 </literature>
 </lesson>

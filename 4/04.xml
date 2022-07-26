@@ -30,7 +30,9 @@ AQT2
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 tK, tA
 </leadcard>
@@ -108,7 +110,9 @@ A7
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Ac">
 tA, tK, tQ
 </leadcard>
@@ -189,7 +193,9 @@ T842
 </clubs>
 </hand>
 </distribution>
-<contract value="6SS" />
+<deal-contract>
+<contract level="6" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 tK
 </leadcard>
@@ -267,7 +273,9 @@ K54
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="QH">
 sQ
 </leadcard>
@@ -351,7 +359,9 @@ AQ9876
 </clubs>
 </hand>
 </distribution>
-<contract value="6cS" />
+<deal-contract>
+<contract level="6" suit="c" declarer="S"/>
+</deal-contract>
 <leadcard value="Kd">
 kK
 </leadcard>
@@ -429,7 +439,9 @@ AQ
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="KS">
 pK, pA, pJ
 </leadcard>
@@ -476,26 +488,18 @@ Jih udělal chybu, když přebil srdcového kluka dámou. Místo toho měl odhod
 Závěr: Hlavní hráč zde měl příležitost uplatnit manévr, který se často vyskytuje v obraně známý jako vypromování trumfového zdvihu. Například v situaci:
 </p>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AQJ976
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 52
-</spades>
-</hand>
-<hand position="LHO">
-<spades>
+</suit>
+<suit position="west">
 KT4
-</spades>
-</hand>
-<hand position="RHO">
-<spades>
+</suit>
+<suit position="east">
 83
-</spades>
-</hand>
+</suit>
 </distribution>
 <p>
 Uvedený příklad ukazuje rozlohu trumfové barvy. Vynese-li Východ barvu, kterou Jih ani Západ už nemá a Jih přebije dámou nebo klukem, Západ nepokryje králem a zajistí si tak dva trumfové zdvihy. Tutéž taktiku může občas uplatnit při své sehrávce také hlavní hráč.
@@ -535,7 +539,9 @@ J
 <leadcard value="Kc">
 tK, tA
 </leadcard>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <p>
 Jih sehrává závazek čtyři piky a Západ proti němu vynáší trefového krále a pokračuje esem. Jak má Jih plánovat sehrávku?
 </p>
@@ -581,7 +587,9 @@ Závěr: Jednalo se o stejný druh problému jako v Příkladu 1, ale situace b
 </example>
 <literature>
 <li>
-Reese, Trézel	Bezpečná sehrávka	příklady č. 26-29, 31, 37, 38
+<author>Reese, Trézel</author>
+<title>Bezpečná sehrávka</title>
+<reference>příklady č. 26-29, 31, 37, 38</reference>
 </li>
 </literature>
 </lesson>

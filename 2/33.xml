@@ -33,7 +33,9 @@ Q862
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="2d">
 2 kárová
 </leadcard>
@@ -100,7 +102,9 @@ J83
 </clubs>
 </hand>
 </distribution>
-<contract value="2HS" />
+<deal-contract>
+<contract level="2" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Qd">
 Q kárová
 </leadcard>
@@ -167,7 +171,9 @@ Q92
 </clubs>
 </hand>
 </distribution>
-<contract value="3SS" />
+<deal-contract>
+<contract level="3" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 K srdcový
 </leadcard>
@@ -234,7 +240,9 @@ J952
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Qd">
 Q kárová
 </leadcard>
@@ -301,7 +309,9 @@ KQ986
 </clubs>
 </hand>
 </distribution>
-<contract value="6HS" />
+<deal-contract>
+<contract level="6" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 K trefový
 </leadcard>
@@ -371,7 +381,9 @@ K42
 </clubs>
 </hand>
 </distribution>
-<contract value="3SS" />
+<deal-contract>
+<contract level="3" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 K srdcový
 </leadcard>
@@ -381,7 +393,9 @@ Do výnosu by měl partner kladně markovat, z čehož Západ dešifruje dubl p
 </example>
 <literature>
 <li>
-E. Kaplan	Pokročilá sehrávka	str. 42-46
+<author>E. Kaplan</author>
+<title>Pokročilá sehrávka</title>
+<reference>str. 42-46</reference>
 </li>
 </literature>
 </lesson>

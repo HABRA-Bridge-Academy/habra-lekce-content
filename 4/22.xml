@@ -30,12 +30,14 @@ A64
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="5S">
 p5
 </leadcard>
 <p>
-Jih sehrává závazek 3BT. Západ vynáší pikovou pětku, Východ kryje esem a vynáší pikovou desítku. Jak má Jih závazek sehrávat?
+Jih sehrává závazek <bid level="3" suit="NT"/>. Západ vynáší pikovou pětku, Východ kryje esem a vynáší pikovou desítku. Jak má Jih závazek sehrávat?
 </p>
 <p>
 Kdyby Jih nyní pokryl klukem nebo dámou, splnil by závazek jen tehdy, kdyby tento zdvih vzal Západ králem. Jestliže ale Západ propustí, Jih jednou padne, protože obránci měli tyto karty:
@@ -77,51 +79,31 @@ Jih se tedy musí ochránit proti rozloze piků 5-3 tím, že pikovou desítku p
 Závěr: Tyto situace jsou velmi dobře známé a zkušený hráč na Východě může docela dobře zahrát k prvnímu zdvihu desítku, aby vylákal hlavního hráče k pokrytí zdvihu, ale i v tom případě musí Jih zdvih propustit. Předpokládejme, že Západ vynesl od A,K,9,x,x a kárový král nesedí. Závazek nelze splnit. Propuštění by bylo špatné jedině v případě této rozlohy karet:
 </p>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 QJxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 x
-</spades>
-</hand>
-<hand position="LHO">
-<spades>
+</suit><suit position="west">
 AK95
-</spades>
-</hand>
-<hand position="RHO">
-<spades>
+</suit><suit position="east">
 Txxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <p>
 Tento výnos je ale dosti nepravděpodobný. Stejný problém má hlavní hráč například při této rozloze:
 </p>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 QTxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 x
-</spades>
-</hand>
-<hand position="LHO">
-<spades>
+</suit><suit position="west">
 A9xxx
-</spades>
-</hand>
-<hand position="RHO">
-<spades>
+</suit><suit position="east">
 KJx
-</spades>
-</hand>
+</suit>
 </distribution>
 <p>
 Jestliže předpokládáme, že kritický impas je možno hrát na stejnou stranu jako v rozebíraném příkladu, pak musíme po výnosu ke králi vráceného kluka propustit. Podobně možno kluka propustit, zahraje-li ho chytrý Východ v prvním zdvihu.
@@ -159,7 +141,9 @@ K8
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="3S">
 p3
 </leadcard>
@@ -251,7 +235,9 @@ AJT
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="6S">
 p6
 </leadcard>
@@ -333,12 +319,14 @@ J765
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 tK
 </leadcard>
 <p>
-Za stavu obě linky ve druhé zahájil Jih dražbu hláškou 1 srdce, na což Sever odpověděl 1 pik. Zahajitel má nyní na výběr mezi 1BT, 2 trefy a 2 srdce. Řekněme, že opakuje srdce, Sever zvyšuje na 3 srdce a Jih doráží na celou hru.
+Za stavu obě linky ve druhé zahájil Jih dražbu hláškou 1 srdce, na což Sever odpověděl 1 pik. Zahajitel má nyní na výběr mezi <bid level="1" suit="NT"/>, 2 trefy a 2 srdce. Řekněme, že opakuje srdce, Sever zvyšuje na 3 srdce a Jih doráží na celou hru.
 </p>
 <p>
 Západ vynáší trefového krále, který je přebit trumfem na stole. Jak má Jih dále pokračovat?
@@ -417,7 +405,9 @@ A8
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Qc">
 tQ
 </leadcard>
@@ -495,12 +485,14 @@ Q9752
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="TH">
 s10
 </leadcard>
 <p>
-Jih opět sehrává závazek 3BT a Západ vynáší srdcovou desítku. Jak má hlavní hráč hrát za předpokladu, že je to výnos z dlouhé barvy?
+Jih opět sehrává závazek <bid level="3" suit="NT"/> a Západ vynáší srdcovou desítku. Jak má hlavní hráč hrát za předpokladu, že je to výnos z dlouhé barvy?
 </p>
 <p>
 Trefový impas je nutno zahrát k Východu. Jestliže nyní zahraje Jih ze stolu krále, prohraje závazek, když trefový král nebude sedět, jak je tomu při této rozloze karet u obránců:
@@ -547,7 +539,9 @@ Můžete se ptát, co by měl hlavní hráč ze stolu zahrát, kdyby nevěděl, 
 </example>
 <literature>
 <li>
-Reese, Trézel	Vzít či nevzít	příklady č. 10,13,16,19,20,27
+<author>Reese, Trézel</author>
+<title>Vzít či nevzít</title>
+<reference>příklady č. 10,13,16,19,20,27</reference>
 </li>
 </literature>
 </lesson>

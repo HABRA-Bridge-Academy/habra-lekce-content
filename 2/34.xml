@@ -183,7 +183,7 @@ KJ2
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="S">
+<auction onesided="true" dealer="N">
 <bid value="1NT" />
 <bid value="2c" />
 <bid value="2S" />
@@ -224,7 +224,7 @@ QJ75
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="S">
+<auction onesided="true" dealer="N">
 <bid value="1c" />
 <bid value="2H" />
 <bid value="4NT" />
@@ -233,14 +233,52 @@ QJ75
 <bid value="2H" />
 <bid value="pass" />
 </auction>
-<p>
+<h2>
 BLACKWOOD KLASICKÝ ZKRÁCENÝ
-</p>
+</h2>
 <p>
-Konvence zjišťující počet es při pokusu o slem. Na takovýto pokus je potřeba 32 figurových bodů v BT nebo 30 figurových (tzn. bez bodů za shodu) bodů v barevném slemu. Tato konvence se startuje hláškou 4BT, na kterou pak tázaný odpovídá podle počtu es (případně i králů) ve své barvě takto:
+Konvence zjišťující počet es při pokusu o slem. Na takovýto pokus je potřeba 32 figurových bodů v BT nebo 30 figurových (tzn. bez bodů za shodu) bodů v barevném slemu. Tato konvence se startuje hláškou <bid level="4" suit="NT"/>, na kterou pak tázaný odpovídá podle počtu es (případně i králů) ve své barvě takto:
 </p>
+<table>
+<tr>
+<td>1. stupeň </td>
+<td>
+<bid level="5" suit="C"/>
+</td>
+<td>	0 nebo 3 esa	 </td>
+</tr>
+<tr>
+<td>2. stupeň </td>
+<td>
+<bid level="5" suit="D"/>
+</td>
+<td>	1 nebo 4 esa	 </td>
+</tr>
+<tr>
+<td>3. stupeň </td>
+<td>
+<bid level="5" suit="H"/>
+</td>
+<td>	2 esa	bez krále vedle </td>
+</tr>
+<tr>
+<td>4. stupeň </td>
+<td>
+<bid level="5" suit="S"/>
+</td>
+<td>	2 esa	a 1 král vedle </td>
+</tr>
+<tr>
+<td>5. stupeň </td>
+<td>
+<bid level="5" suit="NT"/>
+</td>
+<td>	2 esa	a 2 králové vedle </td>
+</tr>
+
+</table>
 <p>
-Po odpovědi 5T nebo 5K je hláška v nejbližší následující barvě dotaz na počet králů (konvence Hoyt), hláška 5BT nebo hláška na pátém stupni v ushodněné barvě je stopka (chybí dvě esa). Odpovědi na dotaz na počet králů:
+Po odpovědi <bid level="5" suit="C"/> nebo <bid level="5" suit="D"/> je hláška v nejbližší následující barvě dotaz na počet králů (konvence Hoyt), hláška <bid level="5" suit="NT"/> nebo hláška na pátém stupni v ushodněné barvě je stopka (chybí dvě esa). Odpovědi na dotaz na počet králů:
 </p>
 <p>
 1. stupeň .......mám 0 nebo 3 krále
@@ -253,19 +291,29 @@ Po odpovědi 5T nebo 5K je hláška v nejbližší následující barvě dotaz n
 </p>
 <literature>
 <li>
-J. Hájek	Bridžová školka	28. lekce
+<author>J. Hájek</author>
+<title>Bridžová školka</title>
+<reference>28. lekce</reference>
 </li>
 <li>
-P. Hebák	Bridž pro každého	str. 134-141
+<author>P. Hebák</author>
+<title>Bridž pro každého</title>
+<reference>str. 134-141</reference>
 </li>
 <li>
-J. Fišer	Jak se hraje bridž	str. 38-39
+<author>J. Fišer</author>
+<title>Jak se hraje bridž</title>
+<reference>str. 38-39</reference>
 </li>
 <li>
-P. Mokráň	Bridž snadno a rýchlo	str. 69-81
+<author>P. Mokráň</author>
+<title>Bridž snadno a rýchlo</title>
+<reference>str. 69-81</reference>
 </li>
 <li>
-?	Přirozený licitační systém	str. 10-11
+<author>?</author>
+<title>Přirozený licitační systém</title>
+<reference>str. 10-11</reference>
 </li>
 </literature>
 </lesson>

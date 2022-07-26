@@ -30,7 +30,9 @@ AJT97
 </clubs>
 </hand>
 </distribution>
-<contract value="6cS" />
+<deal-contract>
+<contract level="6" suit="c" declarer="S"/>
+</deal-contract>
 <leadcard value="QS">
 pQ
 </leadcard>
@@ -117,7 +119,9 @@ K86
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kd">
 kK, kA
 </leadcard>
@@ -205,7 +209,9 @@ QJ83
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="QS">
 pQ
 </leadcard>
@@ -283,7 +289,9 @@ A853
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="KS">
 pK
 </leadcard>
@@ -330,7 +338,9 @@ V daném okamžiku musí však Jih zahrát přesně. Nesmí předčasně vpusti
 
 <literature>
 <li>
-Reese, Trézel	Eliminace	příklady č. 21, 29, 32, 33
+<author>Reese, Trézel</author>
+<title>Eliminace</title>
+<reference>příklady č. 21, 29, 32, 33</reference>
 </li>
 </literature>
 </lesson>

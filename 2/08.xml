@@ -33,7 +33,9 @@ K2
 </clubs>
 </hand>
 </distribution>
-<contract value="7SS" />
+<deal-contract>
+<contract level="7" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="2S">
 2 piková
 </leadcard>
@@ -72,7 +74,9 @@ QT9
 </clubs>
 </hand>
 </distribution>
-<contract value="6HS" />
+<deal-contract>
+<contract level="6" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="JS">
 J pikový
 </leadcard>
@@ -111,7 +115,9 @@ AK
 </clubs>
 </hand>
 </distribution>
-<contract value="6HS" />
+<deal-contract>
+<contract level="6" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Qd">
 Q kárová
 </leadcard>
@@ -150,7 +156,9 @@ QJ2
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Kd">
 K kárový
 </leadcard>

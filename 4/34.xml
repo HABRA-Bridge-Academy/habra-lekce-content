@@ -4,7 +4,7 @@ V závěru ročníku jsme se rozhodli vás seznámit s dalším licitačním sys
 naučíte, pak tady máte takový malý předskok. Také možná budete později chtít nebo už chcete, ať už ze zvědavosti nebo pro svůj rozvoj, hrávat nezávazně jen nějaký turnaj s někým dražícím zcela jinak. Velmi to doporučujeme. Druhým důvodem je fakt, že v běžných soutěžích budete potkávat dvojice, které budou dražit i jiný systém než ten váš a i pak může být důležité, rozumět jejich dražbě.
 </p>
 <p>
-Nejvýraznějším rysem, který se promítl i do názvu systému je velmi široké použití zahajující hlášky jeden tref. Obvykle mívá tyto čtyři možné významy: 12-14b. bez 5-listu nebo s 5+listem trefovým (někdy se říká slabý bez), 16+b. s 5+listem trefovým, 18+b. s libovolnou rozlohou a často také slohu 4-4-4-1 s 12-17b. Nejobvykleji bude mít zahajitel první variantu, každopádně svůj list „vysvětlí“ druhou hláškou. Vyplývá z toho, že odpovídající nesmí pasovat (je to forcing zahájení), protože zahajitel může být silný třeba na manši. Odpověď 1k na toto zahájení je proto vyhrazena negativnímu významu (0-6b.). V této náročné větvi systému je obsaženo i několik konvencí běžně užívaných v Polském trefu, např. Odwrotka.
+Nejvýraznějším rysem, který se promítl i do názvu systému je velmi široké použití zahajující hlášky jeden tref. Obvykle mívá tyto čtyři možné významy: 12-14b. bez 5-listu nebo s 5+listem trefovým (někdy se říká slabý bez), 16+b. s 5+listem trefovým, 18+b. s libovolnou rozlohou a často také slohu 4-4-4-1 s 12-17b. Nejobvykleji bude mít zahajitel první variantu, každopádně svůj list „vysvětlí“ druhou hláškou. Vyplývá z toho, že odpovídající nesmí pasovat (je to forcing zahájení), protože zahajitel může být silný třeba na manši. Odpověď <bid level="1" suit="D"/> na toto zahájení je proto vyhrazena negativnímu významu (0-6b.). V této náročné větvi systému je obsaženo i několik konvencí běžně užívaných v Polském trefu, např. Odwrotka.
 </p>
 <p>
 Zahájení jedna v drahé užívá systém Polský tref stejně, pouze s tím rozdílem, že je nahoře omezeno 17 body (u nás 21).
@@ -15,16 +15,16 @@ Zahájení jeden bez trumfů je zcela stejné jako u nás.
 <p>
 Zahájení jedno káro je používáno vpodstatě stejně, zahajuje se tak v Polském trefu s 5-listem, ale často i se 4-listem, zásadně ale ne s 3-listem.</p>
 <p>
-Zahájení 2t bývá v některých variantách silné jako u nás, ale je to jen menšinová větev. Obvykle toto zahájení „krade“ význam ze systému Precision a znamená 12-15b. s 6+listem trefovým nebo jen s 5-listem, ale pak navíc ještě s drahým 4-listem. Nejobvyklejšími pokračováními jsou pas nebo 2k, která znamenají alespoň 9b. a vybízejí partnera, aby objasnil rozlohu svého zahájení.
+Zahájení <bid level="2" suit="C"/> bývá v některých variantách silné jako u nás, ale je to jen menšinová větev. Obvykle toto zahájení „krade“ význam ze systému Precision a znamená 12-15b. s 6+listem trefovým nebo jen s 5-listem, ale pak navíc ještě s drahým 4-listem. Nejobvyklejšími pokračováními jsou pas nebo <bid level="2" suit="D"/>, která znamenají alespoň 9b. a vybízejí partnera, aby objasnil rozlohu svého zahájení.
 </p>
 <p>
-Zahájení 2k bývá často stejně jako u nás (tedy Multi) a pak se neliší ani zahájení 2s a 2p, která jsou dvojbarevná. Často však znamená zahájení 2k konvenci Wilkosz, která v sobě zahrnuje všechny kombinace 5-5 kromě obou levných, jež se stejně jako u nás obvykle draží přes 2BT. Pokud draží pár 2k Wilkosz, pak zahájení 2s a 2p jsou jednobarevnými bloky na 6+listu.
+Zahájení <bid level="2" suit="D"/> bývá často stejně jako u nás (tedy Multi) a pak se neliší ani zahájení <bid level="2" suit="H"/> a <bid level="2" suit="S"/>, která jsou dvojbarevná. Často však znamená zahájení <bid level="2" suit="D"/> konvenci Wilkosz, která v sobě zahrnuje všechny kombinace 5-5 kromě obou levných, jež se stejně jako u nás obvykle draží přes <bid level="2" suit="NT"/>. Pokud draží pár <bid level="2" suit="D"/> Wilkosz, pak zahájení <bid level="2" suit="H"/> a <bid level="2" suit="S"/> jsou jednobarevnými bloky na 6+listu.
 </p>
 <p>
 Blokující zahájení zůstávají stejná jako u nás.
 </p>
 <p>
-V zásazích Polský tref často používá zajímavou variantu pro zásah 1BT, s níž vás seznámíme příští rok a dokonce vám ji doporučíme k začlenění do vašeho systému.
+V zásazích Polský tref často používá zajímavou variantu pro zásah <bid level="1" suit="NT"/>, s níž vás seznámíme příští rok a dokonce vám ji doporučíme k začlenění do vašeho systému.
 </p>
 <p>
 Toto jsou nejvýraznější rozdíly. Tento systém má mnoho variant a odrůd, je samozřejmě nutné nechávat si vysvětlit alertované hlášky. Je to systém, který je v Polsku velmi rozšířený a Polsko je země bridži zaslíbená.

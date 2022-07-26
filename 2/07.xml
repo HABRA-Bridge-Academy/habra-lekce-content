@@ -64,7 +64,9 @@ QT53
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="QH">
 Q srdcová
 </leadcard>
@@ -131,7 +133,9 @@ QJ3
 </clubs>
 </hand>
 </distribution>
-<contract value="3HS" />
+<deal-contract>
+<contract level="3" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="QS">
 Q piková
 </leadcard>
@@ -198,7 +202,9 @@ Q642
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Qd">
 Q kárová
 </leadcard>
@@ -265,7 +271,9 @@ AKJ
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="KC">
 K, A trefové
 </leadcard>
@@ -275,10 +283,14 @@ Hlavní hráč jednoznačně hrozí zahodit na svou velmi dobrou pikovou barvu a
 </example>
 <literature>
 <li>
-J. Hájek	Bridžová školka	27. lekce
+<author>J. Hájek</author>
+<title>Bridžová školka</title>
+<reference>27. lekce</reference>
 </li>
 <li>
-P. Cronier a spol.	Minibridž	19. lekce
+<author>P. Cronier a spol.</author>
+<title>Minibridž</title>
+<reference>19. lekce</reference>
 </li>
 </literature>
 </lesson>

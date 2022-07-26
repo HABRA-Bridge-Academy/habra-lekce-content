@@ -61,7 +61,9 @@ T4
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="4S">
 4 piková
 </leadcard>
@@ -128,7 +130,9 @@ K86
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="6S">
 6 piková
 </leadcard>
@@ -195,7 +199,9 @@ T62
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="3H">
 3 srdcová
 </leadcard>
@@ -262,7 +268,9 @@ QJT85
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="Qc">
 Q trefová
 </leadcard>
@@ -332,7 +340,9 @@ Q94
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 K srdcový
 </leadcard>
@@ -342,19 +352,29 @@ Dvojí zadržení srdcí a kárový impas nám zaručuje úspěch, pokud nemá Z
 </example>
 <literature>
 <li>
-E. Kaplan	Pokročilá sehrávka	str. 5-9
+<author>E. Kaplan</author>
+<title>Pokročilá sehrávka</title>
+<reference>str. 5-9</reference>
 </li>
 <li>
-A. Sheinwold	Sehrávka	str. 270-272
+<author>A. Sheinwold</author>
+<title>Sehrávka</title>
+<reference>str. 270-272</reference>
 </li>
 <li>
-P. Mokráň	Bridž rýchlo a dobre	str. 185-190
+<author>P. Mokráň</author>
+<title>Bridž rýchlo a dobre</title>
+<reference>str. 185-190</reference>
 </li>
 <li>
-J. Sedlář	Základy teorie sehrávky	str. 15, 18
+<author>J. Sedlář</author>
+<title>Základy teorie sehrávky</title>
+<reference>str. 15, 18</reference>
 </li>
 <li>
-P. Cronier a spol.	Minibridž	16A
+<author>P. Cronier a spol.</author>
+<title>Minibridž</title>
+<reference>16A</reference>
 </li>
 </literature>
 </lesson>

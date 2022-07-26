@@ -30,7 +30,9 @@ KQJT9
 </clubs>
 </hand>
 </distribution>
-<contract value="7NTS" />
+<deal-contract>
+<contract level="7" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 sK
 </leadcard>
@@ -129,7 +131,9 @@ Q63
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="6d">
 k6
 </leadcard>
@@ -207,7 +211,9 @@ T986
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="Kd">
 kK, kQ
 </leadcard>
@@ -285,7 +291,9 @@ AKT2
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 sK
 </leadcard>
@@ -369,7 +377,9 @@ QJT92
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="KS">
 pK, pQ
 </leadcard>
@@ -447,7 +457,9 @@ Q3
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="JS">
 pJ
 </leadcard>
@@ -498,6 +510,8 @@ Závěr: Při sehrávání závazku je třeba si udělat kompletní plán sehrá
 
 <literature>
 <li>
-Reese, Trézel	Blokování a odblokování	příklady č. 11-13, 17, 22, 32
+<author>Reese, Trézel</author>
+<title>Blokování a odblokování</title>
+<reference>příklady č. 11-13, 17, 22, 32</reference>
 </li>
 </literature></lesson>

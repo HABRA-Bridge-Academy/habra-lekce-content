@@ -30,7 +30,9 @@ AK4
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="KS">
 pK, pA, kJ
 </leadcard>
@@ -76,78 +78,56 @@ Všimněte si, že by Východu nepomohlo zahrát ve druhém kole srdcí dámu ne
 <p>
 Závěr: V některé (jedné) barvě máme osm karet ve spojených listech, máme eso, krále a desítku. Tyto karty mohou být v jednom listě nebo rozděleny do dvou listů. Naším úkolem je neztratit v této barvě více než jeden zdvih. V následujících příkladech nejprve obehrajeme eso, a pak vyneseme malou ke králi s desítkou, s úmyslem dát jen desítku, zahraje-li obránce malou.
 </p>
+<div class="columns">
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 Axx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 KTxxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 Axxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 KTxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AKTx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 xxxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AKTxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 xxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 A9
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 KT8xxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 xx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 AKT9xx
-</spades>
-</hand>
+</suit>
 </distribution>
+</div>
 <p>
 Jestliže desítka bude pokryta dámou nebo klukem prvního obránce, rozloha u soupeřů musí být 3-2 a zbývající figura vypadne v příštím kole do krále. Tímto zahráním se zabezpečíme proti Q,J,x,x u druhého obránce. Je-li tomu tak – obrana je bezmocná. Všimněte si, že v posledních dvou příkladech, kdy hlavní hráč má v barvě pouze dvě karty, je nutné, aby měl také silné střední karty, jinak by mohl obránce řekněme od Q,J,9,x znemožnit bezpečnou sehrávku tím, že by zahrál ve druhém kole figuru.
 </p>
@@ -183,7 +163,9 @@ KQ2
 </clubs>
 </hand>
 </distribution>
-<contract value="6SS" />
+<deal-contract>
+<contract level="6" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="8d">
 k8
 </leadcard>
@@ -232,30 +214,24 @@ Při této rozloze neodevzdá Jih vůbec žádný zdvih, protože po odehrání 
 <p>
 Závěr: Máme ve spojených listech na lince devět karet v jedné barvě, přičemž v jednom listě je eso s dámou, ať už s desítkou nebo bez ní. Nesmíme-li odevzdat více než jeden zdvih v této barvě, zahrajeme tak, že odehrajeme nejdříve eso, a pak vyneseme z druhého listu malou k dámě. Příklady:
 </p>
+<div class="columns">
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 xxxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 AQTxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AQxxxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 xxx
-</spades>
-</hand>
+</suit>
 </distribution>
+</div>
 <p>
 Když v prvním případě vypadne na eso král Východu, neodevzdáme vůbec žádný zdvih, protože můžeme ještě zahrát impas na kluka. Ve druhém případě odevzdáme sice jeden zdvih, i když je král singl za esem, ale zahrajeme-li v prvním zdvihu ztrátový impas dámou, stejně odevzdáme ještě jeden zdvih na J,10 u druhého obránce.
 </p>
@@ -291,7 +267,9 @@ A65
 </clubs>
 </hand>
 </distribution>
-<contract value="7HS" />
+<deal-contract>
+<contract level="7" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="QS">
 pQ
 </leadcard>
@@ -346,42 +324,32 @@ Sever: „Ne, hrát na vypadnutí krále při deseti kartách na lince je proti 
 <p>
 Závěr: Máme na lince deset karet bez krále a desítky. Kluk a dáma jsou v opačných listech, viz ukázky:
 </p>
+<div class="columns">
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AQ9x
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 Jxxxxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AQ9xxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 Jxxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AJxxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 Q98xx
-</spades>
-</hand>
+</suit>
 </distribution>
+</div>
 <p>
 nesmíme-li odevzdat v této barvě zdvih, musíme zahrát na impas vždy figurou ze stolu (klukem v prvních dvou, dámou ve třetí ukázce).
 </p>
@@ -417,7 +385,9 @@ AQ842
 </clubs>
 </hand>
 </distribution>
-<contract value="6cS" />
+<deal-contract>
+<contract level="6" suit="c" declarer="S"/>
+</deal-contract>
 <leadcard value="QS">
 pQ
 </leadcard>
@@ -466,42 +436,32 @@ Východ pravděpodobně kryje králem. Jih vezme zdvih esem a vrátí malou k s
 <p>
 Závěr: Spojené listy na lince obsahují devět karet – chybí K,10,9,x. Dáma s klukem jsou na opačných stranách, jak je tomu například v těchto kombinacích:
 </p>
+<div class="columns">
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AQ8xx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 Jxxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AQ6x
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 J87xx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AJ8xxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 Qxx
-</spades>
-</hand>
+</suit>
 </distribution>
+</div>
 <p>
 Nemáme-li odevzdat více než jeden zdvih, hrajeme stejně jako v předcházejících problémech impas vždy figurou ze stolu.
 </p>
@@ -510,30 +470,24 @@ Nemáme-li odevzdat více než jeden zdvih, hrajeme stejně jako v předcházej
 <p>
 Stejný styl sehrávky nastupuje v případě, že nám chybí ve spojených listech A,10,9,x, jak je tomu v těchto situacích:
 </p>
+<div class="columns">
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 KJ82
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 Q7543
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 J873
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 KQ652
-</spades>
-</hand>
+</suit>
 </distribution>
+</div>
 <p>
 V prvním případě hrajeme dámou ze stolu proti A,10,9,6 u Východu, ve druhém případě klukem z ruky proti A,10,9,4 u Západu. Je pravda, že stejný účinek má zahrání malou z opačné strany k uvedené figuře. Chybou by však bylo zahrát figuru z listu, který obsahuje figury dvě, protože pak vždy odevzdáme dva zdvihy při rozloze 4-0 u obránců.
 </p>
@@ -572,13 +526,10 @@ K3
 </clubs>
 </hand>
 </distribution>
-<contract value="6SS" />
-<leadcard value="Kd">
-kK
-</leadcard>
-<p>
-Výnos: kK
-</p>
+<deal-contract>
+<contract level="6" suit="S" declarer="S"/>
+</deal-contract>
+<leadcard value="Kd"/>
 <p>
 Tento příklad na bezpečnou sehrávku se vyskytl v zápase mistrovství Evropy mezi Francií a Belgií. Jih sehrál excelentně závazek šest piků po výnosu károvým králem. Proč?
 </p>
@@ -621,30 +572,24 @@ Není třeba se domnívat, že Jih viděl Západu do karet. Impas pětkou byl na
 <p>
 Závěr: Přešli jsme k jinému typu bezpečné sehrávky, kdy cesta k zajištění k potřebnému počtu zdvihů spočívá v hlubokém impasu. Nejčastější případy tohoto typu nastávají tenkrát, když hlavnímu hráči chybí při devíti kartách na lince dáma s klukem jako v těchto příkladech:
 </p>
+<div class="columns">
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 A9xxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 KTxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 K9xxxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 ATx
-</spades>
-</hand>
+</suit>
 </distribution>
+</div>
 <p>
 Když můžeme v této barvě odevzdat jeden zdvih ale za žádných okolností dva, musíme zahrát takto: Nesmíme zahrát žádnou z vysokých figur, ani ji nesmíme položit na třetím místě, když první obránce přizná malou. Místo toho vyneseme z jednoho listu malou a pouze pokryjeme kartu, kterou položí první obránce. V obou uvedených příkladech je jedno, z kterého listu vynášíme. Například v prvním příkladě vyneseme malou z ruky a Západ přidá malou. Zahrajeme desítkou ze stolu. I když by byla pokryta klukem nebo dámou Západu, zbytek zdvihů je náš. Kdybychom však zahráli ze stolu krále a Východ by barvu nepřiznal, odevzdali bychom Západu dva zdvihy.
 </p>
@@ -680,12 +625,14 @@ AK3
 </clubs>
 </hand>
 </distribution>
-<contract value="7SS" />
+<deal-contract>
+<contract level="7" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kd">
 kK
 </leadcard>
 <p>
-Jeden z autorů učinil trpkou zkušenost, když se toto rozdání hrálo v komerční partii. Sever jako rozdávající měl s partnerem domluveno silné zahájení 1BT (16-18), ale jelikož spoluhráč byl nezkušený, zahájil i se slabším listem raději 1BT než 1 pik a doufal, že závazek bude sehrávat on. Ouha! Jih skočil na 3 piky a v dalším kole použil Blackwooda, a pak skončil v sedmi pikách. Co se stalo, když Západ vynesl kárového krále?
+Jeden z autorů učinil trpkou zkušenost, když se toto rozdání hrálo v komerční partii. Sever jako rozdávající měl s partnerem domluveno silné zahájení <bid level="1" suit="NT"/> (16-18), ale jelikož spoluhráč byl nezkušený, zahájil i se slabším listem raději <bid level="1" suit="NT"/> než 1 pik a doufal, že závazek bude sehrávat on. Ouha! Jih skočil na 3 piky a v dalším kole použil Blackwooda, a pak skončil v sedmi pikách. Co se stalo, když Západ vynesl kárového krále?
 </p>
 <p>
 Sever jako by tušil J,10,x,x v pikách u Východu. Ke své hrůze zjistil, že Jih po vzetí károvým esem vynesl malý pik ke svému králi v ruce. A tím se to stalo! Rozloha obránců:
@@ -724,54 +671,46 @@ KQJ54
 Jih byl dost talentovaný hráč, ale o bezpečné sehrávce toho moc nevěděl. Jediné nebezpečí spočívalo v rozloze trumfů 4-0 u obránců. Kdyby měl čtyři trumfy Západ, nedalo by se proti tomu nic dělat, ale čtyři trumfy od Východu se dají odhalit odehráním esa v prvním kole a pak není problém J,10,x u Východu vychytat.
 </p>
 <p>
-Ironií pro Sever zůstalo to, že kdyby zahájil dražbu jedním pikem, sehrával by slemový závazek sám. Stejně dobře ale mohl závazek opravit na 7BT, cítil-li se povolanější k sehrávce.
+Ironií pro Sever zůstalo to, že kdyby zahájil dražbu jedním pikem, sehrával by slemový závazek sám. Stejně dobře ale mohl závazek opravit na <bid level="7" suit="NT"/>, cítil-li se povolanější k sehrávce.
 </p>
 <p>
 Závěr: Máme na lince devět karet v barvě, ve které nám chybí kluk s desítkou, jak je tomu v následujících ukázkách:
 </p>
+<div class="columns">
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 KQ9xxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 Axx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AQ9xx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 K8xx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 A9xx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 KQ8xx
-</spades>
-</hand>
+</suit>
 </distribution>
+</div>
 <p>
 Nesmíme-li v této barvě odevzdat ani zdvih, musíme vždy odehrát vysokou kartu nejprve z listu, ve kterém je pouze jedna, tak abychom při zbývající rozloze 4-0 mohli dvakrát impasovat.
 </p>
 </example>
 <literature>
 <li>
-Reese, Trézel	Bezpečná sehrávka	příklady č. 1,2,4-7
+<author>Reese, Trézel</author>
+<title>Bezpečná sehrávka</title>
+<reference>příklady č. 1,2,4-7</reference>
 </li>
 </literature>
 </lesson>

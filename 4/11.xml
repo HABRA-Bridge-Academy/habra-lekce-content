@@ -3,7 +3,7 @@
 V této lekci se blíže podíváme na nejsložitější oblast dražby a tou je dražba soutěžní neboli oboustranná. Jestliže nám soupeři zasáhnou do dražby a draží teď obě strany, je důležité mít s partnerem důkladně probránu zásadu forcingu. Musí být dokonale vyjasněno, která hláška partnera forsuje a která umožňuje pasovat.
 </p>
 <p>
-Nejdříve nejsilnější pokračování. Pokud dražíte vy nebo váš partner skokem novou barvu nebo dražíte barvu soupeře, je to určitě mancheforcing. Tady by mělo být jasno, máte na manši, v další dražbě přichází v úvahu hra nebo trestné kontra. Barva soupeřů obvykle ukazuje krátkost v jejich barvě (singl nebo šikena), pokud je to na třetím stupni, je to často dotaz na zádrž u partnera – jestli ji máš, draž 3BT.
+Nejdříve nejsilnější pokračování. Pokud dražíte vy nebo váš partner skokem novou barvu nebo dražíte barvu soupeře, je to určitě mancheforcing. Tady by mělo být jasno, máte na manši, v další dražbě přichází v úvahu hra nebo trestné kontra. Barva soupeřů obvykle ukazuje krátkost v jejich barvě (singl nebo šikena), pokud je to na třetím stupni, je to často dotaz na zádrž u partnera – jestli ji máš, draž <bid level="3" suit="NT"/>.
 </p>
 <p>
 Dražba nové barvy bez skoku nebo dražba kontra by mělo snést jedno kolo dražby, ale lze je zapasovat, pokud soupeři přes tuto hlášku něco předraží. Nová barva by měl být 5-list, kontra pak vyjádření síly (střední na soutěž), ale bez délky. Kontra znamená obvykle krátkost v dražené barvě a tedy výzvu k dražbě, partner ho smí zapasovat jen tehdy, když chce kontra změnit na trestné, protože má sám hodně trumfů. Na kontra by měl mít odpovídající hráč 4-4 v nedražených barvách (říká se tomu negativní kontra), povinnost je ale 4-list v drahé barvě, v levné je tolerován 3-list.
@@ -26,7 +26,7 @@ Příklady:
 <bid value="?" />
 </auction>
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 KJT874
 </spades>
@@ -41,7 +41,12 @@ QJ3
 </clubs>
 </hand>
 </distribution>
-<bidding-solution value="3S">opakujte piky, máte jich šest a minimum, je to sice třetí stupeň, ale vlastní barva ukazuje minimum </bidding-solution>
+<bidding-solution>
+<bid level="3" suit="S"/>
+<p>
+opakujte piky, máte jich šest a minimum, je to sice třetí stupeň, ale vlastní barva ukazuje minimum 
+</p>
+</bidding-solution> 
 </example>
 <example number="2">
 <auction dealer="N">
@@ -52,7 +57,7 @@ QJ3
 <bid value="?" />
 </auction>
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 QT873
 </spades>
@@ -68,7 +73,7 @@ Q8
 </hand>
 </distribution>
 <bidding-solution value="P">
-mohli byste dražit 3k, kdyby soupeři zasáhli a soutěžili trefovou barvou – vaše nová barva by byla 5-list (ale bylo by to i tak příliš odvážné, protože třetí stupeň forsuje), takto ale asi bude rozumnější pasovat, ještě stále může 3p říct i partner
+mohli byste dražit <bid level="3" suit="D"/>, kdyby soupeři zasáhli a soutěžili trefovou barvou – vaše nová barva by byla 5-list (ale bylo by to i tak příliš odvážné, protože třetí stupeň forsuje), takto ale asi bude rozumnější pasovat, ještě stále může <bid level="3" suit="S"/> říct i partner
 </bidding-solution></example>
 <example number="3">
 <auction dealer="N">
@@ -79,7 +84,7 @@ mohli byste dražit 3k, kdyby soupeři zasáhli a soutěžili trefovou barvou �
 <bid value="?" />
 </auction>
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 QJT86
 </spades>
@@ -105,7 +110,7 @@ pas, nemáte žádné dražitelné hodnoty a můžete soupeře překvapit svými
 <bid value="?" />
 </auction>
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 QT4
 </spades>
@@ -131,7 +136,7 @@ pasujte, máte dobrá kára na obranu a kontra bude lákat partnera do piků,
 <bid value="?" />
 </auction>
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 AQ3
 </spades>
@@ -147,7 +152,7 @@ AQJ75
 </hand>
 </distribution>
 <bidding-solution value="3d">
-dražte 3k, chcete hrát manši a máte károvou krátkost, můžete sice dražit i 4s, ale takhle list více popíšete, manši v srdcích zadražíte v dalším kole
+dražte <bid level="3" suit="D"/>, chcete hrát manši a máte károvou krátkost, můžete sice dražit i <bid level="4" suit="H"/>, ale takhle list více popíšete, manši v srdcích zadražíte v dalším kole
 </bidding-solution>
 </example>
 <example number="6">
@@ -157,7 +162,7 @@ dražte 3k, chcete hrát manši a máte károvou krátkost, můžete sice draži
 <bid value="?" />
 </auction>
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 AJT73
 </spades>
@@ -173,7 +178,7 @@ AQ83
 </hand>
 </distribution>
 <bidding-solution value="3S">
-dražte 3p, skok - máte 5-list a body na manši
+dražte <bid level="3" suit="S"/>, skok - máte 5-list a body na manši
 </bidding-solution>
 </example>
 <example number="7">
@@ -183,7 +188,7 @@ dražte 3p, skok - máte 5-list a body na manši
 <bid value="?" />
 </auction>
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 QJ942
 </spades>
@@ -199,11 +204,11 @@ Q87
 </hand>
 </distribution>
 <bidding-solution value="2S">
-dražte jen 2p, máte      5-list, ale nemáte body na manši (dražba na druhém stupni neforsuje, váš partner smí pasovat.
+dražte jen <bid level="2" suit="S"/>, máte      5-list, ale nemáte body na manši (dražba na druhém stupni neforsuje, váš partner smí pasovat.
 </bidding-solution>
 </example>
 <p>
-V této lekci přidáme ještě konvenci Wywiad. Potřebujeme-li si ověřit zádrže do 3BT můžeme použít hlášku nové barvy. Tuto konvenci používáme při dražbě na třetím stupni. Pro zjednodušení je pravidlo pro Wywiad stanoveno takto: jedná-li se o třetí barvu v pořadí, znamená to vždy Wywiad pozitivní tj. oznamujeme tím, že tuto barvu držíme, ale chybí nám zádrž v barvě čtvrté, jedná-li se o čtvrtou barvu v pořadí nebo o barvu, kterou zasáhli soupeři, znamená to vždy Wywiad negativní, tj. oznámení partnerovi, nemám zádrž, máš-li ji ty, draž 3BT.
+V této lekci přidáme ještě konvenci Wywiad. Potřebujeme-li si ověřit zádrže do <bid level="3" suit="NT"/> můžeme použít hlášku nové barvy. Tuto konvenci používáme při dražbě na třetím stupni. Pro zjednodušení je pravidlo pro Wywiad stanoveno takto: jedná-li se o třetí barvu v pořadí, znamená to vždy Wywiad pozitivní tj. oznamujeme tím, že tuto barvu držíme, ale chybí nám zádrž v barvě čtvrté, jedná-li se o čtvrtou barvu v pořadí nebo o barvu, kterou zasáhli soupeři, znamená to vždy Wywiad negativní, tj. oznámení partnerovi, nemám zádrž, máš-li ji ty, draž <bid level="3" suit="NT"/>.
 </p>
 <p>
 Příklady:
@@ -216,7 +221,7 @@ Příklady:
 <bid value="3H" />
 </auction>
 <p>
-pozitivní Wywiad, mám srdcovou zádrž, ale nemám pikovou – partner draží 3BT nebo 4k (případně 3t), podle toho, jestli drží nebo nedrží figury v pikách
+pozitivní Wywiad, mám srdcovou zádrž, ale nemám pikovou – partner draží <bid level="3" suit="NT"/> nebo <bid level="4" suit="D"/> (případně 3t), podle toho, jestli drží nebo nedrží figury v pikách
 </p>
 </example>
 <example number="9">
@@ -227,7 +232,7 @@ pozitivní Wywiad, mám srdcovou zádrž, ale nemám pikovou – partner draží
 <bid value="3d" />
 </auction>
 <p>
-negativní Wywiad (čtvrtá barva), nemám kárové držení, partner draží 3BT nebo jinou hlášku podle toho, zda má držení kárových figur v kárech
+negativní Wywiad (čtvrtá barva), nemám kárové držení, partner draží <bid level="3" suit="NT"/> nebo jinou hlášku podle toho, zda má držení kárových figur v kárech
 </p>
 </example>
 </lesson>

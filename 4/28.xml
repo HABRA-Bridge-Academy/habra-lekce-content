@@ -33,7 +33,9 @@ K43
 </clubs>
 </hand>
 </distribution>
-<contract value="6HS" />
+<deal-contract>
+<contract level="6" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Jd">
 kJ
 </leadcard>
@@ -125,7 +127,9 @@ AQ
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Kd">
 kK
 </leadcard>
@@ -209,12 +213,14 @@ QT52
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 sK
 </leadcard>
 <p>
-Po zahájení Severu jedním pikem odpovídá Jih 1BT a Sever uzavírá dražbu hláškou 3BT. Jak má hlavní hráč sehrávat závazek po výnosu srdcovým králem?
+Po zahájení Severu jedním pikem odpovídá Jih <bid level="1" suit="NT"/> a Sever uzavírá dražbu hláškou <bid level="3" suit="NT"/>. Jak má hlavní hráč sehrávat závazek po výnosu srdcovým králem?
 </p>
 <p>
 Jih správně dvakrát propouští srdce, protože je to nejnebezpečnější barva a kryje až třetí zdvih. Vidí, že má sedm rychlých zdvihů, a pokud nebude mít v pikách příliš velkou smůlu, může si zde vypracovat zbývající zdvihy, které potřebuje. Stačí, když alespoň jedna vysoká figura bude u Západu, ale i tehdy je třeba hrát pečlivě. Podívejme se nyní na zbývající rozlohu karet:
@@ -348,7 +354,9 @@ AJT
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="JS">
 pJ
 </leadcard>
@@ -493,7 +501,9 @@ QJ4
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Kd">
 kK
 </leadcard>
@@ -576,12 +586,14 @@ AK5
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="QH">
 sQ
 </leadcard>
 <p>
-S dvaceti body a středními hodnotami v desítkách a devítkách zahajuje Jih dražbu hláškou 2BT, které Sever s pěti body doráží na 3BT. Jak má Jih sehrávat tento závazek po výnosu srdcovou dámou?
+S dvaceti body a středními hodnotami v desítkách a devítkách zahajuje Jih dražbu hláškou <bid level="2" suit="NT"/>, které Sever s pěti body doráží na <bid level="3" suit="NT"/>. Jak má Jih sehrávat tento závazek po výnosu srdcovou dámou?
 </p>
 <p>
 Jih správně usoudil, že získá právě devět zdvihů, pokud bude pikový král příznivě položen. Jelikož se domníval, že další problémy už v rozdání nejsou, vzal hned první zdvih srdcovým esem na stole a zahrál pikového kluka na impas. Když dal Východ šestku, propustil a kluk udržel zdvih, protože Západ přidal pětku. Je třeba poznamenat, že Jih přemýšlel nad tím, zda se má odblokovat desítkou z ruky, ale protože si řekl, že v tom není žádný rozdíl, přidal posléze čtyřku. Pak zahrál ze stolu další pik a impasoval desítkou, ale když už Západ barvu nepřiznal, zjistil, že bude muset odevzdat jeden pikový zdvih a tudíž, že neudělá více než osm zdvihů. Rozloha karet u obránců:
@@ -623,28 +635,19 @@ Vše, co bylo třeba udělat, když si Jih uvědomil, že splnění závazku zá
 Závěr: I když se jedná pouze o zahrání jednoduchého impasu, je třeba mít stále na paměti, kterou kartu k tomuto impasu vynést. Podívejme se na dvě ukázky, při kterých je třeba tuto možnost brát v úvahu:
 </p>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AJT4
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 Q95
-</spades>
-</hand>
-</distribution>
-<distribution>
-<hand position="hand">
-<spades>
-AQJ92
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
-T76
-</spades>
-</hand>
+</suit>
+</distribution><distribution>
+<suit position="south">
+AJT4
+</suit>
+<suit position="north">
+Q95
+</suit>
 </distribution>
 <p>
 Chce-li v prvním případě Jih získat čtyři rychlé zdvihy v této barvě, má-li Východ K,x,x,x, musí poprvé zahrát ze stolu devítku a pak teprve dámu. Ve druhém příkladě by měl vynést ze stolu desítku a odblokovat z ruky devítku pro případ, že Západ má singl osmičku.

@@ -61,7 +61,9 @@ J6
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Jd">
 J kárový
 </leadcard>
@@ -201,7 +203,9 @@ AT4
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="QH">
 Q srdcová
 </leadcard>
@@ -270,7 +274,9 @@ Q98
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 K srdcový
 </leadcard>
@@ -280,7 +286,9 @@ Po tomto výnosu je vidět hrozivá krátkost a děravá délka. Určitě bude n
 </example>
 <literature>
 <li>
-E. Kaplan	Pokročilá sehrávka	str. 29-31
+<author>E. Kaplan</author>
+<title>Pokročilá sehrávka</title>
+<reference>str. 29-31</reference>
 </li>
 </literature>
 </lesson>

@@ -283,7 +283,9 @@ AKQJT932
 </clubs>
 </hand>
 </distribution>
-<contract value="7cS" />
+<deal-contract>
+<contract level="7" suit="c" declarer="S"/>
+</deal-contract>
 <leadcard value="Kd">
 kK
 </leadcard>

@@ -33,7 +33,9 @@ AQ8
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 sK, sA, kJ
 </leadcard>
@@ -79,42 +81,32 @@ Má odehrát nejprve pikové eso, a pak vynést malou z ruky a pouze pokrýt ka
 <p>
 Závěr: Máme na lince osm nebo devět karet v barvě, ve které nám chybí dáma s desítkou. Eso s králem jsou na opačných stranách a nemáme jako obvykle odevzdat více než jeden zdvih. V každém z následujících příkladů:
 </p>
+<div class="columns">
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AJxxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 K9x
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 K9xxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 AJxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 A9xx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 KJxx
-</spades>
-</hand>
+</suit>
 </distribution>
+</div>
 <p>
 odehráváme vysokou figuru nejprve z listu, který obsahuje kluka, a pak z tohoto listu pokračujeme malou. Přizná-li obránce malou kartu, položíme devítku. Tím se zabezpečujeme proti rozloze 4-1 s Q,10,x,x u kteréhokoliv obránce.
 </p>
@@ -156,7 +148,9 @@ AQJ
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="6H">
 s6, sK, k8
 </leadcard>
@@ -202,30 +196,24 @@ Kdyby měl čtyři piky Východ, což se ukáže v prvním kole, získá zdvih 
 <p>
 Závěr: Máme-li na lince devět karet s Q,J v jednom a A,9 ve druhém listě jako na příklad:
 </p>
+<div class="columns">
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 A9xxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 QJxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 QJxxxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 A9x
-</spades>
-</hand>
+</suit>
 </distribution>
+</div>
 <p>
 Můžeme-li odevzdat jeden zdvih v této barvě, zahrajeme naprosto bezpečně proti jakékoliv rozloze zcela neočekávaně malou od esa. Tento způsob zahrání je stoprocentně bezpečný.
 </p>
@@ -261,7 +249,9 @@ JT2
 </clubs>
 </hand>
 </distribution>
-<contract value="6HS" />
+<deal-contract>
+<contract level="6" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="QS">
 pQ
 </leadcard>
@@ -310,42 +300,32 @@ Snadno se dá zjistit, že po odehrání srdcového esa v prvním kole by Jih o
 <p>
 Závěr: Při deseti kartách na lince nám chybí král s klukem, eso a dáma nejsou v jednom listě. V následujících ukázkách nesmíme ztratit více než jeden zdvih:
 </p>
+<div class="columns">
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 Qxxxxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 ATxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 Axxxxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 QT9x
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 ATxxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 Qxxxx
-</spades>
-</hand>
+</suit>
 </distribution>
+</div>
 <p>
 V žádném případě nesmíme odehrát nejdříve eso. Místo toho musíme vynést malou kartu z toho listu, kde právě jsme (jsme-li ve druhém příkladě na stole, musíme vynést desítku nebo devítku). Vynášíme-li k A,10 a první obránce přidá malou, impasujeme desítkou.
 </p>
@@ -381,7 +361,9 @@ K982
 </clubs>
 </hand>
 </distribution>
-<contract value="6NTS" />
+<deal-contract>
+<contract level="6" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="8H">
 s8
 </leadcard>
@@ -427,30 +409,24 @@ král Východu vypadl do esa a po odevzdání jednoho trefového zdvihu hlavní 
 <p>
 Závěr: Máme na lince osm karet v barvě, a přitom A,Q,J je v jednom listě. Naším úkolem, stejně jako ve většině případů bezpečné sehrávky, je rozehrát tuto barvu tak, abychom v ní odevzdali maximálně jeden zdvih.
 </p>
+<div class="columns">
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 xxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 AQJxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 xxxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 AQJx
-</spades>
-</hand>
+</suit>
 </distribution>
+</div>
 <p>
 Nejlepší rozehrání barvy v uvedených příkladech, pokud máme dosti přechodů do listu proti A,Q,J, je odehrát nejprve eso, a pak vynášet vždy proti Q,J,x. Tím se chráníme proti ztrátě zdvihu, je-li král singl za esem. Nic tím neztrácíme, přinejmenším ne důležitý zdvih.
 </p>
@@ -489,7 +465,9 @@ AQ7
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Qd">
 kQ
 </leadcard>
@@ -564,7 +542,9 @@ KQ
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kd">
 kK
 </leadcard>
@@ -642,7 +622,9 @@ A
 </clubs>
 </hand>
 </distribution>
-<contract value="6HS" />
+<deal-contract>
+<contract level="6" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 tK
 </leadcard>
@@ -694,50 +676,42 @@ Hráči, kteří sehrávali rozdání tímto způsobem, poukazovali na to, že p
 <p>
 Závěr: Setkáváme se nyní s velmi jednoduchou, často se vyskytující kombinaci karet, jejíž správné rozehrání je stále nejméně polovině bridžistů na celém světě utajeno. Máme na lince sedm karet v barvě, které obsahuje eso, krále a kluka a je rozdělena 4-3. Naším úkolem je získat tři ze čtyř zdvihů jako v těchto příkladech:
 </p>
+<div class="columns">
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 xxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 AKJx
-</spades>
-</hand>
+</suit>
 </distribution>
 
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 Kxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 AJxx
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 KJxx
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 Axx
-</spades>
-</hand>
+</suit>
 </distribution>
+</div>
 <p>
 Pokud si myslíme, že je nejlepší odehrát jednu vysokou figuru a pak zahrát impas klukem s možností, že dáma sedí nebo že barva je u obránců dělena 3-3, jsme na omylu. Ztrácíme vždy, když druhá dáma za klukem získává zdvih. Způsob sehrání, který dává největší šanci na získání tří zdvihů, spočívá v odehrání esa a krále a dalším výnosem malé karty proti klukovi. Jsme vždy úspěšní, když je dáma před klukem, když je barva dělena 3-3 a také když je druhá dáma za klukem.
 </p>
 </example>
 <literature>
 <li>
-Reese, Trézel	Bezpečná sehrávka	příklady č. 9-12, 14,16,17
+<author>Reese, Trézel</author>
+<title>Bezpečná sehrávka</title>
+<reference>příklady č. 9-12, 14,16,17</reference>
 </li>
 </literature>
 </lesson>

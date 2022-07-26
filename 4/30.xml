@@ -30,7 +30,9 @@ A
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Ad">
 kA
 </leadcard>
@@ -119,7 +121,9 @@ AKQT952
 </clubs>
 </hand>
 </distribution>
-<contract value="6cS" />
+<deal-contract>
+<contract level="6" suit="c" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 sK
 </leadcard>
@@ -210,7 +214,9 @@ KQJT84
 </clubs>
 </hand>
 </distribution>
-<contract value="6cS" />
+<deal-contract>
+<contract level="6" suit="c" declarer="S"/>
+</deal-contract>
 <leadcard value="Qd">
 kQ
 </leadcard>
@@ -301,7 +307,9 @@ AK2
 </clubs>
 </hand>
 </distribution>
-<contract value="7dS" />
+<deal-contract>
+<contract level="7" suit="d" declarer="S"/>
+</deal-contract>
 <leadcard value="2d">
 k2
 </leadcard>
@@ -392,12 +400,14 @@ AKQT85
 </clubs>
 </hand>
 </distribution>
-<contract value="6cS" />
+<deal-contract>
+<contract level="6" suit="c" declarer="S"/>
+</deal-contract>
 <leadcard value="TH">
 s10
 </leadcard>
 <p>
-Jih zahajuje dražbu jedním trefem a po odpovědi 1 pik draží skokem 3BT, Sever ale pokračuje hláškou 4BT, což není Blackwood, ale kvantitativní hláška a Jih uzavírá 6 trefů, aniž by soupeřům cokoliv dalšího prozradil. Jak má tento závazek Jih sehrávat po výnosu srdcovou desítkou?
+Jih zahajuje dražbu jedním trefem a po odpovědi 1 pik draží skokem <bid level="3" suit="NT"/>, Sever ale pokračuje hláškou <bid level="4" suit="NT"/>, což není Blackwood, ale kvantitativní hláška a Jih uzavírá 6 trefů, aniž by soupeřům cokoliv dalšího prozradil. Jak má tento závazek Jih sehrávat po výnosu srdcovou desítkou?
 </p>
 <p>
 Kárový výnos by jistě způsobil hlavnímu hráči potíže, jak se rozhodnout – zda propustit k dámě nebo zahrát na vypracování piků, ale takto to má zatím lehčí. Východ kryje zdvih esem a vrací károvou desítku. Hlavního hráče nic nestojí dát dámu (co kdyby podržela zdvih), ale Západ kryje králem. Po vzetí károvým esem na stole Jih trumfuje dvakrát vysoko v ruce, ale Východ ve druhém kole trumf nepřiznává a odhazuje káro. Jih sice nyní může odehrát srdcového krále, trumfovým klukem přejít na stůl a na srdcovou dámu si může odhodit ztrátové káro, a pak přejít pikem do ruky k zahrání impasu na pikovou dámu u Západu, ale to by se nesetkal s úspěchem, protože obránci původně měli:
@@ -467,7 +477,9 @@ AKQJ
 </clubs>
 </hand>
 </distribution>
-<contract value="6SS" />
+<deal-contract>
+<contract level="6" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="TH">
 s10
 </leadcard>
@@ -554,7 +566,9 @@ AK
 </clubs>
 </hand>
 </distribution>
-<contract value="6dS" />
+<deal-contract>
+<contract level="6" suit="d" declarer="S"/>
+</deal-contract>
 <leadcard value="Qc">
 tQ
 </leadcard>
@@ -611,7 +625,9 @@ Závěr: Někdy se vyplatí obětovat jeden zdvih v barvě pro zisk dvou zdvih�
 </example>
 <literature>
 <li>
-Reese, Trézel	Extrašance	příklady č. 9,21,23,26,27,28,29
+<author>Reese, Trézel</author>
+<title>Extrašance</title>
+<reference>příklady č. 9,21,23,26,27,28,29</reference>
 </li>
 </literature>
 </lesson>

@@ -9,10 +9,10 @@ Práci na vystavění licitačního systému máme za sebou, ale ve špičkovém
 My vám v této kapitole doporučíme ještě dvě nezmíněné konvence.
 </p>
 <p>
-Pokud soupeři zahájí blokujícími 2BT ve smyslu minimálně 5-5 v levných barvách, pak 3t bude znamenat minimálně 5-4 v drahých barvách, lepší srdce, 3k totéž s lepšími piky, 3s dlouhé jen srdce (nejhůř 5-3-3-2, ale pak je třeba být silnější), 3p totéž pro piky a kontra znamená 4-4 v drahých barvách.
+Pokud soupeři zahájí blokujícími <bid level="2" suit="NT"/> ve smyslu minimálně 5-5 v levných barvách, pak <bid level="3" suit="C"/> bude znamenat minimálně 5-4 v drahých barvách, lepší srdce, <bid level="3" suit="D"/> totéž s lepšími piky, <bid level="3" suit="H"/> dlouhé jen srdce (nejhůř 5-3-3-2, ale pak je třeba být silnější), <bid level="3" suit="S"/> totéž pro piky a kontra znamená 4-4 v drahých barvách.
 </p>
 <p>
-Další lahůdkou, kterou můžete zařadit do svého repertoáru je tzv. Lazardův transfer. Je to transfer v bloku. Zahájení 3t pak znamená 7+list v kárech atd. Smyslem je, aby na stole byl již dražbou odhalený list. Zahájení na čtvrtém stupni nabízí 8-list. Vylepšení této varianty ještě skýtá spojení s Gamblingem. 3BT je transfer na trefy a 3p Gamgling. To umožní spoluhráči gamblingujícího využít zádrže při výnosu.
+Další lahůdkou, kterou můžete zařadit do svého repertoáru je tzv. Lazardův transfer. Je to transfer v bloku. Zahájení <bid level="3" suit="C"/> pak znamená 7+list v kárech atd. Smyslem je, aby na stole byl již dražbou odhalený list. Zahájení na čtvrtém stupni nabízí 8-list. Vylepšení této varianty ještě skýtá spojení s Gamblingem. <bid level="3" suit="NT"/> je transfer na trefy a <bid level="3" suit="S"/> Gamgling. To umožní spoluhráči gamblingujícího využít zádrže při výnosu.
 </p>
 <p>
 Samozřejmě nemusíte tyto navržené metody používat a můžete si oblíbit a převzít do systému zcela jiné. Důležité je, abyste v oblasti dražby byli s partnerem týmem. Co používáte vy, musí používat i on.

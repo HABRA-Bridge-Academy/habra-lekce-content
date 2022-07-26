@@ -30,7 +30,9 @@ K4
 </clubs>
 </hand>
 </distribution>
-<contract value="6dS" />
+<deal-contract>
+<contract level="6" suit="d" declarer="S"/>
+</deal-contract>
 <leadcard value="QS">
 pQ
 </leadcard>
@@ -117,15 +119,17 @@ QT7
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="JH">
 sJ
 </leadcard>
 <p>
-Jih, který v tomto rozdání zahajoval dražbu, by jistě správně měl zahájit jeden pik, ale přesto se rozhodl, vzhledem k impasovým pozicím, zahájit 2BT. Po zahájení jedním pikem by totiž Sever mohl pasovat, nejvýš by odpověděl 1BT, a pak by byl beztrumfový závazek hrán ze špatné strany. Takto Sever zvýšil na 3BT, což byl konečný závazek a Západ vynesl srdcového kluka. Východ pozitivně namarkoval čtyřkou a Jih vzal zdvih dámou. Jak má pokračovat v sehrávání závazku?
+Jih, který v tomto rozdání zahajoval dražbu, by jistě správně měl zahájit jeden pik, ale přesto se rozhodl, vzhledem k impasovým pozicím, zahájit <bid level="2" suit="NT"/>. Po zahájení jedním pikem by totiž Sever mohl pasovat, nejvýš by odpověděl <bid level="1" suit="NT"/>, a pak by byl beztrumfový závazek hrán ze špatné strany. Takto Sever zvýšil na <bid level="3" suit="NT"/>, což byl konečný závazek a Západ vynesl srdcového kluka. Východ pozitivně namarkoval čtyřkou a Jih vzal zdvih dámou. Jak má pokračovat v sehrávání závazku?
 </p>
 <p>
-Když si hlavní hráč spočítal své zdvihy, zjistil, že i kdyby si vypracoval trefy, potřebuje ke splnění závazku nejméně dva zdvihy v pikách. Pokud by obránci podrželi eso až do třetího kola, musel by Jih spoléhat na svou druhou barvu (také výhoda, když obránci po zahájení 2BT nepočítají u hlavního hráče s drahým 5-listem), a získat čtyři zdvihy v pikách, což spolu se dvěma trefovými, dvěma srdcovými a jedním károvým dává devět zdvihů. Jelikož musí počítat i s touto druhou možností a nutností zahrát piky na impas dvakrát ze stolu, vynáší hlavní hráč ke druhému zdvihu trefovou desítku, kterou přebírá klukem na stole a hraje odtud malý pik a na malý pik Východu dává dámu, která drží zdvih, neboť karty obránců vypadaly takto:
+Když si hlavní hráč spočítal své zdvihy, zjistil, že i kdyby si vypracoval trefy, potřebuje ke splnění závazku nejméně dva zdvihy v pikách. Pokud by obránci podrželi eso až do třetího kola, musel by Jih spoléhat na svou druhou barvu (také výhoda, když obránci po zahájení <bid level="2" suit="NT"/> nepočítají u hlavního hráče s drahým 5-listem), a získat čtyři zdvihy v pikách, což spolu se dvěma trefovými, dvěma srdcovými a jedním károvým dává devět zdvihů. Jelikož musí počítat i s touto druhou možností a nutností zahrát piky na impas dvakrát ze stolu, vynáší hlavní hráč ke druhému zdvihu trefovou desítku, kterou přebírá klukem na stole a hraje odtud malý pik a na malý pik Východu dává dámu, která drží zdvih, neboť karty obránců vypadaly takto:
 </p>
 <distribution>
 <hand position="east">
@@ -195,12 +199,14 @@ A7
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="QH">
 sQ
 </leadcard>
 <p>
-V systému Acol zahájil Jih dražbu dva piky a Sever odpověděl negativně 2BT. Jelikož svou sílu oznámil již zahajující hláškou, pokračoval Jih uvážlivě na tři piky a Sever s trumfovou pomocí a esem vedle dorazil na čtyři piky. Jak má Jih tento závazek sehrávat po výnosu srdcovou dámou?
+V systému Acol zahájil Jih dražbu dva piky a Sever odpověděl negativně <bid level="2" suit="NT"/>. Jelikož svou sílu oznámil již zahajující hláškou, pokračoval Jih uvážlivě na tři piky a Sever s trumfovou pomocí a esem vedle dorazil na čtyři piky. Jak má Jih tento závazek sehrávat po výnosu srdcovou dámou?
 </p>
 <p>
 Vypadá to tak, že hlavní hráč má po jednom ztrátovém zdvihu v každé barvě, ale Jih si včas uvědomil, že by mohl vypracovat délkový zdvih pro odhoz v kárech, pokud by měl krále Východ. Pak by si mohl odhodit jeden ze svých ztrátových zdvihů, buď srdcový nebo trefový. Skutečně, obrana měla tuto rozlohu:
@@ -279,7 +285,9 @@ QJ
 <leadcard value="QS">
 pQ
 </leadcard>
-<contract value="6dS" />
+<deal-contract>
+<contract level="6" suit="d" declarer="S"/>
+</deal-contract>
 <auction onesided="true" dealer="S">
 <bid value="2d" />
 <bid value="3c" />
@@ -370,7 +378,9 @@ A8643
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="JH">
 sJ
 </leadcard>
@@ -457,7 +467,9 @@ KQJ75
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="5H">
 s5
 </leadcard>
@@ -542,7 +554,9 @@ AQJ
 </clubs>
 </hand>
 </distribution>
-<contract value="6NTS" />
+<deal-contract>
+<contract level="6" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 sK
 </leadcard>

@@ -30,7 +30,9 @@ AKQ
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="Jc">
 tJ
 </leadcard>
@@ -46,30 +48,24 @@ Je celkem snadné poznat, že Jih si mohl zajistit čtyři kárové zdvihy tím,
 <p>
 Závěr: Často se stává, že i relativně nízká karta jako devítka nebo osmička pomůže vypracovat délkové zdvihy v barvě, i když druhý list obsahuje, řekněme A,K,Q,10. Je mnoho podobných situací jako v rozebíraném příkladě, kdy nejbezpečnější cesta k získání délkových zdvihů vede přes využití nízkých karet. Například:
 </p>
+<div class="columns">
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 KQJ42
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 98
-</spades>
-</hand>
+</suit>
 </distribution>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 AKQ853
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 T3
-</spades>
-</hand>
+</suit>
 </distribution>
+</div>
 <p>
 S listem z prvního diagramu si Jih zajistí tři zdvihy tak, že zahraje ze stolu devítku nebo osmičku a propustí ji, pokud Východ nepokryje. Pokud by dal v prvním zdvihu z ruky figuru, udělá pouze dva zdvihy, když má kterýkoliv obránce A,10,7,x,x nebo Západ eso singl. Ve druhém příkladu malá k desítce na stole zajistí vždycky pět zdvihů proti J,9,x,x,x u kteréhokoliv obránce.
 </p>
@@ -105,7 +101,9 @@ AT98
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="QH">
 sQ
 </leadcard>
@@ -186,7 +184,9 @@ T76
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="2S">
 p2
 </leadcard>
@@ -267,7 +267,9 @@ K8
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="6S">
 p6
 </leadcard>
@@ -348,7 +350,9 @@ AKJ76
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="2H">
 s2
 </leadcard>
@@ -426,7 +430,9 @@ A943
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 tK
 </leadcard>
@@ -504,7 +510,9 @@ AJ76
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="QH">
 sQ
 </leadcard>
@@ -553,7 +561,9 @@ Závěr: Až doposud jsme probírali takové typy bezpečné sehrávky, kdy hlav
 </example>
 <literature>
 <li>
-Reese, Trézel	Bezpečná sehrávka	příklady č. 3, 18-21, 23-25, 32, 35
+<author>Reese, Trézel</author>
+<title>Bezpečná sehrávka</title>
+<reference>příklady č. 3, 18-21, 23-25, 32, 35</reference>
 </li>
 </literature>
 </lesson>

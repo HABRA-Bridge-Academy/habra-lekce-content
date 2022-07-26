@@ -30,12 +30,14 @@ J6
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="JS">
 pJ
 </leadcard>
 <p>
-Jih zahajuje dražbu hláškou 2BT, které Sever zvyšuje na 3BT. I když zahájení nebylo příliš ortodoxní, má své určité výhody: závazek se hraje se silným listem v ruce a je utajena kárová délka. Západ vynáší proti 3BT pikového kluka a Východ kladně markuje trojkou. Jak sehrávat?
+Jih zahajuje dražbu hláškou <bid level="2" suit="NT"/>, které Sever zvyšuje na <bid level="3" suit="NT"/>. I když zahájení nebylo příliš ortodoxní, má své určité výhody: závazek se hraje se silným listem v ruce a je utajena kárová délka. Západ vynáší proti <bid level="3" suit="NT"/> pikového kluka a Východ kladně markuje trojkou. Jak sehrávat?
 </p>
 <p>
 Zdá se, že je přirozené propustit první zdvih, protože hlavní hráč by měl jako první zahrát impas trefovým klukem. Nicméně po důkladnějším pohledu hlavní hráč vidí, že udělá devět zdvihů, jestliže pokryje Východ kluka králem a trefy nebudou děleny hůře než 4-2. Východ ale pravděpodobně propustí, když uvidí stůl bez vedlejších vstupů. V tom případě by mohl Jih vzít druhý tref esem a zahrát ze stolu káro na impas.
@@ -136,7 +138,9 @@ AK
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Ac">
 tA
 </leadcard>
@@ -187,7 +191,9 @@ AK4
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="K?">
 K,4,2		A,K,J,10,9	6,2		A,K,4
 </leadcard>
@@ -265,7 +271,9 @@ AKJT982
 </clubs>
 </hand>
 </distribution>
-<contract value="6dS" />
+<deal-contract>
+<contract level="6" suit="d" declarer="S"/>
+</deal-contract>
 <leadcard value="8c">
 t8
 </leadcard>
@@ -359,7 +367,9 @@ A5
 </clubs>
 </hand>
 </distribution>
-<contract value="6HS" />
+<deal-contract>
+<contract level="6" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Jc">
 tJ
 </leadcard>
@@ -440,7 +450,9 @@ QT94
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="9S">
 p9
 </leadcard>
@@ -453,7 +465,7 @@ p9
 <bid value="pass" />
 </auction>
 <p>
-Dražba jistě nebyla nejlepší, protože Sever měl se svými impasovými pozicemi dražit na 2 kára 2BT, aby beztrumfový závazek byl hrán z jeho strany, ale už se stalo. Jak má 3BT sehrávat Jih po výnosu pikovou devítkou?
+Dražba jistě nebyla nejlepší, protože Sever měl se svými impasovými pozicemi dražit na 2 kára <bid level="2" suit="NT"/>, aby beztrumfový závazek byl hrán z jeho strany, ale už se stalo. Jak má <bid level="3" suit="NT"/> sehrávat Jih po výnosu pikovou devítkou?
 </p>
 <p>
 Hlavní hráč zahrál ze stolu kluka, Východ kryl dámou a Jih vzal esem v ruce. Ke druhému zdvihu zahrál malé srdce, a když impasoval ze stolu klukem, Východ pokryl dámou a do dalšího zdvihu vynesl pik. Hlavní hráč vzal na stole a zahrál srdcové eso a krále. Když se ukázalo, že Západ třetí srdce nepřiznal, odehrál trefové eso a malý tref. Východ nepřiznal druhý tref a Západ, který získal zdvih, rozehrál kára. Impas klukem, Východ kryl králem a vrátil další pik. Hlavní hráč má sice nyní kára vypracovaná, ale jelikož do ruky nemá přechod, nemohl získat devátý zdvih. Karty obránců vypadaly takto:
@@ -526,7 +538,9 @@ KQT93
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="4H">
 s4
 </leadcard>
@@ -540,7 +554,7 @@ s4
 <bid value="pass" />
 </auction>
 <p>
-Opět nepříliš přesná dražby, protože Jih by měl místo 2BT dražit 2 srdce (dotaz po zádrži – Čtvrtá barva) a beztrumfový závazek by hrál Sever z výhodnější strany. Jak má Jih sehrávat závazek po výnosu srdcovou čtyřkou, když desítku stolu kryje Východ králem?
+Opět nepříliš přesná dražby, protože Jih by měl místo <bid level="2" suit="NT"/> dražit 2 srdce (dotaz po zádrži – Čtvrtá barva) a beztrumfový závazek by hrál Sever z výhodnější strany. Jak má Jih sehrávat závazek po výnosu srdcovou čtyřkou, když desítku stolu kryje Východ králem?
 </p>
 <p>
 Je zřejmé, že Jih může získat tři zdvihy v srdcích a začít v tempu vypracovávat piky, protože obránci budou patrně dál hrát srdce, ale tak, jak karty leží, nezíská hlavní hráč proti přesné obraně dost zdvihů. Karty obránců:
@@ -576,32 +590,22 @@ A64
 </hand>
 </distribution>
 <p>
-Proto musí být daleko lepší propustit první srdcový zdvih a spolehnout se na vypracování trefové barvy. Vrátí-li Východ srdce, hlavní hráč vezme na stole a zahraje trefového kluka, kterého převezme figurou. Ztratí sice jeden srdcový zdvih, ale získá čtyři trefové a pro splnění 3BT stačí přece devět zdvihů.
+Proto musí být daleko lepší propustit první srdcový zdvih a spolehnout se na vypracování trefové barvy. Vrátí-li Východ srdce, hlavní hráč vezme na stole a zahraje trefového kluka, kterého převezme figurou. Ztratí sice jeden srdcový zdvih, ale získá čtyři trefové a pro splnění <contract level="3" suit="NT"/> stačí přece devět zdvihů.
 </p>
 <p>
 Závěr: Existuje celá řada podobných kombinací karet, kdy je nutno zahrát na první pohled nepřirozeně k prvnímu zdvihu (nebo i k dalším) proto, aby byla zachována komunikace mezi listy. Například tato rozloha:
 </p>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 A63
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 QJ5
-</spades>
-</hand>
-<hand position="LHO">
-<spades>
+</suit><suit position="west">
 K9742
-</spades>
-</hand>
-<hand position="RHO">
-<spades>
+</suit><suit position="east">
 T8
-</spades>
-</hand>
+</suit>
 </distribution>
 <p>
 Vynese-li Západ čtyřku, stůl sice může získat zdvih na kluka, ale je-li na stole dlouhá barva bez dalšího vstupu, je nutno zahrát ze stolu k prvnímu zdvihu malou a v ruce vzít esem.
@@ -609,7 +613,9 @@ Vynese-li Západ čtyřku, stůl sice může získat zdvih na kluka, ale je-li n
 </example>
 <literature>
 <li>
-Reese, Trézel	Vzít či nevzít	příklady č. 7,9,12,26,38,39,40
+<author>Reese, Trézel</author>
+<title>Vzít či nevzít</title>
+<reference>příklady č. 7,9,12,26,38,39,40</reference>
 </li>
 </literature>
 </lesson>

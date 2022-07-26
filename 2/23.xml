@@ -16,7 +16,7 @@ Máte udělat první výnos s tímto listem:
 </p>
 
 <distribution>
-<hand position="hand">
+<hand >
 <spades>
 Q84
 </spades>
@@ -66,7 +66,7 @@ srdce: QT5 kára: QT864
 je srdcová pětka útočnějším a kárová šestka bezpečnějším výnosem. Když se rozhodujete vynést od honéra např. proti čtyřem pikům s listem:
 </p>
 <distribution>
-<hand position="hand">
+<hand >
 <spades>
 J862
 </spades>
@@ -100,30 +100,24 @@ Nakonec určeme, kterou kartu vynést z barvy, již jste si pro první výnos v
 Všimněte si, že skutečnost, že Váš partner nabízel nějakou barvu, nemá vliv na to, kterou kartu vynesete, i když to hodně ovlivňuje to, kterou barvu máte vynést. Někdo kdysi vynašel rčení – Vynes nejvyšší kartu od partnerovy barvy. Existuje-li nějaká spravedlnost, bude tento člověk na věčnosti stále vynášet dámou z Q,x,x, a přitom zjistí toto:
 </p>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 KJ3
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 84
-</spades>
-</hand>
-<hand position="LHO">
-<spades>
+</suit>
+<suit position="west">
 Q52
-</spades>
-</hand>
-<hand position="RHO">
-<spades>
+</suit>
+<suit position="east">
 AT976
-</spades>
-</hand>
+</suit>
 </distribution>
 <literature>
 <li>
-E. Kaplan	Základy sehrávky	str. 24-25
+<author>E. Kaplan</author>
+<title>Základy sehrávky</title>
+<reference>str. 24-25</reference>
 </li>
 </literature>
 </lesson>

@@ -143,7 +143,7 @@ K72
 </auction>
 <leadcard value="QS" />
 <p>
-Západ vynesl pikovou dámu proti vašim 3BT. Jak si plánujete sehrávku?
+Západ vynesl pikovou dámu proti vašim <bid level="3" suit="NT"/>. Jak si plánujete sehrávku?
 </p>
 <p>
 Máte šest zdvihů shora a potřebujete si vypracovat ještě další tři. Hned se nabízí možnost dvojitého kárového impasu, kdy získáte devět zdvihů vždy, pokud nemá Západ K,Q v kárech. Druhou možností je vyrazit trefové eso a devátý zdvih získat díky rozpadnutí srdcí.

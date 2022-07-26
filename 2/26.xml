@@ -7,7 +7,7 @@ Soupeři zahájili jeden tref, jste jako druzí na dražbě a máte tyto listy, 
 </p>
 <example number="1">
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 KJT8763
 </spades>
@@ -22,11 +22,13 @@ T84
 </clubs>
 </hand>
 </distribution>
-<bidding-solution value="2S" />
+<bidding-solution>
+<bid level="2" suit="S"/>
+</bidding-solution> 
 </example>
 <example number="2">
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 Q4
 </spades>
@@ -41,11 +43,13 @@ A5
 </clubs>
 </hand>
 </distribution>
-<bidding-solution value="1H" />
+<bidding-solution>
+<bid level="1" suit="H"/>
+</bidding-solution> 
 </example>
 <example number="3">
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 J76432
 </spades>
@@ -60,10 +64,13 @@ Q8
 </clubs>
 </hand>
 </distribution>
-<bidding-solution value="pass" /></example>
+<bidding-solution>
+    <bid value="pass"/>
+</bidding-solution>
+</example>
 <example number="4">
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 T8
 </spades>
@@ -78,11 +85,13 @@ KQJT842
 </clubs>
 </hand>
 </distribution>
-<bidding-solution value="2d" />
+<bidding-solution>
+<bid level="2" suit="d"/>
+</bidding-solution> 
 </example>
 <example number="5">
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 A3
 </spades>
@@ -97,10 +106,13 @@ QJ9
 </clubs>
 </hand>
 </distribution>
-<bidding-solution value="double" /></example>
+<bidding-solution>
+    <bid value="double"/>
+</bidding-solution>
+</example>
 <example number="6">
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 Q3
 </spades>
@@ -115,5 +127,8 @@ KJ86542
 </clubs>
 </hand>
 </distribution>
-<bidding-solution value="pass" /></example>
+<bidding-solution>
+    <bid value="pass"/>
+</bidding-solution>
+</example>
 </lesson>

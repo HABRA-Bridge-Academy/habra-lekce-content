@@ -21,13 +21,13 @@ Druhou příležitostí, kdy zahájit Splinter je 17-19 bodů (při více bodech
 Druhou dnešní konvencí je Alum, nazývaný také pětiesový Blackwood, kdy považujete za eso i trumfového krále. Pokud jej užíváme, tak v situacích, kdy je jasně dána trumfová barva, aby si jej nebylo možno splést se zkráceným Blackwoodem.
 </p>
 <p>
-Hláška 4BT je opět dotazem na počet es, ale cílovým počtem je teď pět (čtyři esa a trumfový král). Na Alum odpovídá partner odstupňovaně:
+Hláška <bid level="4" suit="NT"/> je opět dotazem na počet es, ale cílovým počtem je teď pět (čtyři esa a trumfový král). Na Alum odpovídá partner odstupňovaně:
 </p>
 <p>
 Po odpovědi zpravidla určíme konečný závazek. Můžeme však pokračovat v dalším průzkumu takto:
 </p>
 <p>
-Po odpovědi 5T nebo 5K
+Po odpovědi <bid level="5" suit="C"/> nebo 5K
 </p>
 <p>
 Hláška v nejbližší následující barvě, která není barvou trumfovou, je dotazem na trumfovou dámu. Pokud je tento dotaz položen pod barvou dohodnutých trumfů, může jít o průzkum, zda hrát pouze pět nebo šest v barvě. Takový dotaz nemusí zaručovat držení všech es na lince. Jestliže však dotaz je nad barvou trumfů, pak tento dotaz navíc říká - partnere máme všechna esa, teď je jen otázkou, zda budeme hrát šest nebo sedm v barvě. Odpovědi:
@@ -45,19 +45,19 @@ Hláška v nejbližší následující barvě, která není barvou trumfovou, je
 4. stupeň.........mám trumfovou dámu a 2 krále vedle
 </p>
 <p>
-Nechceme-li se ptát na trumfovou dámu (třeba proto, že ji máme sami), můžeme se hláškou 5BT zeptat na krále:
+Nechceme-li se ptát na trumfovou dámu (třeba proto, že ji máme sami), můžeme se hláškou <bid level="5" suit="NT"/> zeptat na krále:
 </p>
 <p>
 5BT dotaz na počet vedlejších králů - odpovědi:
 </p>
 <p>
-1. stupeň 6T .......mám 0 nebo 3 krále
+1. stupeň <bid level="6" suit="C"/> .......mám 0 nebo 3 krále
 </p>
 <p>
-2. stupeň 6K .......mám 1 krále
+2. stupeň <bid level="6" suit="D"/> .......mám 1 krále
 </p>
 <p>
-3. stupeň 6S .......mám 2 krále
+3. stupeň <bid level="6" suit="H"/> .......mám 2 krále
 </p>
 <p>
 Alternativou ke zkrácenému čtyřesovému Blackwoodu je tzv. Římský Blackwood, který třetí, čtvrtý a pátý stupeň nevyužívá k vyjádření počtu králů, ale ke specifikaci dvou es – 3. stupeň=červená nebo černá esa, 4. stupeň=levná nebo drahá esa a 5. stupeň=zbývající kombinace es (trefy+srdce nebo kára+piky). Pokud se vám zdá tento způsob odpovědí lepší, zařaďte si jej s partnerem do systému, ale zapamatujte si, že to není obvyklá forma, a pokud budete hrát s jiným než stálým partnerem, patrně nebude tuto konvenci znát.
@@ -158,7 +158,7 @@ Q9732
 <bid value="pass" />
 </auction>
 <p>
-Hláška 4s ukazuje minimum z 12+ bodů a fit v srdcích, odpověď na dotaz 4BT je 0 nebo 3 esa (i s trumfovým králem), 0 es to být nemůže, protože bez es by nešlo nasbírat dost bodů, a tak je hláška 5BT dotazem na krále (5k by byl dotaz na trumfovou dámu), Po té, co partner nemá ani trefového, ani pikového krále, zahajitel končí na 6s.
+Hláška <bid level="4" suit="H"/> ukazuje minimum z 12+ bodů a fit v srdcích, odpověď na dotaz <bid level="4" suit="NT"/> je 0 nebo 3 esa (i s trumfovým králem), 0 es to být nemůže, protože bez es by nešlo nasbírat dost bodů, a tak je hláška <bid level="5" suit="NT"/> dotazem na krále (5k by byl dotaz na trumfovou dámu), Po té, co partner nemá ani trefového, ani pikového krále, zahajitel končí na <bid level="6" suit="H"/>.
 </p>
 </example>
 <example number="3">
@@ -241,7 +241,7 @@ QT3
 <bid value="pass" />
 </auction>
 <p>
-Hláška 4s je Splinter s 6-listem a krátkostí v srdcích, partner i s tak nepříznivou rozlohou draží 6 piků, protože hodnoty jsou na správných místech.
+Hláška <bid level="4" suit="H"/> je Splinter s 6-listem a krátkostí v srdcích, partner i s tak nepříznivou rozlohou draží 6 piků, protože hodnoty jsou na správných místech.
 </p>
 </example>
 </lesson>

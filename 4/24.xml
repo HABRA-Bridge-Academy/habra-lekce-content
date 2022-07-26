@@ -30,7 +30,9 @@ Q872
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="6H">
 s6
 </leadcard>
@@ -124,7 +126,9 @@ KQ986542
 </clubs>
 </hand>
 </distribution>
-<contract value="6cS" />
+<deal-contract>
+<contract level="6" suit="c" declarer="S"/>
+</deal-contract>
 <leadcard value="Kd">
 kK
 </leadcard>
@@ -211,7 +215,9 @@ K743
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Ac">
 tA
 </leadcard>
@@ -308,7 +314,9 @@ J52
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="JH">
 sJ
 </leadcard>
@@ -399,7 +407,9 @@ A85
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Kd">
 kK
 </leadcard>
@@ -463,7 +473,9 @@ Závěr: Určité prvky sehrávky je lehké si brzy osvojit, jakmile poznáme je
 </example>
 <literature>
 <li>
-Reese, Trézel	Vzít či nevzít	příklady č. 3,8,24,31,35
+<author>Reese, Trézel</author>
+<title>Vzít či nevzít</title>
+<reference>příklady č. 3,8,24,31,35</reference>
 </li>
 </literature>
 </lesson>

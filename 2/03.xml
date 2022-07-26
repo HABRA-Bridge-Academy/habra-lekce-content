@@ -62,9 +62,11 @@ Q43
 </hand>
 </distribution>
 <leadcard value="QS" />
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <p>
-Prvním rozhodnutím v tomto rozdání je, co vynést do 3BT Jihu. Samozřejmě že správná odpověď je dámu pikovou. Piková barva by mohla přinést nějaké zdvihy na malé karty, zvlášť když partner pomůže. Hlavní hráč bere esem na stole, Západ se odblokovává osmičkou a hlavní hráč nese ze stolu malé káro. Zjevně se snaží vypracovat svá kára. Západ bere esem a nesmí udělat tu chybu, že by odehrál i krále a pak teprve poslal svému partnerovi pik. Tím by vypracoval hlavnímu hráči dostatečný počet zdvihů a ten by se mohl smát, jak se mu podařilo splnit nesplnitelný závazek. Je nutno si uvědomit, že beztrumfová hra bývá nejčastěji soubojem o vypracování barvy a ne odehráním nejvyšších karet. Zvláště v případě stoperů v soupeřově dlouhé barvě je to taktika přímo sebevražedná a určitě nepovede k pověsti obávaného obránce, který je vždy nepříjemný.
+Prvním rozhodnutím v tomto rozdání je, co vynést do <contract level="3" suit="NT"/> Jihu. Samozřejmě že správná odpověď je dámu pikovou. Piková barva by mohla přinést nějaké zdvihy na malé karty, zvlášť když partner pomůže. Hlavní hráč bere esem na stole, Západ se odblokovává osmičkou a hlavní hráč nese ze stolu malé káro. Zjevně se snaží vypracovat svá kára. Západ bere esem a nesmí udělat tu chybu, že by odehrál i krále a pak teprve poslal svému partnerovi pik. Tím by vypracoval hlavnímu hráči dostatečný počet zdvihů a ten by se mohl smát, jak se mu podařilo splnit nesplnitelný závazek. Je nutno si uvědomit, že beztrumfová hra bývá nejčastěji soubojem o vypracování barvy a ne odehráním nejvyšších karet. Zvláště v případě stoperů v soupeřově dlouhé barvě je to taktika přímo sebevražedná a určitě nepovede k pověsti obávaného obránce, který je vždy nepříjemný.
 </p>
 
 </example>
@@ -130,7 +132,7 @@ T8
 <p>
 Licitace:
 </p>
-<auction dealer="W">
+<auction dealer="E">
 <bid value="1H" />
 <bid value="pass" />
 <bid value="pass" />
@@ -144,7 +146,7 @@ Licitace:
 <p>
 Co má nést Západ a jak mají obránci hrát?
 </p>
-<leadcard value="KH" /><p>
+<p>
 Tady je už dražba dostatečně dobrým vodítkem. Partner má určitě 5-list srdcový. Nejlepší výnos je srdcový král. Ani malé srdce by nebyla katastrofa, ale král je asi lepší. Partner nechá běžet první zdvih, druhý převezme a odehraje zbytek svých srdcí a dva nejvyšší trefy a závazek je poražen. Kdyby Západ vynesl ze své nejdelší barvy, odehrál by si hlavní hráč čtyři nejvyšší piky a pět kár a splnil by závazek s dvěma nadzdvihy.
 </p>
 
@@ -211,7 +213,7 @@ A98
 </hand>
 </distribution>
 <p>
-Jih hraje 3BT. Výnos už asi zvládneme – dáma kárová. Vydražitel bere eso a hraje trefy. Jak budeme bránit? Je vidět, že na stůl nejsou žádné vstupy k  hrozivě dlouhým trefům. Otázka zní, jak zabránit hlavnímu hráči, aby si je všechny neodehrál. Odpověď není tak těžká. Musím si ušetřit trefové eso do doby, kdy už nebude moci hlavní hráč vynést své trefy znovu. V našem případě bude nejlepší, položíme-li jej ve druhém kole. Ale protože si obránce nemůže být jist, zda hlavní hráč nemá v ruce tři trefy, neudělá chybu, ani když vezme eso až napotřetí. Vydražitel už závazek nesplní, ať dělá, co dělá.
+Jih hraje <contract level="3" suit="NT"/>. Výnos už asi zvládneme – dáma kárová. Vydražitel bere eso a hraje trefy. Jak budeme bránit? Je vidět, že na stůl nejsou žádné vstupy k  hrozivě dlouhým trefům. Otázka zní, jak zabránit hlavnímu hráči, aby si je všechny neodehrál. Odpověď není tak těžká. Musím si ušetřit trefové eso do doby, kdy už nebude moci hlavní hráč vynést své trefy znovu. V našem případě bude nejlepší, položíme-li jej ve druhém kole. Ale protože si obránce nemůže být jist, zda hlavní hráč nemá v ruce tři trefy, neudělá chybu, ani když vezme eso až napotřetí. Vydražitel už závazek nesplní, ať dělá, co dělá.
 </p>
 </example>
 <p>
@@ -219,19 +221,29 @@ V této lekci můžeme také objasnit, proč vynášíme právě čtvrtou shora
 </p>
 <literature>
 <li>
-J. Hájek	Bridžová školka	25. lekce
+<author>J. Hájek</author>
+<title>Bridžová školka</title>
+<reference>25. lekce</reference>
 </li>
 <li>
-E. Kaplan	Základy sehrávky	str. 14-22
+<author>E. Kaplan</author>
+<title>Základy sehrávky</title>
+<reference>str. 14-22</reference>
 </li>
 <li>
-J. Fišer	Jak se hraje bridž	str. 61-67
+<author>J. Fišer</author>
+<title>Jak se hraje bridž</title>
+<reference>str. 61-67</reference>
 </li>
 <li>
-P. Mokráň	Bridž rýchlo a dobre	str. 261-262
+<author>P. Mokráň</author>
+<title>Bridž rýchlo a dobre</title>
+<reference>str. 261-262</reference>
 </li>
 <li>
-A. Sheinwold	Sehrávka	str. 264-265
+<author>A. Sheinwold</author>
+<title>Sehrávka</title>
+<reference>str. 264-265</reference>
 </li>
 </literature>
 </lesson>

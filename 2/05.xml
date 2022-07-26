@@ -8,6 +8,7 @@ Dalším důležitou změnou bude posílení principu forcingu. Prozatím jsme p
 <p>
 Příklady:
 </p>
+<div class="columns">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -244,6 +245,7 @@ A
 <bid value="pass" />
 </auction>
 </example>
+</div>
 <p>
 U příkladu 1 se můžeme zmínit o tom, že když si mohu vybrat, bývá lepší hrát s fitem 4-4 než 5-3, u příkladu 2 a 3, že je lepší hrát v drahé barvě než levné.
 </p>

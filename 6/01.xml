@@ -62,7 +62,9 @@ AQT2
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="2c">
 t2
 </leadcard>

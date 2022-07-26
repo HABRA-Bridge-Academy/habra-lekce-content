@@ -30,7 +30,9 @@ AKQ
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="JS">
 pJ
 </leadcard>
@@ -120,7 +122,9 @@ K54
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="QH">
 sQ
 </leadcard>
@@ -210,12 +214,14 @@ T94
 </clubs>
 </hand>
 </distribution>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="6H">
 s6
 </leadcard>
 <p>
-Jak má Jih sehrávat závazek 3BT, když po výnosu srdcovou šestkou zůstává devítkou u zdvihu?
+Jak má Jih sehrávat závazek <bid level="3" suit="NT"/>, když po výnosu srdcovou šestkou zůstává devítkou u zdvihu?
 </p>
 <p>
 Jistě by bylo velmi pochybné přejít do ruky jenom proto, aby si zahrál impas na trefovou dámu. Jih se totiž musí snažit zamezit jediné věci a to pustit Východ do zdvihu. Jelikož hlavnímu hráči nevadí, získá-li zdvih trefová dáma u Západu, je správné odehrát trefy shora. Chytrým přeje štěstí, protože obránci měli tyto karty:
@@ -254,16 +260,12 @@ AQ765
 Závěr: Jeden ze všeobecných problémů v bridži spočívá v tom, jakým způsobem rozehrát kombinaci osmi karet na lince, ve kterých chybí dáma jako např.:
 </p>
 <distribution>
-<hand position="hand">
-<spades>
+<suit position="south">
 KJ652
-</spades>
-</hand>
-<hand position="dummy">
-<spades>
+</suit>
+<suit position="north">
 A74
-</spades>
-</hand>
+</suit>
 </distribution>
 <p>
 Většina hráčů uváží, že je pravděpodobnější (pokud jsou karty u obránců děleny 3-2), že dáma je v  3-listu. Když ale odehrají eso a pokračují malou ze stolu a Východ přidá také malou kartu, původní úvahu zrevidují. V tomto okamžiku zbývají u obránců v této barvě již jen dvě karty a za předpokladu, že oba mají po jedné, začnou se domnívat, že je stejně pravděpodobné, že dáma je u Západu nebo u Východu, a tak se může zdát odůvodněné, že hra na vypadnutí má stejnou pravděpodobnost jako na impas.
@@ -303,7 +305,9 @@ AJ7
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Qc">
 tQ
 </leadcard>
@@ -390,7 +394,9 @@ A4
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 tK
 </leadcard>
@@ -484,7 +490,9 @@ QJT4
 </clubs>
 </hand>
 </distribution>
-<contract value="1NTS" />
+<deal-contract>
+<contract level="1" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="3S">
 p3
 </leadcard>
@@ -540,7 +548,9 @@ Závěr: Od problémů s komunikacemi mezi listy hlavního hráče jsme se dost
 </example>
 <literature>
 <li>
-Reese, Trézel	Extrašance	příklady č. 8,15,16,17,19,20
+<author>Reese, Trézel</author>
+<title>Extrašance</title>
+<reference>příklady č. 8,15,16,17,19,20</reference>
 </li>
 </literature>
 </lesson>

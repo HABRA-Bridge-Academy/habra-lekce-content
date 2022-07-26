@@ -6,7 +6,9 @@ K,8,6,4 7,6,2 K,9,6 Q,5,3 Závazek: 3BT
 <p>
 A,5,3 A,Q,4 A,5,3 A,K,7,2 Výnos: kQ
 </p>
-<contract value="3NTS" />
+<deal-contract>
+<contract level="3" suit="NT" declarer="S"/>
+</deal-contract>
 <leadcard value="Qd">
 kQ
 </leadcard>
@@ -87,7 +89,9 @@ J5
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kc">
 tK, tA, kJ
 </leadcard>
@@ -165,7 +169,9 @@ KQJ83
 </clubs>
 </hand>
 </distribution>
-<contract value="6cS" />
+<deal-contract>
+<contract level="6" suit="c" declarer="S"/>
+</deal-contract>
 <leadcard value="QS">
 pQ
 </leadcard>
@@ -243,7 +249,9 @@ K8
 </clubs>
 </hand>
 </distribution>
-<contract value="4HS" />
+<deal-contract>
+<contract level="4" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="Qd">
 kQ
 </leadcard>
@@ -324,7 +332,9 @@ A53
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Qc">
 tQ
 </leadcard>
@@ -373,7 +383,9 @@ Závěr: Někdy si můžete dovolit odevzdat zdvih jednomu z obránců, protož
 </example>
 <literature>
 <li>
-Reese, Trézel	Eliminace	příklady č. 3,5,26,30,35
+<author>Reese, Trézel</author>
+<title>Eliminace</title>
+<reference>příklady č. 3,5,26,30,35</reference>
 </li>
 </literature>
 </lesson>

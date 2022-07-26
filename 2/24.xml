@@ -35,7 +35,9 @@ A3
 </hand>
 
 </distribution>
-<contract value="6SS" />
+<deal-contract>
+<contract level="6" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="KH">
 K srdcový
 </leadcard>
@@ -74,7 +76,9 @@ AK
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="Kd">
 K kárový
 </leadcard>
@@ -113,7 +117,9 @@ KJ5
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="QH">
 Q srdcová
 </leadcard>
@@ -152,7 +158,9 @@ KJ5
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="QH">
 Q srdcová
 </leadcard>
@@ -191,7 +199,9 @@ AK762
 </clubs>
 </hand>
 </distribution>
-<contract value="6HS" />
+<deal-contract>
+<contract level="6" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="KS">
 K pikový
 </leadcard>
@@ -233,7 +243,9 @@ AK742
 </clubs>
 </hand>
 </distribution>
-<contract value="4SS" />
+<deal-contract>
+<contract level="4" suit="S" declarer="S"/>
+</deal-contract>
 <leadcard value="7d">
 7 kárová
 </leadcard>
@@ -243,13 +255,19 @@ Dva snapy srdcové budou stačit, ale nesmím zapomenout na možnost přesnapu a
 </example>
 <literature>
 <li>
-E. Kaplan	Pokročilá sehrávka	str. 27-29
+<author>E. Kaplan</author>
+<title>Pokročilá sehrávka</title>
+<reference>str. 27-29</reference>
 </li>
 <li>
-J. Sedlář	Základy teorie sehrávky	str. 23
+<author>J. Sedlář</author>
+<title>Základy teorie sehrávky</title>
+<reference>str. 23</reference>
 </li>
 <li>
-J. Minaříček	Sehrávka	str. 22-23
+<author>J. Minaříček</author>
+<title>Sehrávka</title>
+<reference>str. 22-23</reference>
 </li>
 </literature>
 </lesson>

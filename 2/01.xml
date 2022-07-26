@@ -3,7 +3,7 @@
 Lekce týkající se dražby nebudou v tomto roce nijak příliš rozšiřovat systém o konvence, ale budou proměňovat základ systému tak, aby nebyl opřen o body a bodové hranice, ale aby byl elastičtější prostřednictvím popisu rozlohy. Spíše jej tedy budeme zdokonalovat a dostávat na úroveň běžných postupů. První a poměrně zásadní nedokonalostí našeho dosavadního systému jsou vyvážené rozlohy. Zatím je chápeme jako kombinace bez 5-listu. To je ale už dávno překonané schéma. Vyváženým listem rozumíme slohu bez krátkosti. Minimálně zde může být dubl. Rozhodně ne tedy slohu 4-4-4-1. K vyváženým rozlohám naopak připojíme slohu 5-3-3-2, je-li náš 5-list levný.
 </p>
 <p>
-Co praktického to bude znamenat pro naši dražbu. Změny se dotknou zahájení 1BT a 2BT. Takovéto zahájení nepoužijeme při splněných bodových hranicích se slohou 4-4-4-1. Přesuneme je do zahájení 1t, 1k podle toho, jak to bude s délkou jejich levných barev, přesně podle zásad systému Lepší levná. Naopak zde přidáme rozlohy 5-3-3-2 s levným 5-listem, které jsme dosud dražili přes tuto levnou. Nic jiného se nezmění. Vyvážený list je další pojem už poněkud zkušenějšího bridžisty.
+Co praktického to bude znamenat pro naši dražbu. Změny se dotknou zahájení <bid level="1" suit="NT"/> a <bid level="2" suit="NT"/>. Takovéto zahájení nepoužijeme při splněných bodových hranicích se slohou 4-4-4-1. Přesuneme je do zahájení <bid level="1" suit="C"/>, <bid level="1" suit="D"/> podle toho, jak to bude s délkou jejich levných barev, přesně podle zásad systému Lepší levná. Naopak zde přidáme rozlohy 5-3-3-2 s levným 5-listem, které jsme dosud dražili přes tuto levnou. Nic jiného se nezmění. Vyvážený list je další pojem už poněkud zkušenějšího bridžisty.
 </p>
 <p>
 Příklady:
