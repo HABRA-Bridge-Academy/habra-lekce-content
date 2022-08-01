@@ -1,9 +1,14 @@
 from dotenv import dotenv_values
 
-import os
+env = None
 
 def load_env():
-    return dotenv_values(".env")
+    global env
+
+    if not env:
+        env = dotenv_values("scripts/.env")
+
+    return env
 
 
 

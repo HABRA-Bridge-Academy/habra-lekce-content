@@ -1,1 +1,76 @@
+.seznam-lekci {
+    list-style-type: none;
+}
 
+.seznam-lekci .lekce-tlacitko {
+    margin-bottom: 5px;
+    height: 30px;
+    border: solid 2px black;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.auction {
+    margin-top: 1em;
+}
+
+.lekce .columns {
+    display: flex;
+    gap: 4em;
+    flex-wrap: wrap;
+}
+
+.example h2 {
+    margin-top: 1em;
+}
+
+.auction-onesided {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+}
+
+.auction div {
+    padding: 0.25em 0.5em;
+    text-align: center;
+}
+
+.auction-onesided .auction-bid:nth-child(4n + 2),
+.auction-onesided .auction-bid:nth-child(4n + 3) {
+    background-color: lightgray;
+}
+
+.auction-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.auction-header:nth-child(even) {
+    background-color: gray;
+    color: white;
+}
+
+.auction-header:nth-child(odd) {
+    background-color: white;
+}
+
+.auction-nsew {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+}
+
+.suit-clubs {
+    color: #32ad01;
+}
+
+.suit-diamonds {
+    color: #ff9b00;
+}
+
+.suit-hearts {
+    color: #ff0000;
+}
+
+.suit-spades {
+    color: #33339b;
+}
