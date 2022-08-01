@@ -1,9 +1,9 @@
-<lesson year="4" title="Konvence Gambling a Gestem" number="33" video-id="">
+<lesson year="4" title="Konvence Gambling a Gestem" number="33" video-id="IdCSU9v3mZM">
 <p>
 V této lekci si ukážeme speciální zahájení a speciální zásahy.
 </p>
 <p>
-Nejdříve konvence Gambling. Je to zahájení <bid level="3" suit="NT"/>, které slibuje uzavřený levný 7-list bez vedlejšího esa. Uzavřený znamená A,K,Q, případně i J. Partner pasuje s esy vedle nebo s hodnotami blízké esům, aby fungovaly jako zádrž, jinak draží <bid level="3" suit="C"/> a vy můžete opravit do <bid level="3" suit="D"/>, pokud váš 7-list je kárový. Je to poměrně hojně užívaná konvence, která využívá základního principu, že s dlouhou levnou barvou je žádoucí hrát <bid level="3" suit="NT"/>.
+Nejdříve konvence Gambling. Je to zahájení <bid level="3" suit="NT"/>, které slibuje uzavřený levný 7-list bez vedlejšího esa. Uzavřený znamená A,K,Q, případně i J. Partner pasuje s esy vedle nebo s hodnotami blízké esům, aby fungovaly jako zádrž, jinak draží <bid level="4" suit="C"/> a vy můžete opravit do <bid level="4" suit="D"/>, pokud váš 7-list je kárový. Je to poměrně hojně užívaná konvence, která využívá základního principu, že s dlouhou levnou barvou je žádoucí hrát <bid level="3" suit="NT"/>.
 </p>
 <p>
 Pokud soupeři zahájili a vy máte rozlohovou kartu založenou na dvou dlouhých barvách (alespoň 5-5), měl byste dražit s 8-15 body tak, aby partner mohl vaší rozlohu znát a využít. Všechny pokročilejší systémy takové hlášky mají. My vám nabízíme méně známou variantu, která vás velmi přesně popíše. Nejdříve si probereme zásahy po <bid level="1" suit="D"/>, <bid level="1" suit="H"/> a <bid level="1" suit="S"/> a zahájení <bid level="1" suit="C"/> si necháme na konec. Je obvyklé, že zahájení i zásah <bid level="2" suit="NT"/> ukazují rozlohu 5-5 v levných a zásah 2 v barvě zahájení obecně 5-5. My využíváme faktu, že v zásahu téměř nemá cenu nabízet trefy skokem a tak i tuto hlášku máme na dvojbarevný zásah. Máme pak tři hlášky na tři kombinace. Pokud zasáhneme <bid level="2" suit="NT"/> znamená to dva nejnižší 5-listy, <bid level="3" suit="C"/> znamená vyloučení trefové barvy (a přirozeně taky barvy zahájení) a 2 v barvě zahájení je třetí zbývající kombinace.
@@ -25,7 +25,7 @@ Vyzkoušejte si několik dražeb.
 Co budete dražit po zahájení a) <bid level="1" suit="C"/>, b) <bid level="1" suit="D"/>, c) <bid level="1" suit="H"/>, d) <bid level="1" suit="S"/> s tímto listem:
 </p>
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 A7642
 </spades>
@@ -40,25 +40,27 @@ KJT84
 </clubs>
 </hand>
 </distribution>
-<p>
-a) 2p
-</p>
-<p>
-b) 2k
-</p>
-<p>
-c) 2s
-</p>
-<p>
-d) pas
-</p>
+<ol>
+<li>
+<bid level="2" suit="S"/>
+</li>
+<li>
+<bid level="2" suit="D"/>
+</li>
+<li>
+<bid level="2" suit="H"/>
+</li>
+<li>
+<bid value="pass" />
+</li>
+</ol>
 </example>
 <example number="2">
 <p>
 Co budete dražit po zahájení a) <bid level="1" suit="C"/>, b) <bid level="1" suit="D"/>, c) <bid level="1" suit="H"/>, d) <bid level="1" suit="S"/> s tímto listem:
 </p>
 <distribution>
-<hand position="hand">
+<hand>
 <spades>
 6
 </spades>
@@ -73,17 +75,19 @@ KQ865
 </clubs>
 </hand>
 </distribution>
-<p>
-a) 2s
-</p>
-<p>
-b) 2s
-</p>
-<p>
-c) pas
-</p>
-<p>
-d) 3t
-</p>
+<ol>
+<li>
+<bid level="2" suit="H"/>
+</li>
+<li>
+<bid level="2" suit="S"/>
+</li>
+<li>
+<bid value="pass"/>
+</li>
+<li>
+<bid level="3" suit="C"/>
+</li>
+</ol>
 </example>
 </lesson>

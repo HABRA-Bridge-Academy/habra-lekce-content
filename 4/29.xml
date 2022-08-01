@@ -1,4 +1,4 @@
-<lesson year="4" title="Extrašance – Úhybné hry" number="29" video-id="">
+<lesson year="4" title="Extrašance – Úhybné hry" number="29" video-id="Q8KQ0QXQURc">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -450,11 +450,16 @@ KQT987
 Jak se ukázalo, trumfy byly děleny 3-1, a tak Jih musel trumfnout třikrát. Zdá se, že je pak celkem přirozené zahrát srdcovou dámou na impas, ale Jih má v záloze daleko lepší pokračování. Jelikož dámu trefovou má Západ, je daleko jistější vynést po vytrumfování z ruky malý tref a po vypracování kluka na stole si z ruky odhodit srdce, a pak zahrát trumfový impas proti srdcovému králi u Východu, protože i kdyby měl srdcového krále Západ, kárový výnos od něho mu příliš neublíží. A tak se také stalo. Západ po vzetí druhého trefu dámou vynesl srdce, Jih však vzal hned esem a na trefového kluka odhodil srdcovou dámu z ruky. Pak vynesl ze stolu srdcového kluka, a když Východ nepokryl, odhodil si z ruky káro. Je celkem jedno, který srdcový zdvih Východ pokryje, protože pak Jih přebije srdcového krále trumfovou devítkou a přejde malým pikem na stůl k odehrání zbývajících zdvihů. Odevzdá tak obraně pouze jeden trefový a dva kárové zdvihy.
 </p>
 <p>
-Závěr: V mnoha rozdáních má hlavní hráč možnost vybrat si mezi zahráním přímého impasu nebo trumfového impasu v této barvě proti druhému obránci, jako je tomu např. v této ukázce: A,Q,J,10,4
+Závěr: V mnoha rozdáních má hlavní hráč možnost vybrat si mezi zahráním přímého impasu nebo trumfového impasu v této barvě proti druhému obránci, jako je tomu např. v této ukázce:
 </p>
-<p>
-5
-</p>
+<distribution>
+    <suit position="north">
+        AQJT4
+    </suit>
+    <suit position="south">
+        4
+    </suit>
+</distribution>
 <p>
 V závislosti na dalších okolnostech v rozdání má Jih možnost zahrát v prvním zdvihu impas na krále nebo po odehrání esa zahrát dámou a impasovat trumfem krále u Východu. Obdobná varianta může nastat, když Jih nemá v ruce singla, ale dvě karty, z nichž si však jednu může během sehrávky odhodit na vedlejší barvu, než se rozhodne uskutečnit tento manévr, jak tomu bylo v probraném rozdání.
 </p>

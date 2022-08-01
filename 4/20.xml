@@ -1,4 +1,4 @@
-<lesson year="4" title="Pokročilá dražba po 1BT" number="20" video-id="">
+<lesson year="4" title="Pokročilá dražba po 1BT" number="20" video-id="2HgI_v4Mrmg">
 <p>
 Nejprve si připomeňme, jak po <bid level="1" suit="NT"/> dosud dražíme:
 </p>
@@ -248,7 +248,7 @@ T6
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="S">
+<auction onesided="true" dealer="N">
 <bid value="1NT" />
 <bid value="2c" />
 <bid value="2d" />
@@ -291,7 +291,7 @@ Q764
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="S">
+<auction onesided="true" dealer="N">
 <bid value="1NT" />
 <bid value="2c" />
 <bid value="2S" />
@@ -332,7 +332,7 @@ AQ7
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="S">
+<auction onesided="true" dealer="N">
 <bid value="1NT" />
 <bid value="4c" />
 <bid value="4H" />

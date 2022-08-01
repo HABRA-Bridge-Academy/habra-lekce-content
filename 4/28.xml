@@ -1,4 +1,4 @@
-<lesson year="4" title="Extrašance – Impasy, tempo" number="28" video-id="">
+<lesson year="4" title="Extrašance – Impasy, tempo" number="28" video-id="VFCLjioljqk">
 <p>
 Poslední čtyřdílná sehrávková série se bude týkat možností, které stojí až poslední v řadě, když už nelze nic jiného kloudného vymyslet.
 </p>
@@ -634,6 +634,7 @@ Vše, co bylo třeba udělat, když si Jih uvědomil, že splnění závazku zá
 <p>
 Závěr: I když se jedná pouze o zahrání jednoduchého impasu, je třeba mít stále na paměti, kterou kartu k tomuto impasu vynést. Podívejme se na dvě ukázky, při kterých je třeba tuto možnost brát v úvahu:
 </p>
+<div class="columns">
 <distribution>
 <suit position="south">
 AJT4
@@ -649,13 +650,16 @@ AJT4
 Q95
 </suit>
 </distribution>
+</div>
 <p>
 Chce-li v prvním případě Jih získat čtyři rychlé zdvihy v této barvě, má-li Východ K,x,x,x, musí poprvé zahrát ze stolu devítku a pak teprve dámu. Ve druhém příkladě by měl vynést ze stolu desítku a odblokovat z ruky devítku pro případ, že Západ má singl osmičku.
 </p>
 </example>
 <literature>
 <li>
-Reese, Trézel   Extrašance      příklady č. 1,3,6,7,9,32
+<author>Reese, Trézel</author>
+<title>Extrašance</title>
+<reference> příklady č. 1,3,6,7,9,32</reference>
 </li>
 </literature>
 </lesson>

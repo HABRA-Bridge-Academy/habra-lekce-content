@@ -1,11 +1,35 @@
-<lesson year="4" title="Eliminace – Eliminace jako alternativa" number="15" video-id="">
+<lesson year="4" title="Eliminace – Eliminace jako alternativa" number="15" video-id="o4LdqagYEk8">
 <example number="1">
-<p>
-K,8,6,4 7,6,2 K,9,6 Q,5,3 Závazek: 3BT
-</p>
-<p>
-A,5,3 A,Q,4 A,5,3 A,K,7,2 Výnos: kQ
-</p>
+<distribution>
+<hand position="north">
+<spades>
+K864  
+</spades>
+<hearts>
+762 
+</hearts>
+<diamonds>
+K96
+</diamonds>
+<clubs>
+Q53 
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A53 
+</spades>
+<hearts>
+AQ4
+</hearts>
+<diamonds>
+A53
+</diamonds>
+<clubs>
+AK72 
+</clubs>
+</hand>
+</distribution>
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>

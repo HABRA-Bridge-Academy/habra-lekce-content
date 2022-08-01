@@ -1,0 +1,125 @@
+<lesson year="4" title="Cue-bidy" number="27" video-id="onA9ov5hsuw">
+<p>
+Cue-bidy musí být samozřejmě zasazeny do souvislostí licitačního systému. Dnes už téměř každý licitační systém této metody dražby slemů používá. Blackwood, Gerber nebo OSW jsou slemové konvence, ve kterých jeden z partnerů na sebe bere iniciativu a jeho partner odpovídá na jeho dotazy, i kdyby si myslel, že jeho odpověď vytlačí licitaci příliš vysoko. A tak v těchto konvencích rozhoduje o výši závazku jeden z partnerů. Při cue-bidech však o výši závazku rozhodují oba partneři. Cue-bid (společně se Splinterem) je vlastně jediný z návrhů licitace slemu, který partner nemusí přijmout nebo ho může změnit. První cue-bid dává ten z partnerů, který první zpozoruje možnost slemové hry, přičemž v barvě trumfů nejsou odevzdány dva zdvihy. První cue-bid podává tyto informace:
+</p>
+<p>
+oznamuje slemové možnosti
+</p>
+<p>
+zádrž prvního nebo druhého kola v licitované barvě
+</p>
+<p>
+ohlašovaná zádrž je jeho nejbližší zádrží
+</p>
+<p>
+dotaz na možnou spolupráci
+</p>
+<p>
+Cue-bidy dražte v situaci, kdy je sfitována barva. Pak skok v nové barvě je cue-bid.
+</p>
+<auction onesided="true" dealer="S">
+<bid level="1" suit="S" />
+<bid level="2" suit="S" />
+<bid level="4" suit="C" />
+</auction>
+<auction onesided="true" dealer="S">
+<bid level="1" suit="H" />
+<bid level="2" suit="C" />
+<bid level="2" suit="D" />
+<bid level="3" suit="H" />
+<bid level="4" suit="C" />
+</auction>
+<p>
+V obou těchto příkladech jsou 4t prvním cue-bidem. Stejně tak je prvním cue-bidem zalicitování nové barvy po mancheforcingu partnera a ushodnění:
+</p>
+
+<auction onesided="true" dealer="S">
+<bid level="1" suit="C" />
+<bid level="2" suit="S" />
+<bid level="3" suit="S" />
+<bid level="4" suit="D" />
+</auction>
+<p>
+Také po vydražení barevné hry je dražba vedlejší barvy cue-bid:
+</p>
+<auction dealer="S" onesided="true">
+<bid level="1" suit="S" />
+<bid level="2" suit="C" />
+<bid level="2" suit="H" />
+<bid level="4" suit="S" />
+<bid level="5" suit="D" />
+</auction>
+
+<p>
+Všeobecné zásady
+</p>
+<p>
+Rozdíl mezi licitací cue-bidů a jiných slemových konvencí spočívá rovněž ve výběru momentu, ve kterém je možno bezpečně vejít na cestu, která vede do slemu. Při užívání konvencí, ve kterých se jeden ptá a druhý informuje o svých zádržích, je nutno mít ve vrcholné fázi licitace zajištěno nejméně 12 zdvihů. Naproti tomu italská metoda je pružnější a efektivnější než jiné konvence. Opírá se o řadu metod, bránících před nedorozuměním, které zároveň umožňují maximálně využít licitační prostor. Zároveň při italské metodě můžeme být liberálnější při výběru momentu, ve kterém chceme licitovat první cue-bid a zároveň v pozdější fázi, na základě získaných informacích o zádržích pomocí předcházejících cue-bidů může kterýkoliv z partnerů buď licitaci brzdit nebo ji naopak podpořit. A tak tedy oba partneři jsou autory konečného závazku.
+</p>
+<p>
+Zásada ekonomie
+</p>
+<p>
+Zásada ekonomie zní: Zalicitovaný cue-bid signalizuje nejbližší zádrž, kterou v dané situaci může hráč dražit. Z této zásady plyne, že jestliže licitovaný cue-bid vynechává některou barvu, pak v ní zádrž nemáme.
+</p>
+<auction dealer="S" onesided="true">
+<bid level="1" suit="D" />
+<bid level="2" suit="H" />
+<bid level="3" suit="H" />
+<bid level="4" suit="D" />
+<bid level="4" suit="H" />
+<bid level="4" suit="S" />
+</auction>
+<auction dealer="S" onesided="true">
+<bid level="1" suit="S" />
+<bid level="2" suit="D" />
+<bid level="3" suit="D" />
+<bid level="3" suit="H" />
+<bid level="3" suit="N" />
+<bid level="4" suit="H" />
+</auction>
+<p>
+V obou případech Východ nezalicitoval cue-bid trefový. Znamená to tedy, že nemá v trefech zádrž ani druhého kola. Jestliže nyní Západ nemá zádrž trefovou, nesmí licitovat nic jiného než negat, tj. vrátit se na barvu trumfů (srdce). To je samozřejmě logické, neboť ví, že v trefech je díra, protože ani jeden z partnerů nemá zádrž v trefové barvě. Ve druhém případě 3s znamenala napřed dotaz po zádrži do beztrumfů, který mohl být licitován i s Q,J,x. Teprve 4s informují o tom, že 3s byl cue-bid a zároveň licitací 4s informuje o tom, že cue-bidující nemá zádrž prvního nebo druhého kola v trefech, protože cue-bid trefový byl vynechán. Kdyby Západ měl zádrž v trefech, licitoval by 5t (c.b.) a bez ní 5k. Tato metoda tedy skýtá neocenitelnou výhodu, že se vám nestane, že byste vydražili slem a neměli eso a krále v jedné barvě. Tento komfort u Blackwooda nemáte.
+</p>
+<p>
+Zásada neutrální a pozitivní akceptace
+</p>
+<p>
+Prvním cue-bidem dává partner najevo zájem o slemovou hru. Je tudíž normální, že jeho partner s ním spolupracuje, licitujíc své vlastní zádrže (zásada spolupráce). Dodržujíc zásadu spolupráce, partner ne vždy odpovídá cue-bidem. Vše záleží na průběhu a výši dražby. Dokumentujme si to na následujících příkladech:
+</p>
+<auction dealer="S" onesided="true">
+<bid level="1" suit="D" />
+<bid level="2" suit="H" />
+<bid level="3" suit="H" />
+<bid level="4" suit="C" />
+<bid level="4" suit="D" />
+</auction>
+<auction dealer="S" onesided="true">
+<bid level="1" suit="S" />
+<bid level="2" suit="C" />
+<bid level="2" suit="H" />
+<bid level="4" suit="S" />
+<bid level="5" suit="C" />
+</auction>
+<p>
+V první sekvenci je zalicitování cue bidu (4k) pod hranicí hry cue bidem neutrálním, tzn. že nemusím akceptovat žádost partnera o licitaci slemu. Je možné ho dát i s absolutním minimem. Naproti tomu ve druhém případě Východ licitoval cue-bid 5t a dostal se tak nad hranici celé hry. Je to tudíž pozitivní cue-bid a znamená to, že licitující má rezervu. Jedině v případě, že se hráč domnívá, že při výhodně umístěných figurách je slem možný, může licitovat pozitivní cue-bid i bez rezervy (s minimem) a naopak. Z uvedeného je vidět, že rozhodnutí o zalicitování pozitivního cue bidu záleží výlučně od subjektivního ocenění situace hráčem, který je na řadě v licitaci.
+</p>
+<p>
+Ushodnění barvy
+</p>
+<p>
+Metodou cue-bidů není možno zjistit počet trumfových figur pod hranicí 5BT, takže při licitaci musí být dodržovány jisté zásady, aby se nestalo, že by byl licitován slem, ve kterém by se v trumfové barvě musely odevzdat dva zdvihy. Nejdůležitější zásadou je, že se licituje na druhém stupni 4-listá barva s alespoň dvěma topfigurami a 5-listá barva alespoň s esem nebo králem a delší aspoň s dámou. Někdy však situace vyžaduje odklonit se od této zásady. Jestliže došlo k takovému odklonu, nesmí se okamžitě přijmout pozvání k licitaci kontrol (cue-bidů) a tím méně sám začít první cue-bidovat. V těchto případech je nutno nejprve licitovat negativně a teprve v dalším kole dražit cue-bid, samozřejmě jen v případě, že máme s danou kartou šanci na slem. Takto sdělíme své možnosti a přitom bude partner informován o důvodech předcházející zdrženlivosti.
+</p>
+<p>
+Vyjádření stupně zádrží
+</p>
+<p>
+Licitování zádrží druhého kola na stejné úrovni s prvním kolem je omezené. V opačném případě by bylo těžké zabránit licitaci slemů bez dvou es. Hlavním omezením licitace zádrží druhého kola je zásada, že nad úrovní 4BT se licitují pouze zádrže prvního kola.
+</p>
+<literature>
+<li>
+<title>Cue bidy</title>
+<author>?</author>
+</li>
+</literature>
+</lesson>

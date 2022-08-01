@@ -1,0 +1,357 @@
+<lesson year="4" title="Dražba po zahájení 2 trefy" number="6" video-id="T10W5vHwDos">
+<p>
+Do hlášky 2 trefy zahrneme listy pravidelné s 21-22 body nebo s 25+ body. Dražba 1v levné-2BT bude odteď znamenat rozmezí jen 18-20 bodů, což bude rozhodně pohodlnější. S nepravidelnou rozlohou zahajujeme se 4 a méně ztrátovými zdvihy. Zahájení ještě neforsuje do hry, odpovídající má možnost ukázat naprosto minimální list a potom je možné zastavit se v částečném závazku. Zahájení 2♣ je dobré používat zejména s jednobarevnými listy, v takovém případě stačí někdy i méně než 20 bodů (na ruce by mělo být přibližně 9 štychů, minimum by mohlo vypadat například: ♠AKQxxx ♥Ax ♦AQx ♣xx). Pro odpověď budou důležití jen králové a esa, kterým budeme říkat kontroly. Eso jsou dvě kontroly a král jedna. Dámy a kluky tedy nebereme v úvahu. Odpověď bude oznámením počtu kontrol.
+</p>
+<p>
+Popis odpovědí
+</p>
+<p>
+2♦ 0–1 kontrol, jediné pokračování, po kterém je ještě možné zastavit se v částečném závazku.
+</p>
+<p>
+2♥ 2 kontroly
+</p>
+<p>
+2♠ 3 kontroly
+</p>
+<p>
+2NT AK v jedné barvě, žádné jiné kontroly
+</p>
+<p>
+3♣ 4 kontroly
+</p>
+<p>
+3♦ 5+ kontrol
+</p>
+<p>
+3♥ typicky 6♠322, 8–10 bodů (nedraží přirozeně, aby se případně hrálo ze silnější ruky)
+</p>
+<p>
+3♠ typicky 6♥322, 8–10 bodů (nedraží přirozeně, aby se případně hrálo ze silnější ruky)
+</p>
+<p>
+Další dražba
+</p>
+<p>
+2♣– 2♦
+</p>
+<p>
+2♥ Kokishova konvence: buď přirozené 5+list ♥, nebo GF s pravidelnou rozlohou (alespoň dobrých 25 bodů). Odpovídající musí povinně dražit 2♠ a zahajitel ukáže, kterou variantu má:
+</p>
+<p>
+2NT GF, pravidelná rozloha. Další dražba stejná jako po zahájení 2NT.
+</p>
+<p>
+3♥ přirozené, odpovídající může pasovat pouze s naprosto ničemným listem
+</p>
+<p>
+dražba jiné barvy na třetím stupni může ukazovat dvojbarevný list s GF s 5+list ♥
+</p>
+<p>
+2♠ 5+list ♠, F1. Odpovídající draží přirozeně GF nebo 3♣ jako druhou negativku ukazující naprosto ničemný list (3♠ od zahajitele jsou potom pasovatelné).
+</p>
+<p>
+2NT 21-22 bodů, pravidelná rozloha. Další dražba stejná jako po zahájení 2NT.
+</p>
+<p>
+3♣ 5+list ♣, F1. Odpovídající draží přirozeně GF nebo 3♦ jako druhou negativku ukazující naprosto ničemný list (4♣ od zahajitele jsou potom pasovatelné).
+</p>
+<p>
+3♦ 5+list ♦, GF. Není prostor pro druhou negativku, dál se draží přirozeně.
+</p>
+<p>
+3♥/♠ 6+list ♥/♠, GF.
+</p>
+<p>
+4♣/♦ prosazení trumfové barvy, odpovídající draží povinně ceu-bidy.
+</p>
+<p>
+Ostatní odpovědi
+</p>
+<p>
+Po ostatních odpovědích už je nutné vydražit hru. Zahajitel má obvykle dobrou představu o slemových šancích, protože díky odpovědím ukazujícím kontroly zná počet partnerových es a králů. Dražba je dál zcela přirozená, po 2♣ - 2♥/♠ - 2NT se draží jako po zahájení 2NT. Skok na 4 v levné (a 2♣ - 2♥ - 3♠) prosazuje barvu trumfů a odpovídající musí povinně dražit cue-bidy.
+</p>
+<p>
+Kdy zahajovat 2t?
+</p>
+<p>
+Doporučujeme využít metodu ztrátových zdvihů. Při tomto hodnocení listu se počítají jen A, K a Q. Podíváme se na jednotlivé barvy a spočteme si, kolik těchto karet nám v jednotlivých barvách chybí. To je počet, kolik mám ztrátových karet. Pokud mám v barvě singl, tak mě zajímají jen A a K a můžu mít v této barvě maximálně dva ztrátové zdvihy, pokud singl, tak jen A a mohu mít jen jeden ztrátový zdvih. Když na počátku napočítám čtyři nebo méně ztrátových zdvihů, je moje karta zralá na otevření 2 trefy.
+</p>
+<p>
+Příklady:
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+AK73
+</spades>
+<hearts>
+KQ6
+</hearts>
+<diamonds>
+AQ84
+</diamonds>
+<clubs>
+AK
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+Q542
+</spades>
+<hearts>
+T7
+</hearts>
+<diamonds>
+J642
+</diamonds>
+<clubs>
+865
+</clubs>
+</hand>
+</distribution>
+
+<auction onesided="true" dealer="S">
+</auction><p>
+2t (rovnovážná 25+) - 2k
+</p>
+<p>
+2s (Kokish) – 2p
+</p>
+<p>
+2BT (25+, vyvážená) – 3t (Stayman)
+</p>
+<p>
+3p – 4p
+</p>
+<p>
+pas
+</p>
+<p>
+Kdyby zahajitel pokračoval Blackwoodem, nemohl by to být dotaz na esa, protože počtem kontrol v prvním kole odpovídající ukázal, že eso nemá. Logické by tedy bylo, aby to byl dotaz na krále a je také důležitá dohoda, jestli mezi ně zahrnuji i trumfovou dámu
+</p>
+</example>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+6
+</spades>
+<hearts>
+AQJT8642
+</hearts>
+<diamonds>
+KQ73
+</diamonds>
+<clubs>
+-
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A93
+</spades>
+<hearts>
+5
+</hearts>
+<diamonds>
+J8652
+</diamonds>
+<clubs>
+T743
+</clubs>
+</hand>
+</distribution><auction onesided="true" dealer="S">
+<bid level="2" suit="C" />
+<bid level="2" suit="H" />
+<bid level="4" suit="S" />
+<bid value="pass" />
+</auction>
+<p>
+Hlavní hráč ví o dvou kontrolách. Pokud je to eso pikové nebo kárové, bude to na impas, pokud je to trefové, lze si stáhnout z výkopu pik a káro. Když bude mít odpovídající dva krále, slam zřejmě splnit nepůjde.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+KJ3
+</spades>
+<hearts>
+AJT4
+</hearts>
+<diamonds>
+KQJ5
+</diamonds>
+<clubs>
+AQ
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+Q8542
+</spades>
+<hearts>
+972
+</hearts>
+<diamonds>
+A7
+</diamonds>
+<clubs>
+653
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="S">
+<bid level="2" suit="C" />
+</auction>
+<p>
+2t – 2p
+</p>
+<p>
+2BT (21-22 rovnovážné) – 3s (transfer)
+</p>
+<p>
+3p – 3BT
+</p>
+<p>
+4p
+</p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+A8
+</spades>
+<hearts>
+KQT3
+</hearts>
+<diamonds>
+QJT984
+</diamonds>
+<clubs>
+A
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+T743
+</spades>
+<hearts>
+A964
+</hearts>
+<diamonds>
+K5
+</diamonds>
+<clubs>
+974
+</clubs>
+</hand>
+</distribution>
+<p>
+1k (i když mám 4 ztrátové zdvihy, bude rozumnější zahájit kárem, abychom objevili případný fit v srdcích) – 1s
+</p>
+<p>
+4s – pas
+</p>
+<auction onesided="true" dealer="S">
+<bid level="1" suit="D" />
+</auction>
+</example>
+<example number="5">
+<distribution>
+<hand position="north">
+<spades>
+KQJ8752
+</spades>
+<hearts>
+A
+</hearts>
+<diamonds>
+KT2
+</diamonds>
+<clubs>
+AK
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+T
+</spades>
+<hearts>
+J743
+</hearts>
+<diamonds>
+A853
+</diamonds>
+<clubs>
+QT64
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="S">
+<bid level="1" suit="C" />
+</auction>
+<p>
+2t – 2s
+</p>
+<p>
+2p – 3k (ukazuji, kde mám kontroly)
+</p>
+<p>
+6p – pas
+</p>
+<p>
+Podle dražby zahajitel vidí, že má partner eso kárové a určitě nemá eso pikové
+</p>
+</example>
+<example number="6">
+<distribution>
+<hand position="north">
+<spades>
+K5
+</spades>
+<hearts>
+AKQJ93
+</hearts>
+<diamonds>
+AT43
+</diamonds>
+<clubs>
+KQ
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+973
+</spades>
+<hearts>
+42
+</hearts>
+<diamonds>
+J652
+</diamonds>
+<clubs>
+8763
+</clubs>
+</hand>
+</distribution>
+<auction onesided="true" dealer="S">
+<bid level="2" suit="C" />
+</auction>
+<p>
+2t – 2k
+</p>
+<p>
+2s (Kokish) – 2p
+</p>
+<p>
+4s – pas
+</p>
+<p>
+Zahajitel nesmí dražit 3s, protože ty jsou pasovatelné a manši hrát rozhodně chce, slam ne, protože mu chybí dvě esa
+</p>
+</example>
+</lesson>

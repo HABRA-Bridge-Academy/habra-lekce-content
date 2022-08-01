@@ -1,4 +1,4 @@
-<lesson year="4" title="Slemové speciality" number="18" video-id="">
+<lesson year="4" title="Slemové speciality" number="18" video-id="QzUD9A0EYjM">
 <p>
 V této lekci si ukážeme dvě používané konvence patřící ke středně vyspělým bridžistům. Nijak nemění systém, jen ho doplňují nebo vylepšují.
 </p>
@@ -27,7 +27,7 @@ Hláška <bid level="4" suit="NT"/> je opět dotazem na počet es, ale cílovým
 Po odpovědi zpravidla určíme konečný závazek. Můžeme však pokračovat v dalším průzkumu takto:
 </p>
 <p>
-Po odpovědi <bid level="5" suit="C"/> nebo 5K
+Po odpovědi <bid level="5" suit="C"/> nebo <bid level="5" suit="D"/>
 </p>
 <p>
 Hláška v nejbližší následující barvě, která není barvou trumfovou, je dotazem na trumfovou dámu. Pokud je tento dotaz položen pod barvou dohodnutých trumfů, může jít o průzkum, zda hrát pouze pět nebo šest v barvě. Takový dotaz nemusí zaručovat držení všech es na lince. Jestliže však dotaz je nad barvou trumfů, pak tento dotaz navíc říká - partnere máme všechna esa, teď je jen otázkou, zda budeme hrát šest nebo sedm v barvě. Odpovědi:
@@ -48,7 +48,7 @@ Hláška v nejbližší následující barvě, která není barvou trumfovou, je
 Nechceme-li se ptát na trumfovou dámu (třeba proto, že ji máme sami), můžeme se hláškou <bid level="5" suit="NT"/> zeptat na krále:
 </p>
 <p>
-5BT dotaz na počet vedlejších králů - odpovědi:
+<bid level="5" suit="NT"/> dotaz na počet vedlejších králů - odpovědi:
 </p>
 <p>
 1. stupeň <bid level="6" suit="C"/> .......mám 0 nebo 3 krále
@@ -109,6 +109,7 @@ KQ74
 <bid value="1S" />
 <bid value="4H" />
 <bid value="6S" />
+<bid value="pass" />
 </auction>
 <p>
 Po Splinteru je jasné, že figury jsou koncentrovány do správných barev.
@@ -233,7 +234,7 @@ QT3
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="S">
+<auction onesided="true" dealer="N">
 <bid value="1S" />
 <bid value="2S" />
 <bid value="4H" />

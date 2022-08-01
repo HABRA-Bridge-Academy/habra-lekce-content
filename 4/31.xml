@@ -1,4 +1,4 @@
-<lesson year="4" title="Extrašance – Vstupy a časování" number="31" video-id="">
+<lesson year="4" title="Extrašance – Vstupy a časování" number="31" video-id="8Dd36ShGy74">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -626,8 +626,8 @@ Závěr: Je příjemné mít plnou ruku topfigur a bridžový hráč se brzy nau
 </p>
 </example>
 <literature>
-<li>
-Reese, Trézel	Extrašance	příklady č. 4,10,11,12,14,34,37
-</li>
+    <author>Reese, Trézel</author>
+<title>Extrašance</title>
+<reference>příklady č. 4,10,11,12,14,34,37</reference>
 </literature>
 </lesson>

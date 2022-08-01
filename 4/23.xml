@@ -1,4 +1,4 @@
-<lesson year="4" title="Vzít či nevzít – Vstupy" number="23" video-id="">
+<lesson year="4" title="Vzít či nevzít – Vstupy" number="23" video-id="_MCdoVeMAI4">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -141,9 +141,7 @@ AK
 <deal-contract>
 <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Ac">
-tA
-</leadcard>
+<leadcard value="AC"/>
 <p>
 Za stavu obě linky ve druhé zahájil Jih hláškou 4 srdce. Je pravda, že list je dobrý a že po tomto preventivním zahájení se dá těžko dojít do slemu, ale na druhé straně jsou soupeři postaveni před problémy. V tomto případě může být Západ v pokušení s 15 body dát kontra. Většinou nemá toto kontra smysl. Padne-li hlavní hráč jednou, přinese to zisk 100 bodů, za splnění však píše navíc 170 bodů a je-li to dokonce s nadzdvihem tak 370 bodů. Pravděpodobnost se staví proti kontrování těchto vysokých závazků.
 </p>
@@ -194,8 +192,7 @@ AK4
 <deal-contract>
 <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="K?">
-K,4,2		A,K,J,10,9	6,2		A,K,4
+<leadcard value="KD">
 </leadcard>
 <p>
 Jih zahajuje jedním srdcem a Sever zvyšuje na 2 srdce. Po tomto podpoření barvy draží Jih skokem na 4 srdce. Jak má plánovat sehrávku po výnosu károvým králem?
