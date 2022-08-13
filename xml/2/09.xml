@@ -46,7 +46,7 @@ KQT62
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="N">
+<auction revealable="true" onesided="true" dealer="N">
 <bid value="1S" />
 <bid value="2c" />
 <bid value="2S" />
@@ -85,7 +85,7 @@ T752
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="N">
+<auction revealable="true" onesided="true" dealer="N">
 <bid value="1H" />
 <bid value="1S" />
 <bid value="1NT" />
@@ -124,7 +124,7 @@ K863
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="N">
+<auction revealable="true" onesided="true" dealer="N">
 <bid value="1H" />
 <bid value="1S" />
 <bid value="4S" />
@@ -165,7 +165,7 @@ J85
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="N">
+<auction revealable="true" onesided="true" dealer="N">
 <bid value="1H" />
 <bid value="2H" />
 <bid value="pass" />
@@ -202,7 +202,7 @@ A432
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="N">
+<auction revealable="true" onesided="true" dealer="N">
 <bid value="1H" />
 <bid value="1S" />
 <bid value="1NT" />
@@ -242,7 +242,7 @@ A72
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="N">
+<auction revealable="true" onesided="true" dealer="N">
 <bid value="1H" />
 <bid value="1S" />
 <bid value="1NT" />
@@ -255,6 +255,6 @@ A72
 Ke čtvrtému a pátému příkladu: měli bychom přijmout zásadu, že v tomto sledu nabídneme piky jen s 10+ body, se 7-9 body okamžitě fitneme.
 </p>
 <p>
-Ve sledu 1s-1p-1BT-2s by tedy odpovídající měl mít alespoň 10b. jako je tomu v pátém příkladu.
+Ve sledu <sequence><bid level="1" suit="H"/><bid level="1" suit="S"/><bid level="1" suit="N"/><bid level="2" suit="H"/></sequence> by tedy odpovídající měl mít alespoň 10b. jako je tomu v pátém příkladu.
 </p>
 </lesson>

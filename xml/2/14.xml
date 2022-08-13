@@ -115,8 +115,11 @@ Při třech chybějících kartách krále impasujeme
 </li>
 <li>
 <distribution>
-<suit>
+<suit position="south">
 K754
+</suit>
+<suit position="north">
+AJ63	
 </suit>
 </distribution>
 <p>
@@ -125,7 +128,10 @@ Při pěti chybějících kartách dámu impasujeme
 </li>
 <li>
 <distribution>
-<suit>
+<suit position="south">
+T97
+</suit>
+<suit position="north">
 AKJ543
 </suit>
 </distribution>
@@ -145,7 +151,6 @@ QJ654
 <p>
 Při dvou chybějících kartách hrajeme na vypadnutí krále
 </p>
-
 </li>
 <li>
 <distribution>
@@ -153,7 +158,7 @@ Při dvou chybějících kartách hrajeme na vypadnutí krále
 K953
 </suit>
 <suit position="north">
-AJ876
+AJ72	
 </suit>
 </distribution>
 <p>
@@ -162,9 +167,13 @@ Při čtyřech chybějících kartách hrajeme na vypadnutí dámy
 </li>
 <li>
 <distribution>
-<suit >
+<suit position="south">
 AJ72
 </suit>
+<suit position="north">
+K653
+</suit>
+
 </distribution>
 <p>
 Při pěti chybějících kartách dámu impasujeme

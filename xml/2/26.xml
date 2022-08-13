@@ -5,6 +5,7 @@ Stejně jako jsme se naučili preventivně zahajovat, stejně tak budeme i preve
 <p>
 Soupeři zahájili jeden tref, jste jako druzí na dražbě a máte tyto listy, co budete dražit?
 </p>
+<div class="columns">
 <example number="1">
 <distribution>
 <hand>
@@ -131,4 +132,5 @@ KJ86542
     <bid value="pass"/>
 </bidding-solution>
 </example>
+</div> 
 </lesson>

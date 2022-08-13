@@ -2,6 +2,8 @@
 <p>
 V dalším systému odpovědí naučíme děti tzv. zkráceného Blackwooda (5=0 nebo 3 esa, 5k=1 nebo 4 esa, 5s=2 esa bez krále, 5p=2 esa + 1 král, 5BT=2 esa + 2 králové, 6t=2 esa + 3 králové, 6k=2 esa + 4 králové). Pokud zjistíme, že nám chybí dvě esa, zarazíme dražbu na 5. stupni, pokud nám chybí jedno eso, hrajeme malý slem a pokud zjistíme, že máme všechna esa, můžeme pokračovat Hoytovou dotazovou konvencí ve zkoumání velkého slemu. Dotazující ji zahajuje hláškou následující barvy, která přikazuje partnerovi, aby nahlásil počet králů. Odpovědi: 1. stupeň=0 nebo 3 králové, 2. stupeň=1 nebo 4 králové, 3. stupeň=2 králové. Dotazující vynechává barvu trumfů, která je stopkou, na to je třeba upozornit a dbát. Zde jsou karty pro několik ukázek (zahajuje Sever):
 </p>
+<div class="columns">
+<example number="1">
 <distribution>
 <hand position="north">
 <spades>
@@ -39,6 +41,8 @@ KQ3
 <bid value="6NT" />
 <bid value="pass" />
 </auction>
+</example>
+<example number="2">
 <distribution>
 <hand position="north">
 <spades>
@@ -78,6 +82,8 @@ KQ3
 <bid value="6S" />
 <bid value="pass" />
 </auction>
+</example>
+<example number="3">
 <distribution>
 <hand position="north">
 <spades>
@@ -117,6 +123,8 @@ AQJ
 <bid value="5S" />
 <bid value="pass" />
 </auction>
+</example>
+<example number="4">
 <distribution>
 <hand position="north">
 <spades>
@@ -153,6 +161,8 @@ AQ3
 <bid value="6c" />
 <bid value="7NT" />
 </auction>
+</example>
+<example number="5">
 <distribution>
 <hand position="north">
 <spades>
@@ -194,6 +204,8 @@ KJ2
 <bid value="7NT" />
 <bid value="pass" />
 </auction>
+</example>
+<example number="6">
 <distribution>
 <hand position="north">
 <spades>
@@ -233,6 +245,8 @@ QJ75
 <bid value="2H" />
 <bid value="pass" />
 </auction>
+</example>
+</div>
 <h2>
 BLACKWOOD KLASICKÝ ZKRÁCENÝ
 </h2>

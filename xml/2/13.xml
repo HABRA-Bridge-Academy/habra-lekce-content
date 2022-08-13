@@ -36,7 +36,7 @@ QT64
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="N">
+<auction revealable="true" onesided="true" dealer="N">
 <bid value="1S" />
 <bid value="3S" />
 <bid value="4S" />
@@ -74,7 +74,7 @@ Q8653
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="N">
+<auction revealable="true" onesided="true" dealer="N">
 <bid value="1H" />
 <bid value="2H" />
 <bid value="3H" />
@@ -113,7 +113,7 @@ AT
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="N">
+<auction revealable="true" onesided="true" dealer="N">
 <bid value="1c" />
 <bid value="1S" />
 <bid value="1NT" />
@@ -153,7 +153,7 @@ A643
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="N">
+<auction revealable="true" onesided="true" dealer="N">
 <bid value="1NT" />
 <bid value="2NT" />
 <bid value="pass" />
@@ -190,7 +190,7 @@ A7
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="N">
+<auction revealable="true" onesided="true" dealer="N">
 <bid value="1c" />
 <bid value="1S" />
 <bid value="2S" />
