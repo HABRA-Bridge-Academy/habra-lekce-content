@@ -35,10 +35,10 @@ KQ3
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="1d" />
-<bid value="4NT" />
-<bid value="5S" />
-<bid value="6NT" />
+<bid level="1" suit="d" />
+<bid level="4" suit="N" />
+<bid level="5" suit="S" />
+<bid level="6" suit="N" />
 <bid value="pass" />
 </auction>
 </example>
@@ -74,12 +74,12 @@ KQ3
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="1d" />
-<bid value="1H" />
-<bid value="1S" />
-<bid value="4NT" />
-<bid value="5d" />
-<bid value="6S" />
+<bid level="1" suit="d" />
+<bid level="1" suit="H" />
+<bid level="1" suit="S" />
+<bid level="4" suit="N" />
+<bid level="5" suit="d" />
+<bid level="6" suit="S" />
 <bid value="pass" />
 </auction>
 </example>
@@ -115,12 +115,12 @@ AQJ
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="1c" />
-<bid value="1H" />
-<bid value="1S" />
-<bid value="4NT" />
-<bid value="5c" />
-<bid value="5S" />
+<bid level="1" suit="c" />
+<bid level="1" suit="H" />
+<bid level="1" suit="S" />
+<bid level="4" suit="N" />
+<bid level="5" suit="c" />
+<bid level="5" suit="S" />
 <bid value="pass" />
 </auction>
 </example>
@@ -156,10 +156,10 @@ AQ3
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="2c" />
-<bid value="4NT" />
-<bid value="6c" />
-<bid value="7NT" />
+<bid level="2" suit="c" />
+<bid level="4" suit="N" />
+<bid level="6" suit="c" />
+<bid level="7" suit="N" />
 </auction>
 </example>
 <example number="5">
@@ -194,14 +194,14 @@ KJ2
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="1NT" />
-<bid value="2c" />
-<bid value="2S" />
-<bid value="4NT" />
-<bid value="5c" />
-<bid value="5d" />
-<bid value="5S" />
-<bid value="7NT" />
+<bid level="1" suit="N" />
+<bid level="2" suit="c" />
+<bid level="2" suit="S" />
+<bid level="4" suit="N" />
+<bid level="5" suit="c" />
+<bid level="5" suit="d" />
+<bid level="5" suit="S" />
+<bid level="7" suit="N" />
 <bid value="pass" />
 </auction>
 </example>
@@ -237,12 +237,12 @@ QJ75
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="1c" />
-<bid value="2H" />
-<bid value="4NT" />
-<bid value="5d" />
-<bid value="5S" />
-<bid value="2H" />
+<bid level="1" suit="c" />
+<bid level="2" suit="H" />
+<bid level="4" suit="N" />
+<bid level="5" suit="d" />
+<bid level="5" suit="S" />
+<bid level="2" suit="H" />
 <bid value="pass" />
 </auction>
 </example>

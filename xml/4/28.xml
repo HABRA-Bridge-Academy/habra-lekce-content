@@ -40,14 +40,14 @@ K43
 kJ
 </leadcard>
 <auction onesided="true" dealer="S">
-<bid value="2c" />
-<bid value="2d" />
-<bid value="2H" />
-<bid value="3H" />
-<bid value="3S" />
-<bid value="4c" />
-<bid value="5H" />
-<bid value="6H" />
+<bid level="2" suit="c" />
+<bid level="2" suit="d" />
+<bid level="2" suit="H" />
+<bid level="3" suit="H" />
+<bid level="3" suit="S" />
+<bid level="4" suit="c" />
+<bid level="5" suit="H" />
+<bid level="6" suit="H" />
 <bid value="pass" />
 </auction>
 <p>
@@ -134,11 +134,11 @@ AQ
 kK
 </leadcard>
 <auction onesided="true" dealer="S">
-<bid value="1H" />
-<bid value="1NT" />
-<bid value="2S" />
-<bid value="3H" />
-<bid value="4H" />
+<bid level="1" suit="H" />
+<bid level="1" suit="N" />
+<bid level="2" suit="S" />
+<bid level="3" suit="H" />
+<bid level="4" suit="H" />
 <bid value="pass" />
 </auction>
 <p>
@@ -508,10 +508,10 @@ QJ4
 kK
 </leadcard>
 <auction onesided="true" dealer="N">
-<bid value="1c" />
-<bid value="1H" />
-<bid value="2H" />
-<bid value="4H" />
+<bid level="1" suit="c" />
+<bid level="1" suit="H" />
+<bid level="2" suit="H" />
+<bid level="4" suit="H" />
 <bid value="pass" />
 </auction>
 <p>

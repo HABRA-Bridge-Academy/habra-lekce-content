@@ -168,23 +168,23 @@ KJT92
 </hand>
 </distribution>
 <auction dealer="S">
-<bid value="1H" />
-<bid value="1S" />
-<bid value="2d" />
+<bid level="1" suit="H" />
+<bid level="1" suit="S" />
+<bid level="2" suit="d" />
 <bid value="pass" />
-<bid value="2H" />
+<bid level="2" suit="H" />
 <bid value="pass" />
-<bid value="4H" />
+<bid level="4" suit="H" />
 <bid value="pass" />
-<bid value="4NT" />
+<bid level="4" suit="N" />
 <bid value="pass" />
-<bid value="5H" />
+<bid level="5" suit="H" />
 <bid value="pass" />
-<bid value="5NT" />
+<bid level="5" suit="N" />
 <bid value="pass" />
-<bid value="6d" />
+<bid level="6" suit="d" />
 <bid value="pass" />
-<bid value="6H" />
+<bid level="6" suit="H" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -257,11 +257,11 @@ AKQ764
 </distribution>
 <auction dealer="E">
 <bid value="pass" />
-<bid value="1H" />
-<bid value="2c" />
-<bid value="2H" />
-<bid value="2S" />
-<bid value="3H" />
+<bid level="1" suit="H" />
+<bid level="2" suit="c" />
+<bid level="2" suit="H" />
+<bid level="2" suit="S" />
+<bid level="3" suit="H" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -576,13 +576,13 @@ T985
 </distribution>
 <auction onesided="true" dealer="N">
 <bid value="pass" />
-<bid value="2H" />
-<bid value="3H" />
-<bid value="4NT" />
-<bid value="5d" />
-<bid value="5NT" />
-<bid value="6d" />
-<bid value="7H" />
+<bid level="2" suit="H" />
+<bid level="3" suit="H" />
+<bid level="4" suit="N" />
+<bid level="5" suit="d" />
+<bid level="5" suit="N" />
+<bid level="6" suit="d" />
+<bid level="7" suit="H" />
 <bid value="pass" />
 </auction>
 <leadcard value="TS">
@@ -772,22 +772,22 @@ QT92
 </hand>
 </distribution>
 <auction dealer="W">
-<bid value="1d" />
+<bid level="1" suit="d" />
 <bid value="X" />
 <bid value="XX" />
-<bid value="1H" />
-<bid value="2d" />
-<bid value="2H" />
-<bid value="3d" />
+<bid level="1" suit="H" />
+<bid level="2" suit="d" />
+<bid level="2" suit="H" />
+<bid level="3" suit="d" />
 <bid value="pass" />
 <bid value="pass" />
-<bid value="3H" />
-<bid value="4d" />
+<bid level="3" suit="H" />
+<bid level="4" suit="d" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="X" />
 <bid value="pass" />
-<bid value="4H" />
+<bid level="4" suit="H" />
 <bid value="X" />
 <bid value="pass" />
 <bid value="pass" />

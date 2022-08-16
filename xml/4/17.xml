@@ -126,11 +126,11 @@ K86
 kK, kA
 </leadcard>
 <auction dealer="S">
-<bid value="1S" />
-<bid value="2d" />
-<bid value="3S" />
-<bid value="4d" />
-<bid value="4S" />
+<bid level="1" suit="S" />
+<bid level="2" suit="d" />
+<bid level="3" suit="S" />
+<bid level="4" suit="d" />
+<bid level="4" suit="S" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />

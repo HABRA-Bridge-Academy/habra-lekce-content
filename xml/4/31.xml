@@ -37,15 +37,15 @@ K4
 pQ
 </leadcard>
 <auction onesided="true" dealer="S">
-<bid value="1c" />
-<bid value="2d" />
-<bid value="3d" />
-<bid value="3H" />
-<bid value="3S" />
-<bid value="3NT" />
-<bid value="4c" />
-<bid value="4d" />
-<bid value="6d" />
+<bid level="1" suit="c" />
+<bid level="2" suit="d" />
+<bid level="3" suit="d" />
+<bid level="3" suit="H" />
+<bid level="3" suit="S" />
+<bid level="3" suit="N" />
+<bid level="4" suit="c" />
+<bid level="4" suit="d" />
+<bid level="6" suit="d" />
 <bid value="pass" />
 </auction>
 <p>
@@ -289,13 +289,13 @@ pQ
 <contract level="6" suit="d" declarer="S"/>
 </deal-contract>
 <auction onesided="true" dealer="S">
-<bid value="2d" />
-<bid value="3c" />
-<bid value="3d" />
-<bid value="3H" />
-<bid value="3NT" />
-<bid value="4d" />
-<bid value="6d" />
+<bid level="2" suit="d" />
+<bid level="3" suit="c" />
+<bid level="3" suit="d" />
+<bid level="3" suit="H" />
+<bid level="3" suit="N" />
+<bid level="4" suit="d" />
+<bid level="6" suit="d" />
 <bid value="pass" />
 </auction>
 <p>
@@ -385,10 +385,10 @@ A8643
 sJ
 </leadcard>
 <auction onesided="true" dealer="N">
-<bid value="1c" />
-<bid value="1d" />
-<bid value="2c" />
-<bid value="3NT" />
+<bid level="1" suit="c" />
+<bid level="1" suit="d" />
+<bid level="2" suit="c" />
+<bid level="3" suit="N" />
 </auction>
 <p>
 Jak má Jih plánovat sehrávku po výnosu srdcovým klukem? Kterou barvu má vypracovat, kára nebo trefy?
@@ -474,10 +474,10 @@ KQJ75
 s5
 </leadcard>
 <auction onesided="true" dealer="N">
-<bid value="1d" />
-<bid value="2c" />
-<bid value="2d" />
-<bid value="3NT" />
+<bid level="1" suit="d" />
+<bid level="2" suit="c" />
+<bid level="2" suit="d" />
+<bid level="3" suit="N" />
 <bid value="pass" />
 </auction>
 <p>
@@ -561,23 +561,23 @@ AQJ
 sK
 </leadcard>
 <auction dealer="S">
-<bid value="2c" />
-<bid value="2H" />
+<bid level="2" suit="c" />
+<bid level="2" suit="H" />
 <bid value="pass" />
 <bid value="pass" />
-<bid value="3NT" />
+<bid level="3" suit="N" />
 <bid value="pass" />
-<bid value="4c" />
+<bid level="4" suit="c" />
 <bid value="pass" />
-<bid value="4d" />
+<bid level="4" suit="d" />
 <bid value="pass" />
-<bid value="5d" />
+<bid level="5" suit="d" />
 <bid value="pass" />
-<bid value="6d" />
+<bid level="6" suit="d" />
 <bid value="pass" />
 <bid value="pass" />
-<bid value="6H" />
-<bid value="6NT" />
+<bid level="6" suit="H" />
+<bid level="6" suit="N" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />

@@ -37,13 +37,13 @@ AKQ
 pJ
 </leadcard>
 <auction dealer="S">
-<bid value="1d" />
-<bid value="1S" />
+<bid level="1" suit="d" />
+<bid level="1" suit="S" />
 <bid value="X" />
 <bid value="pass" />
-<bid value="2NT" />
+<bid level="2" suit="N" />
 <bid value="pass" />
-<bid value="3NT" />
+<bid level="3" suit="N" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -131,11 +131,11 @@ sQ
 <auction dealer="N">
 <bid value="pass" />
 <bid value="pass" />
-<bid value="1d" />
-<bid value="1H" />
-<bid value="3d" />
+<bid level="1" suit="d" />
+<bid level="1" suit="H" />
+<bid level="3" suit="d" />
 <bid value="pass" />
-<bid value="3NT" />
+<bid level="3" suit="N" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -401,11 +401,11 @@ A4
 tK
 </leadcard>
 <auction dealer="S">
-<bid value="1S" />
-<bid value="2c" />
-<bid value="3S" />
+<bid level="1" suit="S" />
+<bid level="2" suit="c" />
+<bid level="3" suit="S" />
 <bid value="pass" />
-<bid value="4S" />
+<bid level="4" suit="S" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -502,10 +502,10 @@ QJT4
 p3
 </leadcard>
 <auction onesided="true" dealer="S">
-<bid value="1NT" />
-<bid value="2c" />
-<bid value="2d" />
-<bid value="3NT" />
+<bid level="1" suit="N" />
+<bid level="2" suit="c" />
+<bid level="2" suit="d" />
+<bid level="3" suit="N" />
 <bid value="pass" />
 </auction>
 <p>

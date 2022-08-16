@@ -31,9 +31,9 @@ Q84
 </hand>
 </distribution>
 <auction onesided="true" dealer="S">
-<bid value="1H" />
-<bid value="3H" />
-<bid value="4H" />
+<bid level="1" suit="H" />
+<bid level="3" suit="H" />
+<bid level="4" suit="H" />
 <bid value="pass" />
 </auction>
 <leadcard value="QS" />
@@ -82,12 +82,12 @@ K2
 </hand>
 </distribution>
 <auction onesided="true" dealer="S">
-<bid value="1S" />
-<bid value="3c" />
-<bid value="3H" />
-<bid value="4c" />
-<bid value="4H" />
-<bid value="6S" />
+<bid level="1" suit="S" />
+<bid level="3" suit="c" />
+<bid level="3" suit="H" />
+<bid level="4" suit="c" />
+<bid level="4" suit="H" />
+<bid level="6" suit="S" />
 <bid value="pass" />
 </auction>
 <leadcard value="9d" />
@@ -133,12 +133,12 @@ Q
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="1c" />
-<bid value="1H" />
-<bid value="2H" />
-<bid value="3d" />
-<bid value="4H" />
-<bid value="6H" />
+<bid level="1" suit="c" />
+<bid level="1" suit="H" />
+<bid level="2" suit="H" />
+<bid level="3" suit="d" />
+<bid level="4" suit="H" />
+<bid level="6" suit="H" />
 <bid value="pass" />
 </auction>
 <leadcard value="Kd" />
@@ -188,11 +188,11 @@ AQ
 </hand>
 </distribution>
 <auction onesided="true" dealer="S">
-<bid value="1H" />
-<bid value="4c" explanation="síla na hru, podpora v srdcích" />
-<bid value="4NT" />
-<bid value="5H" />
-<bid value="6H" />
+<bid level="1" suit="H" />
+<bid level="4" suit="c" explanation="síla na hru, podpora v srdcích" />
+<bid level="4" suit="N" />
+<bid level="5" suit="H" />
+<bid level="6" suit="H" />
 </auction>
 <leadcard value="QS" />
 <p>

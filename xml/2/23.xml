@@ -7,8 +7,8 @@ Ve skutečnosti je při obraně nejtěžším problémem otvírající výnos. J
 Naneštěstí jsou útok a bezpečnost často dvě protichůdné kvality. Předpokládejme, že nepřátelé licitovali takto:
 </p>
 <auction onesided="true" dealer="S">
-<bid value="1S" />
-<bid value="3S" />
+<bid level="1" suit="S" />
+<bid level="3" suit="S" />
 <bid value="pass" />
 </auction>
 <p>

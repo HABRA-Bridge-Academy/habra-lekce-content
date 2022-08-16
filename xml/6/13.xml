@@ -31,13 +31,13 @@ A
 </hand>
 </distribution>
 <auction dealer="S">
-<bid value="1S" />
+<bid level="1" suit="S" />
 <bid value="pass" />
-<bid value="2d" />
+<bid level="2" suit="d" />
 <bid value="pass" />
-<bid value="4S" />
+<bid level="4" suit="S" />
 <bid value="pass" />
-<bid value="6S" />
+<bid level="6" suit="S" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -87,13 +87,13 @@ T
 </hand>
 </distribution>
 <auction dealer="S">
-<bid value="1S" />
+<bid level="1" suit="S" />
 <bid value="pass" />
-<bid value="4NT" />
+<bid level="4" suit="N" />
 <bid value="pass" />
-<bid value="5H" />
+<bid level="5" suit="H" />
 <bid value="pass" />
-<bid value="6S" />
+<bid level="6" suit="S" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -140,12 +140,12 @@ Q62
 </hand>
 </distribution>
 <auction dealer="E">
-<bid value="1S" />
-<bid value="2H" />
-<bid value="2S" />
-<bid value="3H" />
+<bid level="1" suit="S" />
+<bid level="2" suit="H" />
+<bid level="2" suit="S" />
+<bid level="3" suit="H" />
 <bid value="pass" />
-<bid value="4H" />
+<bid level="4" suit="H" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -197,12 +197,12 @@ A
 </hand>
 </distribution>
 <auction dealer="S">
-<bid value="1H" />
-<bid value="2S" explanation="slabé" />
+<bid level="1" suit="H" />
+<bid level="2" suit="S" explanation="slabé" />
 <bid value="pass" />
-<bid value="3NT" />
+<bid level="3" suit="N" />
 <bid value="pass" />
-<bid value="4H" />
+<bid level="4" suit="H" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />

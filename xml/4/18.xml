@@ -106,9 +106,9 @@ KQ74
 </hand>
 </distribution>
 <auction dealer="N" onesided="true">
-<bid value="1S" />
-<bid value="4H" />
-<bid value="6S" />
+<bid level="1" suit="S" />
+<bid level="4" suit="H" />
+<bid level="6" suit="S" />
 <bid value="pass" />
 </auction>
 <p>
@@ -147,15 +147,15 @@ Q9732
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="1H" />
-<bid value="3c" />
-<bid value="3d" />
-<bid value="4H" />
-<bid value="4NT" />
-<bid value="5c" />
-<bid value="5NT" />
-<bid value="6c" />
-<bid value="6H" />
+<bid level="1" suit="H" />
+<bid level="3" suit="c" />
+<bid level="3" suit="d" />
+<bid level="4" suit="H" />
+<bid level="4" suit="N" />
+<bid level="5" suit="c" />
+<bid level="5" suit="N" />
+<bid level="6" suit="c" />
+<bid level="6" suit="H" />
 <bid value="pass" />
 </auction>
 <p>
@@ -194,9 +194,9 @@ KQ74
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="1S" />
-<bid value="4d" />
-<bid value="4S" />
+<bid level="1" suit="S" />
+<bid level="4" suit="d" />
+<bid level="4" suit="S" />
 <bid value="pass" />
 </auction>
 <p>
@@ -235,10 +235,10 @@ QT3
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="1S" />
-<bid value="2S" />
-<bid value="4H" />
-<bid value="6S" />
+<bid level="1" suit="S" />
+<bid level="2" suit="S" />
+<bid level="4" suit="H" />
+<bid level="6" suit="S" />
 <bid value="pass" />
 </auction>
 <p>

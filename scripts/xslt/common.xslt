@@ -1,44 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0"
-	exclude-result-prefixes="xsl xs">
-	<xsl:output method="html" encoding="UTF-8" indent="no" omit-xml-declaration="yes"/>
-	
-	<xsl:template match="lesson">
-		<article>
-			<h1>Lekce <xsl:value-of select="@number"/>: <xsl:value-of select="@title"/></h1>
-			
-			<xsl:if test="@video-id">
-				<div class="lesson-video-container">
-					<p>Tuto lekci můžete zhlédnout i jako video:</p>
-					<div class="lesson-video">
-						<iframe width="640" height="360">
-							<xsl:attribute name="src">
-								https://www.youtube.com/embed/<xsl:value-of select="@video-id"/>
-							</xsl:attribute>
-						</iframe> 
-					</div>
-				</div>
-			</xsl:if>
-			<xsl:if test="@bridgemaster">
-				<p>Úlohy z této lekce si zde můžete zkusit sami:</p>
-				<div class="bm-container" >
-					<iframe  width="640" height="360" src="lekce2/js-dos/index.html"/>			
-				</div>		
-			</xsl:if>
-			
-			<xsl:apply-templates/>
-		</article>
-	</xsl:template>
-	
-	
-	<xsl:template match="example">
+<xsl:stylesheet  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" exclude-result-prefixes="xsl xs">
+    <xsl:output method="html" encoding="UTF-8" indent="no" omit-xml-declaration="yes"/>
+    
+    
+    
+    <xsl:template match="example">
 		<div class="example">
-			<h2>Příklad <xsl:value-of select="@number"/></h2>
+			<h2 class="example-heading">Příklad <xsl:value-of select="@number"/></h2>
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
-	
-	<xsl:template match="literature">
+
+    <xsl:template match="literature">
 		<div class="literature">
 			<h2>Literatura</h2>
 			<ol>
@@ -61,8 +34,8 @@
 			</ol>
 		</div>
 	</xsl:template>
-	
-	<xsl:template match="quiz">
+    
+    <xsl:template match="quiz">
 		<ol class="quiz">
 			<xsl:apply-templates select="question-answer"/>
 		</ol>
@@ -75,17 +48,118 @@
 			</div>
 			
 			<div class="quiz-answer">
-				<span>Odpověď:</span>
-				<div>
+				<span class="quiz-answer-label">Odpověď:</span>
+				<div class="quiz-answer-content">
 					<xsl:apply-templates select="answer/*"/>
 				</div>
 			</div>
 		</li>
 	</xsl:template>
+
+    <!-- Inline -->
+
+    <xsl:template match="deal-contract">
+		<div class="deal-contract" >
+			<span>Závazek: </span>
+			<xsl:apply-templates/>
+		</div>
+	</xsl:template>
 	
-	<!-- named templates -->
+	<xsl:template match="leadcard">
+		<div class="leadcard">
+			<span>Výnos: </span>
+			<xsl:call-template name="card">
+				<xsl:with-param name="value" select="@value"/>
+			</xsl:call-template>
+		</div>
+	</xsl:template>
 	
-	<xsl:template name="club"><span class="suit-clubs">♣</span></xsl:template>
+
+	<xsl:template match="bid">
+		<xsl:call-template name="bid">
+			<xsl:with-param name="value" select="@value"/>
+			<xsl:with-param name="suit" select="@suit"/>
+			<xsl:with-param name="level" select="@level"/>
+		</xsl:call-template>
+	</xsl:template>
+	
+	<xsl:template match="sequence">
+		<span class="sequence">
+			<xsl:for-each select="bid">
+				<xsl:apply-templates select="."/>
+				<xsl:if test="position() != last()">
+					<span>-</span>
+				</xsl:if>
+			</xsl:for-each>
+		</span>
+	</xsl:template>
+	
+	
+	<xsl:template match="contract">
+		<xsl:call-template name="contract">
+			<xsl:with-param name="level" select="@level"/>
+			<xsl:with-param name="suit" select="@suit"/>
+			<xsl:with-param name="declarer" select="@declarer"/>
+			<xsl:with-param name="doubled"> 
+				<xsl:choose> 
+					<xsl:when test="@doubled">
+						<xsl:value-of select="true()"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="false()"/>
+					</xsl:otherwise>
+				</xsl:choose> 
+			</xsl:with-param>
+			<xsl:with-param name="redoubled"> 
+				<xsl:choose> <xsl:when test="@redoubled">
+						<xsl:value-of select="true()"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="false()"/>
+					</xsl:otherwise>
+				</xsl:choose> 
+			</xsl:with-param>
+		</xsl:call-template>
+	</xsl:template>
+
+    <!-- Bidding -->
+    
+    <xsl:template match="bidding-solution">
+        <div class="bidding-solution">
+            <span class="solution-label">Řešení dražby: </span>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>  
+
+	<xsl:template match="bidding">
+		<div class="bidding">
+			<div>
+				<xsl:apply-templates select="header/*"/>
+			</div>
+			<table>
+				<xsl:apply-templates select="entry"/>
+			</table>
+		</div>
+	</xsl:template>
+	
+	<xsl:template match="entry">
+		<tr><td> 
+				<xsl:apply-templates select="action"/>
+			</td>
+			<td> 
+				<xsl:for-each select="explanation">
+					<div><xsl:apply-templates/></div>
+				</xsl:for-each>
+			</td></tr>
+	</xsl:template>	
+	
+	<xsl:template match="action">
+		<xsl:apply-templates/>
+	</xsl:template>
+
+    <!-- Named -->
+
+    <xsl:template name="club"><span class="suit-clubs">♣</span></xsl:template>
 	<xsl:template name="diamond"><span class="suit-diamonds">♦</span></xsl:template>
 	<xsl:template name="heart"><span class="suit-hearts">♥</span></xsl:template>
 	<xsl:template name="spade"><span class="suit-spades">♠</span></xsl:template>
@@ -98,7 +172,7 @@
 			<xsl:when test="$value = 'd'"><xsl:call-template name="diamond"/></xsl:when>
 			<xsl:when test="$value = 'h'"><xsl:call-template name="heart"/></xsl:when>
 			<xsl:when test="$value = 's'"><xsl:call-template name="spade"/></xsl:when>
-			<xsl:when test="contains($value, 'n')">NT</xsl:when>
+			<xsl:when test="contains($value, 'n')">BT</xsl:when>
 			<xsl:otherwise>?</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
@@ -134,6 +208,8 @@
 		<xsl:param name="suit"/>
 		<xsl:param name="level"/>
 		<xsl:param name="value"/>
+		
+		<xsl:variable name="value" select='translate($value, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz")'/>
 		
 		<span class="bid">
 			<xsl:choose>
@@ -201,86 +277,11 @@
 				<tr> <td></td> <td>S</td> <td></td></tr>
 			</table>
 		</div>
-	</xsl:template>
-	
-	<!-- ignored elements -->
-	
-	<xsl:template match="p|h1|h2|h3|h4">
-		<xsl:copy>
-			<xsl:apply-templates/>
-		</xsl:copy>
-	</xsl:template>
-	
-	<xsl:template match="div|table|inline|ol|li|tr|td|br">
-		<xsl:copy>
-			<xsl:copy-of select="@*" />
-			<xsl:value-of select="text()"/>
-			<xsl:apply-templates select="*" />
-		</xsl:copy>
-	</xsl:template>
-	
-	<xsl:template match="deal-contract">
-		<div class="deal-contract" >
-			<span>Závazek: </span>
-			<xsl:apply-templates/>
-		</div>
-	</xsl:template>
-	
-	<xsl:template match="leadcard">
-		<div class="leadcard">
-			<span>Výnos: </span>
-			<xsl:call-template name="card">
-				<xsl:with-param name="value" select="@value"/>
-			</xsl:call-template>
-		</div>
-	</xsl:template>
-	
-	<xsl:template match="bidding-solution">
-		<div class="bidding-solution">
-			<span>Řešení dražby: </span>
-			<xsl:apply-templates/>
-		</div>
-	</xsl:template>
-	
-	<xsl:template match="bid">
-		<xsl:call-template name="bid">
-			<xsl:with-param name="value" select="@value"/>
-			<xsl:with-param name="suit" select="@suit"/>
-			<xsl:with-param name="level" select="@level"/>
-		</xsl:call-template>
-	</xsl:template>
-	
-	
-	<xsl:template match="contract">
-		<xsl:call-template name="contract">
-			<xsl:with-param name="level" select="@level"/>
-			<xsl:with-param name="suit" select="@suit"/>
-			<xsl:with-param name="declarer" select="@declarer"/>
-			<xsl:with-param name="doubled"> 
-				<xsl:choose> 
-					<xsl:when test="@doubled">
-						<xsl:value-of select="true()"/>
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:value-of select="false()"/>
-					</xsl:otherwise>
-				</xsl:choose> 
-			</xsl:with-param>
-			<xsl:with-param name="redoubled"> 
-				<xsl:choose> <xsl:when test="@redoubled">
-						<xsl:value-of select="true()"/>
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:value-of select="false()"/>
-					</xsl:otherwise>
-				</xsl:choose> 
-			</xsl:with-param>
-		</xsl:call-template>
-	</xsl:template>
-	
-	
-	<!-- NS Distribution -->
-	<xsl:template match="distribution[hand/@position='south' and hand/@position='north' and not(hand/@position='east') and not(hand/@position='west')]">
+	</xsl:template>  
+
+    <!-- Distribution -->
+
+    <xsl:template match="distribution[hand/@position='south' and hand/@position='north' and not(hand/@position='east') and not(hand/@position='west')]">
 		<table class="distribution distribution-ns">
 			<tr> 
 				<td>
@@ -295,8 +296,8 @@
 			</tr> 
 		</table>
 	</xsl:template>
-	
-	<!-- NSEW -->
+
+    <!-- NSEW -->
 	<xsl:template match="distribution[ (hand/@position='south' or hand/@position='north') and (hand/@position='east' or hand/@position='west')]">
 		<table class="distribution distribution-ns">
 			<tr> 
@@ -324,15 +325,14 @@
 			</tr> 
 		</table>
 	</xsl:template>
-	
-	<xsl:template match="distribution[hand[not(@position)]]">
+
+    <xsl:template match="distribution[hand[not(@position)]]">
 		<div class="distribution distribution-hand"> 
 			<xsl:apply-templates mode="dist"/>
 		</div>
 	</xsl:template>
-	
-	
-	<xsl:template match="distribution[hand/@position='south' and hand/@position='north' and not(hand/@position='east') and not(hand/@position='west')]">
+
+    <xsl:template match="distribution[hand/@position='south' and hand/@position='north' and not(hand/@position='east') and not(hand/@position='west')]">
 		<div class="distribution distribution-hand-dummy"> 
 			
 			<div>
@@ -354,8 +354,8 @@
 			</div>
 		</div>
 	</xsl:template>
-	
-	<!-- suit only distributions -->
+
+    <!-- suit only distributions -->
 	
 	<xsl:template match="distribution[suit[not(@position)]]">
 		<div class="distribution distribution-suit"> 
@@ -399,8 +399,8 @@
 			</tr> 
 		</table>
 	</xsl:template>
-	
-	<!-- distribution partial templates -->
+
+    <!-- distribution partial templates -->
 	
 	<xsl:template match="suit" mode="dist">
 		<xsl:value-of select="text()"/>
@@ -415,52 +415,8 @@
 			<tr> <td><xsl:call-template name="club"/></td> <td><xsl:value-of select="clubs/text()"/> </td> </tr> 
 		</table>
 	</xsl:template>
-	
-	<!-- NS Auction -->
-	
-	<xsl:template match="auction[@onesided]">
-		<div class="auction auction-onesided">
-			<xsl:attribute name="data-dealer"> 
-				<xsl:value-of select='@dealer'/>
-			</xsl:attribute>
-			<div class="auction-header"> N </div>
-			<div class="auction-header"> S </div>
-			
-			<xsl:if test="@dealer = 'S'">
-				<div class="auction-bid auction-bid-placeholder"></div> 
-			</xsl:if>
-			<xsl:apply-templates  mode="auction"/>
-		</div>
-	</xsl:template>
-	
-	<xsl:template match="auction[not(@onesided) or @onesided = 'false']">
-		<div class="auction auction-nsew">
-			<xsl:attribute name="data-dealer"> 
-				<xsl:value-of select='@dealer'/>
-			</xsl:attribute>
-			<div class="auction-header"> W </div>
-			<div class="auction-header"> N </div>
-			<div class="auction-header"> E </div>
-			<div class="auction-header"> S </div>
-			<xsl:choose>
-				<xsl:when test="@dealer = 'N'">
-					<div class="auction-bid auction-bid-placeholder"></div> 
-				</xsl:when>
-				<xsl:when test="@dealer = 'E'">
-					<div class="auction-bid auction-bid-placeholder"></div> 
-					<div class="auction-bid auction-bid-placeholder"></div> 
-				</xsl:when>
-				<xsl:when test="@dealer = 'S'">
-					<div class="auction-bid auction-bid-placeholder"></div> 
-					<div class="auction-bid auction-bid-placeholder"></div> 
-					<div class="auction-bid auction-bid-placeholder"></div> 
-				</xsl:when>
-			</xsl:choose>
-			<xsl:apply-templates  mode="auction"/>
-		</div>
-	</xsl:template>
-	
-	<!--Auction partial templates -->
+
+    <!--Auction partial templates -->
 	
 	<xsl:template match="bid" mode="auction">
 		
@@ -468,22 +424,13 @@
 		<xsl:variable name="value" select='translate(@value, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz")'/>
 		
 		<div class="auction-bid">
-			
+
 			<xsl:call-template name="bid">
 				<xsl:with-param name="value" select="$value"/>
-				<!-- todo -->
-				<xsl:with-param name="suit">
-					<xsl:if test="contains('1234567', substring($value,1,1))">
-						<xsl:value-of select='substring($value,2,1)'/>
-					</xsl:if>
-				</xsl:with-param>
-				<xsl:with-param name="level">
-					<xsl:if test="contains('1234567', substring($value,1,1))">
-						<xsl:value-of select='substring($value,1,1)'/>
-					</xsl:if>
-				</xsl:with-param>
+				<xsl:with-param name="suit" select="@suit"/>
+				<xsl:with-param name="level" select="@level"/>
 			</xsl:call-template>
 		</div>
 	</xsl:template>
-	
+
 </xsl:stylesheet>

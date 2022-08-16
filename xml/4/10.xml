@@ -40,21 +40,21 @@ sK
 Rozloha karet je jistě dosti divoká a podle toho také vypadala dražba:
 </p>
 <auction dealer="N">
-<bid value="2S" />
+<bid level="2" suit="S" />
 <bid value="pass" />
-<bid value="3d" />
-<bid value="4H" />
-<bid value="6d" />
-<bid value="6H" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="7d" />
+<bid level="3" suit="d" />
+<bid level="4" suit="H" />
+<bid level="6" suit="d" />
+<bid level="6" suit="H" />
 <bid value="pass" />
 <bid value="pass" />
-<bid value="7H" />
+<bid level="7" suit="d" />
+<bid value="pass" />
+<bid value="pass" />
+<bid level="7" suit="H" />
 <bid value="X" />
 <bid value="pass" />
-<bid value="7NT" />
+<bid level="7" suit="N" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />

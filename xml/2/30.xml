@@ -1,4 +1,4 @@
-<lesson year="2" title="Transfery a silná dražba po zahájení 1NT, 2NT, odpověď 2d v konvenci Stayman " number="30" video-id="mswl-nAqVhs">
+<lesson year="2" title="Transfery a silná dražba po zahájení 1BT, 2BT, odpověď 2d v konvenci Stayman " number="30" video-id="mswl-nAqVhs">
 <p>
 V této lekci upravíme zahájení po hlášce <bid level="1" suit="NT"/>. Základem, na kterém stavíme a který ponecháme, je Stayman. Pro vyjádření absence drahého 4-listu budeme ale používat <bid level="2" suit="D"/>, umožní nám to rozhodnout se, zda přijmout či nepřijmout výzvu a dále ponechá mnohem větší prostor pro manévrování v konstruktivní dražbě při netypických listech. Pokud odpovídající nemá drahý 4-list, pak <bid level="2" suit="NT"/> zůstanou výzvou, ale hlášky <bid level="2" suit="D"/> a <bid level="2" suit="H"/> budou přenosovou hláškou, která ukazuje 5+list v barvě o jedno vyšší. Takovéto hlášce se říká transfer. Partner pak draží povinně barvu transferu. Další odpovědi jsou následující: s 0-7b. pas (bývá lepší hrát v barvě než v BT, protože v BT dlouhou barvu na slabé straně nevyužijeme), s 8-9b. s 6-listem výzva, 8-9b se slohou 5-3-3-2 nebo s bočním 4-listem <bid level="2" suit="NT"/>, s 10+ a bočním 4-listem dražíte onen boční 4-list a s 10-15b. bez bočního 4-listu <bid level="3" suit="NT"/>.
 </p>
@@ -11,84 +11,67 @@ Transfery budeme užívat i po zahájení <bid level="2" suit="NT"/>.
 <h3>
 Postupy po zahájení <bid level="1" suit="NT"/> (15-17b., vyvážená sloha)
 </h3>
+<bidding>
+    <header>Odpovědi:</header>
+    <entry><action><bid level="2" suit="c"/></action>
+    <explanation>8+b., alespoň jeden drahý 4-list</explanation></entry><entry>
+    <action><bid level="2" suit="d"/></action>
+    <explanation>0+b., 5+list srdcový</explanation></entry><entry>
+    <action><bid level="2" suit="h"/></action>
+    <explanation>0+b., 5+list pikový</explanation></entry><entry>
+    <action><bid level="2" suit="NT"/></action>
+    <explanation>8-9b., bez drahého 4-listu</explanation></entry><entry>
+    <action><bid level="3" suit="c"/>, <bid level="3" suit="d"/>, <bid level="3" suit="H"/>, <bid level="3" suit="S"/></action>
+    <explanation>12+b., pokus o slem, 6+list v dražené barvě</explanation></entry><entry>
+    <action><bid level="3" suit="NT"/></action>
+    <explanation>10-15b.</explanation></entry>
+</bidding>
 <p>
-Odpovědi:
+    Další postupy:
 </p>
-<p>
-<bid level="2" suit="c"/> ! = 8+b., alespoň jeden drahý 4-list
-</p>
-<p>
-    <bid level="2" suit="d"/> ! = 0+b., 5+list srdcový
-</p>
-<p>
-    <bid level="2" suit="h"/> ! = 0+b., 5+list pikový
-</p>
-<p>
-    <bid level="2" suit="NT"/> = 8-9b., bez drahého 4-listu
-</p>
-<p>
-    <bid level="3" suit="c"/>,<bid level="3" suit="d"/>,<bid level="3" suit="H"/>,<bid level="3" suit="S"/> = 12+b., pokus o slem, 6+list v dražené barvě
-</p>
-<p>
-<bid level="3" suit="NT"/> = 10-15b.
-</p>
-<p>
-Další postupy:
-</p>
-<p>
-    <bid level="1" suit="NT"/> – <bid level="2" suit="c"/> !
-</p>
-<p>
-    <bid level="2" suit="d"/> ! = bez drahého 4-listu
-</p>
-<p>
-    <bid level="2" suit="h"/> = 4-list srdcový, může být i pikový
-</p>
-<p>
-    <bid level="2" suit="s"/>= 4-list pikový bez 4-listu srdcového
-</p>
-<p>
-    <bid level="1" suit="NT"/> – <bid level="2" suit="d"/> ! <br/>
-    <bid level="2" suit="h"/> ! 
-</p>
-<p>
-<bid value="pass"/> = 0-7b., 5+list srdcovýpas = 0-7b., 5+list srdcový
-</p>
-<p>
-<bid level="3" suit="h"/> = 8-9b. 5-list srdcový s 6-listem, výzva do 4s
-</p>
-<p>
-<bid level="2" suit="S"/>, <bid level="3" suit="c"/>,<bid level="3" suit="d"/> = 5+list srdcový, 4+list v dražené barvě, gameforcing, 10+b.
-</p>
-<p>
-<bid level="2" suit="NT"/> = sloha 5-3-3-2, 8-9b nebo 5-4
-</p>
-<p>
-<bid level="3" suit="NT"/> = sloha 5-3-3-2, 10-15b nebo 5-4
-</p>
-<p>
-<bid level="1" suit="NT"/> – <bid level="2" suit="h"/> !
-</p>
-<p>
-<bid level="2" suit="S"/> ! – pas = 0-7b., 5+list pikový
-</p>
-<p>
-<bid level="3" suit="S"/> = 8-9b. 5-list pikový s 6-listem, výzva do <bid level="4" suit="S"/>
-</p>
-<p>
-    <bid level="3" suit="c"/>,<bid level="3" suit="d"/>,<bid level="3" suit="h"/> = 5+list pikový, 4+list v dražené barvě, gameforcing, 10+b.
-</p>
-<p>
-<bid level="2" suit="NT"/> = sloha 5-3-3-2, 8-9b. nebo 5-4
-</p>
-<p>
-<bid level="3" suit="NT"/> = sloha 5-3-3-2, 10-15b. nebo 5-4
-</p>
+<bidding>
+    <header><sequence><bid level="1" suit="NT"/><bid level="2" suit="c"/></sequence></header>
+    <entry><action><bid level="2" suit="d"/></action>
+    <explanation> bez drahého 4-listu</explanation></entry><entry>
+    <action> <bid level="2" suit="h"/></action>
+    <explanation>4-list srdcový, může být i pikový</explanation></entry><entry>
+    <action><bid level="2" suit="s"/></action>
+    <explanation>4-list pikový bez 4-listu srdcového</explanation></entry>
+</bidding>
+    <bidding>
+    <header><sequence><bid level="1" suit="NT"/><bid level="2" suit="d"/><bid level="2" suit="h"/> </sequence></header><entry>
+    <action><bid value="pass"/> </action>
+    <explanation>0-7b., 5+list srdcový</explanation></entry><entry>
+    <action><bid level="3" suit="h"/></action>
+    <explanation>8-9b. s 6-listem, výzva do 4s</explanation></entry><entry>
+    <action><bid level="2" suit="S"/>, <bid level="3" suit="c"/>, <bid level="3" suit="d"/></action>
+    <explanation>5+list srdcový, 4+list v dražené barvě, gameforcing, 10+b.</explanation></entry><entry>
+    <action><bid level="2" suit="NT"/></action>
+    <explanation>sloha 5-3-3-2, 8-9b nebo 5-4</explanation></entry><entry>
+    <action><bid level="3" suit="NT"/></action>
+    <explanation>sloha 5-3-3-2, 10-15b nebo 5-4</explanation></entry>
+</bidding>
+<bidding>
+    <header><sequence><bid level="1" suit="NT"/><bid level="2" suit="h"/><bid level="2" suit="S"/></sequence></header>
+    <entry>
+    <action><bid value="pass"/> </action>
+    <explanation>0-7b., 5+list pikový</explanation>
+</entry><entry>
+    <action><bid level="3" suit="S"/></action>
+    <explanation>8-9b. s 6-listem, výzva do <bid level="4" suit="S"/></explanation></entry><entry>
+    <action><bid level="3" suit="c"/>, <bid level="3" suit="d"/>, <bid level="3" suit="H"/></action>
+    <explanation>5+list pikový, 4+list v dražené barvě, gameforcing, 10+b.</explanation></entry><entry>
+    <action><bid level="2" suit="NT"/></action>
+    <explanation>sloha 5-3-3-2, 8-9b nebo 5-4</explanation></entry><entry>
+    <action><bid level="3" suit="NT"/></action>
+    <explanation>sloha 5-3-3-2, 10-15b nebo 5-4</explanation>
+</entry>
+</bidding>
 <p>
 Co budete dražit po zahájení <bid level="1" suit="NT"/> s následujícími listy a co ve druhém kole dražby:
 </p>
 <distribution>
-<hand >
+<hand>
 <spades>
 J65432
 </spades>

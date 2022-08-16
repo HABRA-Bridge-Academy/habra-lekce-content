@@ -31,12 +31,12 @@ KT43
 </hand>
 </distribution>
 <auction dealer="W">
-<bid value="1H" />
+<bid level="1" suit="H" />
 <bid value="X" />
-<bid value="2H" />
-<bid value="3S" />
+<bid level="2" suit="H" />
+<bid level="3" suit="S" />
 <bid value="pass" />
-<bid value="4S" />
+<bid level="4" suit="S" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -86,11 +86,11 @@ QJ6
 </hand>
 </distribution>
 <auction onesided="true" dealer="S">
-<bid value="2NT" />
-<bid value="3c" />
-<bid value="3d" />
-<bid value="3S" />
-<bid value="3NT" />
+<bid level="2" suit="N" />
+<bid level="3" suit="c" />
+<bid level="3" suit="d" />
+<bid level="3" suit="S" />
+<bid level="3" suit="N" />
 <bid value="pass" />
 </auction>
 <leadcard value="5H" /><p>
@@ -139,8 +139,8 @@ AQ6
 </hand>
 </distribution>
 <auction onesided="true" dealer="S">
-<bid value="2NT" />
-<bid value="3NT" />
+<bid level="2" suit="N" />
+<bid level="3" suit="N" />
 <bid value="pass" />
 </auction>
 <leadcard value="9H" />
@@ -189,12 +189,12 @@ KQT9653
 </hand>
 </distribution>
 <auction dealer="E">
-<bid value="1H" />
-<bid value="2c" />
-<bid value="3S" />
-<bid value="4H" />
+<bid level="1" suit="H" />
+<bid level="2" suit="c" />
+<bid level="3" suit="S" />
+<bid level="4" suit="H" />
 <bid value="pass" />
-<bid value="6c" />
+<bid level="6" suit="c" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />

@@ -275,13 +275,13 @@ AKJT982
 t8
 </leadcard>
 <auction onesided="true" dealer="S">
-<bid value="2d" />
-<bid value="2H" />
-<bid value="3d" />
-<bid value="4d" />
-<bid value="4NT" />
-<bid value="5d" />
-<bid value="6d" />
+<bid level="2" suit="d" />
+<bid level="2" suit="H" />
+<bid level="3" suit="d" />
+<bid level="4" suit="d" />
+<bid level="4" suit="N" />
+<bid level="5" suit="d" />
+<bid level="6" suit="d" />
 <bid value="pass" />
 </auction>
 <p>
@@ -454,11 +454,11 @@ QT94
 p9
 </leadcard>
 <auction onesided="true" dealer="N">
-<bid value="2c" />
-<bid value="2d" />
-<bid value="2H" />
-<bid value="2NT" />
-<bid value="3NT" />
+<bid level="2" suit="c" />
+<bid level="2" suit="d" />
+<bid level="2" suit="H" />
+<bid level="2" suit="N" />
+<bid level="3" suit="N" />
 <bid value="pass" />
 </auction>
 <p>
@@ -543,11 +543,11 @@ s4
 </leadcard>
 <auction onesided="true" dealer="S">
 <bid value="pass" />
-<bid value="1S" />
-<bid value="2c" />
-<bid value="2d" />
-<bid value="2NT" />
-<bid value="3NT" />
+<bid level="1" suit="S" />
+<bid level="2" suit="c" />
+<bid level="2" suit="d" />
+<bid level="2" suit="N" />
+<bid level="3" suit="N" />
 <bid value="pass" />
 </auction>
 <p>

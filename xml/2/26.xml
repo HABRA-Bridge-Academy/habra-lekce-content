@@ -23,8 +23,10 @@ T84
 </clubs>
 </hand>
 </distribution>
-<bidding-solution>
+<bidding-solution> 
+<p>
 <bid level="2" suit="S"/>
+</p>
 </bidding-solution> 
 </example>
 <example number="2">
@@ -45,7 +47,9 @@ A5
 </hand>
 </distribution>
 <bidding-solution>
+<p>
 <bid level="1" suit="H"/>
+</p>
 </bidding-solution> 
 </example>
 <example number="3">
@@ -66,7 +70,9 @@ Q8
 </hand>
 </distribution>
 <bidding-solution>
-    <bid value="pass"/>
+<p>
+<bid value="pass"/>
+</p>
 </bidding-solution>
 </example>
 <example number="4">
@@ -87,7 +93,9 @@ KQJT842
 </hand>
 </distribution>
 <bidding-solution>
+<p>
 <bid level="2" suit="d"/>
+</p>
 </bidding-solution> 
 </example>
 <example number="5">
@@ -108,7 +116,9 @@ QJ9
 </hand>
 </distribution>
 <bidding-solution>
-    <bid value="double"/>
+<p>
+<bid value="double"/>
+</p>
 </bidding-solution>
 </example>
 <example number="6">
@@ -129,7 +139,9 @@ KJ86542
 </hand>
 </distribution>
 <bidding-solution>
-    <bid value="pass"/>
+<p>
+<bid value="pass"/>
+</p>
 </bidding-solution>
 </example>
 </div> 

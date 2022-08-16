@@ -19,10 +19,10 @@ Příklady:
 </p>
 <example number="1">
 <auction dealer="N">
-<bid value="1S" />
-<bid value="2H" />
-<bid value="2S" />
-<bid value="3H" />
+<bid level="1" suit="S" />
+<bid level="2" suit="H" />
+<bid level="2" suit="S" />
+<bid level="3" suit="H" />
 <bid value="?" />
 </auction>
 <distribution>
@@ -42,18 +42,17 @@ QJ3
 </hand>
 </distribution>
 <bidding-solution>
-<bid level="3" suit="S"/>
 <p>
-opakujte piky, máte jich šest a minimum, je to sice třetí stupeň, ale vlastní barva ukazuje minimum 
+<bid level="3" suit="S"/> - opakujte piky, máte jich šest a minimum, je to sice třetí stupeň, ale vlastní barva ukazuje minimum 
 </p>
 </bidding-solution> 
 </example>
 <example number="2">
 <auction dealer="N">
-<bid value="1S" />
-<bid value="2H" />
-<bid value="2S" />
-<bid value="3H" />
+<bid level="1" suit="S" />
+<bid level="2" suit="H" />
+<bid level="2" suit="S" />
+<bid level="3" suit="H" />
 <bid value="?" />
 </auction>
 <distribution>
@@ -72,15 +71,20 @@ Q8
 </clubs>
 </hand>
 </distribution>
-<bidding-solution value="P">
-mohli byste dražit <bid level="3" suit="D"/>, kdyby soupeři zasáhli a soutěžili trefovou barvou – vaše nová barva by byla 5-list (ale bylo by to i tak příliš odvážné, protože třetí stupeň forsuje), takto ale asi bude rozumnější pasovat, ještě stále může <bid level="3" suit="S"/> říct i partner
+<bidding-solution>
+<p>
+<bid value="pass"/>
+</p>
+<p>
+Mohli byste dražit <bid level="3" suit="D"/>, kdyby soupeři zasáhli a soutěžili trefovou barvou – vaše nová barva by byla 5-list (ale bylo by to i tak příliš odvážné, protože třetí stupeň forsuje), takto ale asi bude rozumnější pasovat, ještě stále může <bid level="3" suit="S"/> říct i partner.
+</p>
 </bidding-solution></example>
 <example number="3">
 <auction dealer="N">
-<bid value="1S" />
-<bid value="2H" />
-<bid value="2S" />
-<bid value="3H" />
+<bid level="1" suit="S" />
+<bid level="2" suit="H" />
+<bid level="2" suit="S" />
+<bid level="3" suit="H" />
 <bid value="?" />
 </auction>
 <distribution>
@@ -99,14 +103,16 @@ K52
 </clubs>
 </hand>
 </distribution>
-<bidding-solution value="P">
-pas, nemáte žádné dražitelné hodnoty a můžete soupeře překvapit svými srdci. Obecně dobré hodnoty v barvě soupeře je spíš ukazatel pro obranu, než pro útok.
+<bidding-solution>
+<p>
+<bid value="pass"/> - nemáte žádné dražitelné hodnoty a můžete soupeře překvapit svými srdci. Obecně dobré hodnoty v barvě soupeře je spíš ukazatel pro obranu, než pro útok.
+</p>
 </bidding-solution>
 </example>
 <example number="4">
 <auction dealer="N">
-<bid value="1H" />
-<bid value="2d" />
+<bid level="1" suit="H" />
+<bid level="2" suit="d" />
 <bid value="?" />
 </auction>
 <distribution>
@@ -125,14 +131,16 @@ Q743
 </clubs>
 </hand>
 </distribution>
-<bidding-solution value="P">
+<bidding-solution>
+<p>
 pasujte, máte dobrá kára na obranu a kontra bude lákat partnera do piků,
+</p>
 </bidding-solution>
 </example>
 <example number="5">
 <auction dealer="N">
-<bid value="1H" />
-<bid value="2d" />
+<bid level="1" suit="H" />
+<bid level="2" suit="d" />
 <bid value="?" />
 </auction>
 <distribution>
@@ -151,14 +159,16 @@ AQJ75
 </clubs>
 </hand>
 </distribution>
-<bidding-solution value="3d">
+<bidding-solution>
+<p>
 dražte <bid level="3" suit="D"/>, chcete hrát manši a máte károvou krátkost, můžete sice dražit i <bid level="4" suit="H"/>, ale takhle list více popíšete, manši v srdcích zadražíte v dalším kole
+</p>
 </bidding-solution>
 </example>
 <example number="6">
 <auction dealer="N">
-<bid value="1H" />
-<bid value="2d" />
+<bid level="1" suit="H" />
+<bid level="2" suit="d" />
 <bid value="?" />
 </auction>
 <distribution>
@@ -177,14 +187,16 @@ AQ83
 </clubs>
 </hand>
 </distribution>
-<bidding-solution value="3S">
+<bidding-solution>
+<p>
 dražte <bid level="3" suit="S"/>, skok - máte 5-list a body na manši
+</p>
 </bidding-solution>
 </example>
 <example number="7">
 <auction dealer="N">
-<bid value="1H" />
-<bid value="2d" />
+<bid level="1" suit="H" />
+<bid level="2" suit="d" />
 <bid value="?" />
 </auction>
 <distribution>
@@ -203,8 +215,10 @@ Q87
 </clubs>
 </hand>
 </distribution>
-<bidding-solution value="2S">
-dražte jen <bid level="2" suit="S"/>, máte      5-list, ale nemáte body na manši (dražba na druhém stupni neforsuje, váš partner smí pasovat.
+<bidding-solution>
+<p>
+dražte jen <bid level="2" suit="S"/>, máte 5-list, ale nemáte body na manši (dražba na druhém stupni neforsuje, váš partner smí pasovat.
+</p>
 </bidding-solution>
 </example>
 <p>
@@ -215,10 +229,10 @@ Příklady:
 </p>
 <example number="8">
 <auction onesided="true" dealer="S">
-<bid value="1d" />
-<bid value="2c" />
-<bid value="3d" />
-<bid value="3H" />
+<bid level="1" suit="d" />
+<bid level="2" suit="c" />
+<bid level="3" suit="d" />
+<bid level="3" suit="H" />
 </auction>
 <p>
 pozitivní Wywiad, mám srdcovou zádrž, ale nemám pikovou – partner draží <bid level="3" suit="NT"/> nebo <bid level="4" suit="D"/> (případně 3t), podle toho, jestli drží nebo nedrží figury v pikách
@@ -226,10 +240,10 @@ pozitivní Wywiad, mám srdcovou zádrž, ale nemám pikovou – partner draží
 </example>
 <example number="9">
 <auction onesided="true" dealer="S">
-<bid value="1S" />
-<bid value="2S" />
-<bid value="3c" />
-<bid value="3d" />
+<bid level="1" suit="S" />
+<bid level="2" suit="S" />
+<bid level="3" suit="c" />
+<bid level="3" suit="d" />
 </auction>
 <p>
 negativní Wywiad (čtvrtá barva), nemám kárové držení, partner draží <bid level="3" suit="NT"/> nebo jinou hlášku podle toho, zda má držení kárových figur v kárech

@@ -134,11 +134,11 @@ Q54
 Co vynést po takovéto dražbě?
 </p>
 <auction onesided="true" dealer="S">
-<bid value="1S" />
-<bid value="1NT" />
-<bid value="2H" />
-<bid value="3H" />
-<bid value="4H" />
+<bid level="1" suit="S" />
+<bid level="1" suit="N" />
+<bid level="2" suit="H" />
+<bid level="3" suit="H" />
+<bid level="4" suit="H" />
 <bid value="pass" />
 </auction>
 <p>

@@ -31,12 +31,12 @@ KJ
 </hand>
 </distribution>
 <auction dealer="W">
-<bid value="1c" />
+<bid level="1" suit="c" />
 <bid value="pass" />
 <bid value="pass" />
-<bid value="1S" />
-<bid value="2c" />
-<bid value="3S" />
+<bid level="1" suit="S" />
+<bid level="2" suit="c" />
+<bid level="3" suit="S" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -86,10 +86,10 @@ AQT7
 </hand>
 </distribution>
 <auction onesided="true" dealer="S">
-<bid value="1NT" />
-<bid value="2c" />
-<bid value="2H" />
-<bid value="4H" />
+<bid level="1" suit="N" />
+<bid level="2" suit="c" />
+<bid level="2" suit="H" />
+<bid level="4" suit="H" />
 <bid value="pass" />
 </auction>
 <leadcard value="5c" /><p>
@@ -137,10 +137,10 @@ KT65
 </hand>
 </distribution>
 <auction onesided="true" dealer="S">
-<bid value="1NT" />
-<bid value="2c" />
-<bid value="2S" />
-<bid value="4S" />
+<bid level="1" suit="N" />
+<bid level="2" suit="c" />
+<bid level="2" suit="S" />
+<bid level="4" suit="S" />
 <bid value="pass" />
 </auction>
 <leadcard value="9c" /><p>
@@ -185,16 +185,16 @@ T63
 </hand>
 </distribution>
 <auction dealer="W">
-<bid value="1NT" explanation="12-14" />
+<bid level="1" suit="N" explanation="12-14" />
 <bid value="X" />
 <bid value="pass" />
-<bid value="2NT" />
+<bid level="2" suit="N" />
 <bid value="pass" />
-<bid value="3d" />
+<bid level="3" suit="d" />
 <bid value="pass" />
-<bid value="3H" />
+<bid level="3" suit="H" />
 <bid value="pass" />
-<bid value="4H" />
+<bid level="4" suit="H" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />

@@ -65,23 +65,23 @@ QJ763
 </hand>
 </distribution>
 <auction dealer="S">
-<bid value="1H" />
-<bid value="1S" />
-<bid value="2c" />
+<bid level="1" suit="H" />
+<bid level="1" suit="S" />
+<bid level="2" suit="c" />
 <bid value="pass" />
-<bid value="3H" />
+<bid level="3" suit="H" />
 <bid value="pass" />
-<bid value="3S" />
+<bid level="3" suit="S" />
 <bid value="pass" />
-<bid value="3NT" />
+<bid level="3" suit="N" />
 <bid value="pass" />
-<bid value="5H" />
+<bid level="5" suit="H" />
 <bid value="pass" />
-<bid value="5NT" />
+<bid level="5" suit="N" />
 <bid value="pass" />
-<bid value="6H" />
+<bid level="6" suit="H" />
 <bid value="pass" />
-<bid value="7H" />
+<bid level="7" suit="H" />
 <bid value="X" />
 <bid value="pass" />
 <bid value="pass" />
@@ -236,14 +236,14 @@ QT972
 </hand>
 </distribution>
 <auction dealer="E">
-<bid value="1c" />
-<bid value="1H" />
+<bid level="1" suit="c" />
+<bid level="1" suit="H" />
 <bid value="pass" />
-<bid value="2d" />
+<bid level="2" suit="d" />
 <bid value="pass" />
-<bid value="3H" />
+<bid level="3" suit="H" />
 <bid value="pass" />
-<bid value="4H" />
+<bid level="4" suit="H" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -321,14 +321,14 @@ J853
 </hand>
 </distribution>
 <auction dealer="E">
-<bid value="1d" />
-<bid value="1S" />
+<bid level="1" suit="d" />
+<bid level="1" suit="S" />
 <bid value="pass" />
-<bid value="2S" />
+<bid level="2" suit="S" />
 <bid value="pass" />
-<bid value="3S" />
+<bid level="3" suit="S" />
 <bid value="pass" />
-<bid value="4S" />
+<bid level="4" suit="S" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -418,11 +418,11 @@ QT72
 </hand>
 </distribution>
 <auction dealer="S">
-<bid value="1S" />
+<bid level="1" suit="S" />
 <bid value="X" />
-<bid value="2S" />
-<bid value="3H" />
-<bid value="4S" />
+<bid level="2" suit="S" />
+<bid level="3" suit="H" />
+<bid level="4" suit="S" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -500,8 +500,8 @@ T
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="1d" />
-<bid value="7NT" />
+<bid level="1" suit="d" />
+<bid level="7" suit="N" />
 <bid value="pass" />
 </auction>
 <leadcard value="JH">

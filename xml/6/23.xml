@@ -31,12 +31,12 @@ AKJ7
 </hand>
 </distribution>
 <auction dealer="E">
-<bid value="1S" />
+<bid level="1" suit="S" />
 <bid value="X" />
-<bid value="2S" />
+<bid level="2" suit="S" />
 <bid value="pass" />
 <bid value="pass" />
-<bid value="3H" />
+<bid level="3" suit="H" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -86,14 +86,14 @@ T9852
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="2NT" />
-<bid value="3H" />
-<bid value="3NT" />
-<bid value="4d" />
-<bid value="4H" />
-<bid value="4NT" />
-<bid value="5S" />
-<bid value="6H" />
+<bid level="2" suit="N" />
+<bid level="3" suit="H" />
+<bid level="3" suit="N" />
+<bid level="4" suit="d" />
+<bid level="4" suit="H" />
+<bid level="4" suit="N" />
+<bid level="5" suit="S" />
+<bid level="6" suit="H" />
 <bid value="pass" />
 </auction>
 <leadcard value="JS" />
@@ -145,9 +145,9 @@ K7
 </hand>
 </distribution>
 <auction onesided="true" dealer="S">
-<bid value="2NT" />
-<bid value="4NT" />
-<bid value="6NT" />
+<bid level="2" suit="N" />
+<bid level="4" suit="N" />
+<bid level="6" suit="N" />
 <bid value="pass" />
 </auction>
 <leadcard value="JH" /><p>
@@ -198,10 +198,10 @@ JT9742
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="1d" />
-<bid value="2c" />
-<bid value="3d" />
-<bid value="3NT" />
+<bid level="1" suit="d" />
+<bid level="2" suit="c" />
+<bid level="3" suit="d" />
+<bid level="3" suit="N" />
 <bid value="pass" />
 </auction>
 <leadcard value="4S" /><p>

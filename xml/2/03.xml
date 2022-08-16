@@ -133,12 +133,12 @@ T8
 Licitace:
 </p>
 <auction dealer="E">
-<bid value="1H" />
+<bid level="1" suit="H" />
 <bid value="pass" />
 <bid value="pass" />
-<bid value="1S" />
+<bid level="1" suit="S" />
 <bid value="pass" />
-<bid value="1NT" />
+<bid level="1" suit="N" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />

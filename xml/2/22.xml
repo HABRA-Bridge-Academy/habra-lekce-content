@@ -21,7 +21,9 @@ T82
 </hand>
 </distribution>
 <bidding-solution>
+<p>
 <bid level="2" suit="H"/>
+</p>
 </bidding-solution> 
 </example>
 <example number="2">
@@ -42,9 +44,10 @@ K65
 </hand>
 </distribution>
 <bidding-solution>
-    <bid level="1" suit="S"/>
-    <p>Moc bodů</p>
-    </bidding-solution> 
+<p>
+<bid level="1" suit="S"/> - moc bodů
+</p>
+</bidding-solution> 
 </example>
 <example number="3">
 <distribution>
@@ -64,8 +67,9 @@ QJT8432
 </hand>
 </distribution>
 <bidding-solution>
-<bid value="pass"/>
-<p>Málo bodů</p>
+<p>
+<bid value="pass"/> - málo bodů
+</p>
 </bidding-solution> 
 </example>
 <example number="4">
@@ -86,9 +90,10 @@ Q
 </hand>
 </distribution>
 <bidding-solution>
-    <bid value="pass"/>
-    <p>Slabá barva</p>
-    </bidding-solution> 
+<p>
+<bid value="pass"/> - slabá barva
+</p>
+</bidding-solution> 
 </example>
 <example number="5">
 
@@ -109,7 +114,9 @@ AKJ9654
 </hand>
 </distribution>
 <bidding-solution>
+<p>
 <bid level="2" suit="d"/>
+</p>
 </bidding-solution> 
 </example>
 <example number="6">
@@ -130,8 +137,9 @@ JT
 </hand>
 </distribution>
 <bidding-solution>
-    <bid value="pass"/>
-    <p>Krátká brava</p>
+<p>
+<bid value="pass"/> - krátká barva
+</p>
 </bidding-solution> 
 </example>
 <example number="7">
@@ -152,7 +160,9 @@ AKQ7532
 </hand>
 </distribution>
 <bidding-solution>
+<p>
 <bid level="2" suit="H"/>
+</p>
 </bidding-solution> 
 </example>
 <example number="8">
@@ -173,9 +183,10 @@ Q87
 </hand>
 </distribution>
 <bidding-solution>
-    <bid value="pass"/>
-    <p>Slabá barva</p>
-    </bidding-solution> 
+<p>
+<bid value="pass"/> - Slabá barva
+</p>
+</bidding-solution> 
 </example>
 <example number="9">
 <distribution>
@@ -195,9 +206,8 @@ A96
 </hand>
 </distribution>
 <bidding-solution>
-<bid level="1" suit="H"/>
 <p>
-Silný list
+<bid level="1" suit="H"/> - Silný list
 </p>
 </bidding-solution> 
 </example>
@@ -227,7 +237,8 @@ Toto zahájení používáme především v první hře, ve druhé je třeba bý
 <reference>29. lekce</reference>
 </li>
 <li>
-K. Jassem	Polský tref Základní verze
+<author>K. Jassem</author>
+<title>Polský tref Základní verze</title>
 </li>
 <li>
 <author>?</author>

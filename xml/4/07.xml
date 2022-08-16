@@ -280,11 +280,11 @@ s2
 Jih sehrává závazek tři bez trumfů po této dražbě:
 </p>
 <auction dealer="N">
-<bid value="1C" />
-<bid value="1H" />
-<bid value="2NT" />
+<bid level="1" suit="C" />
+<bid level="1" suit="H" />
+<bid level="2" suit="N" />
 <bid value="pass" />
-<bid value="3NT" />
+<bid level="3" suit="N" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />

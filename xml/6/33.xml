@@ -31,11 +31,11 @@ KJT8
 </hand>
 </distribution>
 <auction onesided="true" dealer="S">
-<bid value="1H" />
-<bid value="2c" />
-<bid value="2d" />
-<bid value="3c" />
-<bid value="3NT" />
+<bid level="1" suit="H" />
+<bid level="2" suit="c" />
+<bid level="2" suit="d" />
+<bid level="3" suit="c" />
+<bid level="3" suit="N" />
 <bid value="pass" />
 </auction>
 <leadcard value="JS" /><p>
@@ -80,16 +80,16 @@ Q42
 </hand>
 </distribution>
 <auction dealer="W">
-<bid value="1d" />
+<bid level="1" suit="d" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="X" />
 <bid value="pass" />
-<bid value="3c" />
+<bid level="3" suit="c" />
 <bid value="pass" />
-<bid value="3H" />
+<bid level="3" suit="H" />
 <bid value="pass" />
-<bid value="4H" />
+<bid level="4" suit="H" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -139,9 +139,9 @@ K642
 párový turnaj
 </p>
 <auction onesided="true" dealer="S">
-<bid value="1H" />
-<bid value="2d" />
-<bid value="3NT" />
+<bid level="1" suit="H" />
+<bid level="2" suit="d" />
+<bid level="3" suit="N" />
 <bid value="pass" />
 </auction>
 <leadcard value="KS" /><p>
@@ -189,10 +189,10 @@ AQT
 </hand>
 </distribution>
 <auction onesided="true" dealer="S">
-<bid value="1NT" />
-<bid value="2c" />
-<bid value="2S" />
-<bid value="4S" />
+<bid level="1" suit="N" />
+<bid level="2" suit="c" />
+<bid level="2" suit="S" />
+<bid level="4" suit="S" />
 <bid value="pass" />
 </auction>
 <leadcard value="3S" /><p>

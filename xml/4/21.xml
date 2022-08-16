@@ -376,13 +376,13 @@ pK
 </leadcard>
 
 <auction onesided="true" dealer="S">
-<bid value="1d" />
-<bid value="2c" />
-<bid value="2d" />
-<bid value="2H" />
-<bid value="2S" />
-<bid value="3c" />
-<bid value="5c" />
+<bid level="1" suit="d" />
+<bid level="2" suit="c" />
+<bid level="2" suit="d" />
+<bid level="2" suit="H" />
+<bid level="2" suit="S" />
+<bid level="3" suit="c" />
+<bid level="5" suit="c" />
 <bid value="pass" />
 </auction>
 <p>

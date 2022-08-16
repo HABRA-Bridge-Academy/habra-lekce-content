@@ -109,15 +109,15 @@ A84
 pJ
 </leadcard>
 <auction dealer="S">
-<bid value="1H" />
+<bid level="1" suit="H" />
 <bid value="pass" />
-<bid value="1S" />
+<bid level="1" suit="S" />
 <bid value="pass" />
-<bid value="2d" />
+<bid level="2" suit="d" />
 <bid value="pass" />
-<bid value="2H" />
+<bid level="2" suit="H" />
 <bid value="pass" />
-<bid value="4H" />
+<bid level="4" suit="H" />
 <bid value="X" />
 <bid value="pass" />
 <bid value="pass" />

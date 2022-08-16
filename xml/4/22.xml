@@ -148,15 +148,15 @@ K8
 p3
 </leadcard>
 <auction dealer="S">
-<bid value="1H" />
+<bid level="1" suit="H" />
 <bid value="pass" />
-<bid value="2d" />
+<bid level="2" suit="d" />
 <bid value="pass" />
-<bid value="2NT" />
+<bid level="2" suit="N" />
 <bid value="pass" />
-<bid value="3H" />
+<bid level="3" suit="H" />
 <bid value="pass" />
-<bid value="4H" />
+<bid level="4" suit="H" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -242,10 +242,10 @@ AJT
 p6
 </leadcard>
 <auction onesided="true" dealer="S">
-<bid value="1NT" />
-<bid value="2c" />
-<bid value="2S" />
-<bid value="3NT" />
+<bid level="1" suit="N" />
+<bid level="2" suit="c" />
+<bid level="2" suit="S" />
+<bid level="3" suit="N" />
 <bid value="pass" />
 </auction>
 <p>

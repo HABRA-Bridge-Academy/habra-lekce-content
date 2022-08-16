@@ -41,9 +41,9 @@ A64
 </hand>
 </distribution>
 <auction revealable="true" onesided="true" dealer="N">
-<bid value="1S" />
-<bid value="2H" />
-<bid value="4H" />
+<bid level="1" suit="S" />
+<bid level="2" suit="H" />
+<bid level="4" suit="H" />
 <bid value="pass" />
 </auction>
 </example>
@@ -79,10 +79,10 @@ J8654
 </hand>
 </distribution>
 <auction revealable="true" onesided="true" dealer="N">
-<bid value="1d" />
-<bid value="1H" />
-<bid value="1S" />
-<bid value="2S" />
+<bid level="1" suit="d" />
+<bid level="1" suit="H" />
+<bid level="1" suit="S" />
+<bid level="2" suit="S" />
 <bid value="pass" />
 </auction>
 </example>
@@ -118,9 +118,9 @@ T8643
 </hand>
 </distribution>
 <auction revealable="true" onesided="true" dealer="N">
-<bid value="1c" />
-<bid value="1H" />
-<bid value="3H" />
+<bid level="1" suit="c" />
+<bid level="1" suit="H" />
+<bid level="3" suit="H" />
 <bid value="pass" />
 </auction>
 </example>
@@ -156,10 +156,10 @@ T75
 </hand>
 </distribution>
 <auction revealable="true" onesided="true" dealer="N">
-<bid value="1d" />
-<bid value="1H" />
-<bid value="1S" />
-<bid value="2S" />
+<bid level="1" suit="d" />
+<bid level="1" suit="H" />
+<bid level="1" suit="S" />
+<bid level="2" suit="S" />
 <bid value="pass" />
 </auction>
 </example>
@@ -195,12 +195,12 @@ K8
 </hand>
 </distribution>
 <auction revealable="true" onesided="true" dealer="N">
-<bid value="1S" />
-<bid value="2d" />
-<bid value="2H" />
-<bid value="3d" />
-<bid value="3NT" />
-<bid value="4S" />
+<bid level="1" suit="S" />
+<bid level="2" suit="d" />
+<bid level="2" suit="H" />
+<bid level="3" suit="d" />
+<bid level="3" suit="N" />
+<bid level="4" suit="S" />
 <bid value="pass" />
 </auction>
 </example>
@@ -236,12 +236,12 @@ A
 </hand>
 </distribution>
 <auction revealable="true" onesided="true" dealer="N">
-<bid value="1H" />
-<bid value="2d" />
-<bid value="3H" />
-<bid value="4NT" />
-<bid value="5H" />
-<bid value="6H" />
+<bid level="1" suit="H" />
+<bid level="2" suit="d" />
+<bid level="3" suit="H" />
+<bid level="4" suit="N" />
+<bid level="5" suit="H" />
+<bid level="6" suit="H" />
 <bid value="pass" />
 </auction>
 </example>

@@ -34,12 +34,12 @@ AK63
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="1c" />
-<bid value="1S" />
-<bid value="2S" />
-<bid value="4NT" />
-<bid value="5d" />
-<bid value="6S" />
+<bid level="1" suit="c" />
+<bid level="1" suit="S" />
+<bid level="2" suit="S" />
+<bid level="4" suit="N" />
+<bid level="5" suit="d" />
+<bid level="6" suit="S" />
 <bid value="pass" />
 </auction>
 <leadcard value="KH">
@@ -117,10 +117,10 @@ AQ8
 </hand>
 </distribution>
 <auction onesided="true" dealer="S">
-<bid value="1S" />
-<bid value="2d" />
-<bid value="3S" />
-<bid value="6S" />
+<bid level="1" suit="S" />
+<bid level="2" suit="d" />
+<bid level="3" suit="S" />
+<bid level="6" suit="S" />
 <bid value="pass" />
 </auction>
 <leadcard value="JH">
@@ -198,14 +198,14 @@ KQT8
 </hand>
 </distribution>
 <auction onesided="true" dealer="N">
-<bid value="1c" />
-<bid value="2d" />
-<bid value="2S" />
-<bid value="3S" />
-<bid value="4d" />
-<bid value="4NT" />
-<bid value="5H" />
-<bid value="6NT" />
+<bid level="1" suit="c" />
+<bid level="2" suit="d" />
+<bid level="2" suit="S" />
+<bid level="3" suit="S" />
+<bid level="4" suit="d" />
+<bid level="4" suit="N" />
+<bid level="5" suit="H" />
+<bid level="6" suit="N" />
 <bid value="pass" />
 </auction>
 <leadcard value="5c">
@@ -420,13 +420,13 @@ J2
 </distribution>
 <auction dealer="W">
 <bid value="pass" />
-<bid value="1c" />
+<bid level="1" suit="c" />
 <bid value="pass" />
-<bid value="1S" />
+<bid level="1" suit="S" />
 <bid value="pass" />
-<bid value="1NT" />
+<bid level="1" suit="N" />
 <bid value="pass" />
-<bid value="4S" />
+<bid level="4" suit="S" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
@@ -596,13 +596,13 @@ QT73
 </distribution>
 <auction dealer="W">
 <bid value="pass" />
-<bid value="1NT" />
+<bid level="1" suit="N" />
 <bid value="pass" />
-<bid value="3H" />
+<bid level="3" suit="H" />
 <bid value="pass" />
-<bid value="4H" />
+<bid level="4" suit="H" />
 <bid value="pass" />
-<bid value="6H" />
+<bid level="6" suit="H" />
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
