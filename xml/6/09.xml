@@ -1,4 +1,4 @@
-<lesson year="6" title="Dopočítání bodů" number="9" video-id="">
+<lesson year="6" title="Dopočítání bodů" number="9" video-id="C_ARRj-zRHc">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -314,7 +314,8 @@ Dalším magickým číslem při počítání figurových bodů podle Miltona Wo
 </example>
 <literature>
 <li>
-H.W.Kelsey	Bridžová logika
+<author>H.W. Kelsey</author>
+<title>Bridžová logika</title>
 </li>
 </literature>
 </lesson>

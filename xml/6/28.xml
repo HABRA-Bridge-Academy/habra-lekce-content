@@ -1,4 +1,4 @@
-<lesson year="6" title="Zbavení odchodu" number="28" video-id="">
+<lesson year="6" title="Zbavení odchodu" number="28" video-id="8tKYkHmYbBc">
 <example number="1">
 <distribution vul="NONE">
 <hand position="north">
@@ -213,8 +213,9 @@ Proto si zajistíte optimální bezpečnost odstraněním odchodové karty v k�
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

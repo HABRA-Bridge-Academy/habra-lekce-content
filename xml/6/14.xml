@@ -1,4 +1,4 @@
-<lesson year="6" title="Indikace se sehrávky I" number="14" video-id="">
+<lesson year="6" title="Indikace se sehrávky I" number="14" video-id="ddxeg7N75JA">
 <example number="1">
 <distribution vul="BOTH">
 <hand position="north">
@@ -207,8 +207,9 @@ Když některý z obránců začne v prvním kole kár kladný náznak, měl b
 </p>
 </example>
 <literature>
-<li>
-H. W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

@@ -13,7 +13,7 @@
 				<div class="lesson-video-container">
 					<p>Tuto lekci můžete zhlédnout i jako video:</p>
 					<div class="lesson-video">
-						<iframe width="640" height="360">
+						<iframe width="640" height="360" allowfullscreen="allowfullscreen">
 							<xsl:attribute name="src">
 								https://www.youtube.com/embed/<xsl:value-of select="@video-id"/>
 							</xsl:attribute>
@@ -31,10 +31,21 @@
 			<xsl:apply-templates/>
 		</article>
 	</xsl:template>
+
+	<xsl:template match="distribution[hand/@position='east' and hand/@position='west' and not(hand/@position='north') and not(hand/@position='south')]">
+		<div class="distribution distribution-ew"> 
+			<div>
+				<xsl:apply-templates mode="dist" select="hand[@position='west']"/>
+			</div>
+			<div>
+				<xsl:apply-templates mode="dist" select="hand[@position='east']"/>
+			</div>
+		</div>
+	</xsl:template>
 	
 	<!-- ignored elements -->
 	
-	<xsl:template match="p|h1|h2|h3|h4">
+	<xsl:template match="p|b|i|h1|h2|h3|h4">
 		<xsl:copy>
 			<xsl:apply-templates/>
 		</xsl:copy>

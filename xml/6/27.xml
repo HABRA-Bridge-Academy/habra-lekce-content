@@ -1,4 +1,4 @@
-<lesson year="6" title="Útok na přechody II" number="27" video-id="">
+<lesson year="6" title="Útok na přechody II" number="27" video-id="uIwvhyKwsjE">
 <example number="1">
 <distribution vul="NONE">
 <hand position="north">
@@ -219,8 +219,9 @@ Alespoň víte, že Východ žádné trumfy nemá. Když nemůžete zabránit Z�
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

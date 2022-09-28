@@ -1,4 +1,4 @@
-<lesson year="6" title="Časování II" number="34" video-id="">
+<lesson year="6" title="Časování II" number="34" video-id="_5mk39X7kMs">
 <example number="1">
 <distribution vul="BOTH">
 <hand position="north">
@@ -227,8 +227,9 @@ Bude-li mít čtyři trumfy Východ, uspějete i tehdy, když bude rozloha 3-4-4
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

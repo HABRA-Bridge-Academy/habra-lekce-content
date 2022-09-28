@@ -1,4 +1,4 @@
-<lesson year="6" title="Indikace ze sehrávky II" number="15" video-id="">
+<lesson year="6" title="Indikace ze sehrávky II" number="15" video-id="VhQx2mg5NkQ">
 <example number="1">
 <distribution vul="BOTH">
 <hand position="north">
@@ -214,8 +214,9 @@ Proto byste měl zahrát ze stolu trefové eso ve čtvrtém zdvihu. Když nepři
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

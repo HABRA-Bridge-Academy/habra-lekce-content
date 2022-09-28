@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" exclude-result-prefixes="xsl xs">
-<xsl:import href="common.xslt"/>
-<xsl:output method="html" encoding="UTF-8" indent="no" omit-xml-declaration="yes"/>
-
-<!-- ignored elements -->
+	<xsl:import href="common.xslt"/>
+	<xsl:output method="html" encoding="UTF-8" indent="no" omit-xml-declaration="yes"/>
 	
-	<xsl:template match="p|h1|h2|h3|h4">
+	<!-- ignored elements -->
+	
+	<xsl:template match="p|b|i|h1|h2|h3|h4">
 		<xsl:copy>
 			<xsl:apply-templates/>
 		</xsl:copy>
@@ -26,10 +26,27 @@
 			<xsl:apply-templates select="*" />
 		</xsl:copy>
 	</xsl:template>
-
-    <!-- Auction -->
-
-    <!-- NS Auction -->
+	
+	<!-- Distribution -->
+	
+	<xsl:template match="distribution[hand/@position='east' and hand/@position='west' and not(hand/@position='north') and not(hand/@position='south')]">
+		<table class="distribution distribution-ew"> 
+			<tbody>
+				<tr>
+					<td>
+						<xsl:apply-templates mode="dist" select="hand[@position='west']"/>
+					</td>
+					<td>
+						<xsl:apply-templates mode="dist" select="hand[@position='east']"/>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</xsl:template>
+	
+	<!-- Auction -->
+	
+	<!-- NS Auction -->
 	
 	<xsl:template match="auction[@onesided]">
 		<div>
@@ -51,7 +68,7 @@
 					</xsl:when>
 				</xsl:choose>
 			</xsl:variable>
-
+			
 			<table>
 				<thead>
 					<tr>
@@ -64,12 +81,12 @@
 						<tr>
 							<td class="bid-placeholder"></td>
 							<td>
-							<xsl:apply-templates select="bid[1]"/>
+								<xsl:apply-templates select="bid[1]"/>
 							</td>
 						</tr>
 					</xsl:if>
 					<xsl:for-each select="bid[position() mod 2 = $m]">
-					
+						
 						<tr>
 							<td>
 								<xsl:apply-templates   select="."/>
@@ -94,20 +111,20 @@
 			<xsl:variable name="m">
 				<xsl:choose>
 					<xsl:when test="@dealer = 'W'">
-						0
-					</xsl:when>
-					<xsl:when test="@dealer = 'N'">
 						1
 					</xsl:when>
+					<xsl:when test="@dealer = 'N'">
+						4
+					</xsl:when>
 					<xsl:when test="@dealer = 'E'">
-						2
+						3
 					</xsl:when>
 					<xsl:when test="@dealer = 'S'">
-						3
+						2
 					</xsl:when>
 				</xsl:choose>
 			</xsl:variable>
-
+			
 			<table>
 				<thead>
 					<tr>
@@ -120,20 +137,20 @@
 				<tbody>
 					<xsl:if test="not(@dealer = 'W')">
 						<tr>
-						<xsl:choose>
-						<xsl:when test="@dealer = 'N'"><td class="bid-placeholder"></td></xsl:when>
-						<xsl:when test="@dealer = 'E'"><td class="bid-placeholder"></td><td class="bid-placeholder"></td></xsl:when>
-						<xsl:when test="@dealer = 'S'"><td class="bid-placeholder"></td><td class="bid-placeholder"></td><td class="bid-placeholder"></td></xsl:when>
-						</xsl:choose>
-						<xsl:for-each select="bid[position() &lt;= $m]">
-							<td>
-								<xsl:apply-templates select="."/>
-							</td>
-						</xsl:for-each>
+							<xsl:choose>
+								<xsl:when test="@dealer = 'N'"><td class="bid-placeholder"></td></xsl:when>
+								<xsl:when test="@dealer = 'E'"><td class="bid-placeholder"></td><td class="bid-placeholder"></td></xsl:when>
+								<xsl:when test="@dealer = 'S'"><td class="bid-placeholder"></td><td class="bid-placeholder"></td><td class="bid-placeholder"></td></xsl:when>
+							</xsl:choose>
+							<xsl:for-each select="bid[position() &lt;= ($m - 1)]">
+								<td>
+									<xsl:apply-templates select="."/>
+								</td>
+							</xsl:for-each>
 						</tr>
 					</xsl:if>
-					<xsl:for-each select="bid[position() mod 4 = $m]">
-					
+					<xsl:for-each select="bid[ (position() mod 4) = $m]">
+						
 						<tr>
 							<td>
 								<xsl:apply-templates select="."/>
@@ -153,5 +170,5 @@
 			</table>
 		</div>
 	</xsl:template>
-
+	
 </xsl:stylesheet>

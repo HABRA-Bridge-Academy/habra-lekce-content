@@ -1,4 +1,4 @@
-<lesson year="6" title="Jednoduchý skvíz – Obrana proti skvízu" number="6" video-id="">
+<lesson year="6" title="Jednoduchý skvíz – Obrana proti skvízu" number="6" video-id="O_1_mpY_-is">
 <p>
 Turnaje a zápasy na jakékoliv úrovni nejsou prohrávány proto, že nebyly odhaleny skryté skvízové pozice. Jsou ztraceny mnoha lidskými chybami v jednoduchých situacích. Jestliže budete usilovat o to, jak se naučit zmenšit počet svých omylů a chyb, bude to mít pro vaši hru daleko větší užitek než všechny mistrovské jemnosti skvízové hry. To je velice dobré si uvědomit. To je malé zpochybnění významnosti této kapitoly. Přidáme ještě jeden argument. Je například zhola zbytečné přemýšlet o skvízové obraně, pokud soupeř není na dostatečné technické úrovni a není schopen skvíz realizovat.
 </p>
@@ -541,13 +541,16 @@ Ovšem ví-li Jih o vás, že se ho v podobných situacích budete snažit pře
 </example>
 <literature>
 <li>
-C.E.Love	Všechno o skvízech
+<author>C.E.Love</author>
+<title>Všechno o skvízech</title>
 </li>
 <li>
-J.Hájek	Nauč se skvízovat
+<author>J.Hájek</author>
+<title>Nauč se skvízovat</title>
 </li>
 <li>
-H.W. Kelsey	Smrtící bridžová obrana
+<author>H.W. Kelsey</author>
+<title>Smrtící bridžová obrana</title>
 </li>
 </literature>
 </lesson>

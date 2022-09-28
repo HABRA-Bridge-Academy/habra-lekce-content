@@ -1,4 +1,4 @@
-<lesson year="6" title="Dopočítání rozlohy II" number="11" video-id="">
+<lesson year="6" title="Dopočítání rozlohy II" number="11" video-id="-TN73_FGc38">
 <example number="1">
 <distribution vul="NONE">
 <hand position="north">
@@ -219,8 +219,9 @@ Vezmete vrácený pik a zahrajete třetí srdci ke králi. Pokud Západ nepřizn
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

@@ -1,4 +1,4 @@
-<lesson year="6" title="Jednoduchý skvíz – Už to umím?" number="7" video-id="">
+<lesson year="6" title="Jednoduchý skvíz – Už to umím?" number="7" video-id="4L7CCptkFaA">
 <p>
 V poslední lekci budete mít příležitost dozvědět se, jak na tom ve schopnosti rozpoznat a zrealizovat skvíz jste. V závěrečných příkladech budete znát jen vaše karty a karty partnera na stole, dozvíte se průběh sehrávky do bodu, kdy už bude vše na vás. Karty obránců a řešení najdete o několik stran dále. Takže chutě do toho:
 </p>
@@ -20,7 +20,7 @@ AK76
 </hand>
 <hand position="south">
 <spades>
-a
+A
 </spades>
 <hearts>
 AQJT9
@@ -676,14 +676,17 @@ Západ odhodil pik, ze stolu byl odhozen tref a Východ, obávaje se nejhoršíh
 </p>
 </example>
 <literature>
-<li>
-C.E.Love	Všechno o skvízech
-</li>
-<li>
-J.Hájek	Nauč se skvízovat
-</li>
-<li>
-H.W. Kelsey	Smrtící bridžová obrana
-</li>
-</literature>
+    <li>
+    <author>C.E.Love</author>
+    <title>Všechno o skvízech</title>
+    </li>
+    <li>
+    <author>J.Hájek</author>
+    <title>Nauč se skvízovat</title>
+    </li>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Smrtící bridžová obrana</title>
+    </li>
+    </literature>
 </lesson>

@@ -1,4 +1,4 @@
-<lesson year="6" title="Indikace z dražby" number="13" video-id="">
+<lesson year="6" title="Indikace z dražby" number="13" video-id="dt-xc8aWGiY">
 <example number="1">
 <distribution vul="BOTH">
 <hand position="north">
@@ -219,8 +219,9 @@ Jediný způsob, jak se vypořádat s károvou rozlohou 4-1 je odložit pikový
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

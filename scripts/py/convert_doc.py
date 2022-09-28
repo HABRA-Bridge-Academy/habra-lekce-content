@@ -1,7 +1,7 @@
 
 import os
-from utils import load_env, make_folder
-from xml_utils import LessonXsltConvertor, HtmlConvertor
+from utils import load_env, make_folder, is_num
+from xml_utils import XsltConvertor, HtmlConvertor, XmlParser, LessonXmlParser
 from pdf_utils import WkToHtmlConvertor
 from build_assets import build_css
 
@@ -11,25 +11,26 @@ def generate(pdf_convertor, input_folder, output_folder, template, clean = False
 
     pdf_path = make_folder(output_folder, "pdf")
 
-    xslt_convertor = LessonXsltConvertor(template)
+    xslt_convertor = XsltConvertor(template)
     html_convertor = HtmlConvertor()
+    xml_parser = XmlParser()
+    lesson_xml_parser = LessonXmlParser()
         
     for folder in os.scandir(input_folder):
 
-        try:
-            int(folder.name)
-        except:
+        if not is_num(folder.name):
             continue
 
         year_pdf_output_path = make_folder(pdf_path, folder.name)
-        year_xml_input_path = make_folder(input_folder, folder.name)
-        
-        for lesson_file in os.scandir(year_xml_input_path):
+        for lesson_file in os.scandir(folder):
 
             filename, ext = os.path.splitext(lesson_file.name)
             if ext != ".xml" or len(filename) != 2:
                 continue            
-            year, num, title, html = xslt_convertor.convert_file(os.path.join(year_xml_input_path, lesson_file))
+
+            lesson = xml_parser.parse_file(lesson_file)
+            html = xslt_convertor.convert(lesson)
+            year, num, title = lesson_xml_parser.get_lesson_metadata(lesson)
 
             htmlfilename = os.path.join(year_pdf_output_path, filename + ".html")
 

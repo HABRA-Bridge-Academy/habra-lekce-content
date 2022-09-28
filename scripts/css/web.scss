@@ -37,6 +37,21 @@
    padding: 2px 4px;
 }
 
+.lekce ol {
+   padding: initial;
+
+   li {
+      list-style-type: numeric;
+   }
+}
+
+.lekce ol.seznam-lekci, .lekce ol.literature {
+
+   li {
+      list-style-type: none;
+   }
+}
+
 ol.alpha {
    counter-reset: list;
 }
@@ -46,6 +61,20 @@ ol.alpha > li {
 ol.alpha > li:before {
    content: counter(list, lower-alpha) ") ";
    counter-increment: list;
+}
+
+ol.inline,
+ul.inline > li {
+   display: inline;
+
+   & > li,
+   & > li {
+      display: inline;
+
+      &:not(:last-child)::after {
+         content: ", ";
+      }
+   }
 }
 
 .lekce li {
@@ -77,6 +106,11 @@ ol.alpha > li:before {
 
 .blur {
    filter: blur(5px) grayscale(1);
+   cursor: pointer;
+
+   &::before {
+      content: "aa";
+   }
 }
 
 /* SEZNAM LEKCI */
@@ -228,16 +262,34 @@ div.deal-contract + div.leadcard {
 
 /* bidding */
 
+.inline-hand {
+   display: inline-flex;
+   gap: 4px;
+}
 
-
-.bidding {
+.bidding:not(.bidding .bidding) {
    margin-top: 1em;
 }
 
 .bidding table td:first-child {
-   width: 160px;
+   width: 120px;
+   vertical-align: top;
 }
 
+.reveal-button {
+   appearance: none;
+   border: none;
+   background: inherit;
+   font: inherit;
+   cursor: pointer;
+}
+
+.reveal-controls {
+   margin-top: 4px;
+   gap: 2px;
+   display: flex;
+   justify-content: center;
+}
 
 .suit-clubs {
    color: #32ad01;

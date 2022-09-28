@@ -1,4 +1,4 @@
-<lesson year="6" title="Útok na přechody I" number="26" video-id="">
+<lesson year="6" title="Útok na přechody I" number="26" video-id="vi-_3JuZovQ">
 <example number="1">
 <distribution vul="NS">
 <hand position="north">
@@ -209,8 +209,9 @@ Když Vám vrátí káro, můžete snapnout na stole a zahrát trefového krále
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

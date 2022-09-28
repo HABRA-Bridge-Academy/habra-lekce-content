@@ -19,4 +19,11 @@ def make_folder(*args):
         pass
     return folder
 
+def is_num(n):
+    try:
+        int(n)
+        return True
+    except:
+        return False
+
 

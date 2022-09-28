@@ -2,68 +2,94 @@
 <p>
 Nejprve si připomeňme, jak po <bid level="1" suit="NT"/> dosud dražíme:
 </p>
-<p>
-2t ! Stayman, tj. 8+ s alespoň jedním drahým 4-listem
-</p>
-<p>
-2k,s ! 5+list, 0+b., transfer
-</p>
-<p>
-2p ! dotaz na levné barvy
-</p>
-<p>
-2BT 8-9b. bez drahého 4-listu
-</p>
-<p>
-3t,k,s,p 12+b., GF, pokus o slem, 6+list
-</p>
+<bidding>
+    <entry>
+        <action><bid level="2" suit="c"/></action>
+        <explanation>Stayman, tj. 8+ s alespoň jedním drahým 4-listem</explanation>
+    </entry>
+    <entry>
+        <action><bid level="2" suits="dh"/></action>
+        <explanation>5+list, 0+b., transfer</explanation>
+    </entry>
+    <entry>
+        <action><bid level="2" suit="S"/></action>
+        <explanation>dotaz na levné barvy</explanation>
+    </entry>
+    <entry>
+        <action><bid level="2" suit="NT"/></action>
+        <explanation>8-9b. bez drahého 4-listu</explanation>
+    </entry>
+    <entry>
+        <action><bid level="3" suits="cdhs"/></action>
+        <explanation>12+b., GF, pokus o slem, 6+list</explanation>
+    </entry>
+    <entry>
+        <action><bid level="2" suit="NT"/></action>
+        <explanation>8-9b. bez drahého 4-listu</explanation>
+    </entry>
+    <entry>
+        <action><bid level="2" suit="NT"/></action>
+        <explanation>8-9b. bez drahého 4-listu</explanation>
+    </entry>
+</bidding>
+
 <p>
 Dnes si podáme k jednotlivým variantám více vysvětlení a přidáme dražbu na čtvrtém stupni:
 </p>
-<p>
-4t Gerber, 17+, dotaz na počet es
-</p>
-<p>
-4k transfer do 4s
-</p>
-<p>
-4s transfer do 4p
-</p>
-<p>
-4BT 16b., pravidelná rozloha, kvantitativní hláška
-</p>
+<bidding>
+<entry>
+    <action><bid level="4" suit="c"/></action>
+    <explanation>Gerber, 17+, dotaz na počet es</explanation>
+</entry>
+<entry>
+    <action><bid level="4" suit="d"/></action>
+    <explanation>transfer do <bid level="4" suit="H"/></explanation>
+</entry>
+<entry>
+    <action><bid level="4" suit="H"/></action>
+    <explanation>transfer do <bid level="4" suit="S"/></explanation>
+</entry>
+<entry>
+    <action><bid level="4" suit="NT"/></action>
+    <explanation>16b., pravidelná rozloha, kvantitativní hláška</explanation>
+</entry>
+</bidding>
 <p>
 Kdy se ptáme hláškou <bid level="2" suit="S"/> na levnou barvu?
 </p>
+<bidding>
+    <header>
+        <sequence><bid level="1" suit="NT"/><bid level="2" suit="S"/></sequence>
+    </header>
+    <entry>
+        <action><bid level="2" suit="NT"/></action>
+        <explanation> stejně dlouhé trefy a kára nebo kára delší</explanation>
+    </entry>
+    <entry>
+        <action><bid level="3" suit="c"/></action>
+        <explanation>trefy delší než kára</explanation>
+    </entry>
+</bidding>
 <p>
-1BT – <bid level="2" suit="S"/> !
+V případě, že máme levnou drahou barvu, nechceme hrát <bid level="1" suit="NT"/> a raději budeme hrát 3 v levné, po odpovědi partnera buď zapasujeme, pokud dražil tref a chceme trefy hrát, nebo dražíme levnou barvu
 </p>
 <p>
-2BT ! = stejně dlouhé trefy a kára nebo kára delší
+V případě, že máme obě levné barvy dlouhé (alespoň 4-4) a chceme hrát levný slem. Po partnerově odpovědi, která vyjadřuje jeho situaci v levných barvách nesmíme skončit stophláškou (což jsou <bid level="3" suit="C"/> nebo 3k), každá forsující hláška znamená, že chci hrát slem. Levná barva na čtvrtém stupni bude znamenat výzvu ke cue-bidování (cue-bidy si probereme letos ve 27. lekci), každá nová barva je už rovnou cue-bid a tedy odsouhlašení barvy nadražené partnerem po <bid level="2" suit="S"/>, pět v levné barvě je stopka a <bid level="4" suit="NT"/> Blackwood.
 </p>
 <p>
-3t ! = trefy delší než kára
-</p>
-<p>
-v případě, že máme levnou drahou barvu, nechceme hrát <bid level="1" suit="NT"/> a raději budeme hrát 3 v levné, po odpovědi partnera buď zapasujeme, pokud dražil tref a chceme trefy hrát, nebo dražíme levnou barvu
-</p>
-<p>
-v případě, že máme obě levné barvy dlouhé (alespoň 4-4) a chceme hrát levný slem. Po partnerově odpovědi, která vyjadřuje jeho situaci v levných barvách nesmíme skončit stophláškou (což jsou <bid level="3" suit="C"/> nebo 3k), každá forsující hláška znamená, že chci hrát slem. Levná barva na čtvrtém stupni bude znamenat výzvu ke cue-bidování (cue-bidy si probereme letos ve 27. lekci), každá nová barva je už rovnou cue-bid a tedy odsouhlašení barvy nadražené partnerem po <bid level="2" suit="S"/>, pět v levné barvě je stopka a <bid level="4" suit="NT"/> Blackwood.
-</p>
-<p>
-Kdy dražíme 4BT?
+Kdy dražíme <bid level="4" suit="NT"/>?
 </p>
 <p>
 V případě, že máme přesně 16b. a rovnovážnou rozlohu. Partner draží s 15b. pas, se 16 body odpovídá počet es jako na zkráceného Blackwooda a se 17b. draží <bid level="6" suit="NT"/>. Tento způsob dražby používáme i po transferu se 16b. a rozlohou 5-3-3-2 a drahým 5-listem.
 </p>
 <p>
-Kdy dražíme 4t?
+Kdy dražíme <bid level="4" suit="c"/>?
 </p>
 <p>
 V případě, že se pokoušíme minimálně o malý beztrumfový slem a zajímá nás jen počet es a králů. Partner odpovídá takto: 1. stupeň 0 nebo 3 esa, 2. stupeň 1 eso, 3. stupeň 2 esa bez krále, 4. stupeň 2 esa a 1 král atd. Po odpovědi partnera se můžeme doptat na krále a na dámy, pokud chceme hrát velký slem.
 </p>
 <p>
-Kdy dražíme <bid level="4" suit="D"/> nebo 4s?
+Kdy dražíme <bid level="4" suit="D"/> nebo <bid level="4" suit="H"/>?
 </p>
 <p>
 V případě, že chceme hrát právě jen drahou hru a nemáme zájem o slem. Je to v případě, že naše síla je opřena především o drahý dlouhý list (musím mít pochopitelně minimálně 6-list). Partner zadraží barvu transferu a tím dražba skončí.
@@ -74,15 +100,17 @@ Co v případě, že mám drahý 5-list s dalším 4-listem?
 <p>
 Pak záleží na tom, kolik máme bodů. Rozdělíme si to do tří zón.
 </p>
-<p>
+<ul>
+<li>
 10 a více bodů, mancheforcing – dražte nejdříve transfer a pak vedlejší 4-list
-</p>
-<p>
-7-9 bodů, výzva – dražte <bid level="2" suit="C"/> Stayman, když máte 4-list drahý, a pokud neuslyšíte drahou barvu, dražte 5-list, při levném 4-list dražte transfer do pasu nebo do 2BT
-</p>
-<p>
+</li>
+<li>
+7-9 bodů, výzva – dražte <bid level="2" suit="C"/> Stayman, když máte 4-list drahý, a pokud neuslyšíte drahou barvu, dražte 5-list, při levném 4-list dražte transfer do pasu nebo do  <bid level="2" suit="NT"/>
+</li>
+<li>
 méně bodů, stopka – dražte transfer na drahou barvu a pasujte
-</p>
+</li>
+</ul>
 <p>
 Co v případě, že mám drahý 5-list s dalším 5-listem?
 </p>

@@ -1,4 +1,4 @@
-<lesson year="6" title="Pravděpodobnost I" number="30" video-id="">
+<lesson year="6" title="Pravděpodobnost I" number="30" video-id="Jd-pxsYAuV4">
 <example number="1">
 <distribution vul="BOTH">
 <hand position="north">
@@ -208,8 +208,9 @@ Zatím jsme uvažovali o možnostech v jednotlivých barvách oddělené, ale k
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

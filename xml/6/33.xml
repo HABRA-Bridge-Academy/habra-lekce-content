@@ -1,4 +1,4 @@
-<lesson year="6" title="Časování I" number="33" video-id="">
+<lesson year="6" title="Časování I" number="33" video-id="yr91suPAGQ4">
 <example number="1">
 <distribution vul="NONE">
 <hand position="north">
@@ -209,8 +209,9 @@ Správné načasování spočívá v tom, že ve druhém zdvihu přejdete na sr
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

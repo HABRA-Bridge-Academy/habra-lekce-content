@@ -1,4 +1,4 @@
-<lesson year="6" title="Zachování všech možností I" number="17" video-id="">
+<lesson year="6" title="Zachování všech možností I" number="17" video-id="O4SrqPT5Tus">
 <example number="1">
 <distribution vul="BOTH">
 <hand position="north">
@@ -211,8 +211,9 @@ Tomuto dilematu se pokud možno musíte vyhnout, a proto byste měl rozehrát tr
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

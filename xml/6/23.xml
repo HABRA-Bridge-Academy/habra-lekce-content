@@ -1,4 +1,4 @@
-<lesson year="6" title="Vstupy I" number="23" video-id="">
+<lesson year="6" title="Vstupy I" number="23" video-id="ztM8xZ4osCA">
 <example number="1">
 <distribution vul="NS">
 <hand position="north">
@@ -221,8 +221,9 @@ V prvním zdvihu si nemůžete dovolit hrát ze stolu malou, protože kdyby zah
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

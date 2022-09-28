@@ -1,4 +1,4 @@
-<lesson year="6" title="Pravděpodobnost II" number="31" video-id="">
+<lesson year="6" title="Pravděpodobnost II" number="31" video-id="C55c6m2D6tI">
 <example number="1">
 <distribution vul="BOTH">
 <hand position="north">
@@ -215,8 +215,9 @@ Moc pravděpodobná šance to není, je však jediná.
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

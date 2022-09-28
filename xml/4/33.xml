@@ -40,7 +40,8 @@ KJT84
 </clubs>
 </hand>
 </distribution>
-<ol>
+<bidding-solution>
+<ol class="alpha inline">
 <li>
 <bid level="2" suit="S"/>
 </li>
@@ -54,6 +55,7 @@ KJT84
 <bid value="pass" />
 </li>
 </ol>
+</bidding-solution>
 </example>
 <example number="2">
 <p>
@@ -75,7 +77,8 @@ KQ865
 </clubs>
 </hand>
 </distribution>
-<ol>
+<bidding-solution>
+<ol class="alpha inline">
 <li>
 <bid level="2" suit="H"/>
 </li>
@@ -89,5 +92,6 @@ KQ865
 <bid level="3" suit="C"/>
 </li>
 </ol>
+</bidding-solution>
 </example>
 </lesson>

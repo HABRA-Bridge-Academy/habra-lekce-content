@@ -1,4 +1,4 @@
-<lesson year="6" title="Vstupy II" number="24" video-id="">
+<lesson year="6" title="Vstupy II" number="24" video-id="HFAz5_RmU08">
 <example number="1">
 <distribution vul="NONE">
 <hand position="north">
@@ -215,8 +215,9 @@ Správné zahrání ze stolu v prvním zdvihu není ani eso, ani čtyřka, ale 
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

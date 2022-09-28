@@ -1,9 +1,8 @@
-<lesson year="6" title="Jednoduchý skvíz – Terminologie" number="1" video-id="">
+<lesson year="6" title="Jednoduchý skvíz – Terminologie" number="1" video-id="ssogeMUFOIY">
 <p>
 Nejdříve se podíváme na sehrávku dvou příkladů z otevřených karet.
 </p>
 <example number="1">
-
 <distribution>
 <hand position="north">
 <spades>
@@ -213,9 +212,9 @@ QJ9
 Jih hraje pikové eso a Západ musí odhodit. Jestliže se rozhodne odhodit srdcovou desítku místo zvoleného trefu, devítka stolu bude vysoká a hlavnímu hráči stačí ze stolu shodit trefovou osmičku. Možná udělal chybu v průběhu partie Východ, protože kdyby si nechal o jeden tref víc, mohl Západ zahodit tref beztrestně, Západ by držel srdci a Východ tref, taková spolupráce partnerů v obraně je žádoucí. Ale pozor, podívejte se na diagram celého rozdání a zjistíte, že Východ měl od počátku pouze dva trefy, v průběhu žádný neodhodil a ani on tedy žádnou chybu neudělal.
 </p>
 </example>
-<p>
+<h2>
 Skvízová terminologie
-</p>
+</h2>
 <p>
 V obou výše uvedených příkladech by bridžový expert hrál zcela stejně jako naši středně silní hráči a výsledek by byl shodný. Rozdíl by byl jen v tom, že by expert neobviňoval obránce ze špatné hry, ale pochválil by v duchu sám sebe, jak správně a učebnicově realizoval jednoduchý skvíz. Obránce by v nejlepším případě politoval, že se octli v drtivém tlaku, z kterého prostě neexistovalo východisko. I když upřímně řečeno Západ v prvním případě by si tolik lítosti nezasloužil, protože skvíz mohl odvrátit, ale o tom si povíme až v předposlední lekci této kapitoly.
 </p>
@@ -231,9 +230,9 @@ Definice skvízu: Zpravidla každý list obsahuje nějaké bezcenné karty, stej
 <p>
 V následujících koncovkách je závazek pikový nebo beztrumfový, vynáší Jih a list jednoho z obránců je bezcenný.
 </p>
-<p>
-a)
-</p>
+
+<ol class="alpha print-columns">
+<li>
 <distribution>
 <hand position="north">
 <spades>
@@ -278,9 +277,8 @@ QJ5
 </clubs>
 </hand>
 </distribution>
-<p>
-b)
-</p>
+</li>
+<li>
 <distribution>
 <hand position="north">
 <spades>
@@ -325,6 +323,8 @@ KQ8
 </clubs>
 </hand>
 </distribution>
+</li>
+</ol>
 <p>
 V příkladě a) na trefový výnos Sever odhodí srdce, ale Východ je ve skvízu. Když odhodí s10, povýší se s5 Jihu, když zahodí káro, pracuje k10 Severu. Tedy i přesto, že hlavní hráč má jen tři winéry, vezme všechny čtyři zdvihy.
 </p>
@@ -352,26 +352,26 @@ Druhý příklad: nadějky jsou srdcová devítka a trefová osmička, nadějkov
 <p>
 Teď si možná myslíte, že to bude příliš složité, ale nebojte, nebudete si to takto muset pojmenovávat pokaždé, je jen důležité, abychom si společně rozuměli, o čem mluvíme.
 </p>
-<p>
+<h2>
 Čtyři podmínky skvízu
-</p>
+</h2>
 <p>
 Zapamatovat si ale budete muset něco jiného. Následující výroky jsou nutným základním kamenem pochopení skvízové hry. Pro tuto formulaci se předpokládá, že na výnosu je hlavní hráč. Jednoduchý skvíz určitě bude fungovat, když jsou splněny následující podmínky:
 </p>
-<p>
-1) hlavní hráč má jen jednu ztrátovou kartu JE
-</p>
-<p>
-2) jeden obránce je činný ve dvou barvách, jeho partner je bezmocný ČI
-</p>
-<p>
-3) aspoň jedna nadějka je ve vyšší ruce VÝ
-</p>
-<p>
-4) budeme mít vstup k nadějce VSTUP
-</p>
-<p>
-</p>
+<ol>
+<li>
+hlavní hráč má jen jednu ztrátovou kartu JE
+</li>
+<li>
+jeden obránce je činný ve dvou barvách, jeho partner je bezmocný ČI
+</li>
+<li>
+aspoň jedna nadějka je ve vyšší ruce VÝ
+</li>
+<li>
+budeme mít vstup k nadějce VSTUP
+</li>
+</ol>
 <p>
 Tyto čtyři podmínky musí být důkladně memorizovány. Můžete si přitom pomáhat mnemotechnickou pomůckou JEČIVÝ VSTUP.
 </p>
@@ -390,9 +390,8 @@ VSTUP3 když má Jih skvízovou kartu, Sever drží winéra v nadějkové barv�
 <p>
 Absolutní nevyhnutelnost existence ČI pro všechny typy skvízů už byla ukázána. Nevyhnutelnost existence VSTUP je zřejmá. Co se stane, když JE nebo VÝ chybí, můžeme vidět na následujících příkladech. Beztrumfový závazek, vynáší Jih.
 </p>
-<p>
-a)
-</p>
+<ol class="alpha print-columns">
+<li>
 <distribution>
 <hand position="north">
 <spades>
@@ -437,9 +436,9 @@ KQ
 </clubs>
 </hand>
 </distribution>
-<p>
-b)
-</p>
+</li>
+<li>
+
 <distribution>
 <hand position="north">
 <spades>
@@ -484,7 +483,8 @@ Q
 </clubs>
 </hand>
 </distribution>
-
+</li>
+</ol>
 <p>
 V příkladě a) může hlavní hráč získat jen dva ze čtyř zdvihů, tzn. má dvě ztrátové karty. Když vynese pik, západ má k dispozici nečinnou kartu a skvíz nefunguje.
 </p>
@@ -502,10 +502,12 @@ Tak to by tedy bylo vaše první seznámení se skvízem. Pokuste se tato dvě r
 </p>
 <literature>
 <li>
-C.E.Love	Všechno o skvízech
+<author>C.E.Love</author>
+<title>Všechno o skvízech</title>
 </li>
 <li>
-J.Hájek	Nauč se skvízovat
+<author>J.Hájek</author>
+<title>Nauč se skvízovat</title>
 </li>
 </literature>
 </lesson>

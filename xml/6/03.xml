@@ -1,4 +1,4 @@
-<lesson year="6" title="Jednoduchý skvíz – Něco o vstupech" number="3" video-id="">
+<lesson year="6" title="Jednoduchý skvíz – Něco o vstupech" number="3" video-id="Ggqm81PsoIg">
 <p>
 V minulé lekci byl naším hlavním předmětem upravování počtu zdvihů, tedy podmínka JE. V této a také v příští lekci si budeme více všímat vstupů, což je v našem pořadí poslední podmínka. Viděli jsme, že skvíz můžeme použít v beztrumfových sehrávkách stejně dobře jako v barevných. Obecně jsou všechny skvízy, o kterých se bavíme, beztrumfové. Trumfové skvízy je kategorie tak řídká, že se o nich budeme zmiňovat až v posledním šestém dílu této knihy. Ať už tedy budeme sehrávat barevný nebo beztrumfový závazek, náš skvíz bude beztrumfový. V beztrumfovém skvízu hraném v trumfové hře mohou trumfy sloužit různým způsobem pro utvoření skvízové pozice. Nejdůležitějším z těchto způsobů je vysnapování stopera, kterého drží partner oběti.
 </p>
@@ -86,16 +86,14 @@ Tento list ukazuje zajímavý logický bod. Přestože Východ drží jen jednu 
 <p>
 A teď se pusťme do dnešního hlavního tématu.
 </p>
-<p>
+<h2>
 Vienna coup
-</p>
+</h2>
 <p>
 Předpokládejme, že Východ má být rozdrcen. Nadějky jsou rozděleny. Když je skvíz dosažený, Sever musí mít jednu volnou ztrátovou kartu, protože když ji nemá, bude skvízován před Východem. Samostatná existence nadějky v ruce Jihu vytváří prostor pro jednu volnou kartu v protilehlé ruce. Ale existuje situace, ve které vzniknou potíže, konkrétně když Sever drží winéra v každé skvízové barvě. Pak, když nebudete dávat pozor, budou tyto těžkosti osudné.
 </p>
-<p>
-a)
-</p>
-<distribution>
+<ol class="alpha print-columns">
+<li><distribution>
 <hand position="north">
 <spades>
 5
@@ -138,10 +136,8 @@ Q6
 K87
 </clubs>
 </hand>
-</distribution>
-<p>
-b)
-</p>
+</distribution></li>
+<li>
 <distribution>
 <hand position="north">
 <spades>
@@ -186,6 +182,10 @@ K87
 </clubs>
 </hand>
 </distribution>
+</li>
+</ol>
+
+
 <p>
 Když v příkladě a) vynesete teď pik, na poslední pik bude muset Sever zahodit buď k4, uvolňující Východu károvou zádrž, nebo t5, což uvolní zádrž trefovou, protože trefová nadějka Jihu je blokovaná. Skvíz je tedy zrušen, protože Sever je skvízován před Východem. Náprava se lehce najde. Obtáhneme trefové eso a pikovým návratem můžeme stáhnout další piku s odhozem trefové pětky, která je teď pro tento účel volná. Východ je bezmocný. Toto zahrání se jmenuje Vienna coup. Formální definice zní: Vinna coup je hra, ve které hlavní hráč stáhne všechny své winéry v jedné nadějkové barvě před zahráním skvízové karty, aby zabránil hrozbě zablokování této nadějky.
 </p>
@@ -517,9 +517,9 @@ J98763
 </clubs>
 </hand>
 </distribution>
-<p>
-Závazek: 7s
-</p>
+<deal-contract>
+<contract level="3" suit="H" declarer="S"/>
+</deal-contract>
 <leadcard value="JS">
 pJ
 </leadcard>
@@ -651,10 +651,12 @@ Kdyby nyní vydražitel hrál svůj poslední trumf a odhodil trefovou desítku,
 </example>
 <literature>
 <li>
-C.E.Love	Všechno o skvízech
+<author>C.E.Love</author>
+<title>Všechno o skvízech</title>
 </li>
 <li>
-J.Hájek	Nauč se skvízovat
+<author>J.Hájek</author>
+<title>Nauč se skvízovat</title>
 </li>
 </literature>
 </lesson>

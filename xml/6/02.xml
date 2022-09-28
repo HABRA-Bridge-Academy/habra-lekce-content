@@ -1,4 +1,4 @@
-<lesson year="6" title="Jednoduchý skvíz – Ztrátové zdvihy" number="2" video-id="">
+<lesson year="6" title="Jednoduchý skvíz – Ztrátové zdvihy" number="2" video-id="X7-3ef1iUPo">
 <p>
 Novou lekci začněme dvěma rozdáními, při nichž jsou skvízové možnosti na první pohled patrné, uvidíme, jestli se lepší vaše „skvízové oko“.
 </p>
@@ -76,7 +76,7 @@ T65
 p8
 </leadcard>
 <p>
-Do prvního zdvihu přikládá Východ pikového kluka. Máte o zdvih méně (jeden pikový, tři srdcové, pět kárových a tři trefové) a jediná šance je skvíz. Východ má podle výnosu zřejmě K,Q a jestli má také alespoň čtyři srdce, bude ve skvízu. Nadějky jsou p10 a s4. Předpokládejme tedy, že Východ čtyři srdce má a zkontrolujme podmínky: JE – máme jen jednu ztrátovou kartu, ČI – ve dvou barvách bude činný Východ, VÝ – jedna nadějka (p10) je ve vyšší ruce a máme VSTUP k srdcové nadějce. Tedy musíme jen stáhnout winéry ve volných barvách. Obehraji kára (zahodím pik) a trefy, poslední tref je skvízovou kartou.
+Do prvního zdvihu přikládá Východ pikového kluka. Máte o zdvih méně (jeden pikový, tři srdcové, pět kárových a tři trefové) a jediná šance je skvíz. Východ má podle výnosu zřejmě <card value="KS"/>, <card value="QS"/> a jestli má také alespoň čtyři srdce, bude ve skvízu. Nadějky jsou <card value="TS"/> a <card value="4H"/>. Předpokládejme tedy, že Východ čtyři srdce má a zkontrolujme podmínky: JE – máme jen jednu ztrátovou kartu, ČI – ve dvou barvách bude činný Východ, VÝ – jedna nadějka (<card value="TS"/>) je ve vyšší ruce a máme VSTUP k srdcové nadějce. Tedy musíme jen stáhnout winéry ve volných barvách. Obehraji kára (zahodím pik) a trefy, poslední tref je skvízovou kartou.
 </p>
 <p>
 Pokusíte si před začátkem hry představit, proč nebo jak nebo kdy bude skvíz fungovat? Ne. Když vhodíte minci do parkovacího automatu a ručička se pohne, budete se starat, co se děje uvnitř? Nebo si budete pokoušet představovat, jak budou vypadat listy po osmém, devátém nebo desátém zdvihu? Ne – bylo by to mrháním času. Budete v průběhu hry sledovat srdcové odhozy? Ne – je to úplně nezajímavé. Díváte se jedině po pikové dámě a králi. Pokud obě tyto karty nevypadnou, zkusíte srdce, bez ohledu na to, jestli to vyjde nebo ne.
@@ -448,11 +448,13 @@ Východ je bezmocný. Když stáhne své tři trefy (upraví vám tak počet zdv
 </p>
 </example>
 <literature>
-<li>
-C.E.Love	Všechno o skvízech
-</li>
-<li>
-J.Hájek	Nauč se skvízovat
-</li>
-</literature>
+    <li>
+    <author>C.E.Love</author>
+    <title>Všechno o skvízech</title>
+    </li>
+    <li>
+    <author>J.Hájek</author>
+    <title>Nauč se skvízovat</title>
+    </li>
+    </literature>
 </lesson>

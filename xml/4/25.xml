@@ -3,7 +3,7 @@
 Hláška kontra spolu s rekontra má oproti všem ostatním hláškám jednu zásadní výhodu – nezabírá totiž žádný dražební prostor a je tudíž neocenitelným pomocníkem v každém moderně pojatém dražebním systému. Různorodost významu hlášky kontra klade na partnery dosti značné paměťové nároky na rozeznání toho, co tato hláška v dané dražební situaci znamená a jaký je správný další postup v dražbě. V našem systému používáme tyto typy hlášek kontra:
 </p>
 <p>
-Pobídkové – dává ho obránce při první příležitosti. Oznamuje tím krátkost v barvě zahájení, podporu tří a více karet do všech zbývajících barev (čtyř po dražbě dvou barev) a sílu 12-15 bodů (to už známe). Např.
+<b>Pobídkové</b> – dává ho obránce při první příležitosti. Oznamuje tím krátkost v barvě zahájení, podporu tří a více karet do všech zbývajících barev (čtyř po dražbě dvou barev) a sílu 12-15 bodů (to už známe). Např.
 </p>
 <auction dealer="S">
 <bid level="1" suit="H" />
@@ -19,7 +19,7 @@ Pobídkové – dává ho obránce při první příležitosti. Oznamuje tím kr
 Do této kategorie můžeme zahrnout také:
 </p>
 <p>
-Znovuotvírající kontra (reopen) např. v situaci:
+<b> Znovuotvírající kontra (reopen) </b> např. v situaci:
 </p>
 <auction dealer="S">
 <bid level="1" suit="H" />
@@ -31,10 +31,10 @@ Znovuotvírající kontra (reopen) např. v situaci:
 V této pozici může být naše síla menší (od 10b., v první hře od 6b.), neboť je pravděpodobné, že pas našeho partnera byl vyčkávací (trapping pas)
 </p>
 <p>
-Informační kontra – je silný zásah od 16 bodů výše. Partner v první fázi bude dražit, jako by naše kontra bylo pobídkové a po jeho odpovědi mu oznámíme sílu. Zásada je taková – pas nebo soutěživé zvýšení barvy partnera oznamuje pobídkové kontra, každá jiná hláška je informační kontra (to už taky známe).
+<b>Informační kontra</b> – je silný zásah od 16 bodů výše. Partner v první fázi bude dražit, jako by naše kontra bylo pobídkové a po jeho odpovědi mu oznámíme sílu. Zásada je taková – pas nebo soutěživé zvýšení barvy partnera oznamuje pobídkové kontra, každá jiná hláška je informační kontra (to už taky známe).
 </p>
 <p>
-Pobídkové kontra zahajitele – dává zahajitel ve druhém kole dražby, oznamujíce tak rezervu, krátkost v barvě zásahu a schopnost hrát i ve zbylých barvách, např.
+<b>Pobídkové kontra zahajitele</b> – dává zahajitel ve druhém kole dražby, oznamujíce tak rezervu, krátkost v barvě zásahu a schopnost hrát i ve zbylých barvách, např.
 </p>
 <auction dealer="S">
 <bid level="1" suit="H" />
@@ -57,7 +57,7 @@ Ideální rozloha by byla 0-5-4-4. Pobídkové kontra je třeba dát i s rozloh
 Zahajitel má rezervu a s rozlohou 1-5-4-3 automaticky zadraží 2k místo oprávněné hlášky kontra. Co má dražit chudák partner se slabou kartou a rozlohou 3-2-2-6 – asi 2s, neboť si nemůže dovolit sám dražit 3t.
 </p>
 <p>
-Negativní kontra – na zásahy soupeřův barvě do výše 2p (včetně). Negativní kontra slibuje: sílu 7-11 bodů, krátkost v barvě zahájení, krátkost v barvě zásahu, rozlohu minimálně 4-4 ve zbylých barvách a vylučuje dobrou barvu dražitelnou na stupni zásahu, např.
+<b>Negativní kontra</b> – na zásahy soupeřův barvě do výše 2p (včetně). Negativní kontra slibuje: sílu 7-11 bodů, krátkost v barvě zahájení, krátkost v barvě zásahu, rozlohu minimálně 4-4 ve zbylých barvách a vylučuje dobrou barvu dražitelnou na stupni zásahu, např.
 </p>
 <auction dealer="S">
 <bid level="1" suit="D" />
@@ -68,22 +68,25 @@ Negativní kontra – na zásahy soupeřův barvě do výše 2p (včetně). Nega
 Hláška vylučuje károvou podporu, trefovou délku, dobrý drahý 5+list, naopak slibuje 7-11 bodů a oba drahé 4-listy čili rozlohu typu 4-4-3-2 nebo 4-4-2-3. Správné používání negativního kontra nám umožňuje penalizovat soupeře nejen v případě, kdy protikartu má partner zahajitele, ale také v případech, kdy tuto kartu má zahajitel, který pak negativní kontra změní v trestné.
 </p>
 <p>
-Kontra Sputnik (po zásahu drahou barvou prvním obráncem) – ve sledech 1t/k – 1s/p – kontra. Oznamuje zahajiteli 7-9(11) bodů a držení druhého drahého 4-listu.
+<b>Kontra Sputnik</b> (po zásahu drahou barvou prvním obráncem) – ve sledech 1t/k – 1s/p – kontra. Oznamuje zahajiteli 7-9(11) bodů a držení druhého drahého 4-listu.
 </p>
 <p>
-Trestné kontra – z toho partner nesmí odejít. Trestné kontra je poměrně řídký jev v dražbě. V podstatě existují pouze tři základní situace pro trestné kontra
+<b>Trestné kontra</b> – z toho partner nesmí odejít. Trestné kontra je poměrně řídký jev v dražbě. V podstatě existují pouze tři základní situace pro trestné kontra
 </p>
-<p>
-1) Partner zahájil 1BT nebo jinou silnou hláškou (2t) a soupeři zasáhnou
-</p>
-<p>
-Partner zahájí preventivně hláškou oznamující jednu dlouhou barvu a soupeři zasáhnou, např.
-</p>
-<auction dealer="S">
-<bid level="3" suit="D" />
-<bid level="3" suit="H" />
-<bid value="double" />
-</auction>
+<li>
+Partner zahájil 1BT nebo jinou silnou hláškou (2t) a soupeři zasáhnou
+</li>
+<li>
+    <p>
+    Partner zahájí preventivně hláškou oznamující jednu dlouhou barvu a soupeři zasáhnou, např.
+    </p>
+    <auction dealer="S">
+    <bid level="3" suit="D" />
+    <bid level="3" suit="H" />
+    <bid value="double" />
+    </auction>
+</li>
+<li>
 <p>
 Partner pasoval a pak dá kontra na závazek soupeřů (nejčastěji celoherní), např.
 </p>
@@ -96,8 +99,9 @@ Partner pasoval a pak dá kontra na závazek soupeřů (nejčastěji celoherní)
 <bid level="4" suit="H" />
 <bid value="double" />
 </auction>
+</li>
 <p>
-Nabídkové kontra – je ve své podstatě trestné, ale s tím, že partner může, pokud k tomu má rozumné důvody, z tohoto kontra odejít. Např. ve sledu:
+<b>Nabídkové kontra</b> – je ve své podstatě trestné, ale s tím, že partner může, pokud k tomu má rozumné důvody, z tohoto kontra odejít. Např. ve sledu:
 </p>
 <auction dealer="S">
 <bid level="1" suit="S" />
@@ -110,56 +114,67 @@ Nabídkové kontra – je ve své podstatě trestné, ale s tím, že partner m
 Zahajitel svým kontra, kterým oznamuje nejčastěji 4-list v barvě zásahu, nabízí partnerovi hrát kontrovaný závazek 2s. V žádném případě však nemůže být toto kontra chápáno jako: „Partnere pasuj, ať máš cokoliv!“ Proto název nabídkové. Na to, zda partner přijme nabídku a tím vlastně změní nabídkové kontra na trestné, má vliv několik faktorů: počet karet v partnerem kontrované barvě, počet karet v partnerově barvě zahájení, počet defenzivních zdvihů ve vedlejších barvách a rozloha listu, výška kontrovaného závazku a taktické prvky, tj. postavení her, druh turnaje, znalost kvality soupeřů aj.
 </p>
 <p>
-Soutěživé kontra – je taktický prvek v soutěživé dražbě, když obě linky našli shodu, naznačující rezervu, např.
+<b>Soutěživé kontra</b> – je taktický prvek v soutěživé dražbě, když obě linky našli shodu, naznačující rezervu, např.
 </p>
-<auction dealer="S">
-<bid level="1" suit="S" />
-<bid level="2" suit="H" />
-<bid level="2" suit="S" />
-<bid level="3" suit="H" />
-<bid value="?" />
-</auction>
+
+<bidding>
+    <header>
+        <auction dealer="S">
+            <bid level="1" suit="S" />
+            <bid level="2" suit="H" />
+            <bid level="2" suit="S" />
+            <bid level="3" suit="H" />
+            <bid value="?" />
+            </auction>
+    </header>
+    <entry>
+        <action><bid value="x"/></action>
+        <explanation>kdyby soupeř nedražil  <bid level="3" suit="H" />, dražil bych dobrovolně <bid level="3" suit="S" /> jako invit</explanation>
+    </entry>
+    <entry>
+        <action><bid level="3" suit="S" /></action>
+        <explanation>kdyby soupeř pasoval, pasoval bych <bid level="2" suit="S" />, nevidím šanci na hru</explanation>
+    </entry>
+</bidding>
 <p>
-kontra=kdyby soupeř nedražil 3s, dražil bych dobrovolně 3p jako invit
+<b>Výnosové kontra</b> – je kontra na slemové závazky (Lightnerovo kontra) a na 3BT.
 </p>
 <p>
-3p=kdyby soupeř pasoval, pasoval bych 2p, nevidím šanci na hru
+<i>Kontra na korektně vydražený malý slem</i> – Lightnerovo kontra, žádá po partnerovi, aby vynesl netypicky (tj. když jsme např. zasáhli do dražby, aby tuto barvu nevynášel a aby nevynášel v trumfové barvě). Kontrováním žádáme partnera, aby vynesl:
 </p>
-<p>
-Výnosové kontra – je kontra na slemové závazky (Lightnerovo kontra) a na 3BT.
-</p>
-<p>
-Kontra na korektně vydražený malý slem – Lightnerovo kontra, žádá po partnerovi, aby vynesl netypicky (tj. když jsme např. zasáhli do dražby, aby tuto barvu nevynášel a aby nevynášel v trumfové barvě). Kontrováním žádáme partnera, aby vynesl:
-</p>
-<p>
+<ul>
+<li>
 první barvu, kterou dražil stůl (může to být i konvenční hláška)
-</p>
-<p>
+</li>
+<li>
 druhou barvu hlavního hráče, když stůl nelicitoval žádnou barvu
-</p>
-<p>
+</li>
+<li>
 dražili-li oba pouze svoji barvu a BT, kontra signalizuje přebitek – říká, partnere, mám šikenu, vynes svoji nejdelší barvu
-</p>
+</li>
+</ul>
 <p>
-Kontra na závazky 3BT, když jsme zasáhli do dražby
+<i>Kontra na závazky 3BT, když jsme zasáhli do dražby</i>
 </p>
 <p>
 Jedná se o přirozenou domluvu ve dvou případech.
 </p>
-<p>
+<ul>
+<li>
 partner zasáhl a bude vynášet – kontra=partnere, vynes svoji barvu, mám v ní figuru
-</p>
-<p>
+</li>
+<li>
 pokud dražili oba obránci, každý svoji barvu, je třeba opět ulehčit partnerovi výnos kontra=partnere, vynes svoji barvu, pas=partnere, vynes moji barvu
-</p>
+</li>
+</ul>
 <p>
 Kromě těchto situací je možno jako výnosové kontra zařadit všechna kontra na umělé hlášky (tj. cue-bidy, Splintery, přenosy, dotazy po rozloze, odstupňované odpovědi, Wywiady aj.)
 </p>
 <p>
-Support double - 1k-pas-1p-2t zahajitel kontruje s 3-listem v pikách. Se 4-listem draží 2p. Support double (nebo redouble) neříká nic o síle, ale má skrytou výhodu – zahajitel dostane ještě jednu příležitost dražit, má-li silný list, jelikož jeho partner je „nucen“ mluvit. Support double znemožňuje sice trestné kontra, ale je to pouze malá oběť, která se jistě vyplatí. Odpovídající tak bude vždy znát počet trumfů na lince.
+<b>Support double</b> - <sequence><bid level="1" suit="d"/><bid value="pass"/><bid level="1" suit="S"/><bid level="2" suit="c"/></sequence> zahajitel kontruje s 3-listem v pikách. Se 4-listem draží 2p. Support double (nebo redouble) neříká nic o síle, ale má skrytou výhodu – zahajitel dostane ještě jednu příležitost dražit, má-li silný list, jelikož jeho partner je „nucen“ mluvit. Support double znemožňuje sice trestné kontra, ale je to pouze malá oběť, která se jistě vyplatí. Odpovídající tak bude vždy znát počet trumfů na lince.
 </p>
 <p>
-Jiné kontra – je kontra mající charakter dotazu nebo odpovědi jako např.
+<b>Jiné kontra</b> – je kontra mající charakter dotazu nebo odpovědi jako např.
 </p>
 <auction dealer="S">
 <bid level="1" suit="H" />
@@ -172,7 +187,7 @@ Jiné kontra – je kontra mající charakter dotazu nebo odpovědi jako např.
 Zde je hláška kontra druhým stupněm odpovědi na Blackwooda (jedno nebo čtyři esa) – tj. konvence DOPI.
 </p>
 <p>
-Hláška rekontra má v našem systému konvenční význam jako vyjádření síly 10+ bodů po zásahu soupeřů pobídkovým kontra.
+Hláška <b>rekontra má</b> v našem systému konvenční význam jako vyjádření síly 10+ bodů po zásahu soupeřů pobídkovým kontra.
 </p>
 <auction dealer="S">
 <bid level="1" suit="H" />
@@ -192,25 +207,21 @@ Další význam rekontra SOS. Rekontra SOS říká – partnere v tvojí barvě
 <bid value="redouble" />
 </auction>
 <p>
-Pas prvního obránce na partnerovo zahájení 1s byl určitě vyčkávací (traping pas), proto v druhém kole trestně pasuje, naše rekontra je SOS s kartou např.
+Pas prvního obránce na partnerovo zahájení <bid level="1" suit="H" /> byl určitě vyčkávací (traping pas), proto v druhém kole trestně pasuje, naše rekontra je SOS s kartou např. <hand>
+    <spades>
+    Jxxxx
+    </spades>
+    <hearts>
+    -
+    </hearts>
+    <diamonds>
+    xxxxxx
+    </diamonds>
+    <clubs>
+    xx
+    </clubs>
+    </hand>
 </p>
-
-<distribution>
-<hand>
-<spades>
-Jxxxx
-</spades>
-<hearts>
--
-</hearts>
-<diamonds>
-xxxxxx
-</diamonds>
-<clubs>
-xx
-</clubs>
-</hand>
-</distribution>
 <p>
 Rekontra SOS je třeba používat velmi obezřetně zejména po zásazích skokem. Např. po dražbě
 </p>

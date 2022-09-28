@@ -1,4 +1,4 @@
-<lesson year="6" title="Zachování všech možností II" number="18" video-id="">
+<lesson year="6" title="Zachování všech možností II" number="18" video-id="wSNoAxv_l9w">
 <example number="1">
 <distribution vul="BOTH">
 <hand position="north">
@@ -209,8 +209,9 @@ Pokud ovšem budou trumfy 2-1, můžete hrát ještě lépe použitím eliminač
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

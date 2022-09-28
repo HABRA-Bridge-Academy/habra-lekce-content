@@ -1,4 +1,4 @@
-<lesson year="6" title="Úhybné hry II" number="21" video-id="">
+<lesson year="6" title="Úhybné hry II" number="21" video-id="Fg-mi4jdZww">
 <example number="1">
 <distribution vul="NS">
 <hand position="north">
@@ -213,8 +213,9 @@ Pokud Východ nepokryje károvou dámou, přejdete do ruky pikovým přebitkem a
 </p>
 </example>
 <literature>
-<li>
-H.W. Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

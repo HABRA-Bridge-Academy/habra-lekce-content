@@ -15,23 +15,25 @@ class XsltConvertor:
 
     def __init__(self, template_path) -> None:
         self.transform = ET.XSLT( ET.parse(template_path))
-
-    def parse_file(self, file_path):
-        return ET.parse(file_path)
+        self.xml_parser = XmlParser()
 
     def convert_file(self, file_path):
-        el = self.parse_file(file_path)
-        return self.convert(el)
+        return self.convert(self.xml_parser.parse_file(file_path))
 
     def convert(self, el):
         return str(self.transform(el))
 
 
-class LessonXsltConvertor(XsltConvertor):
-    def convert(self, lesson):
-        return lesson.xpath('@year')[0], lesson.xpath('@number')[0], lesson.xpath('@title')[0], str(self.transform(lesson))
+class XmlParser:
 
-class BookXsltConvertor(XsltConvertor):
+    def parse_file(self, file_path):
+        return ET.parse(file_path)
 
-    pass
+    def parse(self, string):
+        return ET.parse(string)
+
+class LessonXmlParser:
+    def get_lesson_metadata(self, lesson):
+        return lesson.xpath('@year')[0], lesson.xpath('@number')[0], lesson.xpath('@title')[0]
+
 

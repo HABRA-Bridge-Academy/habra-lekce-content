@@ -1,7 +1,7 @@
-<lesson year="6" title="Jednoduchý skvíz – Několik zvláštností" number="5" video-id="">
-<p>
+<lesson year="6" title="Jednoduchý skvíz – Několik zvláštností" number="5" video-id="UH0b9bM6efw">
+<h2>
 Volba nadějkové barvy
-</p>
+</h2>
 <p>
 Předpokládejme, že víte, že jedině jednoduchý skvíz může být vítězný, ale vy máte slibné hrozby ve třech barvách a nemůžete v raném stádiu určit, které dvě nadějky budou ty správné. Tato otázka může být v mnohých případech nevyzpytatelná, ale obyčejně důkladnou analýzou budeme moci uspokojivě odpovědět.
 </p>
@@ -106,9 +106,9 @@ Je tady ještě jedna možnost – Západ může mít obě levné barvy. Ale ten
 Jako další sehrávku si můžete znovu zauvažovat nad Příkladem 3 z 2. lekce.
 </p>
 </example>
-<p>
+<h2>
 Transformace stopera
-</p>
+</h2>
 <p>
 Často se stává, že všechny podmínky pro skvíz jsou splněny, až na ČI – jednu zádrž má Západ a druhou Východ. Pak je někdy možné transformovat stopera:
 </p>
@@ -343,9 +343,9 @@ Západ vynesl károvou dámu. Hlavní hráč viděl tři ztrátová kára a jede
 Východ získal tři kárové zdvihy a ke čtvrtému vynesl trumf. Hlavní hráč pokračoval v trumfech až do vytrumfování. Vynesl trefovou dámu, kterou Východ pokryl a Jih rovněž. Nyní vydražitel pokračoval v trumfech a Západ byl ve svízelné situaci. Musel buďto zahodit trefového kluka nebo si odhodit od srdcového 4-listu. Nakonec zahodil vysoký tref. Hlavní hráč vynesl trefovou desítku a reklamoval zbytek zdvihů.
 </p>
 </example>
-<p>
+<h2>
 Pseudoskvíz
-</p>
+</h2>
 <p>
 Neexistuje-li skutečný skvíz, nevzdávejte se, pokud je nějaká naděje, že jeden z obránců si může myslet, že je skvízován. V překvapivě velké četnosti udělá fatální odhozový omyl. Tento typ hry se nazývá pseudoskvíz.
 </p>
@@ -518,11 +518,13 @@ Dobrý hráč proto nikdy určitě neodhodí káro z ruky Východu. Musel by to
 </p>
 </example>
 <literature>
-<li>
-C.E.Love	Všechno o skvízech
-</li>
-<li>
-J.Hájek	Nauč se skvízovat
-</li>
-</literature>
+    <li>
+    <author>C.E.Love</author>
+    <title>Všechno o skvízech</title>
+    </li>
+    <li>
+    <author>J.Hájek</author>
+    <title>Nauč se skvízovat</title>
+    </li>
+    </literature>
 </lesson>

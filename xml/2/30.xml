@@ -86,11 +86,14 @@ J5
 </clubs>
 </hand>
 </distribution>
-<p>
-<bid level="2" suit="H"/> pak <bid value="pass"/>
-</p>
+<bidding-solution>
+    <p>
+        <bid level="2" suit="H"/> pak <bid value="pass"/>
+
+    </p>
+</bidding-solution>
 <distribution>
-<hand >
+<hand>
 <spades>
 A4
 </spades>
@@ -105,9 +108,11 @@ K2
 </clubs>
 </hand>
 </distribution>
+<bidding-solution>
 <p>
 <bid level="3" suit="H"/> - slemový pokus
 </p>
+</bidding-solution>
 <distribution>
 <hand >
 <spades>
@@ -124,9 +129,11 @@ Q7
 </clubs>
 </hand>
 </distribution>
+<bidding-solution>
 <p>
-<bid level="2" suit="d"/><bid value="pass"/>
+<bid level="2" suit="d"/>, pak <bid level="3" suit="H"/>
 </p>
+</bidding-solution>
 <distribution>
 <hand >
 <spades>
@@ -143,9 +150,11 @@ A85
 </clubs>
 </hand>
 </distribution>
+<bidding-solution>
 <p>
-<bid level="2" suit="H"/>
+<bid level="2" suit="H"/>, pak <bid level="2" suit="NT"/>
 </p>
+</bidding-solution>
 <distribution>
 <hand >
 <spades>
@@ -162,9 +171,11 @@ T865432
 </clubs>
 </hand>
 </distribution>
+<bidding-solution>
 <p>
 <bid value="pass"/>
 </p>
+</bidding-solution>
 <distribution>
 <hand >
 <spades>
@@ -181,7 +192,9 @@ A
 </clubs>
 </hand>
 </distribution>
+<bidding-solution>
 <p>
-<bid level="2" suit="H"/> pak <bid level="3" suit="d"/>
+<bid level="2" suit="H"/>, pak <bid level="3" suit="d"/>
 </p>
+</bidding-solution>
 </lesson>

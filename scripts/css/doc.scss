@@ -1,5 +1,13 @@
 /* PRINT */
 
+.print-columns > * {
+    display: table-cell;
+
+    &:not(:last-child) {
+        padding-right: 1cm;
+    }
+}
+
 .lesson:not(:last-child), .intro, .coverpage {
     break-after: always;
     page-break-after: always;
@@ -60,7 +68,7 @@
     padding-top: 0.5cm;
 }
 
-.contents {
+.contents ul {
     list-style: none;
 }
 
@@ -84,7 +92,7 @@ p {
     text-align: justify;
 }
 
-.auction, .literature, .distribution, .example {
+.auction, .literature, .distribution {
     page-break-inside: avoid;
 }
 
@@ -96,6 +104,7 @@ p {
     display: inline-block;
     vertical-align: top;
     margin-right: 1cm;
+    max-width: 50%;
 }
 
 .auction td {
@@ -103,7 +112,9 @@ p {
     text-align: center;
 }
 
-
+.inline-hand span:not(:last-child) {
+    margin-right: 4px;
+ }
 
 .auction-onesided tr:nth-child(2n) td:first-child,
 .auction-onesided tr:nth-child(2n+1) td:nth-child(2) {
@@ -124,6 +135,7 @@ table:not(.distribution *):not(.distribution) td {
 
 ol.alpha {
     counter-reset: list;
+    padding: 0;
 }
 ol.alpha > li {
     list-style: none;
@@ -148,6 +160,19 @@ h3 {
     margin-top: 1em;
 }
 
+
+ol.inline , ul.inline > li {
+    display: inline;
+
+    & > li, & > li {
+        display: inline;
+        
+        &:not(:last-child)::after {
+            content: ", ";
+        }
+    }
+}
+
 /* QUIZ, LITERATURE */
 
 .bidding-solution,
@@ -163,9 +188,10 @@ h3 {
 }
 
 
-
 .literature ol {
     margin-top: 1em;
+    padding: 0;
+    list-style: none;
 }
 
 /* DISTRIBUTION, CARDS AND CONTRACTS */
@@ -176,11 +202,6 @@ h3 {
 
 .distribution-hand-dummy :first-child {
     margin-bottom: 0.5cm;
-}
-
-.distribution-ew {
-    display: flex;
-    gap: 1em;
 }
 
 .distribution,
@@ -253,13 +274,16 @@ div.deal-contract + div.leadcard {
 
 /* bidding */
 
-.bidding {
+.bidding:not(.bidding .bidding) {
     margin-top: 1em;
 }
 
-.bidding table td:first-child {
+.bidding-table td:first-child {
     width: 120px;
+    vertical-align: top;
 }
+
+
 
 .blur {
     filter: blur(5px) grayscale(1);

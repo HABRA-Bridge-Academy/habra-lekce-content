@@ -22,7 +22,7 @@
 										https://www.youtube.com/watch?v=<xsl:value-of select="@video-id"/>
 									</xsl:attribute> -->
 									<xsl:attribute name="href">
-										http://bridzhavirov.zdenektomis.eu/index.php?s=lekce2&amp;rocnik=<xsl:value-of select="@year"/>&amp;lekce=<xsl:value-of select="@number"/>
+										http://bridzhavirov.cz/index.php?s=lekce2&amp;rocnik=<xsl:value-of select="@year"/>&amp;lekce=<xsl:value-of select="@number"/>
 									</xsl:attribute>
 									odkazu</a>.
 							</p>

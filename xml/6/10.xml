@@ -1,4 +1,4 @@
-<lesson year="6" title="Dopočítání rozlohy I" number="10" video-id="">
+<lesson year="6" title="Dopočítání rozlohy I" number="10" video-id="MzUH0CJszzk">
 <example number="1">
 <distribution vul="NS">
 <hand position="north">
@@ -146,7 +146,6 @@ AQ93
 <bid value="pass" />
 <bid level="1" suit="N" />
 <bid level="2" suit="d" />
-<bid value="?" />
 <bid level="2" suit="H" />
 <bid value="pass" />
 <bid value="pass" />
@@ -228,8 +227,9 @@ Všimněte si, že kdybyste ve čtvrtém zdvihu jednou zahrál trumfy, nezískal
 </p>
 </example>
 <literature>
-<li>
-H.W.Kelsey	Bridžová logika
-</li>
-</literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

@@ -1,8 +1,8 @@
 
 import os
 from build_assets import build_css
-from utils import load_env, make_folder
-from xml_utils import BookXsltConvertor, HtmlConvertor
+from utils import load_env, make_folder, is_num
+from xml_utils import XsltConvertor, HtmlConvertor, XmlParser, LessonXmlParser
 from pdf_utils import WkToHtmlConvertor
 import lxml.etree as ET
 
@@ -13,34 +13,28 @@ def generate(pdf_convertor, input_folder, output_folder, template, clean = False
 
     pdf_path = make_folder(output_folder, "print")
 
-    xslt_convertor = BookXsltConvertor(template)
+    xslt_convertor = XsltConvertor(template)
     html_convertor = HtmlConvertor()
+    xml_parser = XmlParser()
+    lesson_xml_parser = LessonXmlParser()
         
     for folder in os.scandir(input_folder):
 
-        try:
-            int(folder.name)
-        except:
+        if not is_num(folder.name):
             continue
 
         year = int(folder.name)
-
-        year_xml_input_path = make_folder(input_folder, folder.name)
-
         book = ET.Element("book", { "year": str(year)})
-
-        files = os.scandir(year_xml_input_path)
-
+        files = os.scandir(folder)
         parts = {}
         
         for file in files:
-
             filename, ext = os.path.splitext(file.name)
             if ext != ".xml":
                 continue  
 
-            if filename == "print-meta":
-                meta = ET.parse(os.path.join(year_xml_input_path, file)).getroot()
+            if filename == "meta":
+                meta = ET.parse(os.path.join(folder, file)).getroot()
                 intro = meta.xpath("intro")[0]
                 if intro is not None:
                     parts["intro"] = intro
@@ -55,7 +49,7 @@ def generate(pdf_convertor, input_folder, output_folder, template, clean = False
             except:
                 continue
             num = int(filename)
-            lesson = ET.parse(os.path.join(year_xml_input_path, file))
+            lesson = ET.parse(os.path.join(folder, file))
             parts[num] = lesson.getroot()
 
         if "intro" in parts:
@@ -71,10 +65,8 @@ def generate(pdf_convertor, input_folder, output_folder, template, clean = False
         book_xml_output_path =  os.path.join(pdf_path, folder.name + ".xml")
         html = xslt_convertor.convert(book)
 
-
         with open( book_html_output_path, "w") as f:
             f.write(html)
-            # f.write(html_convertor.minify_html(html))
 
         if not clean:
             with open( book_xml_output_path, "wb") as f:
