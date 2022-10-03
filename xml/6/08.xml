@@ -1,32 +1,655 @@
-<lesson year="6" title="Bridge Master 3B 1-10" number="8" bridgemaster="true" video-id="sgT5cEHzfmw">
+<lesson year="6" title="Jednoduchý skvíz – Něco o vstupech" number="8" video-id="sgT5cEHzfmw">
 <p>
-B1 – typický příklad pro eliminaci, až si soupeři vezmou svá srdce, nebudu impasovat trefy, ale vezmu esem, vytrumfuji a na tref přinutím obránce, aby mi dali snap, nebo odhoz
+V minulé lekci byl naším hlavním předmětem upravování počtu zdvihů, tedy podmínka JE. V této a také v příští lekci si budeme více všímat vstupů, což je v našem pořadí poslední podmínka. Viděli jsme, že skvíz můžeme použít v beztrumfových sehrávkách stejně dobře jako v barevných. Obecně jsou všechny skvízy, o kterých se bavíme, beztrumfové. Trumfové skvízy je kategorie tak řídká, že se o nich budeme zmiňovat až v posledním šestém dílu této knihy. Ať už tedy budeme sehrávat barevný nebo beztrumfový závazek, náš skvíz bude beztrumfový. V beztrumfovém skvízu hraném v trumfové hře mohou trumfy sloužit různým způsobem pro utvoření skvízové pozice. Nejdůležitějším z těchto způsobů je vysnapování stopera, kterého drží partner oběti.
+</p>
+<example number="1">
+<distribution>
+<hand position="north">
+<spades>
+7432
+</spades>
+<hearts>
+A6
+</hearts>
+<diamonds>
+QJ7
+</diamonds>
+<clubs>
+K762
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+Q
+</spades>
+<hearts>
+KQJT53
+</hearts>
+<diamonds>
+AK4
+</diamonds>
+<clubs>
+AJ8
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+AJT65
+</spades>
+<hearts>
+2
+</hearts>
+<diamonds>
+952
+</diamonds>
+<clubs>
+T943
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+K98
+</spades>
+<hearts>
+9874
+</hearts>
+<diamonds>
+T863
+</diamonds>
+<clubs>
+Q5
+</clubs>
+</hand>
+<auction onesided="true" dealer="N">
+    <bid value="pass"/>
+<bid level="2" suit="H"/>
+<bid level="3" suit="N"/>
+<bid level="4" suit="N"/>
+<bid level="5" suit="d"/>
+<bid level="6" suit="H"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="9H"/>
+</distribution>
+<p>
+Do prvního zdvihu Východ přidává srdce. Kromě trefového impasu je tu ještě jedna možnost. Jestliže některý z obránců drží 5-list pikový a trefovou dámu, může být skvízován.
 </p>
 <p>
-B2 – nebezpečný je Východ, který by mi mohl podnést kára, proto neimpasuji v srdcích, ale hraji na vypadnutí (proti pravděpodobnosti)
+Vezmeme tedy v ruce a vyneseme pikovou dámu. Král Západu bere zdvih a Východ, který neví nic o skvízech, přidá kluka jako náznak pikového esa. Ale Západ, který vidí, co se hlavní hráč chystá udělat, vynáší druhé srdce (to je stejně dobré jako cokoliv jiného). Snapněte pik, vraťte se na stůl trefovým králem a opět pikový přebitek, dohrajte trumfy, stáhněte kára s ukončením na stole. Když Východ přidá do vráceného trefu, je jasné, že je to jeho poslední tref a úplně poslední karta je pikové eso. Dáváte tedy trefové eso a dáma vypadne.
 </p>
 <p>
-B3 – zdvihů mám dvanáct, ale blokují se mi kára, a když se budou trumfy dělit 4-1 nebudu mít přestup do ruky, k vyřešení stačí, aby se kára dělila nejhůře 5-1, před trumfováním zahraji jednou kára a trumfuji, na čtvrtý trumf pak odhodím druhé blokující káro
+Tento list ukazuje zajímavý logický bod. Přestože Východ drží jen jednu barvu, je skvízován ve dvou barvách. Je to tedy skvíz? Odpověď je rezolutní – ano. I když jsou trefy Východu ve své podstatě bezcenné, zakrývají usilovně fakt, že dáma vypadne. Tomuto typu skvízu se říká dopočítaný skvíz – show-up skvíz.
+</p>
+</example>
+<p>
+A teď se pusťme do dnešního hlavního tématu.
+</p>
+<h2>
+Vienna coup
+</h2>
+<p>
+Předpokládejme, že Východ má být rozdrcen. Nadějky jsou rozděleny. Když je skvíz dosažený, Sever musí mít jednu volnou ztrátovou kartu, protože když ji nemá, bude skvízován před Východem. Samostatná existence nadějky v ruce Jihu vytváří prostor pro jednu volnou kartu v protilehlé ruce. Ale existuje situace, ve které vzniknou potíže, konkrétně když Sever drží winéra v každé skvízové barvě. Pak, když nebudete dávat pozor, budou tyto těžkosti osudné.
+</p>
+<ol class="alpha print-columns">
+<li><distribution>
+<hand position="north">
+<spades>
+5
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+T4
+</diamonds>
+<clubs>
+A5
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+J7
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+5
+</diamonds>
+<clubs>
+Q6
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+-
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+98
+</diamonds>
+<clubs>
+K87
+</clubs>
+</hand>
+</distribution></li>
+<li>
+<distribution>
+<hand position="north">
+<spades>
+5
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+T4
+</diamonds>
+<clubs>
+A5
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+J7
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+5
+</diamonds>
+<clubs>
+Q6
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+-
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+98
+</diamonds>
+<clubs>
+K87
+</clubs>
+</hand>
+</distribution>
+</li>
+</ol>
+
+
+<p>
+Když v příkladě a) vynesete teď pik, na poslední pik bude muset Sever zahodit buď k4, uvolňující Východu károvou zádrž, nebo t5, což uvolní zádrž trefovou, protože trefová nadějka Jihu je blokovaná. Skvíz je tedy zrušen, protože Sever je skvízován před Východem. Náprava se lehce najde. Obtáhneme trefové eso a pikovým návratem můžeme stáhnout další piku s odhozem trefové pětky, která je teď pro tento účel volná. Východ je bezmocný. Toto zahrání se jmenuje Vienna coup. Formální definice zní: Vinna coup je hra, ve které hlavní hráč stáhne všechny své winéry v jedné nadějkové barvě před zahráním skvízové karty, aby zabránil hrozbě zablokování této nadějky.
 </p>
 <p>
-B4 – v prvním zdvihu se pokusím zabezpečit proti trefům 4-4, první káro samozřejmě propouštím (co kdyby Západ nesl od K,J,10), ale do krále musím zahodit dámu, abych měl impasovou pozici v kárech, pik vezmu, vytrumfuji, hraji trefy, a když při druhém vidím, že se mi nedělí, zaimpasuji v kárech a na káro ztrátový tref zahodím
+Vienna coup tedy chrání hlavního hráče před zablokováním se.
 </p>
 <p>
-B5 – v prvním zdvihu zkusím dámu ze stejného důvodu jako v minulém příkladě a opět nejsem úspěšný, mám tři ztrátové zdvihy v černých barvách, a proto musím uhrát všechny trumfy, hraji malou k esu a spadne z Východu kluk, přejdu kárem do ruky a hraji impas na trumfovou dámu, protože kdyby měl Východ Q,J v srdcích, asi by se pokusil zahodit dámu
+Podívejte se na příklad b). Tatáž pozice s tím, že drcen je Západ. Sever zde odhazuje za obětí a skvíz tedy bude určitě fungovat, když teď stáhneme piky (zkontrolujte to), ale s vtipným odhozem Západu bude nemožné zjistit, které zádrže se vzdal (mohl by bez zaváhání, abyste neměli stín podezření, osinglovat svého krále, místo aby odhodil od obou levných barev). Obtíž je stejná jako když máme obě nadějky v jedné ruce a lék je tentýž – prostě stáhnete winéra Severu v této barvě před skvízovým zdvihem. Tato hra se může jmenovat pseudo Vienna coup.
 </p>
 <p>
-B6 – nebezpečný soupeř je Západ, který mi může podnést trefy, proto až si vezmu pikové eso, hned impasuji srdce proti Východu
+Pravidlo zní, když Jih drží skvízovou kartu a jednu z nadějek a nemá vstup ani v jedné z nadějkových barev a Sever má winéry v obou nadějkových barvách, stáhněte winéra v nadějkové barvě Jihu před skvízovým zdvihem, tj. vykonejte Vienna coup.
 </p>
 <p>
-B7 – v pikách budu chtít zahrát dvojitý impas, musím se trochu pojistit proti nepříjemným rozlohám a zkracování, z dražby to vypadá, že Západ má srdcový 6-list, proto první srdce propustím, druhé vezmu, pak hraji eso pikové ze stolu a pik do impasu
+Zrekapitulujme: Proti Východu (skutečný Vienna coup), pokud je indikován, je nutno tento manévr provést. Když to z nějakého důvodu není možno vykonat (jak se někdy stává), skvíz nebude účinný, přestože při první kontrole jsou všechny podmínky splněny. Proti Západu (pseudoVienna coup) není toto zahrání bezpodmínečně nutné, ale pro odstranění pochyb se má provést, pokud tomu nebrání nějaké jiné, větší nebezpečí.
+</p>
+<example number="2">
+<distribution>
+<hand position="north">
+<spades>
+AK3
+</spades>
+<hearts>
+AT63
+</hearts>
+<diamonds>
+J5
+</diamonds>
+<clubs>
+Q864
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+J97
+</spades>
+<hearts>
+K4
+</hearts>
+<diamonds>
+T64
+</diamonds>
+<clubs>
+AKJ92
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+QT4
+</spades>
+<hearts>
+QJ52
+</hearts>
+<diamonds>
+982
+</diamonds>
+<clubs>
+T73
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+8652
+</spades>
+<hearts>
+987
+</hearts>
+<diamonds>
+AKQ73
+</diamonds>
+<clubs>
+5
+</clubs>
+</hand>
+<auction dealer="N">
+    <bid level="1" suit="H"/>
+<bid value="pass"/>
+<bid level="2" suit="c"/>
+<bid level="2" suit="d"/>
+<bid level="3" suit="c"/>
+<bid value="pass"/>
+<bid level="4" suit="c"/>
+<bid value="pass"/>
+<bid level="5" suit="c"/>
+<bid value="pass"/>
+<bid value="pass"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="Kd"/>
+</distribution>
+<p>
+Obránci si vezmou první dva zdvihy v kárech a Západ vynese srdcovou devítku, vezmete ji králem, trumfnete jednou, oba přiznají, trumfnete podruhé a Západ odhazuje káro.
 </p>
 <p>
-B8 – jediné nebezpečí jsou srdce 4-1, proti tomu se pojistím tak, že propustím první srdce
+Když drží kterýkoliv obránce drahé figury, může být skvízován (zkontrolujte to). Dávejte pozor na vaše kroky! Sever má winéry v obou nadějkových barvách, Jih v žádné. Musíte stáhnout pikové figury, dokud máte vstup zpátky do ruky. Tedy snap kára trumfovou dámou, odehrání pikových figur na stole (Vienna coup), dohrát trefy. Sledujete jen pikovou dámu. Neopomeňte, že když vezmete v pátém zdvihu na stole, ztratíte kontrolu.
 </p>
 <p>
-B9 – k úspěšnému splnění potřebuji uhodnout dámu pikovou, sehrávka mi ukáže A,K v srdcích u Západu a A,K v kárech u Východu, zahraji tedy tref a trefové eso prozradí, kdo nemůže mít pikovou dámu, protože by dražil. Kdo má A,K v červené barvě a ještě eso trefové, má už 11 bodů a s dámou v pikách by zahájil dražbu
+Tohle už je na časování docela náročný příklad.
+</p>
+</example>
+<example number="3">
+<distribution>
+<hand position="north">
+<spades>
+AK32
+</spades>
+<hearts>
+A965
+</hearts>
+<diamonds>
+A9
+</diamonds>
+<clubs>
+AK5
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+Q54
+</spades>
+<hearts>
+KQJT2
+</hearts>
+<diamonds>
+K5
+</diamonds>
+<clubs>
+932
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+T976
+</spades>
+<hearts>
+7
+</hearts>
+<diamonds>
+QT76
+</diamonds>
+<clubs>
+QJT6
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+J8
+</spades>
+<hearts>
+843
+</hearts>
+<diamonds>
+J8432
+</diamonds>
+<clubs>
+874
+</clubs>
+</hand>
+<auction onesided="true" dealer="N">
+<bid level="1" suit="c"/>
+<bid level="1" suit="H"/>
+<bid level="2" suit="S"/>
+<bid level="4" suit="N"/>
+<bid level="5" suit="c"/>
+<bid level="5" suit="N"/>
+<bid level="6" suit="H"/>
+<bid level="7" suit="H"/>
+<bid value="pass"/>
+</auction>
+</distribution>
+<p>
+Král bere zdvih, Východ přidává trefovou dámu. Když se piky nerozpadnou, jediná šance je, že Východ má tuto barvu společně s namarkovanými trefy. Vytrumfujte, stáhněte trefové eso (Vienna coup), po kárech zbytek srdcí a sledujte jedině trefovou desítku a kluka.
 </p>
 <p>
-B10 – jsou dvě možnosti jak uhrát závazek, buď hrát na dubl Q,J v trefech nebo na singl figuru u Východu, pomůže mi dopočítání rozlohy, první dva zdvihy bere Východ a dává snap trumfovým esem Západu, ten nese káro, vezmu odtrumfuji, obehraji kára a dopočtu rozlohu
+Doporučujeme přehrát si rozdání z této lekce vícekrát, nejdříve s návodem a potom samostatně se všemi dosažitelnými úvahami.
 </p>
+</example>
+<example number="4">
+<distribution>
+<hand position="north">
+<spades>
+AJ4
+</spades>
+<hearts>
+T74
+</hearts>
+<diamonds>
+AKJ
+</diamonds>
+<clubs>
+AQJ9
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KQ9852
+</spades>
+<hearts>
+J53
+</hearts>
+<diamonds>
+53
+</diamonds>
+<clubs>
+84
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+3
+</spades>
+<hearts>
+AK862
+</hearts>
+<diamonds>
+QT7
+</diamonds>
+<clubs>
+KT52
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+T76
+</spades>
+<hearts>
+Q9
+</hearts>
+<diamonds>
+98642
+</diamonds>
+<clubs>
+763
+</clubs>
+</hand>
+
+<auction dealer="E">
+<bid level="1" suit="H"/>
+<bid value="pass"/>
+<bid value="pass"/>
+<bid value="X"/>
+<bid value="pass"/>
+<bid level="2" suit="S"/>
+<bid value="pass"/>
+<bid level="4" suit="S"/>
+<bid value="pass"/>
+<bid value="pass"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="QH"/>
+</distribution>
+<p>
+Do prvního zdvihu přidává Východ povzbudivě dvojku, srdcovou devítku si bere králem, na srdcové eso zahazuje Západ károvou osmičku a Východ vynáší trumf.
+</p>
+<p>
+Trefový impas není podle dražby dobrý. Kromě kárového impasu (který ale asi také nesedí) máme ještě jednu možnost – jestliže má Východ károvou dámu a současně trefového krále s desítkou, může být skvízován, protože trefovou nadějkou může být osmička, která je ve vyšší ruce. Stáhněte tedy trefové eso (Vienna coup) a kárového krále a pak spusťte trumfy.
+</p>
+<p>
+V průběhu dvanáctého zdvihu budete v dilematu, zda funguje skvíz nebo se vyžaduje impas. Představte si třeba károvou dámu zaměněnou za devítku. Kárová desítka Východu neznamená nic, protože to může být klamavá karta. Selhání hry na vypadnutí (skvíz) znamená jeden pád, selhání impasu dva pády. Také bez kárové dámy by mohl Východ zahájit (i když…). Zahrajete tedy na vypadnutí, ale může to být špatně. Rozhodnutí je těžké.
+</p>
+<p>
+Všimněte si, že Vienna coup netransformoval nadějku ze Severu na Jih. Sever, který drží károvou nadějku, nemůže držet také druhou nadějku proti Východu a vy nemůžete přetransformovat ze Severu na Jih něco, co Sever nikdy neměl.
+</p>
+<p>
+Samozřejmě má hrát Východ do prvního zdvihu srdcovou šestku jako náznak na trefy. Po trefové vratce závazek nic nespasí. Ale i Západ může vidět, že jeho partner má trefového krále, to znamená, že mohl neposlechnout a otevřít smrtelný tref.
+</p>
+</example>
+<example number="5">
+<p>
+Ještě jeden příklad na vídeňské zahrání s analýzou průběhu.
+</p>
+<distribution>
+<hand position="north">
+<spades>
+Q
+</spades>
+<hearts>
+6532
+</hearts>
+<diamonds>
+AKQ632
+</diamonds>
+<clubs>
+AT
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A
+</spades>
+<hearts>
+AKQJT98
+</hearts>
+<diamonds>
+54
+</diamonds>
+<clubs>
+Q52
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+K96543
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+JT987
+</diamonds>
+<clubs>
+K4
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+JT872
+</spades>
+<hearts>
+74
+</hearts>
+<diamonds>
+-
+</diamonds>
+<clubs>
+J98763
+</clubs>
+</hand>
+<deal-contract>
+    <contract level="3" suit="H" declarer="S"/>
+</deal-contract>
+<leadcard value="JS"/>
+</distribution>
+<p>
+Západ vynesl pikového kluka, kterého vzal vydražitel esem a dvakrát trumfnul. Pak vynesl káro, které vzal dámou, a přitom zjistil smutnou skutečnost, že kára se dělí 5-0. Odehrál nyní trefové eso (příprava skvízu, Vinna coup), po čemž se vrátil do ruky trumfem. Teď vydražitel odehrál tři další kola trumfů a takto vypadala situace po devátém zdvihu:
+</p>
+<distribution>
+<hand position="north">
+<spades>
+-
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+AK63
+</diamonds>
+<clubs>
+-
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+-
+</spades>
+<hearts>
+8
+</hearts>
+<diamonds>
+5
+</diamonds>
+<clubs>
+Q5
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+-
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+JT9
+</diamonds>
+<clubs>
+K
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+T
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+-
+</diamonds>
+<clubs>
+J98
+</clubs>
+</hand>
+</distribution>
+<p>
+Když Jih vynesl svůj poslední trumf a přitom odhodil ze stolu káro, Východ zjistil, že neudrží zároveň kára a trefového krále. Kdyby se rozloučil s kárem, stala by se kárová šestka stolu vítěznou. Kdyby místo toho odhodil trefového krále, stala by se vysokou vydražitelova dáma trefová. Všimněte si, že kdyby se neodehrálo předem trefové eso, skvíz by nefungoval. Předpokládejme, že po vytrumfování a vynesení kára k dámě by se vydražitel vrátil do ruky k odehrání svých zbývajících trumfů. Po osmém zdvihu by nastala jiná situace:
+</p>
+<distribution>
+<hand position="north">
+<spades>
+-
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+AK6
+</diamonds>
+<clubs>
+AT
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+-
+</spades>
+<hearts>
+8
+</hearts>
+<diamonds>
+5
+</diamonds>
+<clubs>
+Q52
+</clubs>
+</hand>
+<hand position="east">
+<spades>
+-
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+JT9
+</diamonds>
+<clubs>
+K4
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+T8
+</spades>
+<hearts>
+-
+</hearts>
+<diamonds>
+-
+</diamonds>
+<clubs>
+J98
+</clubs>
+</hand>
+</distribution>
+<p>
+Kdyby nyní vydražitel hrál svůj poslední trumf a odhodil trefovou desítku, Východ by prostě odhodil svou trefovou čtyřku věda, že se vydražitel nemůže vrátit do ruky k odehrání trefové dámy. Ale při dřívějším odehrání trefového esa se vydražitelova dáma stane nadějkou a Východ nemůže odhodit svého trefového krále.
+</p>
+</example>
+<literature>
+<li>
+<author>C.E.Love</author>
+<title>Všechno o skvízech</title>
+</li>
+<li>
+<author>J.Hájek</author>
+<title>Nauč se skvízovat</title>
+</li>
+</literature>
 </lesson>

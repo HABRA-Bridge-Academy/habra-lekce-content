@@ -29,13 +29,10 @@ A
 KQJT9
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="7" suit="NT" declarer="S"/>
+    <contract level="7" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-sK
-</leadcard>
+<leadcard value="KH"/>
 <p>
 Rozloha karet je jistě dosti divoká a podle toho také vypadala dražba:
 </p>
@@ -59,7 +56,7 @@ Rozloha karet je jistě dosti divoká a podle toho také vypadala dražba:
 <bid value="pass" />
 <bid value="pass" />
 </auction>
-
+</distribution>
 <p>
 Západ proti tomuto závazku vynáší srdcového krále, což je jediný výnos, který umožňuje hlavnímu hráči splnit závazek. Jak?
 </p>
@@ -130,13 +127,11 @@ AT4
 Q63
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="6d">
-k6
-</leadcard>
+<leadcard value="6d"/>
+</distribution>
 <p>
 Jih to trochu přehnal, když zahájil dražbu hláškou dva bez trumfů, které Sever zvýšil samozřejmě na tři bez trumfů. Proti tomuto závazku vynesl Západ károvou šestku, a když ze stolu hraje malou, Východ přidává devítku. Jak má Jih plánovat sehrávku?
 </p>
@@ -210,13 +205,13 @@ A5
 T986
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
 <leadcard value="Kd">
 kK, kQ
 </leadcard>
+</distribution>
 <p>
 Proti závazku Jihu tři bez trumfů vynáší Západ kárového krále, a když Jih propouští, pokračuje dámou. Jak má Jih po vzetí tohoto zdvihu esem pokračovat?
 </p>
@@ -290,13 +285,11 @@ K986
 AKT2
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-sK
-</leadcard>
+<leadcard value="KH"/>
+</distribution>
 <p>
 Na zahájení Jihu jeden bez trumfů zasáhl Západ hláškou dvě srdce. Jelikož linka N-S byla ve druhé hře, Sever nekontroval, ale skočil hned na tři bez trumfů. Západ proti tomuto závazku vynesl celkem samozřejmě srdcového krále. Jak má Jih závazek sehrávat?
 </p>
@@ -376,13 +369,13 @@ T4
 QJT92
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
 <leadcard value="KS">
 pK, pQ
 </leadcard>
+</distribution>
 <p>
 Po zahájení Severu dvě kára sehrává Jih nakonec závazek tři bez trumfů. Západ vynáší proti tomuto závazku pikového krále. Jak má hlavní hráč plánovat sehrávku?
 </p>
@@ -456,13 +449,11 @@ T9842
 Q3
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="JS">
-pJ
-</leadcard>
+<leadcard value="JS"/>
+</distribution>
 <p>
 Jak má Jih sehrávat závazek tři bez trumfů po výnosu pikovým klukem?
 </p>
@@ -506,8 +497,6 @@ A tak když zahrál Jih ze stolu malý tref na expas k dámě, Západ pokryl kr
 Závěr: Při sehrávání závazku je třeba si udělat kompletní plán sehrávky. Ovšem je nutno pamatovat také na to, že sebemenší trhlinka v plánu má za následek zřícení celé stavby.
 </p>
 </example>
-
-
 <literature>
 <li>
 <author>Reese, Trézel</author>

@@ -19,8 +19,9 @@ dotaz na možnou spolupráci
 <p>
 Cue-bidy dražte v situaci, kdy je sfitována barva. Pak skok v nové barvě je cue-bid.
 </p>
-<auction onesided="true" dealer="S">
-<bid level="1" suit="S" />
+<div class="print-columns">
+    <auction onesided="true" dealer="S">
+        <bid level="1" suit="S" />
 <bid level="2" suit="S" />
 <bid level="4" suit="C" />
 </auction>
@@ -31,6 +32,7 @@ Cue-bidy dražte v situaci, kdy je sfitována barva. Pak skok v nové barvě j
 <bid level="3" suit="H" />
 <bid level="4" suit="C" />
 </auction>
+</div>
 <p>
 V obou těchto příkladech jsou 4t prvním cue-bidem. Stejně tak je prvním cue-bidem zalicitování nové barvy po mancheforcingu partnera a ushodnění:
 </p>
@@ -62,8 +64,9 @@ Zásada ekonomie
 <p>
 Zásada ekonomie zní: Zalicitovaný cue-bid signalizuje nejbližší zádrž, kterou v dané situaci může hráč dražit. Z této zásady plyne, že jestliže licitovaný cue-bid vynechává některou barvu, pak v ní zádrž nemáme.
 </p>
-<auction dealer="S" onesided="true">
-<bid level="1" suit="D" />
+<div class="print-columns">
+    <auction dealer="S" onesided="true">
+        <bid level="1" suit="D" />
 <bid level="2" suit="H" />
 <bid level="3" suit="H" />
 <bid level="4" suit="D" />
@@ -78,6 +81,7 @@ Zásada ekonomie zní: Zalicitovaný cue-bid signalizuje nejbližší zádrž, k
 <bid level="3" suit="N" />
 <bid level="4" suit="H" />
 </auction>
+</div>
 <p>
 V obou případech Východ nezalicitoval cue-bid trefový. Znamená to tedy, že nemá v trefech zádrž ani druhého kola. Jestliže nyní Západ nemá zádrž trefovou, nesmí licitovat nic jiného než negat, tj. vrátit se na barvu trumfů (srdce). To je samozřejmě logické, neboť ví, že v trefech je díra, protože ani jeden z partnerů nemá zádrž v trefové barvě. Ve druhém případě 3s znamenala napřed dotaz po zádrži do beztrumfů, který mohl být licitován i s Q,J,x. Teprve 4s informují o tom, že 3s byl cue-bid a zároveň licitací 4s informuje o tom, že cue-bidující nemá zádrž prvního nebo druhého kola v trefech, protože cue-bid trefový byl vynechán. Kdyby Západ měl zádrž v trefech, licitoval by 5t (c.b.) a bez ní 5k. Tato metoda tedy skýtá neocenitelnou výhodu, že se vám nestane, že byste vydražili slem a neměli eso a krále v jedné barvě. Tento komfort u Blackwooda nemáte.
 </p>
@@ -87,6 +91,7 @@ Zásada neutrální a pozitivní akceptace
 <p>
 Prvním cue-bidem dává partner najevo zájem o slemovou hru. Je tudíž normální, že jeho partner s ním spolupracuje, licitujíc své vlastní zádrže (zásada spolupráce). Dodržujíc zásadu spolupráce, partner ne vždy odpovídá cue-bidem. Vše záleží na průběhu a výši dražby. Dokumentujme si to na následujících příkladech:
 </p>
+<div class="print-columns">
 <auction dealer="S" onesided="true">
 <bid level="1" suit="D" />
 <bid level="2" suit="H" />
@@ -101,6 +106,7 @@ Prvním cue-bidem dává partner najevo zájem o slemovou hru. Je tudíž normá
 <bid level="4" suit="S" />
 <bid level="5" suit="C" />
 </auction>
+</div>
 <p>
 V první sekvenci je zalicitování cue bidu (4k) pod hranicí hry cue bidem neutrálním, tzn. že nemusím akceptovat žádost partnera o licitaci slemu. Je možné ho dát i s absolutním minimem. Naproti tomu ve druhém případě Východ licitoval cue-bid 5t a dostal se tak nad hranici celé hry. Je to tudíž pozitivní cue-bid a znamená to, že licitující má rezervu. Jedině v případě, že se hráč domnívá, že při výhodně umístěných figurách je slem možný, může licitovat pozitivní cue-bid i bez rezervy (s minimem) a naopak. Z uvedeného je vidět, že rozhodnutí o zalicitování pozitivního cue bidu záleží výlučně od subjektivního ocenění situace hráčem, který je na řadě v licitaci.
 </p>

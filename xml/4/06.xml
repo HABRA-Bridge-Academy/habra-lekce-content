@@ -65,76 +65,76 @@ Popis odpovědí
 Další dražba
 </h3>
 <bidding>
-    <header>
-    <sequence>
-    <bid level="2" suit="c"/>
-    <bid level="2" suit="d"/>
-    <bid value="?"/>
-    </sequence>
-    </header>
-    <entry>
-    <action>
-    <bid level="2" suit="h"/>
-    </action>
-    <explanation>Kokishova konvence: buď přirozené 5+list <heart/>, nebo GF s pravidelnou rozlohou (alespoň dobrých 25 bodů). Odpovídající musí povinně dražit <bid level="2" suit="S"/> a zahajitel ukáže, kterou variantu má:
-        <bidding>
-            <entry>
-                <action><bid level="2" suit="NT"/></action>
-                <explanation>GF, pravidelná rozloha. Další dražba stejná jako po zahájení <bid level="2" suit="NT"/>.</explanation>
-            </entry>
-            <entry>
-                <action><bid level="3" suit="H"/></action>
-                <explanation>přirozené, odpovídající může pasovat pouze s naprosto ničemným listem</explanation>
-            </entry>
-            <entry>
-                <action>dražba jiné barvy na třetím stupni může ukazovat dvojbarevný list s GF s 5+list <heart/></action>
-            </entry>
-        </bidding>
-    </explanation>
-    </entry>
-    <entry>
-    <action>
-    <bid level="2" suit="S"/>
-    </action>
-    <explanation>5+list <spade/>, F1. Odpovídající draží přirozeně GF nebo <bid level="3" suit="c"/> jako druhou negativku ukazující naprosto ničemný list (<bid level="3" suit="S"/> od zahajitele jsou potom pasovatelné).</explanation>
-    </entry>
-    <entry>
-    <action>
-    <bid level="2" suit="NT"/>
-    </action>
-    <explanation>21-22 bodů, pravidelná rozloha. Další dražba stejná jako po zahájení <bid level="2" suit="NT"/>.</explanation>
-    </entry>
-    <entry>
-    <action>
-    <bid level="3" suit="c"/>
-    </action>
-    <explanation>5+list <club/>, F1. Odpovídající draží přirozeně GF nebo <bid level="3" suit="d"/> jako druhou negativku ukazující naprosto ničemný list (<bid level="4" suit="c"/> od zahajitele jsou potom pasovatelné).</explanation>
-    </entry>
-    <entry>
-    <action>
-    <bid level="3" suit="d"/>
-    </action>
-    <explanation>5+list <diamond/>, GF. Není prostor pro druhou negativku, dál se draží přirozeně.</explanation>
-    </entry>
-    <entry>
-    <action>
-    <bid level="3" suit="h"/>
-    </action>
-    <explanation>typicky 6<spade/>322, 8–10 bodů (nedraží přirozeně, aby se případně hrálo ze silnější ruky)</explanation>
-    </entry>
-    <entry>
-    <action>
-    <bid level="3" suits="SH"/>
-    </action>
-    <explanation>6+list <heart/>/<spade/>, GF.</explanation>
-    </entry>
-    <entry>
-        <action>
-        <bid level="4" suits="cd"/>
-        </action>
-        <explanation>prosazení trumfové barvy, odpovídající draží povinně ceu-bidy.</explanation>
-        </entry>
-    </bidding>
+<header>
+<sequence>
+<bid level="2" suit="c"/>
+<bid level="2" suit="d"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action>
+<bid level="2" suit="h"/>
+</action>
+<explanation>Kokishova konvence: buď přirozené 5+list <heart/>, nebo GF s pravidelnou rozlohou (alespoň dobrých 25 bodů). Odpovídající musí povinně dražit <bid level="2" suit="S"/> a zahajitel ukáže, kterou variantu má:
+<bidding>
+<entry>
+<action><bid level="2" suit="NT"/></action>
+<explanation>GF, pravidelná rozloha. Další dražba stejná jako po zahájení <bid level="2" suit="NT"/>.</explanation>
+</entry>
+<entry>
+<action><bid level="3" suit="H"/></action>
+<explanation>přirozené, odpovídající může pasovat pouze s naprosto ničemným listem</explanation>
+</entry>
+<entry>
+<action>dražba jiné barvy na třetím stupni může ukazovat dvojbarevný list s GF s 5+list <heart/></action>
+</entry>
+</bidding>
+</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="S"/>
+</action>
+<explanation>5+list <spade/>, F1. Odpovídající draží přirozeně GF nebo <bid level="3" suit="c"/> jako druhou negativku ukazující naprosto ničemný list (<bid level="3" suit="S"/> od zahajitele jsou potom pasovatelné).</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="NT"/>
+</action>
+<explanation>21-22 bodů, pravidelná rozloha. Další dražba stejná jako po zahájení <bid level="2" suit="NT"/>.</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="c"/>
+</action>
+<explanation>5+list <club/>, F1. Odpovídající draží přirozeně GF nebo <bid level="3" suit="d"/> jako druhou negativku ukazující naprosto ničemný list (<bid level="4" suit="c"/> od zahajitele jsou potom pasovatelné).</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="d"/>
+</action>
+<explanation>5+list <diamond/>, GF. Není prostor pro druhou negativku, dál se draží přirozeně.</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="h"/>
+</action>
+<explanation>typicky 6<spade/>322, 8–10 bodů (nedraží přirozeně, aby se případně hrálo ze silnější ruky)</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suits="SH"/>
+</action>
+<explanation>6+list <heart/>/<spade/>, GF.</explanation>
+</entry>
+<entry>
+<action>
+<bid level="4" suits="cd"/>
+</action>
+<explanation>prosazení trumfové barvy, odpovídající draží povinně ceu-bidy.</explanation>
+</entry>
+</bidding>
 <h3>
 Ostatní odpovědi
 </h3>
@@ -150,6 +150,7 @@ Doporučujeme využít metodu ztrátových zdvihů. Při tomto hodnocení listu 
 <p>
 Příklady:
 </p>
+<div class="print-columns" columns="3">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -180,18 +181,18 @@ J642
 865
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="S">
-    <bid level="2" suit="c" note="rovnovážná 25+"/>
-    <bid level="2" suit="d" note="Kokish"/>
-    <bid level="2" suit="h"/>
-    <bid level="2" suit="s"/>
-    <bid level="2" suit="NT" note="25+, vyvážená"/>
-    <bid level="3" suit="c" note="Stayman"/>
-    <bid level="3" suit="S"/>
-    <bid level="4" suit="S"/>
-    <bid value="pass"/>
+<bid level="2" suit="c" note="rovnovážná 25+"/>
+<bid level="2" suit="d" note="Kokish"/>
+<bid level="2" suit="h"/>
+<bid level="2" suit="s"/>
+<bid level="2" suit="NT" note="25+, vyvážená"/>
+<bid level="3" suit="c" note="Stayman"/>
+<bid level="3" suit="S"/>
+<bid level="4" suit="S"/>
+<bid value="pass"/>
 </auction>
+</distribution>
 <p>
 Kdyby zahajitel pokračoval Blackwoodem, nemohl by to být dotaz na esa, protože počtem kontrol v prvním kole odpovídající ukázal, že eso nemá. Logické by tedy bylo, aby to byl dotaz na krále a je také důležitá dohoda, jestli mezi ně zahrnuji i trumfovou dámu
 </p>
@@ -226,13 +227,13 @@ J8652
 T743
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="S">
 <bid level="2" suit="C" />
 <bid level="2" suit="H" />
 <bid level="4" suit="S" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Hlavní hráč ví o dvou kontrolách. Pokud je to eso pikové nebo kárové, bude to na impas, pokud je to trefové, lze si stáhnout z výkopu pik a káro. Když bude mít odpovídající dva krále, slam zřejmě splnit nepůjde.
 </p>
@@ -267,7 +268,6 @@ A7
 653
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="S">
 <bid level="2" suit="C" />
 <bid level="2" suit="S" />
@@ -278,6 +278,7 @@ A7
 <bid level="4" suit="S" />
 <bid value="pass" />
 </auction>
+</distribution>
 </example>
 <example number="4">
 <distribution>
@@ -309,13 +310,13 @@ K5
 974
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="S">
-    <bid level="1" suit="d" note="i když mám 4 ztrátové zdvihy, bude rozumnější zahájit kárem, abychom objevili případný fit v srdcích"/>
-    <bid level="1" suit="H" />
-    <bid level="4" suit="H"  />
-    <bid value="pass" />
+<bid level="1" suit="d" note="i když mám 4 ztrátové zdvihy, bude rozumnější zahájit kárem, abychom objevili případný fit v srdcích"/>
+<bid level="1" suit="H" />
+<bid level="4" suit="H"  />
+<bid value="pass" />
 </auction>
+</distribution>
 </example>
 <example number="5">
 <distribution>
@@ -347,15 +348,15 @@ A853
 QT64
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="S">
 <bid level="2" suit="C" />
 <bid level="2" suit="H" />
 <bid level="2" suit="S" />
 <bid level="3" suit="d" note="ukazuji, kde mám kontroly"/>
 <bid level="6" suit="S" />
-    <bid value="pass" />
+<bid value="pass" />
 </auction>
+</distribution>
 <p>
 Podle dražby zahajitel vidí, že má partner eso kárové a určitě nemá eso pikové
 </p>
@@ -390,7 +391,6 @@ J652
 8763
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="S">
 <bid level="2" suit="C" />
 <bid level="2" suit="d" />
@@ -399,8 +399,10 @@ J652
 <bid level="4" suit="s" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
-Zahajitel nesmí dražit 3s, protože ty jsou pasovatelné a manši hrát rozhodně chce, slam ne, protože mu chybí dvě esa
+Zahajitel nesmí dražit <bid level="3" suit="s" />, protože ty jsou pasovatelné a manši hrát rozhodně chce, slam ne, protože mu chybí dvě esa
 </p>
 </example>
+</div>
 </lesson>

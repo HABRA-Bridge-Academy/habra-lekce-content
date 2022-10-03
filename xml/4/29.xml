@@ -29,13 +29,10 @@ AJ984
 AKQ
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="JS">
-pJ
-</leadcard>
+<leadcard value="JS"/>
 <auction dealer="S">
 <bid level="1" suit="d" />
 <bid level="1" suit="S" />
@@ -48,6 +45,7 @@ pJ
 <bid value="pass" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Kontra Severu bylo konvenční (Sputnik), které znamenalo 7-10 bodů a nejméně srdcový 4-list. Jak má Jih pokračovat v sehrávce, když po výnosu pikovým klukem získává zdvih dámou na stole?
 </p>
@@ -121,13 +119,10 @@ QJ93
 K54
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="QH">
-sQ
-</leadcard>
+<leadcard value="QH"/>
 <auction dealer="N">
 <bid value="pass" />
 <bid value="pass" />
@@ -140,6 +135,7 @@ sQ
 <bid value="pass" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Jak má Jih sehrávat tento závazek po výnosu srdcovou dámou?
 </p>
@@ -213,13 +209,11 @@ AQ4
 T94
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="6H">
-s6
-</leadcard>
+<leadcard value="6H"/>
+</distribution>
 <p>
 Jak má Jih sehrávat závazek <bid level="3" suit="NT"/>, když po výnosu srdcovou šestkou zůstává devítkou u zdvihu?
 </p>
@@ -304,19 +298,17 @@ K9
 AJ7
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Qc">
-tQ
-</leadcard>
+<leadcard value="Qc"/>
 <p>Obě linky v první hře</p>
 <auction onesided="true" dealer="S">
 <bid value="pass" />
 <bid value="pass" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Jak má Jih tento závazek sehrávat po výnosu Západu trefovou dámou?
 </p>
@@ -393,13 +385,10 @@ K952
 A4
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-tK
-</leadcard>
+<leadcard value="Kc"/>
 <auction dealer="S">
 <bid level="1" suit="S" />
 <bid level="2" suit="c" />
@@ -410,6 +399,7 @@ tK
 <bid value="pass" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Jak má Jih plánovat sehrávku po výnosu králem trefovým?
 </p>
@@ -453,12 +443,12 @@ Jak se ukázalo, trumfy byly děleny 3-1, a tak Jih musel trumfnout třikrát. Z
 Závěr: V mnoha rozdáních má hlavní hráč možnost vybrat si mezi zahráním přímého impasu nebo trumfového impasu v této barvě proti druhému obránci, jako je tomu např. v této ukázce:
 </p>
 <distribution>
-    <suit position="north">
-        AQJT4
-    </suit>
-    <suit position="south">
-        4
-    </suit>
+<suit position="north">
+AQJT4
+</suit>
+<suit position="south">
+4
+</suit>
 </distribution>
 <p>
 V závislosti na dalších okolnostech v rozdání má Jih možnost zahrát v prvním zdvihu impas na krále nebo po odehrání esa zahrát dámou a impasovat trumfem krále u Východu. Obdobná varianta může nastat, když Jih nemá v ruce singla, ale dvě karty, z nichž si však jednu může během sehrávky odhodit na vedlejší barvu, než se rozhodne uskutečnit tento manévr, jak tomu bylo v probraném rozdání.
@@ -494,13 +484,10 @@ AQ42
 QJT4
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="1" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="3S">
-p3
-</leadcard>
+<leadcard value="3S"/>
 <auction onesided="true" dealer="S">
 <bid level="1" suit="N" />
 <bid level="2" suit="c" />
@@ -508,6 +495,7 @@ p3
 <bid level="3" suit="N" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Jak má Jih tento závazek sehrávat, když na vynesenou pikovou trojku hraje Východ devítku a kluk získává zdvih?
 </p>

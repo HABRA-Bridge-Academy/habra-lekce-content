@@ -57,13 +57,11 @@ KQJT82
 K9765
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="d" declarer="S"/>
+    <contract level="6" suit="d" declarer="S"/>
 </deal-contract>
-<leadcard value="7H">
-s7
-</leadcard>
+<leadcard value="7H"/>
+</distribution>
 <p>
 Hráči, kteří lehce zasahují do dražby, si neuvědomují, jak mnoho pomáhají hlavnímu hráči. V tomto rozdání zásah Východu do dražby a nepatrná chyba Západu umožnily Jihu, aby splnil malý slem ve druhé hře. Po pasu Západu Sever zahájil jedním pikem a Východ zasáhl hláškou dvě srdce. Mnoho hráčů si počíná podobně, ale nemají přitom pro to nejmenší důvod, protože o tento závazek nemohou dost dobře bojovat. Jak už to bývá, Jih rychle vydraží šest kár. Západ vynesl srdcovou sedmičku k desítce partnera a esu hlavního hráče.
 </p>
@@ -101,13 +99,10 @@ KQT3
 A84
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="JS">
-pJ
-</leadcard>
+<leadcard value="JS"/>
 <auction dealer="S">
 <bid level="1" suit="H" />
 <bid value="pass" />
@@ -123,6 +118,7 @@ pJ
 <bid value="pass" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Západ si jistě všiml, že oprava Severu na dvě srdce byla rozpačitá a že hláška Jihu čtyři srdce také nebyla příliš jistá, ale přesto nebylo moudré kontrovat. Západ vynesl pikového kluka, který byl pokryt dámou a esem. Jak má Jih pokračovat?
 </p>
@@ -196,13 +192,11 @@ AK75
 KQ8752
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="c" declarer="S"/>
+    <contract level="6" suit="c" declarer="S"/>
 </deal-contract>
-<leadcard value="Jc">
-tJ
-</leadcard>
+<leadcard value="Jc"/>
+</distribution>
 <p>
 Jih sehrává závazek šest trefů, proti němuž vynáší Západ trefového kluka. Jak má Jih pokračovat po vzetí trefovým esem na stole?
 </p>
@@ -276,13 +270,11 @@ AK
 AK52
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="S" declarer="S"/>
+    <contract level="6" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-sK
-</leadcard>
+<leadcard value="KH"/>
+</distribution>
 <p>
 Jih sehrává závazek šest piků po výnosu Západu králem srdcovým. Jak má Jih tento závazek sehrávat?
 </p>
@@ -359,13 +351,11 @@ AJT97
 863
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="d" declarer="S"/>
+    <contract level="6" suit="d" declarer="S"/>
 </deal-contract>
-<leadcard value="9S">
-p9
-</leadcard>
+<leadcard value="9S"/>
+</distribution>
 <p>
 Jak má Jih sehrávat šest kár po výnosu pikovou devítkou?
 </p>
@@ -439,13 +429,11 @@ K74
 8
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="H" declarer="S"/>
+    <contract level="6" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Qc">
-tQ
-</leadcard>
+<leadcard value="Qc"/>
+</distribution>
 <p>
 Jih sehrává slemový závazek šest srdcí a Západ proti němu vynáší trefovou dámu. Jak má Jih pokračovat po vzetí tohoto zdvihu esem na stole?
 </p>

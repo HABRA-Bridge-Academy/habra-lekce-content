@@ -1,223 +1,357 @@
-<lesson year="6" title="Vstupy II" number="24" video-id="HFAz5_RmU08">
+<lesson year="6" title="Dražba po zásahu do 1♠" number="24" video-id="HFAz5_RmU08">
+<bidding>
+<header>Po zásahu <bid value="x"/>
+</header>
+<entry>
+<action>
+<bid value="xx"/>
+</action>
+<explanation>
+8+b (vlastně transfer do <bid level="1" suit="N"/>
+)
+</explanation>
+</entry>
+<entry>
+<action>
+<bid level="1" suit="S"/>
+</action>
+<explanation>5-list, barva bez fitu</explanation>
+</entry>
+<entry>
+<action>
+<bid level="1" suit="N"/>
+</action>
+<explanation>transfer na <club/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="c"/>
+</action>
+<explanation>transfer na <diamond/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="d"/>
+</action>
+<explanation>transfer na <heart/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="H"/>
+</action>
+<explanation>lepší zvýšení</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="S"/>
+</action>
+<explanation>slabé zvýšení</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="N"/>
+</action>
+<explanation>INV+, 4+list <spade/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="c"/>
+</action>
+<explanation>barva+fit</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="d"/>
+</action>
+<explanation>barva+fit
+</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="H"/>
+</action>
+<explanation>barva+fit
+</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="S"/>
+</action>
+<explanation>preventivní
+</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>Po zásahu barvou</header>
+<entry>
+<action>
+2. stupeň
+</action>
+<explanation>nF</explanation>
+</entry>
+<entry>
+<action>
+3. stupeň
+</action>
+<explanation>F
+</explanation>
+</entry>
+<entry>
+<action>
+kontra na zásah na 2. stupni v jiné barvě než barvě zahájení do zásahu pod <bid level="2" suit="N"/>
+je negativní
+</action>
+</entry>
+<entry>
+<action>
+po zásahu pod <bid level="2" suit="N"/>: barva soupeře = INV+, s 3-listýn fitem, <bid level="2" suit="N"/> =INV+ se 4+listým fitem
+</action>
+</entry>
+<entry>
+<action>
+při vyšším zásahu: kontra = INV+ s 3-listým fitem, barva soupeřů = INV+ se 4+listým fitem
+</action>
+</entry>
+</bidding>
+<h2>Příklady</h2>
 <example number="1">
-<distribution vul="NONE">
-<hand position="north">
+<distribution>
+<hand>
 <spades>
-Q5
+9
 </spades>
 <hearts>
-74
+K4
 </hearts>
 <diamonds>
-AKJ72
+KJT8732
 </diamonds>
 <clubs>
-T643
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-JT943
-</spades>
-<hearts>
-AK
-</hearts>
-<diamonds>
-Q83
-</diamonds>
-<clubs>
-AJ9
+QT8
 </clubs>
 </hand>
 </distribution>
-<p>
-párový turnaj
-</p>
-<auction onesided="true" dealer="S">
-<bid level="1" suit="S" />
-<bid level="2" suit="d" />
-<bid level="2" suit="N" />
-<bid level="3" suit="N" />
-<bid value="pass" />
-</auction>
-<leadcard value="QH" /><p>
-Západ zaútočil na Vaši slabinu a vynesl srdcovou dámu. Jak si naplánujete sehrávku?
-</p>
-<p>
-Nebudete mít čas na vypracování piků, protože obrana má tempo k dobru, ale u jiných stolů na tom budou hlavní hráči pravděpodobně stejně. Devátý zdvih musíte udělat v trefech, což bude snadné, pokud budou trefové figury rozděleny nebo je bude mít obě Východ. Je tady i možnost vypracovat desátý zdvih v trefech, ale na to potřebujete tři vstupy na stůl – dva na impas a jeden na odehrání vysoké vypracované karty.
-</p>
-<p>
-Třetí vstup byste mohl získat převzetím kárové dámy ve druhém zdvihu. To by bylo dobré při rozloze kár 3-2, ale barva může být rozložena 4-1. Nebylo by správné riskovat nesplnění závazku za cenu nejistého nadzdvihu. Můžete si ale vylepšit možnosti běžným odblokování tak, že zahrajete károvou osmičku ke klukovi. Kdyby od Východu náhodou spadla devítka nebo desítka, otevřela by se vám cesta k nadzdvihu. Po nesedícím prvním trefovém impasu vezmete vrácené srdce a budete pokračovat károvou dámou. Když Západ přizná, můžete si bezpečně převzít králem na stole. Pak zopakujete trefový impas a odehrajete si trefové eso. Budou-li trefy 3-3, uděláte nadzdvih. Když Východ nepřizná ve druhém kole kár, zaimpasujete károvou sedmičkou a odehrajete si vysoké karty v levných. Uděláte tak deset zdvihů a tím top.
-</p>
+<div class="columns" columns="4">
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid value="x" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="2" suit="c"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="1" suit="N" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="2" suit="d"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="2" suit="c" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="2" suit="d"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="2" suit="d" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="pass"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="2" suit="H" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="pass"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="2" suit="S" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="pass"/>
+</bidding-solution>
+</div>
+</div>
 </example>
 <example number="2">
-<distribution vul="NS">
-<hand position="north">
+<distribution>
+<hand>
 <spades>
-Q54
+QT84
 </spades>
 <hearts>
-T93
+A2
 </hearts>
 <diamonds>
-QT
+J87
 </diamonds>
 <clubs>
-AK952
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-A
-</spades>
-<hearts>
-AJ85
-</hearts>
-<diamonds>
-K763
-</diamonds>
-<clubs>
-JT64
+QJ62
 </clubs>
 </hand>
 </distribution>
-<auction dealer="E">
-<bid level="1" suit="S" />
-<bid value="X" />
-<bid level="2" suit="S" />
-<bid level="3" suit="S" />
-<bid value="pass" />
-<bid level="3" suit="N" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="pass" />
-</auction>
-<leadcard value="TS" /><p>
-Vynesená piková desítka prošla k Vašemu esu. Jak si plánujete sehrávku?
-</p>
-<p>
-Pět trefů by možná šlo lépe, ale Vaším úkolem je udělat devět zdvihů v BT. Potřebujete pět trefových zdvihů a je trochu lepší hrát na vypadnutí dámy než impasovat v prvním kole. Když překonáte tuto překážku, máte dvě možnosti, jak splnit tento závazek. Buď může mít Západ kárového kluka nebo může mít Východ obě srdcové figury. Můžete se pokusit hrát na obě tyto možnosti pouze tehdy, věnujete-li dostatečnou pozornost vstupům.
-</p>
-<p>
-Toto rozdání dokumentuje význam plánování sehrávky před tím, než se vůbec dotknete nějaké karty. Předpokládejme, že zahrajete trefového kluka ke králi, eso trefové a tref k desítce a zahrajete káro k desítce. Když však Východ vezme esem a vrátí srdce, nebudete mít jinou možnost, než je propustit. Kdybyste zahrál srdcové eso, zůstala by kára zablokována. Nijak byste nemohl udělat dva kárové zdvihy a současně pátý tref na stole.
-</p>
-<p>
-Abyste se vyhnul tomuto zablokování, musíte zahrát káro k desítce hned ve druhém zdvihu. Trefy mohou počkat. Pokud impas na kluka nebude sedět, splníte závazek, když budou obě srdcové figury u Východu. Ten může zahrát pikového krále a další pik, ale když si budete odehrávat trefy, vyvinete na něho tlak a on si nebude moci udržet čtyři vysoké karty.
-</p>
+<div class="columns" columns="4">
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid value="x" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="3" suit="c"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="1" suit="N" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="2" suit="N"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="2" suit="c" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="2" suit="N"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="2" suit="d" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="2" suit="N"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="2" suit="H" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="2" suit="N"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="2" suit="S" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="x"/>
+</bidding-solution>
+</div>
+</div>
 </example>
 <example number="3">
-<distribution vul="BOTH">
-<hand position="north">
+<distribution>
+<hand>
 <spades>
-A754
+4
 </spades>
 <hearts>
-J
+K732
 </hearts>
 <diamonds>
-QT83
+QJ84
 </diamonds>
 <clubs>
-KT98
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-J3
-</spades>
-<hearts>
-AQ7
-</hearts>
-<diamonds>
-K5
-</diamonds>
-<clubs>
-A75432
+QT65
 </clubs>
 </hand>
 </distribution>
-<auction dealer="S">
-<bid level="1" suit="c" />
-<bid level="1" suit="H" />
-<bid level="3" suit="c" />
-<bid value="pass" />
-<bid level="3" suit="N" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="pass" />
-</auction>
-<leadcard value="TH" /><p>
-Západ vynesl srdcovou desítku a opět uvidíte, že by pět trefů bylo snazších. Východ zahrál srdcovou dvojku na kluka stolu. Jak si naplánujete sehrávku?
-</p>
-<p>
-Svým způsobem máte devět zdvihů, když počítáte jeden pikový, dva srdcové a šest trefových při normální rozloze. Ovšem kárové eso je pravděpodobně u Západu a po odblokování trefů se už nebudete moci dostat zpátky do ruky. Soupeři si možná budou moci vypracovat dostatečný počet zdvihů, aniž by Vám museli zahrát srdce podruhé.
-</p>
-<p>
-Ve skutečnosti máte dva rozumné způsoby, jak udělat devět zdvihů. První spočívá v zahrání kárové dámy ze stolu ve druhém zdvihu. Západ, aby Vám neumožnil kárový přechod, musí buď propustit nebo vzít esem a zahrát další káro. Když už budete mít zajištěný kárový zdvih, můžete si dovolit odblokovat trefy tak, že v nich pustíte jeden zdvih v prvním nebo druhém kole. Obrana bude moci udělat jeden trefový a tři kárové zdvihy.
-</p>
-<p>
-Ale asi nejjednodušší způsob je vzít první srdce dámou a pokračovat srdcovou sedmičkou, na kterou zahodíte jeden z blokujících trefů na stole. Druhý si shodíte na srdcové eso a cestu k odehrání trefů máte volnou.
-</p>
+<div class="columns" columns="4">
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid value="x" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="xx"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="1" suit="N" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="pass"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="2" suit="c" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="pass"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="2" suit="d" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="pass"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="2" suit="H" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="pass"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="S"/>
+<bid level="2" suit="S" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="x"/>
+</bidding-solution>
+</div>
+</div>
 </example>
-<example number="4">
-<distribution vul="NONE">
-<hand position="north">
-<spades>
-AKJ63
-</spades>
-<hearts>
-AQ4
-</hearts>
-<diamonds>
-962
-</diamonds>
-<clubs>
-T7
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-5
-</spades>
-<hearts>
-J76
-</hearts>
-<diamonds>
-AKT4
-</diamonds>
-<clubs>
-QJ983
-</clubs>
-</hand>
-</distribution>
-<auction onesided="true" dealer="N">
-<bid level="1" suit="S" />
-<bid level="2" suit="c" />
-<bid level="2" suit="S" />
-<bid level="2" suit="N" />
-<bid level="3" suit="N" />
-<bid value="pass" />
-</auction>
-<leadcard value="2H" /><p>
-Západ vynesl srdcovou dvojku. Jak si naplánujete sehrávku?
-</p>
-<p>
-Na první pohled to vypadá, že tam devět zdvihů je, když počítáme tři trefové a po dvou v každé další barvě. Podle výnosu má Západ srdcový 4-list, proto Vám nehrozí nebezpečí ztráty více než dvou srdcových zdvihů.
-</p>
-<p>
-Nebezpečí ovšem číhá někde jinde. Když dáte v prvním zdvihu ze stolu malou, Východ možná tento zdvih vezme a nevrátí srdce ale káro, čímž zaútočí na vstupy, které potřebujete k vypracování trefů. Ať již vezmete káro či nikoliv, je možné, že neuděláte více než sedm zdvihů.
-</p>
-<p>
-To by mohlo mluvit pro zahrání srdcového esa v prvním zdvihu a rozehrání trefů ve druhém, ale tento způsob rozehrávky je zranitelný vůči určitým rozlohám. Východ třeba může vzít první tref a vrátit káro nebo může vzít tento zdvih Západ a vrátit pik a v obou případech si možná obránci vypracují pět zdvihů dříve, než Vy devět.
-</p>
-<p>
-Správné zahrání ze stolu v prvním zdvihu není ani eso, ani čtyřka, ale dáma srdcová. Když vezme Východ králem, budete mít na srdcového kluka další vstup do ruky a tím si budete moci vypracovat trefy. Vezmete vrácené káro a zahrajete tref. Když vezme první tref Východ a vrátí další káro, můžete si dovolit ho propustit a obrana nebude moci udělat více než jeden srdcový, jeden kárový a dva trefové.
-</p>
-</example>
-<literature>
-    <li>
-    <author>H.W. Kelsey</author>
-    <title>Bridžová logika</title>
-    </li>
-    </literature>
 </lesson>

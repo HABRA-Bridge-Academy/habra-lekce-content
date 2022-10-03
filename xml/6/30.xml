@@ -29,14 +29,15 @@ KQ4
 AQT94
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="S">
-<bid level="1" suit="N" />
-<bid level="3" suit="c" />
-<bid level="3" suit="N" />
-<bid value="pass" />
+<bid level="1" suit="N"/>
+<bid level="3" suit="c"/>
+<bid level="3" suit="N"/>
+<bid value="pass"/>
 </auction>
-<leadcard value="5d" /><p>
+<leadcard value="5d"/>
+</distribution>
+<p>
 Západ vynesl károvou pětku, Východ přidal kluka a Vy jste vzal králem. Jak dál?
 </p>
 <p>
@@ -82,13 +83,14 @@ AQJ9854
 74
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="S">
-<bid level="3" suit="S" />
-<bid level="4" suit="S" />
-<bid value="pass" />
+<bid level="3" suit="S"/>
+<bid level="4" suit="S"/>
+<bid value="pass"/>
 </auction>
-<leadcard value="Ac" /><p>
+<leadcard value="Ac"/>
+</distribution>
+<p>
 Západ vynesl trefové eso a pokračoval desítkou. Ze stolu jste dal malou, ale Východ převzal klukem a vrátil trefového krále. Snapl jste osmičkou pikovou a Západ přiznal trefovou trojku. Co teď?
 </p>
 <p>
@@ -134,15 +136,16 @@ AKJ93
 AJ9
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="S">
-<bid level="2" suit="N" />
-<bid level="3" suit="H" />
-<bid level="3" suit="N" />
-<bid level="6" suit="N" />
-<bid value="pass" />
+<bid level="2" suit="N"/>
+<bid level="3" suit="H"/>
+<bid level="3" suit="N"/>
+<bid level="6" suit="N"/>
+<bid value="pass"/>
 </auction>
-<leadcard value="JS" /><p>
+<leadcard value="JS"/>
+</distribution>
+<p>
 Západ vynesl proti Vašemu slemu pikového kluka. Jak si naplánujete sehrávku?
 </p>
 <p>
@@ -188,16 +191,17 @@ AJ32
 AK654
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="S">
-<bid level="1" suit="c" />
-<bid level="1" suit="d" />
-<bid level="2" suit="H" />
-<bid level="3" suit="d" />
-<bid level="3" suit="N" />
-<bid value="pass" />
+<bid level="1" suit="c"/>
+<bid level="1" suit="d"/>
+<bid level="2" suit="H"/>
+<bid level="3" suit="d"/>
+<bid level="3" suit="N"/>
+<bid value="pass"/>
 </auction>
-<leadcard value="5S" /><p>
+<leadcard value="5S"/>
+</distribution>
+<p>
 Západ vynesl pikovou pětku ke klukovi a králi. Kdyby se rozpadly trefy, nebyly by žádné potíže, proto jste je zkusil a odehrál eso a krále. Bohužel si však Východ na druhý tref zahodil pikovou trojku. Co dál?
 </p>
 <p>
@@ -207,10 +211,230 @@ Za úvahu stojí dva způsoby sehrávky. První spočívá v okamžitém odevzd
 Zatím jsme uvažovali o možnostech v jednotlivých barvách oddělené, ale když uvážíte pravděpodobnost splnění v kontextu celého rozdání, je volba sehrávky snadná. Protože Východ nepřiznal ve druhém kole tref, má většinu červených karet a tato skutečnost jasně mluví pro druhý způsob.
 </p>
 </example>
+<h2>Bonusové příklady</h2>
+<example number="5">
+<distribution vul="BOTH">
+<hand position="north">
+<spades>
+KQ986
+</spades>
+<hearts>
+A74
+</hearts>
+<diamonds>
+873
+</diamonds>
+<clubs>
+63
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+J7
+</spades>
+<hearts>
+K96
+</hearts>
+<diamonds>
+AJT5
+</diamonds>
+<clubs>
+AKQ2
+</clubs>
+</hand>
+<auction onesided="true" dealer="S">
+<bid level="1" suit="d"/>
+<bid level="1" suit="S"/>
+<bid level="2" suit="N"/>
+<bid level="3" suit="d"/>
+<bid level="3" suit="N"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="Jc"/>
+</distribution>
+<p>
+Západ vynesl trefového kluka k Vaší dámě. Jak si naplánujete sehrávku?
+</p>
+<p>
+Jde zde o to, jak zkombinovat optimálně možnosti v pikách a v kárech. Nabízí se zahrání pikovým klukem ve druhém zdvihu. Pokud to vyrazí eso, snadno uděláte devět zdvihů. Proto asi obránci pikového kluka propustí a vy budete pokračovat malým pikem k dámě. Když bude i teď dáma držet, můžete si zajistit dobrou šanci rozehráním kár. Když ovšem Východ vezme druhý pik, vezmete vrácené srdce na stole, zkusíte, zda se nerozpadnou piky, a když se to nestane, zahrajete káro a uspějete, pokud bude mít Východ obě figury kárové nebo jednu s krátkostí v této barvě. Využití těchto postupných šancí Vám dává sympatických 80% šancí na úspěch.
+</p>
+<p>
+Ovšem ještě lepší pravděpodobnost dostanete, když ve druhém zdvihu zahrajete pikovou sedmičku k osmičce na stole. Vezme-li Východ tento zdvih, bude snadné vypracovat si třetí pikový zdvih, který ke splnění potřebujete. Abyste tedy vůbec měl nějaké problémy, obrana musí tento pik propustit a Vy můžete využít další vstup na stůl k impasu károvému. Vezmete vrácené srdce v ruce králem, zahrajete pikového kluka ke králi a esu, vezmete další srdce ne stole a zkusíte piky. Nerozpadnou-li se, budete moci zahrát druhý kárový impas a splníte, pokud nebudou obě kárové figury u Západu. Celková šance na úspěch při tomto způsobu sehrávky je až 90%.
+</p>
+</example>
+<example number="6">
+<distribution vul="BOTH">
+<hand position="north">
+<spades>
+62
+</spades>
+<hearts>
+4
+</hearts>
+<diamonds>
+AQT63
+</diamonds>
+<clubs>
+AK843
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+A73
+</spades>
+<hearts>
+AKQJ92
+</hearts>
+<diamonds>
+K8
+</diamonds>
+<clubs>
+72
+</clubs>
+</hand>
+<auction onesided="true" dealer="N">
+<bid level="1" suit="d"/>
+<bid level="2" suit="H"/>
+<bid level="3" suit="c"/>
+<bid level="3" suit="H"/>
+<bid level="4" suit="c"/>
+<bid level="4" suit="N"/>
+<bid level="5" suit="H"/>
+<bid level="5" suit="N"/>
+<bid level="6" suit="d"/>
+<bid level="7" suit="H"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="KS"/>
+</distribution>
+<p>
+Západ vynesl pikového krále, Východ přidal kluka a Vy jste vzal esem. Odehrál jste si A,K v trumfech a ze stolu jste si zahodil pik. Oba soupeři trumfy přiznali, ale na třetí kolo si Západ zahodil pik. Jak si naplánujete sehrávku?
+</p>
+<p>
+Můžete si zkombinovat možnosti v trefech a v kárech, když si na třetí a na čtvrtý trumf zahodíte po jedné kartě od každé této barvy. Pak prosnapnete třetí tref, čímž využijete možnosti rozpadnutí trefů a zachováte si přitom hrát na šanci, že se kára dělí 3-3 nebo na vypadnutí druhého kárového kluka. Pokud si odehrajete poslední trumf před vyzkoušením kár, může být také Západ v káro-trefovém skvízu, čímž si zvýšíte celkovou šanci na úspěch na asi 75%.
+</p>
+<p>
+Není ovšem vždy nejlepší zkombinovat možnosti ve dvou barvách. V tomto případě mluví pravděpodobnost pro kára a trefy se mají nechat stát. Měl byste si zahodit na trumfy dva trefy, pak hrát kára a v případě nutnosti si čtvrté snapnout. Tento způsob sehrávky bude úspěšný, pokud kára nebudou rozložena hůře než 4-2 nebo když bude kluk singl. Stále ještě máte možnost skvízu v levných barvách a šance na úspěch je asi 87%.
+</p>
+</example>
+<example number="7">
+<distribution vul="NONE">
+<hand position="north">
+<spades>
+762
+</spades>
+<hearts>
+K6
+</hearts>
+<diamonds>
+84
+</diamonds>
+<clubs>
+AK9843
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AJ54
+</spades>
+<hearts>
+A95
+</hearts>
+<diamonds>
+AQJ63
+</diamonds>
+<clubs>
+Q
+</clubs>
+</hand>
+<auction onesided="true" dealer="S">
+<bid level="1" suit="d"/>
+<bid level="2" suit="c"/>
+<bid level="3" suit="N"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="4H"/>
+</distribution>
+<p>
+Západ vynesl srdcovou čtyřku. Jak si naplánujete sehrávku?
+</p>
+<p>
+První věc je, že musíte vzít srdci esem v ruce, abyste si uchovali srdce jako vstup na stůl. Pak máte k dispozici několik způsobů jak zkombinovat možnosti v levných barvách. Jednou z nich je odehrát si trefovou dámu ve druhém zdvihu a pokračovat károvou dámou z ruky. Při této sehrávce uspějete tehdy, když jedna levná barva bude rozložena 3-3 nebo když vypadnou holé J,10 v trefech, což Vám zajišťuje šanci 61%.
+</p>
+<p>
+Můžete se rovněž rozhodnout převzít trefovou dámu na stole králem a obehrát si eso. Když oba obránci přiznají a vypadne desítka nebo kluk, můžete si zajistit devět zdvihů zahráním trefové devítky. Neobjeví-li se žádný trefový honér, můžete zahrát kárový impas a splníte když budou kára 3-3 nebo když bude mít Východ dubl kárového krále. Tím si trochu vylepšíte naději na úspěch na celkových 68%.
+</p>
+<p>
+Třetí možností je převzít si trefovou dámu a pokračovat v této barvě, pokud obránci dvakrát přiznají i tehdy, neobjeví-li se žádný trefový honér. Je zajímavé, že přidají-li obránci v prvních dvou zdvizích po dvou malých trefech, je více než 50% šance na to, že se barva rozpadne. Proto Vám pokračování v trefech dá více než rozehrání kár – celková šance je 72%.
+</p>
+</example>
+<example number="8">
+<distribution vul="NS">
+<hand position="north">
+<spades>
+T3
+</spades>
+<hearts>
+AKT
+</hearts>
+<diamonds>
+A52
+</diamonds>
+<clubs>
+J7642
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AQJ94
+</spades>
+<hearts>
+843
+</hearts>
+<diamonds>
+Q3
+</diamonds>
+<clubs>
+K53
+</clubs>
+</hand>
+<auction dealer="S">
+<bid level="1" suit="S"/>
+<bid value="X"/>
+<bid value="XX"/>
+<bid value="pass"/>
+<bid value="pass"/>
+<bid level="2" suit="d"/>
+<bid value="pass"/>
+<bid value="pass"/>
+<bid level="2" suit="S"/>
+<bid value="pass"/>
+<bid level="3" suit="d"/>
+<bid value="pass"/>
+<bid level="3" suit="N"/>
+<bid value="pass"/>
+<bid value="pass"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="Jd"/>
+</distribution>
+<p>
+Západ vynesl kárového kluka a Vy jste dal ze stolu malou. Východ vzal králem a vrátil károvou osmu k Vaší dámě. Jak si naplánujete sehrávku?
+</p>
+<p>
+Nepochybně litujete, že byl partner v dražbě tak agresivní, protože vyhlídky na splnění <bid level="3" suit="NT"/> nejsou ani zdaleka růžové. Pět pikových zdvihů uděláte pouze tehdy, bude-li Západ mít tři malé piky a tuto možnost musíte podle dražby zavrhnout. Není vůbec snadné udělat i čtyři pikové zdvihy vzhledem k nedostatku vstupů do ruky. Musíte tedy hrát na to, že Západ má pikového krále buď singl nebo druhého.
+</p>
+<p>
+Čtyři pikové zdvihy Vám zajistí celkem osm zdvihů. Devátý musíte hledat v srdcích, protože nemáte čas na vypracování trefů. Proto byste měl ve třetím zdvihu vynést srdci, a když Západ přidá malou, zaimpasovat desítkou. Pokud toto vyjde, můžete zahrát pikovou desítku na impas. I kdyby Západ k tomuto zdvihu zahrál malý pik, měl byste se držet svého plánu a zahrát ve druhém kole eso s nadějí, že spadne dubl král po Vaší levici.
+</p>
+<p>
+Moc pravděpodobná šance to není, je však jediná.
+</p>
+</example>
 <literature>
-    <li>
-    <author>H.W. Kelsey</author>
-    <title>Bridžová logika</title>
-    </li>
-    </literature>
+<li>
+<author>H.W. Kelsey</author>
+<title>Bridžová logika</title>
+</li>
+</literature>
 </lesson>

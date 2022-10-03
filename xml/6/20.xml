@@ -1,221 +1,572 @@
-<lesson year="6" title="Úhybné hry I" number="20" video-id="tizXSc-dtRI">
+<lesson year="6" title="Dražba po zásahu do 1♣" number="20" video-id="tizXSc-dtRI">
+<p>
+Snažíme se, aby dražby po zásahu prvního obránce zůstaly transferové („systém on“), konvence xyz zůstává v platnosti. Akce zahajitele je přirozená, dobrovolná akce odpovídajícího slibuje 7+ b. Zahajitel, který se nemůže sfitovat na 1. stupni, draží 1BT ve sféře 12-14. Síla 18-20 není pravděpodobná, s tou musí zahajitel dražit 2ʘ, barvu reversem nebo cue-bidem barvy soupeře.
+</p>
+<bidding>
+<header>Po zásahu <bid value="x"/></header>
+<entry>
+<action>
+<bid value="xx"/>
+</action>
+<explanation>
+<p>5+ <diamond/>, může mít jiný 4-list, zaručuje bilanci na závazek <bid level="1" suit="N"/>
+</p>
+<bidding>
+<entry>
+<action>
+<bid level="1" suit="d"/>
+</action>
+<explanation>3-list</explanation>
+</entry>
+<entry>
+<action>
+<bid level="1" suits="HS"/>
+</action>
+<explanation>4-list a v <diamond/> dubl nebo 4-list</explanation>
+</entry>
+<entry>
+<action>
+<bid level="1" suit="N"/>
+</action>
+<explanation>3325</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="c"/>
+</action>
+<explanation>6-list + 3-list <diamond/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="d"/>
+</action>
+<explanation>4-list bez M4</explanation>
+</entry>
+<entry>
+<action>
+lze trestně pasovat s 5-listem <club/>, následují trestná kontra
+</action>
+</entry>
+</bidding>
+</explanation>
+</entry>
+<entry>
+<action>
+ostatní hlášky jsou stejné jako bez zásahu, jen se 7+ a rebid 1ʘ slibuje zádrž
+</action>
+</entry>
+</bidding>
+<bidding>
+<header>Po zásahu <bid level="1" suit="d"/></header>
+<entry>
+<action>
+<bid value="x"/>
+</action>
+<explanation>transfer na srdce, 7+</explanation>
+</entry>
+<entry>
+<action>
+ostatní hlášky jsou stejné jako bez zásahu, jen se 7+ a rebid 1ʘ slibuje zádrž
+</action>
+</entry>
+</bidding>
+<bidding>
+<header>Po zásahu <bid level="1" suit="H"/></header>
+<entry>
+<action>
+<bid value="x"/>
+</action>
+<explanation>7+, 4+ <spade/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="1" suit="S"/>
+</action>
+<explanation>transfer do <bid level="1" suit="N"/>
+</explanation>
+</entry>
+<entry>
+<action>
+<bid level="1" suit="N"/>
+</action>
+<explanation>invit se zádrží</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suits="cd"/>
+</action>
+<explanation>nf</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="H"/>
+</action>
+<explanation>6+<spade/> konstruktivní 8+b</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="S"/>
+</action>
+<explanation>6+<spade/> destruktivní (4-7)</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>Po zásahu <bid level="1" suit="S"/>
+</header>
+<entry>
+<action>
+<bid value="x"/>
+</action>
+<explanation>7+, 4+ <heart/>
+</explanation>
+</entry>
+<entry>
+<action>
+<bid level="1" suit="N"/>
+</action>
+<explanation>8-11 se zádrží</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suits="cd"/>
+</action>
+<explanation>nf</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="H"/>
+</action>
+<explanation>přirozené, nF</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="S"/>
+</action>
+<explanation>5+<heart/>, GF</explanation>
+</entry>
+</bidding>
+<p>
+Použije-li odpovídající 1<spade/> jako transfer do BT, může v dalším kole cue-bidovat barvu soupeře s významem – silný zájem o 3ʘ, dotaz na držení barvy zásahu.
+</p>
+<p>
+Po vyšších zásazích:
+Podle obecných zásad. Směřuje-li dražba do BT, oba mohou cue-bidem žádat partnera o zádrž. Po zásahu <bid level="2" suits="HS"/> hrajeme Lebensohl:
+</p>
+<div class="print-columns" columns="2">
+<bidding>
+<header>Po zásahu <bid level="2" suit="H"/>
+</header>
+<entry>
+<action>
+<bid value="x"/>
+</action>
+<explanation>trestné</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="S"/>
+</action>
+<explanation>5+list nF</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="N"/>
+</action>
+<explanation>4-list<spade/> INV+ nebo stopka na <club/>/<diamond/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="c"/>
+</action>
+<explanation>INV, 5+list <spade/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="d"/>
+</action>
+<explanation>GF, 5-list <spade/>	</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="H"/>
+</action>
+<explanation>GF, dotaz na zádrž</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>Po zásahu <bid level="2" suit="S"/>
+</header>
+<entry>
+<action>
+<bid value="x"/>
+</action>
+<explanation>trestné</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="N"/>
+</action>
+<explanation>4-list <heart/>
+INV+ nebo stopka na <club/>/<diamond/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="c"/>
+</action>
+<explanation>INV, 5+list <heart/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="d"/>
+</action>
+<explanation>GF, 5-list <heart/>	</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="S"/>
+</action>
+<explanation>GF, dotaz na zádrž</explanation>
+</entry>
+<entry>
+<action>
+<bid level="4" suit="d"/>
+</action>
+<explanation>GF, 4+list <heart/></explanation>
+</entry>
+</bidding>
+</div>
+<h2>Příklady</h2>
 <example number="1">
-<distribution vul="NONE">
-<hand position="north">
+<distribution>
+<hand>
 <spades>
-Q65
+Q7
 </spades>
 <hearts>
-T952
+KJ83
 </hearts>
 <diamonds>
-AQ7
+KT94
 </diamonds>
 <clubs>
-K94
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-K42
-</spades>
-<hearts>
-AKQ74
-</hearts>
-<diamonds>
-843
-</diamonds>
-<clubs>
-A6
+653
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="S">
-<bid level="1" suit="H" />
-<bid level="3" suit="H" />
-<bid level="4" suit="H" />
-<bid value="pass" />
-</auction>
-<leadcard value="JS" /><p>
-Západ vynesl pikového kluka. Za stolu jste dal malou, Východ přidal sedmičku a vzal jste králem. Oba obránci přiznali trumfy, když jste zahrál eso. Jak byste měl pokračovat?
-</p>
-<p>
-Zdá se, že ideální závazek by byly <bid level="3" suit="NT"/> ze Severu, protože devět zdvihů byste tak měl jistých. Ve čtyřech srdcích Vám hrozí ztráta dvou pikových a dvou kárových zdvihů. Budete přirozeně předpokládat, že kárový král nesedí a budete se snažit vyhnout se impasu. Protože podle zahrání do prvního zdvihu to vypadá, že pikové eso má Východ, nemělo by to být tak nesnadné. Pokud sehrávku správně načasujete, vždycky budete moci dostat do zdvihu Východ, aby Vám zahrál káro.
-</p>
-<p>
-Bezpečná sehrávka na splnění závazku spočívá ve vytrumfování, pak vyeliminujete trefy snapnutím třetího kola v ruce a zahrajete z ruky i ze stolu malý pik.
-</p>
-<p>
-Vtip je v tom, že si můžete dovolit pustit do zdvihu Západ, dokud ještě budete mít na stole pikovou dámu. Když Západ vezme a vrátí další pik, bude jeho partner v nuceném výnosu, protože buď bude muset zahrát káro do vidle nebo Vás nechá zahodit si v jedné ruce káro a v druhé přebít trumfem. Západ se nemůže zachránit ani vrácením kára, protože prostě vezmete esem a vrátíte pikovou dámu. Opět Vám bude muset Východ zadat desátý zdvih buď jedním nebo druhým způsobem.
-</p>
+<div class="columns" columns="4">
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid value="x" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="1" suit="d"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="d" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="x"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="H" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="1" suit="S"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="S" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="x"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="N" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="pass"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="c" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="x"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="d" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="pass"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="H" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="x"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="S" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="2" suit="N"/>
+s intencí <bid level="3" suit="H"/>
+</bidding-solution>
+</div>
+</div>
 </example>
 <example number="2">
-<distribution vul="NONE">
-<hand position="north">
+<distribution>
+<hand>
 <spades>
-T73
+KJT86
 </spades>
 <hearts>
-A943
+Q3
 </hearts>
 <diamonds>
-AK72
+JT3
 </diamonds>
 <clubs>
-84
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-A
-</spades>
-<hearts>
-KQJ85
-</hearts>
-<diamonds>
-86543
-</diamonds>
-<clubs>
-AQ
+QJ8
 </clubs>
 </hand>
 </distribution>
-<auction onesided="true" dealer="S">
-<bid level="1" suit="H" />
-<bid level="3" suit="H" />
-<bid level="4" suit="H" />
-<bid value="pass" />
-</auction>
-<leadcard value="Qd" /><p>
-Západ vynesl károvou dámu, a když jste uviděl stůl, zdá se Vám, že jste to o dva stupně podlicitoval. Jak si naplánujete sehrávku?
-</p>
-<p>
-Rád byste hrál šest srdcí a možná tam je i sedmerák. Vaším cílem je ale udělat deset zdvihů a jako vždy, kdy se zdá být splnění závazku snadné, měl byste se podívat, kde by na Vás mohlo číhat nějaké úskalí a hrát co nejbezpečněji.
-</p>
-<p>
-Co by Vás mohlo ohrozit? Jakmile si tuto otázku položíte, odpověď se Vám nabídne sama. Východ může mít károvou šikenu a moc rád Vám snapne v prvním zdvihu kárového krále nebo eso. Vrátí zpátky tref a Vám nezbude než doufat, že impas sedí. Když sedět nebude, spadnete jednou nebo dvakrát podle toho, zda zahrajete trefový impas či nikoliv.
-</p>
-<p>
-Samozřejmě se do takové situace vůbec nemusíte dostat. Správné je v prvním zdvihu ze stolu zahrát malé káro, když Východ nepřizná, musíte být i nadále přesný a propustit i druhé káro. Závazek je v bezpečí za předpokladu, že nepustíte do zdvihu Východ příliš brzy. Můžete si dovolit odevzdat dva kárové zdvihy, ale nemůžete už ztratit trefový zdvih. Když Východ přebije třetí káro a vrátí tref, vezmete esem, dotrumfujete a nakonec si zahodíte ztrátový tref na páté káro v ruce.
-</p>
-<p>
-Pokud Východ v prvním kole káro přizná, nehrozí Vám žádné nebezpečí a Vy si můžete zajistit jedenáct zdvihů, když ve druhém kole dáte ze stolu vysoké káro.
-</p>
+<div class="columns" columns="4">
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid value="x" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="1" suit="H"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="d" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="1" suit="H"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="H" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="x"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="S" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="1" suit="N"/>
+nebo <bid value="pass"/>
+s intencí trestného kontra
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="N" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="x"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="c" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="2" suit="S"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="d" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="2" suit="S"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="H" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="3" suit="c"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="S" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="x"/>
+</bidding-solution>
+</div>
+</div>
 </example>
 <example number="3">
-<distribution vul="NONE">
-<hand position="north">
+<distribution>
+<hand>
 <spades>
-A863
+T
 </spades>
 <hearts>
--
+J872
 </hearts>
 <diamonds>
-QJ62
+AQ743
 </diamonds>
 <clubs>
-AQ843
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-74
-</spades>
-<hearts>
-AQJT983
-</hearts>
-<diamonds>
-A5
-</diamonds>
-<clubs>
-K5
+KJ5
 </clubs>
 </hand>
 </distribution>
-<p>
-párový turnaj
-</p>
-<auction onesided="true" dealer="S">
-<bid level="1" suit="H" />
-<bid level="2" suit="c" />
-<bid level="4" suit="H" />
-<bid value="pass" />
-</auction>
-<leadcard value="KS" /><p>
-Západ vynesl pikového krále. Jak si plánujete sehrávku?
-</p>
-<p>
-Závazek ohrožen není, ale výnos napadl Vaši slabinu a zmenšil šanci na nadzdvihy. Dvanáct zdvihů uděláte jen tehdy, budou-li trefy 3- kárový impas bude sedět. Tato možnost není příliš pravděpodobná, proto byste se měli snažit zaměřit na jeden nadzdvih.
-</p>
-<p>
-Hra na jedenáct zdvihů musí být přesná. Nesmíte pustit Východ do zdvihu dříve, než vyrazíte trumfového krále, protože by Vám podehrál kára. Na první pohled se může zdát, že nejlepší je vzít první pik, přejít do ruky na trefového krále a zahrát trumfové eso a dámu. Můžete pak vzít vrácené káro esem, dotrumfovat a shodit si něco na třetí tref.
-</p>
-<p>
-Abyste si zajistil nejlepší šanci na jedenáct zdvihů, musíte přejít do ruky pikovým snapem. Proto je správné propustit Západu první pik. Druhý pik vezmete, snapnete pik vysokým trumfem, odehrajete trumfové eso a dámu, a pak Vás již nic nemůže ohrozit.
-</p>
+<div class="columns" columns="4">
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid value="x" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="xx"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="d" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="x"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="H" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="pass"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="S" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="x"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="N" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="2" suit="d"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="c" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="3" suit="d"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="d" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="pass"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="H" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid value="x"/>
+</bidding-solution>
+</div>
+<div>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="S" opponent="true"/>
+<bid value="?"/>
+</sequence>
+<bidding-solution>
+<bid level="3" suit="c"/>
+</bidding-solution>
+</div>
+</div>
 </example>
-<example number="4">
-<distribution vul="NS">
-<hand position="north">
-<spades>
-QJ752
-</spades>
-<hearts>
--
-</hearts>
-<diamonds>
-Q652
-</diamonds>
-<clubs>
-JT83
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-A4
-</spades>
-<hearts>
-AKT
-</hearts>
-<diamonds>
-K3
-</diamonds>
-<clubs>
-AK9765
-</clubs>
-</hand>
-</distribution>
-<auction onesided="true" dealer="S">
-<bid level="2" suit="c" />
-<bid level="2" suit="d" />
-<bid level="3" suit="c" />
-<bid level="3" suit="S" />
-<bid level="3" suit="N" />
-<bid level="5" suit="c" />
-<bid level="6" suit="c" />
-<bid value="pass" />
-</auction>
-<leadcard value="4H" /><p>
-Západ vynesl srdcovou čtyřku a Vy jste si ze stolu shodil káro a vzal dámu Východu esem. Odehrál jste si trefové eso a od Východu spadla dáma. Jak byste měl pokračovat?
-</p>
-<p>
-Na první pohled se zdá, že slem závisí na pikovém impasu, ale jsou zde ještě zajímavé možnosti v kárech. Kdyby se Vám podařilo provést úspěšně expas, mohl byste si druhé káro stolu shodit na srdcového krále a nakonec dostat do nuceného výnosu obránce, který má kárové eso. Musíte hrát tedy na to, že má kárové eso Západ, protože kdybyste dostal do nuceného výnosu Východ, nic by Vám to nepřineslo.
-</p>
-<p>
-Ve třetím zdvihu byste proto měl zahrát z ruky károvou trojku. Když dáma stolu udělá zdvih, můžete se vrátit trumfem do ruky, odehrát srdcového krále, shodit na něj káro a snapnout si na stole srdcovou desítku. Pak dostanete Západ do zdvihu na kárové eso a on bude muset buď rozehrát piky nebo zahrát do dvojité šikeny.
-</p>
-<p>
-Tím splníte slem při sedícím pikovém králi, ale i když bude mít kárové eso Západ. Ten samozřejmě nezíská nic tím, když vskočí esem v prvním kole kár, protože si pak zahodíte ztrátový pik na károvou dámu.
-</p>
-<p>
-Všimněte si, že si nemůžete dovolit odehrát druhý trumf před rozehráním kár. Kdybyste to udělal, neměl byste vstup zpátky do ruky, aniž byste zkrátil trumfy na stole a znemožnil tak eliminační hru.
-</p>
-</example>
-<literature>
-    <li>
-    <author>H.W. Kelsey</author>
-    <title>Bridžová logika</title>
-    </li>
-    </literature>
 </lesson>

@@ -2,6 +2,7 @@
 <p>
 Skrčení je blízké zadržení, ale tentokrát nehraji malé karty z dlouhé barvy soupeře, ale ze své vlastní. Tento manévr použiji, nemám-li ke své dlouhé barvě jiné vedlejší vstupy. Čtyři rozdání na ukázku:
 </p>
+<div class="print-columns" columns="2">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -32,13 +33,11 @@ AK8632
 75
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="6H">
-6 srdcová
-</leadcard>
+<leadcard value="6H"/>
+</distribution>
 <p>
 Přiložím desítku, Východ pravděpodobně vezme a já si zobnu další zdvih. Kára mi nesou dost zdvihů, ale nejsou na ně vstupy. Pokud se zbývající kára dělí 3-2 je snadná pomoc ve skrčení. Propustím jedno káro (z ruky i ze stolu dám malou), které stejně musím odevzdat, a zachovám si k dalším kárům vstup.
 </p>
@@ -101,13 +100,11 @@ J953
 86
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="JS">
-J pikový
-</leadcard>
+<leadcard value="JS"/>
+</distribution>
 <p>
 V tomto rozdání mám šanci vypracovat trefy, ale po vyražení piků na ně nebudu mít vstupy. Nejpravděpodobnější dělení trefů je 3-2, a tak pomůže, skrčím-li se v nich dvakrát a ponechám si trefové eso jako vstup k celému zbytku barvy.
 </p>
@@ -170,13 +167,11 @@ K9863
 JT72
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="6d">
-6 kárová
-</leadcard>
+<leadcard value="6d"/>
+</distribution>
 <p>
 Také obránci se mohou s úspěchem krčit, není-li dostatek vstupů. Východ vezme esem a pošle zpátky desítku, kterou hlavní hráč přebije a Západ se skrčí. Až se Východ dostane na zdvih na pikové eso, podnese zbývající figuru hlavního hráče v kárech a závazek je poražen. Hlavní hráč ho mohl uhrát, kdyby druhé káro propustil, čímž by přerušil napojení obránců.
 </p>
@@ -239,13 +234,11 @@ T976
 A65
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="8d">
-8 kárová
-</leadcard>
+<leadcard value="8d"/>
+</distribution>
 <p>
 Také v tomto případě se musí obránce s dlouhou barvou (Východ) krčit, chce-li být úspěšný ve vypracování své barvy. Ale to samo ještě nestačí, potřebuje spolupráci partnera v ušetření trefového vstupu. Správná obrana je skrčení v kárech, naskočení Západu esem v prvním zdvihu na trefy, opět kára a Východ se znovu krčí, na trefového krále se dostává konečně ke slovu a bude moci sníst ovoce dobré hry, když obehraje kárové eso a další dvě malé kára.
 </p>
@@ -280,17 +273,16 @@ A9752
 K83
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="2H">
-2 srdcová
-</leadcard>
+<leadcard value="2H"/>
+</distribution>
 <p>
 Dvojka srdcová ukazuje na dělení srdcí 4-3 a není třeba proto zadržovat. Jediná šance na splnění je, že kára budou 3-3 a i pak musíme zacházet opatrně se vstupy. Poprvé se musíme v kárech skrčit, kdyby obránci teď změnili útok na trefy, pak bychom museli vzít ze stolu, každopádně zdvih vezmeme, zahrajeme káro k esu a malé káro a budeme doufat, že jsou kára 3-3.
 </p>
 </example>
+</div>
 <literature>
 <li>
 <author>E. Kaplan</author>

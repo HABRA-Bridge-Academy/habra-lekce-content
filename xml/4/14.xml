@@ -33,13 +33,13 @@ K9763
 AQ9
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
 <leadcard value="KH">
-sK, sA, sQ
+    sK, sA, sQ
 </leadcard>
+</distribution>
 <p>
 Na začátek něco jednoduchého. Západ zahájil dražbu hláškou jedno srdce a po kontra Severu se linka N-S dolicitovala do celoherního závazku v pikách. Proti tomuto závazku vynáší Západ eso, krále a dámu srdcovou. Jak má Jih plánovat sehrávku?
 </p>
@@ -116,13 +116,13 @@ J9
 AQ3
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
 <leadcard value="Kd">
-kK, kA, kQ
+    kK, kA, kQ
 </leadcard>
+</distribution>
 <p>
 Západ kontroval zahájení Jihu jeden pik. Sever skočil na tři piky, čímž postavil laťku pro Východ příliš vysoko, takže tento pasoval, Jih dorazil 
 na celou hru v pikách. Západ vynesl krále, eso a dámu károvou. Jak má Jih závazek sehrávat, když Východ kára ve třetím kole nepřiznal?
@@ -198,13 +198,11 @@ AQJT
 AKJ8
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="5" suit="d" declarer="S"/>
+    <contract level="5" suit="d" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-sK
-</leadcard>
+<leadcard value="KH"/>
+</distribution>
 <p>
 V tomto rozdání si můžete vyzkoušet, jaký pokrok jste zaznamenali. Udělejte si plán, jak má Jih stoprocentně splnit pět kár po výnosu srdcovým králem, když oba obránci přiznají v prvním kole trumf?
 </p>
@@ -338,13 +336,11 @@ AQ3
 Q64
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="NT" declarer="S"/>
+    <contract level="6" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="QH">
-sQ
-</leadcard>
+<leadcard value="QH"/>
+</distribution>
 <p>
 Proti závazku Jihu šest bez trumfů vynáší Západ srdcovou dámu. Východ k tomuto zdvihu odhazuje malé káro. Jak má Jih pokračovat v sehrávce po vzetí srdcovým esem?
 </p>
@@ -426,13 +422,11 @@ T
 632
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="S" declarer="S"/>
+    <contract level="6" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="QH">
-sQ
-</leadcard>
+<leadcard value="QH"/>
+</distribution>
 <p>
 Jih jako rozdávající zahajuje jeden pik, a když po odpovědi Severu dvě kára piky opakoval na třetím stupni, ten šel přímo na konečných šest piků. 
 Jak má tento závazek Jih sehrávat po výnosu srdcovou dámou?
@@ -507,13 +501,11 @@ A43
 J3
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-tK
-</leadcard>
+<leadcard value="Kc"/>
+</distribution>
 <p>
 Po zahájení Jihu jeden pik draží Západ preventivně tři trefy. Sever podporuje partnerovu barvu hláškou tři piky, a když Východ draží ještě čtyři kára, Jih končí celou dražbu hláškou čtyři piky. Jak má tento závazek sehrávat po výnosu trefovým králem?
 </p>
@@ -653,9 +645,7 @@ KQJT3
 <deal-contract>
 <contract level="6" suit="c" declarer="S"/>
 </deal-contract>
-<leadcard value="JH">
-sJ
-</leadcard>
+<leadcard value="JH"/>
 <p>
 Jih sehrává závazek šest trefů po výnosu srdcovým klukem. Jak má závazek sehrávat?
 </p>

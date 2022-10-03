@@ -3,34 +3,34 @@
 Nejprve si připomeňme, jak po <bid level="1" suit="NT"/> dosud dražíme:
 </p>
 <bidding>
-    <entry>
-        <action><bid level="2" suit="c"/></action>
-        <explanation>Stayman, tj. 8+ s alespoň jedním drahým 4-listem</explanation>
-    </entry>
-    <entry>
-        <action><bid level="2" suits="dh"/></action>
-        <explanation>5+list, 0+b., transfer</explanation>
-    </entry>
-    <entry>
-        <action><bid level="2" suit="S"/></action>
-        <explanation>dotaz na levné barvy</explanation>
-    </entry>
-    <entry>
-        <action><bid level="2" suit="NT"/></action>
-        <explanation>8-9b. bez drahého 4-listu</explanation>
-    </entry>
-    <entry>
-        <action><bid level="3" suits="cdhs"/></action>
-        <explanation>12+b., GF, pokus o slem, 6+list</explanation>
-    </entry>
-    <entry>
-        <action><bid level="2" suit="NT"/></action>
-        <explanation>8-9b. bez drahého 4-listu</explanation>
-    </entry>
-    <entry>
-        <action><bid level="2" suit="NT"/></action>
-        <explanation>8-9b. bez drahého 4-listu</explanation>
-    </entry>
+<entry>
+<action><bid level="2" suit="c"/></action>
+<explanation>Stayman, tj. 8+ s alespoň jedním drahým 4-listem</explanation>
+</entry>
+<entry>
+<action><bid level="2" suits="dh"/></action>
+<explanation>5+list, 0+b., transfer</explanation>
+</entry>
+<entry>
+<action><bid level="2" suit="S"/></action>
+<explanation>dotaz na levné barvy</explanation>
+</entry>
+<entry>
+<action><bid level="2" suit="NT"/></action>
+<explanation>8-9b. bez drahého 4-listu</explanation>
+</entry>
+<entry>
+<action><bid level="3" suits="cdhs"/></action>
+<explanation>12+b., GF, pokus o slem, 6+list</explanation>
+</entry>
+<entry>
+<action><bid level="2" suit="NT"/></action>
+<explanation>8-9b. bez drahého 4-listu</explanation>
+</entry>
+<entry>
+<action><bid level="2" suit="NT"/></action>
+<explanation>8-9b. bez drahého 4-listu</explanation>
+</entry>
 </bidding>
 
 <p>
@@ -38,37 +38,37 @@ Dnes si podáme k jednotlivým variantám více vysvětlení a přidáme dražb
 </p>
 <bidding>
 <entry>
-    <action><bid level="4" suit="c"/></action>
-    <explanation>Gerber, 17+, dotaz na počet es</explanation>
+<action><bid level="4" suit="c"/></action>
+<explanation>Gerber, 17+, dotaz na počet es</explanation>
 </entry>
 <entry>
-    <action><bid level="4" suit="d"/></action>
-    <explanation>transfer do <bid level="4" suit="H"/></explanation>
+<action><bid level="4" suit="d"/></action>
+<explanation>transfer do <bid level="4" suit="H"/></explanation>
 </entry>
 <entry>
-    <action><bid level="4" suit="H"/></action>
-    <explanation>transfer do <bid level="4" suit="S"/></explanation>
+<action><bid level="4" suit="H"/></action>
+<explanation>transfer do <bid level="4" suit="S"/></explanation>
 </entry>
 <entry>
-    <action><bid level="4" suit="NT"/></action>
-    <explanation>16b., pravidelná rozloha, kvantitativní hláška</explanation>
+<action><bid level="4" suit="NT"/></action>
+<explanation>16b., pravidelná rozloha, kvantitativní hláška</explanation>
 </entry>
 </bidding>
 <p>
 Kdy se ptáme hláškou <bid level="2" suit="S"/> na levnou barvu?
 </p>
 <bidding>
-    <header>
-        <sequence><bid level="1" suit="NT"/><bid level="2" suit="S"/></sequence>
-    </header>
-    <entry>
-        <action><bid level="2" suit="NT"/></action>
-        <explanation> stejně dlouhé trefy a kára nebo kára delší</explanation>
-    </entry>
-    <entry>
-        <action><bid level="3" suit="c"/></action>
-        <explanation>trefy delší než kára</explanation>
-    </entry>
+<header>
+<sequence><bid level="1" suit="NT"/><bid level="2" suit="S"/></sequence>
+</header>
+<entry>
+<action><bid level="2" suit="NT"/></action>
+<explanation> stejně dlouhé trefy a kára nebo kára delší</explanation>
+</entry>
+<entry>
+<action><bid level="3" suit="c"/></action>
+<explanation>trefy delší než kára</explanation>
+</entry>
 </bidding>
 <p>
 V případě, že máme levnou drahou barvu, nechceme hrát <bid level="1" suit="NT"/> a raději budeme hrát 3 v levné, po odpovědi partnera buď zapasujeme, pokud dražil tref a chceme trefy hrát, nebo dražíme levnou barvu
@@ -120,6 +120,7 @@ Tato situace nenastává příliš často, je možné podržet se stejných zás
 <p>
 Příklady:
 </p>
+<div class="print-columns" columns="3">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -150,14 +151,14 @@ A84
 Q752
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="N">
-<bid level="1" suit="N" />
-<bid level="4" suit="N" />
-<bid level="5" suit="d" />
-<bid level="6" suit="N" />
-<bid value="pass" />
+    <bid level="1" suit="N" />
+    <bid level="4" suit="N" />
+    <bid level="5" suit="d" />
+    <bid level="6" suit="N" />
+    <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Kvantitativka - s minimem pas, s maximem <bid level="6" suit="NT"/>, s 16b. odpověď na Blackwooda, odpovídající by tak měl dražit i s drahým 4-listem při pravidelné rozloze (zvláště s 4-3-3-3).
 </p>
@@ -192,14 +193,14 @@ T4
 QJ9753
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="N">
-<bid level="1" suit="N" />
-<bid level="2" suit="S" />
-<bid level="2" suit="N" />
-<bid level="3" suit="c" />
-<bid value="pass" />
+    <bid level="1" suit="N" />
+    <bid level="2" suit="S" />
+    <bid level="2" suit="N" />
+    <bid level="3" suit="c" />
+    <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Raději než <bid level="1" suit="NT"/> chci hrát 3 trefy.
 </p>
@@ -234,13 +235,13 @@ AQT864
 T9
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="N">
-<bid level="1" suit="N" />
-<bid level="4" suit="d" />
-<bid level="4" suit="H" />
-<bid value="pass" />
+    <bid level="1" suit="N" />
+    <bid level="4" suit="d" />
+    <bid level="4" suit="H" />
+    <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Nepomýšlím na slem, chci hrát přesně 4 srdce.
 </p>
@@ -275,15 +276,15 @@ A743
 T6
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="N">
-<bid level="1" suit="N" />
+    <bid level="1" suit="N" />
 <bid level="2" suit="c" />
 <bid level="2" suit="d" />
 <bid level="2" suit="S" />
 <bid level="4" suit="S" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Při 5-4 v drahých s body na výzvu dražím přes Staymanna a po případné odpovědi <bid level="2" suit="D"/> dražím delší drahou, čímž přesně popíšu co mám (7-9 b., 5-4 v drahých, dražil jsem delší).
 </p>
@@ -318,13 +319,13 @@ Q764
 9
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="N">
-<bid level="1" suit="N" />
-<bid level="2" suit="c" />
-<bid level="2" suit="S" />
-<bid value="pass" />
+    <bid level="1" suit="N" />
+    <bid level="2" suit="c" />
+    <bid level="2" suit="S" />
+    <bid value="pass" />
 </auction>
+</distribution>
 <p>
 S málo body se mohu pokoušet najít shodu v drahé (mám-li oba drahé 4-listy), ale musím mít také kára (ideálně čtyři, v praxi postačí i tři, abych mohl zapasovat případnou odpověď <bid level="2" suit="D"/>, protože mým úmyslem je pasovat cokoliv partner řekne).
 </p>
@@ -359,16 +360,17 @@ AK8
 AQ7
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="N">
-<bid level="1" suit="N" />
-<bid level="4" suit="c" />
-<bid level="4" suit="H" />
-<bid level="6" suit="N" />
-<bid value="pass" />
+    <bid level="1" suit="N" />
+    <bid level="4" suit="c" />
+    <bid level="4" suit="H" />
+    <bid level="6" suit="N" />
+    <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Gerber
 </p>
 </example>
+</div>
 </lesson>

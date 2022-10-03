@@ -1,5 +1,265 @@
-<lesson year="6" title="Seznámení se systémem ACOL" number="35" video-id="4Z3kvxsXY7A">
-<p>
-V minulých letech jsme se seznámili se základními principy licitačních systémů Polský tref a Precision. Je ještě jeden v naší zemi široce rozšířený systém a o něm se budeme zmiňovat dnes. Je to systém ACOL. Tento systém je opravdu velmi přirozený. Zahajuje dokonce na 4-listy a to i v případě drahých barev. Tato relikvie se vyskytuje snad už jen u tohoto systému. Zahájení <bid level="1" suit="NT"/> je obvykle silné, ale jsou i varianty slabé, zahájení <bid level="2" suit="C"/> je gameforcing. Všechna ostatní zahájení a postupy jsou víceméně standardní. Ze specifických konvencí některé varianty používají tzv. fragmenty, což je třílist v případě, že už jsem nadražil 5-4 v jiných dvou barvách. Tento systém už se ve světě moc nedraží, ale u nás je oblíbený zvláště u pražských hráčů, takže stojí za to něco o něm vědět. Hraje se u nás několik verzí, jejichž autoři jsou naši reprezentanti nedávných let, tyto verze jsou dobře zdokumentovány a je možné se k nim prostřednictvím internetu snadno dostat.
-</p>
+<lesson year="6" title="Zásah do zahájení 1BT – Konvence Hello" number="35" video-id="4Z3kvxsXY7A">
+<bidding>
+<entry>
+<action><bid value="x"/></action>
+<explanation>síla minimálně jako oni, rovnovážné</explanation>
+</entry>
+<entry>
+<action><bid level="2" suit="c"/> (mnohoznačné)</action>
+<explanation><ol>
+<li> 5-list drahý + 4-list levný  (po <bid level="2" suit="d"/> partnera dražím svou drahou barvu) </li>
+<li> chci hrát <bid level="2" suit="d"/> (zapasuji povinné pokračování partnera) </li>
+<li> alespoň 5-5 v drahých se silou14+ (po <bid level="2" suit="d"/> partnera dražím <bid level="3" suit="d"/>) </li>
+<li> alespoň 6 kár s drahým 4-listem, 14+ (po <bid level="2" suit="d"/> partnera dražím <bid level="2" suit="N"/>) </li>
+<li> alespoň 6 trefů s drahým 4-listem, 14+ (po <bid level="2" suit="d"/> partnera dražím <bid level="3" suit="c"/>) </li>
+</ol></explanation>
+</entry>
+<entry>
+<action><bid level="2" suit="d"/></action>
+<explanation>transfer na srdce</explanation>
+</entry>
+<entry>
+<action><bid level="2" suit="H"/></action>
+<explanation>5-4 nebo 5-5 na drahých do 13b. (pasovatelné)</explanation>
+</entry>
+<entry>
+<action><bid level="2" suit="S"/></action>
+<explanation>naturální, do pasu</explanation>
+</entry>
+<entry>
+<action><bid level="2" suit="N"/></action>
+<explanation>transfer na trefy, 16+, 6+ list</explanation>
+</entry>
+<entry>
+<action><bid level="3" suit="c"/></action>
+<explanation>obě levné, blok, rebiduje se <bid value="pass"/> nebo <bid level="3" suit="d"/></explanation>
+</entry>
+<entry>
+<action><bid level="3" suit="d"/></action>
+<explanation>6+list, 16+, proti slabému BT blokující</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>
+<sequence>
+<bid level="1" suit="N" opponent="true"/>
+<bid level="2" suit="c"/>
+<bid value="pass" opponent="true"/>
+<bid level="2" suit="d"/>
+<bid value="pass" opponent="true"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action><bid value="pass"/></action>
+<explanation>chci hrát <bid level="2" suit="d"/></explanation>
+</entry>
+<entry>
+<action><bid level="2" suit="H"/></action>
+<explanation>5-list srdcový+4-list levný (dotaz na něj je <bid level="2" suit="N"/>)</explanation>
+</entry>
+<entry>
+<action><bid level="2" suit="S"/></action>
+<explanation>5-list pikový + 4-list levný (dotaz na něj je <bid level="2" suit="N"/>)</explanation>
+</entry>
+<entry>
+<action><bid level="2" suit="N"/></action>
+<explanation>6+list kárový + 4-list drahý (<bid level="3" suit="c"/>= dotaz na drahý 4-list, <bid level="3" suit="d"/>=hrajme kára)</explanation>
+</entry>
+<entry>
+<action><bid level="3" suit="c"/></action>
+<explanation>6+list trefový + 4-list drahý (pas=hrajme trefy, <bid level="3" suit="d"/>=dotaz na drahý 4-list)</explanation>
+</entry>
+<entry>
+<action><bid level="3" suit="d"/></action>
+<explanation>5-5 na drahých (dražíme drahou barvu, kterou chceme hrát)</explanation>
+</entry>
+</bidding>
+<div class="print-columns" columns="2">
+<bidding>
+<header>
+<sequence>
+<bid level="1" suit="N" opponent="true"/>
+<bid level="2" suit="H"/>
+<bid value="pass" opponent="true"/>
+</sequence>
+</header>
+<entry>
+<action><bid value="pass"/></action>
+<explanation>hrajme srdce (mohu dražit také <bid level="3" suit="H"/> nebo <bid level="4" suit="H"/>)</explanation>
+</entry>
+<entry>
+<action><bid level="2" suit="S"/></action>
+<explanation>hrajme piky (mohu dražit také <bid level="3" suit="S"/> nebo <bid level="4" suit="S"/>)</explanation>
+</entry>
+<entry>
+<action><bid level="2" suit="N"/></action>
+<explanation>dotaz (silný, míří ke hře)</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>
+<sequence>
+<bid level="1" suit="N" opponent="true"/>
+<bid level="2" suit="H"/>
+<bid value="pass" opponent="true"/>
+<bid level="2" suit="N"/>
+<bid value="pass" opponent="true"/>
+</sequence>
+</header>
+<entry>
+<action><bid level="3" suit="c"/></action>
+<explanation>5-4 nebo 4-5, maximum</explanation>
+</entry>
+<entry>
+<action><bid level="3" suit="d"/></action>
+<explanation>5-4 <heart/>-<spade/> min</explanation>
+</entry>
+<entry>
+<action><bid level="3" suit="H"/></action>
+<explanation>5-4 <spade/>-<heart/> min</explanation>
+</entry>
+<entry>
+<action><bid level="3" suit="S"/></action>
+<explanation>5-5 <spade/>-<heart/> min, s šikenou</explanation>
+</entry>
+<entry>
+<action><bid level="3" suit="N"/></action>
+<explanation>5521</explanation>
+</entry>
+<entry>
+<action><bid level="4" suits="cd"/></action>
+<explanation>5+-5+ s draženou šikenou, max </explanation>
+</entry>
+</bidding>
+</div>
+<h2>Příklady</h2>
+<example number="1">
+    <distribution>
+    <hand position="hand">
+    <spades>
+    QJT84
+    </spades>
+    <hearts>
+    AQT9
+    </hearts>
+    <diamonds>
+    7
+    </diamonds>
+    <clubs>
+    KJ3
+    </clubs>
+    </hand>
+    </distribution>
+    <bidding-solution>
+        <bid level="2" suit="H"/>, na případné <bid level="2" suit="N"/> <bid level="3" suit="c"/>
+        </bidding-solution>
+    </example>
+    <example number="2">
+    <distribution>
+    <hand position="hand">
+    <spades>
+    Q8
+    </spades>
+    <hearts>
+    AQ75
+    </hearts>
+    <diamonds>
+    KQJT765
+    </diamonds>
+    <clubs>
+    -
+    </clubs>
+    </hand>
+    </distribution>
+    <bidding-solution>
+        <bid level="2" suit="c"/>-<bid level="2" suit="d"/>-<bid level="2" suit="N"/>, na případné <bid level="3" suit="c"/> pak ještě <bid level="3" suit="H"/>
+        </bidding-solution>
+    </example>
+    <example number="3">
+    <distribution>
+    <hand position="hand">
+    <spades>
+    A
+    </spades>
+    <hearts>
+    7
+    </hearts>
+    <diamonds>
+    KJT84
+    </diamonds>
+    <clubs>
+    AQ9654
+    </clubs>
+    </hand>
+    </distribution>
+    <bidding-solution>
+    <bid level="3" suit="c"/>
+    </bidding-solution>
+    </example>
+    <example number="4">
+    <distribution>
+    <hand position="hand">
+    <spades>
+    AQ3
+    </spades>
+    <hearts>
+    KQJ
+    </hearts>
+    <diamonds>
+    KJT876
+    </diamonds>
+    <clubs>
+    9
+    </clubs>
+    </hand>
+    </distribution>
+    <bidding-solution>
+    <bid level="3" suit="d"/>
+    </bidding-solution>
+    </example>
+    <example number="5">
+    <distribution>
+    <hand position="hand">
+    <spades>
+    KT987
+    </spades>
+    <hearts>
+    AQT65
+    </hearts>
+    <diamonds>
+    A
+    </diamonds>
+    <clubs>
+    KQ
+    </clubs>
+    </hand>
+    </distribution>
+    <bidding-solution>
+    <bid level="2" suit="c"/>
+    </bidding-solution>
+    </example>
+    <example number="6">
+    <distribution>
+    <hand position="hand">
+    <spades>
+    AQJ9872
+    </spades>
+    <hearts>
+    A5
+    </hearts>
+    <diamonds>
+    8
+    </diamonds>
+    <clubs>
+    Q32
+    </clubs>
+    </hand>
+    </distribution>
+    <bidding-solution>
+        <bid level="2" suit="c"/>-<bid level="2" suit="d"/>-<bid level="3" suit="d"/>
+    </bidding-solution>
+    </example>
+    
+    
 </lesson>

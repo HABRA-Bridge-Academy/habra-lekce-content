@@ -2,6 +2,7 @@
 <p>
 V této lekci si budeme všímat dalších možností, jak uchovávat nebo vytvářet vstupy. Pro tuto lekci je připraveno těchto pět rozdání:
 </p>
+<div class="print-columns" columns="2">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -32,14 +33,11 @@ KQJ64
 K62
 </clubs>
 </hand>
-</distribution>
-
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="4c">
-4 trefová
-</leadcard>
+<leadcard value="4c"/>
+</distribution>
 <p>
 Potřebujeme odehrát čtyři kárové zdvihy, a jestli obránci zadrží eso do třetího kola, bude nutné uchovat si krále trefového jako vstup. První zdvih tedy bereme esem na stole a neseme 10 károvou a hrajeme kára tak dlouho, dokud je nevypracujeme. Král trefový poslouží jako vstup.
 </p>
@@ -74,13 +72,11 @@ KJ4
 QJT863
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="TS">
-10 piková
-</leadcard>
+<leadcard value="TS"/>
+</distribution>
 <p>
 I tady je třeba vidět, kde budou nutné vstupy. Musíme vzít esem a vynést devítku trefovou, kterou převezmeme. Potom hrajeme dál trefy. Jako vstup poslouží pikový kluk a král, který převezme dámu.
 </p>
@@ -115,13 +111,11 @@ KQJ7
 A843
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="JS">
-J pikový
-</leadcard>
+<leadcard value="JS"/>
+</distribution>
 <p>
 Ke čtyřem trefům a dvěma pikům budeme potřebovat tři kára nebo dvě kára a srdci. K tomu se musíme dostat dvakrát do ruky. Vstupy budou trefové eso a osmička. Vezmeme esem, odehrajeme krále a dámu trefovou, a pokud oba obránci dvakrát přiznají, převezmeme junka esem, zaimpasujeme káro a osmička je jako vstup k opakovanému impasu nebo k expasu srdcovému.
 </p>
@@ -156,13 +150,13 @@ AQ4
 J863
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
 <leadcard value="JH">
-J srdcový bere hlavní hráč a nese 10 károvou.
+    J srdcový bere hlavní hráč a nese 10 károvou.
 </leadcard>
+</distribution>
 <p>
 Propustíte, abyste soupeři přerušil napojení. Hlavní hráč pokračuje v kárech a Západ bohužel nemá. Vezmete dámou, a pokud vynesete pik, odříznete hlavního hráče od jeho kár nadobro.
 </p>
@@ -225,17 +219,16 @@ Q42
 T86
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="QH">
-Q srdcová
-</leadcard>
+<leadcard value="QH"/>
+</distribution>
 <p>
 Východ odblokuje do prvního zdvihu krále a hlavní hráč zadrží. Východ by měl pokračovat trefovým králem, čímž vyžene eso stolu. Vydražitel pak přejde do ruky vysokým pikem a vynese malé káro. Západ položí dámu a závazek je poražen, protože hlavní hráč už neudělá devět zdvihů.
 </p>
 </example>
+<div>
 <p>
 Jako kvízové rozdání předložte dětem tento problém:
 </p>
@@ -269,17 +262,17 @@ K8
 Q92
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="1" suit="NT" declarer="S"/>
+    <contract level="1" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="QH">
-Q srdcová
-</leadcard>
+<leadcard value="QH"/>
+</distribution>
 <p>
 Pro odehrání čtyř piků potřebujeme vstup do ruky, vezmeme tedy esem na stole, obehrajeme eso pikové a kluka pikového převezmeme dámou. Až vyrazíme pikového krále, zbude nám vstup v srdcích.
 </p>
 </example>
+</div>
+</div>
 <literature>
 <li>
 <author>E. Kaplan</author>

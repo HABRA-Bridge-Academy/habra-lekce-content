@@ -29,13 +29,10 @@ AT8632
 K4
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="d" declarer="S"/>
+    <contract level="6" suit="d" declarer="S"/>
 </deal-contract>
-<leadcard value="QS">
-pQ
-</leadcard>
+<leadcard value="QS"/>
 <auction onesided="true" dealer="S">
 <bid level="1" suit="c" />
 <bid level="2" suit="d" />
@@ -48,6 +45,7 @@ pQ
 <bid level="6" suit="d" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Čtyři trefy Severu byly oznámení kontrol a zároveň dotazem na kvalitu kárové barvy. Vydražit s pouhými 27 body na lince bez singla slem je velmi dobrý výkon. Sehrávku hlavního hráče však už není možno ohodnotit tak dobře. Hlavní hráč vzal pikový výnos na stole a zahrál kárové eso a malé káro. Měl štěstí, že odevzdal jen jeden kárový zdvih, protože Západ měl singl kluka, ale závazek stejně nesplnil, protože srdcový král neseděl. Co zahrál hlavní hráč špatně? Podívejme se, jaká je rozloha karet u obránců:
 </p>
@@ -118,13 +116,11 @@ AT4
 QT7
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="JH">
-sJ
-</leadcard>
+<leadcard value="JH"/>
+</distribution>
 <p>
 Jih, který v tomto rozdání zahajoval dražbu, by jistě správně měl zahájit jeden pik, ale přesto se rozhodl, vzhledem k impasovým pozicím, zahájit <bid level="2" suit="NT"/>. Po zahájení jedním pikem by totiž Sever mohl pasovat, nejvýš by odpověděl <bid level="1" suit="NT"/>, a pak by byl beztrumfový závazek hrán ze špatné strany. Takto Sever zvýšil na <bid level="3" suit="NT"/>, což byl konečný závazek a Západ vynesl srdcového kluka. Východ pozitivně namarkoval čtyřkou a Jih vzal zdvih dámou. Jak má pokračovat v sehrávání závazku?
 </p>
@@ -198,13 +194,11 @@ Q8
 A7
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="QH">
-sQ
-</leadcard>
+<leadcard value="QH"/>
+</distribution>
 <p>
 V systému Acol zahájil Jih dražbu dva piky a Sever odpověděl negativně <bid level="2" suit="NT"/>. Jelikož svou sílu oznámil již zahajující hláškou, pokračoval Jih uvážlivě na tři piky a Sever s trumfovou pomocí a esem vedle dorazil na čtyři piky. Jak má Jih tento závazek sehrávat po výnosu srdcovou dámou?
 </p>
@@ -281,10 +275,7 @@ AKJT97
 QJ
 </clubs>
 </hand>
-</distribution>
-<leadcard value="QS">
-pQ
-</leadcard>
+<leadcard value="QS"/>
 <deal-contract>
 <contract level="6" suit="d" declarer="S"/>
 </deal-contract>
@@ -298,6 +289,7 @@ pQ
 <bid level="6" suit="d" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Po této dražbě vynáší Západ pikovou dámu. Kdyby přišel trefový výnos, musel by se Jih okamžitě rozhodnout pro zahrání trefové finesy, ale takto má možnost se jí vyhnout. Jak má Jih závazek sehrávat?
 </p>
@@ -377,19 +369,17 @@ A8643
 32
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="JH">
-sJ
-</leadcard>
+<leadcard value="JH"/>
 <auction onesided="true" dealer="N">
 <bid level="1" suit="c" />
 <bid level="1" suit="d" />
 <bid level="2" suit="c" />
 <bid level="3" suit="N" />
 </auction>
+</distribution>
 <p>
 Jak má Jih plánovat sehrávku po výnosu srdcovým klukem? Kterou barvu má vypracovat, kára nebo trefy?
 </p>
@@ -466,13 +456,10 @@ KT
 KQJ75
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="5H">
-s5
-</leadcard>
+<leadcard value="5H"/>
 <auction onesided="true" dealer="N">
 <bid level="1" suit="d" />
 <bid level="2" suit="c" />
@@ -480,6 +467,7 @@ s5
 <bid level="3" suit="N" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Jih sice mohl ve druhém kole dražit piky, ale naprosto není špatné zatajit svůj drahý 4-list (může přijít pikový výnos), protože je dobré, když výnos v srdcích přijde do K,10, má-li stůl v této barvě např. Q,x,x. Západ vynáší srdcovou pětku a Jih vidí, že list je znehodnocen duplicitními hodnotami v srdcích. Otázka nyní zní, zda začít vypracovávat kára nebo trefy nebo dokonce obě barvy.
 </p>
@@ -553,13 +541,10 @@ AQ52
 AQJ
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="NT" declarer="S"/>
+    <contract level="6" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-sK
-</leadcard>
+<leadcard value="KH"/>
 <auction dealer="S">
 <bid level="2" suit="c" />
 <bid level="2" suit="H" />
@@ -582,6 +567,7 @@ sK
 <bid value="pass" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Po této dosti ostré dražbě, kdy Jih ukázal silný list minimálně s 25 body, Sever nabídl své trefy se slemovými ambicemi. Nicméně po vydražení malého slemu v kárech se Východ rozhodl bránit, a proto Jih nakonec skončil v beztrumfovém závazku, jelikož se jednalo o párový turnaj a linka E-W bránila v první proti druhé hře, takže i pokuta při sedmi kontrovaných pádech by nestačila. Jak má hlavní hráč sehrávat beztrumfový malý slem po výnosu srdcovým králem?
 </p>

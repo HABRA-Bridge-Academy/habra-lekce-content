@@ -5,6 +5,8 @@ Obránci nemají možnost naplánovat svůj postup tak přesně, protože žádn
 <p>
 Z tohoto důvodu jejich otvírající výnos proti závazkům v BT bude obyčejně v jejich nejdelší barvě. Je-li taková barva vedená sledem tří honérů nebo přerušeným sledem, tj. dvěma sousedními honéry, za nimiž následuje karta jen o jeden stupeň nižší než ta, která by do sledu tří karet patřila (K,Q,10, Q,J,9), vyneste nejvyšší z honérového sledu. Jestliže tato barva není sledem, vynášejte čtvrtou barvu shora. Předpokládejme, že protivníci licitovali 1BT-3BT a Vy máte vynášet z těchto listů:
 </p>
+<div class="columns">
+<div>
 <p>
 (1)
 </p>
@@ -24,6 +26,8 @@ A82
 </clubs>
 </hand>
 </distribution>
+</div>
+<div>
 <p>
 (2)
 </p>
@@ -43,6 +47,8 @@ AK2
 </clubs>
 </hand>
 </distribution>
+</div>
+</div>
 <p>
 Z obou těchto listů byste měli vynést piky, Vaši nejdelší barvu. Z listu (1) vynesete pětku – nemáte v barvě sled, tak tedy nesete čtvrtou shora. Z listu (2) vynesete J – Vaše barva je vedena přerušeným sledem tří karet.
 </p>
@@ -107,8 +113,8 @@ A63
 T8542
 </clubs>
 </hand>
-</distribution>
 <leadcard value="6S" />
+</distribution>
 <p>
 Vynášíte pikovou šestku, na niž padne ze stolu kluk, partnerův král a vydražitelovo eso. Vydražitel nese dvojku károvou. Musíte vyrukovat se svým esem a znovu vynést pikovou trojku. „Druhý nedá nic“ není z desatera svatých přikázání. Cílem Vaší obrany je vypracovat partnerovu barvu, tak tedy musíte nasadit své zádrže (winéry) co nejdříve a ušetřit partnerovi jeho vstupy.
 </p>
@@ -146,13 +152,11 @@ K64
 542
 </clubs>
 </hand>
-</distribution>
-
-
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
 <leadcard value="QS" />
+</distribution>
 <p>
 Vydražitel otevřel licitaci <bid level="1" suit="NT"/>, dummy zvýšil na <bid level="3" suit="NT"/>. Partner vynese pikovou dámou, kterou stůl přebije esem. Ze stolu je vynesena trojka kárová. Musíte položit svého krále! Má-li vydražitel eso nebo, což by bylo ještě horší, kdyby měl partner singl eso, uhrál by vydražitel překvapivě mnoho zdvihů. Vy se však snažíte závazek porazit a toho nelze docílit, nemá-li partner obsazené eso kárové. A i v tom případě se toho nedocílí, když byste nechránili partnerovo eso jako jeho pozdější vstup k jeho vypracovaným pikům. Proto pošlete ihned svého krále do boje a omluvte se pak, kdyby se to ukázalo špatným. Vaše hra by byla správná, i když by se s ní prohrálo, ale bylo by mařením času o tom partnera přesvědčovat.
 </p>
@@ -176,7 +180,6 @@ KJ96
 KT2
 </clubs>
 </hand>
-
 <hand position="east">
 <spades>
 A3
@@ -191,13 +194,11 @@ QT5
 843
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="2S">
-2 pikovou
-</leadcard>
+<leadcard value="2S"/>
+</distribution>
 <p>
 Vydražitel otevřel licitaci <bid level="1" suit="NT"/>, dummy zvýšil na <bid level="2" suit="NT"/> a vydražitel nabídl <bid level="3" suit="NT"/>. Partner vynese pikovou dvojku a Vy vezmete svým esem. Přejděte na srdcovou šestku! Proč? Protože partner má jen 4-listou barvu. Vynáší svou čtvrtou shora, kdyby měl 5-list, musel by mít ještě jednu kartu nižší než vynesenou, ale on vynesl dvojku. Stejné by to bylo, kdyby vynesl pětku a kdyby vydražitel dal dvojku pod Vaše eso, když vidíte čtyřku, trojku a dvojku, partner musí mít jen 4-list. Proto má vydražitel rovněž čtyři piky a není to tedy dobrá barva pro útok. Snad není ještě příliš pozdě k vypracování Vaší délky v srdcích.
 </p>
@@ -238,11 +239,12 @@ KQT43
 J5
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
     <contract level="3" suit="NT" declarer="S"/>
-    </deal-contract>
-<leadcard value="KH" /><p>
+</deal-contract>
+<leadcard value="KH" />
+</distribution>
+<p>
 Proti <bid level="3" suit="NT"/> vynesete srdcového krále. Stůl dá pětku, partner osmičku vydražitel devítku. Přejděte na pikovou desítku! Proč? Protože beze všech pochyb má vydražitel v srdcích A,J a Váš další výnos srdcí by směřoval rovnou do otevřených kleští jeho pasti. Partner může mít v srdcích tyto kombinace:
 </p>
 <ol class="alpha">

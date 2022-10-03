@@ -1,678 +1,440 @@
-<lesson year="6" title="Jednoduchý skvíz – Už to umím?" number="7" video-id="4L7CCptkFaA">
+<lesson year="6" title="Jednoduchý skvíz – Ztrátové zdvihy" number="7" video-id="4L7CCptkFaA">
 <p>
-V poslední lekci budete mít příležitost dozvědět se, jak na tom ve schopnosti rozpoznat a zrealizovat skvíz jste. V závěrečných příkladech budete znát jen vaše karty a karty partnera na stole, dozvíte se průběh sehrávky do bodu, kdy už bude vše na vás. Karty obránců a řešení najdete o několik stran dále. Takže chutě do toho:
+Novou lekci začněme dvěma rozdáními, při nichž jsou skvízové možnosti na první pohled patrné, uvidíme, jestli se lepší vaše „skvízové oko“.
 </p>
 <example number="1">
 <distribution>
 <hand position="north">
 <spades>
-K72
+65
 </spades>
 <hearts>
-96
+AK42
 </hearts>
 <diamonds>
-Q754
+AJ83
 </diamonds>
 <clubs>
-AK76
+J65
 </clubs>
 </hand>
 <hand position="south">
 <spades>
-A
+AT3
 </spades>
 <hearts>
-AQJT9
+Q8
 </hearts>
 <diamonds>
-Q
+KQ742
 </diamonds>
 <clubs>
-AK63
+AKQ
 </clubs>
 </hand>
-</distribution>
-<auction onesided="true" dealer="N">
-<bid level="1" suit="c" />
-<bid level="1" suit="S" />
-<bid level="2" suit="S" />
-<bid level="4" suit="N" />
-<bid level="5" suit="d" />
-<bid level="6" suit="S" />
-<bid value="pass" />
-</auction>
-<leadcard value="KH">
-sK
-</leadcard>
-<p>
-První zdvih bere král a následující srdové eso Západu je napnuto. Hlavní hráč hraje dvakrát trumfy a oba obránci piky přiznávají, na třetí pik Západ odhazuje srdcovou sedmičku. Co teď?
-</p>
-<distribution>
 <hand position="east">
 <spades>
-654
+KQJ42
 </spades>
 <hearts>
-JT85432
+T9653
 </hearts>
 <diamonds>
-T
+9
 </diamonds>
 <clubs>
-92
+T9
 </clubs>
 </hand>
 <hand position="west">
 <spades>
-83
+987
 </spades>
 <hearts>
-AK7
+J7
 </hearts>
 <diamonds>
-J982
+T65
 </diamonds>
 <clubs>
-JT54
+87432
 </clubs>
 </hand>
+<auction onesided="true" dealer="N">
+<bid level="1" suit="H"/>
+<bid level="2" suit="d"/>
+<bid level="3" suit="d"/>
+<bid level="4" suit="N"/>
+<bid level="5" suit="H"/>
+<bid level="5" suit="N"/>
+<bid level="6" suit="d"/>
+<bid level="7" suit="N"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="8S"/>
 </distribution>
 <p>
-I kdyby to nevyšlo ani v jedné z levných barev, je tu šance, že leží obě v jedné ruce. Potom s nadějkami k6, t7 existuje JEČIVÝ VSTUP proti oběma obráncům (zkontrolujte to!). Samozřejmě plánujeme nejdříve zkusit kára po pikách, i když trefy by se mohly vyzkoušet právě tak. Proto sledujete kárové odhozy a nestaráte se o trefy.
+Do prvního zdvihu přikládá Východ pikového kluka. Máte o zdvih méně (jeden pikový, tři srdcové, pět kárových a tři trefové) a jediná šance je skvíz. Východ má podle výnosu zřejmě <card value="KS"/>, <card value="QS"/> a jestli má také alespoň čtyři srdce, bude ve skvízu. Nadějky jsou <card value="TS"/> a <card value="4H"/>. Předpokládejme tedy, že Východ čtyři srdce má a zkontrolujme podmínky: JE – máme jen jednu ztrátovou kartu, ČI – ve dvou barvách bude činný Východ, VÝ – jedna nadějka (<card value="TS"/>) je ve vyšší ruce a máme VSTUP k srdcové nadějce. Tedy musíme jen stáhnout winéry ve volných barvách. Obehraji kára (zahodím pik) a trefy, poslední tref je skvízovou kartou.
 </p>
 <p>
-Musíme dodat, že nic strašného by se nestalo, kdybychom začali s káry v šestém zdvihu. Přesto každý rutinovaný skvízer stáhne nejprve poslední pik jako projev dokonalé techniky. Proč ukazovat svůj list dříve, než musíme. Ale předpokládejme, že kára netáhnou. Pak musíte nejdříve stáhnout poslední trumf, než se pustíte do trefů, pokud jste samozřejmě piky nestáhli dřív.
+Pokusíte si před začátkem hry představit, proč nebo jak nebo kdy bude skvíz fungovat? Ne. Když vhodíte minci do parkovacího automatu a ručička se pohne, budete se starat, co se děje uvnitř? Nebo si budete pokoušet představovat, jak budou vypadat listy po osmém, devátém nebo desátém zdvihu? Ne – bylo by to mrháním času. Budete v průběhu hry sledovat srdcové odhozy? Ne – je to úplně nezajímavé. Díváte se jedině po pikové dámě a králi. Pokud obě tyto karty nevypadnou, zkusíte srdce, bez ohledu na to, jestli to vyjde nebo ne.
 </p>
 </example>
 <example number="2">
+<p>
+V tomto příkladu můžeme hrát na rozpadnutí jedné z drahých barev a jako přídavná šance je skvíz. Důležité bude, jako u skvízu vždycky, časování.
+</p>
 <distribution>
 <hand position="north">
 <spades>
-K2
+AKQ5
 </spades>
 <hearts>
-KQ5
+432
 </hearts>
 <diamonds>
-A8732
+JT9
 </diamonds>
 <clubs>
-963
+AKQ
 </clubs>
 </hand>
 <hand position="south">
 <spades>
-AQJT9
+432
 </spades>
 <hearts>
-A2
+AKQ5
 </hearts>
 <diamonds>
-J54
+AKQ
 </diamonds>
 <clubs>
-AQ8
+JT9
 </clubs>
 </hand>
-</distribution>
-<auction onesided="true" dealer="S">
-<bid level="1" suit="S" />
-<bid level="2" suit="d" />
-<bid level="3" suit="S" />
-<bid level="6" suit="S" />
-<bid value="pass" />
-</auction>
-<leadcard value="JH">
-sJ
-</leadcard>
-<p>
-Eso bere první zdvih, ve druhém, třetím a čtvrtém zdvihu oba obránci přiznávají piky a ze stolu je odhozeno káro. Na další dva trumfy Západ odhazuje trefy, stůl kára a Východ srdce. Jak dál?
-</p>
-<distribution>
 <hand position="east">
 <spades>
-754
+76
 </spades>
 <hearts>
-7643
+76
 </hearts>
 <diamonds>
-KQT
+8765
 </diamonds>
 <clubs>
-KJT
+87654
 </clubs>
 </hand>
 <hand position="west">
 <spades>
-863
+JT98
 </spades>
 <hearts>
 JT98
 </hearts>
 <diamonds>
-96
+432
 </diamonds>
 <clubs>
-7542
+32
 </clubs>
 </hand>
+<deal-contract>
+<contract level="7" suit="NT" declarer="S"/>
+</deal-contract>
+<leadcard value="JH"/>
 </distribution>
 <p>
-Úspěch trefového impasu se musí předpokládat. Ovšem i s velmi šťastným dělením kár (něco jako dubl K,Q) je jedinou nadějí skvíz, ale vyhlídky nejsou dobré. I tak to musíme zkusit. Musíme přisoudit Východu držení vysokých trefů a kár. Odevzdáme tedy jedno káro v sedmém zdvihu. Je nezajímavé, který ze soupeřů vezme nebo co vrátí. Skvíz, je-li realizovatelný, zůstane neporušený (zkontrolujte všechny možnosti!)
+Dvanáct jistých zdvihů (ve všech barvách po třech). Jestliže se podělí jedna z drahých barev je to v suchu. Špatné by ale bylo vyzkoušet nejdříve jednu a pak druhou barvu. Přídavnou šancí je skvíz, nadějky jsou p5 a s5. Pokud chci hrát na skvíz, musím nejdříve obehrát zdvihy v levných barvách a dívat se, jestli někdo z obránců (ten, který by měl případně oba 4-listy, jež by tak nemohl udržet), neodhodí nějakou drahou. Neztrácíme tak šanci vyzkoušet dělení obou barev, jen si přidáváme šanci navíc.
 </p>
 <p>
-Prakticky všechna pravidla v bridži podléhají výjimkám. Naše pravidlo vzdát se ztrátové karty by v tomto případě nutilo hlavního hráče provést tuto akci v pátém zdvihu, ale přestože stůl drží dvě ztrátové karty, nemůžete udělat chybu dokončením piků a možná přijde nějaká pomoc při odhozech obránců, i když teď se tomu nestalo.
+Ještě si zkontrolujeme podmínky: JE – máme jen jednu ztrátovou kartu (dvanáct zdvihů shora a jeden ztrátový), ČI – ve dvou barvách může být být činný Východ i Západ, protože nadějky mám rozdělené, proto platí VÝ – jedna z nadějek je vždy ve vyšší ruce a VSTUP k oběma barvám máme v jejich nadějkových barvách.
+</p>
+<p>
+Podmínky platí a skvíz by měl fungovat, hraji tedy nejdřív trefy (nebo kára), pak obehraji druhou levnou barvu (free barvy) a pak tu drahou barvu, v níž obránci odhodili, pokud se tak stalo. Kdyby tomu tak nebylo, doufal bych v příznivé dělení alespoň jedné drahé barvy.
+</p>
+<p>
+V naší první lekci jsme kromě čtyř podmínek skvízu (JEČIVÝ VSTUP) definovali také tři různé podmínky vstupu. Není nutné se tímto tématem pro praktické zvládnutí problematiky zabývat nějak hlouběji u stolu, ale abychom se trochu pocvičili, podívejme se na tu nejčastější – první podmínku vstupu – a zkontrolujme, jak to s ní bylo v dosavadních příkladech. Nejdříve si ji připomeňme: protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě.
+</p>
+<p>
+A teď se podívejme na Příklad 1 z dnešní lekce. Vzali jsme eso pikové a stáhli osm karet v levných barvách. Desátý zdvih je skvízový, skvízová karta je ve vaší ruce (poslední karta levné barvy). Protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě a tou jsou srdce. První podmínka vstupu je splněna.
+</p>
+<p>
+Příklad 2. Vezmu srdci a hraji šest karet v levných barvách. Skvízový zdvih bude tedy sedmý. Pokud hraji nejdříve kára a pak trefy, skvízová karta bude poslední tref na stole a protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě a tou jsou srdce. Když sehraji levné barvy naopak, nejdříve trefy a pak kára, skvízová karta bude poslední káro v ruce a protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě a tou jsou piky.
+</p>
+<p>
+Když nám to tak pěkně jde, podívejme se ještě i do rozdání z minulé lekce. V Příkladu 1 je skvízový zdvih devátý a skvízovou kartou je poslední pik na stole. Protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě a tou jsou srdce.
+</p>
+<p>
+A ještě Příklad 2. Ten byl na časování zatím asi nejtěžší. Druhé vysoké káro jsem si musel odehrát před trumfy, existovala by z toho sice cesta ven, kdybych to neudělal, ale byla by zbytečně komplikovaná a musel bych správně sehrát pořadí kár. Pokud po vytrumfování nejdříve vezmu druhé káro a pak budu hrát piky jako zkušený skvízér, bude skvízový zdvih desátý a skvízovou kartou poslední trumf v ruce. Protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě a tou jsou trefy. V tomto případě máme obě nadějky v jedné ruce, což nás při sehrávce omezuje, protože ve skvízu tak může být pouze ten, který odhazuje před námi. To je smysl podmínky VÝ o vyšší ruce. V našem případě nám to vyhovuje, protože srdcovou desítku máme lokalizovánu u Západu, kdyby však byla na Východě, skvíz by nefungoval kvůli podmínce VÝ.
+</p>
+<p>
+Podívejme se v krátkosti ještě na jeden problém. Když Sever drží obě nadějky, musí Západ držet obě zádrže, protože pro Východ by nebylo splněno VÝ. V tom případě, kdy je skvízová pozice vytvořena, Sever nebude mít nečinné karty a bude muset odhodit jednu ze svých nadějek na skvízovou kartu (dnešní Příklad 1).
+</p>
+<p>
+To nám ukazuje jeden důležitý okamžik hry. Nejsmutnější výsledek skvízového rozdání, kdy skvíz funguje a vy máte winéry v obou barvách, je, že když skvízovou barvu stahujete, nemůžete vždy přesně říci, které barvy se Západ vzdal a můžete se vzdát špatné nadějky. Pro odstranění jakékoliv dvojsmyslnosti – tj. nejistoty, co se to jen stalo, dodržujte toto pravidlo:
+</p>
+<p>
+Jestliže jsou obě nadějky v jedné ruce a vám zůstaly winéry v obou skvízových barvách, stáhněte všechny winéry v jedné barvě, pokud je to možné, před skvízovým zdvihem.
 </p>
 </example>
 <example number="3">
 <distribution>
 <hand position="north">
 <spades>
-KQ64
+KQJ743
 </spades>
 <hearts>
-9742
+A5
 </hearts>
 <diamonds>
-AJ
+A42
 </diamonds>
 <clubs>
-AT3
+K4
 </clubs>
 </hand>
 <hand position="south">
 <spades>
-5
+A6
 </spades>
 <hearts>
-9532
+K6
 </hearts>
 <diamonds>
-AKQ
+QT986
 </diamonds>
 <clubs>
-KQT8
+AQ83
 </clubs>
 </hand>
-</distribution>
-<auction onesided="true" dealer="N">
-<bid level="1" suit="c" />
-<bid level="2" suit="d" />
-<bid level="2" suit="S" />
-<bid level="3" suit="S" />
-<bid level="4" suit="d" />
-<bid level="4" suit="N" />
-<bid level="5" suit="H" />
-<bid level="6" suit="N" />
-<bid value="pass" />
-</auction>
-<leadcard value="5c">
-t5
-</leadcard>
-<p>
-Východ přidává trefovou osmičku, král bere zdvih, hlavní hráč nese pik k dámě, tento zdvih bere eso Východu a je vynesen další tref, Západ přiznává a vy berete králem v ruce. A dál?
-</p>
-<distribution>
 <hand position="east">
 <spades>
-AT8
+T82
 </spades>
 <hearts>
-J8653
+8743
 </hearts>
 <diamonds>
-53
+K7
 </diamonds>
 <clubs>
-864
+JT97
 </clubs>
 </hand>
 <hand position="west">
 <spades>
-J7
+95
 </spades>
 <hearts>
-T
+QJT92
 </hearts>
 <diamonds>
-97642
+J53
 </diamonds>
 <clubs>
-J9752
+652
 </clubs>
 </hand>
+<auction onesided="true" dealer="N">
+<bid level="1" suit="S"/>
+<bid level="2" suit="d"/>
+<bid level="3" suit="S"/>
+<bid level="4" suit="N"/>
+<bid level="5" suit="H"/>
+<bid level="5" suit="N"/>
+<bid level="6" suit="H"/>
+<bid level="7" suit="N"/>
+</auction>
+<leadcard value="QH"/>
 </distribution>
 <p>
-Jako obyčejně srdce netáhnou. Závazek je pevný, drží-li kterýkoliv obránce obě drahé barvy (criss-cross skvíz). Stáhněte trefové eso na stole a dokončete kára. Žádná hádanka nemůže nastat pro srdcový singl u Západu.
+Vezmete první srdce a trojím trumfnutím vytrumfujete, Západ shodil srdcového kluka. Počítáte si zdvihy – šest pikových, dva srdcové, jeden kárový a tři trefové. Chybějící zdvih byste mohli udělat na trefo-kárový skvíz. Pokud jeden z obránců drží kárového krále a minimálně 4-list trefový, bude v neudržitelném tlaku. Nadějky jsou kQ a t8. Všimněte si, že jsou v jedné ruce. Znamená to tedy, že aby platila podmínka VÝ, bude muset být obětí Východ. Podmínka JE je splněna, pokud má kárového krále a dlouhé trefy Východ (o Západu už nepřemýšlíme, víme, že by na něj skvíz nefungoval) a pak existuje i ČI a VSTUPem je vysoký tref.
 </p>
-
+<p>
+Když stáhnete všechny winéry ve volných barvách, odhod Jihu na skvízovou kartu se nemůže s určitostí určit. Když ale místo toho někdy v době stahování winérů stáhnete i kárové eso (viz pravidlo), odstraní se tím všechna neurčitost. Budete pak dávat pozor jen na kárového krále. Pokud nespadne, musí táhnout trefy.
+</p>
+<p>
+Podíváme se ze studijních důvodů, jak je to s podmínkou vstupu. U stolu tento problém řešit nemusíme. Skvízovou zdvihem bude desátý zdvih, pravděpodobně poslední trumf (mohlo y to být i sA), skvízová karta je tedy na stole a protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě a tou jsou trefy.
+</p>
+<p>
+Mnohá rozdání poskytují dvě nebo dokonce více skvízových možností. Tady by se uplatnil skvíz s nadějkami k4 a t8, když bude mít Západ čtyři trefy a čtyři kára – zkuste si to zahrát s kK a t9 u Západu místo s9 a s2. Ovšem tato možnost skvízu je kontraindikována odhozem Západu. Ukázal už dva piky a naznačuje minimálně čtyři srdce, nemohl mu tedy zbýt prostor na osm levných karet.
+</p>
+<p>
+Pozastavme se teď u podmínky JE. Prozatím vždy byla automaticky splněna. S touto podmínkou ale můžeme mít i více práce. Podívejme se na toto rozdání.
+</p>
 </example>
 <example number="4">
-<p>
-Občas se dostanete do zcela neřešitelné situace a jasným zábleskem je pouze vytvoření nějaké skvízové pozice.
-</p>
 <distribution>
 <hand position="north">
 <spades>
-J32
+A3
 </spades>
 <hearts>
-96
+A8
 </hearts>
 <diamonds>
-QT8742
+AKQJ87
 </diamonds>
 <clubs>
-75
+AK7
 </clubs>
 </hand>
 <hand position="south">
 <spades>
-AK74
+J542
 </spades>
 <hearts>
-A
+54
 </hearts>
 <diamonds>
--
+542
 </diamonds>
 <clubs>
-AKQJT932
-</clubs>
-</hand>
-</distribution>
-<deal-contract>
-<contract level="7" suit="c" declarer="S"/>
-</deal-contract>
-<leadcard value="Kd">
-kK
-</leadcard>
-<p>
-Západ vynesl kárového krále a Jih přebil. Největší nadějí vydražitele na splnění tohoto závazku se zdá být možnost, že jeden z obránců má dubl pikovou dámu a jen jeden trumf. Nastala-li tato situace, pak po jednom trumfnutí a odehrání esa a krále pikového (když vypadne dáma) může vydražitel odehrát pikového kluka, vrátit se do ruky snapem a přebít čtvrtý pik zbývajícím trumfem stolu. Tedy ve druhém zdvihu odehrál vydražitel trumfové eso, v trumfech se však ukázala rozloha 3-0, Západ nepřiznal. Pořád je ještě původní plán dobrý, když Západ ke svým třem trumfům bude mít i čtyři piky bez dámy. Teď hrajeme ještě krále trumfového a eso pikové, do něhož od Západu padá piková dáma! Náhle se všechno zlepšilo. Jak s tím teď naložíte?
-</p>
-<distribution>
-<hand position="east">
-<spades>
-Q
-</spades>
-<hearts>
-QJT854
-</hearts>
-<diamonds>
-965
-</diamonds>
-<clubs>
-864
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-T9865
-</spades>
-<hearts>
-K732
-</hearts>
-<diamonds>
-AKJ3
-</diamonds>
-<clubs>
--
-</clubs>
-</hand>
-</distribution>
-<p>
-Vydražitel má nyní dotrumfovat, odehrát srdcové eso a hrál další trumfy. Před vynesení posledního trumfu nastane tato situace:
-</p>
-<distribution>
-<hand position="north">
-<spades>
-J3
-</spades>
-<hearts>
--
-</hearts>
-<diamonds>
-QT
-</diamonds>
-<clubs>
--
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-K74
-</spades>
-<hearts>
--
-</hearts>
-<diamonds>
--
-</diamonds>
-<clubs>
-2
+Q843
 </clubs>
 </hand>
 <hand position="east">
 <spades>
--
+KQ7
 </spades>
 <hearts>
-QJ
+KJT
 </hearts>
 <diamonds>
-96
+963
 </diamonds>
 <clubs>
--
+JT92
 </clubs>
 </hand>
 <hand position="west">
 <spades>
-T98
+T986
 </spades>
 <hearts>
--
+Q97632
 </hearts>
 <diamonds>
-A
+T
 </diamonds>
 <clubs>
--
+65
 </clubs>
 </hand>
+<auction dealer="E">
+<bid value="pass"/>
+<bid value="pass"/>
+<bid value="pass"/>
+<bid level="2" suit="d"/>
+<bid value="pass"/>
+<bid level="2" suit="N"/>
+<bid value="pass"/>
+<bid level="3" suit="c"/>
+<bid value="pass"/>
+<bid level="4" suit="c"/>
+<bid value="pass"/>
+<bid level="6" suit="N"/>
+<bid value="X"/>
+<bid value="pass"/>
+<bid value="pass"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="TS"/>
 </distribution>
 <p>
-Na vynesenou trumfovou dvojku musí Západ věnovat buď kárové eso, nebo pik. Když odhodí kárové eso, vyhraje kárová dáma stolu. Když místo toho odhodí pik, vydražitel získá tři pikové zdvihy.
+Výnos indikuje krále i dámu u Východu. Pokud se trefy nedělí, je velká šance, že Východ má tuto barvu ve 4-listu společně s K,Q v pikách. Jestliže ano, potom existuje JEČIVÝ VSTUP s problémem, že máme dva ztrátové zdvihy. Mohli bychom stáhnout jedenáct zdvihů a zbyly by nám v ruce dva k odevzdání. Tento nedostatek řeší tzv. upravení počtu ztrátových karet. Musíme propustit soupeřům tolik karet, aby podmínka JE platila, což je u nás právě jeden. Tato akce by měla být vykonána co nejdříve a nám se naskýtá šance hned při prvním zdvihu, proto ho propustíme. Zmocní se ho na dámu Východ a vyrazí nám malým pikem eso. My ho nakrmíme sedmi červenými kartami a dáváme pozor na pikového krále.
+</p>
+<p>
+Tento list přináší další poznatek, ze kterého vyplývá, že znalost skvízu se cení. Východ tím, že není skvízer, kontruje, aniž by se na chvíli zamyslel nad tím, co bude odhazovat na velké množství kár, které určitě soupeřící linka vlastní. Ve skutečnosti je jeho kontra nejhorší ze všech polodětských bojových prostředků. A přece se s takovým kontrem setkáme i na mistrovství republiky, ovšem jen velmi zřídka od schopných skvízových hráčů.
+</p>
+<p>
+Vraťme se ale k naší podmínce JE a pokusme se vyslovit nějaký závěr. Předpokládejme, že při prověřování JEČIVÝho VSTUPU zjistíme, že je JE špatně – máme víc ztrátových zdvihů než jeden. V takovém případě musíme upravit počet odevzdáním tolika zdvihů, kolik je potřeba. S dvěma ztrátovými zdvihy propustíme jednou, se třemi dvakrát atd. Při využívání tohoto manévru se hlavní hráč snaží odevzdat požadované ztrátové zdvihy při první příležitosti.
+</p>
+<p>
+Samozřejmě musí být toto pravidlo aplikováno opatrně, protože se často stává, že určité věci musí být provedeny dříve, než se budeme moci bezpečně zbavit určitých ztrátových karet. Ale soustřeďte se na zbavení se přebytečných ztrátových karet okamžitě, jakmile to můžete udělat.
+</p>
+<p>
+Upravování počtu ztrátových karet patří k nejčastějším skvízovým akcím, a proto ještě jeden příklad.
 </p>
 </example>
 <example number="5">
 <distribution>
 <hand position="north">
 <spades>
-62
+AK42
 </spades>
 <hearts>
-AQ98
+75
 </hearts>
 <diamonds>
-AQ9
+K742
 </diamonds>
 <clubs>
-T976
+763
 </clubs>
 </hand>
 <hand position="south">
 <spades>
-AKJ8753
+865
 </spades>
 <hearts>
-2
-</hearts>
-<diamonds>
-J2
-</diamonds>
-<clubs>
-854
-</clubs>
-</hand>
-</distribution>
-<auction dealer="W">
-<bid value="pass" />
-<bid level="1" suit="c" />
-<bid value="pass" />
-<bid level="1" suit="S" />
-<bid value="pass" />
-<bid level="1" suit="N" />
-<bid value="pass" />
-<bid level="4" suit="S" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="pass" />
-</auction>
-<leadcard value="Kc">
-tK
-</leadcard>
-<p>
-Toto rozdání bylo zasvěceno nejlepšímu hráči whistu ve Vídni již před sto lety. Vaším konečným závazkem jsou 4 piky a Západ odehrává trefové AKQ a pokračuje trefovým junákem, kterého přebíjíte trumfem. Východ měl jen dva trefy a na třetí a čtvrté kolo trefů odhazuje srdcové 3. V pátém zdvihu nesete pikové eso a jste příjemně překvapen, když Západ dává dámu. Je však otázkou, co dále?
-</p>
-<distribution>
-<hand position="east">
-<spades>
-T94
-</spades>
-<hearts>
-KJT53
-</hearts>
-<diamonds>
-KT5
-</diamonds>
-<clubs>
-32
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-Q
-</spades>
-<hearts>
-764
-</hearts>
-<diamonds>
-87643
-</diamonds>
-<clubs>
-AKQJ
-</clubs>
-</hand>
-</distribution>
-<p>
-Ti, kteří by se rozhodli pro další kolo trumfů, by propadli. Ti, kteří by zahráli srdcový nebo kárový impas, by si mohli sednout do řady hned za ně. Budete v čele, když zahrajete károvou dvojku k esu. Hlavní hráč ví podle licitace, že Východ má oba červené krále. (Západ již ukázal trefové A,K,Q,J a pikovou dámu. Jistě by zahájil dražbu, kdyby měl jen o pik více.) Znamená to, že žádný z obou impasů nemá vůbec cenu zkoušet. Znamená to také, že bude úspěšný skvíz proti Východu, pokud se hlavní hráč nezablokuje. Vezměte kárové eso a vraťte se do ruky druhým pikem stolu a trumfujte. Při posledních třech kartách bude rozdání vypadat následovně:
-</p>
-<distribution>
-<hand position="north">
-<spades>
--
-</spades>
-<hearts>
-AQ9
+AKQJ64
 </hearts>
 <diamonds>
 -
 </diamonds>
 <clubs>
--
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-3
-</spades>
-<hearts>
-2
-</hearts>
-<diamonds>
-J
-</diamonds>
-<clubs>
--
+A842
 </clubs>
 </hand>
 <hand position="east">
 <spades>
--
-</spades>
-<hearts>
-KJ
-</hearts>
-<diamonds>
-K
-</diamonds>
-<clubs>
--
-</clubs>
-</hand>
-<hand position="west">
-<spades>
--
-</spades>
-<hearts>
 7
+</spades>
+<hearts>
+9
 </hearts>
 <diamonds>
-87
+J9653
+</diamonds>
+<clubs>
+KQJT95
+</clubs>
+</hand>
+<hand position="west">
+<spades>
+QJT93
+</spades>
+<hearts>
+T832
+</hearts>
+<diamonds>
+AQT8
 </diamonds>
 <clubs>
 -
 </clubs>
 </hand>
-</distribution>
-<p>
-Když nesete poslední pik, je Východ ve skvízu na piky a kára. Hlavní hráč vezme poslední dva zdvihy bez impasu. Všimněte si, že k této koncovce tří karet nelze nikdy dospět, pokud se Jih zapomene před odehráním posledního trumfa na stole odblokovat károvým esem. Neměl by přechod do ruky k odehrání trumfů a uvedení partie do skvízové koncovky. Zahrál tedy Vienna coup.
-</p>
-</example>
-<example number="6">
-<p>
-Poslední příklad vám ukážeme celý. Tentokrát splníme váš úkol za vás a povíme vám, jak si připravit skvíz. Místo toho máme ale pro vás jiný úkol. Popsaný průběh obrany není optimální. Najdete jako obránci řešení, jak skvíz zničit?
-</p>
-<distribution>
-<hand position="north">
-<spades>
-J93
-</spades>
-<hearts>
-KJ9
-</hearts>
-<diamonds>
-KQJ
-</diamonds>
-<clubs>
-J842
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-AK
-</spades>
-<hearts>
-AQT87
-</hearts>
-<diamonds>
-8653
-</diamonds>
-<clubs>
-AK
-</clubs>
-</hand>
-<hand position="east">
-<spades>
-Q74
-</spades>
-<hearts>
-652
-</hearts>
-<diamonds>
-AT94
-</diamonds>
-<clubs>
-965
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-T8652
-</spades>
-<hearts>
-43
-</hearts>
-<diamonds>
-72
-</diamonds>
-<clubs>
-QT73
-</clubs>
-</hand>
-</distribution>
-<auction dealer="W">
-<bid value="pass" />
-<bid level="1" suit="N" />
-<bid value="pass" />
-<bid level="3" suit="H" />
-<bid value="pass" />
-<bid level="4" suit="H" />
-<bid value="pass" />
-<bid level="6" suit="H" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="pass" />
+<auction dealer="S">
+<bid level="1" suit="H"/>
+<bid level="1" suit="S"/>
+<bid value="X"/>
+<bid level="2" suit="c"/>
+<bid level="4" suit="H"/>
+<bid value="pass"/>
+<bid value="pass"/>
+<bid value="pass"/>
 </auction>
-<p>
-Západ vynesl károvou sedmičku a Východ nepokryl juna stolu. Hlavní hráč odehrál trumfového krále a dva nejvyšší trefy, pak přešel na stůl trumfovým junákem. Při snapu vyneseného trefu se trefová dáma neukázala. Káro bylo přebito esem a Východ vrátil jeho poslední trumf, aby zabránil snapu čtvrtého kára. Když vynášel hlavní hráč svůj poslední trumf, byla situace takováto:
-</p>
-<distribution>
-<hand position="north">
-<spades>
-J9
-</spades>
-<hearts>
--
-</hearts>
-<diamonds>
-J
-</diamonds>
-<clubs>
-J
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-K
-</spades>
-<hearts>
-8
-</hearts>
-<diamonds>
-86
-</diamonds>
-<clubs>
--
-</clubs>
-</hand>
-<hand position="east">
-<spades>
-Q7
-</spades>
-<hearts>
--
-</hearts>
-<diamonds>
-T9
-</diamonds>
-<clubs>
--
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-T86
-</spades>
-<hearts>
--
-</hearts>
-<diamonds>
--
-</diamonds>
-<clubs>
-Q
-</clubs>
-</hand>
+<leadcard value="QS"/>
 </distribution>
 <p>
-Západ odhodil pik, ze stolu byl odhozen tref a Východ, obávaje se nejhoršího, odhodil káro. Hlavní hráč pak přešel ke károvému junákovi a vrátil k pikovému králi, aby uhrál poslední káro. Východ chvilku přemýšlel. „Víte, myslím že jsem mohl závazek porazit.“
+Mám devět zdvihů, na svou dražbu by měl mít Západ alespoň 5-list pikový a zřejmě i kárové eso. Jestli to bude pravda, bude ve skvízu, vašimi nadějkami jsou p4 a kK, ČI platí pro Západ, pak i VÝ platí proti Západu a vstupem jsou vysoké piky (takto nevadí, že nemám ke káru vstup). Král v prvním zdvihu naštěstí bere zdvih, na první trumfový zdvih oba přiznali, na druhý odhazuje Východ trefového krále. Hodně se zvětšila naděje, že Západ má kárové eso, když nemá vysoké trefy. Máme ale čtyři ztrátové karty a JE neplatí. Tedy odtrumfujeme (shazujeme kára), položíme trefové eso a pokračujeme dalším trefem.
 </p>
 <p>
-Řešením je propuštění i druhého kola kár. Pokud si Východ nevezme eso kárové ani ve druhém zdvihu, nebude upravený počet zdvihů a skvíz nebude fungovat.
+Východ je bezmocný. Když stáhne své tři trefy (upraví vám tak počet zdvihů), snapnete čtvrtý a poslední trumf bude skvízovou kartou. Jestliže se Východ pokusí uniknout a vynese místo trefu káro, zahodíte tref a kárový král musí později vzít zdvih.
 </p>
 </example>
 <literature>
@@ -683,10 +445,6 @@ Západ odhodil pik, ze stolu byl odhozen tref a Východ, obávaje se nejhoršíh
     <li>
     <author>J.Hájek</author>
     <title>Nauč se skvízovat</title>
-    </li>
-    <li>
-    <author>H.W. Kelsey</author>
-    <title>Smrtící bridžová obrana</title>
     </li>
     </literature>
 </lesson>

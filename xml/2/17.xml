@@ -2,6 +2,7 @@
 <p>
 Série čtyř lekcí se bude zabývat bridžovými technikami použitelnými v beztrumfové hře. Klíčovým slovem bývá napojení. Komunikace z jednoho listu do druhého a její zvládání je znakem vyspělého bridžisty. Je nutno ukazovat na příkladech, jak takováto práce vypadá. Zadržování stoperů, ať už hlavním hráčem nebo obránci je jedním z nejzákladnějších prostředků udržení komunikace nebo přerušení komunikace soupeřů. Zde jsou čtyři rozebrané ukázky:
 </p>
+<div class="print-columns" columns="2">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -60,13 +61,11 @@ Q98
 T4
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="4S">
-4 piková
-</leadcard>
+<leadcard value="4S"/>
+</distribution>
 <p>
 Abychom obráncům přerušili komunikaci v pikách a zabránili tak jejich odehrání, musíme pik dvakrát propustit.
 </p>
@@ -129,13 +128,11 @@ K86
 43
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="6S">
-6 piková
-</leadcard>
+<leadcard value="6S"/>
+</distribution>
 <p>
 I tady musíme propustit pik, pokud vezmeme první esem a po zahrání kár vrátí Východ do piků, podaří se Západu jeho chatrné piky vypracovat.
 </p>
@@ -198,13 +195,11 @@ QJ63
 T62
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="3H">
-3 srdcová
-</leadcard>
+<leadcard value="3H"/>
+</distribution>
 <p>
 Toto je příklad, kdy se zadržet nemá, protože pokud obránci změní barvu, prohrajeme. Klíčovým bodem je, že mě ohrožuje druhá barva. Zadržujeme pouze v případě, že se nebojíme změny barvy.
 </p>
@@ -267,17 +262,16 @@ K86
 QJT85
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="Qc">
-Q trefová
-</leadcard>
+<leadcard value="Qc"/>
+</distribution>
 <p>
 Hlavní hráč zničí spojení trefů zadržením, ale obránci mu to mohou oplatit stejnou akcí v kárech a hlavnímu hráči potom pikový vstup nebude stačit k odehrání kár. Jak vidno, i v obraně může mít zadržení velký úspěch.
 </p>
 </example>
+</div>
 <p>
 Další příklad dejte žákům k analýze, ať se snaží najít co nejlepší postup hlavního hráče i obrany a zdůvodnit jej:
 </p>
@@ -339,13 +333,11 @@ Q94
 82
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-K srdcový
-</leadcard>
+<leadcard value="KH"/>
+</distribution>
 <p>
 Dvojí zadržení srdcí a kárový impas nám zaručuje úspěch, pokud nemá Západ ke své srdcové délce trefové eso, ale pak bychom nemohli dělat nic jiného než doufat, že srdce jsou rozděleny 4-4.
 </p>

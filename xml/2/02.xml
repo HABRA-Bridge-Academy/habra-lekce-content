@@ -5,6 +5,8 @@ Tato lekce by měla představovat kvalitativní zlom. Od této chvíle bychom m�
 <p>
 Plánovat beztrumfovou sehrávku je snazší, protože faktorů, které ji ovlivňují, je méně, proto začínáme právě od ní. Měli bychom naučit děti návyku hlavního hráče zamyslet se okamžitě po prvním výnosu, ještě před přidáním první karty stolu. Předmětem tohoto zamyšlení by měla být otázka, kolik vidím nezpochybnitelných zdvihů. Dále se tážu, kolik mi jich chybí a kde je lze získat. Pak se již vydám po cestě, kterou naleznu. Využívat budeme samozřejmě technik sehrávky, které již známe. Pro objasnění tohoto procesu máme přichystána tato rozdání. Několik prvních vysvětlíme sami, a pak dáme příležitost nápadům a návrhům dětí, opravujeme je a vedeme na správnou cestu. Poukážeme také na častost výnosu obránců ze sledu. Neopomeneme zhusta chválit. Není nutno za každou cenu probrat všechna rozdání.
 </p>
+<div class="print-columns" columns="2">
+
 <example number="1">
 <distribution>
 <hand position="north">
@@ -63,13 +65,11 @@ A5
 JT9
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="QS">
-Q piková
-</leadcard>
+<leadcard value="QS"/>
+</distribution>
 <p>
 Hlavní hráč si napočítá šest jistých zdvihů (2 pikové, 3 srdcové, 1 trefový), zjistí, že mu chybí tři zdvihy ke splnění závazku, a ty může získat v kárech po vyražení esa. Je nutno dát se tedy do této práce. Ukážeme, jak by se situace vyvíjela po odehrání vysokých zdvihů před vypracováním kár, a můžeme vysvětlit a objasnit pojem stoper.
 </p>
@@ -132,13 +132,11 @@ K43
 KQJT9
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="1" suit="NT" declarer="S"/>
+    <contract level="1" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-K trefový
-</leadcard>
+<leadcard value="Kc"/>
+</distribution>
 <p>
 Hlavní hráč si napočítá šest jistých zdvihů (4 kárové, 1 trefový a jeden pikový). Šance na získání kýženého chybějícího zdvihu je v pikách, dokáže-li hlavní hráč realizovat impas a bude-li samozřejmě sedět. Zatím se ještě nebudeme zabývat zadržováním.
 </p>
@@ -201,13 +199,11 @@ A7
 JT98
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="NT" declarer="S"/>
+    <contract level="6" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="Jc">
-J trefový
-</leadcard>
+<leadcard value="Jc"/>
+</distribution>
 <p>
 Hlavní hráč vidí po třech zdvizích v pikách, srdcích a trefech. Další tři zdvihy lze vypracovat pohodlně v kárech, pokud to udělá dříve, než ztratí stopery ve vedlejších barvách.
 </p>
@@ -270,13 +266,11 @@ JT9
 32
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="KS">
-K pikový
-</leadcard>
+<leadcard value="KS"/>
+</distribution>
 <p>
 Jisté jsou čtyři zdvihy v trefech, tři v srdcích a jeden v pikách. V kárech lze získat další tři zdvihy, ale výnos do piků je nepříjemný. I když se budou dělit 5-4 (pro hlavního hráče nejlépe), udělá obrana čtyři piky a jedno káro. Není proto možné rozehrát kára a jediná šance na splnění je v dělení srdcí 3-3. Můžeme děti upozornit na to, že je lepší obehrát předtím své trefové zdvihy, protože nepozorný obránce může případně špatně zahodit, což zvyšuje pravděpodobnost našeho úspěchu.
 </p>
@@ -339,13 +333,11 @@ KQJT9
 K987
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="Kd">
-K kárový
-</leadcard>
+<leadcard value="Kd"/>
+</distribution>
 <p>
 Devět zdvihů je jistých shora (po čtyřech srdcových a pikových a 1 kárový), proto si je můžeme okamžitě posbírat. Nesmíme ale zapomenout na dobrou techniku a nezablokovat se.
 </p>
@@ -408,13 +400,11 @@ QJT98
 QJT
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="QS">
-Q piková
-</leadcard>
+<leadcard value="QS"/>
+</distribution>
 <p>
 Máme osm jistých zdvihů a devátý lze získat v trefech, pokud je obehrajeme třikrát a vypadne do těchto zdvihů všech pět zbývajících trefových karet soupeřů. Samozřejmě nesmíme ani pomyslet na obehrávání svých stoperů v ostatních barvách.
 </p>
@@ -449,13 +439,11 @@ KQ3
 8764
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="1" suit="NT" declarer="S"/>
+    <contract level="1" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="5S">
-5 piková
-</leadcard>
+<leadcard value="5S"/>
+</distribution>
 <p>
 Vidíme 5 rychlých zdvihů a možnost vypracování dvou kár při dělení 3-2. Ukážeme na svízel vstupu ke kárům, nezablokovat se je cesta k úspěchu.
 </p>
@@ -518,17 +506,16 @@ Q95
 T2
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="QS">
-Q piková
-</leadcard>
+<leadcard value="QS"/>
+</distribution>
 <p>
 Máme sedm zdvihů a chybí nám dva. Možnosti jsou v trefech, ale po podrobnějším promyšlení zjistíme, že zde nalezneme jen jeden ze dvou chybějících zdvihů. Dva můžeme nalézt v kárech, pokud se dělí 3-3. Ukážeme, že tyto šance nelze kombinovat, protože soupeři pak dosáhnou svých pěti zdvihů dříve než my devíti, a tak je okamžité rozehrání kár jedinou nadějí na splnění závazku.
 </p>
 </example>
+</div>
 <literature>
 <li>
 <author>J. Hájek</author>

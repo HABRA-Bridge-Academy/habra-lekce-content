@@ -2,6 +2,7 @@
 <p>
 Nejdříve Nyní se podíváme na plán finesovací z hlediska obrany. Pokud hrajeme proti tomuto plánu, bude naší snahou nezadat žádný zdvih zbytečnou aktivitou. Heslo dne je neotvírat nové barvy, vracet barvy soupeře nebo vydražitele, případně nést do trumfů. Zde jsou příklady:
 </p>
+<div class="print-columns" columns="2">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -32,13 +33,11 @@ AT643
 Q862
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="2d">
-2 kárová
-</leadcard>
+<leadcard value="2d"/>
+</distribution>
 <p>
 Vracení kár je neproduktivní, ale bezpečné, rozhodně neměňte barvu. Vezměte esem a pokračujte v kárech.
 </p>
@@ -101,13 +100,11 @@ QJ6
 J83
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="2" suit="H" declarer="S"/>
+    <contract level="2" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Qd">
-Q kárová
-</leadcard>
+<leadcard value="Qd"/>
+</distribution>
 <p>
 Všichni přidají malou a Západ pokračuje v kárech, tento zdvih získává Jih na snap a vynese trumf, ze stolu vezme esem a opět nese trumf. Západ musí vzít zbývající trumf a vynést potřetí kára. Vydražitel přebije trumfem, nese pik k esu a neúspěšně impasuje další pik. Západ musí klidně vrátit další pik. Vydražitel musí nakonec rozehrát trefy, neúspěšně impasuje a po vrácení trefů padá.
 </p>
@@ -170,13 +167,11 @@ AT72
 Q92
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="S" declarer="S"/>
+    <contract level="3" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-K srdcový
-</leadcard>
+<leadcard value="KH"/>
+</distribution>
 <p>
 Vydražitel propustí a Západ nebude pokračovat po negativním náznaku partnera v srdcích a ponese trumf. Vydražitel vezme a dalším trumfnutím dotrumfuje, pak vezme své eso srdcové a pustí Západ do zdvihu na další srdce. Ten je donucen vynést novou barvu, dejme tomu tref, stůl dá malou, partner krále a vydražitel eso, načež vrátí opět tref, Západ vezme a výnosem třetího trefu porazí závazek hlavního hráče.
 </p>
@@ -239,13 +234,11 @@ QJ97
 J952
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Qd">
-Q kárová
-</leadcard>
+<leadcard value="Qd"/>
+</distribution>
 <p>
 Dámu je nutno převzít, hlavní hráč tak nesmí propustit z obavy o podnesení srdcového krále. Kdyby to Východ neudělal, vydražitel by vzal kára v druhém kole, vytrumfoval by, vymýtil by trefy a poslední káro snapnutím tak, aby byl nakonec na stole, vynesl by srdci a pokud Východ přiloží malou, dostane položením osmičky Západ do nuceného výnosu.
 </p>
@@ -308,17 +301,16 @@ KJT5
 KQ986
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="H" declarer="S"/>
+    <contract level="6" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-K trefový
-</leadcard>
+<leadcard value="Kc"/>
+</distribution>
 <p>
 Vydražitel vezme, vytrumfuje, odsnapuje tref, pak udělá pikový impas, obehraje pik a může dostat Západ do nuceného výnosu na jeho pikového krále, pokud nebude tak chytrý, že ho ve druhém zdvihu odhodí. Kdyby byl dostatečně předvídavý i hlavní hráč, udělal tento manévr v pikách již dříve, než se obráncům rozsvítí.
 </p>
 </example>
+<div>
 <p>
 Kvíz pro samostatné řešení:
 </p>
@@ -380,17 +372,17 @@ KT9
 K42
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="S" declarer="S"/>
+    <contract level="3" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-K srdcový
-</leadcard>
+<leadcard value="KH"/>
+</distribution>
 <p>
 Do výnosu by měl partner kladně markovat, z čehož Západ dešifruje dubl partnera a do třetího zdvihu vynese desítku, aby partner snapl a vynesl káro, čímž bude hlavní hráč poražen.
 </p>
 </example>
+</div>
+</div>
 <literature>
 <li>
 <author>E. Kaplan</author>

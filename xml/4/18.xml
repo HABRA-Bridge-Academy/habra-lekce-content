@@ -74,6 +74,7 @@ Pokud jsme si ushodnili levnou barvu a ptáme se Blackwoodem na počet es, je v�
 <p>
 Příklady:
 </p>
+<div class="print-columns" columns="2">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -104,13 +105,13 @@ KJ84
 KQ74
 </clubs>
 </hand>
-</distribution>
 <auction dealer="N" onesided="true">
 <bid level="1" suit="S" />
 <bid level="4" suit="H" />
 <bid level="6" suit="S" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Po Splinteru je jasné, že figury jsou koncentrovány do správných barev.
 </p>
@@ -145,7 +146,6 @@ A9
 Q9732
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="N">
 <bid level="1" suit="H" />
 <bid level="3" suit="c" />
@@ -158,6 +158,7 @@ Q9732
 <bid level="6" suit="H" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Hláška <bid level="4" suit="H"/> ukazuje minimum z 12+ bodů a fit v srdcích, odpověď na dotaz <bid level="4" suit="NT"/> je 0 nebo 3 esa (i s trumfovým králem), 0 es to být nemůže, protože bez es by nešlo nasbírat dost bodů, a tak je hláška <bid level="5" suit="NT"/> dotazem na krále (5k by byl dotaz na trumfovou dámu), Po té, co partner nemá ani trefového, ani pikového krále, zahajitel končí na <bid level="6" suit="H"/>.
 </p>
@@ -192,13 +193,13 @@ KJ83
 KQ74
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="N">
 <bid level="1" suit="S" />
 <bid level="4" suit="d" />
 <bid level="4" suit="S" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Po Splinteru je všechno špatně, hlavní hráč se spokujuje s manší.
 </p>
@@ -233,7 +234,6 @@ AT5
 QT3
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="N">
 <bid level="1" suit="S" />
 <bid level="2" suit="S" />
@@ -241,8 +241,10 @@ QT3
 <bid level="6" suit="S" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Hláška <bid level="4" suit="H"/> je Splinter s 6-listem a krátkostí v srdcích, partner i s tak nepříznivou rozlohou draží 6 piků, protože hodnoty jsou na správných místech.
 </p>
 </example>
+</div>
 </lesson>

@@ -29,13 +29,11 @@ KT5
 AQJT2
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="3H">
-s3
-</leadcard>
+<leadcard value="3H"/>
+</distribution>
 <p>
 Proti závazku Jihu tři bez trumfů vynáší Západ srdcovou trojku, na kterou dává Východ eso. Jak má Jih závazek sehrávat?
 </p>
@@ -109,13 +107,11 @@ Q953
 96
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="NT" declarer="S"/>
+    <contract level="6" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="7S">
-p7
-</leadcard>
+<leadcard value="7S"/>
+</distribution>
 <p>
 Po zahájení Severu konvenční hláškou dva trefy odpověděl Jih dva bez trumfů a nakonec hrál závazek šest bez trumfů. Západ, který neměl příliš lehké rozhodování, jak uvidíme z rozlohy karet, vynesl nakonec pikovou sedmičku. Jak má Jih sehrávat?
 </p>
@@ -192,13 +188,13 @@ JT952
 7
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
 <leadcard value="Kc">
-tK, tA
+    tK, tA
 </leadcard>
+</distribution>
 <p>
 Jih sehrává závazek čtyři piky, proti kterému vynáší Západ trefového krále a pokračuje esem. Hlavní hráč přebíjí trumfem druhý tref. Jak má Jih pokračovat?
 </p>
@@ -272,13 +268,11 @@ AKT
 AQJT
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="3S">
-p3
-</leadcard>
+<leadcard value="3S"/>
+</distribution>
 <p>
 Jih zahájil dražbu hláškou dva bez trumfů a Sever zvýšil na tři. Západ vynáší pikovou trojku a na malý pik ze stolu dává Východ eso. Jak má Jih sehrávat závazek?
 </p>
@@ -355,13 +349,11 @@ KJT
 AQ4
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="Jc">
-tJ
-</leadcard>
+<leadcard value="Jc"/>
+</distribution>
 <p>
 Jak má Jih sehrávat tři bez trumfů po výnosu trefovým klukem?
 </p>
@@ -435,13 +427,11 @@ AJT974
 AQ
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="d" declarer="S"/>
+    <contract level="6" suit="d" declarer="S"/>
 </deal-contract>
-<leadcard value="QS">
-pQ
-</leadcard>
+<leadcard value="QS"/>
+</distribution>
 <p>
 Proti závazku šest kár vynáší Západ pikovou dámu. Jak má hlavní hráč plánovat sehrávku?
 </p>
@@ -515,13 +505,11 @@ K
 A52
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="6c">
-t6
-</leadcard>
+<leadcard value="6c"/>
+</distribution>
 <p>
 Jak má Jih sehrávat tři bez trumfů po výnosu trefovou šestkou?
 </p>

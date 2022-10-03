@@ -60,11 +60,11 @@ Q652
 Q43
 </clubs>
 </hand>
-</distribution>
 <leadcard value="QS" />
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
+</distribution>
 <p>
 Prvním rozhodnutím v tomto rozdání je, co vynést do <contract level="3" suit="NT"/> Jihu. Samozřejmě že správná odpověď je dámu pikovou. Piková barva by mohla přinést nějaké zdvihy na malé karty, zvlášť když partner pomůže. Hlavní hráč bere esem na stole, Západ se odblokovává osmičkou a hlavní hráč nese ze stolu malé káro. Zjevně se snaží vypracovat svá kára. Západ bere esem a nesmí udělat tu chybu, že by odehrál i krále a pak teprve poslal svému partnerovi pik. Tím by vypracoval hlavnímu hráči dostatečný počet zdvihů a ten by se mohl smát, jak se mu podařilo splnit nesplnitelný závazek. Je nutno si uvědomit, že beztrumfová hra bývá nejčastěji soubojem o vypracování barvy a ne odehráním nejvyšších karet. Zvláště v případě stoperů v soupeřově dlouhé barvě je to taktika přímo sebevražedná a určitě nepovede k pověsti obávaného obránce, který je vždy nepříjemný.
 </p>
@@ -128,21 +128,21 @@ K74
 T8
 </clubs>
 </hand>
-</distribution>
 <p>
-Licitace:
+    Licitace:
 </p>
 <auction dealer="E">
-<bid level="1" suit="H" />
-<bid value="pass" />
-<bid value="pass" />
-<bid level="1" suit="S" />
-<bid value="pass" />
-<bid level="1" suit="N" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="pass" />
+    <bid level="1" suit="H" />
+    <bid value="pass" />
+    <bid value="pass" />
+    <bid level="1" suit="S" />
+    <bid value="pass" />
+    <bid level="1" suit="N" />
+    <bid value="pass" />
+    <bid value="pass" />
+    <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Co má nést Západ a jak mají obránci hrát?
 </p>

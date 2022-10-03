@@ -2,7 +2,7 @@
 <p>
 V dalším systému odpovědí naučíme děti tzv. zkráceného Blackwooda (5=0 nebo 3 esa, 5k=1 nebo 4 esa, 5s=2 esa bez krále, 5p=2 esa + 1 král, 5BT=2 esa + 2 králové, 6t=2 esa + 3 králové, 6k=2 esa + 4 králové). Pokud zjistíme, že nám chybí dvě esa, zarazíme dražbu na 5. stupni, pokud nám chybí jedno eso, hrajeme malý slem a pokud zjistíme, že máme všechna esa, můžeme pokračovat Hoytovou dotazovou konvencí ve zkoumání velkého slemu. Dotazující ji zahajuje hláškou následující barvy, která přikazuje partnerovi, aby nahlásil počet králů. Odpovědi: 1. stupeň=0 nebo 3 králové, 2. stupeň=1 nebo 4 králové, 3. stupeň=2 králové. Dotazující vynechává barvu trumfů, která je stopkou, na to je třeba upozornit a dbát. Zde jsou karty pro několik ukázek (zahajuje Sever):
 </p>
-<div class="columns">
+<div class="columns" columns="6">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -248,7 +248,7 @@ QJ75
 </example>
 </div>
 <h2>
-BLACKWOOD KLASICKÝ ZKRÁCENÝ
+Blackwood klasický zkrácený
 </h2>
 <p>
 Konvence zjišťující počet es při pokusu o slem. Na takovýto pokus je potřeba 32 figurových bodů v BT nebo 30 figurových (tzn. bez bodů za shodu) bodů v barevném slemu. Tato konvence se startuje hláškou <bid level="4" suit="NT"/>, na kterou pak tázaný odpovídá podle počtu es (případně i králů) ve své barvě takto:

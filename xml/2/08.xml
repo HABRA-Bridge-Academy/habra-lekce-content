@@ -2,6 +2,7 @@
 <p>
 Projděme se svými svěřenci čtyři plány sehrávek a popřemýšlejme společně nad postupy sehrávek barevných závazků.
 </p>
+<div class="print-columns" columns="2">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -32,13 +33,11 @@ AK
 K2
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="7" suit="S" declarer="S"/>
+    <contract level="7" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="2S">
-2 piková
-</leadcard>
+<leadcard value="2S"/>
+</distribution>
 <p>
 Od začátku je vidět dvanáct zdvihů a není těžké odhalit, že třináctého by se dalo dosáhnout snapováním srdcí. Nepřichází tedy v úvahu vytrumfovávání. Je třeba obtáhnout dvakrát srdce a napotřetí snapnout, pak se dostat kárem do ruky a teprve teď dotrumfovat.
 </p>
@@ -73,13 +72,11 @@ AQJT
 QT9
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="H" declarer="S"/>
+    <contract level="6" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="JS">
-J pikový
-</leadcard>
+<leadcard value="JS"/>
+</distribution>
 <p>
 Soupeř na Východě získal první zdvih esem a pokračoval dále pikem. Nesmíme už pustit ani zdvih a musíme spoléhat na sedící trumfový impas. Správné je ovšem předtím jednou trumfnout shora, kdyby náhodou byla srdcová dáma singl. A pak hrát ze stolu kluka na impas podjetím.
 </p>
@@ -114,13 +111,11 @@ AK
 2
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="H" declarer="S"/>
+    <contract level="6" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Qd">
-Q kárová
-</leadcard>
+<leadcard value="Qd"/>
+</distribution>
 <p>
 Na stole je k mání mnoho trefových zdvihů, na které je možno zahodit kdeco, především tedy piky. Úkol je tedy jediný, musíme soupeře vytrumfovat a cesta k vítězství je otevřená.
 </p>
@@ -155,15 +150,15 @@ AKQJT
 QJ2
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Kd">
-K kárový
-</leadcard>
+<leadcard value="Kd"/>
+</distribution>
+
 <p>
 Soupeři vzali domů tři kára a vynesli trumf. Po vytrumfování (jsou rozděleny 4-1) je třeba se rozhodnout pro impas ve správné barvě. Impas pikový by nic neřešil, protože i při jeho úspěchu by to nestačilo na splnění, a tak správná volba je impas trefový. Technicky správné je impasovat podjetím dámou a pak klukem, protože potřebujeme zůstat na stole, neboť již nemáme trumfy jako přechody.
 </p>
 </example>
+</div>
 </lesson>

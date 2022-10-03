@@ -1,821 +1,134 @@
-<lesson year="6" title="Jednoduchý skvíz – Ještě o vstupech" number="4" video-id="I3y5f-6dlGY">
-<p>
-Problémem zablokování nejsou zdaleka vyřešeny všechny potíže se vstupy, které budete v praxi řešit.
-</p>
-<h2>
-Druhá podmínka vstupu
-</h2>
-<p>
-Prozatím probrané skvízy spadaly do kategorie první podmínky vstupu. Tato podmínka je zdaleka nejčastější, a proto si zaslouží zevrubné prozkoumání. Podívejme se ale také na ty ostatní případy. Druhá podmínka vstupu není tak prostá jako první a je bezesporu zřídkavá. Připomeňme si ji:
-</p>
-<p>
-VSTUP2 – předpokládáme, že Jih má skvízovou kartu, Sever drží winéra a malou kartu v nadějkové barvě Jihu a zároveň, když je skvízován Východ, Jih drží winéra ve vlastní nadějkové barvě. Je samozřejmé, že Sever nemá vstup ve své vlastní barvě, protože pak by byla k dispozici první podmínka vstupu VSTUP1.
-</p>
-<ol class="alpha print-columns">
-<li>
-
-    <distribution>
-        <hand position="north">
-        <spades>
-        -
-        </spades>
-        <hearts>
-        -
-        </hearts>
-        <diamonds>
-        8
-        </diamonds>
-        <clubs>
-        A6
-        </clubs>
-        </hand>
-        <hand position="south">
-        <spades>
-        J
-        </spades>
-        <hearts>
-        -
-        </hearts>
-        <diamonds>
-        -
-        </diamonds>
-        <clubs>
-        97
-        </clubs>
-        </hand>
-        <hand position="east">
-        <spades>
-        -
-        </spades>
-        <hearts>
-        -
-        </hearts>
-        <diamonds>
-        9
-        </diamonds>
-        <clubs>
-        JT
-        </clubs>
-        </hand>
-        </distribution>
-</li>
-<li>
-
-    <distribution>
-        <hand position="north">
-        <spades>
-        -
-        </spades>
-        <hearts>
-        -
-        </hearts>
-        <diamonds>
-        85
-        </diamonds>
-        <clubs>
-        A6
-        </clubs>
-        </hand>
-        <hand position="south">
-        <spades>
-        J
-        </spades>
-        <hearts>
-        -
-        </hearts>
-        <diamonds>
-        -
-        </diamonds>
-        <clubs>
-        K97
-        </clubs>
-        </hand>
-        <hand position="east">
-        <spades>
-        -
-        </spades>
-        <hearts>
-        -
-        </hearts>
-        <diamonds>
-        9
-        </diamonds>
-        <clubs>
-        JT6
-        </clubs>
-        </hand>
-        </distribution>
-</li>
-</ol>
-<p>
-V příkladu a) není splněna výhrada, tedy Sever musí odhazovat před Východem a sám je skvízován. V příkladě b) je podmínka splněna. Winér Jihu udělá prostor pro jednu volnou kartu Severu bez uvolnění tlaku na Východ.
-</p>
-<example number="1">
-<distribution>
-<hand position="north">
-<spades>
-T72
-</spades>
-<hearts>
-J863
-</hearts>
-<diamonds>
-AKQ
-</diamonds>
-<clubs>
-A53
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-A
-</spades>
-<hearts>
-AKQ7542
-</hearts>
-<diamonds>
-865
-</diamonds>
-<clubs>
-Q6
-</clubs>
-</hand>
-<hand position="east">
-<spades>
-9653
-</spades>
-<hearts>
-T
-</hearts>
-<diamonds>
-JT432
-</diamonds>
-<clubs>
-874
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-KQJ84
-</spades>
-<hearts>
-9
-</hearts>
-<diamonds>
-97
-</diamonds>
-<clubs>
-KJT92
-</clubs>
-</hand>
-</distribution>
-<auction dealer="S">
-<bid level="1" suit="H" />
-<bid level="1" suit="S" />
-<bid level="2" suit="d" />
-<bid value="pass" />
-<bid level="2" suit="H" />
-<bid value="pass" />
-<bid level="4" suit="H" />
-<bid value="pass" />
-<bid level="4" suit="N" />
-<bid value="pass" />
-<bid level="5" suit="H" />
-<bid value="pass" />
-<bid level="5" suit="N" />
-<bid value="pass" />
-<bid level="6" suit="d" />
-<bid value="pass" />
-<bid level="6" suit="H" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="pass" />
-</auction>
-<leadcard value="KS">
-pK
-</leadcard>
-<p>
-Dvanáct zdvihů je v suchu a navíc je tu výborná šance, že Západ drží pikovou dámu s klukem a současně trefového krále. Jestli je to tak, získáte jeden krásný nadzdvih, protože JEČIVÝ VSTUP je tady se VSTUPem2. Vytrumfujte, odehrajte kára, přebijte malý pik a tahejte dál trumfy. Hlídejte pikové honéry. Pokud spadne jen jeden, je možné, že si musel Západ osinglovat trefového krále.
-</p>
-</example>
-<example number="2">
-<distribution>
-<hand position="north">
-<spades>
-AT7
-</spades>
-<hearts>
-K84
-</hearts>
-<diamonds>
-K654
-</diamonds>
-<clubs>
-T83
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-43
-</spades>
-<hearts>
-AQJ53
-</hearts>
-<diamonds>
-AJ2
-</diamonds>
-<clubs>
-J52
-</clubs>
-</hand>
-<hand position="east">
-<spades>
-QJ9865
-</spades>
-<hearts>
-96
-</hearts>
-<diamonds>
-T873
-</diamonds>
-<clubs>
-9
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-K2
-</spades>
-<hearts>
-T72
-</hearts>
-<diamonds>
-Q9
-</diamonds>
-<clubs>
-AKQ764
-</clubs>
-</hand>
-</distribution>
-<auction dealer="E">
-<bid value="pass" />
-<bid level="1" suit="H" />
-<bid level="2" suit="c" />
-<bid level="2" suit="H" />
-<bid level="2" suit="S" />
-<bid level="3" suit="H" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="pass" />
-</auction>
-<leadcard value="Kc">
-tK
-</leadcard>
-<p>
-Do výnosu přidává Východ trefovou devítku, na trefovou dámu odhazuje pikovou pětku (liška) a na trefové eso pikovou šestku. K dalšímu zdvihu je vynesen pikový král. Impasy jsou odporné věci, mohl by tu být skvíz. Východ určitě drží pikovou dámu s klukem, a jestli má i čtyři kára, JEČIVÝ VSTUP je tady, jenže máme dva ztrátové zdvihy. Propuštění čtvrtého zdvihu je tedy jasně indikováno. Pokračování Západu v pikách odstraní (VSTUP1), ale nechá (VSTUP2) včetně životní podmínky. Jen spusťte trumfy a sledujte pikového kluka a dámu. Poté, co Východ přidá do dvanáctého zdvihu, je jasné, že nemá károvou dámu.
-</p>
-<p>
-Jestli jste nemysleli tak daleko dopředu, i tak můžete propustit první pik čistě ze všeobecných principů. Kdykoliv máte možnost beztrestně pustit zdvih, pusťte ho.
-</p>
-</example>
-<p>
-Třetí podmínka vstupu
-</p>
-<p>
-Poslední z našich vstupních podmínek je při hře relativně zřídkavá, ale přece jen ne tak, abychom ji nemuseli probrat. Takže si ji připomeňme:
-</p>
-<p>
-VSTUP3 – opět předpokládáme, že Jih má skvízovou kartu, Sever drží winéra v nadějkové barvě Jihu a Jih drží winéra v barvě Severu.
-</p>
-<ol class="alpha print-columns">
-    <li>
-        <distribution>
-            <hand position="north">
-            <spades>
-            -
-            </spades>
-            <hearts>
-            -
-            </hearts>
-            <diamonds>
-            J87
-            </diamonds>
-            <clubs>
-            A
-            </clubs>
-            </hand>
-            <hand position="south">
-            <spades>
-            J
-            </spades>
-            <hearts>
-            -
-            </hearts>
-            <diamonds>
-            A
-            </diamonds>
-            <clubs>
-            74
-            </clubs>
-            </hand>
-            <hand position="west">
-            <spades>
-            -
-            </spades>
-            <hearts>
-            -
-            </hearts>
-            <diamonds>
-            KQ
-            </diamonds>
-            <clubs>
-            J9
-            </clubs>
-            </hand>
-            </distribution>
-    </li>
-    <li>
-        <distribution>
-            <hand position="north">
-            <spades>
-            -
-            </spades>
-            <hearts>
-            -
-            </hearts>
-            <diamonds>
-            J87
-            </diamonds>
-            <clubs>
-            A
-            </clubs>
-            </hand>
-            <hand position="south">
-            <spades>
-            J
-            </spades>
-            <hearts>
-            -
-            </hearts>
-            <diamonds>
-            A
-            </diamonds>
-            <clubs>
-            74
-            </clubs>
-            </hand>
-            <hand position="east">
-            <spades>
-            -
-            </spades>
-            <hearts>
-            -
-            </hearts>
-            <diamonds>
-            KQ
-            </diamonds>
-            <clubs>
-            J9
-            </clubs>
-            </hand>
-            </distribution>
-    </li>
-</ol>
-<p>
-Tyto příklady ukazují, jak skvíz funguje. Sever bude mít vždy jednu nečinnou kartu na odhoz při skvízovém zdvihu. Když se obránce (kterýkoliv) vzdá kára, hlavní hráč stáhne kárové eso a přejde trefovým esem. Když zahodí tref, stáhne trefové eso a vrátí se pomocí kárového esa.
-</p>
-<p>
-Tento druh skvízu se jmenuje criss-cross skvíz.
-</p>
-<example number="3">
-<distribution>
-<hand position="north">
-<spades>
-942
-</spades>
-<hearts>
-K6
-</hearts>
-<diamonds>
-T7432
-</diamonds>
-<clubs>
-A74
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-AKQJT73
-</spades>
-<hearts>
-A98
-</hearts>
-<diamonds>
--
-</diamonds>
-<clubs>
-Q52
-</clubs>
-</hand>
-<hand position="east">
-<spades>
-85
-</spades>
-<hearts>
-75432
-</hearts>
-<diamonds>
-J98
-</diamonds>
-<clubs>
-J98
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-6
-</spades>
-<hearts>
-QJT
-</hearts>
-<diamonds>
-AKQ65
-</diamonds>
-<clubs>
-KT63
-</clubs>
-</hand>
-</distribution>
-<deal-contract>
-<contract level="6" suit="S" declarer="S"/>
-</deal-contract>
-<leadcard value="Ad">
-kA
-</leadcard>
-<p>
-Západ vynesl kárové eso a Jih odhodil trefovou dvojku, ponechav zdvih Západu a upravujíc počet zdvihů. Západ pak vynesl srdcovou dámu vzatou králem stolu. Nyní vydražitel přebil káro a dvakrát trumfnul. Teď se odehrálo srdcové eso a přebilo poslední srdce na stole. Další káro je přebito a ještě dvakrát se trumflo. Před vynesením posledního trumfu nastala tato situace:
-</p>
-<distribution>
-<hand position="north">
-<spades>
--
-</spades>
-<hearts>
--
-</hearts>
-<diamonds>
-T
-</diamonds>
-<clubs>
-A7
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-T
-</spades>
-<hearts>
--
-</hearts>
-<diamonds>
--
-</diamonds>
-<clubs>
-Q5
-</clubs>
-</hand>
-<hand position="east">
-<spades>
--
-</spades>
-<hearts>
--
-</hearts>
-<diamonds>
--
-</diamonds>
-<clubs>
-J98
-</clubs>
-</hand>
-<hand position="west">
-<spades>
--
-</spades>
-<hearts>
--
-</hearts>
-<diamonds>
-K
-</diamonds>
-<clubs>
-KT
-</clubs>
-</hand>
-</distribution>
-<p>
-Když vydražitel vynesl poslední trumf, shledal Západ, že je nemožné udržet zároveň kárového krále a trefovou desítku. Vybral si odhoz trefové desítky a vydražitelova dáma trefová se stala vítěznou kartou.
-</p>
-</example>
-<example number="4">
-<distribution>
-<hand position="north">
-<spades>
-K73
-</spades>
-<hearts>
-J843
-</hearts>
-<diamonds>
-7432
-</diamonds>
-<clubs>
-A2
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-AQJ
-</spades>
-<hearts>
-AKQ92
-</hearts>
-<diamonds>
-AKQ
-</diamonds>
-<clubs>
-Q6
-</clubs>
-</hand>
-<hand position="east">
-<spades>
-642
-</spades>
-<hearts>
-T7
-</hearts>
-<diamonds>
-JT86
-</diamonds>
-<clubs>
-KJT8
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-T985
-</spades>
-<hearts>
-65
-</hearts>
-<diamonds>
-95
-</diamonds>
-<clubs>
-97543
-</clubs>
-</hand>
-</distribution>
-<auction onesided="true" dealer="N">
-<bid value="pass" />
-<bid level="2" suit="H" />
-<bid level="3" suit="H" />
-<bid level="4" suit="N" />
-<bid level="5" suit="d" />
-<bid level="5" suit="N" />
-<bid level="6" suit="d" />
-<bid level="7" suit="H" />
-<bid value="pass" />
-</auction>
-<leadcard value="TS">
-p10
-</leadcard>
-<p>
-V prvním zdvihu dáma bere, do druhého a třetího oba obránci přiznávají trumfy a na třetí srdce Západ odhazuje malý tref a Východ trefového kluka. Předpokládejme, že jeden z obránců (konkrétně Východ podle jeho hloupého signálu) drží trefového krále a čtyři kára, protože to dává k příznivému dělení kár navíc šanci cestou criss-cross skvízu. (Zkontrolujte VSTUP3). Stáhněte všechny drahé karty, po nich kárové eso s králem a vyberte si, kterou cestu zvolíte – zda skvíz nebo rozpadnutí. V našem případě bude čtyřkartová koncovka vypadat takto:
-</p>
-<distribution>
-<hand position="north">
-<spades>
--
-</spades>
-<hearts>
--
-</hearts>
-<diamonds>
-74
-</diamonds>
-<clubs>
-A2
-</clubs>
-</hand>
-<hand position="south">
-<spades>
--
-</spades>
-<hearts>
-9
-</hearts>
-<diamonds>
-A
-</diamonds>
-<clubs>
-Q6
-</clubs>
-</hand>
-<hand position="east">
-<spades>
--
-</spades>
-<hearts>
--
-</hearts>
-<diamonds>
-JT
-</diamonds>
-<clubs>
-KT
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-9
-</spades>
-<hearts>
--
-</hearts>
-<diamonds>
--
-</diamonds>
-<clubs>
-975
-</clubs>
-</hand>
-</distribution>
-<p>
-Criss-cross skvíz má, jak vidíte, jednu vnitřní vadu. V konečné fázi (VSTUP3) skvízu, když nám zůstal jen jeden nebo více winérů v každé nadějkové barvě, se musíme rozhodnout pro hru na rozpad nebo skvíz, jak ukázal náš příklad. V předchozích typech skvízů jsme si s tím poradili včasným stažením winérů. Tady žádný lék nemáme. Tedy u některých listů proti šikovným obráncům může být volba stáhnutí winéra Jihu nebo Severu pouze hádáním.
-</p>
-</example>
-<p>
-Selhávající případ
-</p>
-<p>
-Když se podíváme na naše tři podmínky vstupu, najdeme jeden případ nezahrnutý. Obráncem je Východ, k Severu je jediný vstup v nadějkové barvě Jihu, Jih je bez winéra v obou nadějkových barvách.
-</p>
-<distribution>
-<hand position="north">
-<spades>
-8
-</spades>
-<hearts>
-A8
-</hearts>
-<diamonds>
-J
-</diamonds>
-<clubs>
--
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-J5
-</spades>
-<hearts>
-J6
-</hearts>
-<diamonds>
--
-</diamonds>
-<clubs>
--
-</clubs>
-</hand>
-<hand position="east">
-<spades>
--
-</spades>
-<hearts>
-KQ
-</hearts>
-<diamonds>
-Q4
-</diamonds>
-<clubs>
--
-</clubs>
-</hand>
-</distribution>
-<p>
-V tomto příkladě první pik nikoho nezraní, ale druhý skvízuje Sever. Když zahodí káro, kárová zádrž Východu se uvolní, když si zvolí srdce, Východ může odhodit srdce, protože nadějka Jihu je blokovaná. Není žádné východisko. Jediná alternativa je stáhnutí esa (a coup), ovšem tím zůstává Sever úplně bez vstupu. Tedy když má být skvízován Východ, jediný vstup Severu je v nadějkové barvě Jihu a Jih nemá vstup v žádné nadějkové barvě, skvíz selže.
-</p>
-<p>
-Poznačte si, že JEČIVÝ VSTUP na první pohled existující ve skutečnosti neexistuje.
-</p>
-<p>
-Vraťme se k Příkladu 4. Naše první myšlenka by mohla být stáhnutí všech kár před skvízovou kartou, ale to nám vytvoří selhávající případ – sehrajte si to, stačí se podívat na čtyřkartovou koncovku.
-</p>
-<example number="5">
-<distribution>
-<hand position="north">
-<spades>
-AK653
-</spades>
-<hearts>
-KQ2
-</hearts>
-<diamonds>
-2
-</diamonds>
-<clubs>
-KJ84
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-872
-</spades>
-<hearts>
-JT9654
-</hearts>
-<diamonds>
-97
-</diamonds>
-<clubs>
-53
-</clubs>
-</hand>
-<hand position="east">
-<spades>
-QJ
-</spades>
-<hearts>
-873
-</hearts>
-<diamonds>
-QJ864
-</diamonds>
-<clubs>
-A76
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-T94
-</spades>
-<hearts>
-A
-</hearts>
-<diamonds>
-AKT53
-</diamonds>
-<clubs>
-QT92
-</clubs>
-</hand>
-</distribution>
-<auction dealer="W">
-<bid level="1" suit="d" />
-<bid value="X" />
-<bid value="XX" />
-<bid level="1" suit="H" />
-<bid level="2" suit="d" />
-<bid level="2" suit="H" />
-<bid level="3" suit="d" />
-<bid value="pass" />
-<bid value="pass" />
-<bid level="3" suit="H" />
-<bid level="4" suit="d" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="X" />
-<bid value="pass" />
-<bid level="4" suit="H" />
-<bid value="X" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="pass" />
-</auction>
-<leadcard value="Kd">
-kK
-</leadcard>
-<p>
-Král bere zdvih, pak přijde trefová dvojka, hlavní hráč uhádne položením kluka, eso Východu bere zdvih, vrácená je trefová sedmička, Západ dává devítku, král bere. Teď přijde srdcový král, Východ přiznává, eso Západu bere a je vynesena trefová dáma, Východ přidává šestku.
-</p>
-<p>
-Po pěti zdvizích ČI v rozdání bude, když bude mít majitel trefové desítky také 3-list pikový. JE je v pořádku, VÝ je – počkat. S pikovou šestkou Severu jako nadějkou selže skvíz proti Východu, s pikovou osmičkou jako nadějkou je to selhávající případ v případě skvízovaného Východu – jediný vstup Severu je v nadějkové barvě Jihu, Jih je bez vstupu v obou barvách. Jestliže tedy v žádném případě neexistuje skvíz proti Východu, předpokládejme, že Západ má kýžené zádrže. Evidentní VSTUP1 je přítomen v pikách. Přebijte káro dámou na stole, potom dohrajte srdce, sledujíc jedině trefovou desítku.
-</p>
-<p>
-Ne vždy je řešení selhávajícího případu tak radostné, ale trochu optimismu nikdy nezaškodí.
-</p>
-</example>
-<literature>
-    <li>
-    <author>C.E.Love</author>
-    <title>Všechno o skvízech</title>
-    </li>
-    <li>
-    <author>J.Hájek</author>
-    <title>Nauč se skvízovat</title>
-    </li>
-    </literature>
+<lesson year="6" title="Transfer po zahájení 1♣ - Odpověď 2♣ a třetí stupeň" number="4" video-id="I3y5f-6dlGY">
+	<div class="print-columns" columns="2">
+<bidding>
+<header>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="c"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action>
+<bid level="2" suit="d"/>
+</action>
+<explanation>“automat“, slabý BT nebo s <club/>, bez 4-listu <diamond/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suits="HS"/>
+</action>
+<explanation>GF, nepravidelka s <club/>, naturální</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="N"/>
+</action>
+<explanation>18-20, vyv.</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="c"/>
+</action>
+<explanation>naturální s 6+ <club/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="d"/>
+</action>
+<explanation>slabý BT se 4-listem <diamond/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suits="HS"/>
+</action>
+<explanation>Splinter (31)45, GF</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="c"/>
+<bid level="2" suit="d"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action>
+<bid level="2" suits="HS"/>
+</action>
+<explanation><p>naturální INV 5+ <diamond/>, F</p>
+<bidding>
+<entry>
+<action>
+<bid level="2" suit="N"/>
+</action>
+<explanation>min bez 3-listu <diamond/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="c"/>
+</action>
+<explanation>misfit <diamond/>, pasovatelné</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="d"/>
+</action>
+<explanation>min, 3-list <diamond/></explanation>
+</entry>
+</bidding></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="N"/>
+</action>
+<explanation>
+<p>18-20, vyv.</p>
+<bidding>
+<entry>
+<action>
+<bid level="3" suits="cd"/>
+</action>
+<explanation>chabé držení drahých barev</explanation>
+</entry>
+</bidding>
+</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="c"/>
+</action>
+<explanation><p>GF</p>
+<bidding>
+<entry>
+<action>
+<bid level="3" suit="d"/>
+</action>
+<explanation>fit</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suits="HS"/>
+</action>
+<explanation>bez fitu, ale rezerva</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="N"/>
+</action>
+<explanation>bez fitu a bez rezervy</explanation>
+</entry>
+</bidding>
+</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="d"/>
+</action>
+<explanation>malá rezerva, hlavně v kvalitě barvy</explanation>
+</entry>
+</bidding>
+</div>
 </lesson>

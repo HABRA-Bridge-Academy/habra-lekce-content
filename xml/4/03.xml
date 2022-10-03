@@ -29,13 +29,11 @@ AKQT6
 AKQ
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="Jc">
-tJ
-</leadcard>
+<leadcard value="Jc"/>
+</distribution>
 <p>
 Jih zahájil dražbu konvenční hláškou dva trefy a Sever odpověděl dvě srdce, což značilo pouze oznámení srdcového esa. Po další přirozené dražbě tři kára a tři srdce ukončil Jih hlášku dražbou tří bez trumfů. Jak má Jih sehrávat závazek v komerční partii po výnosu trefovým klukem?
 </p>
@@ -100,13 +98,11 @@ AT98
 82
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="QH">
-sQ
-</leadcard>
+<leadcard value="QH"/>
+</distribution>
 <p>
 Když toto rozdání sehrával jeden z autorů ve své mladosti, dopustil se omylu, který pak už nikdy neopakoval. Závazek byl tři bez trumfů a Západ vynesl srdcovou dámu. Jih vzal zdvih v ruce. Jak měl pokračovat dále?
 </p>
@@ -183,13 +179,11 @@ AK4
 T76
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="2S">
-p2
-</leadcard>
+<leadcard value="2S"/>
+</distribution>
 <p>
 Jih sehrává závazek tři bez trumfů. Západ vynáší pikovou dvojku, kterou Východ kryje esem. Po chvilce přemýšlení vrací Východ srdcovou devítku. Jih přidal devítku a Západ krále. Jak má HH pokračovat?
 </p>
@@ -266,13 +260,11 @@ JT987
 K8
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="6S">
-p6
-</leadcard>
+<leadcard value="6S"/>
+</distribution>
 <p>
 Jih sehrává závazek tři bez trumfů. Západ vynáší pikovou šestku, na kterou dává Východ krále. Jak má Jih pokračovat, aby závazek splnil?
 </p>
@@ -349,13 +341,11 @@ AT2
 AKJ76
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="2H">
-s2
-</leadcard>
+<leadcard value="2H"/>
+</distribution>
 <p>
 Jih sehrává tři bez trumfů, proti kterým Západ vynáší srdcovou dvojku. Jak má hlavní hráč závazek sehrávat?
 </p>
@@ -429,13 +419,11 @@ AQ
 A943
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-tK
-</leadcard>
+<leadcard value="Kc"/>
+</distribution>
 <p>
 V turnaji smíšených párů sehrála partnerka jednoho z autorů vynikajícím způsobem závazek čtyři piky. Západ, který po zahájení 1 pik pobídkově kontroval, vynesl trefového krále. Jak má Jih pokračovat? Nabízely se jí tři impasy, ale ona nezahrála ani jeden. Jak to tedy udělala?
 </p>
@@ -509,13 +497,11 @@ Q
 AJ76
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="QH">
-sQ
-</leadcard>
+<leadcard value="QH"/>
+</distribution>
 <p>
 Jih sehrává závazek tři bez trumfů. Západ vynáší zřejmě ze sledu srdcovou dámu a první problém spočívá v tom, zda vzít tento zdvih nebo jej propustit. Celkem vzato je lepší zdvih vzít, protože Západ by mohl změnit útok, což by mohlo být nepříjemnější. Jak má Jih pokračovat po vzetí prvního zdvihu?
 </p>

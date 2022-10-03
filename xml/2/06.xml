@@ -66,13 +66,11 @@ KQ7
 KQJ4
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-K trefový
-</leadcard>
+<leadcard value="Kc"/>
+</distribution>
 <p>
 Jestliže se trumfy rozdělí 3-2, pak získáme 5 pikových zdvihů a dvě esa. Zbývající tři zdvihy můžeme celkem pohodlně vypracovat v kárech. Ukážeme, jak krátkozraké a hloupé by bylo odehrát si i eso srdcové před vytrumfováním a vypracováním kár. Postup tedy je – vzít tref, vytrumfovat a pustit se do kár.
 </p>
@@ -135,13 +133,11 @@ JT987
 KQJ
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-K trefový
-</leadcard>
+<leadcard value="Kc"/>
+</distribution>
 <p>
 Tohle bude trochu obtížnější závazek. Zdvihů je dost. Určitě po vyhnání esa srdcového budeme mít čtyři srdce, tři kárové zdvihy, dvě zbylá esa a nepochybně snapneme pik. Ovšem potíží je, že soupeři mohou získat dva trefy, trumf a pik dříve, než my svých deset zdvihů. Před trumfováním musíme na kára smazat trefy. To je řešení, které nám dá dokonce jedenáct zdvihů.
 </p>
@@ -204,13 +200,11 @@ KQJT
 QJT98
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="KS">
-K pikový
-</leadcard>
+<leadcard value="KS"/>
+</distribution>
 <p>
 Opět máme zdvihů dost. Čtyři srdcové, tři kárové, dva trefové a jeden pikový. Ztrátové zdvihy máme čtyři – dva piky, srdci a jeden tref. Musíme se postarat o to, abychom se jednoho zbavili. Opět je naší spásou kárová barva, na kterou lze tref či pik odhodit. Vezmeme tedy esem, vytrumfujeme a soupeř si po vzetí esa srdcového vezme pravděpodobně dva piky.
 </p>
@@ -273,13 +267,11 @@ JT
 KQJT
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-K trefový
-</leadcard>
+<leadcard value="Kc"/>
+</distribution>
 <p>
 Soupeři si vezmou své tři trefy a zahrají pravděpodobně srdce. My si spočteme pět pikových, dva srdcové a tři kárové zdvihy, tedy máme jich deset – hurá. Musím jen na třetí káro správně odhodit ztrátové srdce a mám vyhráno.
 </p>
@@ -314,13 +306,11 @@ AK5
 A952
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-K trefový
-</leadcard>
+<leadcard value="Kc"/>
+</distribution>
 <p>
 Mám osm zdvihů, pět pikových (při normálním dělení), dva kárové a jeden trefový. Mohu buď vypracovat srdce nebo snapovat trefy. Snapování bude lepší, protože mám víc vstupů do ruky než na stůl. Vezmu tedy esem a snapnu poprvé, kárem přejdu do ruky, snapnu podruhé, králem pikovým zahájím vytrumfování, přejdu károu podruhé na stůl, dotrumfuji a deset zdvihů je na světě.
 </p>
@@ -383,13 +373,11 @@ J96
 AT2
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="5" suit="d" declarer="S"/>
+    <contract level="5" suit="d" declarer="S"/>
 </deal-contract>
-<leadcard value="JS">
-J pikový
-</leadcard>
+<leadcard value="JS"/>
+</distribution>
 <p>
 Tady bude třeba se pořádně zamyslet už na počátku. Mám pravděpodobně 5 kárových zdvihů tři srdcové a dva pikové a jeden mi chybí. Snapování trefů z dlouhé strany mi nepomůže. Kára se mohou rozdělit 2-2 a je po starostech, protože pak získám šest kárových zdvihů. Vidíte ještě nějakou jinou možnost? Ano, mohl bych snapnout srdce. Potom tedy budu potřebovat vstup do ruky, abych mohl odtamtud srdce vynést. Jako vstup mi může posloužit pikový král. Vezmu tedy první zdvih esem na stole, zahraji eso a krále kárové a vidím, že trumfy se nedělí. Obehraji ještě ze stolu eso a dámu srdcovou a pikem se dostanu do ruky. Teď nebudu obehrávat srdcového krále, ale snapnu si malou srdci ze stolu a krále si obehraji až po dotrumfování.
 </p>
@@ -424,13 +412,11 @@ AJT
 8
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="7" suit="S" declarer="S"/>
+    <contract level="7" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-K srdcový
-</leadcard>
+<leadcard value="KH"/>
+</distribution>
 <p>
 Mám 11 zdvihů, 7 pikových, srdcový, trefový a dva kárové. Jedno káro mohu snapnout, ale jak smazat srdce a kde vzít třináctý zdvih. Mou jedinou nadějí je dlouhá trefová barva. Soupeři mají 6 trefů a budu-li hospodařit se vstupy k nim, je velká šance vypracovat je. Soupeři mají jen tři malé trumfy, takže mohu snapovat vysoko. Vezmu tedy srdce a zahraji tref k esu, potom snapnu tref vysoko esem a dávám pozor, kolik už soupeři dali trefů. Potom nesu malý trumf k osmičce a opět trumfnu vysoko tref, byli-li trefy 3-3, mám je již vypracované, mohu dotrumfovat tak, abych skončil na stole a na tref odhodil srdci. Jestliže mají soupeři ještě tref, zreviduji také kolik mají trumfů. Šestku pikovou převezmu klukem, a pokud již vypadli všechny trumfy, nebude mi vadit ani dělení trefů 5-1, přebiji tref opět zvysoka a pokud nevypadly všechny trefy ani teď, mohu se dostat na stůl ještě na krále kárového a kárový snap.
 </p>
@@ -465,13 +451,11 @@ J62
 A952
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-K trefový
-</leadcard>
+<leadcard value="Kc"/>
+</distribution>
 <p>
 Opět mám osm zdvihů, ale tentokrát mám větší šanci hrát na dlouhou srdcovou barvu než na snapy, protože více vstupů je na stole. Vezmu tref a zahraji srdce. Soupeři vrátí asi káro, to vezmu na stole a na další srdce zahodím káro. Soupeři asi opět obrátí káro a v této chvíli snapnu srdci sedmičkou. Jestliže byly srdce 3-3, jsou vypracované, mohu vytrumfovat a odehrát je. Pokud ne trumfnu esem a dostanu se na stůl dalším trumfem a snapnu srdci desítkou. Dalším trumfem dotrumfuji a současně se dostanu ke svým délkovým srdcím.
 </p>
@@ -506,13 +490,11 @@ AJ52
 A75
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="9c">
-9 trefová
-</leadcard>
+<leadcard value="9c"/>
+</distribution>
 <p>
 Mám čtyři srdcové zdvihy, tři trefové a dva kárové. Nemám žádnou délku ani krátkost, a tak nezbývá než zkusit impas kárový. Vezmu tref na stole. Vytrumfuji a obehraji krále kárového, kdyby snad dáma byla singl. Potom přejdu trefem do ruky a zaimpasuji ke klukovi károvému. Budu-li mít štěstí, splním. Víc jsem nemohl udělat.
 </p>

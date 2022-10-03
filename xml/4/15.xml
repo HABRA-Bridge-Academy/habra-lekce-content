@@ -29,13 +29,11 @@ A53
 AK72 
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="Qd">
-kQ
-</leadcard>
+<leadcard value="Qd"/>
+</distribution>
 <p>
 Jih zahájil dražbu hláškou dva bez trumfů, které Sever zvýšil na tři. Jak má Jih sehrávat po výnosu károvou dámou?
 </p>
@@ -112,13 +110,13 @@ KQ4
 J5
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
 <leadcard value="Kc">
-tK, tA, kJ
+    tK, tA, kJ
 </leadcard>
+</distribution>
 <p>
 Jih zahájil dražbu hláškou jeden pik a po skoku Severu na tři piky, dorazil na čtyři piky. Západ si odehrává krále a eso trefové, a pak vynáší kárového kluka. Jak má Jih závazek splnit?
 </p>
@@ -192,13 +190,11 @@ AK2
 KQJ83
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="c" declarer="S"/>
+    <contract level="6" suit="c" declarer="S"/>
 </deal-contract>
-<leadcard value="QS">
-pQ
-</leadcard>
+<leadcard value="QS"/>
+</distribution>
 <p>
 Linka N-S se dolicitovala do šesti trefů, které sehrával Jih. Jak si má naplánovat sehrávku po výnosu pikovou dámou?
 </p>
@@ -272,13 +268,11 @@ K8
 64
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Qd">
-kQ
-</leadcard>
+<leadcard value="Qd"/>
+</distribution>
 <p>
 Západ vynáší károvou dámu proti závazku Jihu čtyři srdce. Ten bere králem a ve dvou kolech vytrumfovává. Jak má dále pokračovat?
 </p>
@@ -355,13 +349,11 @@ A53
 7
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Qc">
-tQ
-</leadcard>
+<leadcard value="Qc"/>
+</distribution>
 <p>
 Jih sehrává závazek čtyři piky a Západ vynáší trefovou dámu. Jelikož Jih nechce pustit Východ do zdvihu, dává ze stolu malou kartu a Východ také malou. Jak má hlavní hráč pokračovat, když Západ vynáší ke druhému zdvihu trefového kluka?
 </p>

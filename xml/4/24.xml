@@ -29,13 +29,10 @@ K43
 Q872
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="6H">
-s6
-</leadcard>
+<leadcard value="6H"/>
 <auction dealer="S">
 <bid level="1" suit="c" />
 <bid level="1" suit="H" />
@@ -46,6 +43,7 @@ s6
 <bid value="pass" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Obě linky ve druhé hře. Na vynesenou srdcovou šestku Západu hraje Východ dámu. Zas ten známý problém: má Jih propustit nebo pokrýt?
 </p>
@@ -125,15 +123,12 @@ A86
 KQ986542
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="c" declarer="S"/>
+    <contract level="6" suit="c" declarer="S"/>
 </deal-contract>
-<leadcard value="Kd">
-kK
-</leadcard>
+<leadcard value="Kd"/>
 <auction dealer="W">
-<bid level="1" suit="d" />
+    <bid level="1" suit="d" />
 <bid value="X" />
 <bid level="2" suit="d" />
 <bid level="6" suit="c" />
@@ -141,6 +136,7 @@ kK
 <bid value="pass" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Proti tomuto nastřelenému závazku, který po srdcovém výnosu nemá šanci, vynesl Západ kárového krále. Jak má Jih plánovat sehrávku?
 </p>
@@ -214,13 +210,10 @@ K743
 6
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Ac">
-tA
-</leadcard>
+<leadcard value="Ac"/>
 <auction dealer="W">
 <bid value="pass" />
 <bid level="1" suit="H" />
@@ -234,6 +227,7 @@ tA
 <bid value="pass" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Západ vynesl trefové eso a pokračoval trefovou dámou. Jak má Jih závazek sehrávat?
 </p>
@@ -313,13 +307,10 @@ AQT2
 J52
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="JH">
-sJ
-</leadcard>
+<leadcard value="JH"/>
 <auction dealer="N">
 <bid level="1" suit="d" />
 <bid level="1" suit="H" />
@@ -330,6 +321,7 @@ sJ
 <bid value="pass" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Jak má Jih sehrávat tento závazek po výnosu srdcovým klukem?
 </p>
@@ -406,13 +398,10 @@ KQT942
 A85
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Kd">
-kK
-</leadcard>
+<leadcard value="Kd"/>
 <auction dealer="S">
 <bid level="1" suit="H" />
 <bid level="2" suit="d" />
@@ -425,6 +414,7 @@ kK
 <bid value="pass" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Západ vynáší kárového krále. Jak má Jih závazek sehrávat?
 </p>

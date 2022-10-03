@@ -1,5 +1,225 @@
-<lesson year="6" title="Vinje marka" number="29" video-id="gVlDIOFG744">
+<lesson year="6" title="Zbavení odchodu" number="28" video-id="gVlDIOFG744">
+<example number="1">
+<distribution vul="NONE">
+<hand position="north">
+<spades>
+AJ4
+</spades>
+<hearts>
+AJT3
+</hearts>
+<diamonds>
+K75
+</diamonds>
+<clubs>
+732
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+QT962
+</spades>
+<hearts>
+K75
+</hearts>
+<diamonds>
+Q84
+</diamonds>
+<clubs>
+KJ
+</clubs>
+</hand>
+<auction dealer="W">
+<bid level="1" suit="c"/>
+<bid value="pass"/>
+<bid value="pass"/>
+<bid level="1" suit="S"/>
+<bid level="2" suit="c"/>
+<bid level="3" suit="S"/>
+<bid value="pass"/>
+<bid value="pass"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="QH"/>
+</distribution>
 <p>
-Tento signál patří k výbavě vyspělého bridžisty. Popisuje rozlohu všech barev najednou. Obecně rozloha může být buď lichá, nebo sudá. Lichá znamená, že máme tři z barev lichého počtu, např. 5-3-3-2 nebo 4-3-3-3, sudá má převahu sudého počtu v barvě (tři případy), např. 5-4-2-2 nebo 4-4-3-2. Sudou nebo lichou rozlohu doporučujeme markovat do prvního trumfového odhozu v barevném závazku. Jestliže soupeři rozehrávají trumfy, markujte typ své rozlohy. Jestliže odhazujete malá-velká, máte sudý typ rozlohy, velká-malá, máte lichý typ rozlohy. Pokud máte partnera, který dopočítává a má představivost, může mu váš signál pomoci.
+Západ vynesl srdcovou dámu a Vy jste ji vzal v ruce králem. Jak byste měl pokračovat?
 </p>
+<p>
+I když máte čtyři potenciální ztrátové karty v levných barvách, můžete předpokládat, že si jednu z nich budete moci shodit na čtvrté srdce. Kdybyste hrál čtyři piky, neměl byste na vybranou a musel byste zahrát trumfový impas. Ve třech pikách si můžete dovolit odevzdat jeden trumfový zdvih a měl byste hrát maximálně bezpečně.
+</p>
+<p>
+Srdcová dáma je téměř jistě singl a není nemožné, že Východ má pikového krále. Nebezpečí je v tom, že když nebude trumfový impas sedět, bude Západ moci snapnout srdce. To nebude vadit, pokud bude mít pouze dva trumfy, protože pak Vám bude muset zadat zdvih v některé levné barvě. Bude-li ale Západ mít tři trumfy, bude moci bezpečně vrátit pik po srdcovém přebitku. Pak už nebudete moci zabránit ztrátě tří dalších zdvihů v levných barvách.
+</p>
+<p>
+Veškerému nebezpečí se můžete vyhnout, když ve druhém zdvihu zahrajete malý trumf k esu na stole a vrátíte pikového kluka. Pokud bude Východ moci tento zdvih vzít, dá možná partnerovi srdcový přebitek, ale Západ Vám bude muset umožnit dva zdvihy v levných barvách, protože nebude mít co jiného vrátit. Tento způsob sehrávky Vám zajistí splnění závazku při kterékoliv rozloze karet, která je v souladu s dražbou.
+</p>
+</example>
+<example number="2">
+<distribution vul="BOTH">
+<hand position="north">
+<spades>
+A8
+</spades>
+<hearts>
+AQ63
+</hearts>
+<diamonds>
+J72
+</diamonds>
+<clubs>
+K432
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K3
+</spades>
+<hearts>
+JT72
+</hearts>
+<diamonds>
+AT5
+</diamonds>
+<clubs>
+AQT7
+</clubs>
+</hand>
+<auction onesided="true" dealer="S">
+<bid level="1" suit="N"/>
+<bid level="2" suit="c"/>
+<bid level="2" suit="H"/>
+<bid level="4" suit="H"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="5c"/>
+</distribution>
+<p>
+Západ vynesl trefovou pětku a Vy jste vzal kluka esem. Jak byste měl pokračovat?
+</p>
+<p>
+Tři bez trumfů by byly snadné, ale Váš úkol ve čtyřech srdcích je komplikován zrcadlovou rozlohou listů v ruce a na stole. Při normální rozloze trumfů 3-2 by ale splnění závazku nemělo dělat větší potíže. Můžete si dovolit odevzdat srdcový zdvih a dva kárové a stejně splníte. Nemůžete si ale dovolit nechat udělat obránce ještě trefový přebitek a podle výnosu tady toto nebezpečí hrozí.
+</p>
+<p>
+Jasně lepší než impasovat trumfového krále je odehrát si eso a malé srdce, protože to snižuje šanci na trefový snap u Západu. Ovšem má-li Východ druhého trumfového krále, stejně bude moci partnerovi tento přebitek dát. Západ pak spokojeně vrátí pik a Vy spadnete, když nebudou pro Vás příznivě sedět kára.
+</p>
+<p>
+Proto není dobré zahrát trumfové eso a malý trumf okamžitě. Nejprve musíte odstranit bezpečný odchod Západu a odehrát si A,K v pikách. V nebezpečném případě, kdy bude mít Západ tři malé trumfy a singl tref, ocitne se vlastně po snapnutí trefu v nuceném výnosu. Vrácení piku bude znamenat přebití v jednom listu a odhoz z druhého a rozehrání kár Vám zadá druhý kárový zdvih.
+</p>
+</example>
+<example number="3">
+<distribution vul="EW">
+<hand position="north">
+<spades>
+QT843
+</spades>
+<hearts>
+A42
+</hearts>
+<diamonds>
+5
+</diamonds>
+<clubs>
+A732
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KJ95
+</spades>
+<hearts>
+K9
+</hearts>
+<diamonds>
+K83
+</diamonds>
+<clubs>
+KT65
+</clubs>
+</hand>
+<auction onesided="true" dealer="S">
+<bid level="1" suit="N"/>
+<bid level="2" suit="c"/>
+<bid level="2" suit="S"/>
+<bid level="4" suit="S"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="9c"/>
+</distribution>
+<p>
+Západ vynesl devítku trefovou, Východ přidal kluka a Vy berete králem. Jak byste měl pokračovat?
+</p>
+<p>
+Na první pohled se zdá, že nemůžete odevzdat více než tři zdvihy – pik, káro a tref. Opět však výnos vypadá podezřele jako singl a je zde nebezpečí, že ještě soupeři udělají trefový snap. Když například zahrajete ve druhém zdvihu pik, může Východ vzít a zahrát tref svému partnerovi do snapu. Západ bude moci bezpečně vrátit srdce a Váš závazek bude záviset na příznivé poloze kárového esa.
+</p>
+<p>
+Odpověď na problémy tohoto typu je obvykle nasnadě, když si v duchu přehrajete pravděpodobný průběh sehrávky. Když přijdete na to, že Západ bude moci bezpečně vrátit srdce, už budete vědět, jak tomu zabránit. Logická sehrávka spočívá v eliminaci srdcí prosnapnutím třetího kola srdcí před trumfováním. Tím si dáváte možnost navíc, budou-li trumfy 2-2. Když vezme Východ pikovým esem a dá partnerovi trefový snap, nemusí mít Západ už žádný bezpečný odchod. Když nebude mít trumf, bude muset vrátit káro, čímž Vám vypracuje káro pro odhoz trefu na stole nebo zahraje do dvojité šikeny a Vy si budete moci v jedné ruce odhodit a ve druhé snapnout. Když Východ vrátí káro, až se dostane na pikové eso do zdvihu, musíte přirozeně jeho kartu pokrýt, abyste dostal do zdvihu Západ a vyhnul se tak trefovému přebitku.
+</p>
+</example>
+<example number="4">
+<distribution vul="NS">
+<hand position="north">
+<spades>
+AJ9
+</spades>
+<hearts>
+763
+</hearts>
+<diamonds>
+AK953
+</diamonds>
+<clubs>
+Q7
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+QT4
+</spades>
+<hearts>
+AQJ85
+</hearts>
+<diamonds>
+82
+</diamonds>
+<clubs>
+T63
+</clubs>
+</hand>
+<auction dealer="W">
+<bid level="1" suit="N" explanation="12-14"/>
+<bid value="X"/>
+<bid value="pass"/>
+<bid level="2" suit="N"/>
+<bid value="pass"/>
+<bid level="3" suit="d"/>
+<bid value="pass"/>
+<bid level="3" suit="H"/>
+<bid value="pass"/>
+<bid level="4" suit="H"/>
+<bid value="pass"/>
+<bid value="pass"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="Ac"/>
+</distribution>
+<p>
+Západ si odehrál A,K v trefech, jeho partner přidával čtyřku a pětku. Třetí tref jste na stole snapl a Východ přiznal klukem. Jak byste měl pokračovat?
+</p>
+<p>
+Závazek nebude splněn, pokud nesedí pikový impas, protože podle dražby nemůže mít Východ oba drahé krále. Západ ovšem klidně může oba tyto krále mít, proto je trumfový impas příliš riskantní. Když Západ vezme a zahraje čtvrtý tref, možná že jeho partner nasadí svůj nejvyšší trumf (devítku nebo desítku), a tak vypracuje pro obranu druhý trumfový zdvih.
+</p>
+<p>
+Tomuto nebezpečí se můžete vyhnout, když zahrajete malý trumf k esu a budete pokračovat dámou, ale když tento způsob zanalyzujete, najdete možná další háček. Má-li Západ třetího trumfového krále a pouze dvě kára, vrátí káro a Vy se nebudete moci dostat zpátky do ruky, aniž byste odevzdal pikový zdvih nebo přesnap.
+</p>
+<p>
+Proto si zajistíte optimální bezpečnost odstraněním odchodové karty v kárech. Správné je zahrát srdce k esu a pak A,K v kárech a pokračovat dalším srdcem ze stolu. Za předpokladu, že pikový impas sedí, Vás pak nemůže žádné zahrání soupeřů ohrozit.
+</p>
+</example>
+<literature>
+    <li>
+    <author>H.W. Kelsey</author>
+    <title>Bridžová logika</title>
+    </li>
+    </literature>
 </lesson>

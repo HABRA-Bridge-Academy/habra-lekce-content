@@ -63,13 +63,11 @@ QJ2
 QT53
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="QH">
-Q srdcová
-</leadcard>
+<leadcard value="QH"/>
+</distribution>
 <p>
 Na stole není žádná délka ani krátkost, a tak hlavní hráč bude muset zkoušet expasy a impasy, pokud mu nějaký zdvih chybí. Nejrozumnější tedy je nevynášet žádnou novou barvu. Hlavní hráč přikryje králem, Východ vezme esem a vrátí zpátky srdci, Východ vezme a nerozehraje novou barvu, nýbrž obrátí opět srdci. Hlavní hráč si třetí srdci vezme a zahájí vytrumfování. Pravděpodobně bude hrát malou z ruky k dámě, Východ vezme králem, vrátí pik a počká si, až bude hlavní hráč impasovat káro, kde nesedí dáma pro hlavního příznivě a závazek je dole.
 </p>
@@ -132,13 +130,11 @@ K932
 QJ3
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="H" declarer="S"/>
+    <contract level="3" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="QS">
-Q piková
-</leadcard>
+<leadcard value="QS"/>
+</distribution>
 <p>
 Vydražitel vzal esem a vynesl 5 károvou. Hlavní hráč by patrně rád snapoval kára, ať už první zdvih obránců vezme kterýkoliv z nich musí okamžitě trumfnout malou (Východ zatím nesmí dát eso). Hlavní hráč trumf vezme a obrátí opět káro, teď nesmí Východ zaspat a musí trumfnout dvakrát – esem a malou. Hlavní hráč ztratil možnost snapnout káru a bude muset ještě jednu kartu této barvy odevzdat spolu s trefem a trumfem – jednou ne.
 </p>
@@ -201,13 +197,11 @@ QJ82
 Q642
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Qd">
-Q kárová
-</leadcard>
+<leadcard value="Qd"/>
+</distribution>
 <p>
 Stůl přebil králem, zdvih vzalo eso Východu a ten vrátil malé káro k dámě Východu. Situace teď není jednoznačná. Bude hrát hlavní hráč na snapy kárové nebo na dlouhé srdce. Snapy po takovémto výnosu obrany stejně jistě udělá, a tak se starejme o své trefy, aby je hlavní hráč nestačil zahodit na srdce.
 </p>
@@ -270,13 +264,13 @@ J94
 AKJ
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
 <leadcard value="KC">
-K, A trefové
+    K, A trefové
 </leadcard>
+</distribution>
 <p>
 Hlavní hráč jednoznačně hrozí zahodit na svou velmi dobrou pikovou barvu a je nutno rychle se pokusit vzít domů nějaké káro, protože naše třetí trumfová dáma také udělá nepochybně zdvih.
 </p>

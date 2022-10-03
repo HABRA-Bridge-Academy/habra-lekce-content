@@ -14,7 +14,7 @@ Stručně řečeno v principu je opakování vlastní barvy bez skoku slabost. 
 <p>
 Příklady:
 </p>
-<div class="columns">
+<div class="columns" columns="6">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -47,11 +47,11 @@ KQT62
 </hand>
 </distribution>
 <auction revealable="true" onesided="true" dealer="N">
-<bid level="1" suit="S" />
-<bid level="2" suit="c" />
-<bid level="2" suit="S" />
-<bid level="2" suit="N" />
-<bid value="pass" />
+    <bid level="1" suit="S" />
+    <bid level="2" suit="c" />
+    <bid level="2" suit="S" />
+    <bid level="2" suit="N" />
+    <bid value="pass" />
 </auction>
 </example>
 <example number="2">

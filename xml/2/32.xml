@@ -2,6 +2,7 @@
 <p>
 Není-li možné využít krátkosti ani délky stolu, nabízí se finesování. Tato lekce je lekcí o vyhnutí se finesování s tím, že se hlavní hráč snaží, aby finesy museli hrát soupeři. Tady jsou příklady:
 </p>
+<div class="print-columns" columns="2">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -32,13 +33,11 @@ AJ4
 J72
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="2" suit="S" declarer="S"/>
+    <contract level="2" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-K srdcový
-</leadcard>
+<leadcard value="KH"/>
+</distribution>
 <p>
 Šest jistých zdvihů s šancemi ve třech barvách. Nejlepší je, aby tyto barvy rozehrávali soupeři. Propustíme tedy první zdvih, vezmeme esem druhý a vrátíme opět srdce. Jednu z barev jsou nuceni rozehrát soupeři, odehrají-li např. nejvyšší trefy, vezmeme třetí, odehrajeme nejvyšší trumfy, vpustíme soupeře posledním trumfem a teď musí zadat v kárech nebo dát shoz.
 </p>
@@ -73,13 +72,11 @@ AJ3
 K97
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="QH">
-Q srdcová
-</leadcard>
+<leadcard value="QH"/>
+</distribution>
 <p>
 Vezmeme esem a počneme eliminovat srdce snapem, vyneseme dámu pikovou, abychom naváděli k položení krále, vezmeme esem, snapneme poslední srdce a odevzdáme trumf. Pokud bude ve zdvihu Západ, je dobojováno, protože ten musí zadat. Pokud to bude Východ, vezmeme káro zvysoka, zahrajeme druhou vysokou káru a třetí károu vpustíme libovolného protivníka, který opět musí zadat.
 </p>
@@ -114,13 +111,11 @@ A86
 75
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="S" declarer="S"/>
+    <contract level="6" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-K srdcový
-</leadcard>
+<leadcard value="KH"/>
+</distribution>
 <p>
 Nutné je nejdříve vyeliminovat srdce, proto vezmeme esem a snapneme srdci vysoko, trumfem na stůl, snap srdce vysoko, trumfem na stůl, snap srdce vysoko, dotrumfujeme, bude-li třeba, a vpustíme Východ do zdvihu tak, že na tref položíme devítku. Teď nám musí Východ zadat.
 </p>
@@ -183,13 +178,11 @@ KQJ532
 -
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="5" suit="c" declarer="S"/>
+    <contract level="5" suit="c" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-K srdcový
-</leadcard>
+<leadcard value="KH"/>
+</distribution>
 <p>
 krále vezmeme esem a přebijeme jedno srdce. Odehrajeme eso a krále trefové. Protože chcete vpustit do zdvihu Západ, vezmete domů svá tři kára tak, že skončíte na stole a vynesete 10 srdcovou (odhoz piky), čímž vpustíte do zdvihu Západ. A Západ je v tom.
 </p>
@@ -252,13 +245,11 @@ T87653
 874
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
     <contract level="3" suit="NT" declarer="S" doubled="x" />
 </deal-contract>
-<leadcard value="8c">
-8 trefová
-</leadcard>
+<leadcard value="8c"/>
+</distribution>
 <p>
 Je třeba pečlivě vysnapovat trefy. Vezmeme eso, snapneme tref, esem trumfovým na stůl, snap trefu a pustíme trumfem Východ. Na tref zahodíme srdci a Východ musí zadat srdci nebo káro nebo na tref dát shoz káry.
 </p>
@@ -321,17 +312,16 @@ J92
 KQJ8
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-K trefový
-</leadcard>
+<leadcard value="Kc"/>
+</distribution>
 <p>
 Vezmete druhé kolo trefů a trumfnete shora pouze dvakrát, odehrajete tři kára a vpustíte trefem s nadějí, že Západ nemá trumf a musí buď zadat nebo dát shoz. Této technice se říká částečné vymýcení.
 </p>
 </example>
+</div>
 <p>
 Příklad pro samostatný pokus:
 </p>
@@ -365,13 +355,11 @@ A83
 K2
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Qd">
-Q kárová
-</leadcard>
+<leadcard value="Qd"/>
+</distribution>
 <p>
 Vezmeme káro a musíme vyeliminovat levné barvy. Nejlepší je obtáhnout eso pikové, odehrát vysoké levné karty a vysnapovat zbývající levné barvy. Potom trumfem vpustíme libovolného protihráče, který pak musí buď vynést srdce, což bude znamenat srdcový zdvih a při výnosu levné barvy dá odhoz a snap.
 </p>

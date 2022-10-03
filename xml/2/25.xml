@@ -2,6 +2,7 @@
 <p>
 Podíváme se na celou problematiku z pohledu obránců. Jak poznat, že soupeři hrají na snapy a jak tomu účinně bránit, na tyto otázky by měla přinést odpovědi tato lekce. Opět bude nejlepší, podíváme-li se na tyto tři cvičné krabice.
 </p>
+<div class="print-columns" columns="2">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -60,13 +61,11 @@ J6
 865
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Jd">
-J kárový
-</leadcard>
+<leadcard value="Jd"/>
+</distribution>
 <p>
 Východ vidí, že trefy nesedí a že jediný účinný plán je hrát na kárové snapy, a proto by měl převzít kluka dámou, pro případ, že by hlavní hráč propustil. Samozřejmý plán proti snapování je hrát trumf při každé příležitosti, kdy to jde. Zůstane-li u zdvihu Východ nesmí snít o přechodu na trefy, ale trumfnout, Západ vezme esem a trumfne znovu.
 </p>
@@ -129,18 +128,18 @@ JT93
 Q54
 </clubs>
 </hand>
-</distribution>
 <p>
-Co vynést po takovéto dražbě?
+    Co vynést po takovéto dražbě?
 </p>
 <auction onesided="true" dealer="S">
-<bid level="1" suit="S" />
-<bid level="1" suit="N" />
-<bid level="2" suit="H" />
-<bid level="3" suit="H" />
-<bid level="4" suit="H" />
-<bid value="pass" />
+    <bid level="1" suit="S" />
+    <bid level="1" suit="N" />
+    <bid level="2" suit="H" />
+    <bid level="3" suit="H" />
+    <bid level="4" suit="H" />
+    <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Tato dražba i držení piků ukazuje Západu, že je velmi pravděpodobný plán vydražitelův na snapy a nejlepší obranou proti tomu je co nejdříve trumfnout, a proč ne tedy hned z výnosu. Pomoci musí ale i Západ, protože trumfnout je třeba třikrát a to se podaří jen tehdy, skrčí-li se Východ se srdcovým esem až do druhého zdvihu.
 </p>
@@ -206,13 +205,12 @@ AT4
 <deal-contract>
 <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="QH">
-Q srdcová
-</leadcard>
+<leadcard value="QH"/>
 <p>
 Vydražitel vezme esem a vynese pikového krále. Plánuje dvakrát přebíjet srdce ze stolu, ale má obavy z přesnapování ve čtvrtém kole, chce tedy nejdříve dvakrát trumfnout. Jestliže Západ vezme svým pikovým esem hned, vydražiteli jeho plán vyjde. Partnerova piková devítka padne v druhém kole trumfů a vydražitel pak bude moci bezpečně vysnapovat svá ztrátová srdce. Jestliže se však při prvním trumfnutí Západ skrčí, závazek porazí. Když vydražitel zahraje trumfy podruhé, vezme esem a otočí trumfy potřetí, a když nebudou trumfy zahrány podruhé, Východ bude moci přesnapovat čtvrté srdce. Závazek jde i tak splnit. Hlavní hráč ovšem nesmí trumfovat, ale má vzít domů srdcové winéry, snapnout jedno srdce, pak vzít eso a krále v kárech, vynese čtvrté srdce, a když dá Západ srdci, odhodí káro, čímž si přemění nebezpečný snap na bezpečnější kárový.
 </p>
 </example>
+<div>
 <p>
 Jako samostatný úkol k vyřešení zadejte dětem toto rozdání:
 </p>
@@ -273,17 +271,17 @@ T2
 Q98
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-K srdcový
-</leadcard>
+<leadcard value="KH"/>
+</distribution>
 <p>
 Po tomto výnosu je vidět hrozivá krátkost a děravá délka. Určitě bude nutno trumfnout. Ale pokud trumfne Západ, zadá tím zdvih v trumfové barvě. Východ má správně převzít výnos esem a vynést trumf od něj.
 </p>
 </example>
+</div>
+</div>
 <literature>
 <li>
 <author>E. Kaplan</author>

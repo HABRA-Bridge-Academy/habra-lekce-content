@@ -1,235 +1,153 @@
-<lesson year="6" title="Časování II" number="34" video-id="_5mk39X7kMs">
-<example number="1">
-<distribution vul="BOTH">
-<hand position="north">
-<spades>
-AJT
-</spades>
-<hearts>
-QT65
-</hearts>
-<diamonds>
-A874
-</diamonds>
-<clubs>
-63
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-KQ7632
-</spades>
-<hearts>
-8
-</hearts>
-<diamonds>
-K5
-</diamonds>
-<clubs>
-AK75
-</clubs>
-</hand>
-</distribution>
-<auction onesided="true" dealer="S">
-<bid level="1" suit="S" />
-<bid level="2" suit="d" />
-<bid level="3" suit="c" />
-<bid level="4" suit="S" />
-<bid level="4" suit="N" />
-<bid level="5" suit="H" />
-<bid level="6" suit="S" />
-<bid value="pass" />
-</auction>
-<leadcard value="Qc" /><p>
-Západ vynesl trefovou dámu, Východ přidal čtyřku a Vy jste vzal esem. Jak dál?
-</p>
-<p>
-Nebudou-li trumfy rozloženy hůře než 3-1, měl byste slem splnit přebitím dvou ztrátových trefů na stole. Hrozilo by Vám přitom přesnapnutí ve třetím kole kár, ale na to je snadný lék – po snapnutí posledního trefu zahrajte srdci.
-</p>
-<p>
-Předpokládejme však, že budou trumfy rozděleny 4-0. V tom případě si nebudete moci dovolit snapnout dva trefy na stole, dokud neuděláte tři malé trumfy v ruce snapováním. A to bude možné jen při správném načasování, které spočívá v zahrání srdce ve druhém zdvihu. Pak budete moci vzít vrácený tref na stole, a když se ukáže, že jsou trumfy 4-0, ihned si snapnete srdci. Pak přijde A,K v kárech a další srdcový snap, potom trefový král a snapnutý tref.
-</p>
-<p>
-V tomto okamžiku již splníte, bude-li mít čtyři trumfy Východ, protože bude v trumfové parádě po zahrání kterékoliv červené karty ze stolu. Když bude trumfový 4-list u Západu, musíte doufat, že má ještě jednu červenou kartu a pokusit se uhodnout, která to je. Určité indikace by Vám mělo dát hraní do předcházejících zdvihů. V každém případě budete mít alespoň větší naději na splnění, než kdybyste si ve třetím zdvihu snapl tref.
-</p>
-<p>
-Studium takových situací s křížovými přebitky je velmi cenné při nácviku správného načasování.
-</p>
-</example>
-<example number="2">
-<distribution vul="BOTH">
-<hand position="north">
-<spades>
-KQ2
-</spades>
-<hearts>
-A764
-</hearts>
-<diamonds>
-AQ42
-</diamonds>
-<clubs>
-65
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-7
-</spades>
-<hearts>
-K3
-</hearts>
-<diamonds>
-KJT53
-</diamonds>
-<clubs>
-AKT42
-</clubs>
-</hand>
-</distribution>
-<auction onesided="true" dealer="S">
-<bid level="1" suit="H" />
-<bid level="2" suit="d" />
-<bid level="3" suit="d" />
-<bid level="4" suit="N" />
-<bid level="5" suit="H" />
-<bid level="6" suit="d" />
-<bid value="pass" />
-</auction>
-<leadcard value="JS" /><p>
-Západ vynesl pikového kluka. Pokryl jste ho dámou, Východ vzal esem a vrátil trefovou dámu. Vzal jste esem a odehrál si kárového krále, na kterého si Západ zahodil pik. Jak dál?
-</p>
-<p>
-Zase musíte díky nepříznivému trumfovému dělení uplatnit malé trumfy v ruce na přebitky a to bude možné pouze tehdy, má-li Východ alespoň tři srdce. Budete si muset snapnout vysokým trumfem třetí tref pro případ, že má Východ pouze dubl tref, ale nesmíte to udělat příliš brzy, protože by Východ mohl provést pro Vás smrtelný shoz.
-</p>
-<p>
-Správné pořadí sehrávky je srdcový král, srdce k esu, pikový král a trefový shoz a srdcový přebitek. Pak si odehrajete trefového krále a snapnete tref károvou dámou. Pokud se trefy rozpadnou, můžete v tomto okamžiku prostě dotrumfovat. Když si Východ na třetí tref zahodí pik, musíte se ovšem podle dosavadního odehrávání srdcí rozhodnout, zda si teď svým zbývajícím malým trumfem můžete snapnout srdci nebo pik.
-</p>
-</example>
-<example number="3">
-<distribution vul="BOTH">
-<hand position="north">
-<spades>
-A76
-</spades>
-<hearts>
-K9
-</hearts>
-<diamonds>
-KJT652
-</diamonds>
-<clubs>
-K5
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-3
-</spades>
-<hearts>
-AQ8632
-</hearts>
-<diamonds>
-Q
-</diamonds>
-<clubs>
-AQJT3
-</clubs>
-</hand>
-</distribution>
-<auction dealer="S">
-<bid level="1" suit="H" />
-<bid level="1" suit="S" />
-<bid level="2" suit="d" />
-<bid value="pass" />
-<bid level="3" suit="c" />
-<bid value="pass" />
-<bid level="3" suit="S" />
-<bid value="pass" />
-<bid level="4" suit="c" />
-<bid value="pass" />
-<bid level="4" suit="N" />
-<bid value="pass" />
-<bid level="5" suit="H" />
-<bid value="pass" />
-<bid level="6" suit="H" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="pass" />
-</auction>
-<leadcard value="KS" /><p>
-Západ vynesl pikového krále k esu na stole. Jak si naplánujete sehrávku?
-</p>
-<p>
-Slem je v nebezpečí pouze při nepříznivém rozdělení trumfů. Nic nepomůže dělat, má-li čtyři trumfy Západ. Má-li je ale Východ, je zde naděje, že Západ má singl honéra. Budete ovšem moci provést trumfovou parádu proti Východu pouze tehdy, když všechny přípravy provedete ve správném okamžiku. Musíte se zkrátit v trumfech na stejný počet jako má Východ, což znamená, že musíte v ruce dvakrát snapnout.
-</p>
-<p>
-Prvním důležitým krokem je snapnutí piku v ruce ve druhém zdvihu. Pak si odehrajete srdcové eso a zahrajete károvou dámu, abyste vyrazil eso. Pokud přijde zpátky tref, musíte ho vzít v ruce, pokračovat trumfem ke králi a snapnout si další pik. Při normální rozloze trumfů můžete stáhnout poslední trumf a zbytek zdvihů je Váš. Když se ale ukáže, že Západ měl singl honéra v trumfech, přejdete na stůl na trefového krále a budete hrát kára, kterými vyimpasujete trumfy u Východu.
-</p>
-<p>
-Trumfová paráda není vůbec těžká. Musíte pouze poznat, kdy ji máte použít. Když tuto možnost nespatříte hned, snadno uděláte chybu v načasování.
-</p>
-</example>
-<example number="4">
-<distribution vul="BOTH">
-<hand position="north">
-<spades>
-9842
-</spades>
-<hearts>
-K84
-</hearts>
-<diamonds>
-Q6
-</diamonds>
-<clubs>
-9732
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-A
-</spades>
-<hearts>
-AJ7652
-</hearts>
-<diamonds>
-AK5
-</diamonds>
-<clubs>
-AK6
-</clubs>
-</hand>
-</distribution>
-<auction onesided="true" dealer="S">
-<bid level="2" suit="c" />
-<bid level="2" suit="d" />
-<bid level="2" suit="H" />
-<bid level="3" suit="H" />
-<bid level="3" suit="S" />
-<bid level="4" suit="H" />
-<bid level="5" suit="c" />
-<bid level="5" suit="d" />
-<bid level="6" suit="H" />
-<bid value="pass" />
-</auction>
-<leadcard value="Jd" /><p>
-Západ vynesl kárového kluka. Jak si naplánujete sehrávku?
-</p>
-<p>
-Moc vynikající slem to není. Budete samozřejmě hrát na největší šanci a zahrajete trumfy shora, pokud se dáma v prvním kole neobjeví. Proto tedy spadnete, když bude mít kterýkoliv z obránců singl malý trumf. A co když někdo z nich nemá trumfy vůbec? Podle předcházející úvahy by to vypadalo, že spadnete dvakrát, není to však nevyhnutelné. Je zajímavé, že v tomto rozdání může být rozdělení trumfů 4-0 lepší než 3-1. Když bude mít obránce se čtyřmi trumfy konkrétní rozlohu – 4 piky, 3 kára a 2 trefy, budete moci slem splnit pomocí známé techniky trumfové parády.
-</p>
-<p>
-Musíte vidět koncovku, do které se chcete dostat dříve, než přidáte ze stolu první kartu, pokud chcete sehrávku správně načasovat. Abyste si zachovali přechody, musíte v prvním kole ze stolu zahrát károvou šestku a vzít v ruce. Pak si odehrajete pikové eso a zahrajete trumf ke králi. Když kterýkoliv z obránců nepřizná, snapnete si pik, zahrajete károvou pětku k dámě a snapnete další pik. Odehrajete si pak A,K v trefech, přejdete na stůl snapnutím vysokého kára a přebijete v ruce další pik. Pokud se nic nestalo, zůstane Vám v ruce A,J v srdcích a trefová šestka, zatímco jeden obránce bude mít zbývající tři trumfy. Vynesete prostě tref a ukážete karty.
-</p>
-<p>
-Bude-li mít čtyři trumfy Východ, uspějete i tehdy, když bude rozloha 3-4-4-2.
-</p>
-</example>
-<literature>
-    <li>
-    <author>H.W. Kelsey</author>
-    <title>Bridžová logika</title>
-    </li>
-    </literature>
+<lesson year="6" title="Konvence Vrána k vráně" number="34" video-id="_5mk39X7kMs">
+<p>Pro silnou dražbu po zahájení <bid level="2" suit="H"/> a <bid level="2" suit="S"/> (tedy se slemovými ambicemi) používáme konvenci Vrána k vráně.</p>
+<p>Funguje to tak, že po ukázání dvojbarevné rozlohy forsují do slemu nejbližší barvy, které partner nemá, v logice levnější zadražená vyzývací barva ukazuje na levnější barvu zahajitele, dražší barva na dražší barvu zahajitele (mnemotechnicky „vrána k vráně sedá“):</p>
+<div class="print-columns" columns="2">
+<bidding>
+<header>
+<sequence>
+<bid level="2" suit="H"/>
+<bid level="2" suit="N"/>
+<bid level="3" suit="c"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action><bid level="3" suit="d"/></action>
+<explanation>cuebiduj pro možný slem v trefech</explanation>
+</entry>
+<entry>
+<action><bid level="3" suit="S"/></action>
+<explanation>cuebiduj pro možný slem v srcích</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>
+<sequence>
+<bid level="2" suit="H"/>
+<bid level="2" suit="N"/>
+<bid level="3" suit="d"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action><bid level="3" suit="S"/></action>
+<explanation>cuebiduj pro možný slem v srcích</explanation>
+</entry>
+<entry>
+<action><bid level="4" suit="c"/></action>
+<explanation>cuebiduj pro možný slem v kárech</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>
+<sequence>
+<bid level="2" suit="H"/>
+<bid level="2" suit="N"/>
+<bid level="3" suit="H"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action><bid level="4" suit="c"/></action>
+<explanation>cuebiduj pro možný slem v srcích</explanation>
+</entry>
+<entry>
+<action><bid level="4" suit="d"/></action>
+<explanation>cuebiduj pro možný slem v pikách</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>
+<sequence>
+<bid level="2" suit="H"/>
+<bid level="2" suit="N"/>
+<bid level="3" suit="S"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action><bid level="4" suit="c"/></action>
+<explanation>cuebiduj pro možný slem v srcích</explanation>
+</entry>
+<entry>
+<action><bid level="4" suit="d"/></action>
+<explanation>cuebiduj pro možný slem v pikách</explanation>
+</entry>
+</bidding>
+</div>
+
+<div class="print-columns" columns="2">
+<bidding>
+<header>
+<sequence>
+<bid level="2" suit="S"/>
+<bid level="2" suit="N"/>
+<bid level="3" suit="c"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action><bid level="3" suit="d"/></action>
+<explanation>cuebiduj pro možný slem v trefecb</explanation>
+</entry>
+<entry>
+<action><bid level="3" suit="H"/></action>
+<explanation>cuebiduj pro možný slem v pikách</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>
+<sequence>
+<bid level="2" suit="S"/>
+<bid level="2" suit="N"/>
+<bid level="3" suit="d"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action><bid level="3" suit="H"/></action>
+<explanation>cuebiduj pro možný slem v pikách</explanation>
+</entry>
+<entry>
+<action><bid level="4" suit="c"/></action>
+<explanation>cuebiduj pro možný slem v kárech</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>
+<sequence>
+<bid level="2" suit="S"/>
+<bid level="2" suit="N"/>
+<bid level="3" suit="H"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action><bid level="4" suit="d"/></action>
+<explanation>cuebiduj pro možný slem v trefech</explanation>
+</entry>
+<entry>
+<action><bid level="4" suit="H"/></action>
+<explanation>cuebiduj pro možný slem v pikách</explanation>
+</entry>
+</bidding>
+<bidding>
+    <header>
+    <sequence>
+    <bid level="2" suit="S"/>
+    <bid level="2" suit="N"/>
+    <bid level="3" suit="S"/>
+    <bid value="?"/>
+    </sequence>
+    </header>
+    <entry>
+    <action><bid level="4" suit="d"/></action>
+    <explanation>cuebiduj pro možný slem v kárech</explanation>
+    </entry>
+    <entry>
+    <action><bid level="4" suit="H"/></action>
+    <explanation>cuebiduj pro možný slem v pikách</explanation>
+    </entry>
+    </bidding>
+</div>
 </lesson>

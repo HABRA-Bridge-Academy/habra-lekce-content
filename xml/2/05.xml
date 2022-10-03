@@ -8,7 +8,7 @@ Dalším důležitou změnou bude posílení principu forcingu. Prozatím jsme p
 <p>
 Příklady:
 </p>
-<div class="columns">
+<div class="columns" columns="6">
 <example number="1">
 <distribution>
 <hand position="north">

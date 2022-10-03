@@ -2,6 +2,7 @@
 <p>
 Dalším frekventovaným plánem hlavního hráče je vypracování délky. Je třeba plánovat přesně, dbát na přestupy, časování, nebezpečné soupeře a vytrumfování. Zde jsou příklady:
 </p>
+<div class="print-columns" columns="2">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -32,13 +33,11 @@ A65
 A862
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="9d">
-9 kárová
-</leadcard>
+<leadcard value="9d"/>
+</distribution>
 <p>
 Devítka kárová ukazuje na to, že obě kárové figury jsou u Východu. Potřebujete chybějící tři zdvihy udělat na piky, ale nesmíte dopustit, aby udělali soupeři dříve dva kárové a pikový. Řešení je v položení desítky a zadržení esa. Nyní můžete vypracovat piky, aniž jste ztratili kontrolu nad káry.
 </p>
@@ -73,12 +72,11 @@ KJ2
 AK
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="H" declarer="S"/>
+    <contract level="6" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="2c">
-</leadcard>
+<leadcard value="2c"/>
+</distribution>
 <p>
 Máte jedenáct zdvihů a potenciální zdvih v károvém impasu nebo se můžete pokusit vypracovat piky, pokud se dělí 4-3. Vezmete tedy tref a nesete pik. Soupeři pravděpodobně opět ponesou tref. Vezmete a vynesete malý trumf, pik snapnete vysoko, malé srdce k trumfům na stole, snap piku vysokým trumfem, malý trumf k trumfům na stole, snap čtvrtého piku. Pokud byla dělba 4-3, mám vstup k piku na káro a pokud ne, mohu stále zkusit impas v kárech.
 </p>
@@ -113,12 +111,13 @@ K65
 86
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
 <leadcard value="2c">třikrát tref		
-</leadcard><p>
+</leadcard>
+</distribution>
+<p>
 Pokud se kára dělí 3-3 nebo 4-2, půjdou vypracovat, problém je jen s počtem vstupů. Snapnu a propustím káro, vrácené srdce vezmu v ruce, zvysoka trumfnu a nesu káro k esu, snap kára zvysoka, trumf k dámě, snap zvysoka, dotrumfuji a eso srdcové funguje jako vstup k pátému káru.
 </p>
 </example>
@@ -152,13 +151,11 @@ K74
 852
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="5d">
-káro
-</leadcard>
+<leadcard value="5d"/>
+</distribution>
 <p>
 Na stole mám dost vstupů, a tak raději než na snapy trefové budu hrát na vypracování srdcí. Beru tedy v ruce, abych šetřil vstupy, a pošlu srdce, vezmu cokoliv, opět pošlu srdce, vezmu cokoliv, snapnu srdci vysoko, dotrumfuji tak, abych skončil na stole a srdce jsou vypracovány. Předpokládá to dělbu srdcí 3-2.
 </p>
@@ -193,16 +190,16 @@ K74
 A52
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="5d">
-káro
-</leadcard><p>
+<leadcard value="5d"/>
+</distribution>
+<p>
 Vpodstatě tytéž karty, ale tentokrát je více vstupů do ruky, a tak se budou lépe snapovat trefy. Vezmeme tudíž na stole a neseme tref k esu, snap tref, odehrajeme eso pikové, káro ke králi a snap trefový. Závazek je v suchu. Uděláme pět pikových, dva kárové, jeden trefový a dva trefové snapy.
 </p>
 </example>
+<div>
 <p>
 Jako samostatný problém zadejte tento kvíz:
 </p>
@@ -236,17 +233,17 @@ A74
 AKJ
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="H" declarer="S"/>
+    <contract level="6" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Qd">
-Q kárová
-</leadcard>
+<leadcard value="Qd"/>
+</distribution>
 <p>
 Dvanáctý zdvih není nutno získat impasem, ale uděláme ho pohodlně v pikách, jen si musíme nechat k vypracovanému piku vstup. První zdvih tedy bereme v ruce, odehrajeme eso pikové a vytrumfujeme tak, abychom ve třetím kole zůstali na stole, teď vyneseme pik, pokud Východ přebije, snapneme a král kárový je vstup, pokud ne, zahodíme káro. Když teď vezme Západ, opět funguje král kárový jako vstup na kluka pikového, na který pak zahodíme tref.
 </p>
 </example>
+</div>
+</div>
 <literature>
 <li>
 <author>E. Kaplan</author>

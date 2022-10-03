@@ -29,13 +29,13 @@ K54
 AK4
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
 <leadcard value="KS">
-pK, pA, kJ
+    pK, pA, kJ
 </leadcard>
+</distribution>
 <p>
 V tomto rozdání sehrává Jih závazek 4 srdce. Západ si odehrává pikového krále a eso a pak pokračuje károvým klukem. Hlavní hráč získává zdvih v ruce a vidí, že ve vedlejších barvách už neodevzdá zdvih, musí se proto vyhnout ztrátě dvou zdvihů trumfových. Jak má pokračovat?
 </p>
@@ -162,13 +162,11 @@ A76
 KQ2
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="S" declarer="S"/>
+    <contract level="6" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="8d">
-k8
-</leadcard>
+<leadcard value="8d"/>
+</distribution>
 <p>
 Jih sehrává závazek 6 piků. Západ vynáší károvou osmičku a HH bere králem na stole. Vidí, že ve vedlejších barvách nemá ztrátové zdvihy, proto musí svůj um vynaložit na to, jak zamezit ztrátě dvou zdvihů pikových. Jak má pokračovat?
 </p>
@@ -266,13 +264,11 @@ KT9
 A65
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="7" suit="H" declarer="S"/>
+    <contract level="7" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="QS">
-pQ
-</leadcard>
+<leadcard value="QS"/>
+</distribution>
 <p>
 Předpokládejme, že Jih jako ostrý hráč nadražil závazek sedm srdcí. Jak má sehrávat rozdání po výnosu pikovou dámou?
 </p>
@@ -384,13 +380,11 @@ QJ5
 AQ842
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="c" declarer="S"/>
+    <contract level="6" suit="c" declarer="S"/>
 </deal-contract>
-<leadcard value="QS">
-pQ
-</leadcard>
+<leadcard value="QS"/>
+</distribution>
 <p>
 Závazkem v tomto rozdání je šest trefů ze strany Jihu. Západ vynáší pikovou dámu, kterou hlavní hráč bere esem na stole. Ve vedlejších barvách nemá ztrátové zdvihy, a tak musí zamezit ztrátě dvou trumfových zdvihů. Jak?
 </p>
@@ -525,11 +519,11 @@ AQ2
 K3
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="S" declarer="S"/>
+    <contract level="6" suit="S" declarer="S"/>
 </deal-contract>
 <leadcard value="Kd"/>
+</distribution>
 <p>
 Tento příklad na bezpečnou sehrávku se vyskytl v zápase mistrovství Evropy mezi Francií a Belgií. Jih sehrál excelentně závazek šest piků po výnosu károvým králem. Proč?
 </p>
@@ -624,13 +618,11 @@ KQ97
 AK3
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="7" suit="S" declarer="S"/>
+    <contract level="7" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Kd">
-kK
-</leadcard>
+<leadcard value="Kd"/>
+</distribution>
 <p>
 Jeden z autorů učinil trpkou zkušenost, když se toto rozdání hrálo v komerční partii. Sever jako rozdávající měl s partnerem domluveno silné zahájení <bid level="1" suit="NT"/> (16-18), ale jelikož spoluhráč byl nezkušený, zahájil i se slabším listem raději <bid level="1" suit="NT"/> než 1 pik a doufal, že závazek bude sehrávat on. Ouha! Jih skočil na 3 piky a v dalším kole použil Blackwooda, a pak skončil v sedmi pikách. Co se stalo, když Západ vynesl kárového krále?
 </p>

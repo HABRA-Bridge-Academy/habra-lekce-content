@@ -44,13 +44,11 @@ J952
 AKQJ
 </clubs>
 </hand>
-</distribution>
-<leadcard value="QS">
-Q piková
-</leadcard>
+<leadcard value="QS"/>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
+</distribution>
 <p>
 Hrát na kára 3-3, nebo expas srdcový? Expas dává 50% šanci a dělení 3-3 pouze 36%.
 </p>
@@ -85,13 +83,11 @@ J952
 KQJT
 </clubs>
 </hand>
-</distribution>
-<leadcard value="QS">
-Q piková
-</leadcard>
+<leadcard value="QS"/>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
+</distribution>
 <p>
 Hrát na kára 3-2, nebo expas srdcový? Expas má 50% šanci a dělení 3-2 68%. Dvakrát tedy bouchneme zvysoka do kár s tím, že budeme očekávat, že do těchto dvou zdvihů vypadnou čtyři kára a třetí kolo kár vyžene poslední káro. Trefové eso je pak vstup ke kárům.
 </p>

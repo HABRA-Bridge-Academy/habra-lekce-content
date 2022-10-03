@@ -29,13 +29,11 @@ AQ8
 AJT97
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="c" declarer="S"/>
+    <contract level="6" suit="c" declarer="S"/>
 </deal-contract>
-<leadcard value="QS">
-pQ
-</leadcard>
+<leadcard value="QS"/>
+</distribution>
 <p>
 Jih sehrává závazek šest trefů a Západ vynáší proti tomuto závazku pikovou dámu. Jaký plán sehrávky si má Jih udělat za předpokladu, že zbývající trumfy nejsou děleny 3-0?
 </p>
@@ -118,9 +116,8 @@ A65
 K86
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
 <leadcard value="Kd">
 kK, kA
@@ -135,6 +132,7 @@ kK, kA
 <bid value="pass" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Západ vynáší kárového krále a kárové eso, které Jih přebíjí trumfem. Když přechází trefem na stůl a hraje odtud malý pik, Východ odhazuje káro. Jak má Jih pokračovat?
 </p>
@@ -208,13 +206,11 @@ AKQ7
 QJ83
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="QS">
-pQ
-</leadcard>
+<leadcard value="QS"/>
+</distribution>
 <p>
 Jak má Jih sehrávat závazek čtyři srdce po výnosu pikovou dámou?
 </p>
@@ -288,13 +284,11 @@ A
 A853
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="KS">
-pK
-</leadcard>
+<leadcard value="KS"/>
+</distribution>
 <p>
 Jih sehrává závazek čtyři srdce a Západ vynáší pikového krále. Jaký plán sehrávky si má Jih udělat?
 </p>
@@ -335,7 +329,6 @@ J96432
 V daném okamžiku musí však Jih zahrát přesně. Nesmí předčasně vpustit soupeře do zdvihu, protože pak by závazek prohrál, ale nejprve musí zahrát tref ke králi, a pak teprve vynese trumf nebo pik. Ať už jsou nyní trefy rozděleny jakkoliv, hlavní hráč nemůže závazek prohrát. Koncovka je stejná jako v předchozím příkladě.
 </p>
 </example>
-
 <literature>
 <li>
 <author>Reese, Trézel</author>

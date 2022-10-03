@@ -66,11 +66,11 @@ AK5
 J963
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
 <leadcard value="KH"/>
+</distribution>
 <p>Povzbudivá marka, hraji tedy dále eso a malou srdci</p>
 </example>
 <example number="2">
@@ -131,11 +131,11 @@ Q85
 J9765
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
 <leadcard value="6c"/>
+</distribution>
 <p>
 Odrazující marka, která znamená, změň barvu při dalším výnosu na jinou.
 </p>
@@ -198,11 +198,11 @@ T97
 A542
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
 <leadcard value="KS"/>
+</distribution>
 <p>
 K pikový – povzbuzující marka vyzývající pokračuj. Partner ponese eso a další pik umožní snap.
 </p>

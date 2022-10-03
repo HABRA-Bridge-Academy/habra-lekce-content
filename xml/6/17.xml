@@ -1,68 +1,324 @@
-<lesson year="6" title="Zachování všech možností I" number="17" video-id="O4SrqPT5Tus">
+<lesson year="6" title="Indikace se sehrávky" number="17" video-id="O4SrqPT5Tus">
 <example number="1">
 <distribution vul="BOTH">
 <hand position="north">
 <spades>
-72
+J94
 </spades>
 <hearts>
-Q6
+AQT
 </hearts>
 <diamonds>
-AKT943
+K6
 </diamonds>
 <clubs>
-AJ6
+KJ873
 </clubs>
 </hand>
 <hand position="south">
 <spades>
-K94
+AQT765
 </spades>
 <hearts>
-KT2
+K3
 </hearts>
 <diamonds>
-Q5
+8542
 </diamonds>
 <clubs>
-K8752
+6
 </clubs>
 </hand>
-</distribution>
-<auction onesided="true" dealer="N">
-<bid level="1" suit="d" />
-<bid level="2" suit="N" />
-<bid level="3" suit="N" />
-<bid value="pass" />
+<auction dealer="W">
+<bid level="1" suit="d"/>
+<bid value="X"/>
+<bid level="1" suit="H"/>
+<bid level="4" suit="S"/>
+<bid value="pass"/>
+<bid value="pass"/>
+<bid value="pass"/>
 </auction>
-<leadcard value="6S" /><p>
-Západ vynesl šestku pikovou a Vy jste vzal dámu Východu svým králem. Jak byste si měl naplánovat sehrávku?
+<leadcard value="Ad"/>
+</distribution>
+<p>
+Západ vynesl kárové eso, na které přidal jeho partner devítku. V dalším zdvihu zahranou károvou trojku Východ snapl pikovou dvojkou a vrátil tref. Západ vzal esem a zahrál srdcového kluka, kterého jste vzal dámou na stole. Co teď?
 </p>
 <p>
-Pokud budou kára 3-2 nebo spadne singl kluk, je to bez problémů, protože uděláte šest kárových zdvihů, dva trefové a jeden pikový. Ovšem, bude-li mít jeden z obránců károvou zádrž, nebude to nic veselého. Nemůžete si dovolit odevzdat zdvih na kárového kluka, protože by si pak obrana udělala pět pikových zdvihů.
+Jediný problém je v tom, abyste neodevzdal trumfový zdvih. Teoreticky má impas v této situaci mnohem větší šanci, protože jsou ještě tři piky ve hře. Ale v praxi by žádný myslící vydražitel tento impas nezahrál, protože Západ ohlásil celému světu, že má singl trumfového krále. Proč by jinak zahrál srdcového kluka, místo aby zahrál další káro a dal svému partnerovi přesnapnout stůl?
 </p>
 <p>
-Můžete rovněž hledat zdvihy v trefech. Když bude sedět impas, můžete udělat i pět trefových zdvihů, což spolu se třemi károvými a jedním pikovým dává potřebných devět.
+Západ se zřejmě bál, že kdyby partner stůl nepřesnapl, všechno by vyšlo najevo a donutil by Vás tak bouchnout esem. Ovšem v podobných případech musí obránce odhalit pravdu, ať dělá, co dělá.
 </p>
 <p>
-Ovšem když rozehrajete kára normálním způsobem tak, že si odehrajete dámu a zahrajete malou ke králi, budete na tom špatně, nepřizná-li kterýkoliv z obránců ve druhém kole kára. Budete muset zahrát v prvním kole trefů impas, což ale nebude možné, protože budete v nesprávné ruce.
-</p>
-<p>
-Abyste si uchovali možnost trefového impasu, musíte zahrát malé káro k esu nebo ke králi ve druhém zdvihu, a pak vrátit malé káro k dámě. Potom budete moci využít příznivé situace v trefech, když to bude potřeba.
+Takové základní indikace jsou zcela běžné a nesmíte je promeškat.
 </p>
 </example>
 <example number="2">
 <distribution vul="BOTH">
 <hand position="north">
 <spades>
-QT95
+9875
 </spades>
 <hearts>
-Q63
+AQ3
 </hearts>
 <diamonds>
-KJ54
+QJ6
+</diamonds>
+<clubs>
+A86
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AKJ3
+</spades>
+<hearts>
+76
+</hearts>
+<diamonds>
+A943
+</diamonds>
+<clubs>
+932
+</clubs>
+</hand>
+<auction onesided="true" dealer="S">
+<bid level="1" suit="d"/>
+<bid level="1" suit="S"/>
+<bid level="2" suit="S"/>
+<bid level="3" suit="d"/>
+<bid level="3" suit="S"/>
+<bid level="4" suit="S"/>
+</auction>
+<leadcard value="Kc"/>
+</distribution>
+<p>
+Západ vynesl trefového krále, kterého jste propustil. Vzal jste trefovou dámu, zahrál pik k esu a zpátky jste impasoval srdcovou dámou. Východ vzal králem a zahrál tref ke klukovi partnera a Západ vynesl srdce k esu na stole. Zatím jste měl jen smůlu, ale na zahranou károvou dámu přidal Východ pětku a Západ dvojku. Pokračujete károvým klukem, od Východu přišla sedmička a od Západu desítka. Co teď?
+</p>
+<p>
+Problém se omezil jen na to, zda máte impasovat trumfovou dámu nebo hrát na vypadnutí. Když se nad tím trochu zamyslíte, uvědomíte si, že situace v trumfech už je jasná díky způsobu, jakým hrál Východ kára. Kdyby měl trumfovou dámu impasovatelnou, určitě by pokryl kárového kluka, abyste se již nemohl dostat na stůl na trumfový impas a zajistil by si tak pro sebe trumfový zdvih. Musíte proto zahrát malý trumf ke králi a doufat, že vypadne dubl dáma.
+</p>
+</example>
+<example number="3">
+<distribution vul="NONE">
+<hand position="north">
+<spades>
+84
+</spades>
+<hearts>
+64
+</hearts>
+<diamonds>
+AQ832
+</diamonds>
+<clubs>
+AT73
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+K92
+</spades>
+<hearts>
+AK7
+</hearts>
+<diamonds>
+KT64
+</diamonds>
+<clubs>
+K65
+</clubs>
+</hand>
+<auction onesided="true" dealer="S">
+<bid level="1" suit="d"/>
+<bid level="3" suit="d"/>
+<bid level="3" suit="N"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="2H"/>
+</distribution>
+<p>
+Západ vynesl srdcovou dvojku, Východ dal desítku a Vy jste vzal zdvih králem. Jak byste měl pokračovat?
+</p>
+<p>
+Snadno uděláte devět zdvihů, pokud neodevzdáte žádný kárový a kára jsou rozložena tak, že na ně můžete udělat pět zdvihů i proti rozloze 4-0 s délkou u kteréhokoliv soupeře. Musíte se pouze rozhodnout, kdo z obránců může mít kárový 4-list pravděpodobněji.
+</p>
+<p>
+Otázka již byla zodpovězena výnosem. Srdcová dvojka ukazuje, že Západ vynesl od 4-listu. Hráči obvykle mají ve zvyku vynášet proti BT závazkům ze své nejdelší a nejsilnější barvy, a proto můžete bezpečně usoudit, že Západ nemá žádný 5- či více-list. Z toho vyplývá, že jeho nejdivočejší rozloha může být 4-4-4-1.
+</p>
+<p>
+Proto tedy v tomto případě může mít károvou šikenu pouze Východ a Vy byste měl ve druhém zdvihu zahrát kárového krále, abyste se proti této možnosti pojistil.
+</p>
+</example>
+<example number="4">
+<distribution vul="NONE">
+<hand position="north">
+<spades>
+873
+</spades>
+<hearts>
+Q72
+</hearts>
+<diamonds>
+K764
+</diamonds>
+<clubs>
+T83
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KQT5
+</spades>
+<hearts>
+J6
+</hearts>
+<diamonds>
+AQJ
+</diamonds>
+<clubs>
+AKQJ
+</clubs>
+</hand>
+<auction onesided="true" dealer="S">
+<bid level="2" suit="c"/>
+<bid level="2" suit="d"/>
+<bid level="2" suit="N"/>
+<bid level="3" suit="N"/>
+<bid value="pass"/>
+</auction>
+</distribution>
+<p>
+Mnoho hráčů v určitých situacích ukazuje svými shozy rozlohu a někteří to dělají vždy. Shoz velká-malá běžně ukazuje sudý počet karet v barvě a malá-velká počet lichý. Tyto náznaky mohou vydražiteli při sehrávce značně pomoci.
+</p>
+<p>
+Západ vynesl srdcovou čtyřku, Východ přidal desítku a vy jste vzal klukem. Jak byste měl pokračovat?
+</p>
+<p>
+Pokud jsou srdce 4-4, snadno si vypracujete zdvih vyražením pikového esa. Ovšem srdce mohou být rozložena 5- v takovém případě musíte zahrát na kára 3-3. Potíž je v tom, že nemůžete tyto dva způsoby sehrávky zkombinovat a dát si tak větší šanci na splnění. Když si ve třetím kole kár převezmete figuru králem károvým a jeden ze soupeřů kára nepřizná, spadnete i při rozloze srdcí 4-4, protože jste tak obraně vypracoval pátý zdvih.
+</p>
+<p>
+Můžete ovšem získat určitou indikaci od soupeřů, když budete rozehrávat kára správně. Vynesete ve druhém zdvihu károvou dámu a podíváte se, co protivníci přiznávají. Jelikož nebudou vědět, že máte kárové eso, budou se snažit dát si navzájem informaci o správném počtu svých karet. Objeví-li se v prvním kole kárová dvojka, můžete předpokládat, že se kára rozpadnou. Po odehrání trefů budete pokračovat károvým esem, převezmete si kárového kluka králem a uděláte čtvrté káro na stole, čímž splníte závazek.
+</p>
+<p>
+Když některý z obránců začne v prvním kole kár kladný náznak, měl byste pokračovat károvým klukem ke králi a pokusit se zahráním piku ze stolu ukrást zdvih. Jako poslední šance Vám pak zbude šance na srdce 4-4.
+</p>
+</example>
+<h2>Bonusové příklady</h2>
+<example number="5">
+<distribution vul="BOTH">
+<hand position="north">
+<spades>
+J852
+</spades>
+<hearts>
+9863
+</hearts>
+<diamonds>
+JT72
+</diamonds>
+<clubs>
+5
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+KQ
+</spades>
+<hearts>
+QJT
+</hearts>
+<diamonds>
+AK6
+</diamonds>
+<clubs>
+AKJT4
+</clubs>
+</hand>
+<auction onesided="true" dealer="S">
+<bid level="2" suit="c"/>
+<bid level="2" suit="d"/>
+<bid level="2" suit="N"/>
+<bid level="3" suit="c"/>
+<bid level="3" suit="N"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="2H"/>
+</distribution>
+<p>
+Západ vynesl srdcovou dvojku a partner ostýchavě vyložil na stůl své dva kluky. Východ vzal první zdvih esem a vrátil trefovou devítku, kterou jste vzal esem. Zahrál jste srdcovou dámu, Západ vzal králem a vrátil další srdce, na které si Východ shodil pikovou desítku. Odehrál jste si trefového krále a pokračujete trefovým klukem k dámě Západu, ze stolu jste si zahodil káro a pik. Západ vrátil pikovou sedmičku k esu partnera a Východ hraje károvou trojku. Jak budete sehrávat?
+</p>
+<p>
+V tomto okamžiku máte osm zdvihů a devátý můžete získat buď károvým impasem nebo zahráním na spadnutí druhé dámy. Je to pouhá hádanka? Pouze pro ty, kteří odmítají myslet. Ať již kárová dáma spadne či nikoliv, všechno nasvědčuje tomu, že ji má Západ. Zanalyzujte si chování Východu. I když není schopen dopočtu, že už musíte mít obě vysoké kárové figury, těžko by asi za Vás hrál impas, když může bezpečně vrátit některou černou barvu.
+</p>
+<p>
+Proto byste měl zahrát kárové eso, odehrát si vysoké karty v černých barvách a pokračovat károvým králem. Máte určitě značnou šanci, že dáma spadne, když Východ považoval za dobré dát Vám možnost navíc, která by ovšem byla výhodná pro obranu.
+</p>
+</example>
+<example number="6">
+<distribution vul="BOTH">
+<hand position="north">
+<spades>
+KJ4
+</spades>
+<hearts>
+J76
+</hearts>
+<diamonds>
+AQJ6
+</diamonds>
+<clubs>
+AKQ
+</clubs>
+</hand>
+<hand position="south">
+<spades>
+AQ876
+</spades>
+<hearts>
+932
+</hearts>
+<diamonds>
+84
+</diamonds>
+<clubs>
+T52
+</clubs>
+</hand>
+<auction onesided="true" dealer="N">
+<bid level="2" suit="N"/>
+<bid level="3" suit="S"/>
+<bid level="4" suit="c"/>
+<bid level="4" suit="S"/>
+<bid value="pass"/>
+</auction>
+<leadcard value="AH"/>
+</distribution>
+<p>
+Západ vynesl srdcové eso a od jeho partnera přišel kladný náznak čtyřkou. Východ vzal další srdce dámou a odehrál si krále, na kterého si Západ shodil károvou dvojku. Východ pokračuje čtvrtým srdcem. Co si z toho vydedukujete?
+</p>
+<p>
+Dali Vám možnost shodit si z ruky ztrátové káro a snapnout na stole. Máte ji ale přijmout? Měl byste považovat chování Východu za podezřelé. Není tady od toho, aby Vám dával dárky, tím si můžete být jist. Logickým vysvětlením jeho chování je to, že si myslí, že obrana může získat zdvih již pouze v trumfech. A to by mohlo znamenat, že jsou trumfy špatně děleny. Jedna věc je jistá, Východ by Vám nikdy nezahrál do dvojité šikeny, kdyby měl kárového krále.
+</p>
+<p>
+Můžete uspět proti rozloze trumfů 4-1, jestliže se v trumfech nezablokujete. Nebezpečí spočívající ve shození káry z ruky a snapu na stole je v tom, že Západ může mít čtyři trumfy a tři kára. Když si na čtvrté srdce shodíte káro, udělá totéž. Po přebití na stole a odehrání K,J v trumfech nebudete mít vstup do ruky, kromě přebitku kárového. Ale Západu vypadne král na kárové eso a udělá ještě trumfový zdvih, čímž Vás porazí.
+</p>
+<p>
+Proto je správné snapnout čtvrté srdce v ruce. Ať již Západ přesnapne či nikoliv, budete moci zvládnout všechny rozlohy 4- splníte závazek károvým impasem.
+</p>
+</example>
+<example number="7">
+<distribution vul="BOTH">
+<hand position="north">
+<spades>
+Q85
+</spades>
+<hearts>
+A53
+</hearts>
+<diamonds>
+AQJT3
 </diamonds>
 <clubs>
 82
@@ -70,150 +326,101 @@ KJ54
 </hand>
 <hand position="south">
 <spades>
-J
+KJ4
 </spades>
 <hearts>
-A972
+KJT62
 </hearts>
 <diamonds>
-AQ83
+K97
 </diamonds>
 <clubs>
-AK75
+Q5
 </clubs>
 </hand>
-</distribution>
 <auction onesided="true" dealer="S">
-<bid level="1" suit="H" />
-<bid level="1" suit="S" />
-<bid level="2" suit="N" />
-<bid level="3" suit="H" />
-<bid level="3" suit="N" />
-<bid value="pass" />
+<bid level="1" suit="d"/>
+<bid level="1" suit="H"/>
+<bid level="2" suit="H"/>
+<bid level="4" suit="H"/>
+<bid value="pass"/>
 </auction>
-<leadcard value="3c" />
+<leadcard value="Ac"/>
+</distribution>
 <p>
-Západ vynesl trojku trefovou, Východ přidal desítku a Vy jste vzal králem. Vynesl jste pikového kluka, na kterého dal Západ šestku a Východ čtyřku. Jak byste měl pokračovat?
+Západ si odehrál A,K v trefech a odehrál pikovou devítku. Východ vzal esem a vrátil srdcovou čtyřku. Jak byste měl sehrávat?
 </p>
 <p>
-Po propuštění pikového kluka nemusí být snadné udělat druhý pikový zdvih. Potřebujete tři vstupy na stůl, dva na vypracování piků a třetí na odehrání vysoké karty v této barvě. Další možností splnění závazku je hrát na sedícího srdcového krále. Ovšem při normální rozloze kár byste si měl vypracovat tři potřebné přechody, když si převezmete osmičku klukem a dámu králem.
+Nemáte se čeho bát, kromě ztráty trumfového zdvihu a zdá se, že Východ vyřešil vaše problémy za Vás, když rozehrál trumfy. Taková ochota ale musí být vždy podezřelá. Opravdu si myslíte, že by Východ zahrál impas za Vás, kdyby Vám to mělo prospět? Určitě si uvědomuje, že obrana potřebuje k poražení závazku trumfový zdvih, tak proč nevrátil pasivně pik nebo káro a nenechal hádání v srdcích na Vás?
 </p>
 <p>
-Nesmíte však zahrát ve třetím zdvihu károvou osmičku ke klukovi a vrátit ze stolu pik, protože pak už byste se musel spoléhat na kára 3-2. Až vezmou soupeři druhý pik, vrátí tref, a když pak budou kára 4-1, nebudete moci zabránit, aby obrana neudělala pět zdvihů.
+Nejpravděpodobnější vysvětlení je, že Východ má čtyři trumfy a uvědomuje si, že má-li partner trumfovou figuru, musí být tato singl. Proto byste měl odolat pokušení a nezahrát v prvním kole desítku nebo kluka. Zahrajte malou a počkejte si, jak spadne od Západu dáma. Když se to nestane, nebudete na tom o nic hůře, než kdyby Východ bránil jiným způsobem.
 </p>
 <p>
-Pořadí zahrání se musí trochu upravit. Ve třetím zdvihu byste si měl odehrát kárové eso, a pak zahrát károvou osmičku ke klukovi. Rozdíl je v tom, že se dozvíte o kárové rozloze včas. Pokud budou kára 3-2, budete pokračovat ve svém plánu a vypracovávat si druhý pikový zdvih. Když se ukáže, že jsou kára rozložena 4-1, necháte piky pikami a vrátíte se k šanci na pikový expas.
+Obecně vzato by se vydražitel neměl dát odvést od sehrávky koncipované na největší pravděpodobnost úspěchu. Když mu obránci nabídnou další možnost, je pravděpodobné, že normální sehrávka uspěje.
 </p>
 </example>
-<example number="3">
+<example number="8">
 <distribution vul="BOTH">
 <hand position="north">
 <spades>
-A3
+7642
 </spades>
 <hearts>
-K84
+T72
 </hearts>
 <diamonds>
-98653
+QT3
 </diamonds>
 <clubs>
-QJ5
+A83
 </clubs>
 </hand>
 <hand position="south">
 <spades>
-K6
+KQ
 </spades>
 <hearts>
-AQ73
+AK9843
 </hearts>
 <diamonds>
-AJT7
+KJ5
 </diamonds>
 <clubs>
-K72
+KQ
 </clubs>
 </hand>
-</distribution>
-<auction onesided="true" dealer="S">
-<bid level="1" suit="N" />
-<bid level="3" suit="N" />
-<bid value="pass" />
+<auction dealer="E">
+<bid level="1" suit="S"/>
+<bid value="X"/>
+<bid level="2" suit="c"/>
+<bid value="pass"/>
+<bid level="2" suit="S"/>
+<bid level="3" suit="H"/>
+<bid value="pass"/>
+<bid level="4" suit="H"/>
+<bid value="pass"/>
+<bid value="pass"/>
+<bid value="pass"/>
 </auction>
-<leadcard value="QS" />
-<p>
-Západ vynesl pikovou dámu proti vašim <bid level="3" suit="NT"/>. Jak si plánujete sehrávku?
-</p>
-<p>
-Máte šest zdvihů shora a potřebujete si vypracovat ještě další tři. Hned se nabízí možnost dvojitého kárového impasu, kdy získáte devět zdvihů vždy, pokud nemá Západ K,Q v kárech. Druhou možností je vyrazit trefové eso a devátý zdvih získat díky rozpadnutí srdcí.
-</p>
-<p>
-Rozdíl pravděpodobností úspěchu u obou možností je značný. Při dvojitém károvém impasu máte naději 76% proti pouhým 36% při rozpadnutí srdcí. Ovšem nemusíte se samozřejmě rozhodnout právě v tomto okamžiku a můžete si nechat obě možnosti otevřené a prozkoumat rozlohu. Správné je vzít první zdvih pikový v ruce králem, odehrát si A,Q v srdcích a pokračovat srdcí ke králi. Tím získáte veškeré informace, které potřebujete. Když budou srdce 3-3, splníte bez obtíží po vyražení trefového esa. Když se srdce nerozpadnou, musíte zahrát dvojitý kárový impas a jste v pozici, kdy můžete rozehrát kára ze správné strany.
-</p>
-<p>
-Dodržením správného pořadí zahrání získáte celkovou šanci téměř 85%.
-</p>
-</example>
-<example number="4">
-<distribution vul="BOTH">
-<hand position="north">
-<spades>
-KQJ4
-</spades>
-<hearts>
-AK8
-</hearts>
-<diamonds>
-T5
-</diamonds>
-<clubs>
-AJT2
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-A7
-</spades>
-<hearts>
-Q764
-</hearts>
-<diamonds>
-AQ83
-</diamonds>
-<clubs>
-K95
-</clubs>
-</hand>
 </distribution>
-<auction onesided="true" dealer="S">
-<bid level="1" suit="N" />
-<bid level="2" suit="c" />
-<bid level="2" suit="H" />
-<bid level="4" suit="c" />
-<bid level="4" suit="d" />
-<bid level="6" suit="N" />
-<bid value="pass" />
-</auction>
-<leadcard value="9S" />
-
 <p>
-Západ vynesl devítku pikovou a Vy jste vzal králem na stole. Jak byste měl pokračovat?
+Vynesenou pikovou desítku vzal Východ esem a vrátil pikovou trojku. Západ snapl Vašeho krále pětkou srdcovou a vrátil trefového kluka. Jak si naplánujete tuto sehrávku?
 </p>
 <p>
-Nejprve byste měl rozehrát trefy, protože když uhodnete dámu, máte po starostech. A když trefy neuhodnete, budete mít zajištěných jedenáct zdvihů a slušnou šanci na dvanáctý v jedné z červených barev.
+Když Východ tento zdvih snapne, určitě spadnete, proto můžete na tuto možnost zapomenout. Když však nemá Západ trefovou šikenu, je něco podezřelého v zahrání pikové dvojky ve druhém zdvihu. Co může sledovat? Má-li kárové eso, což musí být podle dražby pravda, proč nevrátil vysoký pik a nenaznačil tak, že má kárový vstup pro další pikový snap partnera?
 </p>
 <p>
-Když budeme posuzovat trefy izolovaně, nejlepší způsob sehrávky je malá ke králi a pak impas. Uspějete, když bude dáma u Západu nebo když ji bude mít Východ singl. Vidíte ale, co se stane, když budete hrát tímto způsobem a impas nebude sedět? Každý obránce na místě Východu vrátí káro, ať již bude mít krále kárového nebo ne. Tím zničí vaši jednu potenciální možnost, protože Vás donutí rozhodnout se předčasně mezi károvým impasem a hrou založenou na srdcích.
+Na tuto otázku existuje pouze jediná logická odpověď. Východ má všechny zbývající trumfy, a proto se nechce dostat na kárové eso do zdvihu, protože pak by bylo vše prozrazeno, ať by již zahrál pik či ne.
 </p>
 <p>
-Tomuto dilematu se pokud možno musíte vyhnout, a proto byste měl rozehrát trefy opačně, vzdát se šance na singl dámu a impasovat k devítce. Když bude devítka držet, můžete si odehrát pikové eso, přejít na srdce na stůl a opakovat impas trefovým klukem. Když impas sedět nebude, Západ nemůže vrátit káro a Vy budete mít čas vyzkoušet si srdcovou rozlohu. Když se srdce nerozpadnou, vaší poslední možností je kárový impas.
+Proto byste měl zahrát ze stolu trefové eso ve čtvrtém zdvihu. Když nepřijde snap, zahrajte trumf a impasujte hluboko, když dá Východ malou. Zahraje-li Východ honéra, budete si moci vypracovat kárový vstup na stůl a impasovat trumfy podruhé.
 </p>
 </example>
 <literature>
-    <li>
-    <author>H.W. Kelsey</author>
-    <title>Bridžová logika</title>
-    </li>
-    </literature>
+<li>
+<author>H.W. Kelsey</author>
+<title>Bridžová logika</title>
+</li>
+</literature>
 </lesson>

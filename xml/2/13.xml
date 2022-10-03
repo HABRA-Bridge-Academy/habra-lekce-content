@@ -5,6 +5,7 @@ Dalším dražebním principem, který přijmeme, bude princip výzvy. Tento pri
 <p>
 Příklady:
 </p>
+<div class="columns" columns="5">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -198,4 +199,5 @@ A7
 <bid value="pass" />
 </auction>
 </example>
+</div>
 </lesson>

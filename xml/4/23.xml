@@ -29,13 +29,11 @@ AJ732
 J6
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="JS">
-pJ
-</leadcard>
+<leadcard value="JS"/>
+</distribution>
 <p>
 Jih zahajuje dražbu hláškou <bid level="2" suit="NT"/>, které Sever zvyšuje na <bid level="3" suit="NT"/>. I když zahájení nebylo příliš ortodoxní, má své určité výhody: závazek se hraje se silným listem v ruce a je utajena kárová délka. Západ vynáší proti <bid level="3" suit="NT"/> pikového kluka a Východ kladně markuje trojkou. Jak sehrávat?
 </p>
@@ -137,11 +135,11 @@ QT76
 AK
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
 <leadcard value="AC"/>
+</distribution>
 <p>
 Za stavu obě linky ve druhé zahájil Jih hláškou 4 srdce. Je pravda, že list je dobrý a že po tomto preventivním zahájení se dá těžko dojít do slemu, ale na druhé straně jsou soupeři postaveni před problémy. V tomto případě může být Západ v pokušení s 15 body dát kontra. Většinou nemá toto kontra smysl. Padne-li hlavní hráč jednou, přinese to zisk 100 bodů, za splnění však píše navíc 170 bodů a je-li to dokonce s nadzdvihem tak 370 bodů. Pravděpodobnost se staví proti kontrování těchto vysokých závazků.
 </p>
@@ -188,12 +186,11 @@ AKJT9
 AK4
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="KD">
-</leadcard>
+<leadcard value="KD"/>
+</distribution>
 <p>
 Jih zahajuje jedním srdcem a Sever zvyšuje na 2 srdce. Po tomto podpoření barvy draží Jih skokem na 4 srdce. Jak má plánovat sehrávku po výnosu károvým králem?
 </p>
@@ -267,13 +264,10 @@ AKJT982
 94
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="d" declarer="S"/>
+    <contract level="6" suit="d" declarer="S"/>
 </deal-contract>
-<leadcard value="8c">
-t8
-</leadcard>
+<leadcard value="8c"/>
 <auction onesided="true" dealer="S">
 <bid level="2" suit="d" />
 <bid level="2" suit="H" />
@@ -284,6 +278,7 @@ t8
 <bid level="6" suit="d" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Západ vynáší trefovou osmičku. Jak má Jih sehrávat?
 </p>
@@ -363,13 +358,11 @@ AJT974
 A5
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="H" declarer="S"/>
+    <contract level="6" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Jc">
-tJ
-</leadcard>
+<leadcard value="Jc"/>
+</distribution>
 <p>
 V tomto rozdání nespočívá problém ani tak v tom kdy vzít, ale kde vzít. V párovém turnaji byl z jedenácti případů dvakrát vydražen malý slem v srdcích, ale ani jednou nebyl splněn. Jak má Jih hrát po výnosu trefovým klukem.
 </p>
@@ -446,13 +439,10 @@ QT94
 8652
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="9S">
-p9
-</leadcard>
+<leadcard value="9S"/>
 <auction onesided="true" dealer="N">
 <bid level="2" suit="c" />
 <bid level="2" suit="d" />
@@ -461,6 +451,7 @@ p9
 <bid level="3" suit="N" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Dražba jistě nebyla nejlepší, protože Sever měl se svými impasovými pozicemi dražit na 2 kára <bid level="2" suit="NT"/>, aby beztrumfový závazek byl hrán z jeho strany, ale už se stalo. Jak má <bid level="3" suit="NT"/> sehrávat Jih po výnosu pikovou devítkou?
 </p>
@@ -534,13 +525,10 @@ A53
 KQT93
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="4H">
-s4
-</leadcard>
+<leadcard value="4H"/>
 <auction onesided="true" dealer="S">
 <bid value="pass" />
 <bid level="1" suit="S" />
@@ -550,6 +538,7 @@ s4
 <bid level="3" suit="N" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Opět nepříliš přesná dražby, protože Jih by měl místo <bid level="2" suit="NT"/> dražit 2 srdce (dotaz po zádrži – Čtvrtá barva) a beztrumfový závazek by hrál Sever z výhodnější strany. Jak má Jih sehrávat závazek po výnosu srdcovou čtyřkou, když desítku stolu kryje Východ králem?
 </p>

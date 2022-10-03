@@ -1,460 +1,571 @@
-<lesson year="6" title="Jednoduchý skvíz – Ztrátové zdvihy" number="2" video-id="X7-3ef1iUPo">
-<p>
-Novou lekci začněme dvěma rozdáními, při nichž jsou skvízové možnosti na první pohled patrné, uvidíme, jestli se lepší vaše „skvízové oko“.
+<lesson year="6" title="Transfer po zahájení 1♣ - Odpovědi 1♦/♥, 2♦/♥" number="2" video-id="X7-3ef1iUPo">
+<p> Odpovědi 1<diamond/>/<heart/> budou daleko nejčastější a je třeba je zvládnout suverénně. Odpovědi 2<diamond/>/<heart/> moc nepřijdou, ale i tyto varianty je třeba samozřejmě znát.</p>
+<bidding>
+<header>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="d"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action>
+<bid level="1" suit="H"/>
+</action>
+<explanation>2-3 srdce, do 17b., nejčastěji 12-14</explanation>
+</entry>
+<entry>
+<action>
+<bid level="1" suit="S"/>
+</action>
+<explanation>4-list <spade/>, bez 4-listu <heart/>, do 17 b.</explanation>
+</entry>
+<entry>
+<action>
+<bid level="1" suit="N"/>
+</action>
+<explanation>18-20, vyvážená bez 4-listu <heart/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="c"/>
+</action>
+<explanation>nat., do 17 b., indikuje srdcový misfit, bez 4-listu <spade/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="d"/>
+</action>
+<explanation>18-20 jednobarevné trefy nebo silný <club/>-<diamond/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="H"/>
+</action>
+<explanation>fit, do 14b.</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="S"/>
+</action>
+<explanation>18-20, nevyvážená, 4-list <spade/>, bez 4-listu <heart/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="N"/>
+</action>
+<explanation>15+, srdcový fit + dobré trefy, rozlohová výzva</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="c"/>
+</action>
+<explanation>15-17, pěkná <club/> barva, velká preference pro <club/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="d"/>
+</action>
+<explanation>18-20, kárová krátkost – 4414 nebo 4405 nebo 3415, vždy fit srdcový</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="H"/>
+</action>
+<explanation>18-20, vyvážená, fit srdcový</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="H"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action>
+<bid level="1" suit="S"/>
+</action>
+<explanation>2-3 piky, do 17b., nejčastěji 12-14</explanation>
+</entry>
+<entry>
+<action>
+<bid level="1" suit="N"/>
+</action>
+<explanation>18-20, vyvážená bez 4-listu <spade/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="c"/>
+</action>
+<explanation>nat., do 17 b., indikuje pikový misfit</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="d"/>
+</action>
+<explanation>18-20 jednobarevné trefy nebo silný <club/>-<diamond/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="H"/>
+</action>
+<explanation>18-20, nevyvážená, 4-list <heart/>, bez 4-listu <spade/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="S"/>
+</action>
+<explanation>fit, do 14b.</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="N"/>
+</action>
+<explanation>15+, pikový fit + dobré trefy, rozlohová výzva</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="c"/>
+</action>
+<explanation>15-17, pěkná <club/> barva, velká preference pro <club/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="d"/>
+</action>
+<explanation>18-20, kárová krátkost – 4414 nebo 4405 nebo 4315, vždy fit pikový</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="H"/>
+</action>
+<explanation>18-20, srdcová krátkost – 4144 nebo 4045 nebo 4135, vždy fit pikový</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="S"/>
+</action>
+<explanation>18-20, vyvážená, fit pikový</explanation>
+</entry>
+</bidding>
+<div class="print-columns" columns="2">
+<bidding>
+<header>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="d"/>
+<bid level="1" suit="H"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action>
+<bid level="1" suit="S"/>
+</action>
+<explanation>4-list bez fitu</explanation>
+</entry>
+<entry>
+<action>
+<bid level="1" suit="N"/>
+</action>
+<explanation>6-10, bez fitu a 4-listu pik</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suits="cd"/>
+</action>
+<explanation>XYZ</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="H"/>
+</action>
+<explanation>do pasu</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="S"/>
+</action>
+<explanation>fit, do 14b.</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="N"/>
+</action>
+<explanation>příprava stopu v <club/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suits="cd"/>
+</action>
+<explanation>rozlohové invity, 5-5+	</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="d"/>
+<bid level="1" suit="N"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action>
+<bid level="2" suit="c"/>
+</action>
+<explanation>
+<p>GF, Stayman
 </p>
-<example number="1">
-<distribution>
-<hand position="north">
-<spades>
-65
-</spades>
-<hearts>
-AK42
-</hearts>
-<diamonds>
-AJ83
-</diamonds>
-<clubs>
-J65
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-AT3
-</spades>
-<hearts>
-Q8
-</hearts>
-<diamonds>
-KQ742
-</diamonds>
-<clubs>
-AKQ
-</clubs>
-</hand>
-<hand position="east">
-<spades>
-KQJ42
-</spades>
-<hearts>
-T9653
-</hearts>
-<diamonds>
-9
-</diamonds>
-<clubs>
-T9
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-987
-</spades>
-<hearts>
-J7
-</hearts>
-<diamonds>
-T65
-</diamonds>
-<clubs>
-87432
-</clubs>
-</hand>
-</distribution>
-<auction onesided="true" dealer="N">
-<bid level="1" suit="H" />
-<bid level="2" suit="d" />
-<bid level="3" suit="d" />
-<bid level="4" suit="N" />
-<bid level="5" suit="H" />
-<bid level="5" suit="N" />
-<bid level="6" suit="d" />
-<bid level="7" suit="N" />
-<bid value="pass" />
-</auction>
-<leadcard value="8S">
-p8
-</leadcard>
-<p>
-Do prvního zdvihu přikládá Východ pikového kluka. Máte o zdvih méně (jeden pikový, tři srdcové, pět kárových a tři trefové) a jediná šance je skvíz. Východ má podle výnosu zřejmě <card value="KS"/>, <card value="QS"/> a jestli má také alespoň čtyři srdce, bude ve skvízu. Nadějky jsou <card value="TS"/> a <card value="4H"/>. Předpokládejme tedy, že Východ čtyři srdce má a zkontrolujme podmínky: JE – máme jen jednu ztrátovou kartu, ČI – ve dvou barvách bude činný Východ, VÝ – jedna nadějka (<card value="TS"/>) je ve vyšší ruce a máme VSTUP k srdcové nadějce. Tedy musíme jen stáhnout winéry ve volných barvách. Obehraji kára (zahodím pik) a trefy, poslední tref je skvízovou kartou.
+<bidding>
+<entry>
+<action>
+<bid level="2" suit="H"/>
+</action>
+<explanation>3-list <heart/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="S"/>
+</action>
+<explanation>4-list <spade/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="N"/>
+</action>
+<explanation>3244</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suits="cd"/>
+</action>
+<explanation>5-list + dubl <heart/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="H"/>
+</action>
+<explanation>4-list (4333)</explanation>
+</entry>
+</bidding>
+</explanation>
+</entry>
+</bidding>
+</div>
+<div class="print-columns" columns="2">
+<bidding>
+<header>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="H"/>
+<bid level="1" suit="S"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action>
+<bid level="1" suit="N"/>
+</action>
+<explanation>6-10, bez fitu</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suits="cd"/>
+</action>
+<explanation>XYZ</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="S"/>
+</action>
+<explanation>do pasu</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="N"/>
+</action>
+<explanation>příprava stopu v <club/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suits="cd"/>
+</action>
+<explanation>rozlohové invity, 5-5+	</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="d"/>
+<bid level="1" suit="N"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action>
+<bid level="2" suit="c"/>
+</action>
+<explanation>
+<p>GF, Stayman
 </p>
+<bidding>
+<entry>
+<action>
+<bid level="2" suit="H"/>
+</action>
+<explanation>4-list <heart/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="S"/>
+</action>
+<explanation>3-list <spade/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="N"/>
+</action>
+<explanation>2344</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suits="cd"/>
+</action>
+<explanation>5-list + dubl <spade/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="H"/>
+</action>
+<explanation>4-list (4333)</explanation>
+</entry>
+</bidding>
+</explanation>
+</entry>
+</bidding>
+</div>
+<bidding>
+<header>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="1" suit="d"/>
+<bid level="2" suit="N"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action>
+<bid level="3" suit="c"/>
+</action>
+<explanation>min, jen 4-list  (3<club/> může jít do pasu)</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="d"/>
+</action>
+<explanation>5+list <heart/>, retransfer, není GF (bez rezervy přijme a lze zapasovat)</explanation>
+</entry>
+</bidding>
+<div class="print-columns" columns="2">
+<bidding>
+<header>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="d"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action>
+<bid level="2" suit="H"/>
+</action>
+<explanation>naturální bez 3+listu, 11-14 vyvážená nebo s <club/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="H"/>
+</action>
+<explanation>3-4-listý fit, 11-14 vyvážená nebo s <club/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="4" suit="H"/>
+</action>
+<explanation>se šancí na splnění</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="S"/>
+</action>
+<explanation>naturální revers, <club/>-<spade/>, 5+-4, 15+</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="N"/>
+</action>
+<explanation>
+<p>18-20 F</p>
+<bidding>
+<entry>
+<action>
+<bid level="3" suit="c"/>
+</action>
+<explanation>4-5
+</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="d"/>
+</action>
+<explanation>retransfer, 6-7 nebo 12+	</explanation>
+</entry>
+</bidding>
+</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="c"/>
+</action>
+<explanation>slabý s <club/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="d"/>
+</action>
+<explanation>
 <p>
-Pokusíte si před začátkem hry představit, proč nebo jak nebo kdy bude skvíz fungovat? Ne. Když vhodíte minci do parkovacího automatu a ručička se pohne, budete se starat, co se děje uvnitř? Nebo si budete pokoušet představovat, jak budou vypadat listy po osmém, devátém nebo desátém zdvihu? Ne – bylo by to mrháním času. Budete v průběhu hry sledovat srdcové odhozy? Ne – je to úplně nezajímavé. Díváte se jedině po pikové dámě a králi. Pokud obě tyto karty nevypadnou, zkusíte srdce, bez ohledu na to, jestli to vyjde nebo ne.
+silný s fitem, slemové šance
 </p>
-</example>
-<example number="2">
+<bidding>
+<entry>
+<action>
+<bid level="3" suit="H"/>
+</action>
+<explanation>min</explanation>
+</entry>
+<entry>
+<action>
+barva
+</action>
+<explanation>krátkost</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="N"/>
+</action>
+<explanation>dobrá srdce – 2 topfigury</explanation>
+</entry>
+<entry>
+<action>
+<bid level="4" suit="d"/>
+</action>
+<explanation>retransfer</explanation>
+</entry>
+</bidding>
+</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>
+<sequence>
+<bid level="1" suit="c"/>
+<bid level="2" suit="H"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action>
+<bid level="2" suit="S"/>
+</action>
+<explanation>naturální bez 3+listu, 11-14 vyvážená nebo s <club/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="S"/>
+</action>
+<explanation>3-4-listý fit, 11-14 vyvážená nebo s <club/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="4" suit="S"/>
+</action>
+<explanation>se šancí na splnění</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="H"/>
+</action>
+<explanation>naturální revers, <club/>-<heart/>, 5+-4, 15+</explanation>
+</entry>
+<entry>
+<action>
+<bid level="2" suit="N"/>
+</action>
+<explanation>
+<p>18-20 F</p>
+<bidding>
+<entry>
+<action>
+<bid level="3" suit="c"/>
+</action>
+<explanation>4-5
+</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="H"/>
+</action>
+<explanation>retransfer, 6-7 nebo 12+</explanation>
+</entry>
+</bidding>
+</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="c"/>
+</action>
+<explanation>slabý s <club/></explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="d"/>
+</action>
+<explanation>
 <p>
-V tomto příkladu můžeme hrát na rozpadnutí jedné z drahých barev a jako přídavná šance je skvíz. Důležité bude, jako u skvízu vždycky, časování.
+silný s fitem, slemové šance
 </p>
-<distribution>
-<hand position="north">
-<spades>
-AKQ5
-</spades>
-<hearts>
-432
-</hearts>
-<diamonds>
-JT9
-</diamonds>
-<clubs>
-AKQ
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-432
-</spades>
-<hearts>
-AKQ5
-</hearts>
-<diamonds>
-AKQ
-</diamonds>
-<clubs>
-JT9
-</clubs>
-</hand>
-<hand position="east">
-<spades>
-76
-</spades>
-<hearts>
-76
-</hearts>
-<diamonds>
-8765
-</diamonds>
-<clubs>
-87654
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-JT98
-</spades>
-<hearts>
-JT98
-</hearts>
-<diamonds>
-432
-</diamonds>
-<clubs>
-32
-</clubs>
-</hand>
-</distribution>
-<deal-contract>
-<contract level="7" suit="NT" declarer="S"/>
-</deal-contract>
-<leadcard value="JH">
-sJ
-</leadcard>
-<p>
-Dvanáct jistých zdvihů (ve všech barvách po třech). Jestliže se podělí jedna z drahých barev je to v suchu. Špatné by ale bylo vyzkoušet nejdříve jednu a pak druhou barvu. Přídavnou šancí je skvíz, nadějky jsou p5 a s5. Pokud chci hrát na skvíz, musím nejdříve obehrát zdvihy v levných barvách a dívat se, jestli někdo z obránců (ten, který by měl případně oba 4-listy, jež by tak nemohl udržet), neodhodí nějakou drahou. Neztrácíme tak šanci vyzkoušet dělení obou barev, jen si přidáváme šanci navíc.
-</p>
-<p>
-Ještě si zkontrolujeme podmínky: JE – máme jen jednu ztrátovou kartu (dvanáct zdvihů shora a jeden ztrátový), ČI – ve dvou barvách může být být činný Východ i Západ, protože nadějky mám rozdělené, proto platí VÝ – jedna z nadějek je vždy ve vyšší ruce a VSTUP k oběma barvám máme v jejich nadějkových barvách.
-</p>
-<p>
-Podmínky platí a skvíz by měl fungovat, hraji tedy nejdřív trefy (nebo kára), pak obehraji druhou levnou barvu (free barvy) a pak tu drahou barvu, v níž obránci odhodili, pokud se tak stalo. Kdyby tomu tak nebylo, doufal bych v příznivé dělení alespoň jedné drahé barvy.
-</p>
-<p>
-V naší první lekci jsme kromě čtyř podmínek skvízu (JEČIVÝ VSTUP) definovali také tři různé podmínky vstupu. Není nutné se tímto tématem pro praktické zvládnutí problematiky zabývat nějak hlouběji u stolu, ale abychom se trochu pocvičili, podívejme se na tu nejčastější – první podmínku vstupu – a zkontrolujme, jak to s ní bylo v dosavadních příkladech. Nejdříve si ji připomeňme: protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě.
-</p>
-<p>
-A teď se podívejme na Příklad 1 z dnešní lekce. Vzali jsme eso pikové a stáhli osm karet v levných barvách. Desátý zdvih je skvízový, skvízová karta je ve vaší ruce (poslední karta levné barvy). Protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě a tou jsou srdce. První podmínka vstupu je splněna.
-</p>
-<p>
-Příklad 2. Vezmu srdci a hraji šest karet v levných barvách. Skvízový zdvih bude tedy sedmý. Pokud hraji nejdříve kára a pak trefy, skvízová karta bude poslední tref na stole a protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě a tou jsou srdce. Když sehraji levné barvy naopak, nejdříve trefy a pak kára, skvízová karta bude poslední káro v ruce a protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě a tou jsou piky.
-</p>
-<p>
-Když nám to tak pěkně jde, podívejme se ještě i do rozdání z minulé lekce. V Příkladu 1 je skvízový zdvih devátý a skvízovou kartou je poslední pik na stole. Protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě a tou jsou srdce.
-</p>
-<p>
-A ještě Příklad 2. Ten byl na časování zatím asi nejtěžší. Druhé vysoké káro jsem si musel odehrát před trumfy, existovala by z toho sice cesta ven, kdybych to neudělal, ale byla by zbytečně komplikovaná a musel bych správně sehrát pořadí kár. Pokud po vytrumfování nejdříve vezmu druhé káro a pak budu hrát piky jako zkušený skvízér, bude skvízový zdvih desátý a skvízovou kartou poslední trumf v ruce. Protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě a tou jsou trefy. V tomto případě máme obě nadějky v jedné ruce, což nás při sehrávce omezuje, protože ve skvízu tak může být pouze ten, který odhazuje před námi. To je smysl podmínky VÝ o vyšší ruce. V našem případě nám to vyhovuje, protože srdcovou desítku máme lokalizovánu u Západu, kdyby však byla na Východě, skvíz by nefungoval kvůli podmínce VÝ.
-</p>
-<p>
-Podívejme se v krátkosti ještě na jeden problém. Když Sever drží obě nadějky, musí Západ držet obě zádrže, protože pro Východ by nebylo splněno VÝ. V tom případě, kdy je skvízová pozice vytvořena, Sever nebude mít nečinné karty a bude muset odhodit jednu ze svých nadějek na skvízovou kartu (dnešní Příklad 1).
-</p>
-<p>
-To nám ukazuje jeden důležitý okamžik hry. Nejsmutnější výsledek skvízového rozdání, kdy skvíz funguje a vy máte winéry v obou barvách, je, že když skvízovou barvu stahujete, nemůžete vždy přesně říci, které barvy se Západ vzdal a můžete se vzdát špatné nadějky. Pro odstranění jakékoliv dvojsmyslnosti – tj. nejistoty, co se to jen stalo, dodržujte toto pravidlo:
-</p>
-<p>
-Jestliže jsou obě nadějky v jedné ruce a vám zůstaly winéry v obou skvízových barvách, stáhněte všechny winéry v jedné barvě, pokud je to možné, před skvízovým zdvihem.
-</p>
-</example>
-<example number="3">
-<distribution>
-<hand position="north">
-<spades>
-KQJ743
-</spades>
-<hearts>
-A5
-</hearts>
-<diamonds>
-A42
-</diamonds>
-<clubs>
-K4
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-A6
-</spades>
-<hearts>
-K6
-</hearts>
-<diamonds>
-QT986
-</diamonds>
-<clubs>
-AQ83
-</clubs>
-</hand>
-<hand position="east">
-<spades>
-T82
-</spades>
-<hearts>
-8743
-</hearts>
-<diamonds>
-K7
-</diamonds>
-<clubs>
-JT97
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-95
-</spades>
-<hearts>
-QJT92
-</hearts>
-<diamonds>
-J53
-</diamonds>
-<clubs>
-652
-</clubs>
-</hand>
-</distribution>
-<auction onesided="true" dealer="N">
-<bid level="1" suit="S" />
-<bid level="2" suit="d" />
-<bid level="3" suit="S" />
-<bid level="4" suit="N" />
-<bid level="5" suit="H" />
-<bid level="5" suit="N" />
-<bid level="6" suit="H" />
-<bid level="7" suit="N" />
-</auction>
-<leadcard value="QH">
-sQ
-</leadcard>
-<p>
-Vezmete první srdce a trojím trumfnutím vytrumfujete, Západ shodil srdcového kluka. Počítáte si zdvihy – šest pikových, dva srdcové, jeden kárový a tři trefové. Chybějící zdvih byste mohli udělat na trefo-kárový skvíz. Pokud jeden z obránců drží kárového krále a minimálně 4-list trefový, bude v neudržitelném tlaku. Nadějky jsou kQ a t8. Všimněte si, že jsou v jedné ruce. Znamená to tedy, že aby platila podmínka VÝ, bude muset být obětí Východ. Podmínka JE je splněna, pokud má kárového krále a dlouhé trefy Východ (o Západu už nepřemýšlíme, víme, že by na něj skvíz nefungoval) a pak existuje i ČI a VSTUPem je vysoký tref.
-</p>
-<p>
-Když stáhnete všechny winéry ve volných barvách, odhod Jihu na skvízovou kartu se nemůže s určitostí určit. Když ale místo toho někdy v době stahování winérů stáhnete i kárové eso (viz pravidlo), odstraní se tím všechna neurčitost. Budete pak dávat pozor jen na kárového krále. Pokud nespadne, musí táhnout trefy.
-</p>
-<p>
-Podíváme se ze studijních důvodů, jak je to s podmínkou vstupu. U stolu tento problém řešit nemusíme. Skvízovou zdvihem bude desátý zdvih, pravděpodobně poslední trumf (mohlo y to být i sA), skvízová karta je tedy na stole a protilehlý list ke skvízové kartě drží nadějku spojenou se vstupem v téže barvě a tou jsou trefy.
-</p>
-<p>
-Mnohá rozdání poskytují dvě nebo dokonce více skvízových možností. Tady by se uplatnil skvíz s nadějkami k4 a t8, když bude mít Západ čtyři trefy a čtyři kára – zkuste si to zahrát s kK a t9 u Západu místo s9 a s2. Ovšem tato možnost skvízu je kontraindikována odhozem Západu. Ukázal už dva piky a naznačuje minimálně čtyři srdce, nemohl mu tedy zbýt prostor na osm levných karet.
-</p>
-<p>
-Pozastavme se teď u podmínky JE. Prozatím vždy byla automaticky splněna. S touto podmínkou ale můžeme mít i více práce. Podívejme se na toto rozdání.
-</p>
-</example>
-<example number="4">
-<distribution>
-<hand position="north">
-<spades>
-A3
-</spades>
-<hearts>
-A8
-</hearts>
-<diamonds>
-AKQJ87
-</diamonds>
-<clubs>
-AK7
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-J542
-</spades>
-<hearts>
-54
-</hearts>
-<diamonds>
-542
-</diamonds>
-<clubs>
-Q843
-</clubs>
-</hand>
-<hand position="east">
-<spades>
-KQ7
-</spades>
-<hearts>
-KJT
-</hearts>
-<diamonds>
-963
-</diamonds>
-<clubs>
-JT92
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-T986
-</spades>
-<hearts>
-Q97632
-</hearts>
-<diamonds>
-T
-</diamonds>
-<clubs>
-65
-</clubs>
-</hand>
-</distribution>
-<auction dealer="E">
-<bid value="pass" />
-<bid value="pass" />
-<bid value="pass" />
-<bid level="2" suit="d" />
-<bid value="pass" />
-<bid level="2" suit="N" />
-<bid value="pass" />
-<bid level="3" suit="c" />
-<bid value="pass" />
-<bid level="4" suit="c" />
-<bid value="pass" />
-<bid level="6" suit="N" />
-<bid value="X" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="pass" />
-</auction>
-<leadcard value="TS">
-p10
-</leadcard>
-<p>
-Výnos indikuje krále i dámu u Východu. Pokud se trefy nedělí, je velká šance, že Východ má tuto barvu ve 4-listu společně s K,Q v pikách. Jestliže ano, potom existuje JEČIVÝ VSTUP s problémem, že máme dva ztrátové zdvihy. Mohli bychom stáhnout jedenáct zdvihů a zbyly by nám v ruce dva k odevzdání. Tento nedostatek řeší tzv. upravení počtu ztrátových karet. Musíme propustit soupeřům tolik karet, aby podmínka JE platila, což je u nás právě jeden. Tato akce by měla být vykonána co nejdříve a nám se naskýtá šance hned při prvním zdvihu, proto ho propustíme. Zmocní se ho na dámu Východ a vyrazí nám malým pikem eso. My ho nakrmíme sedmi červenými kartami a dáváme pozor na pikového krále.
-</p>
-<p>
-Tento list přináší další poznatek, ze kterého vyplývá, že znalost skvízu se cení. Východ tím, že není skvízer, kontruje, aniž by se na chvíli zamyslel nad tím, co bude odhazovat na velké množství kár, které určitě soupeřící linka vlastní. Ve skutečnosti je jeho kontra nejhorší ze všech polodětských bojových prostředků. A přece se s takovým kontrem setkáme i na mistrovství republiky, ovšem jen velmi zřídka od schopných skvízových hráčů.
-</p>
-<p>
-Vraťme se ale k naší podmínce JE a pokusme se vyslovit nějaký závěr. Předpokládejme, že při prověřování JEČIVÝho VSTUPU zjistíme, že je JE špatně – máme víc ztrátových zdvihů než jeden. V takovém případě musíme upravit počet odevzdáním tolika zdvihů, kolik je potřeba. S dvěma ztrátovými zdvihy propustíme jednou, se třemi dvakrát atd. Při využívání tohoto manévru se hlavní hráč snaží odevzdat požadované ztrátové zdvihy při první příležitosti.
-</p>
-<p>
-Samozřejmě musí být toto pravidlo aplikováno opatrně, protože se často stává, že určité věci musí být provedeny dříve, než se budeme moci bezpečně zbavit určitých ztrátových karet. Ale soustřeďte se na zbavení se přebytečných ztrátových karet okamžitě, jakmile to můžete udělat.
-</p>
-<p>
-Upravování počtu ztrátových karet patří k nejčastějším skvízovým akcím, a proto ještě jeden příklad.
-</p>
-</example>
-<example number="5">
-<distribution>
-<hand position="north">
-<spades>
-AK42
-</spades>
-<hearts>
-75
-</hearts>
-<diamonds>
-K742
-</diamonds>
-<clubs>
-763
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-865
-</spades>
-<hearts>
-AKQJ64
-</hearts>
-<diamonds>
--
-</diamonds>
-<clubs>
-A842
-</clubs>
-</hand>
-<hand position="east">
-<spades>
-7
-</spades>
-<hearts>
-9
-</hearts>
-<diamonds>
-J9653
-</diamonds>
-<clubs>
-KQJT95
-</clubs>
-</hand>
-<hand position="west">
-<spades>
-QJT93
-</spades>
-<hearts>
-T832
-</hearts>
-<diamonds>
-AQT8
-</diamonds>
-<clubs>
--
-</clubs>
-</hand>
-</distribution>
-<auction dealer="S">
-<bid level="1" suit="H" />
-<bid level="1" suit="S" />
-<bid value="X" />
-<bid level="2" suit="c" />
-<bid level="4" suit="H" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="pass" />
-</auction>
-<leadcard value="QS">
-pQ
-</leadcard>
-<p>
-Mám devět zdvihů, na svou dražbu by měl mít Západ alespoň 5-list pikový a zřejmě i kárové eso. Jestli to bude pravda, bude ve skvízu, vašimi nadějkami jsou p4 a kK, ČI platí pro Západ, pak i VÝ platí proti Západu a vstupem jsou vysoké piky (takto nevadí, že nemám ke káru vstup). Král v prvním zdvihu naštěstí bere zdvih, na první trumfový zdvih oba přiznali, na druhý odhazuje Východ trefového krále. Hodně se zvětšila naděje, že Západ má kárové eso, když nemá vysoké trefy. Máme ale čtyři ztrátové karty a JE neplatí. Tedy odtrumfujeme (shazujeme kára), položíme trefové eso a pokračujeme dalším trefem.
-</p>
-<p>
-Východ je bezmocný. Když stáhne své tři trefy (upraví vám tak počet zdvihů), snapnete čtvrtý a poslední trumf bude skvízovou kartou. Jestliže se Východ pokusí uniknout a vynese místo trefu káro, zahodíte tref a kárový král musí později vzít zdvih.
-</p>
-</example>
-<literature>
-    <li>
-    <author>C.E.Love</author>
-    <title>Všechno o skvízech</title>
-    </li>
-    <li>
-    <author>J.Hájek</author>
-    <title>Nauč se skvízovat</title>
-    </li>
-    </literature>
+<bidding>
+<entry>
+<action>
+<bid level="3" suit="S"/>
+</action>
+<explanation>min</explanation>
+</entry>
+<entry>
+<action>
+barva
+</action>
+<explanation>krátkost</explanation>
+</entry>
+<entry>
+<action>
+<bid level="3" suit="N"/>
+</action>
+<explanation>dobré piky – 2 topfigury</explanation>
+</entry>
+<entry>
+<action>
+<bid level="4" suit="H"/>
+</action>
+<explanation>retransfer</explanation>
+</entry>
+</bidding>
+</explanation>
+</entry>
+</bidding>
+</div>
 </lesson>

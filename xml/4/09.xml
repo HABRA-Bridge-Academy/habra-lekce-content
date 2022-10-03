@@ -29,13 +29,11 @@ AK
 AKQJT9
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="5" suit="c" declarer="S"/>
+    <contract level="5" suit="c" declarer="S"/>
 </deal-contract>
-<leadcard value="JH">
-sJ
-</leadcard>
+<leadcard value="JH"/>
+</distribution>
 <p>
 Po zahájení Jihu konvenční hláškou dva trefy dražil sice Sever posléze <bid level="3" suit="NT"/>, ale Jihu se to moc nelíbilo jako stoplicit. Použil Blackwooda <bid level="4" suit="NT"/>, ale odpověď pět trefů (Sever mezitím už jedno eso oznámil) pasoval. Západ vynesl srdcového kluka, na kterého dal Východ krále. Jak má Jih pokračovat?
 </p>
@@ -106,13 +104,11 @@ K763
 K
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="JH">
-sJ
-</leadcard>
+<leadcard value="JH"/>
+</distribution>
 <p>
 Jak má Jih sehrávat závazek čtyři piky po výnosu srdcovým klukem?
 </p>
@@ -189,13 +185,11 @@ A
 3
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="S" declarer="S"/>
+    <contract level="6" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Qc">
-tQ
-</leadcard>
+<leadcard value="Qc"/>
+</distribution>
 <p>
 Jak má Jih sehrávat závazek šest piků, proti němuž vynáší Západ trefovou dámu?
 </p>
@@ -275,13 +269,11 @@ K3
 AJT83
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="QS">
-pQ
-</leadcard>
+<leadcard value="QS"/>
+</distribution>
 <p>
 Život je krátký a čas ubíhá velmi rychle. Často si přejete udělat naráz dvě věci. Když se tedy naskytne příležitost, je třeba ji nepromarnit. Jih sehrává tři bez trumfů a Západ vynáší pikovou dámu. Jaký plán si má udělat Jih pro splnění závazku?
 </p>
@@ -364,13 +356,11 @@ JT643
 94
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="5H">
-s5
-</leadcard>
+<leadcard value="5H"/>
+</distribution>
 <p>
 Západ vynáší srdcovou pětku proti závazku tři bez trumfů. Jak má Jih plánovat sehrávku, když získal zdvih klukem srdcovým na stole?
 </p>
@@ -492,13 +482,11 @@ Q4
 T5
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="5d">
-k5
-</leadcard>
+<leadcard value="5d"/>
+</distribution>
 <p>
 Po zahájení Jihu hláškou dva piky sehrává tento závazek čtyři piky, i když se zdá, že tři bez trumfů by byl lepší závazek, pokud jsou trefy u obránců děleny 4-3.
 </p>

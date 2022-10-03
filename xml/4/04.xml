@@ -29,13 +29,13 @@ AQT2
 5
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
 <leadcard value="Kc">
-tK, tA
+    tK, tA
 </leadcard>
+</distribution>
 <p>
 Jih sehrává závazek čtyři srdce. Západ vynáší trefového krále a pokračuje esem. Jak má hlavní hráč sehrávat, aby splnil závazek?
 </p>
@@ -109,13 +109,13 @@ A7
 97
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
 <leadcard value="Ac">
 tA, tK, tQ
 </leadcard>
+</distribution>
 <p>
 Jih sehrává závazek 4 srdce poté, co Západ zahájil dražbu jedním trefem. Západ odehrává eso a krále a pokračuje dámou trefovou. Jak má Jih závazek sehrávat?
 </p>
@@ -192,13 +192,11 @@ Q2
 T842
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="S" declarer="S"/>
+    <contract level="6" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-tK
-</leadcard>
+<leadcard value="Kc"/>
+</distribution>
 <p>
 Západ vynáší proti závazku Jihu šest piků trefového krále. Jak má Jih závazek sehrávat?
 </p>
@@ -272,13 +270,11 @@ AK4
 K54
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="QH">
-sQ
-</leadcard>
+<leadcard value="QH"/>
+</distribution>
 <p>
 Nejlepší závazek pro linku N-S je jistě celoherní závazek tři bez trumfů, ale mnoho párů skončilo ve čtyřech pikách. Obvykle při sehrávání tohoto závazku přišel výnos srdcovou dámou. Jak má Jih pokračovat po vzetí tohoto zdvihu v ruce?
 </p>
@@ -358,13 +354,11 @@ A
 AQ9876
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="c" declarer="S"/>
+    <contract level="6" suit="c" declarer="S"/>
 </deal-contract>
-<leadcard value="Kd">
-kK
-</leadcard>
+<leadcard value="Kd"/>
+</distribution>
 <p>
 Po zahájení jedním trefem Jih nakonec sehrává malý slem v této barvě. Západ vynáší proti tomuto závazku krále kárového. Jak má Jih sehrávku plánovat?
 </p>
@@ -438,13 +432,13 @@ K872
 AQ
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
 <leadcard value="KS">
-pK, pA, pJ
+    pK, pA, pJ
 </leadcard>
+</distribution>
 <p>
 Jih sehrává závazek čtyři srdce. Západ, který dražil piky, vynáší krále a eso, a když vypadává dáma hlavního hráče, pokračuje klukem. I když je tento vysoký, Východ přebíjí srdcovým klukem. Jak má Jih pokračovat?
 </p>
@@ -535,13 +529,13 @@ QT98
 J
 </clubs>
 </hand>
-</distribution>
 <leadcard value="Kc">
-tK, tA
+    tK, tA
 </leadcard>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
+</distribution>
 <p>
 Jih sehrává závazek čtyři piky a Západ proti němu vynáší trefového krále a pokračuje esem. Jak má Jih plánovat sehrávku?
 </p>

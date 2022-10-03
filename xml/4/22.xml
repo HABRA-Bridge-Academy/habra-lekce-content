@@ -33,9 +33,7 @@ A64
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="5S">
-p5
-</leadcard>
+<leadcard value="5S"/>
 <p>
 Jih sehrává závazek <bid level="3" suit="NT"/>. Západ vynáší pikovou pětku, Východ kryje esem a vynáší pikovou desítku. Jak má Jih závazek sehrávat?
 </p>
@@ -144,9 +142,7 @@ K8
 <deal-contract>
 <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="3S">
-p3
-</leadcard>
+<leadcard value="3S"/>
 <auction dealer="S">
 <bid level="1" suit="H" />
 <bid value="pass" />
@@ -238,9 +234,7 @@ AJT
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="6S">
-p6
-</leadcard>
+<leadcard value="6S"/>
 <auction onesided="true" dealer="S">
 <bid level="1" suit="N" />
 <bid level="2" suit="c" />
@@ -322,9 +316,7 @@ J765
 <deal-contract>
 <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-tK
-</leadcard>
+<leadcard value="Kc"/>
 <p>
 Za stavu obě linky ve druhé zahájil Jih dražbu hláškou 1 srdce, na což Sever odpověděl 1 pik. Zahajitel má nyní na výběr mezi <bid level="1" suit="NT"/>, 2 trefy a 2 srdce. Řekněme, že opakuje srdce, Sever zvyšuje na 3 srdce a Jih doráží na celou hru.
 </p>
@@ -408,9 +400,7 @@ A8
 <deal-contract>
 <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Qc">
-tQ
-</leadcard>
+<leadcard value="Qc"/>
 <p>
 Jih sehrává závazek čtyři piky a Západ vynáší k prvnímu zdvihu trefovou dámu. Jak má Jih plánovat sehrávku?
 </p>
@@ -488,9 +478,7 @@ Q9752
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="TH">
-s10
-</leadcard>
+<leadcard value="TH"/>
 <p>
 Jih opět sehrává závazek <bid level="3" suit="NT"/> a Západ vynáší srdcovou desítku. Jak má hlavní hráč hrát za předpokladu, že je to výnos z dlouhé barvy?
 </p>

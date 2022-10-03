@@ -32,13 +32,10 @@ KQ
 K43
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="6" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Jd">
-kJ
-</leadcard>
+<leadcard value="Jd"/>
 <auction onesided="true" dealer="S">
 <bid level="2" suit="c" />
 <bid level="2" suit="d" />
@@ -50,6 +47,7 @@ kJ
 <bid level="6" suit="H" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Jih toho navykládal moc. Po partnerově negativní odpovědi se měl spokojit s celoherním závazkem 4 srdce a ponechat další iniciativu na partnerovi. Západ proti malému slemu vynáší kárového kluka, kterého Východ kryje esem a vrací zpátky károvou trojku. Jak má hlavní hráč pokračovat, když na odehrávané srdcové eso odhazuje Západ káro?
 </p>
@@ -126,13 +124,10 @@ AT932
 AQ
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Kd">
-kK
-</leadcard>
+<leadcard value="Kd"/>
 <auction onesided="true" dealer="S">
 <bid level="1" suit="H" />
 <bid level="1" suit="N" />
@@ -141,6 +136,7 @@ kK
 <bid level="4" suit="H" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Jih to při dražbě trochu přehnal, protože jednak dražil piky reversem, a pak ještě dorazil na 4 srdce. Západ vynáší kárového krále a vyhlídky na splnění jsou velmi malé. Jak má Jih pokračovat?
 </p>
@@ -212,13 +208,11 @@ QT52
 632
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-sK
-</leadcard>
+<leadcard value="KH"/>
+</distribution>
 <p>
 Po zahájení Severu jedním pikem odpovídá Jih <bid level="1" suit="NT"/> a Sever uzavírá dražbu hláškou <bid level="3" suit="NT"/>. Jak má hlavní hráč sehrávat závazek po výnosu srdcovým králem?
 </p>
@@ -353,13 +347,11 @@ AJ3
 AJT
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="JS">
-pJ
-</leadcard>
+<leadcard value="JS"/>
+</distribution>
 <p>
 Jih zahajuje jedno srdce, Sever podporuje tuto barvu skokem na tři srdce a Jih uzavírá dražbu hláškou čtyři srdce. Západ vynáší pikového kluka. I 
 když je pravděpodobné, že pikový král nesedí, nelze zahrání impasu zavrhnout. Východ však pokrývá dámu králem a vrací další pik. Jak má hlavní hráč dále pokračovat?
@@ -500,13 +492,10 @@ A3
 QJ4
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Kd">
-kK
-</leadcard>
+<leadcard value="Kd"/>
 <auction onesided="true" dealer="N">
 <bid level="1" suit="c" />
 <bid level="1" suit="H" />
@@ -514,6 +503,7 @@ kK
 <bid level="4" suit="H" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Jih s hodnotami téměř na zahájení a s evidentním doplněním do dvou barev jde přímo na čtyři srdce. Jak má závazek sehrávat po výnosu károvým králem?
 </p>
@@ -585,13 +575,11 @@ AT9
 AK5
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
 <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="QH">
-sQ
-</leadcard>
+<leadcard value="QH"/>
+</distribution>
 <p>
 S dvaceti body a středními hodnotami v desítkách a devítkách zahajuje Jih dražbu hláškou <bid level="2" suit="NT"/>, které Sever s pěti body doráží na <bid level="3" suit="NT"/>. Jak má Jih sehrávat tento závazek po výnosu srdcovou dámou?
 </p>

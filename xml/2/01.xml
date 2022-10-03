@@ -1,5 +1,4 @@
 <lesson year="2" title="Vyvážená rozloha" number="1" video-id="YX7I8Qexj_8">
-
 <p>
 Lekce týkající se dražby nebudou v tomto roce nijak příliš rozšiřovat systém o konvence, ale budou proměňovat základ systému tak, aby nebyl opřen o body a bodové hranice, ale aby byl elastičtější prostřednictvím popisu rozlohy. Spíše jej tedy budeme zdokonalovat a dostávat na úroveň běžných postupů. První a poměrně zásadní nedokonalostí našeho dosavadního systému jsou vyvážené rozlohy. Zatím je chápeme jako kombinace bez 5-listu. To je ale už dávno překonané schéma. Vyváženým listem rozumíme slohu bez krátkosti. Minimálně zde může být dubl. Rozhodně ne tedy slohu 4-4-4-1. K vyváženým rozlohám naopak připojíme slohu 5-3-3-2, je-li náš 5-list levný.
 </p>
@@ -9,7 +8,7 @@ Co praktického to bude znamenat pro naši dražbu. Změny se dotknou zahájení
 <p>
 Příklady:
 </p>
-<div class="columns">
+<div class="columns" columns="6">
 <example number="1">
 <distribution>
 <hand position="north">

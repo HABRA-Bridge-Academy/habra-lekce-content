@@ -29,13 +29,11 @@ KQ62
 A
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Ad">
-kA
-</leadcard>
+<leadcard value="Ad"/>
+</distribution>
 <p>
 Za stavu obě linky ve druhé proběhla dražba takto:
 </p>
@@ -120,13 +118,10 @@ AKT
 AKQT952
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="c" declarer="S"/>
+    <contract level="6" suit="c" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-sK
-</leadcard>
+<leadcard value="KH"/>
 <auction onesided="true" dealer="S">
 <bid level="2" suit="c" />
 <bid level="2" suit="S" explanation="1 eso" />
@@ -137,6 +132,7 @@ sK
 <bid level="6" suit="c" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Jak má Jih sehrávat závazek po výnosu srdcovým králem?
 </p>
@@ -213,13 +209,10 @@ AK
 KQJT84
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="c" declarer="S"/>
+    <contract level="6" suit="c" declarer="S"/>
 </deal-contract>
-<leadcard value="Qd">
-kQ
-</leadcard>
+<leadcard value="Qd"/>
 <auction onesided="true" dealer="S">
 <bid level="1" suit="c" />
 <bid level="1" suit="S" />
@@ -230,6 +223,7 @@ kQ
 <bid level="6" suit="c" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Jak hrát po výnosu károvou dámou?
 </p>
@@ -306,13 +300,10 @@ AKQT9
 AK2
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="7" suit="d" declarer="S"/>
+    <contract level="7" suit="d" declarer="S"/>
 </deal-contract>
-<leadcard value="2d">
-k2
-</leadcard>
+<leadcard value="2d"/>
 <auction onesided="true" dealer="S">
 <bid level="2" suit="c" />
 <bid level="2" suit="N" />
@@ -323,6 +314,7 @@ k2
 <bid level="7" suit="d" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Západ vynáší malý trumf a Jih bere tento zdvih v ruce. Jak má dále pokračovat?
 </p>
@@ -399,13 +391,11 @@ Q8
 AKQT85
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="c" declarer="S"/>
+    <contract level="6" suit="c" declarer="S"/>
 </deal-contract>
-<leadcard value="TH">
-s10
-</leadcard>
+<leadcard value="TH"/>
+</distribution>
 <p>
 Jih zahajuje dražbu jedním trefem a po odpovědi 1 pik draží skokem <bid level="3" suit="NT"/>, Sever ale pokračuje hláškou <bid level="4" suit="NT"/>, což není Blackwood, ale kvantitativní hláška a Jih uzavírá 6 trefů, aniž by soupeřům cokoliv dalšího prozradil. Jak má tento závazek Jih sehrávat po výnosu srdcovou desítkou?
 </p>
@@ -476,13 +466,10 @@ AJT
 AKQJ
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="S" declarer="S"/>
+    <contract level="6" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="TH">
-s10
-</leadcard>
+<leadcard value="TH"/>
 <auction onesided="true" dealer="S">
 <bid level="2" suit="c" />
 <bid level="2" suit="d" />
@@ -495,6 +482,7 @@ s10
 <bid level="6" suit="S" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Jih by pravděpodobně po pěti trefech raději slyšel pět kár, což by oznamovalo krále v této barvě, ale přesto nastřelil tento malý slem, protože u partnera stačí kárová dáma nebo možná přijde kárový výnos. Západ však vynáší srdcovou desítku a Východ kryje figuru stolu esem. Jak má Jih pokračovat po přebití tohoto zdvihu trumfem v ruce?
 </p>
@@ -565,13 +553,10 @@ AKQT9743
 AK
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="d" declarer="S"/>
+    <contract level="6" suit="d" declarer="S"/>
 </deal-contract>
-<leadcard value="Qc">
-tQ
-</leadcard>
+<leadcard value="Qc"/>
 <auction onesided="true" dealer="S">
 <bid level="2" suit="d" />
 <bid level="2" suit="H" />
@@ -580,6 +565,7 @@ tQ
 <bid level="6" suit="d" />
 <bid value="pass" />
 </auction>
+</distribution>
 <p>
 Je dosti obtížné zjistit, zda partner má ty správné karty pro velký slem v kárech, ale po pozitivní odpovědi lze očekávat, že partner bude mít body v srdcích, a tak se Jih spokojuje s malým slemem. Západ vynáší trefovou dámu a Jih, když vidí stůl, je mírně rozčarován, i když ne překvapen. Jak má pokračovat v sehrávce po vzetí trefové dámy?
 </p>

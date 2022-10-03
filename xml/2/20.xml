@@ -2,6 +2,7 @@
 <p>
 Často se dostanete do situace, kdy je pro vás nebezpečný jen jeden ze soupeřů, případně můžete vše zařídit tak, aby byl nebezpečný právě jen jeden. Pak musíme hrát tak, aby se ke zdvihu pokud možno nedostal ten, který je nebezpečný. Takovémuto způsobu hry se říká úhybná hry. Zde je pět příkladů:
 </p>
+<div class="print-columns" columns="2">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -32,13 +33,11 @@ A54
 KJT3
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="3S">
-3 piková
-</leadcard>
+<leadcard value="3S"/>
+</distribution>
 <p>
 V prvním zdvihu musí hlavní hráč položit krále. Pokud východ vezme a vrátí pik, hlavní hráč zadrží, vezme pik až ve třetím zdvihu a impasuje tref proti Západu, protože Východ už nemůže ublížit, i kdyby impas neseděl. Pokud naopak král zdvih udrží, bude ze stolu impasovat proti Východu, protože i při neúspěchu zase Západ nemůže hlavnímu hráči ublížit.
 </p>
@@ -73,13 +72,13 @@ K93
 KJ6
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
 <leadcard value="5c">
-5 trefová, E dává 10
+    5 trefová, E dává 10
 </leadcard>
+</distribution>
 <p>
 Hlavní hráč vezme klukem a nebezpečí se teď skrývá na Východě, protože jen Východ může podehrát trefového krále. Proto nelze hrát pikový impas, který je nebezpečný. Správné je dostat se srdcí na stůl, vynést malou káru a propustit zdvih Západu, který nemůže trefového krále podehrát.
 </p>
@@ -114,16 +113,14 @@ AT5
 QJT3
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
 <p>
-Východ přelicitoval srdce
+    Východ přelicitoval srdce
 </p>
-<leadcard value="6H">
-6 srdcová
-</leadcard>
+<leadcard value="6H"/>
+</distribution>
 <p>
 Hlavní hráč dvakrát propustí srdce a potom nehraje impas kárový, ale proti pravděpodobnosti na vypadnutí. Pokud totiž impas sedí, tak vám stejně nevadí, že odevzdáte zdvih Západu, pokud je třetí dáma u Východu, stejně nelze nic dělat, ale jestli má Východ dámu druhou, určitě by vás to mrzelo. Právě tomuto můžete předejít.
 </p>
@@ -186,13 +183,11 @@ Q82
 75
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="QH">
-Q srdcová
-</leadcard>
+<leadcard value="QH"/>
+</distribution>
 <p>
 Berete esem, a protože ke splnění budete kromě trefů potřebovat také dva piky, musíte se rozhodnout pro správné pořadí barev. Tady je kupodivu správné rozehrát nejdříve piky. Pokud má eso trefové i krále pikového Západ, nelze tento závazek uhrát. Ale když má jen jeden z těchto vstupů, pak odehrání piků vyrazí vstup včas, nebo umožní získat druhý pik před ztrátou druhého stopera.
 </p>
@@ -255,17 +250,16 @@ JT5
 Q5
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="4H">
-4 srdcová
-</leadcard>
+<leadcard value="4H"/>
+</distribution>
 <p>
 Jak se bránit úhybným hrám? Prací se vstupy. Devítku srdcovou vezme hlavní hráč klukem. Vynese-li hlavní hráč trefového krále, musí se Západ odblokovat dámou. Pokud hlavní hráč zaútočí v kárech, pak když položí Západ jen 5, vpustí ho hlavní hráč dalším zdvihem. Pokud hlavní hráč rozehraje zvysoka piky, musí se Západ zbavit dámy.
 </p>
 </example>
+<div>
 <p>
 Tady je problémové rozdání:
 </p>
@@ -299,17 +293,17 @@ AJ862
 K84
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="3" suit="NT" declarer="S"/>
+    <contract level="3" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="2S">
-2 piková
-</leadcard>
+<leadcard value="2S"/>
+</distribution>
 <p>
 Po tomto výnosu je nebezpečný Východ, který může podnést srdce, je tedy nutno odehrát krále kárového a impasovat k Západu, který není nebezpečný
 </p>
 </example>
+</div>
+</div>
 <literature>
 <li>
 <author>E. Kaplan</author>

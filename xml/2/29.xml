@@ -2,7 +2,7 @@
 <p>
 Podívejme se na plán využití délky očima obrany. Pokud vypozoruje obrana takovouto aktivitu, pak je třeba odehrát si své zdvihy dřív, než hlavní hráč stačí ztrátové zdvihy smazat. Zmíníme se zde také o markování figurou ze sledu. Zde jsou příklady:
 </p>
-
+<div class="print-columns" columns="2">
 <example number="1">
 <distribution>
 <hand position="north">
@@ -33,10 +33,8 @@ A5
 JT94
 </clubs>
 </hand>
+<leadcard value="6d"/>
 </distribution>
-<leadcard value="6d">
-6 kárová
-</leadcard>
 <p>
 Co hrát proti pikům a co proti trefům?
 </p>
@@ -74,10 +72,10 @@ Q4
 AKJ82
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
+</distribution>
 <p>
 Co hrát po obehrání dvou trefů?
 </p>
@@ -145,13 +143,11 @@ Q9
 752
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="2" suit="c" declarer="S"/>
+    <contract level="2" suit="c" declarer="S"/>
 </deal-contract>
-<leadcard value="KH">
-K srdcový
-</leadcard>
+<leadcard value="KH"/>
+</distribution>
 <p>
 Jak bránit?
 </p>
@@ -217,13 +213,13 @@ T2
 Q952
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
 <leadcard value="2c">
-2 trefová, vydražitel bere esem, trumfne  esem a králem a nese malé káro.
+    2 trefová, vydražitel bere esem, trumfne  esem a králem a nese malé káro.
 </leadcard>
+</distribution>
 <p>
 Jak bránit? Po vzetí esem můžeme uhrát své zdvihy v trefech a srdcích. Chceme-li se pokusit hlavního hráče porazit, vynesme malé srdce a vydražitel pak bude muset hádat situaci v srdcích. Doufejte, že neuhodne a dá eso partnerovi a ne vám. Pak položí malou a padne, protože uděláte dva srdcové zdvihy.
 </p>
@@ -286,17 +282,16 @@ QT72
 KQ53
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-K trefový
-</leadcard>
+<leadcard value="Kc"/>
+</distribution>
 <p>
 Východ vidí délku stolu. Musí se pokusit buď vzít své winéry domů nebo zaútočit na vstupy stolu. Obojí najednou provede, když převezme tref a vynese srdci. Hlavní hráč ponese káro, Východ vezme a opět vynese srdci a milý hlavní hráč už srdci nezahodí.
 </p>
 </example>
+<div>
 <p>
 Samostatný úkol:
 </p>
@@ -358,17 +353,17 @@ AQT
 752
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="KS">
-K pikový
-</leadcard>
+<leadcard value="KS"/>
+</distribution>
 <p>
 Hlavní hráč vezme esem, dvakrát trumfne a zahraje impas trefový. Východ musí okamžitě vynést kárového kluka, aby si obrana včas stáhla všechna svá kára. Hlavní hráč splní, když v prvním zdvihu propustí krále a nechá u zdvihu Západ. Pak bude moci po trefovém pokračování vzít esem, zahodit na pik tref a trumfovým impasem v trefech poshazovat dvě kára.
 </p>
 </example>
+</div>
+</div>
 <literature>
 <li>
 <author>E. Kaplan</author>

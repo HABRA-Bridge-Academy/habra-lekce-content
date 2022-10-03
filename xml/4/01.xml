@@ -32,13 +32,13 @@ K43
 AQ8
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
 <leadcard value="KH">
-sK, sA, kJ
+    sK, sA, kJ
 </leadcard>
+</distribution>
 <p>
 Jih sehrává závazek čtyři piky. Západ odehrává srdcové eso a krále, a pak pokračuje károvým klukem. Jak má Jih sehrávat, aby závazek splnil?
 </p>
@@ -147,13 +147,13 @@ QJ42
 AQJ
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
 <leadcard value="6H">
-s6, sK, k8
+    s6, sK, k8
 </leadcard>
+</distribution>
 <p>
 Další způsob bezpečné sehrávky je vzat z mnohačlenného turnaje družstev. Na lince N-S je mnoho duplicitních hodnot, a tak se některé páry dostaly příliš vysoko, když hrály závazek 5 piků a některé dokonce malý pikový slem. Avšak i ti, kteří se zastavili na čtyřech pikách, klopýtli na úskalí. Obrana si okamžitě odehrála dva srdcové zdvihy, a pak vynesla káro ke králi na stole. Jak má Jih dále pokračovat, když sehrává závazek 4 piky?
 </p>
@@ -248,13 +248,11 @@ QJ
 JT2
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="H" declarer="S"/>
+    <contract level="6" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="QS">
-pQ
-</leadcard>
+<leadcard value="QS"/>
+</distribution>
 <p>
 Když Jih sehrával závazek šest srdcí, dostal příznivý výnos pikovou dámou. Kdyby dostal trefový výnos, musel by asi vzít esem a zahrát srdce k esu s nadějí, že vypadne král nebo že odhodí trefy na kára stolu. Teď si ovšem mohl dovolit odevzdat jeden trumfový zdvih, ne však dva. Jak zahrát bezpečně?
 </p>
@@ -360,13 +358,11 @@ K982
 974
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="NT" declarer="S"/>
+    <contract level="6" suit="NT" declarer="S"/>
 </deal-contract>
-<leadcard value="8H">
-s8
-</leadcard>
+<leadcard value="8H"/>
+</distribution>
 <p>
 V tomto rozdání sehrává Jih závazek šest bez trumfů. Západ vynáší srdcovou osmičku, jak má Jih pokračovat?
 </p>
@@ -464,13 +460,11 @@ JT5432
 AQ7
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="H" declarer="S"/>
+    <contract level="4" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Qd">
-kQ
-</leadcard>
+<leadcard value="Qd"/>
+</distribution>
 <p>
 Poté, co Jih dvakrát opakoval srdce, Sever nesobecky zvýšil tuto barvu na celou hru. Západ vynesl károvou dámu a Jih viděl, že při odevzdání pikového zdvihu nesmí odevzdat více než dva trumfové zdvihy. Jak měl hrát?
 </p>
@@ -541,13 +535,11 @@ J
 KQ
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="4" suit="S" declarer="S"/>
+    <contract level="4" suit="S" declarer="S"/>
 </deal-contract>
-<leadcard value="Kd">
-kK
-</leadcard>
+<leadcard value="Kd"/>
+</distribution>
 <p>
 Jih zahájil dražbu hláškou dva piky a nakonec skončil v celoherním závazku v této barvě. Západ vynesl krále kárového, kterého pokryl hlavní hráč esem na stole. Na pikovou sedmičku vynesenou ze stolu položil Východ desítku. Jak má Jih pokračovat?
 </p>
@@ -621,13 +613,11 @@ KJ42
 A
 </clubs>
 </hand>
-</distribution>
 <deal-contract>
-<contract level="6" suit="H" declarer="S"/>
+    <contract level="6" suit="H" declarer="S"/>
 </deal-contract>
-<leadcard value="Kc">
-tK
-</leadcard>
+<leadcard value="Kc"/>
+</distribution>
 <p>
 Mnoho turnajových hráčů ovládá bezpečnou sehrávku teoreticky, ale když se příležitost k jejímu uplatnění naskytla v párové soutěži, polovina startovního pole zvolila špatnou cestu. Většina párů na lince N-S došla do 6 srdcí. Západ vynesl krále trefového. Když Jih dvakrát trumfnul, oba obránci přiznali. Jak měl Jih dále pokračovat?
 </p>

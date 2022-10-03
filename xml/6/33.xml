@@ -1,217 +1,130 @@
-<lesson year="6" title="Časování I" number="33" video-id="yr91suPAGQ4">
-<example number="1">
-<distribution vul="NONE">
-<hand position="north">
-<spades>
-A64
-</spades>
-<hearts>
-3
-</hearts>
-<diamonds>
-643
-</diamonds>
-<clubs>
-KQJT95
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-KQ2
-</spades>
-<hearts>
-KQJ52
-</hearts>
-<diamonds>
-KJT8
-</diamonds>
-<clubs>
-4
-</clubs>
-</hand>
-</distribution>
-<auction onesided="true" dealer="S">
-<bid level="1" suit="H" />
-<bid level="2" suit="c" />
-<bid level="2" suit="d" />
-<bid level="3" suit="c" />
-<bid level="3" suit="N" />
-<bid value="pass" />
-</auction>
-<leadcard value="JS" /><p>
-Západ vynesl proti Vašim <bid level="3" suit="NT"/> pikového kluka. Jak si naplánujete sehrávku?
-</p>
-<p>
-První zdvih vezmete přirozeně v ruce, abyste si uchovali přechody na trefy. Když však rozdání zanalyzujete pouze povrchně, může se Vám stát, že uděláte chybu a zahrajete ve druhém zdvihu tref. Vidíte, co se potom stane? Zpátky přijde pik a Vy budete muset vzít na stole, abyste si zachovali vstup do ruky. Pak si však budete muset odehrát trefové zdvihy na stole, což Vám způsobí vážné problémy. Můžete se rozhodnout, že si zahodíte tři srdce a dvě kára z ruky, ale pak bude nebezpečí, že závazek nesplníte, pokud bude mít Západ obě kárové figury nebo když Vynese káro Východ a Vy neuhodnete. Nepomůže Vám ani, necháte-li si na stole jeden nebo dva vysoké trefy. Budou-li klíčové karty sedět nepříznivě, vždy Vás obránci omezí na osm zdvihů.
-</p>
-<p>
-Spočítáte-li si zdvihy, zjistíte, že kromě pěti trefových potřebujete i jeden srdcový zdvih a správné načasování spočívá v zahrání srdcového krále ve druhém zdvihu. Budete moci vzít vrácený pik v ruce, odehrát si jednu vysokou srdci, na kterou si zahodíte ze stolu káro, a pak zahrajete tref. Pak bude závazek ohrožen pouze tehdy, bude-li mít Východ páté trefové eso a bude trefy stále propouštět.
-</p>
-</example>
-<example number="2">
-<distribution vul="BOTH">
-<hand position="north">
-<spades>
-83
-</spades>
-<hearts>
-K64
-</hearts>
-<diamonds>
-J74
-</diamonds>
-<clubs>
-AK863
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-AQ7
-</spades>
-<hearts>
-AQ872
-</hearts>
-<diamonds>
-T5
-</diamonds>
-<clubs>
-Q42
-</clubs>
-</hand>
-</distribution>
-<auction dealer="W">
-<bid level="1" suit="d" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="X" />
-<bid value="pass" />
-<bid level="3" suit="c" />
-<bid value="pass" />
-<bid level="3" suit="H" />
-<bid value="pass" />
-<bid level="4" suit="H" />
-<bid value="pass" />
-<bid value="pass" />
-<bid value="pass" />
-</auction>
-<leadcard value="Ad" /><p>
-Západ zaútočil třemi vysokými káry, na které Východ přiznával a Vy jste třetí káro snapl. Jak byste měl pokračovat?
-</p>
-<p>
-Snadno uděláte jedenáct zdvihů, budou-li jak srdce tak trefy 3-2, ale na to je šance menší než 50%. Jedna z těchto dvou barev bude pravděpodobně rozložena 4- Vy byste měl sehrávat podle tohoto předpokladu. Pokud budou rozloženy 4-1 trefy, zajistíte si splnění závazku propuštěním jednoho trefu po dotrumfování. Uspějete rovněž v případě rozlohy 4-1 v srdcích, když propustíte první nebo druhou srdci. Avšak nevypadal byste moc chytře, kdybyste propustil srdci, a pak zjistil, že srdce jsou 3- trefy 4-1.
-</p>
-<p>
-Závazek nemůžete splnit, pokud jsou obě tyto barvy rozloženy nepříznivě, ale při správném načasování splníte, když je 4-1 rozložena kterákoliv jedna z těchto barev. Správné pořadí sehrávky je odehrát si ve čtvrtém a pátém zdvihu A,Q v srdcích. Pokud oba obránci tuto barvu přiznají, můžete stáhnout poslední trumf a propustit tref. Když ve druhém kole srdcí kterýkoliv z obránců nepřizná, musíte začít hrát trefy a doufat, že jsou 3-2. Obránce s dlouhými trumfy Vám může snapnout třetí nebo čtvrtý tref, ale to bude poslední zdvih, který obrana udělá. Cokoliv Vám soupeři vrátí vezmete a dotrumfujete. Srdcový král na stole plní dvojí úlohu: stáhnete jím poslední trumf a zároveň slouží jako vstup na zbývající trefy.
-</p>
-</example>
-<example number="3">
-<distribution vul="BOTH">
-<hand position="north">
-<spades>
-65
-</spades>
-<hearts>
-T6
-</hearts>
-<diamonds>
-A6432
-</diamonds>
-<clubs>
-AQ75
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-AJ9
-</spades>
-<hearts>
-AQ53
-</hearts>
-<diamonds>
-K8
-</diamonds>
-<clubs>
-K642
-</clubs>
-</hand>
-</distribution>
-<p>
-párový turnaj
-</p>
-<auction onesided="true" dealer="S">
-<bid level="1" suit="H" />
-<bid level="2" suit="d" />
-<bid level="3" suit="N" />
-<bid value="pass" />
-</auction>
-<leadcard value="KS" /><p>
-Na vyneseného pikového krále přišla ze stolu pětka, od Východu čtyřka a od Vás devítka. Západ pak zahrál károvou dámu, Vy jste opět dal z obou listů malou a Východ přidal pětku. Pak přišel kárový kluk, Východ hrál devítku a Vy jste vzal králem. Jak byste měl pokračovat?
-</p>
-<p>
-Protože si můžete vypracovat alespoň jeden další zdvih v kárech, uděláte devět zdvihů, pokud budou trefy 3- když bude mít Západ čtyři kára, což se zdá být pravděpodobné, budete moci splnit závazek i tehdy, budou-li trefy 4-1, protože dostanete Západ do nuceného výnosu a on Vám bude muset zahrát některou drahou barvu. Tímto nuceným výnosem získáte nadzdvih, budou-li trefy 3-2, ale budete muset sehrávku správně načasovat.
-</p>
-<p>
-Předpokládejme, že zahrajete tref k dámě, odehrajete si kárové eso a zjistíte, že Východ už kára nemá. Pak budete chtít odčerpat trefy Západu, aby fungoval nucený výnos, ale nebudete to moci udělat bezpečně. Při rozloze trefů 4-1 už nebudete mít vstup na délkové káro.
-</p>
-<p>
-Pomoc je velmi jednoduchá. Před zahráním malého trefu k dámě si musíte odehrát trefového krále. Zjistíte tak trefovou rozlohu ve správném okamžiku, a když bude příznivá, budete se moci pokusit o nadzdvih, aniž byste přitom ohrozili samotný závazek.
-</p>
-</example>
-<example number="4">
-<distribution vul="BOTH">
-<hand position="north">
-<spades>
-8754
-</spades>
-<hearts>
-K64
-</hearts>
-<diamonds>
-AQ82
-</diamonds>
-<clubs>
-J6
-</clubs>
-</hand>
-<hand position="south">
-<spades>
-AK62
-</spades>
-<hearts>
-A752
-</hearts>
-<diamonds>
-64
-</diamonds>
-<clubs>
-AQT
-</clubs>
-</hand>
-</distribution>
-<auction onesided="true" dealer="S">
-<bid level="1" suit="N" />
-<bid level="2" suit="c" />
-<bid level="2" suit="S" />
-<bid level="4" suit="S" />
-<bid value="pass" />
-</auction>
-<leadcard value="3S" /><p>
-Západ vynesl pikovou trojku, Východ dal dámu a Vy jste vzal esem. Jak byste měl pokračovat?
-</p>
-<p>
-Budete-li muset odevzdat dva trumfové zdvihy, budete potřebovat, aby Vám seděl jeden z impasů v levných barvách, ale podle zahrání k prvnímu zdvihu není pravděpodobné, že jsou trumfy 4-1. Hrozí Vám nějaké nebezpečí při rozdělení trumfů 3-2? Nehrozí, pokud nepodceníte načasování. Můžete splnit závazek i tehdy, nesedí-li Vám oba impasy a srdce se nerozpadnou, za předpokladu, že soupeřům nedovolíte odehrát třetí kolo trumfů.
-</p>
-<p>
-Vodítkem pro správnou sehrávku je výnos. Protože by Západ asi nevynesl trumf z malého dubla, ukazuje to u něho na trumfovou délku. V tom případě by bylo osudné odevzdat zdvih v počáteční fázi sehrávky Východu. Ten by Vám vyrazil po nesedícím károvém impasu trumfového krále, a když by Vám pak neseděl trefový impas, Západ by Vás pak omezil na devět zdvihů odehráním třetího trumfu.
-</p>
-<p>
-Správné načasování spočívá v tom, že ve druhém zdvihu přejdete na srdcového krále na stůl a zaimpasujete trefovým klukem. Když vezme Západ králem a vrátí trumf, vezmete a zahrajete kárový impas. Západ může vzít králem, ale protože nebude mít třetí trumf, nebude Vám moci zabránit v realizaci deseti zdvihů na trumfové přebitky.
-</p>
-</example>
-<literature>
-    <li>
-    <author>H.W. Kelsey</author>
-    <title>Bridžová logika</title>
-    </li>
-    </literature>
+<lesson year="6" title="Silná dražba po zahájení 2ʘ" number="33" video-id="yr91suPAGQ4">
+<p>Každá hláška po zahájení <bid level="2" suit="N"/> je výběrem konečného závazku kromě hlášky <bid level="3" suit="H"/>, ta je vyhrazena minimálně pokusu o slem a žádá si upřesnění rozlohy. Pokračování je takovéto:</p>
+<bidding>
+<header>
+<sequence>
+<bid level="2" suit="N"/>
+<bid level="3" suit="H"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action><bid level="3" suit="S"/></action>
+<explanation>šikena v pikách (5530 nebo 6520)</explanation>
+</entry>
+<entry>
+<action><bid level="3" suit="N"/></action>
+<explanation>rozloha 5521</explanation>
+</entry>
+<entry>
+<action><bid level="4" suit="c"/></action>
+<explanation>1156</explanation>
+</entry>
+<entry>
+<action><bid level="4" suit="d"/></action>
+<explanation>1165</explanation>
+</entry>
+<entry>
+<action><bid level="4" suit="H"/></action>
+<explanation>šikena v srdcích (5530 nebo 6520)</explanation>
+</entry>
+</bidding>
+
+
+<div class="print-columns" columns="2">
+<bidding>
+<header>
+<sequence>
+<bid level="2" suit="N"/>
+<bid level="3" suit="H"/>
+<bid level="3" suits="SN"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action><bid level="4" suits="cd"/></action>
+<explanation>ALUM pro tuto barvu</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>
+<sequence>
+<bid level="2" suit="N"/>
+<bid level="3" suit="H"/>
+<bid level="4" suit="c"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action><bid level="4" suit="d"/></action>
+<explanation>ALUM pro kára</explanation>
+</entry>
+<entry>
+<action><bid level="4" suit="H"/></action>
+<explanation>ALUM pro trefy</explanation>
+</entry>
+</bidding>
+</div>
+<div class="print-columns" columns="2">
+
+<bidding>
+<header>
+<sequence>
+<bid level="2" suit="N"/>
+<bid level="3" suit="H"/>
+<bid level="4" suit="d"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action><bid level="4" suit="H"/></action>
+<explanation>ALUM pro trefy</explanation>
+</entry>
+<entry>
+<action><bid level="4" suit="S"/></action>
+<explanation>ALUM pro kára</explanation>
+</entry>
+</bidding>
+<bidding>
+<header>
+<sequence>
+<bid level="2" suit="N"/>
+<bid level="3" suit="H"/>
+<bid level="4" suit="H"/>
+<bid value="?"/>
+</sequence>
+</header>
+<entry>
+<action><bid level="4" suit="S"/></action>
+<explanation>ALUM pro trefy</explanation>
+</entry>
+<entry>
+<action><bid level="4" suit="N"/></action>
+<explanation>ALUM pro kára</explanation>
+</entry>
+</bidding>
+</div>
+<p>Zásah do dražby 2BT s významem 5-5 na levných</p>
+<bidding>
+    <entry>
+        <action><bid value="x"/></action>
+        <explanation>4-4 na drahých</explanation>
+    </entry>
+    <entry>
+        <action><bid level="3" suit="c"/></action>
+        <explanation>5+<heart/>-4<spade/></explanation>
+    </entry>
+    <entry>
+        <action><bid level="3" suit="d"/></action>
+        <explanation>5+<spade/>-4<heart/></explanation>
+    </entry>
+    <entry>
+        <action><bid level="3" suit="H"/></action>
+        <explanation>jen srdce</explanation>
+    </entry>
+    <entry>
+        <action><bid level="3" suit="S"/></action>
+        <explanation>jen piky</explanation>
+    </entry>
+    </bidding>
 </lesson>
