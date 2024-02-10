@@ -1,14 +1,16 @@
 
-env = None
+
+from dotenv import load_dotenv
+import os
+
+env = False
 
 def load_env():
-    from dotenv import dotenv_values
     global env
-
-    if not env:
-        env = dotenv_values("scripts/.env")
-
-    return env
+    if env:
+        return
+    env = True
+    load_dotenv()
 
 def make_folder(*args):
     import os

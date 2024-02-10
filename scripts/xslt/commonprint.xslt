@@ -5,15 +5,23 @@
 	
 	<!-- ignored elements -->
 	
-	<xsl:template match="p|b|i|h1|h2|h3|h4">
-		<xsl:copy>
-			<xsl:apply-templates/>
-		</xsl:copy>
-	</xsl:template>
+
 	
-	<xsl:template match="div[contains(@class, 'columns')]">
+	<xsl:template match="div[contains(@class, 'columns') and not(@columns)]">
 		<xsl:for-each select="*">
 			<div class="columns-item">
+				<xsl:apply-templates select="."/>
+			</div>
+		</xsl:for-each>
+	</xsl:template>
+	
+	<xsl:template match="div[@columns]">
+		<xsl:variable name="columns" select="@columns"/>
+		<xsl:for-each select="*">
+			<div>
+				<xsl:attribute name="class"> 
+					columns-item-<xsl:value-of select="$columns"/>
+				</xsl:attribute>
 				<xsl:apply-templates select="."/>
 			</div>
 		</xsl:for-each>
@@ -33,10 +41,10 @@
 		<table class="distribution distribution-ew"> 
 			<tbody>
 				<tr>
-					<td>
+					<td class="east">
 						<xsl:apply-templates mode="dist" select="hand[@position='west']"/>
 					</td>
-					<td>
+					<td class="west">
 						<xsl:apply-templates mode="dist" select="hand[@position='east']"/>
 					</td>
 				</tr>
@@ -149,7 +157,7 @@
 							</xsl:for-each>
 						</tr>
 					</xsl:if>
-					<xsl:for-each select="bid[ (position() mod 4) = $m]">
+					<xsl:for-each select="bid[ (position() mod 4) = ($m mod 4)]">
 						
 						<tr>
 							<td>

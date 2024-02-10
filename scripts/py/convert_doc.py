@@ -1,3 +1,4 @@
+#/usr/env python3
 
 import os
 from utils import load_env, make_folder, is_num
@@ -5,7 +6,7 @@ from xml_utils import XsltConvertor, HtmlConvertor, XmlParser, LessonXmlParser
 from pdf_utils import WkToHtmlConvertor
 from build_assets import build_css
 
-def generate(pdf_convertor, input_folder, output_folder, template, clean = False):
+def generate(pdf_convertor, input_folder, output_folder, template, clean = False, years = None):
 
     print("starting conversion to pdf")
 
@@ -15,10 +16,13 @@ def generate(pdf_convertor, input_folder, output_folder, template, clean = False
     html_convertor = HtmlConvertor()
     xml_parser = XmlParser()
     lesson_xml_parser = LessonXmlParser()
+
+
+    check = (lambda x: True) if years is None else (lambda x: int(x) in years)
         
     for folder in os.scandir(input_folder):
 
-        if not is_num(folder.name):
+        if not is_num(folder.name) or not check(folder.name):
             continue
 
         year_pdf_output_path = make_folder(pdf_path, folder.name)
@@ -45,15 +49,17 @@ def generate(pdf_convertor, input_folder, output_folder, template, clean = False
             print(f"finished converting pdf {year}/{filename}")
 
 
-def main(clean = False):
-    env = load_env()
-    css_path = os.path.join(env["OUTPUT_DIR"], "doc.css")
-    build_css(env["DOC_CSS"], css_path)
-    wk_convertor = WkToHtmlConvertor(env["WK_PATH"], env["DOC_WK_OPTS"], css_path)
-    generate(wk_convertor, env["INPUT_DIR"],  os.path.abspath( env["OUTPUT_DIR"]), env["DOC_TEMPLATE"], clean)
+def main(clean = False, years= None):
+    css_path = os.path.join(os.getenv("OUTPUT_DIR"), "doc.css")
+    build_css(os.getenv("DOC_CSS"), css_path)
+    wk_convertor = WkToHtmlConvertor(os.getenv("WK_PATH"), os.getenv("DOC_WK_OPTS"), css_path)
+
+    generate(wk_convertor, os.getenv("INPUT_DIR"),  os.path.abspath( os.getenv("OUTPUT_DIR")), os.getenv("DOC_TEMPLATE"), clean, os.years)
 
     if clean:
         os.remove(css_path)
 
 if __name__ == "__main__":
+    from utils import load_env
+    load_env()
     main()

@@ -45,15 +45,9 @@
 	
 	<!-- ignored elements -->
 	
-	<xsl:template match="p|b|i|h1|h2|h3|h4">
-		<xsl:copy>
-			<xsl:apply-templates/>
-		</xsl:copy>
-	</xsl:template>
-	
 	<xsl:template match="div|table|inline|ol|li|tr|td|br">
 		<xsl:copy>
-			<xsl:copy-of select="@*" />
+			<xsl:copy-of select="@*[name()!='columns']" />
 			<xsl:value-of select="text()"/>
 			<xsl:apply-templates select="*" />
 		</xsl:copy>

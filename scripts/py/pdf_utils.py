@@ -1,5 +1,4 @@
 import os
-import weasyprint
 
 class WkToHtmlConvertor:
 
@@ -9,22 +8,20 @@ class WkToHtmlConvertor:
         self.css = css_file
         self.toc = toc_path
 
-    def convert(self, input_html, output_file):
-        toc1 = f"--xsl-style-sheet {self.toc}" if self.toc else ""
-        toc2 = "toc" if self.toc else ""
-        command =f"wkhtmltopdf --quiet --user-style-sheet  {self.css} {self.options}  \"{input_html}\" {toc2} {toc1}  \"{output_file}\""
+    def convert(self, input_html, output_file, page_number=False, toc = True):
+        toc1 = f"--xsl-style-sheet {self.toc}" if  toc and self.toc else ""
+        toc2 = "toc" if toc and self.toc else ""
+        pages = "--footer-center [page]  --footer-font-size 10" if page_number else ""
+        command =f"wkhtmltopdf --quiet --page-offset 1 {self.options} {pages} --user-style-sheet  {self.css}   \"{input_html}\" {toc2} {toc1}  \"{output_file}\""
         os.system(command)
 
 
+class PdfMerger: 
 
-class WeasyConvertor:
+    def __init__(self, sejda) -> None:
+        self.sejda_path = sejda
 
-    def __init__(self, css_file) -> None:
-        self.css = [weasyprint.CSS(css_file)]
-
-    def convert(self, input_html, output_file):
-        
-        pdf = weasyprint.HTML(input_html).write_pdf(stylesheets=self.css)
-
-        with open(output_file, "wb") as f:
-            f.write(pdf)
+    def merge(self, inputs, output):
+        # TOC links will be invalid
+        command = f"{self.sejda_path} merge --overwrite -b retain -f {' '.join(inputs)} -o {output} >{os.devnull}"
+        os.system(command)

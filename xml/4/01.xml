@@ -614,7 +614,7 @@ A
 </clubs>
 </hand>
 <deal-contract>
-    <contract level="6" suit="H" declarer="S"/>
+<contract level="6" suit="H" declarer="S"/>
 </deal-contract>
 <leadcard value="Kc"/>
 </distribution>

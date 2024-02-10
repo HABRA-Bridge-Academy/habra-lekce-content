@@ -1,0 +1,147 @@
+ol.alpha {
+    counter-reset: list;
+}
+ol.alpha > li {
+    list-style: none;
+}
+ol.alpha > li:before {
+    content: counter(list, lower-alpha) ") ";
+    counter-increment: list;
+}
+
+ol.inline , ul.inline > li {
+    display: inline;
+
+    & > li, & > li {
+        display: inline;
+        
+        &:not(:last-child)::after {
+            content: ", ";
+        }
+    }
+}
+
+li {
+    margin-top: 4px;
+}
+
+h2 {
+    text-align: left;
+}
+
+ol,
+ul,
+h2,
+h3 {
+    margin-top: 1em;
+}
+
+/* QUIZ, LITERATURE */
+
+
+.quiz {
+    margin-top: 1em;
+}
+
+.quiz-answer span:first-child {
+    /* todo */
+    float: left;
+    margin-top: 0;
+    margin-right: 1em;
+}
+
+.literature ol {
+    margin-top: 1em;
+    padding: 0;
+    list-style: none;
+}
+
+// .distribution,
+.leadcard,
+.deal-contract {
+    margin-top: 1em;
+}
+
+.distribution {
+    margin-bottom: 1em;
+}
+
+div.leadcard + div.deal-contract,
+div.deal-contract + div.leadcard {
+    margin-top: 0.2em;
+}
+
+.contract .declarer {
+    margin-left: 6px;
+}
+
+/* AUCTION */
+
+.sequence {
+    display: inline-flex;
+    gap: 0.5px;
+}
+
+.auction {
+    margin-top: 1em;
+}
+
+.auction-onesided {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+}
+
+.auction div {
+    padding: 0.25em 0.5em;
+    text-align: center;
+}
+
+.auction-onesided .auction-bid:nth-child(4n + 2),
+.auction-onesided .auction-bid:nth-child(4n + 3) {
+    background-color: lightgray;
+}
+
+.auction-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.auction-header:nth-child(even) {
+    background-color: gray;
+    color: white;
+}
+
+.auction-header:nth-child(odd) {
+    background-color: white;
+}
+
+.auction-nsew {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+}
+
+.auction-nsew .auction-bid:nth-child(8n + 2),
+.auction-nsew .auction-bid:nth-child(8n + 4),
+.auction-nsew .auction-bid:nth-child(8n + 5),
+.auction-nsew .auction-bid:nth-child(8n + 7) {
+    background-color: lightgray;
+}
+
+/* SUITS */
+
+.suit-clubs {
+    color: #32ad01;
+}
+
+.suit-diamonds {
+    color: #ff9b00;
+}
+
+.suit-hearts {
+    color: #ff0000;
+}
+
+.suit-spades {
+    color: #33339b;
+}

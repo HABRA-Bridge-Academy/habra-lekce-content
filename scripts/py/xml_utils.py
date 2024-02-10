@@ -14,7 +14,7 @@ class HtmlConvertor:
 class XsltConvertor:
 
     def __init__(self, template_path) -> None:
-        self.transform = ET.XSLT( ET.parse(template_path))
+        self.transform = ET.XSLT(ET.parse(template_path))
         self.xml_parser = XmlParser()
 
     def convert_file(self, file_path):

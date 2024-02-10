@@ -227,7 +227,7 @@ Definice skvízu: Zpravidla každý list obsahuje nějaké bezcenné karty, stej
 V následujících koncovkách je závazek pikový nebo beztrumfový, vynáší Jih a list jednoho z obránců je bezcenný.
 </p>
 
-<ol class="alpha print-columns">
+<ol class="alpha columns">
 <li>
 <distribution>
 <hand position="north">
@@ -322,13 +322,13 @@ KQ8
 </li>
 </ol>
 <p>
-V příkladě a) na trefový výnos Sever odhodí srdce, ale Východ je ve skvízu. Když odhodí s10, povýší se s5 Jihu, když zahodí káro, pracuje k10 Severu. Tedy i přesto, že hlavní hráč má jen tři winéry, vezme všechny čtyři zdvihy.
+V příkladě a) na trefový výnos Sever odhodí srdce, ale Východ je ve skvízu. Když odhodí <card value="TH"/>, povýší se <card value="5H"/> Jihu, když zahodí káro, pracuje <card value="TD"/> Severu. Tedy i přesto, že hlavní hráč má jen tři winéry, vezme všechny čtyři zdvihy.
 </p>
 <p>
 V příkladě b) odhodí na první pik Západ i Sever nečinný tref, ale na druhý pik je Západ skvízován. Je úplně jedno, co udělá, Sever vezme všechny další zdvihy.
 </p>
 <p>
-Skvízová hra má svůj vlastní slovníček a naším prvořadým úkolem je seznámit se s ním. Nutnou podmínkou pro každý skvíz je, že jeden ze soupeřů musí držet činné karty ve dvou barvách. V typickém případě drží hlavní hráč v těchto barvách určité karty, ze kterých jedna bude povýšena skvízem. Tyto potenciální winéry se nazývají nadějky. V příkladě a) jsou nadějkami s5 a k10, v příkladě b) kJ a tJ.
+Skvízová hra má svůj vlastní slovníček a naším prvořadým úkolem je seznámit se s ním. Nutnou podmínkou pro každý skvíz je, že jeden ze soupeřů musí držet činné karty ve dvou barvách. V typickém případě drží hlavní hráč v těchto barvách určité karty, ze kterých jedna bude povýšena skvízem. Tyto potenciální winéry se nazývají nadějky. V příkladě a) jsou nadějkami <card value="5H"/> a <card value="TD"/>, v příkladě b) <card value="JD"/> a <card value="JC"/>.
 </p>
 <p>
 Barvy, ve kterých je obránce činný se nazývají nadějkové barvy, ostatní jsou volné barvy. V určitém stádiu sehrávky začne hlavní hráč stahovat své volné winéry a pokračuje bez přerušení, dokud je všechny neodehraje. Poslední z těchto karet, která vynutí osudný odhoz je skvízová karta a zdvih, ve kterém se to stane, se nazývá skvízový zdvih.
@@ -386,7 +386,7 @@ VSTUP3 když má Jih skvízovou kartu, Sever drží winéra v nadějkové barv�
 <p>
 Absolutní nevyhnutelnost existence ČI pro všechny typy skvízů už byla ukázána. Nevyhnutelnost existence VSTUP je zřejmá. Co se stane, když JE nebo VÝ chybí, můžeme vidět na následujících příkladech. Beztrumfový závazek, vynáší Jih.
 </p>
-<ol class="alpha print-columns">
+<ol class="alpha columns">
 <li>
 <distribution>
 <hand position="north">
@@ -487,7 +487,7 @@ V příkladě a) může hlavní hráč získat jen dva ze čtyř zdvihů, tzn. 
 V případě b) není splněna třetí podmínka – obě hrozby jsou v nižší ruce. Sever musí odhazovat před Východem. Je jedno, které hrozby se zbaví, držení Východu je tímto odhozem uvolněno.
 </p>
 <p>
-Jak teď s těmito možnostmi a vědomostmi naložit? Opět se podívejme na naše dvě rozdání. Vraťte se k Příkladu 1. Obránci stáhli čtyři trefy, a vynesli kárového kluka, který dojde k esu hlavního hráče. Jak teď uvažuje skvízér? Stejně jako průměrný hráč počítá zdvihy – tři srdcové, čtyři pikové a jeden kárový. Šanci vidí v dělení srdcí 3-3, ale také v možnosti jednoduchého skvízu srdco-kárového. Když bude mít jeden z obránců i krále kárového a současně čtyři srdce, nebude moci udržet všechno. Zkontroluje, jestli jsou pořádku všechny čtyři podmínky: JE je splněno, má osm jistých zdvihů a jeden ztrátový, ČI doufá, že by mohlo existovat, VÝ nadějky (kQ a s2) mám rozdělené, takže tato podmínka je také splněna (kdyby měl obě nadějky v jedné ruce, pak by skvíz fungoval jen na jednoho obránce, takto funguje na oba) a VSTUP mají obě nadějky ve svých barvách. Všechny podmínky jsou splněny, hlavní hráč musí tedy obehrát všechny své piky, aby ten obránce, který je činný ve dvou barvách se na čtvrtý pik musel rozhodnout, které se vzdá. Jak už jsme viděli, ať udělá cokoliv, bude to špatně. Hlavnímu hráči stačí sledovat, jestli spadne kárový král, pokud se tak nestane, hraje na srdce. Pokud jsou srdce 3-3, pak si tímto způsobem sehrávky nic nezničíme. Maximálně se budeme zlobit, že takto to splní každý, kdežto vaše schopnosti vyjdou vniveč.
+Jak teď s těmito možnostmi a vědomostmi naložit? Opět se podívejme na naše dvě rozdání. Vraťte se k Příkladu 1. Obránci stáhli čtyři trefy, a vynesli kárového kluka, který dojde k esu hlavního hráče. Jak teď uvažuje skvízér? Stejně jako průměrný hráč počítá zdvihy – tři srdcové, čtyři pikové a jeden kárový. Šanci vidí v dělení srdcí 3-3, ale také v možnosti jednoduchého skvízu srdco-kárového. Když bude mít jeden z obránců i krále kárového a současně čtyři srdce, nebude moci udržet všechno. Zkontroluje, jestli jsou pořádku všechny čtyři podmínky: JE je splněno, má osm jistých zdvihů a jeden ztrátový, ČI doufá, že by mohlo existovat, VÝ nadějky (<card value="Qd"/> a <card value="2H"/>) mám rozdělené, takže tato podmínka je také splněna (kdyby měl obě nadějky v jedné ruce, pak by skvíz fungoval jen na jednoho obránce, takto funguje na oba) a VSTUP mají obě nadějky ve svých barvách. Všechny podmínky jsou splněny, hlavní hráč musí tedy obehrát všechny své piky, aby ten obránce, který je činný ve dvou barvách se na čtvrtý pik musel rozhodnout, které se vzdá. Jak už jsme viděli, ať udělá cokoliv, bude to špatně. Hlavnímu hráči stačí sledovat, jestli spadne kárový král, pokud se tak nestane, hraje na srdce. Pokud jsou srdce 3-3, pak si tímto způsobem sehrávky nic nezničíme. Maximálně se budeme zlobit, že takto to splní každý, kdežto vaše schopnosti vyjdou vniveč.
 </p>
 <p>
 V Příkladu 2 po dvou srdcích a srdcovém snapu nese Východ káro. Hlavní hráč bere a opět počítá – pět pikových zdvihů, dva kárové a dva trefové a při běžném typu sehrávky žádná šance na desátý. Máme lokalizovánu srdcovou desítku, pokud bude společně s alespoň pěti trefy, pak Západ neudrží trefy i srdci a bude ve skvízu. Jiná šance není. Zkontrolujeme podmínky pro skvíz: JE je splněno, mám v této chvíli devět zdvihů a jeden ztrátový, ČI pokud bude Západ dlouhý v trefech (alespoň 5-list) bude tato podmínka splněna, VÝ – obě nadějky jsou na stole a obětí je Západ, obě nadějky jsou tedy ve vyšší ruce a VSTUPem k oběma jsou winéry v trefech. Všechny podmínky jsou splněny, sledujeme tedy jen srdcovou desítku. Pokud ji na skvízový zdvih Západ zahodí, povýší se devítka a hlavní hráč ze stolu odhodí trefovou osmičku. Když srdcová desítka nepadne, zahodí se srdce a winérem bude trefová osmička.

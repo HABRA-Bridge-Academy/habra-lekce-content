@@ -1,346 +1,259 @@
+.lekce {
+    @import "./common.scss";
+}
+
+
+
 * {
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* VIDEOS AND BM */
 
 .lesson-video iframe {
-   height: 360px;
-   width: 640px;
+    height: 360px;
+    width: 640px;
 }
 
 .bm-container iframe {
-   height: 540px;
-   border: 0;
+    height: 540px;
+    border: 0;
 }
 
 .lesson-video-container {
-   margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 .lesson-video,
 .bm-container {
-   margin: 1em 0;
-   display: flex;
-   flex-direction: column;
-   gap: 1em;
-   align-items: center;
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
 }
 
 /* BASIC ELEMENTS */
 
 .lekce table:not(.distribution *):not(.distribution):not(.bidding *) {
-   margin-top: 1em;
+    margin-top: 1em;
 }
 
 .lekce table:not(.distribution *):not(.distribution):not(.bidding *) td {
-   padding: 2px 4px;
+    padding: 2px 4px;
 }
 
 .lekce ol {
-   padding: initial;
+    padding: revert;
 
-   li {
-      list-style-type: numeric;
-   }
+    li {
+        list-style-type: numeric;
+    }
 }
 
-.lekce ol.seznam-lekci, .lekce ol.literature {
+.lekce ol.seznam-lekci,
+.lekce .literature ol {
+    padding: 0;
 
-   li {
-      list-style-type: none;
-   }
-}
-
-ol.alpha {
-   counter-reset: list;
-}
-ol.alpha > li {
-   list-style: none;
-}
-ol.alpha > li:before {
-   content: counter(list, lower-alpha) ") ";
-   counter-increment: list;
-}
-
-ol.inline,
-ul.inline > li {
-   display: inline;
-
-   & > li,
-   & > li {
-      display: inline;
-
-      &:not(:last-child)::after {
-         content: ", ";
-      }
-   }
-}
-
-.lekce li {
-   margin-top: 4px;
+    li {
+        list-style-type: none;
+    }
 }
 
 .columns {
-   margin-top: 1em;
-   display: flex;
-   gap: 4em;
-   flex-wrap: wrap;
+    margin-top: 1em;
+    display: flex;
+    gap: 4em;
+    flex-wrap: wrap;
+
+    & > * {
+        max-width: 25%;
+    }
 }
 
 .lekce {
-   padding-bottom: 2em;
-}
-
-.lekce h2 {
-   text-align: left;
-}
-
-.lekce .seznam-lekci,
-.lekce ol,
-.lekce ul,
-.lekce h2,
-.lekce h3 {
-   margin-top: 1em;
+    padding-bottom: 2em;
 }
 
 .blur {
-   filter: blur(5px) grayscale(1);
-   cursor: pointer;
+    filter: blur(5px) grayscale(1);
+    cursor: pointer;
 
-   &::before {
-      content: "aa";
-   }
+    &::before {
+        content: "aa";
+    }
 }
 
 /* SEZNAM LEKCI */
 
+.lekce .seznam-lekci {
+    margin-top: 1em;
+}
+
 .seznam-lekci {
-   list-style-type: none;
+    list-style-type: none;
 }
 
 .content .seznam-lekci .lekce-tlacitko {
-   margin-bottom: 5px;
-   display: block;
-   border: solid 2px black;
-   border-radius: 10px;
-   text-align: left;
+    margin-bottom: 5px;
+    display: block;
+    border: solid 2px black;
+    border-radius: 10px;
+    text-align: left;
 }
 
 .content .seznam-lekci .lekce-tlacitko a {
-   font-weight: bold;
-   display: block;
-   padding-left: 10px;
-   font-size: 14px;
-   line-height: 30px;
-   margin-top: 0px;
-   text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 0px;
+    text-decoration: none;
 }
 
 .panel .seznam-lekci .lekce-tlacitko {
-   border: solid 2px black;
-   border-radius: 6px;
-   margin: 4px 10px;
+    border: solid 2px black;
+    border-radius: 6px;
+    margin: 4px 10px;
 }
 
 .panel .seznam-lekci .lekce-tlacitko-aktivni {
-   background-color: #b9d3ee;
+    background-color: #b9d3ee;
 }
 
 .panel .seznam-lekci .lekce-tlacitko a {
-   color: black;
-   font-size: 0.8em;
-   display: block;
-   padding: 4px 6px;
-   text-decoration: none;
-}
-
-/* QUIZ, LITERATURE */
-
-.bidding-solution,
-.quiz {
-   margin-top: 1em;
-}
-
-.quiz-answer span:first-child {
-   /* todo */
-   float: left;
-   margin-top: 0;
-   margin-right: 1em;
-}
-
-.literature ol {
-   margin-top: 1em;
+    color: black;
+    font-size: 0.8em;
+    display: block;
+    padding: 4px 6px;
+    text-decoration: none;
 }
 
 /* DISTRIBUTION, CARDS AND CONTRACTS */
 
+.distribution {
+    margin-top: 1em;
+}
+
 .distribution-suit-hand-dummy {
-   display: flex;
-   flex-direction: column;
-   gap: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .distribution-hand-dummy {
-   display: flex;
-   flex-direction: column;
-   gap: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .distribution-ew {
-   display: flex;
-   gap: 1em;
+    display: flex;
+    gap: 1em;
 }
 
-.distribution,
-.leadcard,
-.deal-contract {
-   margin-top: 1em;
+.inline-hand {
+    display: inline-flex;
+    gap: 4px;
 }
 
-div.leadcard + div.deal-contract,
-div.deal-contract + div.leadcard {
-   margin-top: 0.2em;
-}
+/* */
 
 .card,
 .contract {
-   display: inline-flex;
-}
-
-.contract .declarer {
-   margin-left: 6px;
+    display: inline-flex;
 }
 
 /* AUCTION */
-
-.auction {
-   margin-top: 1em;
-}
-
-.auction-onesided {
-   display: grid;
-   grid-template-columns: 60px 60px;
-   width: fit-content;
-}
-
-.auction div {
-   padding: 0.25em 0.5em;
-   text-align: center;
-}
-
-.auction-onesided .auction-bid:nth-child(4n + 2),
-.auction-onesided .auction-bid:nth-child(4n + 3) {
-   background-color: lightgray;
-}
-
-.auction-header {
-   font-weight: bold;
-   font-size: large;
-}
-
-.auction-header:nth-child(even) {
-   background-color: gray;
-   color: white;
-}
-
-.auction-header:nth-child(odd) {
-   background-color: white;
-}
-
-.auction-nsew {
-   display: grid;
-   grid-template-columns: 50px 50px 50px 50px;
-}
-
-.auction-nsew .auction-bid:nth-child(8n + 2),
-.auction-nsew .auction-bid:nth-child(8n + 4),
-.auction-nsew .auction-bid:nth-child(8n + 5),
-.auction-nsew .auction-bid:nth-child(8n + 7) {
-   background-color: lightgray;
+.lekce .auction-nsew {
+    grid-template-columns: 50px 50px 50px 50px;
 }
 
 /* bidding */
 
-.inline-hand {
-   display: inline-flex;
-   gap: 4px;
-}
+
 
 .bidding:not(.bidding .bidding) {
-   margin-top: 1em;
+    margin-top: 2em;
 }
 
-.bidding table td:first-child {
-   width: 120px;
-   vertical-align: top;
+.bidding-table {
+
+
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    & > div:not(.action-only) {
+        display: table-row;
+
+        & > div.action {
+            padding-right: 1em !important;
+            vertical-align: top;
+            max-width: 150px;
+        }
+
+        & > div {
+            display: table-cell;
+        }
+    }
 }
+
+
+/* */
 
 .reveal-button {
-   appearance: none;
-   border: none;
-   background: inherit;
-   font: inherit;
-   cursor: pointer;
+    appearance: none;
+    border: none;
+    background: inherit;
+    font: inherit;
+    cursor: pointer;
 }
 
 .reveal-controls {
-   margin-top: 4px;
-   gap: 2px;
-   display: flex;
-   justify-content: center;
-}
-
-.suit-clubs {
-   color: #32ad01;
-}
-
-.suit-diamonds {
-   color: #ff9b00;
-}
-
-.suit-hearts {
-   color: #ff0000;
-}
-
-.suit-spades {
-   color: #33339b;
+    margin-top: 4px;
+    gap: 2px;
+    display: flex;
+    justify-content: center;
 }
 
 /* ICONS */
 
 .gg-eye {
-   position: relative;
-   display: block;
-   transform: scale(var(--ggs, 1));
-   width: 24px;
-   height: 18px;
-   border-bottom-right-radius: 100px;
-   border-bottom-left-radius: 100px;
-   overflow: hidden;
-   box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 24px;
+    height: 18px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .gg-eye::after,
 .gg-eye::before {
-   content: "";
-   display: block;
-   border-radius: 100px;
-   position: absolute;
-   box-sizing: border-box;
+    content: "";
+    display: block;
+    border-radius: 100px;
+    position: absolute;
+    box-sizing: border-box;
 }
 
 .gg-eye::after {
-   top: 2px;
-   box-shadow: inset 0 -8px 0 2px, inset 0 0 0 2px;
-   width: 24px;
-   height: 24px;
+    top: 2px;
+    box-shadow: inset 0 -8px 0 2px, inset 0 0 0 2px;
+    width: 24px;
+    height: 24px;
 }
 
 .gg-eye::before {
-   width: 8px;
-   height: 8px;
-   border: 2px solid;
-   bottom: 4px;
-   left: 8px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid;
+    bottom: 4px;
+    left: 8px;
 }

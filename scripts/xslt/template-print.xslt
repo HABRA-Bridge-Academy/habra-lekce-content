@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet  xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0"	exclude-result-prefixes="xsl xs">
 	<xsl:import href="commonprint.xslt"/>
-
+	
 	<xsl:output method="html" encoding="UTF-8" indent="no" omit-xml-declaration="yes"/>
 	
 	<xsl:template match="book">
+		<html>
+			<head>
+				<meta charset="UTF-8"/>
+				<title>Skripta Havířovské bridžové akademie pro <xsl:value-of select="@year"/>. ročník</title>
+			</head>
+			<body>
+				<xsl:apply-templates/>			
+			</body>
+		</html>
+	</xsl:template>
+
+	<xsl:template match="coverpage">
 		<html>
 			<head>
 				<meta charset="UTF-8"/>
@@ -15,12 +27,11 @@
 					<xsl:with-param name="year-name"  select="@year-name"/>
 					<xsl:with-param name="phrase"  select="@phrase"/>
 					<xsl:with-param name="number"  select="@year"/>
-				</xsl:call-template>
-				<xsl:apply-templates/>			
+				</xsl:call-template>			
 			</body>
 		</html>
-	</xsl:template>
-		
+	</xsl:template>	
+	
 	<xsl:template name="coverpage">
 		<xsl:param name="phrase"/>
 		<xsl:param name="year-name"/>

@@ -3,6 +3,12 @@
 	<xsl:output method="html" encoding="UTF-8" indent="no" omit-xml-declaration="yes"/>
 	
 	
+	<xsl:template match="p|b|i|h1|h2|h3|h4|header">
+		<xsl:copy>
+			<xsl:apply-templates/>
+		</xsl:copy>
+	</xsl:template>
+	
 	
 	<xsl:template match="example">
 		<div class="example">
@@ -129,32 +135,29 @@
 		<div class="bidding">
 			<xsl:if test="header">
 				<div>
-					<xsl:apply-templates select="header/*"/>
+					<xsl:apply-templates select="header"/>
 				</div>
 			</xsl:if>
-			<table class="bidding-table">
+			<div class="bidding-table">
 				<xsl:apply-templates select="entry"/>
-			</table>
+			</div>
 		</div>
 	</xsl:template>
 	
 	<xsl:template match="entry">
-		<tr><td> 
-				<xsl:if test="not(explanation)">
-					<xsl:attribute name="colspan">2</xsl:attribute>
-				</xsl:if>
-				<xsl:apply-templates select="action"/>
-			</td>
-			<xsl:if test="explanation">
-				<td class="explanations"> 
-					<xsl:for-each select="explanation">
-						<div>
-							<xsl:apply-templates/>
-						</div>
-					</xsl:for-each>
-				</td>
+		<div>
+			<xsl:if test="not(explanation)">
+				<xsl:attribute name="class">action-only</xsl:attribute>
 			</xsl:if>
-		</tr>
+			<div class="action"> <xsl:apply-templates select="action"/></div>
+			<div class="explanations"> 
+				<xsl:for-each select="explanation">
+					<div>
+						<xsl:apply-templates/>
+					</div>
+				</xsl:for-each>
+			</div>
+		</div>
 	</xsl:template>	
 	
 	<xsl:template match="action">
@@ -318,48 +321,76 @@
 	<!-- Distribution -->
 	
 	<xsl:template match="distribution[hand/@position='south' and hand/@position='north' and not(hand/@position='east') and not(hand/@position='west')]">
-		<table class="distribution distribution-ns">
-			<tr> 
-				<td>
-					<xsl:apply-templates select="hand[@position='north']" mode="dist"/>
-				</td> 
-			</tr>
-			<tr> <td> <xsl:call-template name="direction-indicator"/> </td> </tr>
-			<tr> 
-				<td> 
-					<xsl:apply-templates select="hand[@position='south']" mode="dist"/>
-				</td>
-			</tr> 
-		</table>
+		<div class="distribution distribution-ns">
+			<table class="distribution-table">
+				<tr> 
+					<td class="north">
+						<xsl:apply-templates select="hand[@position='north']" mode="dist"/>
+					</td> 
+				</tr>
+				<tr> 
+					<td class="south"> 
+						<xsl:apply-templates select="hand[@position='south']" mode="dist"/>
+					</td>
+				</tr> 
+			</table>
+			<xsl:if test="*[not(self::hand)]">
+				<div class="side">
+					<xsl:apply-templates select="*[not(self::hand)]"/>
+				</div>
+			</xsl:if>
+		</div>
 	</xsl:template>
 	
 	<!-- NSEW -->
 	<xsl:template match="distribution[ (hand/@position='south' or hand/@position='north') and (hand/@position='east' or hand/@position='west')]">
-		<table class="distribution distribution-ns">
-			<tr> 
-				<td></td>
-				<td>
-					<xsl:apply-templates select="hand[@position='north']" mode="dist"/>
-				</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>
-					<xsl:apply-templates select="hand[@position='west']" mode="dist"/>
-				</td>
-				<td> <xsl:call-template name="direction-indicator"/> </td> 
-				<td>
-					<xsl:apply-templates select="hand[@position='east']" mode="dist"/>
-				</td>
-			</tr>
-			<tr> 
-				<td></td>
-				<td> 
-					<xsl:apply-templates select="hand[@position='south']" mode="dist"/>
-				</td>
-				<td></td>
-			</tr> 
-		</table>
+		<div class="distribution distribution-nsew">
+			<table class="distribution-table">
+				<xsl:if test="hand[@position='north']">
+					<tr> 
+						<td></td>
+						<td class="north">
+							<xsl:apply-templates select="hand[@position='north']" mode="dist"/>
+						</td>
+						<td></td>
+					</tr>
+				</xsl:if>
+				<tr>
+					<td>
+						<xsl:if test="hand[@position='west']">
+							<xsl:attribute name="class"> 
+								west
+							</xsl:attribute>
+						</xsl:if>
+						<xsl:apply-templates select="hand[@position='west']" mode="dist"/>
+					</td>
+					<td> <xsl:call-template name="direction-indicator"/> </td> 
+					<td>
+						<xsl:if test="hand[@position='east']">
+							<xsl:attribute name="class"> 
+								east
+							</xsl:attribute>
+						</xsl:if>
+						<xsl:apply-templates select="hand[@position='east']" mode="dist"/>
+					</td>
+				</tr>
+				<xsl:if test="hand[@position='south']">
+					
+					<tr> 
+						<td></td>
+						<td class="south"> 
+							<xsl:apply-templates select="hand[@position='south']" mode="dist"/>
+						</td>
+						<td></td>
+					</tr> 
+				</xsl:if>
+			</table>
+			<xsl:if test="*[not(self::hand)]">
+				<div class="side">
+					<xsl:apply-templates select="*[not(self::hand)]"/>
+				</div>
+			</xsl:if>
+		</div>
 	</xsl:template>
 	
 	<xsl:template match="distribution[hand[not(@position)]]">
@@ -368,17 +399,22 @@
 		</div>
 	</xsl:template>
 	
-	<xsl:template match="distribution[hand/@position='south' and hand/@position='north' and not(hand/@position='east') and not(hand/@position='west')]">
-		<div class="distribution distribution-hand-dummy"> 
-			
-			<div>
-				<xsl:apply-templates mode="dist" select="hand[@position='north']"/>
-			</div>
-			<div>
-				<xsl:apply-templates mode="dist" select="hand[@position='south']"/>
-			</div>
-		</div>
-	</xsl:template>
+	<!--	<xsl:template match="distribution[hand/@position='south' and hand/@position='north' and not(hand/@position='east') and not(hand/@position='west')]">
+						<div class="distribution distribution-hand-dummy"> 
+						
+						<div >
+						<xsl:apply-templates mode="dist" select="hand[@position='north']"/>
+						</div>
+						<div>
+						<xsl:apply-templates mode="dist" select="hand[@position='south']"/>
+						</div>
+						<xsl:if test="*[not(self::hand)]">
+						<div class="side">
+						<xsl:apply-templates select="*[not(self::hand)]"/>
+						</div>
+						</xsl:if>
+						</div>
+						</xsl:template> -->
 	
 	<!-- suit only distributions -->
 	
@@ -401,23 +437,23 @@
 		<table class="distribution distribution-suit-nsew">
 			<tr> 
 				<td></td>
-				<td>
+				<td class="north">
 					<xsl:apply-templates select="suit[@position='north']" mode="dist"/>
 				</td>
 				<td></td>
 			</tr>
 			<tr>
-				<td>
+				<td class="west">
 					<xsl:apply-templates select="suit[@position='west']" mode="dist"/>
 				</td>
 				<td></td> 
-				<td>
+				<td class="east">
 					<xsl:apply-templates select="suit[@position='east']" mode="dist"/>
 				</td>
 			</tr>
 			<tr> 
 				<td></td>
-				<td> 
+				<td class="south"> 
 					<xsl:apply-templates select="suit[@position='south']" mode="dist"/>
 				</td>
 				<td></td>
@@ -433,7 +469,7 @@
 	
 	
 	<xsl:template match="hand" mode="dist">
-		<table>
+		<table class="hand">
 			<tr> <td><xsl:call-template name="spade"/></td> <td><xsl:value-of select="spades/text()"/> </td> </tr> 
 			<tr> <td><xsl:call-template name="heart"/></td> <td><xsl:value-of select="hearts/text()"/> </td> </tr> 
 			<tr> <td><xsl:call-template name="diamond"/></td> <td><xsl:value-of select="diamonds/text()"/> </td> </tr> 
@@ -461,5 +497,8 @@
 			<xsl:apply-templates select="."/>
 		</div>
 	</xsl:template>
+	
+	
+	
 	
 </xsl:stylesheet>
