@@ -2,6 +2,7 @@
 
 import os
 import lxml.etree as ET
+import json
 from build_assets import build_css
 from utils import load_env
 from xml_utils import XsltConvertor, HtmlConvertor, LessonXmlParser, XmlParser
@@ -30,7 +31,9 @@ def convert(input_folder, output_folder, template, clean = False, years = None):
         if not clean:
             html_output_path = make_folder(output_folder, "web", folder.name)
         sqlpath = os.path.join(output_path, folder.name+".sql")        
+        jsonpath = os.path.join(output_path, folder.name+".json")
         sqlw = sqlWriter(sqlpath, int(folder.name))
+        data = []
         
         for lesson_file in os.scandir(folder):
             filename, ext = os.path.splitext(lesson_file.name)
@@ -67,8 +70,21 @@ def convert(input_folder, output_folder, template, clean = False, years = None):
                 "content": html 
             })
 
+            data += [ {
+                "title": title,
+                "public": False,
+                "meta": {
+                    "habraLesson": True,
+                    "year": int(year),
+                    "number": int(num),
+                },
+                "content": html
+            }]
 
             print(f"finished converting web version of {year}/{filename}")
+            
+        with open(jsonpath, "w") as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
         
         sqlw.close()
         json_path = os.path.join(output_folder, "articles.json")

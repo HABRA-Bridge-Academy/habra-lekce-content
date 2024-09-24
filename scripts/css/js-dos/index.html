@@ -1,0 +1,58 @@
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bridge Master</title>
+
+
+    <script src="/lekce2/js-dos/js-dos.js"></script>
+    <link href="/lekce2/js-dos/js-dos.css" rel="stylesheet" />
+    <style>
+        #jsdos-container {
+            margin: 1em 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            align-items: center;
+        }
+
+        #jsdos {
+            width: 100%;
+            aspect-ratio: 3/2;
+        }
+
+        #jsdos-buttons {
+            display: flex;
+            gap: 1em;
+            justify-content: center;
+        }
+
+        #jsdos-buttons button {
+            padding: 4px 10px;
+            border: solid 2px black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="jsdos-container">
+        <div id="jsdos-buttons">
+            <button id="jsdos-start">
+                Spustit
+            </button>
+            <button id="jsdos-end">
+                Ukončit
+            </button>
+        </div>
+        <div id="jsdos">
+        </div>
+    </div>
+    <script src="/lekce2/js-dos/main.js" defer></script>
+
+</body>
+
+</html>
