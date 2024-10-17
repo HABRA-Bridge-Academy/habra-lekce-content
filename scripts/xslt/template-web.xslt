@@ -24,10 +24,9 @@
 			<xsl:if test="@bridgemaster">
 				<p>Úlohy z této lekce si zde můžete zkusit sami:</p>
 				<div class="bm-container" >
-					<iframe  width="640" height="360" src="lekce2/js-dos/index.html"/>			
+					<iframe  width="640" height="360" src="https://vyuka.bridzhavirov.cz/lekce2/js-dos/index.html"/>
 				</div>		
 			</xsl:if>
-			
 			<xsl:apply-templates/>
 		</article>
 	</xsl:template>

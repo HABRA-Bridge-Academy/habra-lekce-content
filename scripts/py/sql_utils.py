@@ -20,7 +20,7 @@ INSERT INTO `lekce2` (`rocnik`, `cislo`, `nadpis`, `text`) VALUES'''
 class sqlWriter:
 
     def __init__(self, sqlpath, rocnik) -> None:
-        self.file = open(sqlpath, "w")
+        self.file = open(sqlpath, "w", encoding='utf-8')
         self.file.write(preamble.replace("@r", str(rocnik)))
         self.first = True
 

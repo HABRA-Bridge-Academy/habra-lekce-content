@@ -83,12 +83,12 @@ def convert(input_folder, output_folder, template, clean = False, years = None):
 
             print(f"finished converting web version of {year}/{filename}")
             
-        with open(jsonpath, "w") as f:
+        with open(jsonpath, "w", encoding='utf-8') as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
         
         sqlw.close()
         json_path = os.path.join(output_folder, "articles.json")
-        with open(json_path, "w") as json_file:
+        with open(json_path, "w", encoding='utf-8') as json_file:
             json.dump(json_articles, json_file, indent=4)
 
 

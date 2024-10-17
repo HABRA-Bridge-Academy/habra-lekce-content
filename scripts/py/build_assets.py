@@ -8,6 +8,8 @@ def build_css(inp, out, compress=False):
 
 
     c = "--style compressed" if compress else ""
-    os.system(f"sass --sourcemap=none {inp} {out} {c} && postcss {out} --replace --use autoprefixer")
+    print(f"sass \"{inp}\" \"{out}\" {c}")
+    os.system(f"sass \"{inp}\" \"{out}\" {c}")
+    os.system(f"postcss \"{out}\" --replace --use autoprefixer")
 
 
